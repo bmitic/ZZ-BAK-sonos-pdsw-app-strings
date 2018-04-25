@@ -1,0 +1,558 @@
+/****************************************************************/
+/* iPhone, iPod Touch, and iPad Controller                      */
+/****************************************************************/
+
+/* Main Tabs */
+    "<Home>" = "Min Sonos";
+    "<Browse>" = "Bla gjennom";
+
+/* General */
+
+    "<Sonos>" = "SONOS";
+    "<Cancel>" = "Avbryt";
+    "<Done>" = "Ferdig";
+    "<Yes>" = "Ja";
+    "<No>" = "Nei";
+    "<Next>" = "Neste";
+    "<Back>" = "Tilbake";
+    "<OK>" = "OK";
+    "<On>" = "På";
+    "<Off>" = "Av";
+    "<Edit>" = "Rediger";
+    "<Clear>" = "Tøm";
+    "<Save>" = "Lagre";
+    "<More>" = "Mer";
+    "<Close>" = "Lukk";
+    "<Delete>" = "Slett";
+
+    // This is used as hint text for voice over (Example: "Double tap to play all songs.")
+    "<DoubleTapToHint_1>" = "Trykk to ganger for å %1$@.";
+
+/* About */
+    //More or less copied from MDCR
+    "<AboutSonosIDNotConnected>" = "Ikke tilkoblet";
+    "<AboutSonos>" = "Om mitt Sonos-system";
+    // %1$@ = model (Example: "Sonos Controller for iPhone")
+    "<AboutSonosControllerLabel_1>" = "Sonos-controller for %1$@";
+    "<AboutVersion>" = "Versjon:";
+    "<AboutBuild>" = "Utgave:";
+    "<AboutSonosID>" = "Sonos ID:";
+
+/* Alarms */
+
+    "<AlarmNotificationAction>" = "Skru av";
+    // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
+    "<AlarmNotificationAlert_1>" = "%1$@-alarmen lyder";
+
+    // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
+    "<ExternalAlarmsNote_1>" = "Alarmer som er stilt inn med stemmekommandoer administreres av %1$@.";
+    "<ExternalAlarmsAlexaApp>" = "Alexa-appen";
+
+/* App Delegate */
+
+    "<DisconnectedFromSonos>" = "Koblet fra Sonos";
+    "<NoMusicToPlay>" = "Det er ingen musikk å spille i dette rommet";
+    "<SubmitFeedbackMessage>" = "Vil du sende inn tilbakemeldinger for iOS-controller til Sonos?";
+    "<AppInteropWizardLaunchError>" = "Den forespurte operasjonen kan ikke utføres. Fullfør den gjeldende veiviseren og prøv på nytt.";
+
+/* Beta Feedback */
+
+    "<CollectingDiagsMessage>" = "Samler inn diagnoseinformasjon for tilbakemelding. Dette kan ta flere minutter.";
+
+/* Limited Connectivity */
+
+    "<LimitedConnTrySearchingAgain>" = "Søk på nytt";
+    "<LimitedConnConnecting>" = "Søker etter Sonos på ditt Wi-Fi";
+    "<LimitedConnStillSearching>" = "Vent litt. Søker fremdeles…";
+
+    "<WelcomeSetupButton>" = "Konfigurere et nytt Sonos-system";
+    "<WelcomeJoinButton>" = "Koble til et eksisterende system";
+    "<WelcomeLearnMoreButton>" = "Lær mer om Sonos";
+
+// These next two are possibly deprecated.
+    "<WelcomeStayInformedMessage>" = "Har du ikke Sonos ennå?";
+    "<WelcomeViewDemoButton>" = "Lær mer";
+
+/* iPod Library */
+
+    "<iPodLibraryOpenMusicApp>" = "Åpne Musikk";
+    // %@ = iPhone, iPod or iPad (localized) (Example: "On this iPhone")
+    "<iPodLibrary>" = "På denne %@";
+    "<PlayAllGeneric>" = "Alle låter";
+    "<iPodPlaylists>" = "Spillelister";
+    "<iPodArtists>" = "Artister";
+    "<iPodAlbums>" = "Album";
+    "<iPodGenres>" = "Sjangre";
+    "<iPodTracks>" = "Låter";
+    "<iPodCompilations>" = "Samlinger";
+    "<iPodComposers>" = "Komponister";
+    "<iPodPodcasts>" = "Podcaster";
+    "<iPodLibraryUnplayableTitle>" = "Låt kan ikke spilles av";
+    // %@ = iPhone (localized) (Example: "On this iPhone")
+    "<iPodLibraryUnplayableiCloudTrackError_iPhone_1>" = "Sonos kan ikke spille av innhold fra iTunes som ikke har blitt lastet ned til %1$@.\n\nÅpne Musikk-appen og gjør denne låten tilgjengelig i frakoblet modus.";
+    // %@ = iPhone (localized) (Example: "On this iPod touch")
+    "<iPodLibraryUnplayableiCloudTrackError_iPod_1>" = "Sonos kan ikke spille av innhold fra iTunes som ikke har blitt lastet ned til %1$@.\n\nÅpne Musikk-appen og gjør denne låten tilgjengelig i frakoblet modus.";
+    // %@ = iPhone (localized) (Example: "On this iPad")
+    "<iPodLibraryUnplayableiCloudTrackError_iPad_1>" = "Sonos kan ikke spille av innhold fra iTunes som ikke har blitt lastet ned til %1$@.\n\nÅpne Musikk-appen og gjør denne låten tilgjengelig i frakoblet modus.";
+    "<iPodLibraryUnplayableDRMTrackError>" = "Sonos kan ikke spille av innhold fra Apple Musikk/iTunes som inneholder kopibeskyttelse.";
+    "<iPodLibraryUnplayableTrackError>" = "Vi kan ikke spille av denne type fil når den er lagret på en mobil enhet.";
+
+/* Now Playing */
+
+    "<PlayButton>" = "Spill";
+    "<PauseButton>" = "Pause";
+    "<StopButton>" = "Stopp";
+    "<PreviousButton>" = "Forrige låt";
+    "<NextButton>" = "Neste låt";
+    "<PreviousButtonBook>" = "Forrige kapittel";
+    "<NextButtonBook>" = "Neste kapittel";
+    "<QUEUE>" = "Kø";
+    "<NotInUse>" = "Ikke i bruk";
+    "<NowPlayingNoMusic>" = "Ingen musikk";
+    "<NowPlayingDialogEnhacementLabel>" = "Taleforbedring";
+    "<NowPlayingNightModeLabel>" = "Nattlyd";
+
+    "<NowPlayingInfoButtonLabel>" = "Info og alternativer";
+    "<NowPlayingInfoButtonHint>" = "Vis informasjon om og alternativer for det som spiller av nå.";
+    "<NowPlayingOn>" = "—"; //in non-english languages, please translate to —
+    "<NowPlayingOnAccessibilityLabel>" = "på %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
+    "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ på %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
+
+
+
+// TODO: needs UX pass (VO)
+    "<PreviousButtonHint>" = "Gå til forrige sang eller dobbelttrykk og hold inne for å spole tilbake.";
+    "<NextButtonHint>" = "Gå til neste sang eller dobbelttrykk og hold inne for å spole frem.";
+    "<Progress>" = "Låtposisjon";
+    "<PreviousButtonBookHint>" = "Gå til forrige kapittel eller dobbelttrykk og hold inne for å spole tilbake.";
+    "<NextButtonBookHint>" = "Gå til neste kapittel eller dobbelttrykk og hold inne for å spole frem.";
+    "<ProgressBook>" = "Kapittelposisjon";
+    "<LongFormSkipForward>" = "Hopp framover";
+    "<LongFormSkipBack>" = "Hopp bakover";
+    "<LongFormSkipForwardHint>" = "Gå 30 sekunder framover";
+    "<LongFormSkipBackHint>" = "Gå 30 sekunder bakover";
+
+    // VO string, %1$@ is current time, %2$@ is total time
+    // Example: "2 minutes 10 seconds of 4 minutes 23 seconds"
+    "<ProgressSliderHint_2>" = "%1$@ av%2$@";
+
+/* Now Playing Voice Over */
+
+    "<NowPlayingShowNowPlayingHint>" = "Dobbelttrykk for å åpne Spiller nå";
+    // For two rooms: "Room 1 and Room 2"
+    "<NowPlaying2Rooms_2>" = "%1$@ og%2$@";
+    // For three rooms: "Room 1, Room 2, and Room 3"
+    "<NowPlaying3Rooms_3>" = "%1$@, %2$@ og %3$@";
+    // For four or more rooms: "Room 1, Room 2, and 3 others"
+    "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ og %3$d andre";
+    // Currently playing (track info)
+    "<NowPlayingCurrentlyPlaying_1>" = "Spilles av: %@";
+    "<NowPlayingClose>" = "Lukk Spiller nå";
+    "<NowPlayingCloseHint>" = "Dobbelttrykk for å gå tilbake til musikksøk";
+
+/* Info Menu */
+
+    "<Crossfade>" = "Kryssfade";
+    "<InfoMenuTimeoutError>" = "Kan ikke vise flere alternativer";
+
+/* Browse editing */
+
+    "<ConfirmRemoveMessage>" = "Er du sikker på at du ønsker å fjerne dette elementet?";
+    "<ConfirmRemoveButton>" = "Fjern";
+
+/* Queue and Playlists*/
+// TODO: needs UX pass
+    "<ShowQueue>" = "Vis kø";
+    "<HideQueue>" = "Skjul kø";
+    "<EditQueue>" = "Rediger kø";
+    "<ClearQueueDialogTitle>" = "Slett kø";
+    "<ClearQueueMessage>" = "Er du sikker på at du ønsker å tømme køen?";
+    "<QueuePlaylistNameText>" = "Skriv inn et spillelistenavn:";
+    "<QueuePlaylistTableText>" = "Eller erstatt en eksisterende spilleliste:";
+    "<SaveQueue>" = "Lagre kø";
+    "<PlaylistNamePlaceholder>" = "Sonos-spillelistenavn";
+    "<EmptyPlaylistNameTitle>" = "Sonos-spillelistenavn";
+    "<EmptyPlaylistNameMessage>" = "Vennligst skriv inn eller velg et navn for Sonos-spillelisten.";
+    "<QueueSaveErrorTitle>" = "Feil ved lagring av Sonos-spilleliste";
+    "<QueueSaveErrorGeneric>" = "Kunne ikke lagre køen.";
+    "<QueueSaveErrorNotEnoughRoom>" = "Sonos har ikke nok ledig plass igjen for å lagre køen.\nFjern gamle lagrede spillelister eller køer i andre rom, og prøv igjen.";
+    "<QueueSaveErrorMobileTracksNotSaved>" = "Låter fra mobile enheter kan ikke lagres i Sonos-spillelister og ble ikke lagret.";
+    "<QueueSaveErrorAllMobileTracks>" = "Køen inneholder bare låter fra mobile enheter. Disse låtene kan ikke lagres i Sonos-spillelister.";
+    "<QueuePlaylistExistsWarningTitle>" = "Sonos-spilleliste finnes";
+    // %1$@, the name of the pre-existing playlist
+    "<QueuePlaylistExistsWarningMessage_1>" = "En Sonos-spilleliste kalt «%1$@» finnes allerede. Hvis du erstatter den vil dette overskrive innholdet i den.";
+    "<QueuePlaylistReplace>" = "Bytt ut";
+    "<AddToPlaylistFolderHint>" = "Spillelistemappe. Dobbelttrykk for å åpne.";
+    "<AddToPlaylistDisabledHint>" = "Du har ikke tillatelse til å legge til låter i denne spillelisten.";
+
+/* Queue Voice Over */
+
+    // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
+    // This needs to be preserved in all languages as-is.
+    // Plural string - localized plural forms located in Localizable.stringsdict
+    "<QueueTrackLabel_1>" = ".%1$d låter.";
+    "<QueueShuffleButtonLabel>" = "Bland";
+    "<QueueRepeatAllButtonLabel>" = "Gjenta alle";
+    "<QueueRepeatOneButtonLabel>" = "Gjenta låt";
+    "<QueueClearLabel>" = "Tøm kø";
+    "<QueueEditLabel>" = "Rediger kø";
+    "<QueueSaveLabel>" = "Lagre kø";
+    "<QueueCloseLabel>" = "Lukk kø";
+    "<QueueCurrentlyPlaying>" = "Spiller nå";
+
+/* Rooms */
+
+    "<Rooms>" = "Rom";
+    "<GroupRooms>" = "Grupper rom";
+    "<Group>" = "Gruppe";
+    // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
+    // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
+    "<GroupRooms_Short>" = "Grupper rom";
+    "<PauseAll>" = "Pause alle";
+    "<PauseAllConfirmation>" = "Er du sikker på at du ønsker å pause musikken som spiller i alle rom?";
+    "<ContinueSetUp>" = "Fortsett installasjonen";
+    "<SoftwareUpdateRequired>" = "Programvareoppdatering er nødvendig";
+    // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
+    // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
+    // single room name or a comma delimited list of room names. The commas are included to provide
+    // an appropriate pause when being read by VoiceOver.
+    "<MultipleRoomNames_2>" = "%1$@ og %2$@";
+
+/* Rooms Voiceover */
+    "<SelectRooms>" = "Velg rom";
+    // e.g - "In Living Room"
+    "<InOneRoom_1>" = "i %1$@";
+    // e.g - "In Living Room and Kitchen", also "In Living Room, Dining Room and Kitchen"
+    "<InMultipleRooms_2>" = "i %1$@ og %2$@";
+
+/* Edit Rooms */
+
+    "<SelectAll>" = "Velg alle";
+    "<UnselectAll>" = "Fravelg alle";
+    "<Everywhere>" = "Overalt";
+    "<EditRoomsMultiMusic>" = "Rommene du har valgt spiller av forskjellig musikk";
+    "<MultiMusicMessage>" = "Trykk «Ferdig» for å velge musikk";
+    "<MusicGroupingInstructions>" = "Velg musikken som skal spilles av i valgte rom";
+    "<PlayToTheFollowing>" = "Spill på følgende";
+
+/* Edit Rooms Voice Over */
+
+    "<EditRoomsIncludeRoomHint>" = "inkluder rom i denne gruppen.";
+    "<EditRoomsDropRoomHint>" = "fjern rom fra denne gruppen.";
+    "<EditRoomsIncludeAllRoomsHint>" = "inkluder alle rom i denne gruppen.";
+    "<EditRoomsDropAllRoomsHint>" = "fjern alle rom i denne gruppen, og stopp musikkavspillingen.";
+
+/* Browse */
+
+    "<MusicMenu>" = "Musikkmeny";
+    "<MoreMusic>" = "Mer musikk";
+    "<SonosFavorites>" = "Sonos-favoritter";
+    "<Alarms>" = "Alarmer";
+    // TODO: needs UX pass
+    "<BrowseSwitchAccount>" = "Endre konto";
+    "<MoreOptions>" = "Flere alternativer";
+    "<AccountPicker>" = "Endre kontoen som skal brukes på denne enheten.";
+    "<TitleExplicitAccessibilityLabel>" = "%1$@. Upassende.";
+    "<ShowAll>" = "Se alle";
+    "<SwimlaneInvalidMessage>" = "Dette innholdet er ikke lenger tilgjengelig. Trykk Rediger for å fjerne det fra Min Sonos.";
+
+/* Volume */
+
+    // %1$d: 0-100 volume indicator
+    "<VolumePercentage_1>" = "%1$d prosent";
+    // %1$d: 0-100 volume indicator
+    "<VolumePercentageMuted_1>" = "%1$d prosent, dempet";
+    "<VolumeMute>" = "Demp";
+    "<VolumeCannotBeAdjustedMuted>" = "kan ikke justeres, dempes";
+    "<VolumeCannotBeAdjusted>" = "kan ikke justeres";
+
+    // VO String, %1$@ = room name (Example: "PATIO volume")
+    "<VolumeDeviceVolumeNamed_1>" = "%1$@ – volum";
+    // VO String, %1$@ = room name (Example: "OFFICE headphone volume")
+    "<VolumeDeviceVolumeHeadphonesNamed_1>" = "%1$@ – volum for hodetelefon";
+    // VO String. These will be read aloud, and not visible in the UI.
+    "<OpenGroupVolume>" = "Åpne gruppevolum";
+    "<CloseGroupVolume>" = "Lukk gruppevolum";
+
+    // VO String, say "Group Mute" instead of "Group Volume"
+    "<GroupMute>" = "Gruppedemping";
+
+/* Wizards */
+
+    "<WizardSubCalibratePlayButtonLabel>" = "Spill";
+    "<WizardSubCalibratePlayButtonHint>" = "Spill av lydtone for kalibrering.";
+    "<WizardSubCalibratePauseButtonLabel>" = "Pause";
+    "<WizardSubCalibratePauseButtonHint>" = "Sett lydtone for kalibrering på pause.";
+    "<WizardSubCalibrateAPlayingValue>" = "Spiller av A";
+    "<WizardSubCalibrateBPlayingValue>" = "Spiller av B";
+
+    "<WizardTextFieldHide>" = "Skjul";
+    "<WizardTextFieldShow>" = "Vis";
+
+/* Settings */
+
+    "<Settings>" = "Innstillinger";
+    "<RoomSettings>" = "Rominnstillinger";
+    "<ParentalControls>" = "Foreldrekontroll";
+    "<MoreInformation>" = "Mer informasjon";
+    "<Help>" = "Hjelp";
+    "<Call>" = "Ring";
+
+/* Shares */
+    "<SharesNowInUseExplanation>" = "Sonos-spillerne dine aksesserer musikk fra de delte mappene under:";
+    "<EnterShareInfoTitle>" = "Angi del informasjon";
+    "<SharePathPlaceholder>" = "Bane \\\\datamaskin\\delingsnavn";
+    "<ShareUsernamePlaceholder>" = "Brukernavn (om nødvendig)";
+    "<SharePasswordPlaceholder>" = "Passord (om nødvendig)";
+    "<AddingShare>" = "Legg til deling";
+    "<AddingShareInstructions>" = "Din nye deling vil bli lagt til ditt Sonos-system.\n\nSonos må først opprette en indeks for din musikk. Når dette er fullført vil musikken fremkomme i ditt musikkbibliotek.\n\nTrykk på knappen Ferdig for å fullføre.";
+
+/* Wireless Setup Custom Wizard */
+    "<Wireless_CheckOpenAP_Title>" = "Spilleroppsett";
+    "<Wireless_CheckOpenAP_Body1>" = "Vent i et par sekunder til du ser et blinkende oransje lys på Sonos-spilleren din.";
+    "<Wireless_CheckOpenAP_Button1>" = "Jeg ser et oransje lys";
+    "<Wireless_CheckOpenAP_Button2>" = "Jeg ser ikke et oransje lys";
+
+    "<Wireless_CheckOpenAP_NoLight_Title>" = "Gjenta-knappetrykk";
+    "<Wireless_CheckOpenAP_NoLight_Body1>" = "Du må trykke på knappen på nytt.\nTrykk på «Prøv igjen».";
+    "<Wireless_CheckOpenAP_NoLight_Body2>" = "OBS! Hvis du fortsatt har problemer, velger du «Alternativt oppsett».";
+    "<Wireless_CheckOpenAP_NoLight_Button1>" = "Prøv igjen";
+    "<Wireless_CheckOpenAP_NoLight_Button2>" = "Alternativt oppsett";
+
+    "<Wireless_Waiting_Title>" = "Konfigurerer spiller";
+    "<Wireless_Waiting_Body>" = "Vent litt…";
+
+    "<Wireless_OpenReady_Title>" = "Trådløst oppsett";
+    "<Wireless_OpenReady_Body_1_iPod>" = "Du kobler nå iPod til et midlertidig trådløst nettverk opprettet av Sonos-spilleren.";
+    "<Wireless_OpenReady_Body_1_iPad>" = "Du kobler nå iPad til et midlertidig trådløst nettverk opprettet av Sonos-spilleren.";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "Du kobler nå iPhone til et midlertidig trådløst nettverk opprettet av Sonos-spilleren.";
+    "<Wireless_OpenReady_Body_2_iPod>" = "Det trådløse nettverket, med navn %1$@, er tilgjengelig i Wi-Fi-delen på iPod-innstillingene.";
+    "<Wireless_OpenReady_Body_2_iPad>" = "Det trådløse nettverket, med navn %1$@, er tilgjengelig i Wi-Fi-delen på iPad-innstillingene.";
+    "<Wireless_OpenReady_Body_2_iPhone>" = "Det trådløse nettverket, med navn %1$@, er tilgjengelig i Wi-Fi-delen på iPhone-innstillingene.";
+    "<Wireless_OpenReady_Body_3>" = "Trykk på «Neste» for å se instruksjonene.";
+
+    "<Wireless_Instructions_Title>" = "Trådløst oppsett";
+    "<Wireless_Instructions_Body_1_iPod>" = "1. Åpne innstillingene for iPod Touch og trykk på «Wi-Fi»";
+    "<Wireless_Instructions_Body_1_iPad>" = "1. Åpne innstillingene for iPad og trykk på «Wi-Fi»";
+    "<Wireless_Instructions_Body_1_iPhone>" = "1. Åpne innstillingene for iPhone og trykk på «Wi-Fi»";
+    "<Wireless_Instructions_Body_2>" = "2. Trykk på «%1$@» i listen over nettverk";
+    "<Wireless_Instructions_Body_3>" = "3. Gå tilbake til Sonos-appen og trykk på «Neste» for å fortsette.";
+
+    "<Wireless_NotSonosAP_Title>" = "Ikke tilkoblet til en spiller";
+    "<Wireless_NotSonosAP_Body_1_iPod>" = "Du er ikke koblet til nettverket «%1$@». I Wi-Fi-innstillingene for iPod velger du «%1$@» fra listen over tilgjengelige nettverk.";
+    "<Wireless_NotSonosAP_Body_1_iPad>" = "Du er ikke koblet til nettverket «%1$@». I Wi-Fi-innstillingene for iPad velger du «%1$@» fra listen over tilgjengelige nettverk.";
+    "<Wireless_NotSonosAP_Body_1_iPhone>" = "Du er ikke koblet til nettverket «%1$@». I Wi-Fi-innstillingene for iPhone velger du «%1$@» fra listen over tilgjengelige nettverk.";
+    "<Wireless_NotSonosAP_Body_2>" = "Velg «Prøv igjen» for å gjenta konfigureringen. Hvis du fortsatt har problemer, velger du «Alternativt oppsett».";
+    "<Wireless_NotSonosAP_TryAgain>" = "Prøv igjen";
+    "<Wireless_NotSonosAP_DontTryAgain>" = "Alternativt oppsett";
+
+    "<Wireless_CheckLight_Title>" = "Kontroller lys på spilleren";
+    "<Wireless_CheckLight_Body>" = "Ser du et oransje lys på Sonos-spilleren?";
+    "<Wireless_CheckLight_SeeLight>" = "Jeg ser et oransje lys";
+    "<Wireless_CheckLight_DontSeeLight>" = "Jeg ser ikke et oransje lys";
+
+    "<Wireless_RepeatButton_Title>" = "Gjenta-knappetrykk";
+    "<Wireless_RepeatButton_Body_1>" = "Du må trykke på knappen på nytt.";
+    "<Wireless_RepeatButton_Body_2>" = "Trykk «Neste» for å fortsette.";
+
+/* WAC Setup Custom Wizard */
+
+    "<WAC_Wizard_Title>" = "Trådløst oppsett";
+    "<WAC_Prep_Body_1>" = "Når du legger til den nye spilleren din, blir du veiledet gjennom oppsett av iOS-tilbehør på ditt vanlige trådløse nettverk.";
+    "<WAC_Prep_Input_1>" = "Gå til Oppsett av tilbehør";
+    "<WAC_Error_Title>" = "Ikke tilkoblet til en spiller";
+    "<WAC_Error_Body_1>" = "Den nye spilleren din er ikke koblet til det trådløse nettverket.";
+    "<WAC_Error_Body_2>" = "Velg «Prøv igjen» for å gjenta trinnene i konfigureringen. Hvis du fortsatt har problemer, velger du «Alternativt oppsett».";
+
+    "<WAC_Wizard_Waiting_Title>" = "Kobler til";
+    "<WAC_Wizard_Waiting_Body_1>" = "Vent mens tilkoblingen fullføres…";
+
+/* Lockscreen settings item */
+
+    "<LockScreenControl>" = "Låseskjermkontroll";
+    "<LockScreenControliOSSettingsMessage>" = "Du aktiverer låseskjermkontrollen ved å aktivere stedstjenester for Sonos i iOS-innstillingene.";
+    "<iOSSettings>" = "iOS-innstillinger";
+
+/* Basic Equalizer */
+
+    "<Bass>" = "Bass";
+    "<Treble>" = "Diskant";
+    "<Balance>" = "Balanse";
+    "<Loudness>" = "Loudness";
+    "<Reset>" = "Tilbakestill";
+    "<EQNotAvailable>" = "Equalizerinnstillinger er ikke tilgjengelige når en Sonos-spillers utgangsnivå er satt til Fast.";
+
+
+/* SUB Equalizer */
+
+    "<SUBOn>" = "SUB";
+    "<SUBLevel>" = "SUB-nivå";
+    "<PlacementAdjustment>" = "Justering av plassering";
+    "<SpeakerSize>" = "Høyttalerstørrelse (kryssover)";
+
+/* Surround Equalizer */
+
+    "<SurroundEnabled>" = "Surround";
+    "<SurroundLevel>" = "TV-volum";
+    "<MusicSurroundLevel>" = "Musikkvolum";
+    "<SurroundMode>" = "Musikkavspilling";
+    "<SurroundAmbient>" = "Omgivelser";
+    "<SurroundFull>" = "Fullstendig";
+    "<SurroundDescription>" = "Ved musikkavspilling kan surroundhøyttalerne supplere med myk omgivelseslyd eller høyere, gjennomgående lyd.";
+    "<SurroundBalanceButtonLabel>" = "Balanser surroundhøyttalere";
+    "<SurroundBalanceDescription>" = "Balanser nivået til surroundhøyttalerne manuelt. Bruk Trueplay-innstilling til å automatisk justere lyden i dette rommet.";
+
+/* TV Equalizer */
+
+    "<AudioDelay>" = "Lydforsinkelse (leppesynkronisering)";
+
+/* Search */
+
+    "<Search>" = "Søk";
+    // %1$@ = category (Example: "Search for artist everywhere")
+    "<SearchEverywhere_1>" = "Søk etter %1$@ over alt";
+    // %1$@ = category (Example: "Search everywhere unavailable for station")
+    "<SearchEverywhereUnavailable_1>" = "Søk overalt som er utilgjengelig etter %1$@";
+    // %1$@ = category (Example: "Searching in artists everywhere…")
+    "<SearchSearchingEverywhere_1>" = "Søker i %1$@ overalt…";
+    // %1$@ = category, %2$@ = service (Example: "Searching Playlists in Beats Music…")
+    "<SearchSearchingService_2>" = "Søker etter %1$@ i %2$@…";
+    "<SearchSeeAll>" = "Mer";
+    "<SearchSearchAll>" = "Søk etter alt";
+
+/* Search Voice Over */
+
+    "<SearchHeaderShowMoreHint>" = "vis flere resultater.";
+    "<SearchHeaderShowAllHint>" = "vis resultater for alle tjenester.";
+
+
+/* More Menu */
+
+    "<MoreMusicLoading>" = "Laster…";
+
+/* More Music */
+    "<LearnMore>"    = "Mer informasjon";
+//    "<Add>"          = "Add";
+    "<AddService>"   = "Legg til tjeneste";
+    "<MusicServicesSearchPrompt>" = "Filter";
+    "<AccountsInUseTitle>"        = "Kontoer i bruk på Sonos";
+
+/* Duration Voice Over Strings */
+    // Plural string - localized plural forms located in Localizable.stringsdict
+    "<VODurationNHours>" = "%d time(r)";
+    // Plural string - localized plural forms located in Localizable.stringsdict
+    "<VODurationNMinutes>" = "%d minutt(er)";
+    // Plural string - localized plural forms located in Localizable.stringsdict
+    "<VODurationNSeconds>" = "%d sekund(er)";
+
+// The following provide native orderings for hours, minutes, and seconds
+// They use the formatted strings from earlier in this section
+    // VO String %1$@ - hour string, %2$@ - minute string (Example "3 hours 13 minutes")
+    "<VODurationOrderHM>" = "%1$@ %2$@";
+    // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds")
+    "<VODurationOrderHMS>" = "%1$@ %2$@ %3$@";
+    // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds")
+    "<VODurationOrderMS>" = "%1$@ %2$@";
+
+    // TODO: Need UX feedback on remaining vs left
+// These are similar to above, but referring to remaining time
+    // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ gjenstår";
+    // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
+    "<VODurationOrderMSNeg>" = "%1$@ %2$@ gjenstår";
+    // VO String %1$@ - second string (Example "27 seconds remaining")
+    "<VODurationOrderSNeg>" = "%1$@ gjenstår";
+
+/* Control Center */
+
+    "<ControlCenterDisconnected>" = "Kobler til…";
+    "<ControlCenterSearching>" = "Søker etter Sonos…";
+
+/* 3d touch home icon */
+
+    "<SearchIconTitle>" = "Søk";
+    "<FavoritesIconTitle>" = "Min Sonos";
+    "<PlayIconPlainTitle>" = "Spill";
+    "<PlayIconPlainSubtitle>" = "Gjenoppta siste avspilling";
+    "<PlayIconRoomTitle>" = "Spill av: %@";
+    "<PauseIconPlainTitle>" = "Pause";
+    "<PauseIconPlainSubtitle>" = "Sett musikk på pause";
+    "<PauseIconRoomTitle>" = "Sett på pause: %@";
+
+/* Store mode */
+
+    "<GotIt>" = "Utført";
+
+/* In App Messages */
+
+    "<HideThisMessage>" = "Fjern denne meldingen";
+
+    "<MessageCenterInbox>" = "Innboks";
+    "<MarkAsRead>" = "Merk som lest";
+    "<EmptyMessageInbox>" = "Innboksen din er tom";
+
+/* First Run Carousel */
+
+    "<AllYourMusic>" = "All musikken din i én app.";
+    "<ListenInAnyRoom>" = "Spill av enhver sang i ethvert rom.";
+
+
+/* Direct Control */
+
+    "<DirectControlPlayingFrom>" = "Spiller av fra";
+    "<DirectControlLastPlayed>" = "Sist spilt i dette rommet";
+    "<DirectControlStartedFrom>" = "Startet fra";
+    "<DirectControlStartedFrom_1>" = "Startet fra %1$@";
+    "<DirectControlLastPlayedFrom>" = "Sist spilt fra";
+    "<DirectControlLastPlayedFrom_1>" = "Sist spilt fra %1$@";
+    "<DirectControlResumeFrom>" = "Fortsett fra";
+    // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
+    "<VoiceOverPlayingFrom_1>" = "Spiller fra %1$@";
+    // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
+    "<VoiceOverCurrentlyPlayingFrom_1>" = "Spiller nå fra %1$@";
+    // VoiceOver label: "Currently Playing." - used when playback is in progress but service name is unknown
+    "<VoiceOverCurrentlyPlaying>" = "Spiller nå";
+
+    "<DirectControlResume>" = "Gjenoppta";
+    "<DirectControlDisconnect>" = "Avslutt økt";
+    "<DirectControlUpNext>" = "Neste: %@";
+    "<DirectControlMoreInfo>" = "Vis mer";
+    "<DirectControlMoreInfoVOLabel>" = "Vis %@ detaljer";
+    "<DirectControlLessInfo>" = "Skjul";
+    "<DirectControlLessInfoVOLabel>" = "Skjul %@ detaljer";
+
+/* Help & Tips */
+
+    "<New>" = "NYTT";
+    "<FeatureUnavailable>" = "Beklager, denne funksjonen er utilgjengelig akkurat nå.";
+
+/* Sonos Alarms */
+    "<AlarmSince>" = "Fra kl. %@";
+    "<AlarmActionSnooze>" = "Slumre";
+    "<AlarmActionDismiss>" = "Slå av";
+    "<AlarmActionAwayMode>" = "Stopp varslinger";
+    "<AlarmLabel>" = "Sonos-alarm";
+    "<AlarmActionsAlertTitle>" = "En alarm går av";
+    "<AlarmActionsAlertBody>" = "En alarm i %@ har gått siden %@.";
+    "<AlarmSnoozingAlertTitle>" = "Slumring er på";
+    "<AlarmSnoozingAlertBody>" = "En alarm i %@ er utsatt til %@. Vil du slå den av?";
+    "<AlarmSnoozingAlertActionLater>" = "Senere";
+    "<AlarmNotificationAuthorizationDeniedAlertTitle>" = "Varslinger er ikke tillatt for Sonos";
+    "<AlarmNotificationAuthorizationDeniedAlertBody>" = "Du må tillate varslinger for Sonos i iOS-innstillingene for å få slumrevarslinger";
+    "<AlarmNotificationAuthorizationDeniedAlertOpenSettings>" = "Åpne Innstillinger";
+    "<AlarmErrorTitleHHNotFound>" = "Kan ikke koble til Sonos";
+    "<AlarmErrorTitleZPNotFound>" = "Kan ikke koble til høyttaleren";
+    "<AlarmErrorTitleAlarmNotRunning>" = "Ingen alarmer er aktive";
+    "<AlarmErrorBodyAwayMode>" = "Du kan slå av slumrevarslinger hvis du ikke er hjemme.";
+    "<AlarmAwayModeAlertTitle>" = "Slumrevarslinger er av";
+    "<AlarmAwayModeAlertBody>" = "Vil du slå dem på igjen?";
+    "<AlarmAwayModeAlertUnmute>" = "Slå på";
+    "<AlarmAwayModeNotificationTitle>" = "Slumrevarslinger er av";
+    // Plural string - localized plural forms located in Localizable.stringsdict
+    "<AlarmAwayModeNotificationBodyNAlarms>" = "Slumrevarslinger slått av for %d alarm(er) i huset.";
+
+/* System Status */
+    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
+    "<SystemStatusSeverityError>" = "ErrorZXZ";
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="setup_wizard_next">Volgende</string>
+<string name="setup_wizard_back">Terug</string>
+<string name="welcome_body_no_wifi">Schakel je Wfi in om Sonos te gebruiken.</string>
+<string name="welcome_body_active_vpn">Je bent verbonden met een virtual private network (VPN), wat mogelijk interfereert met de verbinding van Sonos.</string>
+<string name="welcome_body_active_vpn_long">Je bent verbonden met een virtual private network (VPN), wat mogelijk interfereert met de verbinding van Sonos. Koppel de VPN los en probeer het opnieuw</string>
+<string name="welcome_setup_button_text">Nieuw Sonos-systeem installeren</string>
+<string name="welcome_join_button_text">Op bestaand systeem aansluiten</string>
+<string name="welcome_body_or">- OF -</string>
+<string name="welcome_body">Nog geen Sonos?</string>
+<string name="welcome_signup_button_text">Blijf op de hoogte</string>
+<string name="welcome_viewdemo_button_text">Meer informatie over Sonos</string>
+<string name="setup_try_again">Opnieuw</string>
+<string name="setup_zoneplayer_spinner_prompt">Naam selecteren</string>
+<string name="setup_autoplay_spinner_select_text">Geen</string>
+<string name="setup_autoplay_spinner_select_uri"></string>
+<string name="setup_autoplay_spinner_select_id"></string>
+<string name="setup_country_list_spinner_prompt">Land selecteren</string>
+<string name="setup_sonos_registration_postalcode_error">Voer een geldige postcode in.</string>
+<string name="setup_device_name_zoneplayer">Sonos-speler</string>
+<string name="setup_device_name_zonebridge">BRIDGE</string>
+<string name="setup_device_name_sonos_dock">DOCK</string>
+<string name="setup_device_name_unknown">Sonos-component</string>
+<string name="setup_device_name_really_unknown">Onbekend</string>
+<string name="welcome_learn_more_visible_url">www.sonos.com</string>
+<string name="welcome_learn_more_actual_url">http://www.sonos.com/acr_ref</string>
+<string name="demo_sonos_string">Meer weten</string>
+<string name="show_sonos_string">Iemand Sonos laten zien?</string>
+<string name="sub_level_minus3">-3</string>
+<string name="sub_level_minus2">-2</string>
+<string name="sub_level_minus1">-1</string>
+<string name="sub_level_neutral">0</string>
+<string name="sub_level_plus1">+1</string>
+<string name="sub_level_plus2">+2</string>
+<string name="sub_level_plus3">+3</string>
+<string name="left_string">Links</string>
+<string name="right_string">Rechts</string>
+<string name="playback_tips_next">Volgende</string>
+<string name="playback_tips_previous">Vorige</string>
+<string name="playback_tips_done">Klaar</string>
+<string name="show_string">Weergeven</string>
+<string name="hide_string">Verbergen</string>
+</resources>

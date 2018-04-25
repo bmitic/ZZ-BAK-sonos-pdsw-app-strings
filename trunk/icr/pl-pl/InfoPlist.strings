@@ -1,0 +1,8 @@
+/* Localized versions of Info.plist keys */
+
+NSLocationUsageDescription = "Wykorzystujemy Twoją lokalizację, aby uprościć proces konfiguracji i zapewnić Ci lepsze wsparcie.";
+NSLocationAlwaysUsageDescription = "Wykorzystujemy Twoją lokalizację, aby uprościć proces konfiguracji i zapewnić Ci lepsze wsparcie.";
+NSLocationWhenInUseUsageDescription = "Wykorzystujemy Twoją lokalizację, aby uprościć proces konfiguracji i zapewnić Ci lepsze wsparcie.";
+NSAppleMusicUsageDescription = "System Sonos może odtwarzać pobrane utwory i podcasty.";
+NSMicrophoneUsageDescription = "System Sonos wykorzystuje Twój mikrofon do przeprowadzenia regulacji Trueplay.";
+NSBluetoothPeripheralUsageDescription = "System Sonos wykorzystuje moduł Bluetooth do znalezienia najbliższych głośników.";

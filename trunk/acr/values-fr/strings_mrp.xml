@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mrp_play_to_player">SONOS</string>
+<string name="mrp_play_to_group">SONOS</string>
+<string name="mrp_error_code">Erreur %1$d</string>
+<string name="mrp_unsupported_intent_category">Sonos ne prend pas ce type de support en charge.</string>
+<string name="mrp_group_not_found_for_route">Impossible de se connecter au groupe Sonos « %1$s ».</string>
+<string name="mrp_invalid_session_id">Session non valide. Connectez-vous à nouveau au groupe Sonos pour reprendre la lecture.</string>
+<string name="mrp_cannot_play_to_sonos">Impossible de diffuser vers Sonos.</string>
+<string name="mrp_no_item_specified_in_remove_action">Ce morceau n\'a pas pu être enlevé de la file d\'attente parce qu\'il est introuvable.</string>
+<string name="mrp_cannot_seek_in_item">Impossible de chercher parce que ce morceau n\'est pas en cours de lecture.</string>
+</resources>

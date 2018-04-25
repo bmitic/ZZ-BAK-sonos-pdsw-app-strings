@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="alarm_frequency_once">En gang</string>
+<string name="alarm_frequency_sunday">Hver søndag</string>
+<string name="alarm_frequency_monday">Hver mandag</string>
+<string name="alarm_frequency_tuesday">Hver tirsdag</string>
+<string name="alarm_frequency_wednesday">Hver onsdag</string>
+<string name="alarm_frequency_thursday">Hver torsdag</string>
+<string name="alarm_frequency_friday">Hver fredag</string>
+<string name="alarm_frequency_saturday">Hver lørdag</string>
+<string name="alarm_frequency">Gjenta</string>
+</resources>

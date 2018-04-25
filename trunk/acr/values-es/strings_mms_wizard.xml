@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mms_service_password_invalid">Escribe una contraseña válida.</string>
+<string name="mms_service_login_password_invalid">Escribe un nombre de inicio de sesión y una contraseña que sean válidos.</string>
+<string name="mms_accept_trial_conditions_decision_accept">Aceptar</string>
+<string name="mms_accept_trial_conditions_decision_decline">Rechazar</string>
+<string name="mms_merge_trial_account_decision">¿Deseas fusionar la música de la cuenta de evaluación con la de la cuenta que estás añadiendo?</string>
+<string name="mms_merge_trial_account_decision_merge">Fusionar</string>
+<string name="mms_merge_trial_account_decision_merge_not">No fusionar</string>
+<string name="mms_service_setup_complete_text">se ha configurado en el sistema de Sonos.</string>
+<string name="mms_service_setup_complete_instruction">Pulsa el botón Listo para continuar.</string>
+<string name="mms_login">Inicio de sesión</string>
+<string name="mms_password">Contraseña</string>
+<string name="mms_string_space_string">%1$s %2$s</string>
+<string name="mms_nickname_specify_nickname">Escribe un nombre único</string>
+</resources>

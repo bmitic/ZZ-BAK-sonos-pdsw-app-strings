@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="online_update_check_for_updates_subheader">Wyszukiwanie aktualizacji…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">Postęp aktualizacji</string>
+<string name="online_update_devices_upgrade_in_progress_warning">Przestroga:\nNie zmieniaj aplikacji i nie wyłączaj urządzenia w czasie trwania aktualizacji.</string>
+<string name="online_update_devices_upgraded_status">Przeprowadzanie aktualizacji…</string>
+<string name="online_update_upgrade_no_market_error">Aby przeprowadzić aktualizację online, musisz posiadać aplikację ze sklepu systemu Android zainstalowaną na urządzeniu.</string>
+<string name="online_update_downloading">Aktualizacja urządzenia sterującego:\nPobieranie…</string>
+<string name="online_update_downloading_error_title">Aktualizacja nie powiodła się</string>
+<string name="online_update_downloading_error_msg">Aktualizacja urządzenia sterującego nie powiodła się. Upewnij się, że masz łączność z siecią oraz odpowiednią ilość miejsca na urządzeniu, aby pobrać aktualizację.</string>
+</resources>

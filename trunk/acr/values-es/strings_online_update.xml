@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="online_update_check_for_updates_subheader">Buscando actualizaciones…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">Avance de la actualización</string>
+<string name="online_update_devices_upgrade_in_progress_warning">Precaución:\nNo vayas a otra aplicación ni apagues el dispositivo durante la actualización.</string>
+<string name="online_update_devices_upgraded_status">Finalizando la actualización…</string>
+<string name="online_update_upgrade_no_market_error">Necesitas tener una aplicación de Android marketplace instalada para realizar una actualización en línea.</string>
+<string name="online_update_downloading">Actualizando el Controller:\nDescargando…</string>
+<string name="online_update_downloading_error_title">Actualización no satisfactoria</string>
+<string name="online_update_downloading_error_msg">No se realizó la actualización del Controller de forma satisfactoria. Asegúrate de que tienes una conexión de red y espacio suficiente en tu dispositivo para descargar la actualización.</string>
+</resources>

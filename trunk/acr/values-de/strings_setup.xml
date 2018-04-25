@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="setup_wizard_next">Weiter</string>
+<string name="setup_wizard_back">Zurück</string>
+<string name="welcome_body_no_wifi">Du musst dein WLAN aktivieren, um Sonos zu verwenden.</string>
+<string name="welcome_body_active_vpn">Du bist mit einem virtuellen privaten Netzwerk (VPN) verbunden. Dies führt eventuell zu einem Konflikt beim Herstellen einer Verbindung mit Sonos.</string>
+<string name="welcome_body_active_vpn_long">Du bist mit einem virtuellen privaten Netzwerk (VPN) verbunden. Dies führt eventuell zu einem Konflikt beim Herstellen einer Verbindung mit Sonos. Trenne die VPN-Verbindung, und versuche es noch mal.</string>
+<string name="welcome_setup_button_text">Neues Sonos-System einrichten</string>
+<string name="welcome_join_button_text">Mit vorhandenem System verbinden</string>
+<string name="welcome_body_or">- ODER -</string>
+<string name="welcome_body">Du hast noch kein Sonos?</string>
+<string name="welcome_signup_button_text">Aktuelle Informationen</string>
+<string name="welcome_viewdemo_button_text">Weitere Informationen zu Sonos</string>
+<string name="setup_try_again">Erneut versuchen</string>
+<string name="setup_zoneplayer_spinner_prompt">Namen auswählen</string>
+<string name="setup_autoplay_spinner_select_text">Keine</string>
+<string name="setup_autoplay_spinner_select_uri"></string>
+<string name="setup_autoplay_spinner_select_id"></string>
+<string name="setup_country_list_spinner_prompt">Land auswählen</string>
+<string name="setup_sonos_registration_postalcode_error">Bitte gib eine gültige PLZ ein.</string>
+<string name="setup_device_name_zoneplayer">Sonos-Player</string>
+<string name="setup_device_name_zonebridge">BRIDGE</string>
+<string name="setup_device_name_sonos_dock">DOCK</string>
+<string name="setup_device_name_unknown">Sonos-Komponente</string>
+<string name="setup_device_name_really_unknown">Unbekannt</string>
+<string name="welcome_learn_more_visible_url">www.sonos.com</string>
+<string name="welcome_learn_more_actual_url">http://www.sonos.com/acr_ref</string>
+<string name="demo_sonos_string">Weitere Informationen</string>
+<string name="show_sonos_string">Möchtest du Sonos jemandem zeigen?</string>
+<string name="sub_level_minus3">-3</string>
+<string name="sub_level_minus2">-2</string>
+<string name="sub_level_minus1">-1</string>
+<string name="sub_level_neutral">0</string>
+<string name="sub_level_plus1">+1</string>
+<string name="sub_level_plus2">+2</string>
+<string name="sub_level_plus3">+3</string>
+<string name="left_string">Links</string>
+<string name="right_string">Rechts</string>
+<string name="playback_tips_next">Weiter</string>
+<string name="playback_tips_previous">Vorheriger Titel</string>
+<string name="playback_tips_done">Fertig</string>
+<string name="show_string">Anzeigen</string>
+<string name="hide_string">Ausblenden</string>
+</resources>

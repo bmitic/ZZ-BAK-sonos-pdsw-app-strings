@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu_search">Søg</string>
+<string name="browse_artists_title">Kunstnere</string>
+<string name="browse_genres_title">Genrer</string>
+<string name="browse_tracks_title">Sange</string>
+<string name="browse_composers_title">Komponister</string>
+<string name="browse_albums_title">Album</string>
+<string name="browse_playlists_title">Playlister</string>
+<string name="browse_podcasts_title">Podcasts</string>
+<string name="browse_local_library_root">På denne mobilenhed</string>
+<string name="browse_empty_favorites">Tryk på ikonet %1$s, når du gennemser eller afspiller musik, for at tilføje sange, stationer eller album til Favoritter.</string>
+<string name="browse_more_options">Flere muligheder</string>
+<string name="accessibility_browse_explicit_badge_format">%1$s. Eksplicit.</string>
+<string name="accessibility_item_badge_format">%1$s. Ny.</string>
+<string name="edit_title_1">Rediger %s</string>
+<string name="browse_empty_playlist_modal">Tryk på *Ny playliste* herover for at oprette en playliste.</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION">Pas hoge tonen en bas naar wens aan.</String>
+<String id="SCLIB_STR_ZPSETTINGS_SONAR_DESCRIPTION">Tune de speakers zodat het geluid goed klinkt in de kamer.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Configureer Sonos voor het draadloze netwerk.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Kies een ander kanaal om het vooraf ingestelde wifii-kanaal te wijzigen.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Selecteer een nieuwe instelling om de voorinstelling voor Line-In en DOCK te negeren.</String>
+<String id="STR_MusicLibraryIndexing">Muziekbibliotheek - Indexeren…</String>
+<String id="STR_SonosPlaylists">Sonos-afspeellijsten</String>
+<String id="STR_NoMusic">Geen muziek</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_SetupWiz_PreInstructions_Body_2_Fmt">Druk op de knop Volgende om dit Android™-apparaat aan te sluiten op een systeem dat al is geïnstalleerd, of om het te gebruiken om een nieuw systeem aan te sluiten.</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/acr</String>
+<String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_System">Verbonden met Sonos-systeem</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdating_Fmt">Fout bij poging tot bijwerken van het Sonos-systeem (ID=%1$d).</String>
+<String id="SCLIB_STR_OUWiz_ErrorCheckingForUpdate_Fmt">Probleem bij het zoeken naar updates (ID=%1$d).
+
+Controleer de internetverbinding of probeer het later opnieuw.</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdatingDevice_Fmt">Fout bij poging tot bijwerken van het Sonos-systeem:
+
+Huidig apparaat is %1$s (ID=%2$d).</String>
+<String id="SCLIB_STR_OUWiz_UnknownError_Fmt">Kan de update van de Sonos-software niet voltooien (ID=%1$d).
+
+Probeer het later opnieuw.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_1">Het Sonos-product kon niet worden toegevoegd.
+De controller moet eerst worden bijgewerkt.
+
+Meld je aan, update deze controller en voeg vervolgens de nieuwe producten toe.
+
+Druk op 'Volgende' om je aan te melden.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_2"></String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_3"></String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_1">Het nieuwe Sonos-product kon niet worden toegevoegd.
+De controller moet eerst worden bijgewerkt.
+
+Voer een update van de controller uit en voeg daarna het nieuwe product toe.</String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_2"></String>
+<String comment="Abbreviated in some translations" id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME">Tijd update index</String>
+<String id="SCLIB_STR_MSWiz_Intro_Anon_Body1_Fmt">Druk op 'Instellen %1$s' om %1$s aan het Sonos-systeem toe te voegen.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Als je de standaard account voor deze controller wilt wijzigen, tik je in het hoofdmenu op de naam voor je %1$s-account.</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">Druk vervolgens op 'Volgende'.</String>
+<String id="SCLIB_STR_SubSetupTitle">Instellingen SUB</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Installeer de nieuwste versie van de Sonos-controller.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Installeer de nieuwste versie van de Sonos-controller.</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutMinutes_Fmt">Doe dit binnen %1$d minuten…</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutSeconds_Fmt">Doe dit binnen %1$d seconden…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Title">Even geduld…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Body_1"></String>
+<String id="SCLIB_STR_LC_Reset_String1">Druk op de home-knop om het opnieuw instellen te voltooien en open vervolgens de Sonos Controller opnieuw.</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="STR_ArtistInfo">Bladeren op deze artiest</String>
+<String id="STR_AuthorInfo">Door de auteur bladeren</String>
+<String id="STR_AllAlbumsArtist">Bladeren op deze artiest</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">Afspeellijst hernoemen</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">Nieuwe afspeellijst</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">Om stations, afspeellijsten, albums of artiesten aan Mijn Sonos toe te voegen, tik je tijdens het bladeren door of afspelen van muziek op ⋯ en selecteer je *Aan Mijn Sonos toevoegen*.</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">'%1$s' uit Mijn Sonos verwijderd</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">Kon '%1$s' niet uit Mijn Sonos verwijderen</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">Om een Sonos-afspeellijst aan te maken, tik je op ⋯.</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">Om een nummer aan deze afspeellijst toe te voegen, tik je tijdens het bladeren door of het afspelen van muziek op ⋯ en selecteer je *Aan Sonos-afspeellijst toevoegen*.</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 nummer</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 nummers</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d nummers</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' is niet meer beschikbaar. Het apparaat waarop de muziekbestanden zijn opgeslagen is mogelijk niet ingeschakeld of het pad kan zijn gewijzigd.
+Ga naar Instellingen &gt; Muziekbibliotheek beheren &gt; Instellingen muziekbibliotheek om de padnaam te controleren.</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">App-instellingen</String>
+<String id="SCLIB_STR_LocationAccess_Body">Sonos vraagt nu toegang tot je locatie om speakers in je buurt te vinden.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_Title">Geef toegang tot locatie</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_1">Sonos heeft toegang tot locatie nodig om nabije speakers te vinden.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_2">1. Ga naar de Sonos-instellingen van je apparaat</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_3">2. Selecteer &quot;Machtigingen&quot;</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Button">Ga naar Instellingen</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Title">Weet je zeker dat je locatietoegang wilt geven?</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Body">We gebruiken de locatiegegevens alleen om te helpen bij het installeren en het oplossen van problemen met de speakers.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Allow_Button">Geef toegang tot locatie</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_GoBack_Button">Terug</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Skip_Button">Ga door zonder machtiging</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Title">Schakel locatievoorzieningen in</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Body">Voor locatiegebonden functies, zoals het vinden van speakers in de buurt, moet locatievoorzieningen zijn ingeschakeld.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Title">Weet je zeker dat je locatieservices niet wilt inschakelen?</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Body">We gebruiken de locatiegegevens alleen om te helpen bij het installeren en het oplossen van problemen met de speakers.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Enable_Button">Schakel locatie in</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Skip_Button">Ga door zonder locatie</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Title">Terug naar Sonos</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Message">Ga nu terug naar de Sonos-app.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Request_Body">Dit verkort de installatietijd, waardoor je sneller naar muziek kunt luisteren.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Enable_Button">Schakel Bluetooth in</String>
+<String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title">Geef toegang tot locatie</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">Op updates controleren</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">Info over mijn Sonos-systeem</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Ga naar de wifi-Instellingen</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">Speler configureren</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">We hebben Sonos op het draadloze netwerk van *%1$s* gevonden.</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">We hebben een nieuwe Sonos-speaker op het draadloze netwerk van *%1$s* gevonden.</String>
+<String id="STR_AddFavorite">Aan Mijn Sonos toevoegen</String>
+<String id="SCLIB_STR_DeleteFavorite">Uit Mijn Sonos verwijderen</String>
+<String id="STR_AddToFavoritesAdded">'%1$s' aan Mijn Sonos toegevoegd.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">'%1$s' aan Mijn Sonos toegevoegd.
+
+Er zijn nog %2$d plaatsen over in Mijn Sonos.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">'%1$s' aan Mijn Sonos toegevoegd.
+
+Er is nog 1 plaats over in Mijn Sonos.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">'%1$s' aan Mijn Sonos toegevoegd.
+
+Alle beschikbare plaatsen voor mijn Sonos zijn gebruikt.</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">'%1$s' is al aan Mijn Sonos toegevoegd en wordt niet opnieuw toegevoegd.</String>
+<String id="STR_AddToFavoritesFullError">Aan Mijn Sonos toevoegen is niet mogelijk. Er is geen plaats over.
+
+Je kunt bestaande items uit Mijn Sonos verwijderen om ruimte te maken voor nieuwe.</String>
+<String id="STR_AddToFavoritesError">Kan '%1$s' niet aan Mijn Sonos toevoegen.</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">Aan Mijn Sonos toevoegen is niet mogelijk Om meer ruimte voor nieuwe items te maken, kun je overwegen om bestaande items te verwijderen of om items uit Mijn radiostations of Mijn radioprogramma's te verwijderen.</String>
+<String id="SCLIB_STR_RenameFavorite">Item hernoemen</String>
+<String id="STR_AddFavoriteStation">Station aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteTrack">Nummer aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteAlbum">Album aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteArtist">Artiest aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoritePlaylist">Afspeellijst aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteShow">Programma aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteBook">Boek aan Mijn Sonos toevoegen</String>
+</Strings>

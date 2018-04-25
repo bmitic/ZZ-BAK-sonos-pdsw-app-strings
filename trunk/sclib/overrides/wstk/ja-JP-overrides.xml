@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos設定</String>
+<String id="SCLIB_STR_Back">←</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">←</String>
+<String id="SCLIB_STR_SetupWiz_Welcome_Body_1">新しいシステムについては、まず最初にプレイヤーを他のSonosコントローラーと接続してから、このCR200を追加してください。
+
+このCR200を既にセットアップされているシステムに追加するには、[次へ]を押してください。</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Title_ToAdd">製品の設定</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_1_ToAdd">新しいSonos製品上で、以下のボタンを押してから離します。</String>
+<String id="SCLIB_STR_SetupWiz_ConnectFail_Body_1">Sonos製品が見つかりませんでした。</String>
+<String id="SCLIB_STR_SetupWiz_ConnectFail_Body_2">←を押して、接続を再試行してください。</String>
+<String id="SCLIB_STR_SetupWiz_UpdateNeeded_Title">未接続</String>
+<String id="SCLIB_STR_SetupWiz_UpdateNeededCantUseForNew">このCR200では、Sonosシステムをセットアップできません。
+
+他のコントローラでSonosシステムをセットアップしたら、[←]を押してこのCR200を追加してください。</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayConfig_Body_1">iPhoneまたはiPodをドッキングすると、選択した部屋に自動的に音楽を再生できます。下のリストからこの部屋を選択してください。</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">調節が完了したら、[次へ]を押して進みます。</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayAssigned_Title">自動再生の部屋の設定</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayConfig_Title">自動再生部屋を設定する</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurround_Title">サラウンドを削除</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Title">Sonosコンポーネントに接続</String>
+<String id="STR_Setting_Delay">オーディオ遅延 (リップシンク)</String>
+<String id="STR_Favorites">Sonosお気に入り</String>
+<String id="SCLIB_STR_SetupWiz_UseWireless_Input_1">Sonosの設定</String>
+<String id="SCLIB_STR_SetupWiz_RegRefused_Body_1">このCR200では、Sonosシステムを登録できません。他のコントローラーを用いてご登録いただくまでは、Sonosで音楽サービスを使用したり、アップデートしたり、サポートを受けたりすることはできません。</String>
+<String gender="neuter" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">このCR200では、セットアップを完了できません。後で他のコントローラーの[部屋]メニューから未使用の%1$sを選択し、設定を完了してください。</String>
+<String gender="masculine" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">このCR200では、セットアップを完了できません。後で他のコントローラーの[部屋]メニューから未使用の%1$sを選択し、設定を完了してください。</String>
+<String gender="masculine-vowel" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">このCR200では、セットアップを完了できません。後で他のコントローラーの[部屋]メニューから未使用の%1$sを選択し、設定を完了してください。</String>
+<String gender="masculine-special" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">このCR200では、セットアップを完了できません。後で他のコントローラーの[部屋]メニューから未使用の%1$sを選択し、設定を完了してください。</String>
+<String gender="feminine" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">このCR200では、セットアップを完了できません。後で他のコントローラーの[部屋]メニューから未使用の%1$sを選択し、設定を完了してください。</String>
+<String gender="feminine-vowel" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">このCR200では、セットアップを完了できません。後で他のコントローラーの[部屋]メニューから未使用の%1$sを選択し、設定を完了してください。</String>
+<String id="SCLIB_STR_OUWiz_Error_Body2">[←]を押して再試行します。</String>
+</Strings>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="online_update_check_for_updates_subheader">Sjekker etter oppdateringer…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">Oppdateringsfremgang</string>
+<string name="online_update_devices_upgrade_in_progress_warning">Advarsel:\nBytt ikke til en annen applikasjon eller slå av strømmen under oppdateringen.</string>
+<string name="online_update_devices_upgraded_status">Fullfører oppdatering…</string>
+<string name="online_update_upgrade_no_market_error">Du må ha en app for Androids nettmarked installert for å utføre en oppdatering online.</string>
+<string name="online_update_downloading">Oppdaterer controller:\nLaster ned…</string>
+<string name="online_update_downloading_error_title">Oppdatering var ikke vellykket</string>
+<string name="online_update_downloading_error_msg">Controlleroppdateringen var ikke vellykket. Kontroller at du har en Internett-tilkobling og nok plass på enheten for å laste ned oppdateringen.</string>
+</resources>

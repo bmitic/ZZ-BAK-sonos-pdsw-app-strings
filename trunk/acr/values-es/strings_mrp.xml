@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mrp_play_to_player">SONOS</string>
+<string name="mrp_play_to_group">SONOS</string>
+<string name="mrp_error_code">Error %1$d</string>
+<string name="mrp_unsupported_intent_category">Sonos no es compatible con este tipo de medios.</string>
+<string name="mrp_group_not_found_for_route">No se puede conectar con el grupo de Sonos \'%1$s\'.</string>
+<string name="mrp_invalid_session_id">Sesión no válida. Vuelve a conectar con el grupo de Sonos para reanudar la reproducción.</string>
+<string name="mrp_cannot_play_to_sonos">No se puede reproducir en Sonos.</string>
+<string name="mrp_no_item_specified_in_remove_action">No se pudo eliminar esta canción de la cola porque no se pudo encontrar.</string>
+<string name="mrp_cannot_seek_in_item">No se puede buscar porque esta canción no se está reproduciendo actualmente.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="zone_grouping_title">Raggruppa stanze</string>
+<string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead" name="zone_grouping_title_short">Gruppo</string>
+<string name="zone_grouping_select_all_button_text">Seleziona tutto</string>
+<string name="zone_grouping_unselect_all_button_text">Deseleziona tutto</string>
+<string name="zone_grouping_selected_will_play">Le stanze selezionate eseguiranno:</string>
+<string name="zone_grouping_multi_selected_will_play">Nelle stanze selezionate viene riprodotta musica diversa</string>
+<string name="zone_grouping_no_music">Nessun brano musicale</string>
+<string name="zone_grouping_choose_music">Tocca Fatto per scegliere la musica</string>
+<string name="zone_grouping_picker_header">Scegli la musica da riprodurre nelle stanze selezionate</string>
+<string name="zone_grouping_play_to_the_following">Riproduci nei seguenti</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="alarm_frequency_once">Una volta</string>
+<string name="alarm_frequency_sunday">Ogni domenica</string>
+<string name="alarm_frequency_monday">Ogni lunedì</string>
+<string name="alarm_frequency_tuesday">Ogni martedì</string>
+<string name="alarm_frequency_wednesday">Ogni mercoledì</string>
+<string name="alarm_frequency_thursday">Ogni giovedì</string>
+<string name="alarm_frequency_friday">Ogni venerdì</string>
+<string name="alarm_frequency_saturday">Ogni sabato</string>
+<string name="alarm_frequency">Ripeti</string>
+</resources>

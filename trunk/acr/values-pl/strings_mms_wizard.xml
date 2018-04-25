@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mms_service_password_invalid">Wpisz poprawne hasło.</string>
+<string name="mms_service_login_password_invalid">Wpisz poprawną nazwę użytkownika i hasło.</string>
+<string name="mms_accept_trial_conditions_decision_accept">Zaakceptuj</string>
+<string name="mms_accept_trial_conditions_decision_decline">Odrzuć</string>
+<string name="mms_merge_trial_account_decision">Czy chcesz scalić muzykę znajdującą się na koncie próbnym z dodawanym kontem?</string>
+<string name="mms_merge_trial_account_decision_merge">Scal</string>
+<string name="mms_merge_trial_account_decision_merge_not">Nie scalaj</string>
+<string name="mms_service_setup_complete_text">ustawiono teraz w Twoim systemie Sonos.</string>
+<string name="mms_service_setup_complete_instruction">Naciśnij „Gotowe”, aby kontynuować.</string>
+<string name="mms_login">Nazwa użytkownika</string>
+<string name="mms_password">Hasło</string>
+<string name="mms_string_space_string">%1$s %2$s</string>
+<string name="mms_nickname_specify_nickname">Wpisz unikalną nazwę</string>
+</resources>

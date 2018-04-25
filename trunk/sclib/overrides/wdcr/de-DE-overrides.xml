@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Einstellungen der Musikbibliothek</String>
+<String id="SCLIB_STR_SETTINGS_SERVICES">Diensteinstellungen</String>
+<String id="SCLIB_STR_SETTINGS_DATEANDTIME">Datum und Uhrzeit einstellen</String>
+<String id="SCLIB_STR_SETTINGS_WHITELED">Weiße Status-LED ein</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">Alben gruppieren nach</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">Die Musikbibliothek wird aktualisiert…</String>
+<String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">Teilnehmende Interpreten in der Musikbibliothek anzeigen. Diese Einstellung betrifft nur diesen Controller.</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE">Inhalt täglich aktualisieren um:</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE_Group">Bibliotheks-Updates</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_INTERNETTIME">Datum und Uhrzeit aus dem Internet einstellen</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_DAYLIGHTSAVINGS">Sommer-/Winterzeit einstellen</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_SOUNDBAR">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">SUB</String>
+<String id="SCLIB_STR_SETTINGS_TVDialog">TV-Dialog</String>
+<String id="SCLIB_STR_SETTINGS_Surround">Surround-Lautsprecher</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Automatisch auf Updates prüfen</String>
+<String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Windows-Medienserver anzeigen</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">System-Updates</String>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos Setup-Assistent</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Klicke auf „%2$s“, um eines dieser Produkte hinzuzufügen, oder klicke auf „%1$s“, wenn du dies später tun möchtest.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Klicke auf „%2$s“, um es erneut zu versuchen, bzw. auf „%1$s“, um dich später zu registrieren.</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Diese Einstellungen kannst du jederzeit unter „Verwalten“ &gt; „Einstellungen“ ändern.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Wähle „Verwalten“ &gt; „Auf Updates prüfen“, nachdem der Sonos Controller gestartet wurde.</String>
+<String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Manage &gt; Settings &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
+<String id="SCLIB_STR_MSS_CredError">Der %1$s-Server hat deine Anmeldeinformationen nicht erkannt.
+
+Stelle sicher, dass dein Anmeldename (E-Mail-Adresse oder Benutzername) und dein Kennwort korrekt sind, und drücke auf „Zurück“.
+
+Wenn das Problem weiterhin auftritt, wende dich bitte an %2$s.</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">Zurück</String>
+<String id="SCLIB_STR_Queue_Title">LISTE</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">LISTE (nicht verwendet)</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Zum Hinzufügen öffentlicher Sonos Labs-Betadienste musst du Sonos deine Nutzungsdaten mitteilen.
+
+Zum Anzeigen oder Ändern der Nutzungsdaten-Einstellung wähle „Verwalten“ &gt; „Einstellungen“ &gt; „Erweiterte Einstellungen“ &gt; „Sonos verbessern“.</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Wähle „Verwalten“ &gt; „Einstellungen“ &gt; „Erweiterte Einstellungen“ und anschließend „Wireless-Einrichtung“.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Body_2">Du kannst versuchen, sich später unter „Hilfe“ &gt; „Sonos-Systemregistrierung“ anzumelden.</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes®-Compilations</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Albuminterpreten</String>
+<String id="SCLIB_STR_Queue_PlayItem">_Titel abspielen</String>
+<String id="SCLIB_STR_Queue_PauseItem">_Titel anhalten</String>
+<String id="SCLIB_STR_Queue_RemoveItem">Titel _entfernen</String>
+<String id="SCLIB_STR_Queue_RemoveItems">Ausgewählte Titel _entfernen</String>
+<String id="SCLIB_STR_InfoView_Action">_Info &amp; Optionen</String>
+<String id="SCLIB_STR_PlayNow_Action">_Jetzt abspielen</String>
+<String id="SCLIB_STR_AddNextInQueue_Action">Danach _abspielen</String>
+<String id="SCLIB_STR_AddToQueue_Action">Am Li_stenende einfügen</String>
+<String id="SCLIB_STR_ReplaceQueue_Action">Liste _ersetzen</String>
+<String id="SCLIB_STR_AddToQueue_SelItems">Au_swahl am Listenende einfügen</String>
+<String id="SCLIB_STR_PlayNow_SelItems">_Auswahl abspielen</String>
+<String id="SCLIB_STR_PlayNext_SelItems">Auswahl danach _abspielen</String>
+<String id="SCLIB_STR_EditCustomStation_Action">_Radiosender bearbeiten</String>
+<String id="SCLIB_STR_PandoraAddMusic_Action">Weitere Musik _hinzufügen</String>
+<String id="SCLIB_STR_PandoraRenameStation_Action">_Umbenennen</String>
+<String id="SCLIB_STR_Delete_Action">_Löschen</String>
+<String id="STR_AddFavorite">Zu Sonos-_Favoriten hinzufügen</String>
+<String id="SCLIB_STR_AddToSonosPlaylist">Zu Sonos-_Playliste hinzufügen</String>
+<String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Controller zurücksetzen</String>
+<String id="SCLIB_STR_RESETCONTROLLER_INSTRUCTIONS">Durch das Zurücksetzen des Controllers wird dieser von deinem Sonos-System getrennt. Beim Neustart des Controllers kannst du ihn erneut mit diesem oder mit einem anderen Sonos-System verbinden.</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">Verbindungsherstellung mit dem Computer „%1$s“ nicht möglich - das Sonos-System kann mit max. %2$d Computern gleichzeitig verbunden sein.</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">Computer „%1$s“ nicht gefunden.</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">Computer „%1$s“ antwortet nicht.</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">Computer „%1$s“ hat Verbindung mit dem Sonos-System verweigert.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Zugriff auf Ordnerfreigabe „%1$s“ wurde verweigert.</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">Keine Ordnerfreigabe „%1$s“ auf Computer „%2$s“ vorhanden.</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">Datei „%1$s“ nicht vorhanden.</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">Zugriff auf Datei „%1$s“ wurde verweigert.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Zugriff auf Ordnerfreigabe „%1$s“ wurde verweigert.</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">Zu viele aktive Verbindungen mit Ordnerfreigabe „%1$s“.</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Beim Hinzufügen der neuen Musik im freigegebenen Ordner „%1$s“ zu Sonos ist ein Problem aufgetreten. Weitere Informationen hierzu findest du unter 
+
+http://faq.sonos.com/serverstack</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Hinzufügen der Ordnerfreigabe „%1$s“ zur Musikbibliothek nicht möglich (%2$d).</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">Name der Ordnerfreigabe zu lang.</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">Benutzername für die Ordnerfreigabe zu lang.</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">Kennwort für die Ordnerfreigabe zu lang.</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Entfernen der Musikfreigabe „%1$s“ aus der Musikbibliothek nicht möglich (%2$d).</String>
+<String id="SCLIB_STR_OUWiz_Finished_Title">Aktualisierung abgeschlossen</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Body_1">Du musst dein Sonos-System registrieren, um Online-Software-Updates zu erhalten.</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Instr_Fmt">Klicke zum Fortfahren auf „%1$s“.</String>
+<String id="SCLIB_STR_OUWiz_Checking_Body_1">Das Sonos-System wird auf verfügbare Updates geprüft…</String>
+<String id="STR_StereoPair_BodyText_Creating"></String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_1">Das Update wurde abgebrochen.</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">Du kannst es jederzeit erneut versuchen, indem du „Verwalten“ &gt; „Auf Software-Updates prüfen“ wählst.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">Der Index deiner Musikbibliothek muss neu erstellt werden.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">Dieser Vorgang kann einige Zeit in Anspruch nehmen.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">Du kannst deine Musikbibliothek während der Neuindizierung weiterhin verwenden.</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body2">Die besten Ergebnisse erzielst du, wenn du den SUB über einen Controller in demselben Raum einrichtest. Wenn dieser Computer nicht in demselben Raum wie der SUB verwendet werden kann, empfiehlt es sich, „Nicht jetzt“ zu wählen und das Setup mit einem anderen Controller abzuschließen.</String>
+<String id="STR_PandoraPlayStationLater">Später wiedergeben</String>
+<String id="STR_PandoraPlayStationNow">Jetzt abspielen</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Bitte lade den neuesten Sonos Controller von der Sonos-Website herunter.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Wähle zum Aktualisieren „Verwalten“ &gt; „Auf Software-Updates prüfen“.</String>
+<String id="RHHSTR_SIE_ERROR">„%1$s“ ist nicht länger verfügbar. Das Gerät, auf dem die Musikdateien gespeichert sind, ist eventuell nicht eingeschaltet, oder der Pfad hat sich vielleicht geändert.
+Wechsele zu „Verwalten“ &gt; „Einstellungen der Musikbibliothek“, um den Pfadnamen zu prüfen.</String>
+<String id="SCLIB_STR_LC_SearchingForPlayers">Sonos-System wird gesucht…</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Verbinden mit Sonos nicht möglich.
+Probieren wir ein paar Dinge aus:</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option1">• Schalte das WLAN aus und wieder ein.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option2">• Trenne den Router von der Stromversorgung, und verbinde ihn dann wieder.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option3">• Prüfe die Stromversorgung deiner Lautsprecher.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option4">• Restart your computer and try again.ZXZ</String>
+<String id="SCLIB_STR_LC_Contact">Das funktioniert nicht</String>
+</Strings>

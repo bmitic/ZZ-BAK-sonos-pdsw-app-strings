@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mrp_play_to_player">SONOS</string>
+<string name="mrp_play_to_group">SONOS</string>
+<string name="mrp_error_code">Foutmelding %1$d</string>
+<string name="mrp_unsupported_intent_category">Sonos ondersteunt dit mediatype niet.</string>
+<string name="mrp_group_not_found_for_route">Geen verbinding mogelijk met de Sonos-groep \'%1$s\'.</string>
+<string name="mrp_invalid_session_id">Ongeldige sessie. Maak opnieuw verbinding met de Sonos-groep om afspelen te hervatten.</string>
+<string name="mrp_cannot_play_to_sonos">Afspelen op Sonos niet mogelijk.</string>
+<string name="mrp_no_item_specified_in_remove_action">Nummer kon niet uit de wachtrij worden verwijderd omdat het niet werd gevonden.</string>
+<string name="mrp_cannot_seek_in_item">Kan niet zoeken omdat dit nummer momenteel niet speelt.</string>
+</resources>

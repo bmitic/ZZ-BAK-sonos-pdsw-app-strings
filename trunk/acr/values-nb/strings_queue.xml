@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="queue_title">Kø</string>
+<string name="queue_title_tab">Kø</string>
+<string name="edit_queue_title">Rediger kø</string>
+<string name="queue_subtitle_not_in_use">Ikke i bruk</string>
+<string name="clear_queue_title">Slett kø</string>
+<string name="clear_queue_text">Er du sikker på at du ønsker å tømme køen?</string>
+<string name="save_info_text_existing">Eller erstatt en eksisterende spilleliste:</string>
+<string name="save_info_text_new">Skriv inn et spillelistenavn:</string>
+<string name="save_edit_text_hint">Sonos-spillelistenavn</string>
+<string name="save_queue_prompt">Spillelister</string>
+<string name="save_queue_alert_title">Sonos-spilleliste finnes</string>
+<string name="save_queue_header">Lagre kø</string>
+<string name="save_queue_already_exists_1">En Sonos-spilleliste som kalles «%1$s» finnes allerede. Ønsker du å erstatte innholdet?</string>
+<string name="replace_button_name">Bytt ut</string>
+<string name="save_queue_empty_name_alert_text">Vennligst skriv inn eller velg et navn for Sonos-spillelisten.</string>
+<string name="save_queue_not_enough_space">Sonos har ikke nok ledig plass igjen for å lagre køen. Fjern gamle lagrede spillelister eller køer i andre rom, og prøv igjen.</string>
+<string name="save_queue_mobile_tracks_not_saved">Låter fra mobile enheter kan ikke lagres i Sonos-spillelister og ble ikke lagret.</string>
+<string name="save_queue_only_mobile_tracks">Køen inneholder bare låter fra mobile enheter. Disse låtene kan ikke lagres i Sonos-spillelister.</string>
+<string name="save_queue_unexpected_error">En uventet feil oppstod under lagring av køen.</string>
+<string name="accessibility_delete">Slett</string>
+<string name="accessibility_reorder">Endre rekkefølge</string>
+<string name="direct_control_playing_from">Spiller av fra</string>
+<string name="direct_control_playing_from_accessibility">Spiller fra %1$s</string>
+<string name="direct_control_started_from">Startet fra</string>
+<string name="direct_control_started_from_accessibility">Startet fra %1$s</string>
+<string name="direct_control_resume_playing_from">Gjenoppta avspilling fra</string>
+<string name="direct_control_last_played_from">Sist spilt fra</string>
+<string name="direct_control_last_played_from_accessibility">Sist spilt fra %1$s</string>
+<string name="direct_control_last_played">Sist spilt i dette rommet</string>
+<string name="direct_control_next">Neste: %s</string>
+<string name="direct_control_resume">Gjenoppta</string>
+<string name="direct_control_disconnect">Avslutt økt</string>
+</resources>

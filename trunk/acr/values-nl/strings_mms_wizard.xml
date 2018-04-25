@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mms_service_password_invalid">Voer een geldig wachtwoord in.</string>
+<string name="mms_service_login_password_invalid">Voer een geldige aanmeldingsnaam en wachtwoord in.</string>
+<string name="mms_accept_trial_conditions_decision_accept">Accepteren</string>
+<string name="mms_accept_trial_conditions_decision_decline">Niet akkoord</string>
+<string name="mms_merge_trial_account_decision">Wil je de muziek in je proefaccount samenvoegen met de account die je aan het toevoegen bent?</string>
+<string name="mms_merge_trial_account_decision_merge">Samenvoegen</string>
+<string name="mms_merge_trial_account_decision_merge_not">Niet samenvoegen</string>
+<string name="mms_service_setup_complete_text">is nu ingesteld op je Sonos-systeem.</string>
+<string name="mms_service_setup_complete_instruction">Druk op de knop Klaar om door te gaan.</string>
+<string name="mms_login">Aanmeldingsnaam</string>
+<string name="mms_password">Wachtwoord</string>
+<string name="mms_string_space_string">%1$s %2$s</string>
+<string name="mms_nickname_specify_nickname">Voer een unieke naam in</string>
+</resources>

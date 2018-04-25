@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="queue_title">Kö</string>
+<string name="queue_title_tab">Kö</string>
+<string name="edit_queue_title">Redigera kö</string>
+<string name="queue_subtitle_not_in_use">Används inte</string>
+<string name="clear_queue_title">Rensa kö</string>
+<string name="clear_queue_text">Vill du verkligen rensa kön?</string>
+<string name="save_info_text_existing">Eller ersätt befintlig spellista:</string>
+<string name="save_info_text_new">Ange namn för spellista:</string>
+<string name="save_edit_text_hint">Namn på Sonos-spellista</string>
+<string name="save_queue_prompt">Spellistor</string>
+<string name="save_queue_alert_title">Sonos-spellista finns</string>
+<string name="save_queue_header">Spara kö</string>
+<string name="save_queue_already_exists_1">Det finns redan en Sonos-spellista som heter %1$s. Vill du ersätta innehållet i den spellistan?</string>
+<string name="replace_button_name">Ersätt</string>
+<string name="save_queue_empty_name_alert_text">Skriv eller välj ett namn för Sonos-spellistan.</string>
+<string name="save_queue_not_enough_space">Sonos har inte tillräckligt med ledigt utrymme för att spara kön. Ta bort gamla sparade spellistor eller köer i andra rum och försök igen.</string>
+<string name="save_queue_mobile_tracks_not_saved">Det går inte att lagra låtar från mobilenheter i Sonos-spellistor och de sparades inte.</string>
+<string name="save_queue_only_mobile_tracks">Kön innehåller endast låtar från mobilenheter. Dessa låtar kan inte sparas till Sonos-spellistor.</string>
+<string name="save_queue_unexpected_error">Oväntat fel uppstod när kön sparades.</string>
+<string name="accessibility_delete">Ta bort</string>
+<string name="accessibility_reorder">Ändra ordningsföljd</string>
+<string name="direct_control_playing_from">Spelar upp från</string>
+<string name="direct_control_playing_from_accessibility">Spelar upp från %1$s</string>
+<string name="direct_control_started_from">Startades från</string>
+<string name="direct_control_started_from_accessibility">Började från %1$s</string>
+<string name="direct_control_resume_playing_from">Återuppta uppspelning från</string>
+<string name="direct_control_last_played_from">Spelades senast upp från</string>
+<string name="direct_control_last_played_from_accessibility">Spelades senast upp från %1$s</string>
+<string name="direct_control_last_played">Spelades senast upp i detta rum</string>
+<string name="direct_control_next">Nästa: %s</string>
+<string name="direct_control_resume">Återuppta</string>
+<string name="direct_control_disconnect">Avsluta session</string>
+</resources>

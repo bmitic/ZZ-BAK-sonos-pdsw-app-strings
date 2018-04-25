@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos-installation</String>
+<String id="SCLIB_STR_Back">←</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">←</String>
+<String id="SCLIB_STR_SetupWiz_Welcome_Body_1">FÖR NYA SYSTEM, konfigurera dina spelare med en annan Sonos Controller först, lägg sedan till denna CR200.
+
+Om du vill lägga till denna CR200 i ett system som redan är konfigurerat, tryck på Nästa.</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Title_ToAdd">Produktinställningar</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_1_ToAdd">På din nya Sonos-produkt trycker du på och släpper upp knapparna enligt nedan:</String>
+<String id="SCLIB_STR_SetupWiz_ConnectFail_Body_1">Hittade inte din Sonos-produkt.</String>
+<String id="SCLIB_STR_SetupWiz_ConnectFail_Body_2">Prova anslutningen igen genom att trycka på ←.</String>
+<String id="SCLIB_STR_SetupWiz_UpdateNeeded_Title">Inte ansluten</String>
+<String id="SCLIB_STR_SetupWiz_UpdateNeededCantUseForNew">Du kan inte konfigurera ditt Sonos-system med denna CR200.
+
+När du har konfigurerat ditt Sonos-system med en Controller, tryck på '←' för att lägga till denna CR200.</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayConfig_Body_1">När du dockar din iPhone eller iPod kan den automatiskt spela upp musik till valt rum. Välj detta rum i nedanstående lista.</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">När du har gjort din justering, tryck på Nästa för att fortsätta.</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayAssigned_Title">Ange autouppspelningsrum</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayConfig_Title">Ange ditt autouppspelningsrum</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurround_Title">Ta bort surround</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Title">Anslut till en Sonos-komponent</String>
+<String id="STR_Setting_Delay">Ljudfördröjning (läppsynkronisering)</String>
+<String id="STR_Favorites">Sonos-favoriter</String>
+<String id="SCLIB_STR_SetupWiz_UseWireless_Input_1">Sonos-installation</String>
+<String id="SCLIB_STR_SetupWiz_RegRefused_Body_1">Du kan inte registrera ditt Sonos-system med denna CR200. Du kommer inte att kunna använda musiktjänster med Sonos, eller vara berättigad till uppdateringar och support, förrän du registrerat dig genom att använda en annan Controller.</String>
+<String gender="neuter" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Det går inte att slutföra konfigurationen med denna CR200. Välj %1$s som inte används på menyn Rum på en annan Controller för att slutföra konfigurationen senare.</String>
+<String gender="masculine" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Det går inte att slutföra konfigurationen med denna CR200. Välj %1$s som inte används på menyn Rum på en annan Controller för att slutföra konfigurationen senare.</String>
+<String gender="masculine-vowel" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Det går inte att slutföra konfigurationen med denna CR200. Välj %1$s som inte används på menyn Rum på en annan Controller för att slutföra konfigurationen senare.</String>
+<String gender="masculine-special" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Det går inte att slutföra konfigurationen med denna CR200. Välj %1$s som inte används på menyn Rum på en annan Controller för att slutföra konfigurationen senare.</String>
+<String gender="feminine" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Det går inte att slutföra konfigurationen med denna CR200. Välj %1$s som inte används på menyn Rum på en annan Controller för att slutföra konfigurationen senare.</String>
+<String gender="feminine-vowel" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Det går inte att slutföra konfigurationen med denna CR200. Välj %1$s som inte används på menyn Rum på en annan Controller för att slutföra konfigurationen senare.</String>
+<String id="SCLIB_STR_OUWiz_Error_Body2">Försök igen genom att trycka på ←.</String>
+</Strings>

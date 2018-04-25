@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mms_service_password_invalid">有効なパスワードを入力してください。</string>
+<string name="mms_service_login_password_invalid">有効なログイン情報およびパスワードを入力してください。</string>
+<string name="mms_accept_trial_conditions_decision_accept">承諾</string>
+<string name="mms_accept_trial_conditions_decision_decline">同意しません</string>
+<string name="mms_merge_trial_account_decision">お試し版のアカウントにある音楽を、追加しているアカウントとまとめますか?</string>
+<string name="mms_merge_trial_account_decision_merge">まとめる</string>
+<string name="mms_merge_trial_account_decision_merge_not">まとめない</string>
+<string name="mms_service_setup_complete_text">Sonosシステムに設定されました</string>
+<string name="mms_service_setup_complete_instruction">続けるには[完了]ボタンを押してください。</string>
+<string name="mms_login">ログイン</string>
+<string name="mms_password">パスワード</string>
+<string name="mms_string_space_string">%1$s %2$s</string>
+<string name="mms_nickname_specify_nickname">ユニークな名前を入力してください。</string>
+</resources>

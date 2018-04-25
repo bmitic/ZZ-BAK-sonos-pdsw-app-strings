@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="setup_wizard_next">Avanti</string>
+<string name="setup_wizard_back">Indietro</string>
+<string name="welcome_body_no_wifi">Attivare il Wi-Fi per utilizzare Sonos.</string>
+<string name="welcome_body_active_vpn">Sei connesso a una rete privata virtuale (VPN, Virtual Private Network), che potrebbe interferire con Sonos.</string>
+<string name="welcome_body_active_vpn_long">Sei connesso a una rete privata virtuale (VPN, Virtual Private Network), che potrebbe interferire con Sonos. Disconnettiti dalla VPN e riprova</string>
+<string name="welcome_setup_button_text">Installare un nuovo sistema Sonos</string>
+<string name="welcome_join_button_text">Connettere a un sistema esistente</string>
+<string name="welcome_body_or">- OPPURE -</string>
+<string name="welcome_body">Non hai ancora Sonos?</string>
+<string name="welcome_signup_button_text">Rimanere informati</string>
+<string name="welcome_viewdemo_button_text">Per saperne di più su Sonos</string>
+<string name="setup_try_again">Riprova</string>
+<string name="setup_zoneplayer_spinner_prompt">Seleziona nome</string>
+<string name="setup_autoplay_spinner_select_text">Nessuna</string>
+<string name="setup_autoplay_spinner_select_uri"></string>
+<string name="setup_autoplay_spinner_select_id"></string>
+<string name="setup_country_list_spinner_prompt">Seleziona Paese</string>
+<string name="setup_sonos_registration_postalcode_error">Immettere un codice postale valido.</string>
+<string name="setup_device_name_zoneplayer">Lettore Sonos</string>
+<string name="setup_device_name_zonebridge">BRIDGE</string>
+<string name="setup_device_name_sonos_dock">DOCK</string>
+<string name="setup_device_name_unknown">Componente Sonos</string>
+<string name="setup_device_name_really_unknown">Sconosciuta</string>
+<string name="welcome_learn_more_visible_url">www.sonos.com</string>
+<string name="welcome_learn_more_actual_url">http://www.sonos.com/acr_ref</string>
+<string name="demo_sonos_string">Maggiori informazioni</string>
+<string name="show_sonos_string">Vuoi far vedere Sonos a qualcuno?</string>
+<string name="sub_level_minus3">-3</string>
+<string name="sub_level_minus2">-2</string>
+<string name="sub_level_minus1">-1</string>
+<string name="sub_level_neutral">0</string>
+<string name="sub_level_plus1">+1</string>
+<string name="sub_level_plus2">+2</string>
+<string name="sub_level_plus3">+3</string>
+<string name="left_string">Sinistra</string>
+<string name="right_string">Destra</string>
+<string name="playback_tips_next">Avanti</string>
+<string name="playback_tips_previous">Precedente</string>
+<string name="playback_tips_done">Fatto</string>
+<string name="show_string">Mostra</string>
+<string name="hide_string">Nascondi</string>
+</resources>

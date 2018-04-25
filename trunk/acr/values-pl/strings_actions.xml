@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="alarm_frequency_once">Jednorazowo</string>
+<string name="alarm_frequency_sunday">W każdą niedzielę</string>
+<string name="alarm_frequency_monday">W każdy poniedziałek</string>
+<string name="alarm_frequency_tuesday">W każdy wtorek</string>
+<string name="alarm_frequency_wednesday">W każdą środę</string>
+<string name="alarm_frequency_thursday">W każdy czwartek</string>
+<string name="alarm_frequency_friday">W każdy piątek</string>
+<string name="alarm_frequency_saturday">W każdą sobotę</string>
+<string name="alarm_frequency">Powtórz</string>
+</resources>

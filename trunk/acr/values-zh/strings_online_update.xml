@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="online_update_check_for_updates_subheader">正在检查更新…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">更新进度</string>
+<string name="online_update_devices_upgrade_in_progress_warning">注意：\n更新过程中请勿切换到另一应用程序或关闭电源。</string>
+<string name="online_update_devices_upgraded_status">正在完成更新…</string>
+<string name="online_update_upgrade_no_market_error">要进行在线更新，您需要安装 Android Marketplace 应用程序。</string>
+<string name="online_update_downloading">正在更新控制器：\n正在下载…</string>
+<string name="online_update_downloading_error_title">更新不成功</string>
+<string name="online_update_downloading_error_msg">控制器更新不成功。请确保您能连接到网络，并且设备上的空间足以下载更新文件。</string>
+</resources>

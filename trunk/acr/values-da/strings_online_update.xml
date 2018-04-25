@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="online_update_check_for_updates_subheader">Søger efter opdateringer…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">Opdatering i gang</string>
+<string name="online_update_devices_upgrade_in_progress_warning">Advarsel:\nSkift ikke til et andet program eller sluk for strømmen under opdateringen.</string>
+<string name="online_update_devices_upgraded_status">Afslutter opdateringen…</string>
+<string name="online_update_upgrade_no_market_error">Du skal have en Android Marketplace-app installeret for at udføre en onlineopdatering.</string>
+<string name="online_update_downloading">Opdaterer controller:\nDownloader…</string>
+<string name="online_update_downloading_error_title">Opdatering mislykkedes</string>
+<string name="online_update_downloading_error_msg">Opdatering af controlleren mislykkedes. Kontrollér, at du har forbindelse til netværket, og at der er tilstrækkelig plads på din enhed til at downloade opdateringen.</string>
+</resources>

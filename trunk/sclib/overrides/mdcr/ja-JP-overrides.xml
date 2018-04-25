@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">ミュージック ライブラリ</String>
+<String id="SCLIB_STR_SETTINGS_SERVICES">サービス</String>
+<String id="SCLIB_STR_SETTINGS_DATEANDTIME">日付と時刻</String>
+<String id="SCLIB_STR_SETTINGS_ADVANCED">詳細</String>
+<String id="SCLIB_STR_SETTINGS_WHITELED">白いステータス ライトがオン</String>
+<String id="SCLIB_STR_SETTINGS_TVDialog">TVのダイアログ</String>
+<String id="SCLIB_STR_SETTINGS_Surround">サラウンド</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">ミュージック ライブラリのアップデート中…</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">グループ アルバムで使用</String>
+<String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">コントリビュート アーティストをミュージック ライブラリに表示。この設定は、このコントローラにのみ反映されます。</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE">コンテンツを毎日この時刻にアップデート:</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE_Group">ライブラリのアップデート</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME"></String>
+<String id="SCLIB_STR_DATETIMESETTINGS_INTERNETTIME">インターネットから日付と時刻を設定</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_DAYLIGHTSAVINGS">サマータイムに合わせる</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_SOUNDBAR">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">SUB</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">自動的にソフトウェアのアップデートを確認します</String>
+<String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Windowsメディア サーバーの表示</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">システムのアップデート</String>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Sonosセットアップ アシスタント</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">[%2$s]をクリックしてこれらの製品の1つを今すぐ追加するか、[%1$s]をクリックして後で追加します。</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">[%2$s]をクリックして再試行するか、[%1$s]をクリックして後で登録します。</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">[Sonos]メニューから[設定]を選択し、[詳細設定]の下で[使用状況]を選択することで、いつでも設定を変更できます。</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">デフォルトアカウントを変更する場合、Sonos ミュージックメニューの %1$s を右クリック (Ctrl+click) して、別のアカウントを選択します。</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$sが完了しました。
+
+Sonosソフトウェアを更新する必要があります。</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Sonosコントローラの起動後、[Sonos] &gt; [アップデートを確認]の順で選択してください。</String>
+<String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">電話番号</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">戻る</String>
+<String id="SCLIB_STR_Queue_Title">予約リスト</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">予約リスト(未使用)</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">登録</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Sonos Labsパブブリック ベータ サービスを追加するには、使用状況データをSonosと共有する必要があります。
+
+使用状況データの設定を表示または変更するには、[Sonos] &gt; [設定] &gt; [詳細設定] &gt; [Sonos製品品質の向上]を選択します。</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2。[Sonos] &gt; [設定] &gt; [詳細設定] の順に移動して、[ワイヤレスの設定]を選択します。</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Body_2">[ヘルプ] &gt; [Sonosシステム登録]で後から登録できます。</String>
+<String id="SCLIB_STR_MSS_CredError">%1$sサーバーが、ログイン情報を認識できませんでした。
+
+ログイン情報(電子メール アドレスまたはユーザー名)とパスワードが正しいことを確認し、[戻る]ボタンを押して、もう一度お試しください。
+
+問題が解消されない場合は、%2$sにお問い合わせください。</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes®コンピレーション</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">アルバム アーティスト</String>
+<String id="SCLIB_STR_RESETCONTROLLER_PROMPT">コントローラのリセット</String>
+<String id="SCLIB_STR_RESETCONTROLLER_INSTRUCTIONS">コントローラをリセットすると、Sonosシステムから切断されます。コントローラの再起動後に、再接続するか、別のSonosシステムに接続できます。</String>
+<String id="STR_StereoPair_BodyText_Creating"></String>
+<String id="SCLIB_STR_OUWiz_Finished_Title">アップデート完了</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Body_1">オンライン ソフトウェア アップデートを入手するには、まず最初にSonosシステムを登録する必要があります。</String>
+<String id="SCLIB_STR_OUWiz_Checking_Body_1">Sonosの利用可能なアップデートを確認しています…</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_1">アップデートがキャンセルされました。</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">[Sonos] &gt; [アップデートを確認]と選択することで、いつでも再試行できます。</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">ミュージック ライブラリのインデックスを再構築する必要があります。</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">この操作には、時間がかかる場合があります。</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">インデックスの再作成中も、ミュージック ライブラリをご利用になれます。</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body2">最高の結果を得るには、同じ部屋のコントローラを使用してサブを設定してください。このコンピューターをサブと同じ部屋で使用できない場合、[今はしない]を選択して、別のコントローラで設定を完了してください。</String>
+<String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Sonos &gt; Preferences &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">コンピューター「%1$s」に接続できません - Sonosは同時に%2$d台のコンピューターにしか接続できません。</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">コンピューター「%1$s」が見つかりません。</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">コンピューター「%1$s」が応答しません。</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">コンピューター「%1$s」がSonosの接続を拒否しました。</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">共有フォルダ「%1$s」へのアクセスが拒否されました - ユーザー名および/またはパスワードを確認してください。</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">コンピューター「%2$s」に共有フォルダ「%1$s」はありません。</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">ファイル「%1$s」は存在しません。</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">ファイル「%1$s」へのアクセスが拒否されました。</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">共有フォルダ「%1$s」へのアクセスが拒否されました - ユーザー名とパスワードを指定する必要があるかもしれません。</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">共有フォルダ「%1$s」への接続が多すぎます。</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">音楽共有「%1$s」をミュージック ライブラリに追加できません (900)。</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">音楽共有「%1$s」をミュージック ライブラリに追加できません (%2$d)。</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">共有フォルダ名が長すぎます。</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">共有フォルダのユーザー名が長すぎます。</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">共有フォルダのパスワードが長すぎます。</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">音楽共有「%1$s」をミュージック ライブラリから削除できません (%2$d)。</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Sonos Webサイトから最新のSonosコントローラをダウンロードしてください。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">更新する場合は、[Sonos] &gt; [ソフトウェア アップデートを確認]を選択してください。</String>
+<String id="SCLIB_STR_Forget_Title">現在使用中のSonosシステムを不明にしますか。
+</String>
+<String id="RHHSTR_SIE_ERROR">「%1$s」は、利用不可になりました。音楽ファイルが保存されているデバイスの電源をONにできない、あるいは、パスが変更されている可能性があります。
+管理 &gt; ミュージック ライブラリ設定から、パス名を確認してください。</String>
+<String id="SCLIB_STR_LC_SearchingForPlayers">Sonosシステムを検索しています…</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">デバイスの [システム設定] &gt; [ネットワーク] 画面を表示し、Sonosが存在しているネットワークへ変更します。</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">申し訳ありませんが、Sonosに接続できません。
+以下を試してください：</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option1">• Wi-Fi のスイッチをオフにし、またオンにします。</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option2">• ルーターのプラグを抜き、もう一度差し込みます。</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option3">• スピーカーの電源が入っていることを確かめます。</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option4">• Restart your computer and try again.ZXZ</String>
+<String id="SCLIB_STR_LC_Contact">うまくいきません</String>
+</Strings>

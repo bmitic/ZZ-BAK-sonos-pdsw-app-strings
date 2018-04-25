@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@alarms@</string>
+		<key>alarms</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Vilolägesnotiser avstängda för en (%d) väckning i huset.</string>
+			<key>other</key>
+			<string>Vilolägesnotiser avstängda för %d väckningar i huset.</string>
+		</dict>
+	</dict>
+	<key>&lt;VODurationNHours&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hours@</string>
+		<key>hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d timme</string>
+			<key>other</key>
+			<string>%d timmar</string>
+		</dict>
+	</dict>
+	<key>&lt;VODurationNMinutes&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@minutes@</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d minut</string>
+			<key>other</key>
+			<string>%d minuter</string>
+		</dict>
+	</dict>
+	<key>&lt;VODurationNSeconds&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@seconds@</string>
+		<key>seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d sekund</string>
+			<key>other</key>
+			<string>%d sekunder</string>
+		</dict>
+	</dict>
+	<key>&lt;QueueTrackLabel_1&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songs@</string>
+		<key>songs</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Tom</string>
+			<key>one</key>
+			<string>.%d låt.</string>
+			<key>other</key>
+			<string>.%d låtar.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

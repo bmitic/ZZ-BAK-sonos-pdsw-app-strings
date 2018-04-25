@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mms_service_password_invalid">Ange ett giltigt lösenord.</string>
+<string name="mms_service_login_password_invalid">Ange giltig inloggning och giltigt lösenord.</string>
+<string name="mms_accept_trial_conditions_decision_accept">Acceptera</string>
+<string name="mms_accept_trial_conditions_decision_decline">Avböj</string>
+<string name="mms_merge_trial_account_decision">Vill du slå ihop musiken i provmedlemskapskontot med det konto som du lägger till?</string>
+<string name="mms_merge_trial_account_decision_merge">Slå ihop</string>
+<string name="mms_merge_trial_account_decision_merge_not">Slå inte ihop</string>
+<string name="mms_service_setup_complete_text">har nu konfigurerats i ditt Sonos-system.</string>
+<string name="mms_service_setup_complete_instruction">Fortsätt genom att trycka på knappen Klar.</string>
+<string name="mms_login">Inloggning</string>
+<string name="mms_password">Lösenord</string>
+<string name="mms_string_space_string">%1$s %2$s</string>
+<string name="mms_nickname_specify_nickname">Ange unikt namn</string>
+</resources>

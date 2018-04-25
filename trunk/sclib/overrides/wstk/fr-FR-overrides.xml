@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Installation de Sonos</String>
+<String id="SCLIB_STR_Back">←</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">←</String>
+<String id="SCLIB_STR_SetupWiz_Welcome_Body_1">POUR LES NOUVEAUX SYSTEMES, configurez d'abord vos lecteurs avec un autre Sonos Controller, puis ajoutez ce CR200.
+
+Pour ajouter ce CR200 à un système déjà configuré, appuyez sur Suivant.</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Title_ToAdd">Installation du produit</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_1_ToAdd">Sur votre nouveau produit Sonos, appuyez sur les boutons ci-dessous et relâchez-les :</String>
+<String id="SCLIB_STR_SetupWiz_ConnectFail_Body_1">Votre produit Sonos est introuvable.</String>
+<String id="SCLIB_STR_SetupWiz_ConnectFail_Body_2">Appuyez sur « ← » pour réessayer de connecter.</String>
+<String id="SCLIB_STR_SetupWiz_UpdateNeeded_Title">Non connecté</String>
+<String id="SCLIB_STR_SetupWiz_UpdateNeededCantUseForNew">Vous ne pouvez pas configurer votre système Sonos avec ce CR200.
+
+Une fois que vous avez configuré votre système Sonos avec un autre Controller, appuyez sur « ← » pour ajouter ce CR200.</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayConfig_Body_1">Lorsque vous placez votre iPhone ou iPod sur le DOCK, il peut automatiquement diffuser de la musique vers une pièce sélectionnée. Sélectionnez cette pièce dans la liste ci-dessous.</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">Une fois votre réglage effectué, appuyez sur « Suivant » pour continuer.</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayAssigned_Title">Pièce de lecture auto définie</String>
+<String id="SCLIB_STR_SetupWiz_AutoplayConfig_Title">Définir votre Pièce de lecture auto</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurround_Title">Supprimer les surrounds</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Title">Se connecter à un composant</String>
+<String id="STR_Setting_Delay">Décalage audio (Lip Sync)</String>
+<String id="STR_Favorites">Favoris Sonos</String>
+<String id="SCLIB_STR_SetupWiz_UseWireless_Input_1">Installation de Sonos</String>
+<String id="SCLIB_STR_SetupWiz_RegRefused_Body_1">Vous ne pouvez pas enregistrer votre système Sonos avec ce CR200. Vous ne pourrez pas utiliser les services musicaux avec Sonos ou bénéficier de mises à jour ou d'un support avant votre enregistrement à l'aide d'un autre Controller.</String>
+<String gender="neuter" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Impossible de terminer la configuration avec ce CR200. Sélectionnez le %1$s inutilisé dans le menu Pièces sur un autre Controller pour terminer la configuration ultérieurement.</String>
+<String gender="masculine" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Impossible de terminer la configuration avec ce CR200. Sélectionnez le %1$s inutilisé dans le menu Pièces sur un autre Controller pour terminer la configuration ultérieurement.</String>
+<String gender="masculine-vowel" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Impossible de terminer la configuration avec ce CR200. Sélectionnez l'%1$s inutilisé dans le menu Pièces sur un autre Controller pour terminer la configuration ultérieurement.</String>
+<String gender="masculine-special" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Impossible de terminer la configuration avec ce CR200. Sélectionnez le %1$s inutilisé dans le menu Pièces sur un autre Controller pour terminer la configuration ultérieurement.</String>
+<String gender="feminine" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Impossible de terminer la configuration avec ce CR200. Sélectionnez la %1$s inutilisée dans le menu Pièces sur un autre Controller pour terminer la configuration ultérieurement.</String>
+<String gender="feminine-vowel" id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt">Impossible de terminer la configuration avec ce CR200. Sélectionnez l'%1$s inutilisée dans le menu Pièces sur un autre Controller pour terminer la configuration ultérieurement.</String>
+<String id="SCLIB_STR_OUWiz_Error_Body2">Appuyez sur « ← » pour réessayer.</String>
+</Strings>

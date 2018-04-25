@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="zones_pause_all">Suspendre tout</string>
+<string name="zones_pause_all_warning">Voulez-vous suspendre la musique de toutes les pièces ?</string>
+<string name="zone_group_button_text">Groupe</string>
+<string name="zone_menu_select_to_update">Mise à jour logicielle requise</string>
+<string name="zone_menu_select_to_setup_sub">Configurer le SUB</string>
+<string name="zone_menu_select_to_configure">Poursuivre l\'installation</string>
+</resources>

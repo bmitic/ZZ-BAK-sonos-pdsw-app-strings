@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="queue_title">Wachtrij</string>
+<string name="queue_title_tab">Wachtrij</string>
+<string name="edit_queue_title">Wachtrij bewerken</string>
+<string name="queue_subtitle_not_in_use">Niet in gebruik</string>
+<string name="clear_queue_title">Wachtrij wissen</string>
+<string name="clear_queue_text">Weet je zeker dat je de wachtrij leeg wilt maken?</string>
+<string name="save_info_text_existing">Of bestaande afspeellijst vervangen:</string>
+<string name="save_info_text_new">Naam voor afspeellijst invoeren:</string>
+<string name="save_edit_text_hint">Naam Sonos-afspeellijst</string>
+<string name="save_queue_prompt">Afspeellijsten</string>
+<string name="save_queue_alert_title">Sonos-afspeellijst bestaat al</string>
+<string name="save_queue_header">Wachtrij opslaan</string>
+<string name="save_queue_already_exists_1">De Sonos-afspeellijst \'%1$s\' bestaat al. Wil je de inhoud vervangen?</string>
+<string name="replace_button_name">Vervangen</string>
+<string name="save_queue_empty_name_alert_text">Typ of selecteer een naam voor de Sonos-afspeellijst.</string>
+<string name="save_queue_not_enough_space">Sonos heeft niet voldoende vrije ruimte over om de wachtrij op te slaan. Verwijder oude opgeslagen afspeellijsten of wachtrijen uit andere kamers en probeer het opnieuw.</string>
+<string name="save_queue_mobile_tracks_not_saved">Nummers van mobiele apparaten kunnen niet worden opgenomen in Sonos-afspeellijsten en zijn niet opgeslagen.</string>
+<string name="save_queue_only_mobile_tracks">De wachtrij bevat alleen nummers van mobiele apparaten. Deze nummers kunnen niet in Sonos-afspeellijsten worden opgeslagen.</string>
+<string name="save_queue_unexpected_error">Onverwachte fout bij opslaan wachtrij.</string>
+<string name="accessibility_delete">Verwijderen</string>
+<string name="accessibility_reorder">verplaatsen</string>
+<string name="direct_control_playing_from">Afspelen vanaf</string>
+<string name="direct_control_playing_from_accessibility">Afspelen vanaf %1$s</string>
+<string name="direct_control_started_from">Gestart vanaf</string>
+<string name="direct_control_started_from_accessibility">Begonnen vanaf %1$s</string>
+<string name="direct_control_resume_playing_from">Afspelen vanaf hervatten</string>
+<string name="direct_control_last_played_from">Laatst afgespeeld vanaf</string>
+<string name="direct_control_last_played_from_accessibility">Laatst afgespeeld vanaf %1$s</string>
+<string name="direct_control_last_played">Laatst afgespeeld in deze kamer</string>
+<string name="direct_control_next">Volgende: %s</string>
+<string name="direct_control_resume">Hervatten</string>
+<string name="direct_control_disconnect">Sessie beëindigen</string>
+</resources>

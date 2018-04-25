@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu_search">Pesquisar</string>
+<string name="browse_artists_title">Artistas</string>
+<string name="browse_genres_title">Gêneros</string>
+<string name="browse_tracks_title">Músicas</string>
+<string name="browse_composers_title">Compositores</string>
+<string name="browse_albums_title">Álbuns</string>
+<string name="browse_playlists_title">Listas de reprodução</string>
+<string name="browse_podcasts_title">Podcasts</string>
+<string name="browse_local_library_root">Neste dispositivo móvel</string>
+<string name="browse_empty_favorites">Toque o ícone %1$s quando estiver navegando ou reproduzindo músicas para adicionar músicas, estações ou álbuns a Favoritos.</string>
+<string name="browse_more_options">Mais Opções</string>
+<string name="accessibility_browse_explicit_badge_format">%1$s. Explícito.</string>
+<string name="accessibility_item_badge_format">%1$s. Novo.</string>
+<string name="edit_title_1">Editar %s</string>
+<string name="browse_empty_playlist_modal">Para criar uma lista de reprodução, toque em *Nova lista de reprodução* acima.</string>
+</resources>

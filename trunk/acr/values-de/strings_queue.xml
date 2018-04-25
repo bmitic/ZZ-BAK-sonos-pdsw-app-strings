@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="queue_title">Liste</string>
+<string name="queue_title_tab">Liste</string>
+<string name="edit_queue_title">Liste bearbeiten</string>
+<string name="queue_subtitle_not_in_use">Nicht verwendet</string>
+<string name="clear_queue_title">Liste löschen</string>
+<string name="clear_queue_text">Möchtest du die Liste löschen?</string>
+<string name="save_info_text_existing">Oder vorhandene Playliste ersetzen:</string>
+<string name="save_info_text_new">Playlistennamen eingeben:</string>
+<string name="save_edit_text_hint">Sonos-Playlistenname</string>
+<string name="save_queue_prompt">Playlisten</string>
+<string name="save_queue_alert_title">Sonos-Playliste vorhanden</string>
+<string name="save_queue_header">Liste speichern</string>
+<string name="save_queue_already_exists_1">Eine Sonos-Playliste namens „%1$s” ist bereits vorhanden. Möchtest du deren Inhalt ersetzen?</string>
+<string name="replace_button_name">Ersetzen</string>
+<string name="save_queue_empty_name_alert_text">Bitte gib einen Namen für die Sonos-Playliste an.</string>
+<string name="save_queue_not_enough_space">Sonos verfügt nicht über genügend Speicherplatz zum Speichern der Liste. Entferne alte gespeicherte Playlisten oder Listen in anderen Räumen und versuche es erneut.</string>
+<string name="save_queue_mobile_tracks_not_saved">Titel von Mobilgeräten können nicht in Sonos-Playlisten abgelegt werden und wurden nicht gespeichert.</string>
+<string name="save_queue_only_mobile_tracks">Die Liste enthält nur Titel von Mobilgeräten. Diese Titel können nicht in Sonos-Playlisten gespeichert werden.</string>
+<string name="save_queue_unexpected_error">Beim Speichern der Liste ist ein unerwarteter Fehler aufgetreten.</string>
+<string name="accessibility_delete">Löschen</string>
+<string name="accessibility_reorder">Neu sortieren</string>
+<string name="direct_control_playing_from">Wiedergabe von</string>
+<string name="direct_control_playing_from_accessibility">Wiedergabe von „%1$s“</string>
+<string name="direct_control_started_from">Gestartet von</string>
+<string name="direct_control_started_from_accessibility">Gestartet von %1$s</string>
+<string name="direct_control_resume_playing_from">Wiedergabe fortsetzen von</string>
+<string name="direct_control_last_played_from">Letzte Wiedergabe von</string>
+<string name="direct_control_last_played_from_accessibility">Letzte Wiedergabe von „%1$s“</string>
+<string name="direct_control_last_played">Zuletzt in diesem Raum abgespielt</string>
+<string name="direct_control_next">Es folgt: %s</string>
+<string name="direct_control_resume">Fortsetzen</string>
+<string name="direct_control_disconnect">Sitzung beenden</string>
+</resources>

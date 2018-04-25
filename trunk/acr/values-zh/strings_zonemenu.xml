@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="zones_pause_all">全部暂停</string>
+<string name="zones_pause_all_warning">是否要暂停所有房间中的音乐？</string>
+<string name="zone_group_button_text">同步</string>
+<string name="zone_menu_select_to_update">软件需要更新</string>
+<string name="zone_menu_select_to_setup_sub">设置 SUB</string>
+<string name="zone_menu_select_to_configure">继续设置</string>
+</resources>
