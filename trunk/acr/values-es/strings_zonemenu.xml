@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="zones_pause_all">Pausar todos</string>
-<string name="zones_pause_all_warning">¿Deseas pausar la música en todas las habitaciones?</string>
-<string name="zone_group_button_text">Grupo</string>
-<string name="zone_menu_select_to_update">Se requiere actualización de software</string>
-<string name="zone_menu_select_to_setup_sub">Configurar SUB</string>
-<string name="zone_menu_select_to_configure">Continuar con la configuración</string>
-</resources>

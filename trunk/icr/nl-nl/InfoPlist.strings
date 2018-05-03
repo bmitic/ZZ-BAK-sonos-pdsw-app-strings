@@ -1,8 +1,0 @@
-/* Localized versions of Info.plist keys */
-
-NSLocationUsageDescription = "We gebruiken je locatie om de installatie te vereenvoudigen en betere ondersteuning te kunnen bieden.";
-NSLocationAlwaysUsageDescription = "We gebruiken je locatie om de installatie te vereenvoudigen en betere ondersteuning te kunnen bieden.";
-NSLocationWhenInUseUsageDescription = "We gebruiken je locatie om de installatie te vereenvoudigen en betere ondersteuning te kunnen bieden.";
-NSAppleMusicUsageDescription = "Sonos kan gedownloade nummers en podcasts afspelen.";
-NSMicrophoneUsageDescription = "Sonos gebruikt je microfoon voor Trueplay tuning.";
-NSBluetoothPeripheralUsageDescription = "Sonos gebruikt Bluetooth om nabije speakers te vinden.";

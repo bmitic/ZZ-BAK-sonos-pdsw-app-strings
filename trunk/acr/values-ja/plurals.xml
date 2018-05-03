@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<plurals name="accessibility_tab_badge_format">
-    <item quantity="other">%1$s. %2$d アイテム。</item>
-</plurals>
-<plurals name="alarm_snoozed_duration_minutes">
-    <item quantity="other">%d分</item>
-</plurals>
-</resources>

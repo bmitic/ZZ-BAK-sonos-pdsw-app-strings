@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mrp_play_to_player">SONOS</string>
+    <string name="mrp_play_to_group">SONOS</string>
+    <string name="mrp_error_code">Error %1$d</string>
+    <string name="mrp_unsupported_intent_category">Sonos does not support this media type.</string>
+    <string name="mrp_group_not_found_for_route">Cannot connect to the Sonos group \'%1$s\'.</string>
+    <string name="mrp_invalid_session_id">Invalid session. Please reconnect to the Sonos group to resume playback.</string>
+    <string name="mrp_cannot_play_to_sonos">Cannot play to Sonos.</string>
+    <string name="mrp_no_item_specified_in_remove_action">This song could not be removed from the queue because it could not be found.</string>
+    <string name="mrp_cannot_seek_in_item">Cannot seek because this song is not currently playing.</string>
+</resources>

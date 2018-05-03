@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="zones_pause_all">Pausa alla</string>
-<string name="zones_pause_all_warning">Vill du pausa musiken i alla rum?</string>
-<string name="zone_group_button_text">Grupp</string>
-<string name="zone_menu_select_to_update">Programuppdatering krävs</string>
-<string name="zone_menu_select_to_setup_sub">Konfigurera SUB</string>
-<string name="zone_menu_select_to_configure">Fortsätt installationen</string>
-</resources>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="zones_pause_all">Alles pauzeren</string>
-<string name="zones_pause_all_warning">Wil je de muziek in alle kamers pauzeren?</string>
-<string name="zone_group_button_text">Groep</string>
-<string name="zone_menu_select_to_update">Software-update vereist</string>
-<string name="zone_menu_select_to_setup_sub">SUB installeren</string>
-<string name="zone_menu_select_to_configure">Doorgaan met installeren</string>
-</resources>
