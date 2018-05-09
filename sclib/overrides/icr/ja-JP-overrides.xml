@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">ワイヤレス ネットワーク上で起動させるためにSonosを設定してください。</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Sonosは、最良のワイヤレス チャンネルを事前設定します。上書きするには、新しいチャンネルを選択してください。</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonosは、プレイヤー ラインインおよびSonos Dockについて最良のオーディオ圧縮を事前設定します。上書きするには、新しい設定を選択してください。</String>
+<String id="STR_MusicLibraryIndexing">ミュージック ライブラリ - インデックス化しています…</String>
+<String id="STR_SonosPlaylists">Sonosプレイリスト</String>
+<String id="STR_NoMusic">音楽がありません</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_MSWiz_Password_Body_1_Fmt">新しいパスワードを入力</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">このコントローラーのデフォルトアカウントを変更する場合は、メインメニューから%1$sアカウントの名前をタップしてください。</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/icr</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Body_1">以下のボタンをタップしてApp Storeにアクセスし、最新のSonosコントローラアップデートを入手してください。</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Body_1_TestFlight">TestFlightから、このコントローラの新しいバージョンをダウンロードできます。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">App Storeから最新のSonosコントローラをダウンロードしてください。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">App Storeから最新のSonosコントローラをダウンロードしてください。</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Title">Sonosアプリのアップデートが必要です</String>
+<String id="SCLIB_STR_LC_Reset_String1">アプリを閉じてから、もう一度開きます。</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="SCLIB_STR_Queue_Title">予約リスト</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">予約リスト(未使用)</String>
+<String id="STR_ArtistInfo">アーティストを参照</String>
+<String id="STR_AuthorInfo">著者を参照</String>
+<String id="STR_AllAlbumsArtist">アーティストを参照</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1曲</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2曲</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d曲</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">プレイリストの名前変更</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">新しいプレイリスト</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">曲をこのプレイリストに追加するには、音楽の再生中か参照中に[⋯]をタップし、*Sonosプレイリストに追加*を選択します。</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_NewPlaylist" id="SCLIB_STR_EmptyPlaylistContainerMessage_AddToPlaylist">Sonosプレイリストを作成するには、下の*新しいプレイリスト*を選択します。</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">[Sonos プレイリスト]を作成するには、上記の[⋯]をタップします。</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">マイSonosに局、プレイリスト、アルバムを追加するにはWebブラウズ中または音楽再生中に*マイSonosに追加する*を選択してください。</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">[マイSonos]から「%1$s」を削除しました</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">[マイSonos]から「%1$s」を削除できませんでした</String>
+<String id="RHHSTR_SIE_ERROR">「%1$s」は、利用不可になりました。音楽ファイルが保存されているデバイスの電源をONにできない、あるいは、パスが変更されている可能性があります。
+設定 &gt; ミュージック ライブラリの管理 &gt;  ミュージックライブラリ設定から、パス名を確認してください。</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">アプリ設定</String>
+<String id="SCLIB_STR_LC_NoNetwork_String_No_Button">デバイスの [設定] &gt; [Wi-Fi] 画面を表示します。</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">デバイスの [設定] &gt; [Wi-Fi] 画面を表示し、Sonosが存在しているネットワークへ変更します。</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">アップデートを確認</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">マイSonosシステムについて</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Wi-Fi設定に移動する。</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">プレイヤーの設定</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">*%1$s* ワイヤレスネットワーク上で、Sonosを検出しました。</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">*%1$s* ワイヤレスネットワーク上で、新しいSonosスピーカーを検出しました。</String>
+<String id="STR_AddFavorite">マイSonosに追加</String>
+<String id="SCLIB_STR_DeleteFavorite">[マイSonos]から削除</String>
+<String id="STR_AddToFavoritesAdded">&quot;%1$s&quot;がマイSonosに追加されました。</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot;がマイSonosに追加されました。
+
+マイSonosに無料スロットが%2$d残っています。</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">&quot;%1$s&quot;がマイSonosに追加されました。
+
+マイSonosに無料スロットが１つだけ残っています。</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">&quot;%1$s&quot;がマイSonosに追加されました。
+
+全てのお気に入りスロットが使用済みです。</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">&quot;%1$s&quot;はマイSonosにすでに追加されているため再度追加されません。</String>
+<String id="STR_AddToFavoritesFullError">マイSonosに追加できません。空きスロットが残っていません。
+
+新しいアイテム用のスペースを空けるために、マイSonosから既存のアイテムを削除できます。</String>
+<String id="STR_AddToFavoritesError">マイSonosに&quot;%1$s&quot;を追加できません。</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">マイSonosに追加できません。新しいアイテム用のスペースを空けるには、既存アイテムを削除したり、マイ ラジオ ステーションやマイ ラジオ番組からアイテムを削除することを考慮してください。</String>
+<String id="SCLIB_STR_RenameFavorite">アイテムの名前を変更する</String>
+<String id="STR_AddFavoriteStation">マイSonosにステーションを追加</String>
+<String id="STR_AddFavoriteTrack">マイSonosに曲を追加</String>
+<String id="STR_AddFavoriteAlbum">マイSonosにアルバムを追加</String>
+<String id="STR_AddFavoriteArtist">マイSonosにアーティストを追加</String>
+<String id="STR_AddFavoritePlaylist">マイSonosにプレイリストを追加</String>
+<String id="STR_AddFavoriteShow">マイSonosに番組を追加</String>
+<String id="STR_AddFavoriteBook">マイSonosに本を追加</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Back_Button">戻る</String>
+<String id="SCLIB_STR_SetupWiz_RegEmailOpts_Input_2_CheckboxVO">あなたはプライバシーステートメントに記載されている通りに、個人情報の使用を認めます</String>
+<String id="SCLIB_STR_Wiz_Sec_Reg_Account_NewAccount_PrivacyStatement_Input_CheckboxVO">私はSonosプライバシーステートメントに同意します</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+</Strings>

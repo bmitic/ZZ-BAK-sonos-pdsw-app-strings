@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String Category="None" UniqueId="browse/searchboxspecialized.baml:SearchMusicLibrary_1:System.String.$Content">搜索音乐库</String>
+<String Category="Title" UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">闹钟</String>
+<String Category="Button" UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">完成</String>
+<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_3:System.Windows.Documents.Run.Text">管理 Sonos 闹钟</String>
+<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">地点</String>
+<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">时间</String>
+<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content">开</String>
+<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">添加</String>
+<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_2:System.Windows.Controls.ContentControl.Content">编辑</String>
+<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_3:System.Windows.Controls.ContentControl.Content">移除</String>
+<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_1:System.Windows.Documents.Run.Text">单击“添加”以添加新闹钟。</String>
+<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_2:System.Windows.Documents.Run.Text">单击“移除”以删除选定闹钟。</String>
+<String Category="Title" UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">键盘快捷方式</String>
+<String Category="Button" UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">完成</String>
+<String Category="Text" UniqueId="main/keyboardshortcutwindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">您的 Sonos 系统支持以下键盘快捷方式：</String>
+<String Category="Button" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">完成</String>
+<String Category="Button" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">取消</String>
+<String Category="Title" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:System.Windows.Window.Title">保存队列</String>
+<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">该队列将另存为 Sonos 播放列表。</String>
+<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text">输入新播放列表名称：</String>
+<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">或选择现有 Sonos 播放列表进行替换：</String>
+<String Category="Label" UniqueId="nowplaying/groupvolumepopover.baml:PART_GroupMuteVolume_Copy_1:Sonos.Controller.Desktop.NowPlaying.MuteVolumeControl.LabelText">组音量</String>
+<String Category="Button" UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">名称</String>
+<String Category="Button" UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">路径</String>
+<String Category="Button" UniqueId="utilities/messagewindow.baml:yesButton_1:System.Windows.Controls.ContentControl.Content">是</String>
+<String Category="Button" UniqueId="utilities/messagewindow.baml:noButton_1:System.Windows.Controls.ContentControl.Content">否</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_CURRENT_USES_PARMNUM_1:System.String.$Content">共享参数“当前使用次数”无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_REMOVE_RIGHT_1:System.String.$Content">无法为来宾帐户移除 %s。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_APPLY_PASSWORD_FAILED_1:System.String.$Content">无法应用新密码</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_TYPE_PARMNUM_1:System.String.$Content">此共享类型参数无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_NO_ADVAPIDLL_1:System.String.$Content">无法加载 advapi32.dll。 LSA 设置不可用。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_FILE_SD_PARMNUM_1:System.String.$Content">此共享安全描述符参数无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_UNKNOWN_PARMNUM_1:System.String.$Content">某个共享参数无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SONOS_USER_FAILED_1:System.String.$Content">无法创建 Sonos 用户。
+确保您具有此计算机的管理员权限。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_PERMISSION_FAILED_1:System.String.$Content">无法以正确的权限添加共享 '%s'</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_PARM_ERR_CREATE_SHARE_FAILED_1:System.String.$Content">无法添加共享 '%s'。%s</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content">无法添加共享 '%s'</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_NETWORK_PATH_1:System.String.$Content">
+
+已选择网络路径。
+
+不能选择网络上的文件夹进行共享。
+
+请选择电脑上的文件夹，或连接到电脑的外部硬盘驱动器上的文件夹。
+
+要选择网络上的共享文件夹，请点按“上一步”并选择&quot;在联网设备上…&quot;。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_REMOVE_SHARE_1:System.String.$Content">无法移除共享“%s”；</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_FULLNAME_1:System.String.$Content">Sonos 无线高保真系统</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_1:System.String.$Content">Sonos</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_MAX_USES_PARMNUM_1:System.String.$Content">共享参数“最大使用次数”无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PASSWD_PARMNUM_1:System.String.$Content">此共享密码参数无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PERMISSIONS_PARMNUM_1:System.String.$Content">此共享权限参数无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_NETNAME_PARMNUM_1:System.String.$Content">共享名称“%s”无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PATH_PARMNUM_1:System.String.$Content">共享路径“%s”无效。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GET_SHARE_INFO_FAILED_1:System.String.$Content">无法为 %s（在 %s 上）获取共享信息
+</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_COMMENT_1:System.String.$Content">Sonos 用于访问此计算机上的音乐文件夹的帐户</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_SHARE_PERMISSIONS_1:System.String.$Content">无法验证共享权限。
+unc 路径 %s 不是有效的 unc 路径，或不是此计算机上的共享路径。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_ADD_RIGHT_1:System.String.$Content">无法为来宾帐户添加 %s。</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SONOS_JOIN_GROUP_FAILED_1:System.String.$Content">无法将 Sonos 用户添加到“%s”组</String>
+<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_REMARK_PARMNUM_1:System.String.$Content">此共享备注参数无效。</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">渐入渐出关闭</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">渐入渐出打开</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_7:System.Windows.Controls.ContentControl.Content">音乐 EQ</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">重复播放关闭</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content">重复全部</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_8:System.Windows.Controls.ContentControl.Content">重复歌曲</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_5:System.Windows.Controls.ContentControl.Content">随机播放关闭</String>
+<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_6:System.Windows.Controls.ContentControl.Content">随机播放打开</String>
+<String Category="Text" UniqueId="wizard/setupdatatemplates.baml:pageTitle_2:System.Windows.Controls.TextBlock.Text">选择一种语言：</String>
+<String Category="Title" UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Sonos 系统错误日志</String>
+<String Category="Button" UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">完成</String>
+<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PLAY_FORMAT_1:System.String.$Content">播放 {0}(_P)</String>
+<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PAUSE_FORMAT_1:System.String.$Content">暂停 {0}(_P)</String>
+<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_STOP_FORMAT_1:System.String.$Content">停止 {0}(_P)</String>
+<String Category="None" UniqueId="zones/strings.baml:NEXT_MUTE_STATE_MUTE_FORMAT_1:System.String.$Content">对 {0} 静音(_M)</String>
+<String Category="None" UniqueId="zones/strings.baml:NEXT_MUTE_STATE_UNMUTE_FORMAT_1:System.String.$Content">不对 {0} 静音(_M)</String>
+<String Category="None" UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content">{0} EQ(_E)…</String>
+<String Category="None" UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content">{0} 设置(_S)…</String>
+<String Category="None" UniqueId="zones/strings.baml:GROUP_1:System.String.$Content">同步</String>
+<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TITLE_1:System.String.$Content">未选择房间</String>
+<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TEXT_1:System.String.$Content">是否要停止所有房间中播放的音乐？</String>
+<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content">[无音乐]</String>
+<String Category="None" UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content">单击“完成”来选择音乐</String>
+<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">确认</String>
+<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_PAUSE_1:System.String.$Content">暂停</String>
+<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content">是否确实要暂停在所有房间中播放音乐？</String>
+<String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content">显示其他 {0} 个播放器…</String>
+<String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content">显示更多…</String>
+<String Category="None" UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content">显示更少…</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">单击更新…</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_SUB_1:System.String.$Content">选择设置 SUB</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_UNUSED_1:System.String.$Content">选择设置 {0}</String>
+<String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content">当前房间组包含</String>
+<String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content">使用向上和向下箭头在房间组中进行切换。按空格键打开分组对话框。</String>
+<String Category="None" UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content">使用向上和向下箭头键在房间组之间切换。按空格键设置此设备。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_NEXT_BUTTON_1:System.String.$Content">提交</String>
+<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_FINISH_BUTTON_1:System.String.$Content">完成</String>
+<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TRY_AGAIN_BUTTON_1:System.String.$Content">再试一次</String>
+<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TITLE_1:System.String.$Content">提交支持诊断信息</String>
+<String Category="None" UniqueId="wizard/strings.baml:NormalWizardNextButtonLabel_1:System.String.$Content">下一步</String>
+<String Category="None" UniqueId="wizard/strings.baml:NormalWizardDoneButtonLabel_1:System.String.$Content">完成</String>
+<String Category="None" UniqueId="wizard/strings.baml:NormalWizardBackButtonLabel_1:System.String.$Content">上一步</String>
+<String Category="None" UniqueId="wizard/strings.baml:WizardTextFieldLabel_1:System.String.$Content">{0}：</String>
+<String Category="None" UniqueId="wizard/strings.baml:RegistrationEmailLabel_1:System.String.$Content">电子邮箱：</String>
+<String Category="None" UniqueId="wizard/strings.baml:RegistrationEmailConfirmLabel_1:System.String.$Content">确认电子邮件：</String>
+<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupLoginLabel_1:System.String.$Content">用户名</String>
+<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupPasswordLabel_1:System.String.$Content">密码</String>
+<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupAddingTitle_1:System.String.$Content">添加帐户</String>
+<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupCompleteTitle_1:System.String.$Content">设置完成</String>
+<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupAcceptTermsLabel_1:System.String.$Content">我已阅读并同意上述条款和条件</String>
+<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupDeclineTermsLabel_1:System.String.$Content">我不接受上述条款和条件</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupTitle_1:System.String.$Content">音乐库设置</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupText1_1:System.String.$Content">现在，设置助理将帮助您将音乐添加到 Sonos 系统的音乐库中。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupText2_1:System.String.$Content">您可以从此计算机中的文件夹或已配置为共享的网络文件夹（如：Apple Time Capsule 或 NAS 驱动器）添加音乐。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNowLabel_1:System.String.$Content">设置我的音乐</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupLaterLabel_1:System.String.$Content">现在不用</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesTitle_1:System.String.$Content">从 iTunes 添加音乐</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesText1_1:System.String.$Content">设置助理在您的 iTunes 媒体文件夹中找到音乐。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesText2_1:System.String.$Content">是否要将 iTunes 音乐添加到 Sonos 系统中？</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesYesText_1:System.String.$Content">是</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesNoText_1:System.String.$Content">否</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherTitle_1:System.String.$Content">添加其他音乐</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherText_1:System.String.$Content">除 iTunes 外，是否还要将其他音乐添加到 Sonos 系统中？</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherYesText_1:System.String.$Content">是</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherNoText_1:System.String.$Content">否</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectTitle_1:System.String.$Content">添加音乐文件夹</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectText_1:System.String.$Content">您想在 Sonos 中播放的音乐位于哪个位置？</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabel_1:System.String.$Content">我的 {0} 文件夹</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabelSub_1:System.String.$Content">{0} 文件夹通常是 iTunes® 存储音乐的地方。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryMusicFolderAlreadySharedSub_1:System.String.$Content">您的 {0} 文件夹已添加到 Sonos。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalFolderLabel_1:System.String.$Content">另一个与我电脑连接的文件夹或驱动器</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkFolderLabel_1:System.String.$Content">联网的设备（外部NAS 驱动）</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsTitle_1:System.String.$Content">用户名和密码</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsText_1:System.String.$Content">请为包含您音乐的网络驱动器输入用户名和密码（如有）：</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsUserNameLabel_1:System.String.$Content">用户名：</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content">密码：</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content">调整文件共享设置</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content">为使 Sonos 系统从该计算机播放音乐，设置助理需要调整以下 Windows 设置：</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">将 Windows 文件和打印机共享添加到 Windows 防火墙例外列表中。如不进行这些更改，该计算机中的音乐将无法在您的 Sonos 系统中播放。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content">将 Windows 睡眠设置更改为“从不”。如不进行此更改，该计算机中的音乐则可能无法一直在您的 Sonos 系统中播放。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content">音乐库设置</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content">正在向您的 Sonos 系统中添加音乐。该操作将在您启动 Sonos 控制器后继续，而且，对于大型音乐集的操作可能需要花费几分钟时间。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText2_1:System.String.$Content">今后，您可以在“设置”中的“管理音乐库”中添加其他音乐。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText3_1:System.String.$Content">如果您想从其他计算机中添加音乐，请在该计算机上安装 Sonos 控制器。</String>
+<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredTitle_1:System.String.$Content">您的 Sonos 系统已注册。</String>
+<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredText1_1:System.String.$Content">要查看或更改您的注册偏好，请在 %1$s 登录您的客户帐户。</String>
+<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredText2_1:System.String.$Content">登录时需要提供您的 Sonos 帐户密码。原始密码已在您注册时发送到您的电子邮箱。</String>
+<String Category="None" UniqueId="wizard/strings.baml:LibraryAddingShareTitle_1:System.String.$Content">正在添加音乐文件夹</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfirmCancelSetupMessage_1:System.String.$Content">是否确实要退出设置助理？</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfirmCancelSetupTitle_1:System.String.$Content">确认</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareTitle_1:System.String.$Content">添加音乐时出错</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessage_1:System.String.$Content">Sonos 无法添加音乐文件夹</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content">请检查该文件夹的路径，如有需要，请再检查用户名和密码是否正确。</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content">原因： {0}</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content">未知错误。</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Error getting hostnameZXZ</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Could not write to share fileZXZ</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content">确认</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content">是否确实要删除选定的文件夹？</String>
+<String Category="None" UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content">无</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicServiceMergeTrialYesText_1:System.String.$Content">是</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicServiceMergeTrialNoText_1:System.String.$Content">否</String>
+<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardTitle_1:System.String.$Content">Sonos 设置助理</String>
+<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardNextButton_1:System.String.$Content">下一步</String>
+<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardNextIsRestartButton_1:System.String.$Content">重新启动</String>
+<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardPreviousButton_1:System.String.$Content">上一步</String>
+<String Category="None" UniqueId="wizard/strings.baml:ContinueIsReset_1:System.String.$Content">单击“重新启动”以重启控制器并继续设置。</String>
+<String Category="None" UniqueId="wizard/strings.baml:ExitButtonLabel_1:System.String.$Content">退出</String>
+<String Category="None" UniqueId="wizard/strings.baml:CancelButtonLabel_1:System.String.$Content">取消</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathTitle_1:System.String.$Content">从您的计算机或外部驱动器添加音乐</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathText_1:System.String.$Content">单击“浏览”可选取含有音乐的文件夹：</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathTitle_1:System.String.$Content">从您的联网共享添加音乐</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathText_1:System.String.$Content">键入联网共享的路径：</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleTitle_1:System.String.$Content">示例：</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText_1:System.String.$Content">\\\\我的其他电脑\\共享\\音乐</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText2_1:System.String.$Content">\\\\我的联网存储\\共享\\音乐</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectPathBrowseButtonText_1:System.String.$Content">浏览</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicFolderLibrarySetupCompleteTitle_1:System.String.$Content">音乐库设置</String>
+<String Category="None" UniqueId="wizard/strings.baml:FolderIsSetupText_1:System.String.$Content">&quot;{0}&quot; 已在 Sonos 系统上设置。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicBeingAddedText_1:System.String.$Content">正在向您的 Sonos 系统中添加音乐。完成此操作可能需要几分钟时间。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupCompleteTitle_1:System.String.$Content">音乐库设置</String>
+<String Category="None" UniqueId="wizard/strings.baml:ManageMusicLibraryNoticeText_1:System.String.$Content">今后，您可以通过“设置”中的“管理音乐库”将音乐添加到 Sonos。</String>
+<String Category="None" UniqueId="wizard/strings.baml:AddAnotherComputerNoticeText_1:System.String.$Content">如果您想从其他计算机中添加音乐，请在该计算机上安装 Sonos 控制器。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdateProgress_1:System.String.$Content">更新进度</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadingController_1:System.String.$Content">正在更新控制器：正在下载</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdatingController_1:System.String.$Content">正在更新控制器：正在保存更新</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateCautionText_1:System.String.$Content">注意：在更新过程中请不要退出控制器应用程序或关闭电源。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateAfterCompleteText_1:System.String.$Content">下载完成后，安装程序会更新控制器。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedTitle_1:System.String.$Content">更新失败</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailed_1:System.String.$Content">Sonos 控制器安装程序下载失败。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalError_1:System.String.$Content">出现内部错误 (\#10000)。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUrlParse_1:System.String.$Content">出现内部错误 (\#10001)。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorNoUrl_1:System.String.$Content">出现内部错误 (\#10002)。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedFileMissing_1:System.String.$Content">未在预期位置找到安装程序文件，或控制器不具备访问该文件的权限。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUnsafeExecutable_1:System.String.$Content">控制器更新失败。请再次尝试更新。如果该消息再次出现，请联系 Sonos 客户服务部门获取帮助。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInstallFailed_1:System.String.$Content">Sonos 控制器安装失败。无法继续进行其余的更新。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceededTitle_1:System.String.$Content">更新进度</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceeded_1:System.String.$Content">Sonos 控制器将关闭并进行更新。重新启动后，您的 Sonos 系统将进行其余的更新。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersTitle_1:System.String.$Content">Sonos 当前正在其他帐户下运行</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine1_1:System.String.$Content">Sonos 控制器当前正在您电脑上的其他用户帐户下运行。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine2_1:System.String.$Content">安装前，请退出在其他帐户下运行的 Sonos 控制器。</String>
+<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateErrorCode_1:System.String.$Content">错误代码：{0}</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWindowMessage_1:System.String.$Content">Sonos 会调整您的防火墙设置。Windows 可能会提示您是否允许此更改。单击下面的“确定”后，请在随后打开的 Windows 确认对话框中单击“是”。</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWindowTitle_1:System.String.$Content">配置防火墙</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardPreLink_1:System.String.$Content">您的防火墙可能需要进行调整。</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardLink_1:System.String.$Content">单击这里配置您的防火墙</String>
+<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardPostLink_1:System.String.$Content">.</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionTitle_1:System.String.$Content">共享名称正被使用</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionText_1:System.String.$Content">该计算机上的另一个文件夹已经添加到 {0} 名下的音乐库中。请输入不同的名称以便 Sonos 对它们进行区分。这不会更改文件夹的实际名称。</String>
+<String Category="None" UniqueId="wizard/strings.baml:AutomationShares_1:System.String.$Content">共享</String>
+<String Category="None" UniqueId="wizard/strings.baml:AutomationConnectImageString_1:System.String.$Content">同时按下“静音”和“增大音量”按钮，或按下“连接”按钮（如果您的设备没有“静音”和“增大音量”按钮）。</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorFailedCreateWindowsShare_1:System.String.$Content">创建 Windows 共享失败： {0}</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorPathMissingWindowsShare_1:System.String.$Content">路径 {0} 不存在，无法创建共享</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationTitle_1:System.String.$Content">Windows 防火墙</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody_1:System.String.$Content">为确保设置成功，您的 Windows 防火墙必须配置为与 Sonos 相容。</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody2_1:System.String.$Content">请选择“配置 Windows 防火墙”，根据提示，让 Sonos 更改 Windows 防火墙。</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput1_1:System.String.$Content">配置 Windows 防火墙</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput2_1:System.String.$Content">不配置 Windows 防火墙</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationSuccessfulBody_1:System.String.$Content">已成功配置您的 Windows 防火墙。</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody1_1:System.String.$Content">未成功配置您的 Windows 防火墙。请单击“{0}”以重试。</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody2_1:System.String.$Content">如果在未成功配置 Windows 防火墙的情况下继续，您可能会在完成 Sonos 设置时遇到问题。</String>
+<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationSkippedBody_1:System.String.$Content">您选择了不配置 Windows 防火墙。如果继续，您可能会在完成 Sonos 设置时遇到问题。</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content">{0}:{1:00}:{2:00}</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_MINUTES_SECONDS_FORMAT_1:System.String.$Content">{0}:{1:00}</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content">-{0}:{1:00}:{2:00}</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_MINUTES_SECONDS_FORMAT_1:System.String.$Content">-{0}:{1:00}</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationMute_1:System.String.$Content">静音</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationNext_1:System.String.$Content">下一歌曲</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationPrevious_1:System.String.$Content">上一歌曲</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationInfo_1:System.String.$Content">信息和选项</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationPlayPause_1:System.String.$Content">播放/暂停</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationVolume_1:System.String.$Content">音量</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationScrubber_1:System.String.$Content">清除歌曲</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationRepeat_1:System.String.$Content">重复</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationShuffle_1:System.String.$Content">随机播放</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationCrossfade_1:System.String.$Content">渐入渐出</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationMusicEQ_1:System.String.$Content">音乐均衡</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationSearch_1:System.String.$Content">搜索框</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:NightSoundTooltip_1:System.String.$Content">夜间音质</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:SpeechEnhancementTooltip_1:System.String.$Content">语音增强</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationQuickSkipBackward_1:System.String.$Content">后退 30 秒</String>
+<String Category="None" UniqueId="nowplaying/strings.baml:AutomationQuickSkipForward_1:System.String.$Content">前进 30 秒</String>
+<String Category="Button" UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">完成</String>
+<String Category="Button" UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">取消</String>
+<String Category="Text" UniqueId="zones/groupingmusicpicker.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">选择要在选定的房间中播放的音乐</String>
+<String Category="Title" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:System.Windows.Window.Title">组房间</String>
+<String Category="Button" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">完成</String>
+<String Category="Button" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">取消</String>
+<String Category="Text" UniqueId="zones/groupingdialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">选定的房间将播放：</String>
+<String Category="Text" UniqueId="zones/groupingdialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">选择要进行分组的房间：</String>
+<String Category="Button" UniqueId="zones/groupingdialog.baml:unselectAllButton_1:System.Windows.Controls.ContentControl.Content">取消全部选择</String>
+<String Category="Button" UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content">全选 - 派对模式</String>
+<String Category="Title" UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title">设置</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">房间设置用于</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">您的 Sonos 系统中当前没有 Sonos 播放器。您需要至少一个 Sonos 播放器才可以播放音乐。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">要添加 Sonos 播放器，请从菜单栏中选择“管理”&gt;“添加播放器或 SUB”。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">设置</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text">当前，您的 Sonos 系统中没有 BOOST。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text">要添加 BOOST，请从菜单栏中选择“管理”&gt;“添加 BOOST 或 BRIDGE”。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text">DOCK 设置</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text">当前，您的 Sonos 系统中没有 DOCK。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text">要添加 DOCK，请从菜单栏中选择“管理”&gt;“添加播放器或 SUB”。</String>
+<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header">音乐库</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">音乐库设置</String>
+<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header">文件夹</String>
+<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_3:System.Windows.Controls.HeaderedContentControl.Header">高级</String>
+<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_4:System.Windows.Controls.HeaderedContentControl.Header">我的音乐服务</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text">音乐服务设置</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text">我的 Sonos 服务帐户</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">单击“添加”可将新服务添加到 Sonos 系统。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_4:System.Windows.Controls.TextBlock.Text">单击 &quot;Sonos Labs&quot; 可试用 Sonos 系统上即将发布的服务。</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">服务名称</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">名称</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content">帐户登录</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">添加</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_2:System.Windows.Controls.ContentControl.Content">Sonos Labs</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content">移除</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content">替换</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content">重新验证</String>
+<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header">日期和时间</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text">日期和时间设置</String>
+<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header">高级</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text">高级设置</String>
+<String Category="Title" UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title">关于</String>
+<String Category="None" UniqueId="about/aboutwindow.baml:SonosController_1:System.String.$Content">Sonos PC 专用控制器</String>
+<String Category="None" UniqueId="about/aboutwindow.baml:SonosControllerAlpha_1:System.String.$Content">Sonos PC 专用控制器 (ALPHA)</String>
+<String Category="None" UniqueId="about/aboutwindow.baml:SonosControllerBeta_1:System.String.$Content">Sonos PC 专用控制器 (测试版)</String>
+<String Category="Text" UniqueId="about/aboutwindow.baml:Run_2:System.Windows.Documents.Run.Text">版本：</String>
+<String Category="Text" UniqueId="about/aboutwindow.baml:Run_3:System.Windows.Documents.Run.Text">内部版本：</String>
+<String Category="Text" UniqueId="about/aboutwindow.baml:Run_4:System.Windows.Documents.Run.Text">Sonos ID：</String>
+<String Category="Button" UniqueId="about/aboutwindow.baml:submitDiagnosticsButton_1:System.Windows.Controls.ContentControl.Content">提交诊断信息…</String>
+<String Category="Menu" Comments="This is the root of the File menu" UniqueId="main/mainmenu.baml:MenuItem_1:System.Windows.Controls.HeaderedItemsControl.Header">文件(_F)</String>
+<String Category="Menu" Comments="This item belongs to the File menu" UniqueId="main/mainmenu.baml:MenuItem_34:System.Windows.Controls.HeaderedItemsControl.Header">显示迷你控制器(_M)</String>
+<String Category="Menu" Comments="This item belongs to the File menu" UniqueId="main/mainmenu.baml:MenuItem_2:System.Windows.Controls.HeaderedItemsControl.Header">退出(_X)</String>
+<String Category="Menu" Comments="This is the root of the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_23:System.Windows.Controls.HeaderedItemsControl.Header">编辑(_E)</String>
+<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_24:System.Windows.Controls.HeaderedItemsControl.Header">剪切(_T)</String>
+<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header">复制(_C)</String>
+<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header">粘贴(_P)</String>
+<String Category="Menu" Comments="This is the root of the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header">管理(_M)</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header">添加播放器或 SUB(_A)…</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header">添加 _BOOST 或 BRIDGE…</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header">音乐库设置(_L)…</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header">音乐服务设置(_V)…</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header">添加电台(_R)…</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_29:System.Windows.Controls.HeaderedItemsControl.Header">刷新本地共享音乐(_M)</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_5:System.Windows.Controls.HeaderedItemsControl.Header">检查软件更新(_C)…</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header">更改语言(_G)…</String>
+<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header">设置(_S)…</String>
+<String Category="Menu" Comments="This is the root of the Help menu" UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header">帮助(_H)</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header">我的 Sonos 账号…(_M)</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header">Sonos 产品商店(_P)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header">键盘快捷方式(_K)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header">Sonos 系统帮助(_H)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_32:System.Windows.Controls.HeaderedItemsControl.Header">技术支持网站(_T)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_15:System.Windows.Controls.HeaderedItemsControl.Header">错误日志(_E)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_96:System.Windows.Controls.HeaderedItemsControl.Header">提交测试版反馈(_B)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_9:System.Windows.Controls.HeaderedItemsControl.Header">提交诊断(_D)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_99:System.Windows.Controls.HeaderedItemsControl.Header">忘记当前 Sonos 系统(_F)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_10:System.Windows.Controls.HeaderedItemsControl.Header">重置控制器(_R)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_11:System.Windows.Controls.HeaderedItemsControl.Header">关于 Sonos 系统(_A)…</String>
+<String Category="Text" UniqueId="utilities/timepicker.baml:TextBox_1:System.Windows.Controls.TextBox.Text">1</String>
+<String Category="Text" UniqueId="utilities/timepicker.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">:</String>
+<String Category="Text" UniqueId="utilities/timepicker.baml:TextBox_2:System.Windows.Controls.TextBox.Text">01</String>
+<String Category="ComboBox" UniqueId="utilities/timepicker.baml:ComboBoxItem_1:System.Windows.Controls.ContentControl.Content">上午</String>
+<String Category="ComboBox" UniqueId="utilities/timepicker.baml:ComboBoxItem_2:System.Windows.Controls.ContentControl.Content">下午</String>
+<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderTitle_1:System.String.$Content">Sonos 上的“我的音乐”文件夹</String>
+<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderText1_1:System.String.$Content">单击“添加”可将新音乐文件夹添加到 Sonos 系统。</String>
+<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderText2_1:System.String.$Content">单击“移除”以移除突出显示的文件夹。</String>
+<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderAdd_1:System.String.$Content">添加</String>
+<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderEdit_1:System.String.$Content">编辑</String>
+<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderRemove_1:System.String.$Content">移除</String>
+<String Category="None" UniqueId="utilities/strings.baml:IndexingMessage_1:System.String.$Content">正在更新音乐库…</String>
+<String Category="None" UniqueId="utilities/strings.baml:IndexingMessageLine2_1:System.String.$Content">请稍候。</String>
+<String Category="None" UniqueId="utilities/strings.baml:KeyboardShortcutNameHeader_1:System.String.$Content">功能</String>
+<String Category="None" UniqueId="utilities/strings.baml:KeyboardShortcutRepresentationHeader_1:System.String.$Content">快捷方式</String>
+<String Category="None" UniqueId="utilities/strings.baml:PlayPause_1:System.String.$Content">播放/暂停</String>
+<String Category="None" UniqueId="utilities/strings.baml:PreviousTrack_1:System.String.$Content">上一歌曲</String>
+<String Category="None" UniqueId="utilities/strings.baml:NextTrack_1:System.String.$Content">下一歌曲</String>
+<String Category="None" UniqueId="utilities/strings.baml:QuickSkipBackward_1:System.String.$Content">后退 30 秒</String>
+<String Category="None" UniqueId="utilities/strings.baml:QuickSkipForward_1:System.String.$Content">前进 30 秒</String>
+<String Category="None" UniqueId="utilities/strings.baml:ToggleShuffle_1:System.String.$Content">切换随机播放</String>
+<String Category="None" UniqueId="utilities/strings.baml:ToggleRepeat_1:System.String.$Content">切换重复播放</String>
+<String Category="None" UniqueId="utilities/strings.baml:ToggleCrossfade_1:System.String.$Content">切换渐入渐出</String>
+<String Category="None" UniqueId="utilities/strings.baml:ToggleMute_1:System.String.$Content">对当前房间/组启用/禁用静音</String>
+<String Category="None" UniqueId="utilities/strings.baml:MuteAll_1:System.String.$Content">全部静音</String>
+<String Category="None" UniqueId="utilities/strings.baml:VolumeUp_1:System.String.$Content">增大音量</String>
+<String Category="None" UniqueId="utilities/strings.baml:VolumeDown_1:System.String.$Content">减小音量</String>
+<String Category="None" UniqueId="utilities/strings.baml:PlayNow_1:System.String.$Content">立即播放选定的歌曲</String>
+<String Category="None" UniqueId="utilities/strings.baml:PlayNext_1:System.String.$Content">下一首播放选定的歌曲</String>
+<String Category="None" UniqueId="utilities/strings.baml:AddToQueue_1:System.String.$Content">稍后播放选好的曲目</String>
+<String Category="None" UniqueId="utilities/strings.baml:ReplaceQueue_1:System.String.$Content">使用选定的曲目替换队列</String>
+<String Category="None" UniqueId="utilities/strings.baml:ToggleLargeArt_1:System.String.$Content">切换为大型专辑封面</String>
+<String Category="None" UniqueId="utilities/strings.baml:Cut_1:System.String.$Content">剪切</String>
+<String Category="None" UniqueId="utilities/strings.baml:Copy_1:System.String.$Content">复制</String>
+<String Category="None" UniqueId="utilities/strings.baml:Paste_1:System.String.$Content">粘贴</String>
+<String Category="None" UniqueId="utilities/strings.baml:ToggleMiniPlayer_1:System.String.$Content">切换迷你控制器</String>
+<String Category="None" UniqueId="utilities/strings.baml:ShowKeyboardShortcuts_1:System.String.$Content">显示键盘快捷方式列表</String>
+<String Category="None" UniqueId="utilities/strings.baml:DeleteTracks_1:System.String.$Content">删除选定的歌曲</String>
+<String Category="None" UniqueId="utilities/strings.baml:TopMusicMenu_1:System.String.$Content">返回顶级音乐菜单</String>
+<String Category="None" UniqueId="utilities/strings.baml:Favorites_1:System.String.$Content">转到个人收藏</String>
+<String Category="None" UniqueId="utilities/strings.baml:Search_1:System.String.$Content">跳至搜索框</String>
+<String Category="None" UniqueId="utilities/strings.baml:NextRoomGroup_1:System.String.$Content">选择下一个房间组</String>
+<String Category="None" UniqueId="utilities/strings.baml:PreviousRoomGroup_1:System.String.$Content">选择上一个房间组</String>
+<String Category="None" UniqueId="utilities/strings.baml:SelectCurrentTrack_1:System.String.$Content">滚动到队列中的当前歌曲</String>
+<String Category="None" UniqueId="utilities/strings.baml:UpdateMusicLibrary_1:System.String.$Content">刷新本地共享音乐</String>
+<String Category="None" UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content">调整队列大小</String>
+<String Category="None" UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content">关闭活动窗口</String>
+<String Category="None" UniqueId="utilities/strings.baml:OK_1:System.String.$Content">好</String>
+<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">CancelZXZ</String>
+<String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content">{0} 单选按钮。请按空格键进行选择。</String>
+<String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content">{0} 单选按钮，已选择。</String>
+<String Category="Title" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">编辑闹钟</String>
+<String Category="Button" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">好</String>
+<String Category="Button" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">取消</String>
+<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_1:System.Windows.Controls.TextBlock.Text">闹钟</String>
+<String Category="RadioButton" UniqueId="alarms/editalarmwindow.baml:RadioButton_1:System.Windows.Controls.ContentControl.Content">开</String>
+<String Category="RadioButton" UniqueId="alarms/editalarmwindow.baml:RadioButton_2:System.Windows.Controls.ContentControl.Content">关</String>
+<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_2:System.Windows.Controls.TextBlock.Text">时间</String>
+<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_3:System.Windows.Controls.TextBlock.Text">房间</String>
+<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_4:System.Windows.Controls.TextBlock.Text">音乐</String>
+<String Category="Button" UniqueId="alarms/editalarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">选择…</String>
+<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_5:System.Windows.Controls.TextBlock.Text">预定</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_1:System.Windows.Controls.ContentControl.Content">仅一次</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_2:System.Windows.Controls.ContentControl.Content">星期一</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_3:System.Windows.Controls.ContentControl.Content">星期二</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">星期三</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_5:System.Windows.Controls.ContentControl.Content">星期四</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_6:System.Windows.Controls.ContentControl.Content">星期五</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_7:System.Windows.Controls.ContentControl.Content">星期六</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_8:System.Windows.Controls.ContentControl.Content">星期日</String>
+<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_6:System.Windows.Controls.TextBlock.Text">音量</String>
+<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_7:System.Windows.Controls.TextBlock.Text">持续时间</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_11:System.Windows.Controls.ContentControl.Content">无限制</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_9:System.Windows.Controls.ContentControl.Content">包含分组的房间</String>
+<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_10:System.Windows.Controls.ContentControl.Content">随机播放音乐</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:headerSource_1:System.Windows.Controls.TextBlock.Text">选择一个音乐源</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text">音乐</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_6:System.Windows.Controls.TextBlock.Text">所选内容均不可用。</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_18:System.Windows.Controls.TextBlock.Text">当前正在编制索引。编制索引完成后，即可播放音乐。</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_10:System.Windows.Controls.TextBlock.Text">更多</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">无可用选项。</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_19:System.Windows.Controls.TextBlock.Text">当前正在编制索引。编制索引完成后，即可播放音乐。</String>
+<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text">更多</String>
+<String Category="Button" UniqueId="browse/browsepanel.baml:alarmsButton_1:System.Windows.Controls.ContentControl.Content">闹钟</String>
+<String Category="Button" UniqueId="utilities/multibuttonmessagewindow.baml:cancelButton_1:System.Windows.Controls.ContentControl.Content">取消</String>
+<String Category="None" UniqueId="main/strings.baml:DefaultCancelUIMessage_1:System.String.$Content">请稍候…</String>
+<String Category="None" UniqueId="main/strings.baml:Confirm_1:System.String.$Content">确认</String>
+<String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content">更新音乐库</String>
+<String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content">这将更新您的 Sonos 系统音乐库，以便与您在 iTunes 或其他共享音乐文件夹中进行的更改保持一致。是否要立即更新您的 Sonos 系统音乐库？</String>
+<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content">请进入 {0} 寻找更多信息。</String>
+<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">要取消隐藏房间，您必须将房间的 Sonos 播放器恢复到出厂设置。请进入 {0} 寻找更多信息。</String>
+<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content">未设置当前时间</String>
+<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content">必须先设置好当前时间，才能创建闹钟。</String>
+<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content">设置当前时间</String>
+<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage1_1:System.String.$Content">您计算机的防火墙设置已经更改。您的 Sonos 控制器无法再与 Sonos 系统连接。</String>
+<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage2_1:System.String.$Content">有关更多信息，请转至 {0}</String>
+<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage3_1:System.String.$Content">单击“配置防火墙”按钮调整您的防火墙设置。</String>
+<String Category="None" UniqueId="main/strings.baml:LCFirewallButton_1:System.String.$Content">配置防火墙</String>
+<String Category="None" UniqueId="main/strings.baml:LCMoreOptionsButton_1:System.String.$Content">更多选项…</String>
+<String Category="None" UniqueId="main/strings.baml:LCResetControllerItem_1:System.String.$Content">重置控制器</String>
+<String Category="None" UniqueId="main/strings.baml:LCAboutSonosItem_1:System.String.$Content">关于 Sonos 系统</String>
+<String Category="None" UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content">提交诊断信息</String>
+<String Category="None" UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content">无法打开链接：{0}。请确保您设置了默认的 Internet 浏览器。</String>
+<String Category="None" UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content">打开链接时发生错误</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Music library updateZXZ</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Update NowZXZ</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Remind Me LaterZXZ</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content">使用情况数据</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content">为了帮助改善我们的产品和客户服务，Sonos 收集了关于您如何使用 Sonos 系统的信息。欲了解更多信息，请见</String>
+<String Category="CheckBox" UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">好的，打开使用情况数据共享功能，帮助 Sonos 改善产品。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">当 Sonos 播放器的线路输出等级设置为“固定”时，均衡设置不可用。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text">更改“基本”选项卡上的线路输出等级设置以启动均衡控件。</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content">重置</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content">重置</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content">重置</String>
+<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content">重置</String>
+<String Category="Text" UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">同步</String>
+<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">信息与选项</String>
+<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">静音关闭</String>
+<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">静音开启</String>
+<String Category="Text" UniqueId="nowplaying/nowplayingpanel.baml:header_1:System.Windows.Controls.TextBlock.Text">正在播放</String>
+<String Category="ToolTip" UniqueId="nowplaying/nowplayingpanel.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">信息与选项</String>
+<String Category="None" UniqueId="alarms/strings.baml:SC_ALARM_UNKNOWN_1:System.String.$Content">未选择房间</String>
+<String Category="None" UniqueId="alarms/strings.baml:DateTimeFormatString_1:System.String.$Content">当前时间: {0} - {1} {2}</String>
+<String Category="None" UniqueId="alarms/strings.baml:TitleFallback_1:System.String.$Content">闹钟音乐</String>
+<String Category="None" UniqueId="alarms/strings.baml:AddTitle_1:System.String.$Content">添加闹钟</String>
+<String Category="None" UniqueId="browse/strings.baml:SC_SLEEP_TIMER_HOURS_MINUTES_FORMAT_1:System.String.$Content">睡眠定时器 ({0}:{1:00})</String>
+<String Category="None" UniqueId="browse/strings.baml:SC_SLEEP_TIMER_OFF_1:System.String.$Content">睡眠定时器</String>
+<String Category="None" UniqueId="browse/strings.baml:SC_TRACK_NUMBER_FORMAT_1:System.String.$Content">{0:00}</String>
+<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">确认</String>
+<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CLEAR_1:System.String.$Content">清除</String>
+<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CANCEL_1:System.String.$Content">取消</String>
+<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content">是否确实要清除此队列？</String>
+<String Category="None" UniqueId="browse/strings.baml:SearchEmptyString_1:System.String.$Content">在 {1} 中搜索“{0}”未返回结果。请尝试搜索其他类别或使用新的搜索术语。</String>
+<String Category="None" UniqueId="browse/strings.baml:UnselectAllLabel_1:System.String.$Content">取消全部选择</String>
+<String Category="None" UniqueId="browse/strings.baml:NotEnoughRoom_1:System.String.$Content">Sonos 没有足够的剩余空间来保存该队列。请移除其他房间保存的旧播放列表或队列，然后重试。</String>
+<String Category="None" UniqueId="browse/strings.baml:UnableToSave_1:System.String.$Content">无法存储队列。</String>
+<String Category="None" UniqueId="browse/strings.baml:UnableToSaveMobileTracks_1:System.String.$Content">无法在 Sonos 播放列表中存储移动设备中的歌曲，因此未保存歌曲。</String>
+<String Category="None" UniqueId="browse/strings.baml:UnableToSaveAllMobileTrack_1:System.String.$Content">队列中仅包含来自移动设备的歌曲。无法将这些歌曲保存到 Sonos 播放列表。</String>
+<String Category="None" UniqueId="browse/strings.baml:AutomationBrowse_1:System.String.$Content">浏览</String>
+<String Category="None" UniqueId="browse/strings.baml:AutomationQueue_1:System.String.$Content">队列</String>
+<String Category="None" UniqueId="browse/strings.baml:AutomationSearchbox_1:System.String.$Content">搜索框</String>
+<String Category="None" UniqueId="browse/strings.baml:AutomationResizeQueue_1:System.String.$Content">调整队列大小</String>
+<String Category="None" UniqueId="browse/strings.baml:RecentSearches_1:System.String.$Content">最近的搜索</String>
+<String Category="None" UniqueId="browse/strings.baml:ClearRecentSearches_1:System.String.$Content">清除最近的搜索</String>
+<String Category="None" UniqueId="browse/strings.baml:NoRecentSearches_1:System.String.$Content">无最近的搜索</String>
+<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TITLE_1:System.String.$Content">Sonos 播放列表已存在</String>
+<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TEXT_FORMAT_1:System.String.$Content">名为“{0}”的 Sonos 播放列表已存在。替换它将覆盖当前内容。</String>
+<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_OK_BUTTON_1:System.String.$Content">替换</String>
+<String Category="None" UniqueId="browse/strings.baml:AutomationBackButton_1:System.String.$Content">上一步</String>
+<String Category="None" UniqueId="browse/strings.baml:AutomationDropdownButton_1:System.String.$Content">下拉</String>
+<String Category="None" UniqueId="browse/strings.baml:ExplicitBadgeString_1:System.String.$Content">{0} –不宜</String>
+<String Category="None" UniqueId="browse/strings.baml:RestrictedString_1:System.String.$Content">{0} - 受限</String>
+<String Category="None" UniqueId="browse/strings.baml:RestrictedAndExplicitString_1:System.String.$Content">{0} - 受限制和明确的</String>
+<String Category="Title" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">编辑闹钟</String>
+<String Category="Button" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">设置闹钟音乐</String>
+<String Category="Button" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">取消</String>
+<String Category="Text" UniqueId="alarms/editalarmbrowsewindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">浏览到闹钟音乐</String>
+<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text">最受欢迎</String>
+<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">无可用选项。</String>
+<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">无可用选项。</String>
+<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">静音关闭</String>
+<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">静音开启</String>
+<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">静音关闭</String>
+<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content">静音开启</String>
+<String Category="Text" UniqueId="nowplaying/mutevolume.baml:fixedText_1:System.Windows.Controls.TextBlock.Text">固定音量</String>
+<String Category="Text" UniqueId="nowplaying/mutevolume.baml:individualOnlyText_1:System.Windows.Controls.TextBlock.Text">调整房间音量</String>
+<String Category="Text" UniqueId="browse/queuepanel.baml:header_1:System.Windows.Controls.TextBlock.Text">队列</String>
+<String Category="Text" UniqueId="browse/queuepanel.baml:notInUse_1:System.Windows.Controls.TextBlock.Text">（未使用）</String>
+<String Category="ToolTip" UniqueId="browse/queuepanel.baml:notInUseTooltip_1:System.Windows.Controls.ContentControl.Content">未使用</String>
+<String Category="Text" UniqueId="browse/queuepanel.baml:queueEmpty_1:System.Windows.Controls.TextBlock.Text">队列为空。</String>
+<String Category="Button" UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content">清除队列</String>
+<String Category="Button" UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content">保存队列</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content">白色指示灯</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">BRIDGE 名称</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">DOCK 名称</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content">房间名称</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content">基本</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content">常规</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:MusicServersTabHeader_1:System.String.$Content">音乐源</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:UsageTabHeader_1:System.String.$Content">使用情况</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:LanguageTabHeader_1:System.String.$Content">语言</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:Anonymous_1:System.String.$Content">&lt;匿名&gt;</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingHeaderText_1:System.String.$Content">音乐库权限</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingLabelText_1:System.String.$Content">修复对音乐文件夹的权限，确保 Sonos 始终能够访问它们。</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationMusicLibrary_1:System.String.$Content">音乐库</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationServices_1:System.String.$Content">服务</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationVolume_1:System.String.$Content">音量</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBass_1:System.String.$Content">低音</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTreble_1:System.String.$Content">高音</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBalance_1:System.String.$Content">声道平衡</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content">SUB 级别调整</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:EditButtonLabel_1:System.String.$Content">编辑</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:BassHeader_1:System.String.$Content">低音</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:TrebleHeader_1:System.String.$Content">高音</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:BalanceHeader_1:System.String.$Content">声道平衡</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:LoudnessLabel_1:System.String.$Content">响度</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelMinus_1:System.String.$Content">-</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelPlus_1:System.String.$Content">+</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelMin_1:System.String.$Content">最小</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content">最大</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content">左</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content">右</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">SUB</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content">开</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">SUB 级别</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content">放置调整</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content">对话功能增强</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content">音频延迟（影音同步）</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityLabel_1:System.String.$Content">开</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SpeakerSizeHeader_1:System.String.$Content">扬声器尺寸（分频器）</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ParentalControlsTitle_1:System.String.$Content">家长控制</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnabledText_1:System.String.$Content">启用不宜内容过滤。点击以下按钮，允许Sonos系统播放不宜内容。
+
+并非所有服务支持内容过滤。</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisabledText_1:System.String.$Content">禁用不宜内容过滤。点击以下按钮，阻止 Sonos系统播放不宜内容。
+
+并非所有服务器支持内容过滤。</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnableButtonTitle_1:System.String.$Content">打开不宜内容过滤</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisableButtonTitle_1:System.String.$Content">关闭不宜内容过滤</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringNoServices_1:System.String.$Content">您的 Sonos 系统没有支持内容过滤的音乐服务。</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoButtonTitle_1:System.String.$Content">更多信息</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoUri_1:System.String.$Content">http://faq.sonos.com/parentalcontrols</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundLevelHeader_1:System.String.$Content">TV 级别</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:MusicSurroundLevelHeader_1:System.String.$Content">音乐级别</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:IsSurroundEnabledHeader_1:System.String.$Content">环绕声</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:IsSurroundEnabledLabel_1:System.String.$Content">开</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeHeader_1:System.String.$Content">音乐播放</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeAmbient_1:System.String.$Content">氛围音乐</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeFull_1:System.String.$Content">全频</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeDescription_1:System.String.$Content">在音乐播放期间，环绕声音响可使用轻柔的氛围音乐或响亮的全频音乐增强播放效果。</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceLabel_1:System.String.$Content">声道平衡</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceButtonLabel_1:System.String.$Content">平衡环绕声音响</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceDescription_1:System.String.$Content">Trueplay 调音关闭时，手动对您的环绕声级别进行平衡。</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationEQLabel_1:System.String.$Content">均衡器</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSurroundLevel_1:System.String.$Content">环绕声 TV 级别</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationMusicSurroundLevel_1:System.String.$Content">环绕声音乐级别</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationAudioDelay_1:System.String.$Content">音频延迟</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubGain_1:System.String.$Content">SUB 增益</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubEnabled_1:System.String.$Content">SUB 已启用</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubPolarity_1:System.String.$Content">放置调整</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSurroundsEnabled_1:System.String.$Content">环绕声已启用</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRSignalLight_1:System.String.$Content">红外信号灯</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRRepeater_1:System.String.$Content">红外中继器</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTVAutoplay_1:System.String.$Content">TV 自动播放</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content">自动播放时取消分组</String>
+<String Category="Text" UniqueId="zones/zonespanel.baml:header_1:System.Windows.Controls.TextBlock.Text">房间</String>
+<String Category="Button" UniqueId="zones/zonespanel.baml:pauseAllButton_1:System.Windows.Controls.ContentControl.Content">全部暂停</String>
+<String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">好</String>
+<String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">取消</String>
+<String Category="Button" UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">好</String>
+<String Category="Button" UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">取消</String>
+</Strings>

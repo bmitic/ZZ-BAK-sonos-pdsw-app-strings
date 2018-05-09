@@ -229,7 +229,7 @@
     "<NowPlayingHeaderTitle>" = "NOW PLAYING";
     "<NowPlayingLabel_Information>" = "Info & Options";
     "<NowPlayingTrackDefaultLabel>" = "Song [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[No music selected]";
+    "<NowPlayingTrackDefaultString>" = "[no music]";
     "<NowPlayingArtistDefaultLabel>" = "Artist";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -387,8 +387,7 @@
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@ Settings…";
     "<ZoneMenuSelectToUpdate>" = "Select to Update…";
-    "<ZoneMenuSelectToConfigure>" = "Set up this speaker";
-    "<ZoneMenuSelectToRegister>" = "Register this speaker";
+    "<ZoneMenuSelectToSetUpDevice_1>" = "Select to set up %1$s";
     "<ZoneMenuConfirmPauseAll>" = "Are you sure you want to pause the music playing in all rooms?";
     "<ZoneMenuPauseButton>" = "Pause";
 

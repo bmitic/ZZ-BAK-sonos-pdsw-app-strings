@@ -1,8 +1,8 @@
 /* Localized versions of Info.plist keys */
 
-NSLocationUsageDescription = "We use your location to simplify setup and provide you with better support.";
-NSLocationAlwaysUsageDescription = "We use your location to simplify setup and provide you with better support.";
-NSLocationWhenInUseUsageDescription = "We use your location to simplify setup and provide you with better support.";
-NSAppleMusicUsageDescription = "Sonos can play downloaded songs and podcasts.";
-NSMicrophoneUsageDescription = "Sonos uses your microphone for Trueplay tuning.";
-NSBluetoothPeripheralUsageDescription = "Sonos uses Bluetooth to find nearby speakers.";
+NSLocationUsageDescription = "我们使用您的位置信息来简化设置，为您提供更好的服务。";
+NSLocationAlwaysUsageDescription = "我们使用您的位置信息来简化设置，为您提供更好的服务。";
+NSLocationWhenInUseUsageDescription = "我们使用您的位置信息来简化设置，为您提供更好的服务。";
+NSAppleMusicUsageDescription = "Sonos 可以播放您下载的歌曲以及播客。";
+NSMicrophoneUsageDescription = "Sonos 借助您的麦克风进行 Trueplay 校音。";
+NSBluetoothPeripheralUsageDescription = "Sonos 使用蓝牙来查找附近的扬声器。";

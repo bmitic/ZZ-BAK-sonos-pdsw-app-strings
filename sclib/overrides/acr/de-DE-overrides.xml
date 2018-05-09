@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION">Passe Treble und Bass nach Belieben an.</String>
+<String id="SCLIB_STR_ZPSETTINGS_SONAR_DESCRIPTION">Stelle deine Lautsprecher so ein, dass sie in deinem Raum optimal klingen.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Konfiguriere Sonos für die Ausführung in deinem WLAN.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Um den vordefinierten Wireless-Kanal zu ändern, wähle einen anderen Kanal.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Wähle eine neue Einstellung zum Überschreiben der Voreinstellung für Audioeingang und DOCK.</String>
+<String id="STR_MusicLibraryIndexing">Musikbibliothek - Indizierung läuft…</String>
+<String id="STR_SonosPlaylists">Sonos-Playlisten</String>
+<String id="STR_NoMusic">Keine Musik</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_SetupWiz_PreInstructions_Body_2_Fmt">Zum Verbinden dieses Android™-Geräts mit einem bereits eingerichteten System oder zur Einrichtung eines neues Systems drücke unten auf „Weiter“.</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/acr</String>
+<String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_System">Mit Sonos-System verbunden</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdating_Fmt">Beim Update des Sonos-Systems ist ein Fehler aufgetreten (ID=%1$d).</String>
+<String id="SCLIB_STR_OUWiz_ErrorCheckingForUpdate_Fmt">Problem bei der Suche nach Updates (ID=%1$d).
+
+Prüfen deine Internetverbindung, oder versuche es später erneut.</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdatingDevice_Fmt">Beim Update des Sonos-Systems ist ein Fehler aufgetreten:
+
+Aktuelles Gerät ist %1$s (ID=%2$d).</String>
+<String id="SCLIB_STR_OUWiz_UnknownError_Fmt">Sonos Software-Update konnte nicht abgeschlossen werden (ID=%1$d).
+
+Versuche es später erneut.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_1">Dein Sonos-Produkt konnte nicht hinzugefügt werden.
+Ein Controller-Update ist erforderlich.
+
+Bitte aktualisiere diesen Controller nach Abschluss der Registrierung und füge danach deine neuen Produkte hinzu.
+
+Wähle „Weiter“, um die Registrierung fortzusetzen.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_2"></String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_3"></String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_1">Dein neues Sonos-Produkt konnte nicht hinzugefügt werden.
+Ein Controller-Update ist erforderlich.
+
+Bitte aktualisiere diesen Controller und fügen danach dein neues Produkt hinzu.</String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_2"></String>
+<String comment="Abbreviated in some translations" id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME">Uhrzeit der Indexaktualisierung</String>
+<String id="SCLIB_STR_MSWiz_Intro_Anon_Body1_Fmt">Drücke auf „%1$s einrichten“, um %1$s deinem Sonos-System hinzuzufügen.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Wenn du das Standardkonto für diesen Controller ändern möchtest, tippe im Hauptmenü auf den Namen für dein %1$s-Konto.</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">Wenn du die Einstellung vorgenommen hast, drücke unten auf „Weiter“.</String>
+<String id="SCLIB_STR_SubSetupTitle">SUB-Setup</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Bitte installiere die neueste Version des Sonos Controllers.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Bitte installiere die neueste Version des Sonos Controllers.</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutMinutes_Fmt">Bitte führe dies innerhalb von %1$d Minuten durch…</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutSeconds_Fmt">Bitte führe dies innerhalb von %1$d Sekunden durch…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Title">Bitte warten…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Body_1"></String>
+<String id="SCLIB_STR_LC_Reset_String1">Bitte drücke die Home-Taste, um das Zurücksetzen abzuschließen und den Sonos Controller erneut zu öffnen.</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="STR_ArtistInfo">Nach diesem Interpreten suchen</String>
+<String id="STR_AuthorInfo">Nach diesem Autor suchen</String>
+<String id="STR_AllAlbumsArtist">Nach diesem Interpreten suchen</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">Playliste umbenennen</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">Neue Playliste</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">Um den Sonos-Favoriten Sender, Playlisten, Alben oder Interpreten hinzuzufügen, tippe beim Durchsuchen oder Abspielen von Musik auf ⋯, und wähle *Zu „Mein Sonos“ hinzufügen*.</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">„%1$s“ wurde aus „Mein Sonos“ entfernt</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">Fehler beim Entfernen von „%1$s“ aus „Mein Sonos“</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">Um eine Sonos-Playliste zu erstellen, tippe oben auf ⋯.</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">Um dieser Playliste einen Titel hinzuzufügen, tippe beim Durchsuchen oder Abspielen von Musik auf ⋯, und wähle *Zu Sonos-Playliste hinzufügen*.</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 Titel</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 Titel</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d Titel</String>
+<String id="RHHSTR_SIE_ERROR">„%1$s“ ist nicht länger verfügbar. Das Gerät, auf dem die Musikdateien gespeichert sind, ist eventuell nicht eingeschaltet, oder der Pfad hat sich vielleicht geändert.
+Wechsel zu „Einstellungen“ &gt; „Musikbibliothek verwalten“ &gt; „Musikbibliothek einrichten“, um den Pfadnamen zu prüfen.</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">App-Einstellungen</String>
+<String id="SCLIB_STR_LocationAccess_Body">Sonos fordert jetzt Zugriff auf deinen Standort an, damit wir Lautsprecher in der Nähe finden können.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_Title">Standortzugriff erlauben</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_1">Damit Sonos in der Nähe befindliche Lautsprecher findet, muss der Zugriff auf den Standort zugelassen werden.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_2">1. Wechsele zu deinen Geräteeinstellungen für Sonos.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_3">2. Wähle „Berechtigungen“.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Button">Wechsele zu „Einstellungen“.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Title">Möchtest du den Zugriff auf deinen Standort nicht erlauben?</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Body">Wir verwenden die Ortungsdaten ausschließlich dazu, deine Lautsprecher einzurichten und Probleme zu beheben.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Allow_Button">Standortzugriff erlauben</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_GoBack_Button">Zurück</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Skip_Button">Ohne Berechtigungen fortfahren</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Title">Ortungsdienste aktivieren</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Body">Für auf räumliche Nähe ausgerichtete Features wie das Auffinden nahe gelegener Lautsprecher müssen die Ortungsdienste aktiviert sein.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Title">Möchtest du die Ortungsdienste nicht aktivieren?</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Body">Wir verwenden die Ortungsdaten ausschließlich dazu, deine Lautsprecher einzurichten und Probleme zu beheben.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Enable_Button">Ortung aktivieren</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Skip_Button">Ohne Ortung fortfahren</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Title">Zurück zu Sonos</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Message">Kehre jetzt zur Sonos-App zurück.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Request_Body">So wird die Einrichtungszeit verkürzt, und du kannst schneller Musik hören.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Enable_Button">Bluetooth aktivieren</String>
+<String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title">Standortzugriff erlauben</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">Auf Updates prüfen</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">Über mein Sonos-System</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Rufe die WLAN-Einstellungen auf.</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">Player konfigurieren</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">Wir haben Sonos im WLAN *%1$s* gefunden.</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">Wir haben im WLAN *%1$s* einen neuen Sonos-Lautsprecher gefunden.</String>
+<String id="STR_AddFavorite">Zu „Mein Sonos“ hinzufügen</String>
+<String id="SCLIB_STR_DeleteFavorite">Aus „Mein Sonos“ entfernen</String>
+<String id="STR_AddToFavoritesAdded">„%1$s“ wurde zu „Mein Sonos“ hinzugefügt.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">„%1$s“ wurde zu „Mein Sonos“ hinzugefügt.
+
+Es gibt noch %2$d freie Plätze in „Mein Sonos“.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">„%1$s“ wurde zu „Mein Sonos“ hinzugefügt.
+
+Es gibt nur noch 1 freien Platz in „Mein Sonos“.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">„%1$s“ wurde zu „Mein Sonos“ hinzugefügt.
+
+Alle verfügbaren Plätze für „Mein Sonos“ werden verwendet.</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">„%1$s“ ist bereits in „Mein Sonos“ enthalten und wird nicht erneut hinzugefügt.</String>
+<String id="STR_AddToFavoritesFullError">Hinzufügen zu „Mein Sonos“ nicht möglich. Es gibt keine verfügbaren Plätze mehr.
+
+Du kannst vorhandene Elemente aus „Mein Sonos“ entfernen, um Platz für neue zu schaffen.</String>
+<String id="STR_AddToFavoritesError">„%1$s“ kann nicht zu „Mein Sonos“ hinzugefügt werden.</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">Hinzufügen zu „Mein Sonos“ nicht möglich. Um weiteren Platz für neue Elemente freizugeben, kannst du vorhandene Elemente oder Elemente aus „Meine Radiosender“ oder „Meine Radiosendungen“ entfernen.</String>
+<String id="SCLIB_STR_RenameFavorite">Element umbenennen</String>
+<String id="STR_AddFavoriteStation">Sender zu „Mein Sonos“ hinzufügen</String>
+<String id="STR_AddFavoriteTrack">Titel zu „Mein Sonos“ hinzufügen</String>
+<String id="STR_AddFavoriteAlbum">Album zu „Mein Sonos“ hinzufügen</String>
+<String id="STR_AddFavoriteArtist">Interpreten zu „Mein Sonos“ hinzufügen</String>
+<String id="STR_AddFavoritePlaylist">Playliste zu „Mein Sonos“ hinzufügen</String>
+<String id="STR_AddFavoriteShow">Sendung zu „Mein Sonos“ hinzufügen</String>
+<String id="STR_AddFavoriteBook">Buch zu „Mein Sonos“ hinzufügen</String>
+</Strings>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="online_update_check_for_updates_subheader">Checking for updates…</string>
-<string name="online_update_devices_upgrade_in_progress_subheader">Update Progress</string>
-<string name="online_update_devices_upgrade_in_progress_warning">Caution:\nDo not switch to another application or power down during the update.</string>
-<string name="online_update_devices_upgraded_status">Completing update…</string>
-<string name="online_update_upgrade_no_market_error">You need to have an Android marketplace app installed to perform an online update.</string>
-<string name="online_update_downloading">Updating Controller:\nDownloading…</string>
-<string name="online_update_downloading_error_title">Update Not Successful</string>
-<string name="online_update_downloading_error_msg">The controller update was not successful. Please make sure that you have a network connection and enough space on your device to download the update.</string>
+<string name="online_update_check_for_updates_subheader">Controleren op updates…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">Voortgang update</string>
+<string name="online_update_devices_upgrade_in_progress_warning">Let op:\nSchakel tijdens de update niet over naar een andere toepassing en zet het apparaat niet uit.</string>
+<string name="online_update_devices_upgraded_status">Bezig met afronden update…</string>
+<string name="online_update_upgrade_no_market_error">Om een online update uit te voeren, moet een Android marketplace-app geïnstalleerd zijn</string>
+<string name="online_update_downloading">Bezig met:\nbijwerken Controller…</string>
+<string name="online_update_downloading_error_title">Het bijwerken is niet gelukt</string>
+<string name="online_update_downloading_error_msg">Het bijwerken van de controller is niet gelukt. Zorg ervoor dat je een netwerkverbinding hebt en genoeg ruimte op je apparaat om de update te downloaden.</string>
 </resources>

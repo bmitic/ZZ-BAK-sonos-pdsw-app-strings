@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="online_update_check_for_updates_subheader">Checking for updates…</string>
-<string name="online_update_devices_upgrade_in_progress_subheader">Update Progress</string>
-<string name="online_update_devices_upgrade_in_progress_warning">Caution:\nDo not switch to another application or power down during the update.</string>
-<string name="online_update_devices_upgraded_status">Completing update…</string>
-<string name="online_update_upgrade_no_market_error">You need to have an Android marketplace app installed to perform an online update.</string>
-<string name="online_update_downloading">Updating Controller:\nDownloading…</string>
-<string name="online_update_downloading_error_title">Update Not Successful</string>
-<string name="online_update_downloading_error_msg">The controller update was not successful. Please make sure that you have a network connection and enough space on your device to download the update.</string>
+<string name="online_update_check_for_updates_subheader">Verificando atualizações…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">Andamento da Atualização</string>
+<string name="online_update_devices_upgrade_in_progress_warning">Cuidado:\nNão alterne para outro aplicativo ou desligue durante a atualização.</string>
+<string name="online_update_devices_upgraded_status">Concluindo a atualização…</string>
+<string name="online_update_upgrade_no_market_error">Para realizar uma atualização online é necessário que você tenha um aplicativo Android.</string>
+<string name="online_update_downloading">Atualizar Controller:\nFazendo o download…</string>
+<string name="online_update_downloading_error_title">Atualização não foi bem-sucedida</string>
+<string name="online_update_downloading_error_msg">A atualização do Controller não foi bem-sucedida. Assegure-se de ter uma conexão de rede e espaço suficiente no dispositivo para fazer o download da atualização.</string>
 </resources>

@@ -3,449 +3,447 @@
 /****************************************************************/
 
 /* Main Tabs */
-    "<Home>" = "My Sonos";
-    "<Browse>" = "Browse";
+    "<Home>" = "Mój Sonos";
+    "<Browse>" = "Przeglądaj";
 
 /* General */
 
     "<Sonos>" = "SONOS";
-    "<Cancel>" = "Cancel";
-    "<Done>" = "Done";
-    "<Yes>" = "Yes";
-    "<No>" = "No";
-    "<Next>" = "Next";
-    "<Back>" = "Back";
+    "<Cancel>" = "Anuluj";
+    "<Done>" = "Gotowe";
+    "<Yes>" = "Tak";
+    "<No>" = "Nie";
+    "<Next>" = "Dalej";
+    "<Back>" = "Wstecz";
     "<OK>" = "OK";
-    "<On>" = "On";
-    "<Off>" = "Off";
-    "<Edit>" = "Edit";
-    "<Clear>" = "Clear";
-    "<Save>" = "Save";
-    "<More>" = "More";
-    "<Close>" = "Close";
-    "<Delete>" = "Delete";
+    "<On>" = "Włączony";
+    "<Off>" = "Wyłączony";
+    "<Edit>" = "Edytuj";
+    "<Clear>" = "Wyczyść";
+    "<Save>" = "Zapisz";
+    "<More>" = "Więcej";
+    "<Close>" = "Zamknij";
+    "<Delete>" = "Usuń";
 
     // This is used as hint text for voice over (Example: "Double tap to play all songs.")
-    "<DoubleTapToHint_1>" = "Double tap to %1$@.";
+    "<DoubleTapToHint_1>" = "Stuknij dwukrotnie %1$@.";
 
 /* About */
     //More or less copied from MDCR
-    "<AboutSonosIDNotConnected>" = "Not Connected";
-    "<AboutSonos>" = "About My Sonos System";
+    "<AboutSonosIDNotConnected>" = "Nie połączono";
+    "<AboutSonos>" = "O systemie Mój Sonos";
     // %1$@ = model (Example: "Sonos Controller for iPhone")
-    "<AboutSonosControllerLabel_1>" = "Sonos Controller for %1$@";
-    "<AboutVersion>" = "Version:";
-    "<AboutBuild>" = "Build:";
-    "<AboutSonosID>" = "Sonos ID:";
+    "<AboutSonosControllerLabel_1>" = "Aplikacja sterująca Sonos dla %1$@";
+    "<AboutVersion>" = "Wersja:";
+    "<AboutBuild>" = "Kompilacja:";
+    "<AboutSonosID>" = "Identyfikator Sonos:";
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "Turn Off";
+    "<AlarmNotificationAction>" = "Wyłącz";
     // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "%1$@'s alarm sounding";
+    "<AlarmNotificationAlert_1>" = "Odtwarzanie alarmu %1$@";
 
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
-    "<ExternalAlarmsNote_1>" = "Alarms set by voice command are managed by %1$@.";
-    "<ExternalAlarmsAlexaApp>" = "the Alexa app";
+    "<ExternalAlarmsNote_1>" = "Alarmy uruchamiane za pomocą komendy głosowej są zarządzane przez %1$@.";
+    "<ExternalAlarmsAlexaApp>" = "Aplikacja Alexa";
 
 /* App Delegate */
 
-    "<DisconnectedFromSonos>" = "Disconnected from Sonos";
-    "<NoMusicToPlay>" = "There is no music to play in this room";
-    "<SubmitFeedbackMessage>" = "Submit iOS Controller feedback to Sonos?";
-    "<AppInteropWizardLaunchError>" = "The requested operation could not be performed. Please complete the current wizard and try again.";
+    "<DisconnectedFromSonos>" = "Odłączono od Sonos";
+    "<NoMusicToPlay>" = "Brak muzyki do odtwarzania w tym pomieszczeniu";
+    "<SubmitFeedbackMessage>" = "Przesłać informacje z urządzenia sterującego iOS do Sonos?";
+    "<AppInteropWizardLaunchError>" = "Nie można było wykonać żądanej operacji. Zakończ bieżący proces kreatora i spróbuj ponownie.";
 
 /* Beta Feedback */
 
-    "<CollectingDiagsMessage>" = "Collecting diagnostics for feedback. This could take several minutes.";
+    "<CollectingDiagsMessage>" = "Gromadzenie danych diagnostycznych dla celów informacyjnych. Operacja może potrwać kilka minut.";
 
 /* Limited Connectivity */
 
-    "<LimitedConnTrySearchingAgain>" = "Try Searching Again";
-    "<LimitedConnConnecting>" = "Searching for Sonos on your Wi-Fi";
-    "<LimitedConnStillSearching>" = "Hang On. Still Searching…";
+    "<LimitedConnTrySearchingAgain>" = "Ponów próbę wyszukiwania";
+    "<LimitedConnConnecting>" = "Wyszukiwanie Sonos w sieci bezprzewodowej";
+    "<LimitedConnStillSearching>" = "Poczekaj chwilę. Wyszukiwanie trwa nadal…";
 
-    "<WelcomeSetupButton>" = "Set up a new Sonos system";
-    "<WelcomeJoinButton>" = "Connect to an existing system";
-    "<WelcomeLearnMoreButton>" = "Learn more about Sonos";
+    "<WelcomeSetupButton>" = "Skonfiguruj nowy system Sonos";
+    "<WelcomeJoinButton>" = "Połącz się z istniejącym systemem";
+    "<WelcomeLearnMoreButton>" = "Dowiedz się więcej o Sonos";
 
 // These next two are possibly deprecated.
-    "<WelcomeStayInformedMessage>" = "Don't have Sonos yet?";
-    "<WelcomeViewDemoButton>" = "Learn More";
+    "<WelcomeStayInformedMessage>" = "Nie masz jeszcze systemu Sonos?";
+    "<WelcomeViewDemoButton>" = "Dowiedz się więcej";
 
 /* iPod Library */
 
-    "<iPodLibraryOpenMusicApp>" = "Open Music";
+    "<iPodLibraryOpenMusicApp>" = "Otwórz muzykę";
     // %@ = iPhone, iPod or iPad (localized) (Example: "On this iPhone")
-    "<iPodLibrary>" = "On this %@";
-    "<PlayAllGeneric>" = "All Songs";
-    "<iPodPlaylists>" = "Playlists";
-    "<iPodArtists>" = "Artists";
-    "<iPodAlbums>" = "Albums";
-    "<iPodGenres>" = "Genres";
-    "<iPodTracks>" = "Songs";
-    "<iPodCompilations>" = "Compilations";
-    "<iPodComposers>" = "Composers";
-    "<iPodPodcasts>" = "Podcasts";
-    "<iPodLibraryUnplayableTitle>" = "Unplayable Song";
+    "<iPodLibrary>" = "Na tym %@";
+    "<PlayAllGeneric>" = "Wszystkie utwory";
+    "<iPodPlaylists>" = "Playlisty";
+    "<iPodArtists>" = "Artyści";
+    "<iPodAlbums>" = "Albumy";
+    "<iPodGenres>" = "Gatunki";
+    "<iPodTracks>" = "Utwory";
+    "<iPodCompilations>" = "Kompilacje";
+    "<iPodComposers>" = "Kompozytorzy";
+    "<iPodPodcasts>" = "Podcasty";
+    "<iPodLibraryUnplayableTitle>" = "Utwór niemożliwy do odtworzenia";
     // %@ = iPhone (localized) (Example: "On this iPhone")
-    "<iPodLibraryUnplayableiCloudTrackError_iPhone_1>" = "Sonos is unable to play content from iTunes that has not been downloaded to this %1$@.\n\nPlease open the Music app and make this song available offline.";
+    "<iPodLibraryUnplayableiCloudTrackError_iPhone_1>" = "System Sonos nie może odtwarzać zasobów z iTunes niepobranych na to urządzenie %1$@.\n\nOtwórz aplikację Apple Music i udostępnij ten utwór w trybie offline.";
     // %@ = iPhone (localized) (Example: "On this iPod touch")
-    "<iPodLibraryUnplayableiCloudTrackError_iPod_1>" = "Sonos is unable to play content from iTunes that has not been downloaded to this %1$@.\n\nPlease open the Music app and make this song available offline.";
+    "<iPodLibraryUnplayableiCloudTrackError_iPod_1>" = "System Sonos nie może odtwarzać zasobów z iTunes niepobranych na to urządzenie %1$@.\n\nOtwórz aplikację Apple Music i udostępnij ten utwór w trybie offline.";
     // %@ = iPhone (localized) (Example: "On this iPad")
-    "<iPodLibraryUnplayableiCloudTrackError_iPad_1>" = "Sonos is unable to play content from iTunes that has not been downloaded to this %1$@.\n\nPlease open the Music app and make this song available offline.";
-    "<iPodLibraryUnplayableDRMTrackError>" = "Sonos is unable to play content from Apple Music/iTunes that contains copy protection.";
-    "<iPodLibraryUnplayableTrackError>" = "We can't play this type of file when it is stored on a mobile device.";
+    "<iPodLibraryUnplayableiCloudTrackError_iPad_1>" = "System Sonos nie może odtwarzać zasobów z iTunes niepobranych na to urządzenie %1$@.\n\nOtwórz aplikację Apple Music i udostępnij ten utwór w trybie offline.";
+    "<iPodLibraryUnplayableDRMTrackError>" = "System Sonos nie może odtwarzać zasobów z aplikacji Apple Music/iTunes zabezpieczonych przed kopiowaniem.";
+    "<iPodLibraryUnplayableTrackError>" = "Nie można odtwarzać tego typu pliku, gdy jest on przechowywany na urządzeniu mobilnym.";
 
 /* Now Playing */
 
-    "<PlayButton>" = "Play";
-    "<PauseButton>" = "Pause";
-    "<StopButton>" = "Stop";
-    "<PreviousButton>" = "Previous Song";
-    "<NextButton>" = "Next Song";
-    "<PreviousButtonBook>" = "Previous Chapter";
-    "<NextButtonBook>" = "Next Chapter";
-    "<QUEUE>" = "Queue";
-    "<NotInUse>" = "Not in Use";
-    "<NowPlayingNoMusic>" = "No music selected";
-    "<NowPlayingDialogEnhacementLabel>" = "Speech enhancement";
-    "<NowPlayingNightModeLabel>" = "Night sound";
+    "<PlayButton>" = "Odtwórz";
+    "<PauseButton>" = "Wstrzymaj";
+    "<StopButton>" = "Zatrzymaj";
+    "<PreviousButton>" = "Poprzedni utwór";
+    "<NextButton>" = "Kolejny utwór";
+    "<PreviousButtonBook>" = "Poprzedni rozdział";
+    "<NextButtonBook>" = "Kolejny rozdział";
+    "<QUEUE>" = "Kolejka";
+    "<NotInUse>" = "Nieużywane";
+    "<NowPlayingNoMusic>" = "Brak muzyki";
+    "<NowPlayingDialogEnhacementLabel>" = "Wzmacniacz mowy";
+    "<NowPlayingNightModeLabel>" = "Tryb dźwięku nocnego";
 
-    "<NowPlayingInfoButtonLabel>" = "Info and Options";
-    "<NowPlayingInfoButtonHint>" = "View information and options on what's currently playing.";
-    "<NowPlayingOn>" = "on"; //in non-english languages, please translate to —
-    "<NowPlayingOnAccessibilityLabel>" = "on %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
-    "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ on %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
+    "<NowPlayingInfoButtonLabel>" = "Więcej informacji";
+    "<NowPlayingInfoButtonHint>" = "Wyświetl więcej informacji dla bieżącego utworu.";
+    "<NowPlayingOn>" = "–"; //in non-english languages, please translate to —
+    "<NowPlayingOnAccessibilityLabel>" = "na %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
+    "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ na %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
 
 
 
 // TODO: needs UX pass (VO)
-    "<PreviousButtonHint>" = "Skip to the previous song or double tap and hold to rewind.";
-    "<NextButtonHint>" = "Skip to the next song or double tap and hold to fast-forward.";
-    "<Progress>" = "Song position";
-    "<PreviousButtonBookHint>" = "Skip to the previous chapter or double tap and hold to rewind.";
-    "<NextButtonBookHint>" = "Skip to the next chapter or double tap and hold to fast-forward.";
-    "<ProgressBook>" = "Chapter position";
-    "<LongFormSkipForward>" = "Skip Forward";
-    "<LongFormSkipBack>" = "Skip Back";
-    "<LongFormSkipForwardHint>" = "Go forward 30 seconds";
-    "<LongFormSkipBackHint>" = "Go back 30 seconds";
+    "<PreviousButtonHint>" = "Przejdź do poprzedniego utworu lub stuknij dwukrotnie i przytrzymaj, aby przewinąć do tyłu.";
+    "<NextButtonHint>" = "Przejdź do kolejnego utworu lub stuknij dwukrotnie i przytrzymaj, aby przewinąć do przodu.";
+    "<Progress>" = "Pozycja utworu";
+    "<PreviousButtonBookHint>" = "Przejdź do poprzedniego rozdziału lub stuknij dwukrotnie i przytrzymaj, aby przewinąć do tyłu.";
+    "<NextButtonBookHint>" = "Przejdź do kolejnego rozdziału lub stuknij dwukrotnie i przytrzymaj, aby przewinąć do przodu.";
+    "<ProgressBook>" = "Pozycja rozdziału";
+    "<LongFormSkipForward>" = "Kolejny utwór";
+    "<LongFormSkipBack>" = "Wstecz";
+    "<LongFormSkipForwardHint>" = "Do przodu o 30 sekund";
+    "<LongFormSkipBackHint>" = "Wstecz o 30 sekund";
 
     // VO string, %1$@ is current time, %2$@ is total time
     // Example: "2 minutes 10 seconds of 4 minutes 23 seconds"
-    "<ProgressSliderHint_2>" = "%1$@ of %2$@";
+    "<ProgressSliderHint_2>" = "%1$@ z %2$@";
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Double tap to open Now Playing";
+    "<NowPlayingShowNowPlayingHint>" = "Stuknij dwukrotnie, aby otworzyć teraz odtwarzane";
     // For two rooms: "Room 1 and Room 2"
-    "<NowPlaying2Rooms_2>" = "%1$@ and %2$@";
+    "<NowPlaying2Rooms_2>" = "%1$@ i %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
-    "<NowPlaying3Rooms_3>" = "%1$@, %2$@, and %3$@";
+    "<NowPlaying3Rooms_3>" = "%1$@, %2$@ i %3$@";
     // For four or more rooms: "Room 1, Room 2, and 3 others"
-    "<NowPlayingOtherRooms_3>" = "%1$@, %2$@, and %3$d others";
+    "<NowPlayingOtherRooms_3>" = "%1$@, %2$@, i %3$d innych";
     // Currently playing (track info)
-    "<NowPlayingCurrentlyPlaying_1>" = "Currently playing %@";
-    "<NowPlayingClose>" = "Close Now Playing";
-    "<NowPlayingCloseHint>" = "Double tap to return to music browse";
+    "<NowPlayingCurrentlyPlaying_1>" = "Teraz odtwarzane %@";
+    "<NowPlayingClose>" = "Zamknij teraz odtwarzane";
+    "<NowPlayingCloseHint>" = "Stuknij dwukrotnie, aby powrócić do przeglądania muzyki";
 
 /* Info Menu */
 
-    "<Crossfade>" = "Crossfade";
-    "<InfoMenuTimeoutError>" = "Unable to display additional options";
+    "<Crossfade>" = "Płynne przejście";
+    "<InfoMenuTimeoutError>" = "Nie można wyświetlić dodatkowych opcji";
 
 /* Browse editing */
 
-    "<ConfirmRemoveMessage>" = "Are you sure you want to remove this item?";
-    "<ConfirmRemoveButton>" = "Remove";
+    "<ConfirmRemoveMessage>" = "Czy na pewno chcesz usunąć ten element?";
+    "<ConfirmRemoveButton>" = "Usuń";
 
 /* Queue and Playlists*/
 // TODO: needs UX pass
-    "<ShowQueue>" = "Show Queue";
-    "<HideQueue>" = "Hide Queue";
-    "<EditQueue>" = "Edit Queue";
-    "<ClearQueueDialogTitle>" = "Clear Queue";
-    "<ClearQueueMessage>" = "Are you sure you want to clear the Queue?";
-    "<QueuePlaylistNameText>" = "Enter a playlist name:";
-    "<QueuePlaylistTableText>" = "Or replace an existing playlist:";
-    "<SaveQueue>" = "Save Queue";
-    "<PlaylistNamePlaceholder>" = "Sonos Playlist Name";
-    "<EmptyPlaylistNameTitle>" = "Sonos Playlist Name";
-    "<EmptyPlaylistNameMessage>" = "Please type or select a name for the Sonos Playlist.";
-    "<QueueSaveErrorTitle>" = "Error Saving Sonos Playlist";
-    "<QueueSaveErrorGeneric>" = "Unable to save the Queue.";
-    "<QueueSaveErrorNotEnoughRoom>" = "Sonos doesn't have enough free space left to save the queue.\nRemove old saved playlists or queues in other rooms, and try again.";
-    "<QueueSaveErrorMobileTracksNotSaved>" = "Songs from mobile devices cannot be stored in Sonos Playlists and were not saved.";
-    "<QueueSaveErrorAllMobileTracks>" = "The queue contains only songs from mobile devices. These songs cannot be saved to Sonos Playlists.";
-    "<QueuePlaylistExistsWarningTitle>" = "Sonos Playlist Exists";
+    "<ShowQueue>" = "Pokaż kolejkę";
+    "<HideQueue>" = "Ukryj kolejkę";
+    "<EditQueue>" = "Edytuj kolejkę";
+    "<ClearQueueDialogTitle>" = "Wyczyść kolejkę";
+    "<ClearQueueMessage>" = "Czy na pewno chcesz wyczyścić kolejkę?";
+    "<QueuePlaylistNameText>" = "Wpisz nazwę playlisty:";
+    "<QueuePlaylistTableText>" = "Lub zamień istniejącą playlistę:";
+    "<SaveQueue>" = "Zapisz kolejkę";
+    "<PlaylistNamePlaceholder>" = "Nazwa playlisty Sonos";
+    "<EmptyPlaylistNameTitle>" = "Nazwa playlisty Sonos";
+    "<EmptyPlaylistNameMessage>" = "Wpisz lub wybierz nazwę playlisty Sonos.";
+    "<QueueSaveErrorTitle>" = "Błąd podczas zapisywania playlisty Sonos";
+    "<QueueSaveErrorGeneric>" = "Zapisywanie kolejki nie powiodło się.";
+    "<QueueSaveErrorNotEnoughRoom>" = "Brak dostatecznego wolnego miejsca w Sonos, aby zapisać kolejkę.\nUsuń stare playlisty lub kolejki zapisane w innych pomieszczeniach i spróbuj ponownie.";
+    "<QueueSaveErrorMobileTracksNotSaved>" = "Utwory z urządzeń mobilnych nie mogą być przechowywane w Playlistach Sonos i nie zostały zapisane.";
+    "<QueueSaveErrorAllMobileTracks>" = "Kolejka zawiera wyłącznie utwory z urządzeń mobilnych. Te utwory nie mogą zostać zapisane w Playlistach Sonos.";
+    "<QueuePlaylistExistsWarningTitle>" = "Playlista Sonos istnieje";
     // %1$@, the name of the pre-existing playlist
-    "<QueuePlaylistExistsWarningMessage_1>" = "A Sonos Playlist named “%1$@” already exists. Replacing it will overwrite its current contents.";
-    "<QueuePlaylistReplace>" = "Replace";
-    "<AddToPlaylistFolderHint>" = "Playlist folder. Double tap to open.";
-    "<AddToPlaylistDisabledHint>" = "You do not have permission to add songs to this playlist.";
+    "<QueuePlaylistExistsWarningMessage_1>" = "Playlista Sonos o nazwie „%1$@” już istnieje. Jej zastąpienie spowoduje nadpisanie bieżącej zawartości playlisty.";
+    "<QueuePlaylistReplace>" = "Zastąp";
+    "<AddToPlaylistFolderHint>" = "Folder playlisty. Stuknij dwukrotnie, aby otworzyć.";
+    "<AddToPlaylistDisabledHint>" = "Nie masz uprawnień umożliwiających dodanie utworów do tej playlisty.";
 
 /* Queue Voice Over */
 
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%d song(s).";
-    "<QueueShuffleButtonLabel>" = "Shuffle";
-    "<QueueRepeatAllButtonLabel>" = "Repeat all";
-    "<QueueRepeatOneButtonLabel>" = "Repeat song";
-    "<QueueClearLabel>" = "Clear queue";
-    "<QueueEditLabel>" = "Edit queue";
-    "<QueueSaveLabel>" = "Save queue";
-    "<QueueCloseLabel>" = "Close queue";
-    "<QueueCurrentlyPlaying>" = "Currently playing";
+    "<QueueTrackLabel_1>" = ".%1$d utworów.";
+    "<QueueShuffleButtonLabel>" = "Tryb losowy";
+    "<QueueRepeatAllButtonLabel>" = "Powtórz wszystkie";
+    "<QueueRepeatOneButtonLabel>" = "Powtórz utwór";
+    "<QueueClearLabel>" = "Wyczyść kolejkę";
+    "<QueueEditLabel>" = "Edytuj kolejkę";
+    "<QueueSaveLabel>" = "Zapisz kolejkę";
+    "<QueueCloseLabel>" = "Zamknij kolejkę";
+    "<QueueCurrentlyPlaying>" = "Teraz odtwarzane";
 
 /* Rooms */
 
-    "<Rooms>" = "Rooms";
-    "<GroupRooms>" = "Group Rooms";
-    "<Group>" = "Group";
+    "<Rooms>" = "Pomieszczenia";
+    "<GroupRooms>" = "Grupuj pomieszczenia";
+    "<Group>" = "Grupuj";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
-    "<GroupRooms_Short>" = "Group Rooms";
-    "<PauseAll>" = "Pause All";
-    "<PauseAllConfirmation>" = "Are you sure you want to pause the music playing in all rooms?";
-    "<SelectToConfigure>" = "Set up this speaker";
-    "<SelectToRegister>" = "Register this speaker";
-    "<SoftwareUpdateRequired>" = "Software Update Required";
+    "<GroupRooms_Short>" = "Grupuj pomieszczenia";
+    "<PauseAll>" = "Wstrzymaj wszystkie";
+    "<PauseAllConfirmation>" = "Czy na pewno chcesz wstrzymać odtwarzanie muzyki we wszystkich pomieszczeniach?";
+    "<ContinueSetUp>" = "Kontynuuj konfigurację";
+    "<SoftwareUpdateRequired>" = "Wymagana aktualizacja oprogramowania";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
     // an appropriate pause when being read by VoiceOver.
-    "<MultipleRoomNames_2>" = "%1$@, and %2$@";
+    "<MultipleRoomNames_2>" = "%1$@ i %2$@";
 
 /* Rooms Voiceover */
-    "<SelectRooms>" = "Select rooms";
+    "<SelectRooms>" = "Wybierz pomieszczenia";
     // e.g - "In Living Room"
-    "<InOneRoom_1>" = "in %1$@";
+    "<InOneRoom_1>" = "w %1$@";
     // e.g - "In Living Room and Kitchen", also "In Living Room, Dining Room and Kitchen"
-    "<InMultipleRooms_2>" = "in %1$@ and %2$@";
+    "<InMultipleRooms_2>" = "w %1$@ i %2$@";
 
 /* Edit Rooms */
 
-    "<SelectAll>" = "Select All";
-    "<UnselectAll>" = "Unselect All";
-    "<Everywhere>" = "Everywhere";
-    "<EditRoomsMultiMusic>" = "The rooms you selected have different music playing";
-    "<MultiMusicMessage>" = "Tap Done to choose music";
-    "<MusicGroupingInstructions>" = "Choose music to play in selected rooms";
-    "<PlayToTheFollowing>" = "Play to the following";
+    "<SelectAll>" = "Zaznacz wszystkie";
+    "<UnselectAll>" = "Odznacz wszystkie";
+    "<Everywhere>" = "Wszędzie";
+    "<EditRoomsMultiMusic>" = "W wybranych pomieszczeniach odtwarzane są różne utwory";
+    "<MultiMusicMessage>" = "Stuknij „Gotowe”, aby wybrać muzykę";
+    "<MusicGroupingInstructions>" = "Wybierz muzykę, która będzie odtwarzana w wybranych pomieszczeniach";
+    "<PlayToTheFollowing>" = "Odtwórz w";
 
 /* Edit Rooms Voice Over */
 
-    "<EditRoomsIncludeRoomHint>" = "include room in this group.";
-    "<EditRoomsDropRoomHint>" = "drop room from this group.";
-    "<EditRoomsIncludeAllRoomsHint>" = "include all rooms in this group.";
-    "<EditRoomsDropAllRoomsHint>" = "drop all rooms in this group, and stop music playing.";
+    "<EditRoomsIncludeRoomHint>" = "uwzględnij pomieszczenie w tej grupie.";
+    "<EditRoomsDropRoomHint>" = "usuń pomieszczenie z tej grupy.";
+    "<EditRoomsIncludeAllRoomsHint>" = "uwzględnij wszystkie pomieszczenia w tej grupie.";
+    "<EditRoomsDropAllRoomsHint>" = "usuń wszystkie pomieszczenia z tej grupy i zatrzymaj odtwarzanie muzyki.";
 
 /* Browse */
 
-    "<MusicMenu>" = "Music Menu";
-    "<MoreMusic>" = "More Music";
-    "<SonosFavorites>" = "Sonos Favorites";
-    "<Alarms>" = "Alarms";
+    "<MusicMenu>" = "Menu muzyczne";
+    "<MoreMusic>" = "Więcej muzyki";
+    "<SonosFavorites>" = "Ulubione Sonos";
+    "<Alarms>" = "Alarmy";
     // TODO: needs UX pass
-    "<BrowseSwitchAccount>" = "Change Account";
-    "<MoreOptions>" = "More Options";
-    "<AccountPicker>" = "Change the account to use on this device.";
-    "<TitleExplicitAccessibilityLabel>" = "%1$@. Explicit.";
-    "<ShowAll>" = "See All";
-    "<SwimlaneInvalidMessage>" = "This content is no longer available. Tap Edit to remove it from My Sonos.";
+    "<BrowseSwitchAccount>" = "Zmień konto";
+    "<MoreOptions>" = "Więcej opcji";
+    "<AccountPicker>" = "Zmień konto używane na tym urządzeniu.";
+    "<TitleExplicitAccessibilityLabel>" = "%1$@. Konkretne.";
+    "<ShowAll>" = "Zobacz wszystko";
+    "<SwimlaneInvalidMessage>" = "Ta treść nie jest już dostępna. Stuknij „Edytuj”, aby usunąć ją z systemu Mój Sonos.";
 
 /* Volume */
 
     // %1$d: 0-100 volume indicator
-    "<VolumePercentage_1>" = "%1$d percent";
+    "<VolumePercentage_1>" = "%1$d procent";
     // %1$d: 0-100 volume indicator
-    "<VolumePercentageMuted_1>" = "%1$d percent, muted";
-    "<VolumeMute>" = "Mute";
-    "<VolumeCannotBeAdjustedMuted>" = "cannot be adjusted, muted";
-    "<VolumeCannotBeAdjusted>" = "cannot be adjusted";
+    "<VolumePercentageMuted_1>" = "%1$d procent, wyciszone";
+    "<VolumeMute>" = "Wycisz";
+    "<VolumeCannotBeAdjustedMuted>" = "nie można dokonać zmian, wyciszone";
+    "<VolumeCannotBeAdjusted>" = "nie można dokonać zmian";
 
     // VO String, %1$@ = room name (Example: "PATIO volume")
-    "<VolumeDeviceVolumeNamed_1>" = "%1$@ volume";
+    "<VolumeDeviceVolumeNamed_1>" = "Głośność %1$@";
     // VO String, %1$@ = room name (Example: "OFFICE headphone volume")
-    "<VolumeDeviceVolumeHeadphonesNamed_1>" = "%1$@ headphone volume";
+    "<VolumeDeviceVolumeHeadphonesNamed_1>" = "Głośność słuchawek %1$@";
     // VO String. These will be read aloud, and not visible in the UI.
-    "<OpenGroupVolume>" = "Open group volume";
-    "<CloseGroupVolume>" = "Close group volume";
+    "<OpenGroupVolume>" = "Otwórz głośność w grupie";
+    "<CloseGroupVolume>" = "Zamknij głośność w grupie";
 
     // VO String, say "Group Mute" instead of "Group Volume"
-    "<GroupMute>" = "Group Mute";
+    "<GroupMute>" = "Wycisz grupę";
 
 /* Wizards */
 
-    "<WizardSubCalibratePlayButtonLabel>" = "Play";
-    "<WizardSubCalibratePlayButtonHint>" = "Play calibration audio tone.";
-    "<WizardSubCalibratePauseButtonLabel>" = "Pause";
-    "<WizardSubCalibratePauseButtonHint>" = "Pause calibration audio tone.";
-    "<WizardSubCalibrateAPlayingValue>" = "A playing";
-    "<WizardSubCalibrateBPlayingValue>" = "B playing";
+    "<WizardSubCalibratePlayButtonLabel>" = "Odtwórz";
+    "<WizardSubCalibratePlayButtonHint>" = "Odtwórz dźwięk kalibracyjny.";
+    "<WizardSubCalibratePauseButtonLabel>" = "Wstrzymaj";
+    "<WizardSubCalibratePauseButtonHint>" = "Wstrzymaj dźwięk kalibracyjny.";
+    "<WizardSubCalibrateAPlayingValue>" = "Odtwarzane w A";
+    "<WizardSubCalibrateBPlayingValue>" = "Odtwarzane w B";
 
-    "<WizardTextFieldHide>" = "Hide";
-    "<WizardTextFieldShow>" = "Show";
+    "<WizardTextFieldHide>" = "Ukryj";
+    "<WizardTextFieldShow>" = "Pokaż";
 
 /* Settings */
 
-    "<Settings>" = "Settings";
-    "<RoomSettings>" = "Room Settings";
-    "<ParentalControls>" = "Parental Controls";
-    "<MySonosSettings>" = "My Sonos Settings";
-    "<MoreInformation>" = "More Information";
-    "<Help>" = "Help";
-    "<Call>" = "Call";
+    "<Settings>" = "Ustawienia";
+    "<RoomSettings>" = "Ustawienia pomieszczenia";
+    "<ParentalControls>" = "Kontrola rodzicielska";
+    "<MoreInformation>" = "Więcej informacji";
+    "<Help>" = "Pomoc";
+    "<Call>" = "Zadzwoń";
 
 /* Shares */
-    "<SharesNowInUseExplanation>" = "Your Sonos players access music from the shared folders listed below:";
-    "<EnterShareInfoTitle>" = "Enter Share Info";
-    "<SharePathPlaceholder>" = "Path \\\\\\\\computer\\\\sharename";
-    "<ShareUsernamePlaceholder>" = "User name (if required)";
-    "<SharePasswordPlaceholder>" = "Password (if required)";
-    "<AddingShare>" = "Adding Share";
-    "<AddingShareInstructions>" = "Your new share will be added to your Sonos system.\n\nSonos first needs to create an index of your music. When this is finished, the music will appear in your library.\n\nPress the Done button to finish.";
+    "<SharesNowInUseExplanation>" = "Twoje odtwarzacze Sonos mają dostęp do muzyki zapisanej w poniższych folderach udostępnionych:";
+    "<EnterShareInfoTitle>" = "Wpisz dane dotyczące udostępniania";
+    "<SharePathPlaceholder>" = "Ścieżka \\\\\\\\Komputer\\\\NazwaZasobówUdostępnionych";
+    "<ShareUsernamePlaceholder>" = "Nazwa użytkownika (jeśli wymagana)";
+    "<SharePasswordPlaceholder>" = "Hasło (jeśli wymagane)";
+    "<AddingShare>" = "Dodawanie udostępnionego elementu";
+    "<AddingShareInstructions>" = "Twój nowo udostępniony element zostanie dodany do Twojego systemu Sonos.\n\nW pierwszej kolejności system Sonos musi przeprowadzić indeksowanie Twoich plików muzycznych. Po zakończeniu tej operacji muzyka wyświetli się w Twojej bibliotece muzycznej.\nNaciśnij „Gotowe”, aby zakończyć.";
 
 /* Wireless Setup Custom Wizard */
-    "<Wireless_CheckOpenAP_Title>" = "Player setup";
-    "<Wireless_CheckOpenAP_Body1>" = "Wait a couple of seconds until you see a flashing orange light on your Sonos player.";
-    "<Wireless_CheckOpenAP_Button1>" = "I see an orange light";
-    "<Wireless_CheckOpenAP_Button2>" = "I don't see an orange light";
+    "<Wireless_CheckOpenAP_Title>" = "Konfiguracja odtwarzacza";
+    "<Wireless_CheckOpenAP_Body1>" = "Zaczekaj kilka sekund, aż na odtwarzaczu Sonos zacznie migać pomarańczowa dioda.";
+    "<Wireless_CheckOpenAP_Button1>" = "Widzę pomarańczową diodę";
+    "<Wireless_CheckOpenAP_Button2>" = "Nie widzę pomarańczowej diody";
 
-    "<Wireless_CheckOpenAP_NoLight_Title>" = "Repeat button press";
-    "<Wireless_CheckOpenAP_NoLight_Body1>" = "You need to repeat the button press.\nPress \"Try again.\"";
-    "<Wireless_CheckOpenAP_NoLight_Body2>" = "NOTE: If you are having continued problems, select \"Alternative setup.\"";
-    "<Wireless_CheckOpenAP_NoLight_Button1>" = "Try again";
-    "<Wireless_CheckOpenAP_NoLight_Button2>" = "Alternative setup";
+    "<Wireless_CheckOpenAP_NoLight_Title>" = "Ponownie naciśnij przycisk";
+    "<Wireless_CheckOpenAP_NoLight_Body1>" = "Musisz ponownie nacisnąć przycisk.\nNaciśnij „Spróbuj ponownie.”";
+    "<Wireless_CheckOpenAP_NoLight_Body2>" = "UWAGA: Jeżeli nadal występują problemy, wybierz „Alternatywna konfiguracja.”";
+    "<Wireless_CheckOpenAP_NoLight_Button1>" = "Spróbuj ponownie";
+    "<Wireless_CheckOpenAP_NoLight_Button2>" = "Alternatywna konfiguracja";
 
-    "<Wireless_Waiting_Title>" = "Configuring player";
-    "<Wireless_Waiting_Body>" = "Please wait…";
+    "<Wireless_Waiting_Title>" = "Konfigurowanie odtwarzacza";
+    "<Wireless_Waiting_Body>" = "Czekaj…";
 
-    "<Wireless_OpenReady_Title>" = "Wireless setup";
-    "<Wireless_OpenReady_Body_1_iPod>" = "You will now connect this iPod to a temporary wireless network created by your Sonos player.";
-    "<Wireless_OpenReady_Body_1_iPad>" = "You will now connect this iPad to a temporary wireless network created by your Sonos player.";
-    "<Wireless_OpenReady_Body_1_iPhone>" = "You will now connect this iPhone to a temporary wireless network created by your Sonos player.";
-    "<Wireless_OpenReady_Body_2_iPod>" = "This wireless network, called ‘%1$@’, is available in the Wi-Fi section of the iPod settings.";
-    "<Wireless_OpenReady_Body_2_iPad>" = "This wireless network, called ‘%1$@’, is available in the Wi-Fi section of the iPad settings.";
-    "<Wireless_OpenReady_Body_2_iPhone>" = "This wireless network, called ‘%1$@’, is available in the Wi-Fi section of the iPhone settings.";
-    "<Wireless_OpenReady_Body_3>" = "Press \"Next\" to see the instructions.";
+    "<Wireless_OpenReady_Title>" = "Konfiguracja łączności bezprzewodowej";
+    "<Wireless_OpenReady_Body_1_iPod>" = "Teraz podłączysz tego iPoda do tymczasowej sieci bezprzewodowej stworzonej przez Twój odtwarzacz Sonos.";
+    "<Wireless_OpenReady_Body_1_iPad>" = "Teraz podłączysz tego iPada do tymczasowej sieci bezprzewodowej stworzonej przez Twój odtwarzacz Sonos.";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "Teraz podłączysz tego iPhone’a do tymczasowej sieci bezprzewodowej stworzonej przez Twój odtwarzacz Sonos.";
+    "<Wireless_OpenReady_Body_2_iPod>" = "Ta sieć bezprzewodowa o nazwie „%1$@” jest dostępna w ustawieniach iPoda w ramach sekcji poświęconej sieci Wi-Fi.";
+    "<Wireless_OpenReady_Body_2_iPad>" = "Ta sieć bezprzewodowa o nazwie „%1$@” jest dostępna w ustawieniach iPada w ramach sekcji poświęconej sieci Wi-Fi.";
+    "<Wireless_OpenReady_Body_2_iPhone>" = "Ta sieć bezprzewodowa o nazwie „%1$@” jest dostępna w ustawieniach iPhone’a w ramach sekcji poświęconej sieci Wi-Fi.";
+    "<Wireless_OpenReady_Body_3>" = "Naciśnij „Dalej”, aby wyświetlić instrukcje.";
 
-    "<Wireless_Instructions_Title>" = "Wireless setup";
-    "<Wireless_Instructions_Body_1_iPod>" = "1. Open the iPod Touch settings and tap on \"Wi-Fi\"";
-    "<Wireless_Instructions_Body_1_iPad>" = "1. Open the iPad settings and tap on \"Wi-Fi\"";
-    "<Wireless_Instructions_Body_1_iPhone>" = "1. Open the iPhone settings and tap on \"Wi-Fi\"";
-    "<Wireless_Instructions_Body_2>" = "2. Tap on \"%1$@\" in the list of networks";
-    "<Wireless_Instructions_Body_3>" = "3. Return to the Sonos app, and press \"Next\" to continue";
+    "<Wireless_Instructions_Title>" = "Konfiguracja łączności bezprzewodowej";
+    "<Wireless_Instructions_Body_1_iPod>" = "1. Otwórz ustawienia iPoda Touch i stuknij „Wi-Fi”";
+    "<Wireless_Instructions_Body_1_iPad>" = "1. Otwórz ustawienia iPada i stuknij „Wi-Fi”";
+    "<Wireless_Instructions_Body_1_iPhone>" = "1. Otwórz ustawienia iPhone’a i stuknij „Wi-Fi”";
+    "<Wireless_Instructions_Body_2>" = "2. Stuknij „%1$@” na liście sieci";
+    "<Wireless_Instructions_Body_3>" = "3. Wróć do aplikacji Sonos i naciśnij „Dalej”, aby kontynuować";
 
-    "<Wireless_NotSonosAP_Title>" = "Not connected to player";
-    "<Wireless_NotSonosAP_Body_1_iPod>" = "You are not connected to the \"%1$@\" network. In the Wi-Fi Settings for this iPod you need to select \"%1$@\" from the list of available networks.";
-    "<Wireless_NotSonosAP_Body_1_iPad>" = "You are not connected to the \"%1$@\" network. In the Wi-Fi Settings for this iPad you need to select \"%1$@\" from the list of available networks.";
-    "<Wireless_NotSonosAP_Body_1_iPhone>" = "You are not connected to the \"%1$@\" network. In the Wi-Fi Settings for this iPhone you need to select \"%1$@\" from the list of available networks.";
-    "<Wireless_NotSonosAP_Body_2>" = "Press \"Try again\" to repeat the setup.  If you are having continued problems, press \"Alternative setup.\"";
-    "<Wireless_NotSonosAP_TryAgain>" = "Try again";
-    "<Wireless_NotSonosAP_DontTryAgain>" = "Alternative setup";
+    "<Wireless_NotSonosAP_Title>" = "Nie połączono z odtwarzaczem";
+    "<Wireless_NotSonosAP_Body_1_iPod>" = "Nie połączono z siecią „%1$@”. W ustawieniach sieci Wi-Fi dla tego iPoda musisz wybrać ”%1$@” z listy dostępnych sieci.";
+    "<Wireless_NotSonosAP_Body_1_iPad>" = "Nie połączono z siecią „%1$@”. W ustawieniach sieci Wi-Fi dla tego iPada musisz wybrać ”%1$@” z listy dostępnych sieci.";
+    "<Wireless_NotSonosAP_Body_1_iPhone>" = "Nie połączono z siecią „%1$@”. W ustawieniach sieci Wi-Fi dla tego iPhone’a musisz wybrać ”%1$@” z listy dostępnych sieci.";
+    "<Wireless_NotSonosAP_Body_2>" = "Wybierz „Spróbuj ponownie”, aby powtórzyć proces konfiguracji. Jeżeli nadal występują problemy, naciśnij „Alternatywna konfiguracja.”";
+    "<Wireless_NotSonosAP_TryAgain>" = "Spróbuj ponownie";
+    "<Wireless_NotSonosAP_DontTryAgain>" = "Alternatywna konfiguracja";
 
-    "<Wireless_CheckLight_Title>" = "Check light on player";
-    "<Wireless_CheckLight_Body>" = "Do you see a steady orange light on your Sonos player?";
-    "<Wireless_CheckLight_SeeLight>" = "I see an orange light";
-    "<Wireless_CheckLight_DontSeeLight>" = "I don’t see an orange light";
+    "<Wireless_CheckLight_Title>" = "Sprawdź diodę na odtwarzaczu";
+    "<Wireless_CheckLight_Body>" = "Czy na odtwarzaczu Sonos zaświeciła się pomarańczowa dioda?";
+    "<Wireless_CheckLight_SeeLight>" = "Widzę pomarańczową diodę";
+    "<Wireless_CheckLight_DontSeeLight>" = "Nie widzę pomarańczowej diody";
 
-    "<Wireless_RepeatButton_Title>" = "Repeat button press";
-    "<Wireless_RepeatButton_Body_1>" = "You need to repeat the button press.";
-    "<Wireless_RepeatButton_Body_2>" = "Press \"Next\" to continue.";
+    "<Wireless_RepeatButton_Title>" = "Ponownie naciśnij przycisk";
+    "<Wireless_RepeatButton_Body_1>" = "Musisz ponownie nacisnąć przycisk.";
+    "<Wireless_RepeatButton_Body_2>" = "Naciśnij „Dalej”, aby kontynuować.";
 
 /* WAC Setup Custom Wizard */
 
-    "<WAC_Wizard_Title>" = "Wireless setup";
-    "<WAC_Prep_Body_1>" = "To add your new player, you will be guided through iOS accessory setup steps to configure it on your normal wireless network.";
-    "<WAC_Prep_Input_1>" = "Go to accessory setup";
-    "<WAC_Error_Title>" = "Not connected to player";
-    "<WAC_Error_Body_1>" = "Your new player is not connected to your wireless network.";
-    "<WAC_Error_Body_2>" = "Select \"Try again\" to repeat the setup steps. If you are having continued problems, select \"Alternative setup.\"";
+    "<WAC_Wizard_Title>" = "Konfiguracja łączności bezprzewodowej";
+    "<WAC_Prep_Body_1>" = "Aby dodać Twój nowy odtwarzacz, poprowadzimy Cię przez kilka kroków konfiguracji akcesoriów dla systemu iOS, aby umożliwić konfigurację urządzenia w Twojej standardowej sieci bezprzewodowej.";
+    "<WAC_Prep_Input_1>" = "Przejdź do konfiguracji akcesoriów";
+    "<WAC_Error_Title>" = "Nie połączono z odtwarzaczem";
+    "<WAC_Error_Body_1>" = "Twój nowy odtwarzacz nie jest połączony z Twoją siecią bezprzewodową.";
+    "<WAC_Error_Body_2>" = "Wybierz „Spróbuj ponownie”, aby powtórzyć wszystkie etapy konfiguracji. Jeżeli nadal występują problemy, wybierz „Alternatywna konfiguracja.”";
 
-    "<WAC_Wizard_Waiting_Title>" = "Connecting";
-    "<WAC_Wizard_Waiting_Body_1>" = "Please wait while the connection is completed…";
+    "<WAC_Wizard_Waiting_Title>" = "Łączenie";
+    "<WAC_Wizard_Waiting_Body_1>" = "Zaczekaj na nawiązanie połączenia…";
 
 /* Lockscreen settings item */
 
-    "<LockScreenControl>" = "Lock Screen Control";
-    "<LockScreenControliOSSettingsMessage>" = "To activate lock screen control you need to enable location services for Sonos in iOS Settings.";
-    "<iOSSettings>" = "iOS Settings";
+    "<LockScreenControl>" = "Mechanizm kontrolny na ekranie blokady";
+    "<LockScreenControliOSSettingsMessage>" = "Aby uruchomić mechanizm kontrolny na ekranie blokady, musisz włączyć usługi lokalizacyjne dla systemu Sonos w ustawieniach iOS.";
+    "<iOSSettings>" = "Ustawienia iOS";
 
 /* Basic Equalizer */
 
-    "<Bass>" = "Bass";
-    "<Treble>" = "Treble";
-    "<Balance>" = "Balance";
-    "<Loudness>" = "Loudness";
-    "<Reset>" = "Reset";
-    "<EQNotAvailable>" = "Equalization settings are not available while a Sonos player's Line-Out level is set to Fixed";
+    "<Bass>" = "Bas";
+    "<Treble>" = "Tony wysokie";
+    "<Balance>" = "Balans";
+    "<Loudness>" = "Głośność";
+    "<Reset>" = "Zresetuj";
+    "<EQNotAvailable>" = "Ustawienia korekcji nie są dostępne, kiedy poziom wejścia liniowego odtwarzacza Sonos jest ustawiony jako Stały";
 
 
 /* SUB Equalizer */
 
     "<SUBOn>" = "SUB";
-    "<SUBLevel>" = "SUB Level";
-    "<PlacementAdjustment>" = "Placement Adjustment";
-    "<SpeakerSize>" = "Speaker Size (Crossover)";
+    "<SUBLevel>" = "Poziom SUB";
+    "<PlacementAdjustment>" = "Dostosowanie położenia";
+    "<SpeakerSize>" = "Rozmiar głośnika (Crossover)";
 
 /* Surround Equalizer */
 
-    "<SurroundEnabled>" = "Surrounds";
-    "<SurroundLevel>" = "TV Level";
-    "<MusicSurroundLevel>" = "Music Level";
-    "<SurroundMode>" = "Music Playback";
-    "<SurroundAmbient>" = "Ambient";
-    "<SurroundFull>" = "Full";
-    "<SurroundDescription>" = "During music playback, the surround speakers can supplement with subtle, ambient sound or louder, full range sound.";
-    "<SurroundBalanceButtonLabel>" = "Balance Surround Speakers";
-    "<SurroundBalanceDescription>" = "Manually balance your surround speaker levels. Use Trueplay tuning to automatically adjust sound for this room.";
+    "<SurroundEnabled>" = "Głośniki dźwięku przestrzennego";
+    "<SurroundLevel>" = "Poziom TV";
+    "<MusicSurroundLevel>" = "Poziom muzyki";
+    "<SurroundMode>" = "Odtwarzanie muzyki";
+    "<SurroundAmbient>" = "Dźwięk otoczenia";
+    "<SurroundFull>" = "Pełny zakres";
+    "<SurroundDescription>" = "Podczas odtwarzania muzyki głośniki dźwięku przestrzennego mogą ją uzupełniać subtelnym dźwiękiem otoczenia lub głośniejszym dźwiękiem pełnozakresowym.";
+    "<SurroundBalanceButtonLabel>" = "Ustaw balans głośników dźwięku przestrzennego";
+    "<SurroundBalanceDescription>" = "Ręcznie balansuj poziomy głośników dźwięku przestrzennego. Wykorzystaj technologię regulacji Trueplay, aby automatycznie dostosować dźwięk do pomieszczenia.";
 
 /* TV Equalizer */
 
-    "<AudioDelay>" = "Audio Delay (Lip Sync)";
+    "<AudioDelay>" = "Opóźnienie audio (synchronizacja obrazu z dźwiękiem)";
 
 /* Search */
 
-    "<Search>" = "Search";
+    "<Search>" = "Szukaj";
     // %1$@ = category (Example: "Search for artist everywhere")
-    "<SearchEverywhere_1>" = "Search for %1$@ everywhere";
+    "<SearchEverywhere_1>" = "Wyszukaj %1$@ wszędzie";
     // %1$@ = category (Example: "Search everywhere unavailable for station")
-    "<SearchEverywhereUnavailable_1>" = "Search everywhere unavailable for %1$@";
+    "<SearchEverywhereUnavailable_1>" = "Opcja „Wyszukaj wszędzie” jest niedostępna dla %1$@";
     // %1$@ = category (Example: "Searching in artists everywhere…")
-    "<SearchSearchingEverywhere_1>" = "Searching in %1$@ everywhere…";
+    "<SearchSearchingEverywhere_1>" = "Wyszukiwanie w %1$@ wszędzie…";
     // %1$@ = category, %2$@ = service (Example: "Searching Playlists in Beats Music…")
-    "<SearchSearchingService_2>" = "Searching %1$@ in %2$@…";
-    "<SearchSeeAll>" = "More";
-    "<SearchSearchAll>" = "Search All";
+    "<SearchSearchingService_2>" = "Wyszukiwanie %1$@ w %2$@…";
+    "<SearchSeeAll>" = "Więcej";
+    "<SearchSearchAll>" = "Wyszukaj wszystkie";
 
 /* Search Voice Over */
 
-    "<SearchHeaderShowMoreHint>" = "show more results.";
-    "<SearchHeaderShowAllHint>" = "show results for all services.";
+    "<SearchHeaderShowMoreHint>" = "pokaż więcej wyników.";
+    "<SearchHeaderShowAllHint>" = "pokaż wyniki dla wszystkich serwisów.";
 
 
 /* More Menu */
 
-    "<MoreMusicLoading>" = "Loading…";
+    "<MoreMusicLoading>" = "Ładowanie…";
 
 /* More Music */
-    "<LearnMore>"    = "Learn More";
+    "<LearnMore>"    = "Dowiedz się więcej";
 //    "<Add>"          = "Add";
-    "<AddService>"   = "Add Service";
-    "<MusicServicesSearchPrompt>" = "Filter";
-    "<AccountsInUseTitle>"        = "Accounts in use on Sonos";
+    "<AddService>"   = "Dodaj usługę";
+    "<MusicServicesSearchPrompt>" = "Filtruj";
+    "<AccountsInUseTitle>"        = "Konta użytkowane w Sonos";
 
 /* Duration Voice Over Strings */
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNHours>" = "%d hour(s)";
+    "<VODurationNHours>" = "%d godz";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNMinutes>" = "%d minute(s)";
+    "<VODurationNMinutes>" = "%d min";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNSeconds>" = "%d second(s)";
+    "<VODurationNSeconds>" = "%d sek";
 
 // The following provide native orderings for hours, minutes, and seconds
 // They use the formatted strings from earlier in this section
@@ -459,102 +457,102 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ remaining";
+    "<VODurationOrderHMSNeg>" = "Pozostało %1$@ %2$@ %3$@";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
-    "<VODurationOrderMSNeg>" = "%1$@ %2$@ remaining";
+    "<VODurationOrderMSNeg>" = "Pozostało %1$@ %2$@";
     // VO String %1$@ - second string (Example "27 seconds remaining")
-    "<VODurationOrderSNeg>" = "%1$@ remaining";
+    "<VODurationOrderSNeg>" = "Pozostało %1$@";
 
 /* Control Center */
 
-    "<ControlCenterDisconnected>" = "Connecting…";
-    "<ControlCenterSearching>" = "Searching For Sonos…";
+    "<ControlCenterDisconnected>" = "Łączenie…";
+    "<ControlCenterSearching>" = "Wyszukiwanie Sonos…";
 
 /* 3d touch home icon */
 
-    "<SearchIconTitle>" = "Search";
-    "<FavoritesIconTitle>" = "My Sonos";
-    "<PlayIconPlainTitle>" = "Play";
-    "<PlayIconPlainSubtitle>" = "Resume last played";
-    "<PlayIconRoomTitle>" = "Play: %@";
-    "<PauseIconPlainTitle>" = "Pause";
-    "<PauseIconPlainSubtitle>" = "Pause current music";
-    "<PauseIconRoomTitle>" = "Pause: %@";
+    "<SearchIconTitle>" = "Szukaj";
+    "<FavoritesIconTitle>" = "Mój Sonos";
+    "<PlayIconPlainTitle>" = "Odtwórz";
+    "<PlayIconPlainSubtitle>" = "Wznów odtwarzanie ostatnio wybranego utworu";
+    "<PlayIconRoomTitle>" = "Odtwórz: %@";
+    "<PauseIconPlainTitle>" = "Wstrzymaj";
+    "<PauseIconPlainSubtitle>" = "Wstrzymaj odtwarzanie obecnego utworu";
+    "<PauseIconRoomTitle>" = "Wstrzymaj: %@";
 
 /* Store mode */
 
-    "<GotIt>" = "Got It";
+    "<GotIt>" = "Rozumiem";
 
 /* In App Messages */
 
-    "<HideThisMessage>" = "Remove this message";
+    "<HideThisMessage>" = "Usuń wiadomość";
 
-    "<MessageCenterInbox>" = "Inbox";
-    "<MarkAsRead>" = "Mark Read";
-    "<EmptyMessageInbox>" = "Your Inbox is empty";
+    "<MessageCenterInbox>" = "Skrzynka odbiorcza";
+    "<MarkAsRead>" = "Oznacz jako przeczytane";
+    "<EmptyMessageInbox>" = "Twoja skrzynka odbiorcza jest pusta";
 
 /* First Run Carousel */
 
-    "<AllYourMusic>" = "All your music in one app.";
-    "<ListenInAnyRoom>" = "Play any song in any room.";
+    "<AllYourMusic>" = "Twoja cała muzyka w jednej aplikacji.";
+    "<ListenInAnyRoom>" = "Odtwarzaj dowolny utwór w dowolnym pomieszczeniu.";
 
 
 /* Direct Control */
 
-    "<DirectControlPlayingFrom>" = "Playing From";
-    "<DirectControlLastPlayed>" = "Last Played In This Room";
-    "<DirectControlStartedFrom>" = "Started from";
-    "<DirectControlStartedFrom_1>" = "Started from %1$@";
-    "<DirectControlLastPlayedFrom>" = "Last Played From";
-    "<DirectControlLastPlayedFrom_1>" = "Last played from %1$@";
-    "<DirectControlResumeFrom>" = "Resume From";
+    "<DirectControlPlayingFrom>" = "Odtwarzanie z";
+    "<DirectControlLastPlayed>" = "Ostatnio odtwarzany utwór w tym pomieszczeniu";
+    "<DirectControlStartedFrom>" = "Rozpoczęto od";
+    "<DirectControlStartedFrom_1>" = "Rozpoczęto od %1$@";
+    "<DirectControlLastPlayedFrom>" = "Ostatnio odtwarzany utwór z";
+    "<DirectControlLastPlayedFrom_1>" = "Ostatnio odtwarzany utwór z %1$@";
+    "<DirectControlResumeFrom>" = "Wznów od";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
-    "<VoiceOverPlayingFrom_1>" = "Playing from %1$@";
+    "<VoiceOverPlayingFrom_1>" = "Odtwarzanie z %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
-    "<VoiceOverCurrentlyPlayingFrom_1>" = "Currently Playing from %1$@";
+    "<VoiceOverCurrentlyPlayingFrom_1>" = "Teraz odtwarzane z %1$@";
     // VoiceOver label: "Currently Playing." - used when playback is in progress but service name is unknown
-    "<VoiceOverCurrentlyPlaying>" = "Currently Playing";
+    "<VoiceOverCurrentlyPlaying>" = "Teraz odtwarzane";
 
-    "<DirectControlResume>" = "Resume";
-    "<DirectControlDisconnect>" = "End Session";
-    "<DirectControlUpNext>" = "Next: %@";
-    "<DirectControlMoreInfo>" = "Show More";
-    "<DirectControlMoreInfoVOLabel>" = "Show %@ Details";
-    "<DirectControlLessInfo>" = "Hide";
-    "<DirectControlLessInfoVOLabel>" = "Hide %@ Details";
+    "<DirectControlResume>" = "Wznów";
+    "<DirectControlDisconnect>" = "Zakończ sesję";
+    "<DirectControlUpNext>" = "Dalej: %@";
+    "<DirectControlMoreInfo>" = "Pokaż więcej";
+    "<DirectControlMoreInfoVOLabel>" = "Pokaż szczegóły %@";
+    "<DirectControlLessInfo>" = "Ukryj";
+    "<DirectControlLessInfoVOLabel>" = "Ukryj szczegóły %@";
 
 /* Help & Tips */
 
-    "<New>" = "NEW";
-    "<FeatureUnavailable>" = "Sorry, this feature is unavailable right now.";
+    "<New>" = "NOWOŚĆ";
+    "<FeatureUnavailable>" = "Przepraszamy, ta funkcja jest obecnie niedostępna.";
 
 /* Sonos Alarms */
-    "<AlarmSince>" = "Since %@";
-    "<AlarmActionSnooze>" = "Snooze";
-    "<AlarmActionDismiss>" = "Dismiss";
-    "<AlarmActionAwayMode>" = "Stop Alerts";
-    "<AlarmLabel>" = "Sonos Alarm";
-    "<AlarmActionsAlertTitle>" = "An alarm is playing";
-    "<AlarmActionsAlertBody>" = "An alarm in the %@ has been playing since %@.";
-    "<AlarmSnoozingAlertTitle>" = "Snooze is on";
-    "<AlarmSnoozingAlertBody>" = "An alarm in the %@ is snoozed until %@. Would you like to dismiss it?";
-    "<AlarmSnoozingAlertActionLater>" = "Later";
-    "<AlarmNotificationAuthorizationDeniedAlertTitle>" = "Notifications permission not granted for Sonos";
-    "<AlarmNotificationAuthorizationDeniedAlertBody>" = "Please allow notifications for Sonos in iOS settings in order to receive snooze notifications";
-    "<AlarmNotificationAuthorizationDeniedAlertOpenSettings>" = "Open Settings";
-    "<AlarmErrorTitleHHNotFound>" = "Can't connect to Sonos";
-    "<AlarmErrorTitleZPNotFound>" = "Can't connect to speaker";
-    "<AlarmErrorTitleAlarmNotRunning>" = "No alarm is playing";
-    "<AlarmErrorBodyAwayMode>" = "If you're away from your home, you can turn snooze alerts off.";
-    "<AlarmAwayModeAlertTitle>" = "Snooze alerts are off";
-    "<AlarmAwayModeAlertBody>" = "Would you like to turn them back on?";
-    "<AlarmAwayModeAlertUnmute>" = "Turn On";
-    "<AlarmAwayModeNotificationTitle>" = "Snooze alerts are off";
+    "<AlarmSince>" = "Od %@";
+    "<AlarmActionSnooze>" = "Drzemka";
+    "<AlarmActionDismiss>" = "Odrzuć";
+    "<AlarmActionAwayMode>" = "Zatrzymaj powiadomienia";
+    "<AlarmLabel>" = "Alarm Sonos";
+    "<AlarmActionsAlertTitle>" = "Odtwarzanie alarmu";
+    "<AlarmActionsAlertBody>" = "Alarm w %@ jest odtwarzany od %@.";
+    "<AlarmSnoozingAlertTitle>" = "Drzemka włączona";
+    "<AlarmSnoozingAlertBody>" = "Ustawiono drzemkę dla alarmu w %@ do %@. Czy chcesz ją odrzucić?";
+    "<AlarmSnoozingAlertActionLater>" = "Później";
+    "<AlarmNotificationAuthorizationDeniedAlertTitle>" = "Systemowi Sonos nie zezwolono na powiadomienia";
+    "<AlarmNotificationAuthorizationDeniedAlertBody>" = "Zezwól systemowi Sonos na wyświetlanie powiadomień, dokonując stosownych zmian w ustawieniach iOS, aby otrzymywać powiadomienia o drzemkach";
+    "<AlarmNotificationAuthorizationDeniedAlertOpenSettings>" = "Otwórz ustawienia";
+    "<AlarmErrorTitleHHNotFound>" = "Nie można nawiązać połączenia z systemem Sonos";
+    "<AlarmErrorTitleZPNotFound>" = "Nie można nawiązać połączenia z głośnikiem";
+    "<AlarmErrorTitleAlarmNotRunning>" = "Brak odtwarzanych alarmów";
+    "<AlarmErrorBodyAwayMode>" = "Jeżeli jesteś poza domem, możesz wyłączyć powiadomienia drzemki.";
+    "<AlarmAwayModeAlertTitle>" = "Powiadomienia drzemki zostały wyłączone";
+    "<AlarmAwayModeAlertBody>" = "Czy chcesz je włączyć ponownie?";
+    "<AlarmAwayModeAlertUnmute>" = "Włącz";
+    "<AlarmAwayModeNotificationTitle>" = "Powiadomienia drzemki zostały wyłączone";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<AlarmAwayModeNotificationBodyNAlarms>" = "Snooze notifications turned off for %d alarm(s) in the house.";
+    "<AlarmAwayModeNotificationBodyNAlarms>" = "Powiadomienia drzemki zostały wyłączone dla %d alarmów w domu.";
 
 /* System Status */
-    "<SystemStatusSeverityVOLabel_1>" = "%@ notification";
-    "<SystemStatusSeverityError>" = "Error";
+    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
+    "<SystemStatusSeverityError>" = "ErrorZXZ";
 
 

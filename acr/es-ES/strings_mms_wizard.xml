@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="mms_service_password_invalid">Please enter a valid password.</string>
-<string name="mms_service_login_password_invalid">Please enter a valid login and password.</string>
-<string name="mms_accept_trial_conditions_decision_accept">Accept</string>
-<string name="mms_accept_trial_conditions_decision_decline">Decline</string>
-<string name="mms_merge_trial_account_decision">Do you want to merge the music in the trial account with the account you are adding?</string>
-<string name="mms_merge_trial_account_decision_merge">Merge</string>
-<string name="mms_merge_trial_account_decision_merge_not">Don\'t Merge</string>
-<string name="mms_service_setup_complete_text">is now set up on your Sonos system.</string>
-<string name="mms_service_setup_complete_instruction">Press the Done button to continue.</string>
-<string name="mms_login">Login</string>
-<string name="mms_password">Password</string>
+<string name="mms_service_password_invalid">Escribe una contraseña válida.</string>
+<string name="mms_service_login_password_invalid">Escribe un nombre de inicio de sesión y una contraseña que sean válidos.</string>
+<string name="mms_accept_trial_conditions_decision_accept">Aceptar</string>
+<string name="mms_accept_trial_conditions_decision_decline">Rechazar</string>
+<string name="mms_merge_trial_account_decision">¿Deseas fusionar la música de la cuenta de evaluación con la de la cuenta que estás añadiendo?</string>
+<string name="mms_merge_trial_account_decision_merge">Fusionar</string>
+<string name="mms_merge_trial_account_decision_merge_not">No fusionar</string>
+<string name="mms_service_setup_complete_text">se ha configurado en el sistema de Sonos.</string>
+<string name="mms_service_setup_complete_instruction">Pulsa el botón Listo para continuar.</string>
+<string name="mms_login">Inicio de sesión</string>
+<string name="mms_password">Contraseña</string>
 <string name="mms_string_space_string">%1$s %2$s</string>
-<string name="mms_nickname_specify_nickname">Please enter a unique name</string>
+<string name="mms_nickname_specify_nickname">Escribe un nombre único</string>
 </resources>

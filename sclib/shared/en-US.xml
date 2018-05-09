@@ -785,7 +785,7 @@ Zimbabwe:ZW</String>
 
 Please select a scrobbling option:</String>
 <String id="STR_NPNoInfoAvailable">[No information available]</String>
-<String id="STR_NoMusic" comment="used for now playing">[No music selected]</String>
+<String id="STR_NoMusic" comment="used for now playing">[no music]</String>
 <String id="STR_SourceDeviceHdr">Source Device</String>
 <String id="STR_AddToQueue" comment="softkey label">Add to End of Queue</String>
 <String id="STR_PlayNow">Play Now</String>

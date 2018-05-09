@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="vol_adjust_zone_volumes">Adjust room volumes</string>
-<string name="accessibility_np_close_actions">Close Actions</string>
-
+<string name="vol_adjust_zone_volumes">调节房间音量</string>
+<string name="accessibility_np_close_actions">关闭操作</string>
 </resources>

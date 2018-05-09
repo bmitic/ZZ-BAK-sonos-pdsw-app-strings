@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="alarm_frequency_once">Once</string>
-<string name="alarm_frequency_sunday">Every Sunday</string>
-<string name="alarm_frequency_monday">Every Monday</string>
-<string name="alarm_frequency_tuesday">Every Tuesday</string>
-<string name="alarm_frequency_wednesday">Every Wednesday</string>
-<string name="alarm_frequency_thursday">Every Thursday</string>
-<string name="alarm_frequency_friday">Every Friday</string>
-<string name="alarm_frequency_saturday">Every Saturday</string>
-<string name="alarm_frequency">Repeat</string>
+<string name="alarm_frequency_once">Una vez</string>
+<string name="alarm_frequency_sunday">Cada domingo</string>
+<string name="alarm_frequency_monday">Cada lunes</string>
+<string name="alarm_frequency_tuesday">Cada martes</string>
+<string name="alarm_frequency_wednesday">Cada miércoles</string>
+<string name="alarm_frequency_thursday">Cada jueves</string>
+<string name="alarm_frequency_friday">Cada viernes</string>
+<string name="alarm_frequency_saturday">Cada sábado</string>
+<string name="alarm_frequency">Repetir</string>
 </resources>

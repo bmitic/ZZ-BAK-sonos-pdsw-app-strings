@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="online_update_check_for_updates_subheader">Checking for updates…</string>
-<string name="online_update_devices_upgrade_in_progress_subheader">Update Progress</string>
-<string name="online_update_devices_upgrade_in_progress_warning">Caution:\nDo not switch to another application or power down during the update.</string>
-<string name="online_update_devices_upgraded_status">Completing update…</string>
-<string name="online_update_upgrade_no_market_error">You need to have an Android marketplace app installed to perform an online update.</string>
-<string name="online_update_downloading">Updating Controller:\nDownloading…</string>
-<string name="online_update_downloading_error_title">Update Not Successful</string>
-<string name="online_update_downloading_error_msg">The controller update was not successful. Please make sure that you have a network connection and enough space on your device to download the update.</string>
+<string name="online_update_check_for_updates_subheader">アップデートを確認しています…</string>
+<string name="online_update_devices_upgrade_in_progress_subheader">アップデートの進捗</string>
+<string name="online_update_devices_upgrade_in_progress_warning">注意:\nアップデート中には他のアプリケーションに切り替えたり電源をオフにしないでください。</string>
+<string name="online_update_devices_upgraded_status">アップデートを完了しています…</string>
+<string name="online_update_upgrade_no_market_error">オンライン アップデートを行うには、Android Marketplaceアプリがインストールされている必要があります。</string>
+<string name="online_update_downloading">コントローラのアップデート：\nダウンロード中…</string>
+<string name="online_update_downloading_error_title">アップデートが成功しませんでした</string>
+<string name="online_update_downloading_error_msg">コントローラのアップデートが成功しませんでした。 ネットワーク接続とアップデートをダウンロードするためにデバイスに十分な領域があることを確認してください。</string>
 </resources>

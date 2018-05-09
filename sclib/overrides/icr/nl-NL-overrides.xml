@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Sonos voor het draadloze netwerk configureren.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Sonos stelt het beste draadloze kanaal vooraf in. Je kunt dit negeren door een nieuw kanaal te kiezen.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonos stelt de beste audiocompressie vooraf in voor spelers aangesloten op de Audio-ingang en Sonos DOCK. Je kunt dit negeren door een nieuwe instelling te kiezen.</String>
+<String id="STR_MusicLibraryIndexing">Bibliotheek - Indexeren…</String>
+<String id="STR_SonosPlaylists">Sonos-afspeellijsten</String>
+<String id="STR_NoMusic">Geen muziek</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_MSWiz_Password_Body_1_Fmt">Voer je nieuwe wachtwoord in</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Als je de standaard account voor deze controller wilt wijzigen, tik je in het hoofdmenu op de naam voor je %1$s-account.</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/icr</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Body_1">Tik op de knop hieronder om naar de App Store te gaan voor de laatste update van je Sonos Controller.</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Body_1_TestFlight">Een nieuwe versie van deze controller kan vanaf TestFlight worden gedownload.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Download de nieuwste versie van de Sonos Controller uit de App Store.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Download de nieuwste versie van de Sonos Controller uit de App Store.</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Title">Sonos-app moet worden bijgewerkt</String>
+<String id="SCLIB_STR_LC_Reset_String1">Sluit de app en open hem vervolgens opnieuw.</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="SCLIB_STR_Queue_Title">Wachtrij</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">Wachtrij (niet in gebruik)</String>
+<String id="STR_ArtistInfo">Bladeren op deze artiest</String>
+<String id="STR_AuthorInfo">Door de auteur bladeren</String>
+<String id="STR_AllAlbumsArtist">Bladeren op deze artiest</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 nummer</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 nummers</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d nummers</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">Afspeellijst hernoemen</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">Nieuwe afspeellijst</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">Om een nummer aan deze afspeellijst toe te voegen, tik je tijdens het bladeren door of het afspelen van muziek op ⋯ en selecteer je *Aan Sonos-afspeellijst toevoegen*.</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_NewPlaylist" id="SCLIB_STR_EmptyPlaylistContainerMessage_AddToPlaylist">Om een Sonos-afspeellijst aan te maken, tik je hieronder op *Nieuwe afspeellijst*.</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">Om een Sonos-afspeellijst aan te maken, tik je op ⋯ .</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">Om stations, afspeellijsten, albums of artiesten aan Mijn Sonos toe te voegen, tik je tijdens het bladeren door of afspelen van muziek op ⋯ en selecteer je *Aan Mijn Sonos toevoegen*.</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">'%1$s' uit Mijn Sonos verwijderd</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">Kon '%1$s' niet uit Mijn Sonos verwijderen</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' is niet meer beschikbaar. Het apparaat waarop de muziekbestanden zijn opgeslagen is mogelijk niet ingeschakeld of het pad kan zijn gewijzigd.
+Ga naar Instellingen &gt; Muziekbibliotheek beheren &gt; Instellingen muziekbibliotheek om de padnaam te controleren.</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">App-instellingen</String>
+<String id="SCLIB_STR_LC_NoNetwork_String_No_Button">Ga naar Instellingen &gt; Wifi op je apparaat.</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Ga naar Instellingen &gt; WiFi en schakel over naar hetzelfde netwerk als Sonos.</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">Op updates controleren</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">Info over mijn Sonos-systeem</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Ga naar je wifi-instellingen</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">Speler configureren</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">We hebben Sonos op het draadloze netwerk van *%1$s* gevonden.</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">We hebben een nieuwe Sonos-speaker op het draadloze netwerk van *%1$s* gevonden.</String>
+<String id="STR_AddFavorite">Aan Mijn Sonos toevoegen</String>
+<String id="SCLIB_STR_DeleteFavorite">Uit Mijn Sonos verwijderen</String>
+<String id="STR_AddToFavoritesAdded">'%1$s' aan Mijn Sonos toegevoegd.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">'%1$s' aan Mijn Sonos toegevoegd.
+
+Er zijn nog %2$d plaatsen over in Mijn Sonos.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">'%1$s' aan Mijn Sonos toegevoegd.
+
+Er is nog 1 plaats over in Mijn Sonos.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">'%1$s' aan Mijn Sonos toegevoegd.
+
+Alle voor favorieten beschikbare plaatsen zijn gebruikt.</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">'%1$s' is al aan Mijn Sonos toegevoegd en wordt niet opnieuw toegevoegd.</String>
+<String id="STR_AddToFavoritesFullError">Aan Mijn Sonos toevoegen is niet mogelijk. Er is geen plaats over.
+
+Je kunt bestaande items uit Mijn Sonos verwijderen om ruimte te maken voor nieuwe.</String>
+<String id="STR_AddToFavoritesError">Kan '%1$s' niet aan Mijn Sonos toevoegen.</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">Aan Mijn Sonos toevoegen is niet mogelijk Om meer ruimte voor nieuwe items te maken, kun je overwegen om bestaande items te verwijderen of om items uit Mijn radiostations of Mijn radioprogramma's te verwijderen.</String>
+<String id="SCLIB_STR_RenameFavorite">Item hernoemen</String>
+<String id="STR_AddFavoriteStation">Station aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteTrack">Nummer aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteAlbum">Album aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteArtist">Artiest aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoritePlaylist">Afspeellijst aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteShow">Programma aan Mijn Sonos toevoegen</String>
+<String id="STR_AddFavoriteBook">Boek aan Mijn Sonos toevoegen</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Back_Button">Terug</String>
+<String id="SCLIB_STR_SetupWiz_RegEmailOpts_Input_2_CheckboxVO">Je stemt in met het gebruik van persoonlijke gegevens zoals beschreven in de Privacyverklaring</String>
+<String id="SCLIB_STR_Wiz_Sec_Reg_Account_NewAccount_PrivacyStatement_Input_CheckboxVO">Ik accepteer de Privacyverklaring</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+</Strings>

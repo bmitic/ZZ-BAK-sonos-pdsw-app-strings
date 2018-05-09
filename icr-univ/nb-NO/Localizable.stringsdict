@@ -13,9 +13,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Snooze notifications turned off for %d alarm in the house.</string>
+			<string>Slumrevarslinger slått av for %d alarm i huset.</string>
 			<key>other</key>
-			<string>Snooze notifications turned off for %d alarms in the house.</string>
+			<string>Slumrevarslinger slått av for %d alarmer i huset.</string>
 		</dict>
 	</dict>
 	<key>&lt;VODurationNHours&gt;</key>
@@ -29,9 +29,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d hour</string>
+			<string>%d time</string>
 			<key>other</key>
-			<string>%d hours</string>
+			<string>%d timer</string>
 		</dict>
 	</dict>
 	<key>&lt;VODurationNMinutes&gt;</key>
@@ -45,9 +45,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d minute</string>
+			<string>%d minutt</string>
 			<key>other</key>
-			<string>%d minutes</string>
+			<string>%d minutter</string>
 		</dict>
 	</dict>
 	<key>&lt;VODurationNSeconds&gt;</key>
@@ -61,9 +61,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d second</string>
+			<string>%d sekund</string>
 			<key>other</key>
-			<string>%d seconds</string>
+			<string>%d sekunder</string>
 		</dict>
 	</dict>
 	<key>&lt;QueueTrackLabel_1&gt;</key>
@@ -77,11 +77,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>Empty</string>
+			<string>Tom</string>
 			<key>one</key>
-			<string>.%d song.</string>
+			<string>.%d låt.</string>
 			<key>other</key>
-			<string>.%d songs.</string>
+			<string>.%d låter.</string>
 		</dict>
 	</dict>
 </dict>

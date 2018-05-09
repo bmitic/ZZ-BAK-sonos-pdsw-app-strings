@@ -1,454 +1,448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<String id="RHHSTR_SHARE_NAME_FMT">%1$s on %2$s</String>
+<String id="RHHSTR_SHARE_NAME_FMT">%1$s på %2$s</String>
 <String id="RHHSTR_PLAYMODE_NORMAL">Normal</String>
-<String id="RHHSTR_PLAYMODE_RANDOM">Shuffle</String>
-<String id="RHHSTR_PLAYMODE_REPEAT">Repeat</String>
-<String id="STR_Crossfade">Crossfade</String>
-<String id="RHHSTR_PLAYMODE_RANDOM_ON">Shuffle On</String>
-<String id="RHHSTR_PLAYMODE_REPEAT_ALL_ON">Repeat All</String>
-<String id="RHHSTR_PLAYMODE_REPEAT_ONE_ON">Repeat Song</String>
-<String id="RHHSTR_PLAYMODE_CROSSFADE_ON">Crossfade On</String>
-<String id="RHHSTR_PLAYMODE_RANDOM_OFF">Shuffle Off</String>
-<String id="RHHSTR_PLAYMODE_REPEAT_OFF">Repeat Off</String>
-<String id="RHHSTR_PLAYMODE_CROSSFADE_OFF">Crossfade Off</String>
-<String id="STR_Turn_Crossfade_On">Turn Crossfading On</String>
-<String id="STR_Turn_Crossfade_Off">Turn Crossfading Off</String>
-<String id="RHHSTR_PLAYMODE_RANDREPEAT">Shuffle-Repeat</String>
-<String id="RHHSTR_PLAYMODE_UNKNOWN">Unknown</String>
-<String id="RHHSTR_SETTING_BBFTITLE">Song Name</String>
-<String id="RHHSTR_SETTING_BBFFILE">File Name</String>
-<String id="RHHSTR_SETTING_BBFTRACKNUM">Song Number</String>
-<String id="RHHSTR_SETTING_ON">On</String>
-<String id="RHHSTR_SETTING_OFF">Off</String>
-<String id="RHHSTR_SETTING_SHOW">Show</String>
-<String id="RHHSTR_SETTING_HIDE">Hide</String>
-<String id="RHHSTR_SETTING_ASMCHARGEOFF">Off While Charging</String>
-<String id="RHHSTR_UNUSED2">[unused]</String>
-<String id="RHHSTR_SETTING_10SEC">10 seconds</String>
-<String id="RHHSTR_SETTING_30SEC">30 seconds</String>
-<String id="RHHSTR_SETTING_1MIN">1 minute</String>
-<String id="RHHSTR_SETTING_2MIN">2 minutes</String>
-<String id="RHHSTR_SETTING_5MIN">5 minutes</String>
-<String id="RHHSTR_SETTING_10MIN">10 minutes</String>
-<String id="RHHSTR_SETTING_30MIN">30 minutes</String>
-<String id="RHHSTR_SETTING_1HR">1 hour</String>
-<String id="RHHSTR_SETTING_2HR">2 hours</String>
-<String id="RHHSTR_SETTING_4HR">4 hours</String>
-<String id="RHHSTR_SETTING_5HR">5 hours</String>
-<String id="RHHSTR_SETTING_8HR">8 hours</String>
-<String id="RHHSTR_SETTING_12HR">12 hours</String>
-<String id="STR_ROOMNAME_BATHROOM">Bathroom</String>
-<String id="STR_ROOMNAME_BEDROOM">Bedroom</String>
-<String id="STR_ROOMNAME_DEN">Den</String>
-<String id="STR_ROOMNAME_DINING_ROOM">Dining Room</String>
-<String id="STR_ROOMNAME_FAMILY_ROOM">Family Room</String>
-<String id="STR_ROOMNAME_FOYER">Foyer</String>
-<String id="STR_ROOMNAME_GARAGE">Garage</String>
-<String id="STR_ROOMNAME_GARDEN">Garden</String>
-<String id="STR_ROOMNAME_GUEST_ROOM">Guest Room</String>
-<String id="STR_ROOMNAME_HALLWAY">Hallway</String>
-<String id="STR_ROOMNAME_KITCHEN">Kitchen</String>
-<String id="STR_ROOMNAME_LIBRARY">Library</String>
-<String id="STR_ROOMNAME_LIVING_ROOM">Living Room</String>
-<String id="STR_ROOMNAME_MASTER_BEDROOM">Master Bedroom</String>
-<String id="STR_ROOMNAME_MEDIA_ROOM">Media Room</String>
-<String id="STR_ROOMNAME_OFFICE">Office</String>
-<String id="STR_ROOMNAME_PATIO">Patio</String>
-<String id="STR_ROOMNAME_PLAYROOM">Playroom</String>
-<String id="STR_ROOMNAME_POOL">Pool</String>
-<String id="STR_ROOMNAME_PORTABLE">Portable</String>
-<String id="STR_ROOMNAME_TVROOM">TV Room</String>
-<String id="STR_ROOMNAME_UNNAMED">Unnamed</String>
+<String id="RHHSTR_PLAYMODE_RANDOM">Bland</String>
+<String id="RHHSTR_PLAYMODE_REPEAT">Gjenta</String>
+<String id="STR_Crossfade">Kryssfade</String>
+<String id="RHHSTR_PLAYMODE_RANDOM_ON">Bland på</String>
+<String id="RHHSTR_PLAYMODE_REPEAT_ALL_ON">Gjenta alle</String>
+<String id="RHHSTR_PLAYMODE_REPEAT_ONE_ON">Gjenta låt</String>
+<String id="RHHSTR_PLAYMODE_CROSSFADE_ON">Kryssfade på</String>
+<String id="RHHSTR_PLAYMODE_RANDOM_OFF">Bland av</String>
+<String id="RHHSTR_PLAYMODE_REPEAT_OFF">Gjenta av</String>
+<String id="RHHSTR_PLAYMODE_CROSSFADE_OFF">Kryssfade av</String>
+<String id="STR_Turn_Crossfade_On">Skru kryssfading på</String>
+<String id="STR_Turn_Crossfade_Off">Skru kryssfading av</String>
+<String id="RHHSTR_PLAYMODE_RANDREPEAT">Bland-gjenta</String>
+<String id="RHHSTR_PLAYMODE_UNKNOWN">Ukjent</String>
+<String id="RHHSTR_SETTING_BBFTITLE">Låtnavn</String>
+<String id="RHHSTR_SETTING_BBFFILE">Filnavn</String>
+<String id="RHHSTR_SETTING_BBFTRACKNUM">Låtnummer</String>
+<String id="RHHSTR_SETTING_ON">På</String>
+<String id="RHHSTR_SETTING_OFF">Av</String>
+<String id="RHHSTR_SETTING_SHOW">Vis</String>
+<String id="RHHSTR_SETTING_HIDE">Skjul</String>
+<String id="RHHSTR_SETTING_ASMCHARGEOFF">Av under lading</String>
+<String id="RHHSTR_UNUSED2">[ubrukt]</String>
+<String id="RHHSTR_SETTING_10SEC">10 sekunder</String>
+<String id="RHHSTR_SETTING_30SEC">30 sekunder</String>
+<String id="RHHSTR_SETTING_1MIN">1 minutt</String>
+<String id="RHHSTR_SETTING_2MIN">2 minutter</String>
+<String id="RHHSTR_SETTING_5MIN">5 minutter</String>
+<String id="RHHSTR_SETTING_10MIN">10 minutter</String>
+<String id="RHHSTR_SETTING_30MIN">30 minutter</String>
+<String id="RHHSTR_SETTING_1HR">1 time</String>
+<String id="RHHSTR_SETTING_2HR">2 timer</String>
+<String id="RHHSTR_SETTING_4HR">4 timer</String>
+<String id="RHHSTR_SETTING_5HR">5 timer</String>
+<String id="RHHSTR_SETTING_8HR">8 timer</String>
+<String id="RHHSTR_SETTING_12HR">12 timer</String>
+<String id="STR_ROOMNAME_BATHROOM">Bad</String>
+<String id="STR_ROOMNAME_BEDROOM">Soverom</String>
+<String id="STR_ROOMNAME_DEN">Arbeidsrom</String>
+<String id="STR_ROOMNAME_DINING_ROOM">Spisestue</String>
+<String id="STR_ROOMNAME_FAMILY_ROOM">Oppholdsrom</String>
+<String id="STR_ROOMNAME_FOYER">Foajé</String>
+<String id="STR_ROOMNAME_GARAGE">Garasje</String>
+<String id="STR_ROOMNAME_GARDEN">Hage</String>
+<String id="STR_ROOMNAME_GUEST_ROOM">Gjesterom</String>
+<String id="STR_ROOMNAME_HALLWAY">Gang</String>
+<String id="STR_ROOMNAME_KITCHEN">Kjøkken</String>
+<String id="STR_ROOMNAME_LIBRARY">Bibliotek</String>
+<String id="STR_ROOMNAME_LIVING_ROOM">Stue</String>
+<String id="STR_ROOMNAME_MASTER_BEDROOM">Hovedsoverom</String>
+<String id="STR_ROOMNAME_MEDIA_ROOM">Medierom</String>
+<String id="STR_ROOMNAME_OFFICE">Kontor</String>
+<String id="STR_ROOMNAME_PATIO">Atrium</String>
+<String id="STR_ROOMNAME_PLAYROOM">Lekerom</String>
+<String id="STR_ROOMNAME_POOL">Basseng</String>
+<String id="STR_ROOMNAME_PORTABLE">Bærbar</String>
+<String id="STR_ROOMNAME_TVROOM">TV-rom</String>
+<String id="STR_ROOMNAME_UNNAMED">Uten navn</String>
 <String id="STR_ROOMNAME_VIPER">BRIDGE</String>
 <String id="STR_ROOMNAME_BOOST">BOOST</String>
-<String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos Extender</String>
+<String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos utvider</String>
 <String id="STR_ROOMNAME_DOCK">DOCK</String>
 <String id="STR_ROOMNAME_ANVIL">SUB</String>
-<String id="STR_ROOMNAME_LOUNGE">Lounge</String>
-<String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos Playlist</String>
-<String id="RHHSTR_E_MALFORMED_PATH">%1$s is not a valid share path. It should look like \\Computer\Folder or \\Computer\Shared\Folder</String>
-<String id="RHHSTR_E_TOO_MANY_MOUNTED">Unable to connect to %1$s - the Sonos player can only connect to %2$d computers at a time</String>
-<String id="RHHSTR_E_CANT_RESOLVE_NAME">The computer %1$s cannot be found</String>
-<String id="RHHSTR_E_HOST_NO_RESPONSE">The computer %1$s is not responding</String>
-<String id="RHHSTR_E_CONNECT_REFUSED">The computer %1$s refused to let the Sonos player connect to it</String>
-<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Access to the share %1$s is denied - check the user name and/or password</String>
-<String id="RHHSTR_E_NO_SUCH_SHARE">There is no share %1$s on the computer %2$s</String>
-<String id="RHHSTR_E_NO_SUCH_FILE">The file %1$s does not exist</String>
-<String id="RHHSTR_E_FILE_ACCESS_DENIED">Access to the file %1$s is denied</String>
-<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Access to the share %1$s is denied - you may need to specify a user name and password</String>
-<String id="RHHSTR_E_TOO_MANY_USERS">Share %1$s has too many active connections</String>
-<String id="RHHSTR_E_EXISTING_SHARED_FOLDER">Failed to add the shared folder. The folder you wish to add is a subset of an existing shared folder.</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Unable to add the music share %1$s to your music library (900)</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Unable to add the music share %1$s to your music library (%2$d)</String>
-<String id="RHHSTR_TOO_MANY_SHARES">Unable to add the music share %1$s to your music library. Sonos can only connect to %2$d folders at a time.</String>
-<String id="RHHSTR_SHARE_NAME_TOO_LONG">The share name is too long</String>
-<String id="RHHSTR_USERNAME_TOO_LONG">The user name is too long</String>
-<String id="RHHSTR_PASSWORD_TOO_LONG">The password is too long</String>
-<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Unable to remove the music share %1$s from your music library (%2$d)</String>
-<String id="RHHSTR_WIFI_CHANNEL">Wireless Channel: %1$d (%2$d MHz)</String>
-<String id="RHHSTR_WIFI_CHANNEL_MENU_FMT">Channel %1$d</String>
+<String id="STR_ROOMNAME_LOUNGE">Salong</String>
+<String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos-liste</String>
+<String id="RHHSTR_E_MALFORMED_PATH">%1$s er ikke en gyldig delingsbane. Den skal se ut som \\Datamaskin\Mappe eller \\Datamaskin\Delt\Mappe</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">Kunne ikke koble til %1$s - Sonos-spilleren kan kun koble til %2$d datamaskiner samtidig</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">Datamaskinen %1$s ble ikke funnet</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">Datamaskinen %1$s svarer ikke</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">Datamaskinen %1$s nektet å la Sonos-spilleren koble til den</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Tilgang til den delte ressursen %1$s er avslått - sjekk brukernavn og/eller passord.</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">Det er ingen delt ressurs %1$s på datamaskinen %2$s</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">Filen %1$s finnes ikke</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">Tilgang til filen %1$s er avslått</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Tilgang til den delte ressursen %1$s er avslått - du kan måtte spesifisere et brukernavn og passord.</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">Ressursen %1$s har for mange aktive tilkoblinger.</String>
+<String id="RHHSTR_E_EXISTING_SHARED_FOLDER">Kunne ikke legge til den delte mappen. Mappen som du ønsker å legge til er et delsett av en eksisterende delt mappe</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Kan ikke legge musikkdelingen %1$s til i musikkbiblioteket ditt (900)</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Kunne ikke legge den delte musikkressursen %1$s til musikkbiblioteket ditt (%2$d)</String>
+<String id="RHHSTR_TOO_MANY_SHARES">Kan ikke legge musikkdelingen %1$s til i ditt musikkbibliotek  Sonos kan kun kobles til %2$d mapper samtidig.</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">Ressursnavnet er for langt</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">Brukernavnet er for langt</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">Passordet er for langt</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Kunne ikke fjerne den delte musikkressursen %1$s fra musikkbiblioteket ditt (%2$d).</String>
+<String id="RHHSTR_WIFI_CHANNEL">Trådløs kanal: %1$d (%2$d MHz)</String>
+<String id="RHHSTR_WIFI_CHANNEL_MENU_FMT">Kanal %1$d</String>
 <String id="RHHSTR_LINEIN_DISPLAY_NAME_FMT">%1$s</String>
-<String id="RHHSTR_INPUTNAME_AudioComponent">Audio Component</String>
-<String id="RHHSTR_INPUTNAME_CDPlayer">CD Player</String>
-<String id="RHHSTR_INPUTNAME_Computer">Computer</String>
-<String id="RHHSTR_INPUTNAME_HomeTheater">Home Theater</String>
-<String id="RHHSTR_INPUTNAME_Mac">Mac Computer</String>
-<String id="RHHSTR_INPUTNAME_PortablePlayer">Portable Player</String>
-<String id="RHHSTR_INPUTNAME_Receiver">Receiver</String>
-<String id="RHHSTR_INPUTNAME_Satellite">Satellite Receiver</String>
-<String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay Device</String>
-<String id="RHHSTR_INPUTVOL_VOL0">Level 1 (Low)</String>
-<String id="RHHSTR_INPUTVOL_VOL1">Level 2 (A/V Component)</String>
-<String id="RHHSTR_INPUTVOL_VOL2">Level 3</String>
-<String id="RHHSTR_INPUTVOL_VOL3">Level 4 (AirPlay)</String>
-<String id="RHHSTR_INPUTVOL_VOL4">Level 5</String>
-<String id="RHHSTR_INPUTVOL_VOL5">Level 6 (Mac Computer)</String>
-<String id="RHHSTR_INPUTVOL_VOL6">Level 7</String>
-<String id="RHHSTR_INPUTVOL_VOL7">Level 8 (Portable Player, PC)</String>
-<String id="RHHSTR_INPUTVOL_VOL8">Level 9</String>
-<String id="RHHSTR_INPUTVOL_VOL9">Level 10 (High)</String>
-<String id="RHHSTR_UPDATE_NOW">Update Now</String>
-<String id="RHHSTR_CANCEL">Cancel</String>
-<String id="RHHSTR_SONOS_UPDATES">Sonos Updates</String>
-<String id="RHHSTR_ALL">All</String>
-<!--Note the order here matters and must correlate to the enum order in transporterror.h-->
-<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.</String>
-<String id="RHHSTR_RTE_CANT_REACH_SERVER">Unable to play '%1$s' - unable to connect to %2$s.</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED">Unable to play '%1$s' - access to %3$s denied.#END_OF_LOCALIZED_STRING %2$s</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">Unable to play '%1$s' - access is denied.</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_FILE">Unable to play '%1$s' - the file %3$s cannot be found.#END_OF_LOCALIZED_STRING %2$s</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_FILE_SANS_PATH">Unable to play '%1$s' - the file cannot be found.</String>
-<String id="RHHSTR_RTE_LOST_CONNECTION">Unable to play '%1$s' - the connection to %2$s was lost.</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_FORMAT">Unable to play '%1$s' - the file is in an unsupported format.</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_FREQ">Unable to play '%1$s' - it is encoded at unsupported sample rate %4$s Hz.#END_OF_LOCALIZED_STRING %2$s%3$s</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_DRM">Unable to play '%1$s' - it is encoded using an unsupported digital rights management system.</String>
-<String id="RHHSTR_RTE_CORRUPT_FILE">Unable to play '%1$s' - the song is not encoded correctly.</String>
-<String id="RHHSTR_RTE_SHARE_ACCESS_DENIED">Unable to play '%1$s' - access to %2$s denied.</String>
-<String id="RHHSTR_RTE_TOO_MANY_MOUNTED">Unable to connect to %2$s - too many active shares.#END_OF_LOCALIZED_STRING %1$s</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_SHARE">Unable to play '%1$s' - the share %2$s does not exist.</String>
-<String id="RHHSTR_RTE_TOO_MANY_USERS">Unable to play '%1$s' - there are too many connections to the share %2$s.</String>
-<String id="RHHSTR_RTE_BAD_INET_RADIO">Unable to play '%1$s' - station not found.</String>
-<String id="RHHSTR_RTE_BUFFERING">Unable to play '%1$s' - network connection speed insufficient to maintain playback buffer.</String>
-<String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Unable to play '%1$s' - cannot connect to %2$s because the server cannot be found.</String>
-<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_UNAVAILABLE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_AUDIBLE_DRM">Audible is no longer supported on Sonos.</String>
-<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Unable to play '%1$s' - Windows Media Sharing is not turned on for one or more Sonos players.</String>
-<String id="RHHSTR_RTE_WMP_NO_LICENSE">Unable to play '%1$s' - a valid license could not be obtained.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_INACTIVE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_READ_ONLY"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_STATION_GONE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_SUSPENDED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Unable to play '%1$s' - the %2$s account login information is not valid.</String>
-<String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">Unable to play '%1$s' - the associated %2$s account was not found in your Sonos system.</String>
-<String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Unable to play '%1$s' - your %2$s trial has expired.
+<String id="RHHSTR_INPUTNAME_AudioComponent">Lydkomponent</String>
+<String id="RHHSTR_INPUTNAME_CDPlayer">CD-spiller</String>
+<String id="RHHSTR_INPUTNAME_Computer">Datamaskin</String>
+<String id="RHHSTR_INPUTNAME_HomeTheater">Hjemmekino</String>
+<String id="RHHSTR_INPUTNAME_Mac">Mac-datamaskin</String>
+<String id="RHHSTR_INPUTNAME_PortablePlayer">Bærbar spiller</String>
+<String id="RHHSTR_INPUTNAME_Receiver">Mottager</String>
+<String id="RHHSTR_INPUTNAME_Satellite">Satellittmottager</String>
+<String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay-enhet</String>
+<String id="RHHSTR_INPUTVOL_VOL0">Nivå 1 (Lav)</String>
+<String id="RHHSTR_INPUTVOL_VOL1">Nivå 2 (A/V komponent)</String>
+<String id="RHHSTR_INPUTVOL_VOL2">Nivå 3</String>
+<String id="RHHSTR_INPUTVOL_VOL3">Nivå 4 (AirPlay)</String>
+<String id="RHHSTR_INPUTVOL_VOL4">Nivå 5</String>
+<String id="RHHSTR_INPUTVOL_VOL5">Nivå 6 (Mac-datamaskin)</String>
+<String id="RHHSTR_INPUTVOL_VOL6">Nivå 7</String>
+<String id="RHHSTR_INPUTVOL_VOL7">Nivå 8 (bærbar spiller, PC)</String>
+<String id="RHHSTR_INPUTVOL_VOL8">Nivå 9</String>
+<String id="RHHSTR_INPUTVOL_VOL9">Nivå 10 (Høy)</String>
+<String id="RHHSTR_UPDATE_NOW">Oppdater nå</String>
+<String id="RHHSTR_CANCEL">Avbryt</String>
+<String id="RHHSTR_SONOS_UPDATES">Sonos-oppdateringer</String>
+<String id="RHHSTR_ALL">Alle</String>
+<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.ZXZ</String>
+<String id="RHHSTR_RTE_CANT_REACH_SERVER">Kunne ikke spille «%1$s» - kunne ikke koble til %2$s.</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED">Kunne ikke spille «%1$s» - tilgang til %3$s ble nektet.#END_OF_LOCALIZED_STRING %2$s</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">Kunne ikke spille «%1$s» - tilgang avslått.</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_FILE">Kunne ikke spille «%1$s» - filen %3$s kan ikke bli funnet.#END_OF_LOCALIZED_STRING %2$s</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_FILE_SANS_PATH">Kunne ikke spille «%1$s» - filen kan ikke finnes.</String>
+<String id="RHHSTR_RTE_LOST_CONNECTION">Kunne ikke spille «%1$s» - forbindelsen med %2$s ble mistet.</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_FORMAT">Kunne ikke spille «%1$s» - filen er i et ustøttet format.</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_FREQ">Kunne ikke spille «%1$s» - den er kryptert i ustøttet samplinghastighet %4$s Hz.#END_OF_LOCALIZED_STRING %2$s%3$s</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_DRM">Kunne ikke spille «%1$s» - den er kryptert ved bruk av et ustøttet administrasjonssystem for digitale rettigheter.</String>
+<String id="RHHSTR_RTE_CORRUPT_FILE">Kunne ikke spille %1$s - låten er ikke korrekt kryptert.</String>
+<String id="RHHSTR_RTE_SHARE_ACCESS_DENIED">Kunne ikke spille «%1$s» - tilgang til %2$s avslått.</String>
+<String id="RHHSTR_RTE_TOO_MANY_MOUNTED">Kunne ikke koble til %2$s - for mange aktive delte ressurser.#END_OF_LOCALIZED_STRING %1$s</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_SHARE">Kunne ikke spille «%1$s» - den delte ressursen %2$s finnes ikke.</String>
+<String id="RHHSTR_RTE_TOO_MANY_USERS">Kunne ikke spille «%1$s» - det er for mange koblinger til den delte ressursen %2$s.</String>
+<String id="RHHSTR_RTE_BAD_INET_RADIO">Kunne ikke spille «%1$s» - stasjon ikke funnet.</String>
+<String id="RHHSTR_RTE_BUFFERING">Kunne ikke spille «%1$s» - nettverksforbindelseshastighet utilstrekkelig til å opprettholde avspillingsbuffer.</String>
+<String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Kunne ikke spille «%1$s» - kan ikke koble til %2$s fordi serveren ikke kan finnes.</String>
+<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT">Kunne ikke spille «%1$s» - Rhapsody er begrenset til ikke mer enn 3 samtidige lydstreaminger.</String>
+<String id="RHHSTR_RTE_RHAP_UNAVAILABLE">Kunne ikke spille «%1$s» - låten er ikke tilgjengelig for streaming fra Rhapsody.</String>
+<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT">Kunne ikke spille «%1$s» - din Rhapsody innloggingsinformasjon er ikke gyldig.</String>
+<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED">Kunne ikke spille «%1$s» - din Rhapsody prøveperiode er utløpt.</String>
+<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT">Kan ikke spille av «%1$s» – fant ikke den tilknyttede Rhapsody-kontoen på Sonos-systemet ditt. Vennligst skriv inn din Rhapsody kontoinformasjon.</String>
+<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT">Kunne ikke spille «%1$s» - oppgrader kontoen din hos Rhapsody for å bli en fullstendig en abonnent.</String>
+<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC">Kunne ikke spille «%1$s» - Audible programmer må bruke 'Format 4' (MP3).</String>
+<String id="RHHSTR_RTE_AUDIBLE_DRM">Audible støttes ikke lenger på Sonos.</String>
+<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING">Kunne ikke spille «%1$s» - Sonos-spilleren som er aktivert for Hørbar er ikke tilstede.</String>
+<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Kunne ikke spille «%1$s» - Windows mediedeling er ikke skrudd på for én eller flere Sonos-spillere.</String>
+<String id="RHHSTR_RTE_WMP_NO_LICENSE">Kunne ikke spille «%1$s» - en gyldig lisens kunne ikke erverves.</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT">SiriusXM-kanalen som spiller i ditt andre rom ble stoppet. SiriusXM tillater kun avspilling av en kanal av gangen.</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT">Kunne ikke spille «%1$s» - din SiriusXM-konto er i bruk av en annen datamaskin eller musikkspiller.</String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT">Kunne ikke spille «%1$s» - din SiriusXM innloggingsinformasjon er ikke gyldig.</String>
+<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED">Kunne ikke spille «%1$s» - din SiriusXM-prøveperiode er utløpt.</String>
+<String id="RHHSTR_RTE_SIRIUS_INACTIVE">Kan ikke spille av «%1$s» – SiriusXM stopper automatisk avspilling etter lange inaktive perioder.</String>
+<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT">Kan ikke spille av «%1$s» – fant ikke SiriusXM-kontoen som er tilknyttet med denne stasjonen Sonos-systemet ditt. Vennligst skriv inn din SiriusXM kontoinformasjon.</String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL">Kunne ikke spille «%1$s» - et premium abonnement på SiriusXM er nødvendig. Vennligst oppgrader ditt abonnement på SiriusXM.</String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL">Kunne ikke spille «%1$s» - SiriusXM kunne ikke bekrefte din innloggingsinformasjon. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE">Kunne ikke spille «%1$s» - din SiriusXM-konto er inaktiv. Vennligst kontakt SiriusXM for assistanse.</String>
+<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT">Kunne ikke spille «%1$s» - din Pandora innloggingsinformasjon er ikke gyldig.</String>
+<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED">Kunne ikke spille «%1$s» - din Pandora prøveperiode er utløpt.</String>
+<String id="RHHSTR_RTE_PAND_NO_ACCOUNT">Kan ikke spille av «%1$s» – fant ikke Pandora-kontoen som er tilknyttet med denne stasjonen Sonos-systemet ditt. Vennligst skriv inn din Pandora kontoinformasjon.</String>
+<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL">Kunne ikke spille «%1$s» - et abonnement på Pandora er nødvendig. Vennligst oppgrader kontoen din hos Pandora.</String>
+<String id="RHHSTR_RTE_PAND_READ_ONLY">Kunne ikke spille «%1$s» - Pandora er utilgjengelig grunnet rutinevedlikehold.</String>
+<String id="RHHSTR_RTE_PAND_STATION_GONE">Kunne ikke spille «%1$s» - denne stasjonen har blitt slettet.</String>
+<String id="RHHSTR_RTE_PAND_SUSPENDED">Pandora kunne ikke utføre din forespørsel fordi kontoen din er suspendert. Vennligst kontakt Pandora kundesupport på pandora-support@pandora.com.</String>
+<String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Kunne ikke spille «%1$s» - %2$s konto innloggingsinformasjon er ikke gyldig.</String>
+<String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">Kan ikke spille av «%1$s» – fant ikke den tilknyttede %2$s-kontoen på Sonos-systemet ditt.</String>
+<String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Kunne ikke spille «%1$s» - din %2$s prøveperiode er utløpt.
 
-Please upgrade your account with %2$s.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_LASTFM_NO_CONTENT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_DOCK_INTERRUPT">Music playback from '%1$s' was interrupted.</String>
-<String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Playback from %2$s was stopped because playback was started from another room or device. %2$s limits the number of simultaneous audio streams you can access from its service.#END_OF_LOCALIZED_STRING %1$s</String>
-<String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Unable to play '%1$s' - please upgrade your account with %2$s to become a full subscriber.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_ACCOUNT">Unable to play '%1$s' - your Last.fm login information is not valid.</String>
-<String id="RHHSTR_RTE_MOBILE_CANT_REACH_SERVER">Unable to play song '%1$s' because '%2$s' is unavailable. Launch the Sonos controller on '%2$s' to enable playback.</String>
-<String id="RHHSTR_RTE_SONOS_TOKEN_EXPIRED">Unable to play '%1$s' because you need to reauthorize %2$s.</String>
-<String id="RHHSTR_RTE_SONOS_BAD_LOCATION">Unable to play '%1$s' because %2$s is not available in your area.</String>
-<String id="RHHSTR_RTE_SONOS_INACTIVE">Unable to play '%1$s' - '%2$s' automatically stops playback after long periods of inactivity.</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_ERROR">Unable to play '%4$s' - service error.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_ACCESS_DENIED">Unable to play '%4$s' - access is denied.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_STREAM_LIMIT">Playback from '%4$s' was stopped because playback was started from another room or device. '%4$s' limits the number of simultaneous audio streams you can access from its service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_UNRESPONSIVE">Unable to play '%4$s' - service unresponsive.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_CANT_REACH_SERVER">Unable to play '%4$s' - unable to connect to service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CERT_BLACKLISTED">Unable to play '%1$s'. Your player has been forbidden from accessing content from %2$s. Please contact Sonos Customer Care to resolve this issue.</String>
-<String id="RHHSTR_RTE_CERT_NEEDED">Unable to play '%1$s'. Please ensure you have a good internet connection and try again.</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_EXPLICIT">Turn off Explicit Content Filtering in Settings > Parental Controls to play this song.</String>
-<String id="RHHSTR_RTE_NO_CONTENT"></String> <!-- The controller supresses this error. Leave empty to avoid an off by one error for enum values -->
-<String id="RHHSTR_RTE_FILE_NO_LONGER_AVAILABLE">'%1$s' is no longer available on %2$s</String>
-<!--Note the order above matters and must correlate to the enum order in transporterror.h-->
+Vennligst oppgrader kontoen din hos %2$s.</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL">Kan ikke spille av «%1$s» – Denne funksjonen krever et betalt abonnement. Oppgrader kontoen din på www.sonos.com/Last.fm/expired.</String>
+<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT">Last.fm-stasjon som spiller i ditt andre rom ble stoppet. Last.fm tillater kun avspilling av en stasjon av gangen.</String>
+<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT">Kan ikke spille av «%1$s» – fant ikke den tilknyttede Last.fm-kontoen på Sonos-systemet ditt. Vennligst skriv inn din Last.fm kontoinformasjon.</String>
+<String id="RHHSTR_RTE_LASTFM_NO_CONTENT">Kunne ikke spille «%1$s» - det er ikke nok innhold til å spille denne Last.fm-stasjonen.</String>
+<String id="RHHSTR_RTE_DOCK_INTERRUPT">Musikkavspilling fra «%1$s» ble avbrutt.</String>
+<String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Avspilling fra %2$s ble stoppet fordi det ble startet avspilling fra et annet rom eller enhet. %2$s begrenser antall samtidige lydstreamer du kan få tilgang til fra dens tjeneste.#END_OF_LOCALIZED_STRING %1$s</String>
+<String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Kunne ikke spille «%1$s» - vennligst oppgrader kontoen din hos %2$s til å bli fullstendig en abonnent.</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_ACCOUNT">Kunne ikke spille «%1$s» - din Last.fm innloggingsinformasjon er ikke gyldig.</String>
+<String id="RHHSTR_RTE_MOBILE_CANT_REACH_SERVER">Kunne ikke spille av låten %1$s fordi %2$s ikke er tilgjengelig.  Start Sonos-controlleren på %2$s for å aktivere avspilling.</String>
+<String id="RHHSTR_RTE_SONOS_TOKEN_EXPIRED">Kunne ikke spille «%1$s» fordi du må godkjenne %2$s på nytt.</String>
+<String id="RHHSTR_RTE_SONOS_BAD_LOCATION">Kan ikke spille «%1$s» fordi %2$s ikke er tilgjengelig i ditt område.</String>
+<String id="RHHSTR_RTE_SONOS_INACTIVE">Kan ikke spille av «%1$s» – «%2$s» stopper automatisk avspilling etter lange inaktive perioder.</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_ERROR">Kan ikke spille av «%4$s» - tjenestefeil.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_ACCESS_DENIED">Kan ikke spille av «%4$s» - tilgang er avslått.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_STREAM_LIMIT">Avspilling fra «%4$s» ble stoppet fordi det ble startet avspilling fra et annet rom eller en annen enhet. «%4$s» begrenser antall samtidige lydstreamer du kan få tilgang til fra dens tjeneste.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_UNRESPONSIVE">Kan ikke spille av «%4$s» - tjenesten svarer ikke.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_CANT_REACH_SERVER">Kan ikke spille av «%4$s» - kan ikke koble til tjenesten.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CERT_BLACKLISTED">Kan ikke spille av «%1$s». Spilleren din har ikke tillatelse til å spille av innhold fra %2$s. Kontakt Sonos kundestøtte for å løse dette problemet.</String>
+<String id="RHHSTR_RTE_CERT_NEEDED">Kan ikke spille av «%1$s». Kontroller at du har en god Internett-forbindelse, og prøv på nytt.</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_EXPLICIT">Slå av Filtrering av vokseninnhold i Foreldrekontroll, for å spille av denne sangen.</String>
+<String id="RHHSTR_RTE_NO_CONTENT"></String>
+<String id="RHHSTR_RTE_FILE_NO_LONGER_AVAILABLE">«%1$s» er ikke lenger tilgjengelig på %2$s</String>
 <String id="RHHSTR_INTERNETRADIO">Radio</String>
-<String id="RHHSTR_LOCALRADIO">Local Radio (%1$s)</String>
-<String id="RHHSTR_LOCALRADIO_NOLOCDCR">Location not set</String>
-<String id="RHHSTR_IR_FAVORITE">Favorites</String>
-<String id="RHHSTR_INPUTTYPE_AUTO">Automatic</String>
-<String id="RHHSTR_INPUTTYPE_UNCOMPRESSED">Uncompressed</String>
-<String id="RHHSTR_INPUTTYPE_COMPRESSED">Compressed</String>
-<String id="RHHSTR_SIE_NOSPACE">There is not enough room to update your music library. Please remove unused queues or saved playlists and try again.</String>
-<String id="RHHSTR_SIE_ERROR">'%1$s' is no longer available. The device where the music files are stored may not be powered on, or the path may have changed.</String>
-<String id="RHHSTR_SIE_LOCALERROR">Your music library could not be updated. Please contact Sonos Customer Support for assistance: http://www.sonos.com/contact</String>
-<String id="RHHSTR_SIE_ITPL_OUT_OF_SPACE">There is not enough room to import all playlists. Please delete some playlists and update the music index.</String>
-<String id="RHHSTR_SIE_ITPL_GEN_FAILURE">An unexpected error occurred while importing playlists.</String>
-<String id="RHHSTR_HOST_NOT_FOUND">'%1$s' not found. Unable to connect.</String>
-<String id="RHHSTR_CONNECTING">Connecting…</String>
-<String id="RHHSTR_BUFFERING">Starting…</String>
-<String id="RHHSTR_MEDIA_SERVER">Media Server</String>
-<String id="RHHSTR_SUPPORT_BANNER">Submit Support Diagnostics to Sonos, Inc.</String>
-<String id="RHHSTR_SUPPORT_SERIAL">Serial Number:</String>
-<String id="RHHSTR_SUPPORT_SUBMIT">Submit</String>
-<String id="RHHSTR_SCPATTR_ALBUMARTIST">Artists</String>
-<String id="RHHSTR_SCPATTR_ARTIST">Contributing Artists</String>
-<String id="RHHSTR_SCPATTR_ALBUM">Albums</String>
-<String id="RHHSTR_SCPATTR_COMPOSER">Composers</String>
-<String id="RHHSTR_SCPATTR_GENRE">Genres</String>
-<String id="RHHSTR_SCPATTR_TRACKS">Songs</String>
-<String id="RHHSTR_SCPATTR_PLAYLISTS">Playlists</String>
-<String id="RHHSTR_RDCPATTR_SEARCH">Search</String>
-<String id="RHHSTR_SEARCHTYPE_ARTISTS">Artists</String>
-<String id="RHHSTR_SEARCHTYPE_GENRES">Genres</String>
-<String id="RHHSTR_SEARCHTYPE_ALBUMS">Albums</String>
-<String id="RHHSTR_SEARCHTYPE_COMPOSERS">Composers</String>
-<String id="RHHSTR_SEARCHTYPE_TRACKS">Songs</String>
-<String id="RHHSTR_SEARCHTYPE_TAGS">Tags</String>
-<String id="RHHSTR_SEARCHTYPE_PODCASTS">Podcasts</String>
-<String id="RHHSTR_COMPILATIONS">(Compilations)</String>
-<String id="RHHSTR_MONTH_JANUARY">January</String>
-<String id="RHHSTR_MONTH_FEBRUARY">February</String>
-<String id="RHHSTR_MONTH_MARCH">March</String>
-<String id="RHHSTR_MONTH_APRIL">April</String>
-<String id="RHHSTR_MONTH_MAY">May</String>
-<String id="RHHSTR_MONTH_JUNE">June</String>
-<String id="RHHSTR_MONTH_JULY">July</String>
-<String id="RHHSTR_MONTH_AUGUST">August</String>
-<String id="RHHSTR_MONTH_SEPTEMBER">September</String>
-<String id="RHHSTR_MONTH_OCTOBER">October</String>
-<String id="RHHSTR_MONTH_NOVEMBER">November</String>
-<String id="RHHSTR_MONTH_DECEMBER">December</String>
-<String id="RHHSTR_MONTHABBR_JANUARY">Jan</String>
-<String id="RHHSTR_MONTHABBR_FEBRUARY">Feb</String>
-<String id="RHHSTR_MONTHABBR_MARCH">Mar</String>
-<String id="RHHSTR_MONTHABBR_APRIL">Apr</String>
-<String id="RHHSTR_MONTHABBR_MAY">May</String>
-<String id="RHHSTR_MONTHABBR_JUNE">Jun</String>
-<String id="RHHSTR_MONTHABBR_JULY">Jul</String>
-<String id="RHHSTR_MONTHABBR_AUGUST">Aug</String>
-<String id="RHHSTR_MONTHABBR_SEPTEMBER">Sep</String>
-<String id="RHHSTR_MONTHABBR_OCTOBER">Oct</String>
-<String id="RHHSTR_MONTHABBR_NOVEMBER">Nov</String>
-<String id="RHHSTR_MONTHABBR_DECEMBER">Dec</String>
-<!-- The SwfObjAlarm::getAlarmFrequencyUIString alarm clock code depends on the following day of week abbreviations being in order -->
-<String id="RHHSTR_DAYABBR_SUNDAY">Sun</String>
-<String id="RHHSTR_DAYABBR_MONDAY">Mon</String>
-<String id="RHHSTR_DAYABBR_TUESDAY">Tue</String>
-<String id="RHHSTR_DAYABBR_WEDNESDAY">Wed</String>
-<String id="RHHSTR_DAYABBR_THURSDAY">Thu</String>
-<String id="RHHSTR_DAYABBR_FRIDAY">Fri</String>
-<String id="RHHSTR_DAYABBR_SATURDAY">Sat</String>
-<String id="RHHSTR_DAYABBR_SHORT_SUNDAY">Su</String>
+<String id="RHHSTR_LOCALRADIO">Lokalradio (%1$s)</String>
+<String id="RHHSTR_LOCALRADIO_NOLOCDCR">Plassering ikke satt</String>
+<String id="RHHSTR_IR_FAVORITE">Favoritter</String>
+<String id="RHHSTR_INPUTTYPE_AUTO">Automatisk</String>
+<String id="RHHSTR_INPUTTYPE_UNCOMPRESSED">Ukomprimert</String>
+<String id="RHHSTR_INPUTTYPE_COMPRESSED">Komprimert</String>
+<String id="RHHSTR_SIE_NOSPACE">Det er for lite plass til å oppdatere musikkbiblioteket ditt. Fjern ubrukte køer eller lagrede spillelister og prøv igjen.</String>
+<String id="RHHSTR_SIE_ERROR">«%1$s» er ikke lenger tilgjengelig. Enheten der musikkfilene er lagret er kanskje ikke slått på, eller banen kan være endret.</String>
+<String id="RHHSTR_SIE_LOCALERROR">Musikkbiblioteket ditt kunne ikke oppdateres. Ta kontakt med Sonos kundestøtte for hjelp: http://www.sonos.com/contact</String>
+<String id="RHHSTR_SIE_ITPL_OUT_OF_SPACE">Det er ikke nok plass til å importere alle spillelister. Vennligst slett noen spillelister og oppdater musikkindeksen.</String>
+<String id="RHHSTR_SIE_ITPL_GEN_FAILURE">Det oppsto en uventet feil under importering av spillelister.</String>
+<String id="RHHSTR_HOST_NOT_FOUND">Fant ikke «%1$s». Kan ikke koble til.</String>
+<String id="RHHSTR_CONNECTING">Kobler til…</String>
+<String id="RHHSTR_BUFFERING">Starter…</String>
+<String id="RHHSTR_MEDIA_SERVER">Medieserver</String>
+<String id="RHHSTR_SUPPORT_BANNER">Send supportdiagnostikk til Sonos, Inc.</String>
+<String id="RHHSTR_SUPPORT_SERIAL">Serienummer:</String>
+<String id="RHHSTR_SUPPORT_SUBMIT">Send</String>
+<String id="RHHSTR_SCPATTR_ALBUMARTIST">Artister</String>
+<String id="RHHSTR_SCPATTR_ARTIST">Medvirkende artister</String>
+<String id="RHHSTR_SCPATTR_ALBUM">Album</String>
+<String id="RHHSTR_SCPATTR_COMPOSER">Komponister</String>
+<String id="RHHSTR_SCPATTR_GENRE">Sjangre</String>
+<String id="RHHSTR_SCPATTR_TRACKS">Låter</String>
+<String id="RHHSTR_SCPATTR_PLAYLISTS">Spillelister</String>
+<String id="RHHSTR_RDCPATTR_SEARCH">Søk</String>
+<String id="RHHSTR_SEARCHTYPE_ARTISTS">Artister</String>
+<String id="RHHSTR_SEARCHTYPE_GENRES">Sjangre</String>
+<String id="RHHSTR_SEARCHTYPE_ALBUMS">Album</String>
+<String id="RHHSTR_SEARCHTYPE_COMPOSERS">Komponister</String>
+<String id="RHHSTR_SEARCHTYPE_TRACKS">Låter</String>
+<String id="RHHSTR_SEARCHTYPE_TAGS">Merker</String>
+<String id="RHHSTR_SEARCHTYPE_PODCASTS">Podcaster</String>
+<String id="RHHSTR_COMPILATIONS">(Samlinger)</String>
+<String id="RHHSTR_MONTH_JANUARY">januar</String>
+<String id="RHHSTR_MONTH_FEBRUARY">februar</String>
+<String id="RHHSTR_MONTH_MARCH">mars</String>
+<String id="RHHSTR_MONTH_APRIL">april</String>
+<String id="RHHSTR_MONTH_MAY">mai</String>
+<String id="RHHSTR_MONTH_JUNE">juni</String>
+<String id="RHHSTR_MONTH_JULY">juli</String>
+<String id="RHHSTR_MONTH_AUGUST">august</String>
+<String id="RHHSTR_MONTH_SEPTEMBER">september</String>
+<String id="RHHSTR_MONTH_OCTOBER">oktober</String>
+<String id="RHHSTR_MONTH_NOVEMBER">november</String>
+<String id="RHHSTR_MONTH_DECEMBER">desember</String>
+<String id="RHHSTR_MONTHABBR_JANUARY">jan</String>
+<String id="RHHSTR_MONTHABBR_FEBRUARY">feb</String>
+<String id="RHHSTR_MONTHABBR_MARCH">mar</String>
+<String id="RHHSTR_MONTHABBR_APRIL">apr</String>
+<String id="RHHSTR_MONTHABBR_MAY">mai</String>
+<String id="RHHSTR_MONTHABBR_JUNE">jun</String>
+<String id="RHHSTR_MONTHABBR_JULY">jul</String>
+<String id="RHHSTR_MONTHABBR_AUGUST">aug</String>
+<String id="RHHSTR_MONTHABBR_SEPTEMBER">sep</String>
+<String id="RHHSTR_MONTHABBR_OCTOBER">okt</String>
+<String id="RHHSTR_MONTHABBR_NOVEMBER">nov</String>
+<String id="RHHSTR_MONTHABBR_DECEMBER">des</String>
+<String id="RHHSTR_DAYABBR_SUNDAY">Søn</String>
+<String id="RHHSTR_DAYABBR_MONDAY">Man</String>
+<String id="RHHSTR_DAYABBR_TUESDAY">Tir</String>
+<String id="RHHSTR_DAYABBR_WEDNESDAY">Ons</String>
+<String id="RHHSTR_DAYABBR_THURSDAY">Tor</String>
+<String id="RHHSTR_DAYABBR_FRIDAY">Fre</String>
+<String id="RHHSTR_DAYABBR_SATURDAY">Lør</String>
+<String id="RHHSTR_DAYABBR_SHORT_SUNDAY">Sø</String>
 <String id="RHHSTR_DAYABBR_SHORT_MONDAY">M</String>
 <String id="RHHSTR_DAYABBR_SHORT_TUESDAY">T</String>
-<String id="RHHSTR_DAYABBR_SHORT_WEDNESDAY">W</String>
-<String id="RHHSTR_DAYABBR_SHORT_THURSDAY">Th</String>
+<String id="RHHSTR_DAYABBR_SHORT_WEDNESDAY">O</String>
+<String id="RHHSTR_DAYABBR_SHORT_THURSDAY">To</String>
 <String id="RHHSTR_DAYABBR_SHORT_FRIDAY">F</String>
-<String id="RHHSTR_DAYABBR_SHORT_SATURDAY">Sa</String>
-<String id="RHHSTR_DAY_SUNDAY">Sunday</String>
-<String id="RHHSTR_DAY_MONDAY">Monday</String>
-<String id="RHHSTR_DAY_TUESDAY">Tuesday</String>
-<String id="RHHSTR_DAY_WEDNESDAY">Wednesday</String>
-<String id="RHHSTR_DAY_THURSDAY">Thursday</String>
-<String id="RHHSTR_DAY_FRIDAY">Friday</String>
-<String id="RHHSTR_DAY_SATURDAY">Saturday</String>
+<String id="RHHSTR_DAYABBR_SHORT_SATURDAY">Lø</String>
+<String id="RHHSTR_DAY_SUNDAY">Søndag</String>
+<String id="RHHSTR_DAY_MONDAY">Mandag</String>
+<String id="RHHSTR_DAY_TUESDAY">Tirsdag</String>
+<String id="RHHSTR_DAY_WEDNESDAY">Onsdag</String>
+<String id="RHHSTR_DAY_THURSDAY">Torsdag</String>
+<String id="RHHSTR_DAY_FRIDAY">Fredag</String>
+<String id="RHHSTR_DAY_SATURDAY">Lørdag</String>
 <String id="RHHSTR_TIME_AM">AM</String>
 <String id="RHHSTR_TIME_PM">PM</String>
-<!-- RHHSTR_DAY_RANGE is used for alarm frequencies such as "Monday through Thursday" -->
-<String id="RHHSTR_DAY_RANGE">%1$s through %2$s</String>
+<String id="RHHSTR_DAY_RANGE">%1$s gjennom %2$s</String>
 <String comment="Has special translation" id="RHHSTR_TIME_FMT_12HR">%1$u:%2$02u %3$s</String>
 <String comment="Has special translation" id="RHHSTR_TIME_FMT_24HR">%1$02u:%2$02u</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG">%2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT">%2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT_DOW">%4$s, %2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG_DOW">%4$s, %2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG">%3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT">%3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT_DOW">%4$s, %3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG_DOW">%4$s, %3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG">%1$d %2$s %3$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT">%1$d %2$s %3$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT_DOW">%1$d %2$s %3$d, %4$s</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG_DOW">%1$d %2$s %3$d, %4$s</String>
-<String id="RHHSTR_ARTISTVIEW_ITUNES">Use iTunes® Compilations</String>
-<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Use Album Artists</String>
-<String id="RHHSTR_ARTISTVIEW_SIMPLE">Do not group compilations</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACK">Unable to delete song. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACKS">Unable to delete songs. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_ALBUM">Unable to delete album. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_ARTIST">Unable to delete artist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_PLAYLIST">Unable to delete playlist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_STATION">Unable to delete station. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_TRACK">Unable to add song. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_POSTED_TRACK">Message has been posted.</String>
-<String id="RHHSTR_LIBRARY_POSTING_TRACK">Posting…</String>
-<String id="RHHSTR_LIBRARY_POSTFAIL_TRACK">Unable to post message. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_AUTOMIXFAIL_TRACK">Unable to automix song. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_TRACKS">Unable to add songs. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_ALBUM">Unable to add album. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_ARTIST">Unable to add artist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_PLAYLIST">Unable to add playlist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_STATION">Unable to add station. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACK">Adding song to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACKS">Adding songs to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_ALBUM">Adding album to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_ARTIST">Adding artist to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_PLAYLIST">Adding playlist to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_STATION">Adding channel to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACK">Song added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXING_TRACK">Automixing %1$s song</String>
-<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXED_TRACK">Automixed %1$s song</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACKS">Songs added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_ALBUM">Album added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_ARTIST">Artist added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_PLAYLIST">Playlist added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_STATION">Channel added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACK">Are you sure you want to delete the song from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACKS">Are you sure you want to delete the songs from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ALBUM">Are you sure you want to delete the album from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ARTIST">Are you sure you want to delete the artist from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_PLAYLIST">Are you sure you want to delete the playlist from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_STATION">Are you sure you want to delete the channel from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACK">Deleting song from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACKS">Deleting songs from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ALBUM">Deleting album from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ARTIST">Deleting artist from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_PLAYLIST">Deleting playlist from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_STATION">Deleting channel from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACK">Song deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACKS">Songs deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ALBUM">Album deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ARTIST">Artist deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_PLAYLIST">Playlist deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_STATION">Channel deleted from %1$s</String>
-<String id="RHHSTR_RATE_OP_FAILED">Operation failed</String>
-<String id="RHHSTR_RATE_OP_SUCCEEDED">Successfully rated</String>
-<String id="RHHSTR_SONOS_TRIAL_UNKNOWNDAYS">%1$s Trial</String>
-<String id="RHHSTR_SONOS_TRIAL_1DAY">%1$s Trial (1 day)</String>
-<String id="RHHSTR_SONOS_TRIAL_NDAYS">%2$s Trial (%1$s days)</String>
-<String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s Trial (Expired)</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG">%3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT">%3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT_DOW">%4$s %3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG_DOW">%4$s %3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG">%3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT">%3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT_DOW">%4$s %3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG_DOW">%4$s %3$d. %2$s %1$d</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG">%1$d, %3$d. %2$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT">%1$d, %3$d. %2$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT_DOW">%1$d, %3$d. %2$s %4$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG_DOW">%1$d, %3$d. %2$s %4$s</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">Bruk iTunes® samlinger</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Bruk Albumartister</String>
+<String id="RHHSTR_ARTISTVIEW_SIMPLE">Ikke grupper samlinger</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACK">Kunne ikke slette låt. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACKS">Kunne ikke slette låter. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_ALBUM">Kunne ikke slette album. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_ARTIST">Kunne ikke slette artist. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_PLAYLIST">Kunne ikke slette spilleliste. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_STATION">Kan ikke slette stasjon. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_TRACK">Kunne ikke legge til låter. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_POSTED_TRACK">Melding er postet.</String>
+<String id="RHHSTR_LIBRARY_POSTING_TRACK">Poster…</String>
+<String id="RHHSTR_LIBRARY_POSTFAIL_TRACK">Kunne ikke poste melding. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_AUTOMIXFAIL_TRACK">Kunne ikke automikse låt. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_TRACKS">Kunne ikke legge til låter. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_ALBUM">Kunne ikke legge til album. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_ARTIST">Kunne ikke legge til artist. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_PLAYLIST">Kunne ikke legge til spilleliste. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_STATION">Kan ikke legge til stasjon. Prøv igjen senere.</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACK">Legger til låt i mitt %1$s-bibliotek…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACKS">Legger til låter i mitt %1$s-bibliotek…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_ALBUM">Legger album til mitt %1$s bibliotek…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_ARTIST">Legger artist til mitt %1$s bibliotek…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_PLAYLIST">Legger spilleliste til mitt %1$s bibliotek…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_STATION">Legger kanal til mitt %1$s bibliotek…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACK">Låt lagt til i mitt %1$s-bibliotek</String>
+<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXING_TRACK">Automikser %1$s-låt</String>
+<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXED_TRACK">Automikset %1$s-låt</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACKS">Låter lagt til i mitt %1$s-bibliotek</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_ALBUM">Album lagt til mitt %1$s bibliotek</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_ARTIST">Artist lagt til mitt %1$s bibliotek</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_PLAYLIST">Spilleliste lagt til mitt %1$s bibliotek</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_STATION">Kanal lagt til mitt %1$s bibliotek</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACK">Er du sikker på at du ønsker å slette låten fra %1$s?</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACKS">Er du sikker på at du ønsker å slette låtene fra %1$s?</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ALBUM">Er du sikker på at du ønsker å slette albumet fra %1$s?</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ARTIST">Er du sikker på at du ønsker å slette artisten fra %1$s?</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_PLAYLIST">Er du sikker på at du ønsker å slette spillelisten fra %1$s?</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_STATION">Er du sikker på at du ønsker å slette kanalen fra %1$s?</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACK">Sletter låt fra %1$s…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACKS">Sletter låter fra %1$s…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ALBUM">Sletter album fra %1$s…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ARTIST">Sletter artist fra %1$s…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_PLAYLIST">Sletter spilleliste fra %1$s…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_STATION">Sletter kanal fra %1$s…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACK">Låt slettet fra %1$s</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACKS">Låter slettet fra %1$s</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ALBUM">Album slettet fra %1$s</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ARTIST">Artist slettet fra %1$s</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_PLAYLIST">Spilleliste slettet fra %1$s</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_STATION">Kanal slettet fra %1$s</String>
+<String id="RHHSTR_RATE_OP_FAILED">Operasjonen mislyktes</String>
+<String id="RHHSTR_RATE_OP_SUCCEEDED">Vurdering gitt</String>
+<String id="RHHSTR_SONOS_TRIAL_UNKNOWNDAYS">%1$s prøveperiode</String>
+<String id="RHHSTR_SONOS_TRIAL_1DAY">%1$s prøveperiode (1 dag)</String>
+<String id="RHHSTR_SONOS_TRIAL_NDAYS">%2$s prøveperiode (%1$s dager)</String>
+<String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s prøveperiode (utløpt)</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
-<!-- short names for Woodstock Music -->
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
-<!-- end of short names -->
-<String id="RHHSTR_BROWSE_UPNP_ERROR">Unable to browse music</String>
-<String id="RHHSTR_SEARCH_UPNP_ERROR">There was a problem searching. Please try again.</String>
-<String id="RHHSTR_BROWSE_SVC_BAD_ACCOUNT_SONOS">Unable to browse music - your %1$s login information is not valid.</String>
-<String id="RHHSTR_BROWSE_SVC_BAD_LOCATION_SONOS">Unable to browse music - %1$s is not available in your area.</String>
-<String id="RHHSTR_BROWSE_SVC_TRIAL_EXPIRED_SONOS">Unable to browse music - your %1$s trial has expired.</String>
-<String id="RHHSTR_BROWSE_SVC_NEED_FULL_ACCT_SONOS">Unable to browse music - your %1$s account has not been upgraded to a subscription account.</String>
-<String id="RHHSTR_BROWSE_SVC_MAX_LOGINS_SONOS">Unable to browse music - %1$s limits the number of times you can access your account each day. Please try again tomorrow.</String>
-<String id="RHHSTR_BROWSE_SVC_CANT_CONNECT_SONOS">Unable to browse music - there was a problem connecting to %1$s.</String>
-<String id="RHHSTR_AVT_ERR_LINE_IN">Unable to play the line-in source.</String>
-<String id="RHHSTR_AVT_ERR_IR">Unable to play the Radio station.</String>
-<String id="RHHSTR_AVT_ERR_ALREADYPLAYING">This Pandora Station is currently playing.</String>
-<String id="RHHSTR_AVT_ERR_GENERIC">Unable to play the selected item.</String>
-<String id="RHHSTR_AVT_ERR_CANT_CONNECT">Unable to connect to Sonos player.</String>
-<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">Your player has been forbidden from accessing content from this service. Please contact Sonos Customer Care to resolve this issue.</String>
-<String id="RHHSTR_AVT_ERR_CERT_NEEDED">Unable to play the selected item. Please ensure you have a good internet connection and try again.</String>
-<String id="RHHSTR_LFM_CANT_CONNECT">There was a problem connecting to Last.fm. Please try again later.</String>
-<String id="RHHSTR_LFM_BAD_ACCOUNT">Your Last.fm login information is no longer valid. If you have changed your password on Last.fm, please update it in your Sonos system.</String>
-<String id="RHHSTR_LFM_NO_ACCOUNT">The associated Last.fm account was not found in your Sonos system. Please enter your Last.fm account information.</String>
-<String id="RHHSTR_LFM_GENERIC">There was a problem communicating with Last.fm. Please try again later.</String>
-<String id="RHHSTR_FAVSTATIONS">My Radio Stations</String>
-<String id="RHHSTR_FAVSHOWS">My Radio Shows</String>
-<String id="RHHSTR_TrialLearnMore_Sonos">You can learn more about the %2$s trial at:
+<String id="RHHSTR_BROWSE_UPNP_ERROR">Kunne ikke bla gjennom musikk</String>
+<String id="RHHSTR_SEARCH_UPNP_ERROR">Det var et problem under søking. Vennligst prøv igjen.</String>
+<String id="RHHSTR_BROWSE_SVC_BAD_ACCOUNT_SONOS">Kunne ikke bla gjennom musikk - din %1$s innloggingsinformasjon er ikke gyldig.</String>
+<String id="RHHSTR_BROWSE_SVC_BAD_LOCATION_SONOS">Kunne ikke bla gjennom musikk - %1$s er ikke tilgjengelig i ditt område.</String>
+<String id="RHHSTR_BROWSE_SVC_TRIAL_EXPIRED_SONOS">Kunne ikke bla gjennom musikk - din %1$s prøveperiode er utløpt.</String>
+<String id="RHHSTR_BROWSE_SVC_NEED_FULL_ACCT_SONOS">Kunne ikke bla gjennom musikk - din %1$s konto har ikke blitt oppgradert til en abonnementskonto.</String>
+<String id="RHHSTR_BROWSE_SVC_MAX_LOGINS_SONOS">Kunne ikke bla gjennom musikk - %1$s begrenser antall ganger du kan få tilgang til kontoen din hver dag. Vennligst prøv igjen i morgen.</String>
+<String id="RHHSTR_BROWSE_SVC_CANT_CONNECT_SONOS">Kunne ikke bla gjennom musikk - det var et problem med tilkobling til %1$s.</String>
+<String id="RHHSTR_AVT_ERR_LINE_IN">Kunne ikke spille av ekstern kilde.</String>
+<String id="RHHSTR_AVT_ERR_IR">Kunne ikke spille av radiostasjonen.</String>
+<String id="RHHSTR_AVT_ERR_ALREADYPLAYING">Denne Pandora-stasjonen spiller av.</String>
+<String id="RHHSTR_AVT_ERR_GENERIC">Kunne ikke spille av det valgte elementet.</String>
+<String id="RHHSTR_AVT_ERR_CANT_CONNECT">Kan ikke koble til Sonos-spilleren.</String>
+<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">Spilleren din har ikke tillatelse til å spille av innhold fra denne tjenesten. Kontakt Sonos kundestøtte for å løse dette problemet.</String>
+<String id="RHHSTR_AVT_ERR_CERT_NEEDED">Kunne ikke spille av det valgte elementet. Kontroller at du har en god Internett-forbindelse, og prøv på nytt.</String>
+<String id="RHHSTR_LFM_CANT_CONNECT">Det var et problem under tilkobling til Last.fm. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_LFM_BAD_ACCOUNT">Last.fm-innloggingsinformasjonen din er ikke lenger gyldig. Dersom du har endret passordet ditt på Last.fm, vennligst oppdater det i Sonos-systemet ditt.</String>
+<String id="RHHSTR_LFM_NO_ACCOUNT">Fant ikke den tilknyttede Last.fm-kontoen på Sonos-systemet ditt. Vennligst skriv inn din Last.fm kontoinformasjon.</String>
+<String id="RHHSTR_LFM_GENERIC">Det var et problem under kommunikasjon med Last.fm. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_FAVSTATIONS">Mine radiostasjoner</String>
+<String id="RHHSTR_FAVSHOWS">Mine radioprogrammer</String>
+<String id="RHHSTR_TrialLearnMore_Sonos">Du kan lære mer om %2$s prøveperiode på:
 
 %1$s.sonos.com/%3$s</String>
-<String id="RHHSTR_TrialPromo_Sonos">Please select from the following choices:</String>
-<String id="RHHSTR_Promo_LastFM">Last.fm is a music recommendation service that lets you share and discover new music. By effortlessly scrobbling the music you play you can get personalised recommendations tailored to your taste.</String>
-<String id="RHHSTR_PleaseSignup_Sonos">To use %1$s with Sonos, create an account by pressing the button below.
+<String id="RHHSTR_TrialPromo_Sonos">Vennligst velg fra følgende alternativer:</String>
+<String id="RHHSTR_Promo_LastFM">Last.fm er en musikkanbefalingstjeneste som lar deg dele og oppdage ny musikk. Ved å scrobble musikken du spiller kan du få personlige anbefalinger som er skreddersydd til din smak.</String>
+<String id="RHHSTR_PleaseSignup_Sonos">For å bruke %1$s med Sonos må du opprette en konto ved å trykke på knappen nedenfor.
 
 %2$s
 </String>
-<String id="RHHSTR_PleaseSignupUri_Sonos" comment="Do not translate">http://%1$s.sonos.com/%2$s/subscribe</String>
-<String id="RHHSTR_CONNECTING_TITLE">Please wait…</String>
-<String id="RHHSTR_APPLINK_CONNECTION_QUIT">Not now</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s not installed. Please install app and try again.</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install App</String>
-<String id="RHHSTR_SN_POST_SUCCESS">Message was successfully sent.</String>
-<String id="RHHSTR_SN_POST_FAIL">Message failed to be sent.</String>
-<String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Message sent to %1$s (%2$s), but was not sent to %3$s (%4$s).</String>
-<String id="RHHSTR_SN_POST_NUM_SUCCEES_NUM_FAIL_FMT">Message sent to %1$d services, but failed to be sent to %2$d services.</String>
-<String id="RHHSTR_SN_POST_SINGLE_FAIL_FMT">Message failed to be sent to %1$s (%2$s) but succeeded to the other services.</String>
-<String id="RHHSTR_SN_POST_SINGLE_SUCCESS_FMT">Message sent to %1$s (%2$s), but failed to be sent to other services.</String>
-<String id="RHHSTR_SN_POST_PASSWORD_ERROR">One or more accounts had an invalid login information.</String>
-<String id="RHHSTR_ZONEEXTENDERMENU_ON">Extender</String>
+<String comment="Do not translate" id="RHHSTR_PleaseSignupUri_Sonos">http://%1$s.sonos.com/%2$s/subscribe</String>
+<String id="RHHSTR_CONNECTING_TITLE">Vennligst vent…</String>
+<String id="RHHSTR_APPLINK_CONNECTION_QUIT">Ikke nå</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s er ikke installert. Installer appen, og prøv deretter på nytt.</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install AppZXZ</String>
+<String id="RHHSTR_SN_POST_SUCCESS">Meldingen ble sendt.</String>
+<String id="RHHSTR_SN_POST_FAIL">Meldingen kunne ikke sendes.</String>
+<String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Melding sendt til %1$s (%2$s), men ble ikke sendt til %3$s (%4$s).</String>
+<String id="RHHSTR_SN_POST_NUM_SUCCEES_NUM_FAIL_FMT">Melding sendt til %1$d tjenester, men kunne ikke sendes til %2$d tjenester.</String>
+<String id="RHHSTR_SN_POST_SINGLE_FAIL_FMT">Melding kunne ikke sendes til %1$s (%2$s) men ble sendt til de andre tjenestene.</String>
+<String id="RHHSTR_SN_POST_SINGLE_SUCCESS_FMT">Melding sendt til %1$s (%2$s), men kunne ikke sendes til andre tjenester.</String>
+<String id="RHHSTR_SN_POST_PASSWORD_ERROR">En eller flere kontoer hadde ugyldig innloggingsinformasjon.</String>
+<String id="RHHSTR_ZONEEXTENDERMENU_ON">Utvider</String>
 <String id="RHHSTR_ZONEEXTENDERMENU_OFF">Normal</String>
 <String id="RHHSTR_SONOS_CHIME">Sonos Chime</String>
-<String id="STR_Setting_AlarmFreq_Once">Once</String>
-<String id="STR_Setting_AlarmFreq_Sunday">Every Sunday</String>
-<String id="STR_Setting_AlarmFreq_Monday">Every Monday</String>
-<String id="STR_Setting_AlarmFreq_Tuesday">Every Tuesday</String>
-<String id="STR_Setting_AlarmFreq_Wednesday">Every Wednesday</String>
-<String id="STR_Setting_AlarmFreq_Thursday">Every Thursday</String>
-<String id="STR_Setting_AlarmFreq_Friday">Every Friday</String>
-<String id="STR_Setting_AlarmFreq_Saturday">Every Saturday</String>
-<String id="RHHSTR_Setting_AlarmFreq_EveryDay">Daily</String>
+<String id="STR_Setting_AlarmFreq_Once">En gang</String>
+<String id="STR_Setting_AlarmFreq_Sunday">Hver søndag</String>
+<String id="STR_Setting_AlarmFreq_Monday">Hver mandag</String>
+<String id="STR_Setting_AlarmFreq_Tuesday">Hver tirsdag</String>
+<String id="STR_Setting_AlarmFreq_Wednesday">Hver onsdag</String>
+<String id="STR_Setting_AlarmFreq_Thursday">Hver torsdag</String>
+<String id="STR_Setting_AlarmFreq_Friday">Hver fredag</String>
+<String id="STR_Setting_AlarmFreq_Saturday">Hver lørdag</String>
+<String id="RHHSTR_Setting_AlarmFreq_EveryDay">Daglig</String>
 <String id="RHHSTR_FreeTrialAccountName">Sonos</String>
-<String id="RHHSTR_TrialDescription_Sonos">Sonos comes with a free, no-obligation %1$s trial.</String>
-<String id="RHHSTR_TrialAgreement_Sonos">By taking advantage of this free, no-obligation trial, you agree to the %2$s terms and conditions at:
+<String id="RHHSTR_TrialDescription_Sonos">Sonos leveres med en gratis og uforpliktende prøve på %1$s.</String>
+<String id="RHHSTR_TrialAgreement_Sonos">Ved å benytte deg av denne gratis og uforpliktende prøveperioden samtykker du i %2$s vilkårene og betingelsene på:
 
 %1$s.sonos.com/%3$s/terms</String>
-<String id="RHHSTR_AcctNeedTrial_Sonos">With your %1$s login information, you'll be able to use the %1$s trial on your Sonos system.
+<String id="RHHSTR_AcctNeedTrial_Sonos">Med %1$s-innloggingsinformasjonen vil du kunne bruke %1$s-prøveperioden på Sonos-systemet ditt.
 
-To continue listening after the trial has ended, you will need to upgrade your account with %1$s to become a subscriber.</String>
-<String id="RHHSTR_AcctExpiredSuccess_Sonos">The %1$s trial has ended on this Sonos system.
+For å fortsette og høre etter at prøveperioden er utløpt, må du oppgradere kontoen din hos %1$s for å bli en abonnent.</String>
+<String id="RHHSTR_AcctExpiredSuccess_Sonos">%1$s prøveperiode er utløpt på dette Sonos-systemet.
 
-To continue listening, please upgrade your account with %1$s to become a subscriber.
+For å fortsette og høre, vennligst oppgrader kontoen din hos %1$s for å bli en abonnent.
 
-Press the OK button to continue.</String>
-<String id="RHHSTR_RegUpgrade_Sonos">To continue listening after the trial has ended, go to the following Web site to upgrade your account with %2$s and become a subscriber.
+Trykk OK-knappen for å fortsette.</String>
+<String id="RHHSTR_RegUpgrade_Sonos">For å fortsette å høre etter utløpet av prøveperioden, gå til følgende webside for å oppgradere kontoen din hos %2$s og bli en abonnent:
 
 %1$s.sonos.com/%3$s/subscribe
 
 %4$s</String>
-<String id="RHHSTR_TrialUpgrade_Sonos">To continue listening after the trial has ended, go to the following Web site to become a %2$s subscriber:
+<String id="RHHSTR_TrialUpgrade_Sonos">For å fortsette å høre etter utløpet av prøveperioden, gå til følgende webside for å bli abonnent på %2$s:
 
 %1$s.sonos.com/%3$s/subscribe 
 
 %4$s</String>
-<String id="STR_AnonymousNewUser">Set up %1$s</String>
-<String id="RHHSTR_TrialNewUser_Sonos">I'm new to %1$s</String>
-<String id="RHHSTR_TrialNewUser_LastFM">I'm new to Last.fm</String>
-<String id="RHHSTR_TrialHaveAcct">I already have an account</String>
-<String id="RHHSTR_AcctBadLocation_Sonos">Unable to create account.
-%1$s is not available in your area.</String>
-<String id="RHHSTR_AddMusicServiceType_Sonos">Add a %1$s Account</String>
-<String id="RHHSTR_AddMusicServiceType_LastFM">Add a Last.fm Account</String>
-<String id="RHHSTR_AcctNeedFullAccount_Sonos">It looks like your %1$s account has not been upgraded to a subscription account.
+<String id="STR_AnonymousNewUser">Sett opp %1$s</String>
+<String id="RHHSTR_TrialNewUser_Sonos">Jeg er ny på %1$s</String>
+<String id="RHHSTR_TrialNewUser_LastFM">Jeg er ny på Last.fm</String>
+<String id="RHHSTR_TrialHaveAcct">Jeg har allerede en konto</String>
+<String id="RHHSTR_AcctBadLocation_Sonos">Kunne ikke opprette konto.
+%1$s er ikke tilgjengelig i ditt område.</String>
+<String id="RHHSTR_AddMusicServiceType_Sonos">Legg til en %1$s-konto</String>
+<String id="RHHSTR_AddMusicServiceType_LastFM">Legg til en Last.fm-konto</String>
+<String id="RHHSTR_AcctNeedFullAccount_Sonos">Det ser ut til at din %1$s konto ikke har blitt oppgradert til en abonnementskonto.
 
-Please check your account with %1$s, and then press the Back button to try again.
+Vennligst sjekk kontoen din hos %1$s og trykk deretter Tilbake-knappen for å prøve igjen.
 
-Press the OK button to do this later.</String>
-<String id="RHHSTR_InsufficientAcctType_Sonos">There was a problem adding this account.
+Trykk OK-knappen for å gjøre dette senere.</String>
+<String id="RHHSTR_InsufficientAcctType_Sonos">Det var et problem under tillegging av denne kontoen.
 
-To use this account with Sonos, you must first upgrade it with %1$s to become a full subscriber.</String>
-<String id="RHHSTR_AcctSuspended_Sonos">%1$s was unable to complete your request because your account has been suspended.</String>
-<String id="RHHSTR_MenuOptsTempUnavail">Some menu options are temporarily unavailable. Please try again later.</String>
-<String id="RHHSTR_InfoView_NoInfo">No information available.</String>
-<String id="RHHSTR_EventDetails" comment="ROBTODO">Event Details</String>
-<String id="RHHSTR_UnsupportedTerritoryErr_Sonos">There was a problem adding the trial. %1$s is not available in your location.</String>
-<String id="RHHSTR_TooManyAccounts">You have reached the maximum number of music service accounts that can be added to your Sonos system. Please remove an existing account before adding a new one.</String>
-<String id="RHHSTR_COUNTRY_NAMES">United States:US
+For å bruke denne kontoen med Sonos må du først oppgradere den hos %1$s for å bli abonnent.</String>
+<String id="RHHSTR_AcctSuspended_Sonos">%1$s kunne ikke utføre forespørselen din fordi kontoen din er suspendert.</String>
+<String id="RHHSTR_MenuOptsTempUnavail">Noen menyalternativer er midlertidig utilgjengelige. Vennligst prøv igjen senere.</String>
+<String id="RHHSTR_InfoView_NoInfo">Ingen informasjon tilgjengelig.</String>
+<String comment="ROBTODO" id="RHHSTR_EventDetails">Hendelsesdetaljer</String>
+<String id="RHHSTR_UnsupportedTerritoryErr_Sonos">Det var et problem ved tillegging av prøveperioden. %1$s er ikke tilgjengelig på ditt sted.</String>
+<String id="RHHSTR_TooManyAccounts">Du har nådd maksimalt antall musikktjenester som kan legges til i Sonos-systemet ditt. Vennligst fjern en eksisterende konto før du legger til en ny.</String>
+<String id="RHHSTR_COUNTRY_NAMES">USA:US
 Afghanistan:AF
 Albania:AL
-American Samoa:AS
+Amerikansk Samoa:AS
 Andorra:AD
 Angola:AO
 Anguilla:AI
@@ -457,14 +451,14 @@ Argentina:AR
 Armenia:AM
 Aruba:AW
 Australia:AU
-Austria:AT
-Azerbaijan:AZ
+Østerrike:AT
+Aserbadsjan:AZ
 Bahamas:BS
 Bahrain:BH
 Bangladesh:BD
 Barbados:BB
-Belarus:BY
-Belgium:BE
+Hviterussland:BY
+Belgia:BE
 Belize:BZ
 Benin:BJ
 Bermuda:BM
@@ -472,52 +466,52 @@ Bhutan:BT
 Bolivia:BO
 Bosnia-Herzegovina:BA
 Botswana:BW
-Brazil:BR
-British Virgin Is.:VG
+Brasil:BR
+De britiske jomfruøyene:VG
 Brunei:BN
 Bulgaria:BG
 Burkina Faso:BF
 Burundi:BI
-Cambodia:KH
+Kambodsja:KH
 Canada:CA
-Cape Verde:CV
-Cayman Islands:KY
-Chad:TD
+Kapp Verde:CV
+Caymanøyene:KY
+Tsjad:TD
 Chile:CL
-China:CN
+Kina:CN
 Colombia:CO
-Congo:CG
-Congo, Democratic Republic of:CD
-Cook Islands:CK
+Kongo:CG
+Kongo, den Demokratiske Republikk:CD
+Cookøyene:CK
 Costa Rica:CR
-Croatia:HR
-Cyprus:CY
-Czech Republic:CZ
-Denmark:DK
+Kroatia:HR
+Kypros:CY
+Tsjekkiske Republikk:CZ
+Danmark:DK
 Djibouti:DJ
 Dominica:DM
-Dominican Republic:DO
+Dominikanske Republikk:DO
 Ecuador:EC
 Egypt:EG
 El Salvador:SV
-Equatorial Guinea:GQ
+Ekvatorial Guinea:GQ
 Eritrea:ER
-Estonia:EE
-Ethiopia:ET
-Faeroe Islands:FO
+Estland:EE
+Etiopia:ET
+Færøyene:FO
 Fiji:FJ
 Finland:FI
-France:FR
-French Guiana:GF
-French Polynesia:PF
+Frankrike:FR
+Fransk Guyana:GF
+Fransk Polynesia:PF
 Gabon:GA
 Gambia:GM
 Georgia:GE
-Germany:DE
+Tyskland:DE
 Ghana:GH
 Gibraltar:GI
-Greece:GR
-Greenland:GL
+Hellas:GR
+Grønland:GL
 Grenada:GD
 Guadeloupe:GP
 Guam:GU
@@ -527,95 +521,95 @@ Guyana:GY
 Haiti:HT
 Honduras:HN
 Hong Kong:HK
-Hungary:HU
-Iceland:IS
+Ungarn:HU
+Island:IS
 India:IN
 Indonesia:ID
-Iraq:IQ
-Ireland:IE
+Irak:IQ
+Irland:IE
 Israel:IL
-Italy:IT
+Italia:IT
 Jamaica:JM
 Japan:JP
 Jordan:JO
-Kazakhstan:KZ
+Kasakhstan:KZ
 Kenya:KE
 Kuwait:KW
-Kyrgyzstan:KG
+Kirgisistan:KG
 Laos:LA
 Latvia:LV
-Lebanon:LB
+Libanon:LB
 Lesotho:LS
 Liberia:LR
 Liechtenstein:LI
-Lithuania:LT
+Litauen:LT
 Luxembourg:LU
 Macau:MO
-Macedonia:MK
-Madagascar:MG
+Makedonia:MK
+Madagaskar:MG
 Malawi:MW
 Malaysia:MY
-Maldives:MV
+Maldivene:MV
 Mali:ML
 Malta:MT
-Marshall Islands:MH
+Marshalløyene:MH
 Martinique:MQ
 Mauritania:MR
 Mauritius:MU
 Mexico:MX
-Micronesia:FM
+Mikronesia:FM
 Moldova:MD
 Monaco:MC
 Mongolia:MN
 Montenegro:ME
 Montserrat:MS
-Morocco:MA
+Marokko:MA
 Mozambique:MZ
 Namibia:NA
 Nepal:NP
-Netherlands:NL
-Netherlands Antilles:AN
-New Caledonia:NC
+Nederland:NL
+Nederlandske Antiller:AN
+NyKaledonia:NC
 New Zealand:NZ
 Nicaragua:NI
 Niger:NE
 Nigeria:NG
-Norway:NO
+Norge:NO
 Oman:OM
 Pakistan:PK
 Palau:PW
-Palestine Autonomous:PS
+Palestinske selvstyreområdene:PS
 Panama:PA
-Papua New Guinea:PG
+Papua Ny Guinea:PG
 Paraguay:PY
 Peru:PE
-Philippines:PH
-Poland:PL
+Filippinene:PH
+Polen:PL
 Portugal:PT
 Puerto Rico:PR
 Qatar:QA
 Reunion:RE
 Romania:RO
-Russian Federation:RU
+Russiske føderasjon:RU
 Rwanda:RW
 Saudi Arabia:SA
 Senegal:SN
 Serbia:RS
-Seychelles:SC
+Seychellene:SC
 Singapore:SG
-Slovak Republic:SK
+Slovakiske Republikk:SK
 Slovenia:SI
-South Africa:ZA
-South Korea:KR
-Spain:ES
+Sør-Afrika:ZA
+Sør-Korea:KR
+Spania:ES
 Sri Lanka:LK
 St Kitts/Nevis:KN
 St Lucia:LC
 St Vincent:VC
-Suriname:SR
+Surinam:SR
 Swaziland:SZ
-Sweden:SE
-Switzerland:CH
+Sverige:SE
+Sveits:CH
 Syria:SY
 Taiwan:TW
 Tanzania:TZ
@@ -623,14 +617,14 @@ Thailand:TH
 Togo:TG
 Trinidad/Tobago:TT
 Tunisia:TN
-Turkey:TR
+Tyrkia:TR
 Turkmenistan:TM
 Turks &amp; Caicos:TC
 U.A.E.:AE
-U.S. Virgin Islands:VI
+De amerikanske jomfruøyene:VI
 Uganda:UG
-Ukraine:UA
-United Kingdom:GB
+Ukraina:UA
+Storbritannia:GB
 Uruguay:UY
 Uzbekistan:UZ
 Vanuatu:VU
@@ -640,21 +634,21 @@ Wallis &amp; Futuna:WF
 Yemen:YE
 Zambia:ZM
 Zimbabwe:ZW</String>
-<String id="RHHSTR_TIME_ZONES">(GMT-12:00) International Date Line West
-(GMT-11:00) Midway Island, Samoa
+<String id="RHHSTR_TIME_ZONES">(GMT-12:00) Internasjonal datolinje vest
+(GMT-11:00) Midwayøyene, Samoa
 (GMT-10:00) Hawaii
 (GMT-09:00) Alaska
-(GMT-08:00) Pacific Time (US and Canada)
+(GMT-08:00) Pacific Time (USA og Canada)
 (GMT-07:00) Arizona
 (GMT-07:00) Chihuahua, La Paz, Mazatlan
-(GMT-07:00) Mountain Time (US and Canada)
-(GMT-06:00) Central America
-(GMT-06:00) Central Time (US and Canada)
+(GMT-07:00) Mountain Time (USA og Canada)
+(GMT-06:00) Sentral-Amerika
+(GMT-06:00) Central Time (USA og Canada)
 (GMT-06:00) Guadalajara, Mexico City, Monterrey
 (GMT-06:00) Saskatchewan
 (GMT-05:00) Bogota, Lima, Quito
-(GMT-05:00) Eastern Time (US and Canada)
-(GMT-05:00) Indiana (East)
+(GMT-05:00) Eastern Time (USA og Canada)
+(GMT-05:00) Indiana (Øst)
 (GMT-04:00) Atlantic Time (Canada)
 (GMT-04:00) Caracas, La Paz
 (GMT-04:00) Santiago
@@ -666,23 +660,23 @@ Zimbabwe:ZW</String>
 (GMT-01:00) Azores
 (GMT-01:00) Cape Verde Is.
 (GMT) Casablanca, Monrovia
-(GMT) Greenwich Mean Time : Dublin, London
-(GMT+01:00) Amsterdam, Berlin, Bern, Rome
+(GMT) Greenwich-tid: Dublin, London
+(GMT+01:00) Amsterdam, Berlin, Bern, Roma
 (GMT+01:00) Belgrade, Bratislava, Budapest
-(GMT+01:00) Brussels, Copenhagen, Madrid, Paris
-(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb
-(GMT+01:00) West Central Africa
-(GMT+02:00) Athens
-(GMT+02:00) Bucharest
-(GMT+02:00) Cairo
+(GMT+01:00) Brussel, København, Madrid, Paris
+(GMT+01:00) Sarajevo, Skopje, Warsawa, Zagreb
+(GMT+01:00) Vestre Sentral-Afrika
+(GMT+02:00) Athen, Istanbul, Minsk
+(GMT+02:00) Bukuresti
+(GMT+02:00) Kairo
 (GMT+02:00) Harare, Pretoria
-(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn
+(GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn
 (GMT+02:00) Jerusalem
-(GMT+03:00) Baghdad, Istanbul, Minsk
+(GMT+03:00) Bagdad
 (GMT+03:00) Kuwait, Riyadh
-(GMT+03:00) Moscow, St. Petersburg, Volgograd
+(GMT+03:00) Moskva, St. Petersburg, Volgograd
 (GMT+03:00) Nairobi
-(GMT+03:30) Tehran
+(GMT+03:30) Teheran
 (GMT+04:00) Abu Dhabi, Muscat
 (GMT+04:00) Baku, Tbilisi, Yerevan
 (GMT+04:30) Kabul
@@ -711,319 +705,319 @@ Zimbabwe:ZW</String>
 (GMT+10:00) Guam, Port Moresby
 (GMT+10:00) Hobart
 (GMT+10:00) Vladivostok
-(GMT+11:00) Magadan, Solomon Is., New Caledonia
+(GMT+11:00) Magadan, Solomonøyene, Ny Kaledonia
 (GMT+12:00) Auckland, Wellington
-(GMT+12:00) Fiji Is., Kamchatka, Marshall Is.
+(GMT+12:00) Fijiøyene, Kamchatka, Marshalløyene
 (GMT+13:00) Nuku'alofa</String>
-<String id="STR_JoinHouseholdError" comment="uses STR_ prefix for Actionscript access">This controller was unable to connect to a Sonos component. Please try again. (%1$d)</String>
-<String id="STR_Setting_fixedOutputLevel">Line-Out Level (%1$s)</String>
-<String id="STR_Setting_fixedOutputLevel_Fixed">Fixed</String>
-<String id="STR_Setting_fixedOutputLevel_Variable">Variable</String>
-<String id="STR_Setting_fixedOutputLevel_Msg">You can set the Sonos player's Line-Out level to Variable or Fixed.</String>
-<String id="STR_GeneralSettings">System Settings</String>
-<String id="STR_Setting_ZoneExtender">Player Mode (%1$s)</String>
-<String id="STR_Setting_ZoneExtenderWarn">When a Sonos player is set to Extender mode it will not appear in the Rooms menu. Select a mode for this Sonos player.</String>
-<String id="STR_ChooseZonePlayerAudioInputName">Choose a name for the Line-In source</String>
-<String id="STR_NoBrowseSelections">No selections are available.</String>
-<String id="STR_NoBrowseSettings">No settings are available.</String>
-<String id="STR_NowPlayingHdr">Now Playing</String>
+<String comment="uses STR_ prefix for Actionscript access" id="STR_JoinHouseholdError">Denne controlleren kunne ikke koble til en Sonos-komponent. Vennligst prøv igjen. (%1$d)</String>
+<String id="STR_Setting_fixedOutputLevel">Utgangsnivå (%1$s)</String>
+<String id="STR_Setting_fixedOutputLevel_Fixed">Fast</String>
+<String id="STR_Setting_fixedOutputLevel_Variable">Variabel</String>
+<String id="STR_Setting_fixedOutputLevel_Msg">Du kan stille inn Sonos-spillerens utgangsnivå til Variabelt eller Fast.</String>
+<String id="STR_GeneralSettings">Systeminnstillinger</String>
+<String id="STR_Setting_ZoneExtender">Spillermodus (%1$s)</String>
+<String id="STR_Setting_ZoneExtenderWarn">Når en Sonos-spiller er satt til Utvider-modus vil den ikke vises i Rom-menyen. Velg en modus for denne Sonos-spilleren.</String>
+<String id="STR_ChooseZonePlayerAudioInputName">Velg et navn for den eksterne kilden</String>
+<String id="STR_NoBrowseSelections">Ingen utvalg er tilgjengelige.</String>
+<String id="STR_NoBrowseSettings">Ingen innstillinger er tilgjengelige.</String>
+<String id="STR_NowPlayingHdr">Spiller nå</String>
 <String id="STR_Setting_Bass">Bass</String>
-<String id="STR_Setting_Treble">Treble</String>
-<String id="STR_Setting_Balance">Balance</String>
-<String id="STR_Setting_Balance_Left">L</String>
-<String id="STR_Setting_Balance_Right">R</String>
-<String id="STR_Setting_Delay">Audio Delay (Lip Sync)</String>
-<String id="STR_Setting_SurroundEnabled">Surrounds</String>
-<String id="STR_Setting_SurroundLevel">TV Level Adjustment</String>
-<String id="STR_Setting_SurroundMode">Music Playback</String>
+<String id="STR_Setting_Treble">Diskant</String>
+<String id="STR_Setting_Balance">Balanse</String>
+<String id="STR_Setting_Balance_Left">V</String>
+<String id="STR_Setting_Balance_Right">H</String>
+<String id="STR_Setting_Delay">Lydforsinkelse (leppesynkronisering)</String>
+<String id="STR_Setting_SurroundEnabled">Surround</String>
+<String id="STR_Setting_SurroundLevel">Justering av TV-volum</String>
+<String id="STR_Setting_SurroundMode">Musikkavspilling</String>
 <String id="STR_InternetRadioHdr">Radio</String>
-<String id="STR_Setting_SleepTimer_Off">Off</String>
-<String id="STR_Setting_SleepTimer_15Mins">15 minutes</String>
-<String id="STR_Setting_SleepTimer_30Mins">30 minutes</String>
-<String id="STR_Setting_SleepTimer_45Mins">45 minutes</String>
-<String id="STR_Setting_SleepTimer_60Mins">1 hour</String>
-<String id="STR_Setting_SleepTimer_120Mins">2 hours</String>
+<String id="STR_Setting_SleepTimer_Off">Av</String>
+<String id="STR_Setting_SleepTimer_15Mins">15 minutter</String>
+<String id="STR_Setting_SleepTimer_30Mins">30 minutter</String>
+<String id="STR_Setting_SleepTimer_45Mins">45 minutter</String>
+<String id="STR_Setting_SleepTimer_60Mins">1 time</String>
+<String id="STR_Setting_SleepTimer_120Mins">2 timer</String>
 <String id="STR_Setting_AlarmBuzzer">Sonos Chime</String>
 <String id="STR_Setting_Alarm">Alarm</String>
-<String id="STR_Setting_Alarms">Alarms</String>
-<String id="STR_Setting_Alarm_Advanced">Advanced</String>
+<String id="STR_Setting_Alarms">Alarmer</String>
+<String id="STR_Setting_Alarm_Advanced">Avansert</String>
 <String id="STR_Setting_Alarm_Enable">Alarm (%1$s)</String>
-<String id="STR_Setting_Alarm_Music">Music (%1$s)</String>
-<String id="STR_Setting_Alarm_Music_NoTitle">Music</String>
-<String id="STR_Setting_Alarm_Volume">Volume</String>
-<String id="STR_Setting_Alarm_ZoneReqd">You must select a Sonos player before setting alarm volume.</String>
-<String id="STR_Setting_Alarm_FixedOutputVolume">Volume settings are not available while a Sonos player's Line-Out level is set to Fixed.</String>
-<String id="STR_Setting_Alarm_12H">12 hour</String>
-<String id="STR_Setting_Alarm_24H">24 hour</String>
+<String id="STR_Setting_Alarm_Music">Musikk (%1$s)</String>
+<String id="STR_Setting_Alarm_Music_NoTitle">Musikk</String>
+<String id="STR_Setting_Alarm_Volume">Volum</String>
+<String id="STR_Setting_Alarm_ZoneReqd">Du må velge en Sonos-spiller før innstilling av alarmvolum.</String>
+<String id="STR_Setting_Alarm_FixedOutputVolume">Voluminnstillinger er ikke tilgjengelige når en Sonos-spillers utgangsnivå er satt til Fast.</String>
+<String id="STR_Setting_Alarm_12H">12 timer</String>
+<String id="STR_Setting_Alarm_24H">24 timer</String>
 <String id="STR_Setting_Alarm_AM">AM</String>
 <String id="STR_Setting_Alarm_PM">PM</String>
-<String id="STR_Setting_Alarm_MDY">Month Day Year</String>
-<String id="STR_Setting_Alarm_DMY">Day Month Year</String>
-<String id="STR_Setting_Alarm_YMD">Year Month Day</String>
-<String id="STR_Setting_Alarm_HrFmt">%1$d hour</String>
-<String id="STR_Setting_Alarm_HrsFmt">%1$d hours</String>
-<String id="STR_Setting_Alarm_MinFmt">%1$d mins</String>
-<String id="STR_Setting_AlarmLength_15Mins">15 minutes</String>
-<String id="STR_Setting_AlarmLength_30Mins">30 minutes</String>
-<String id="STR_Setting_AlarmLength_45Mins">45 minutes</String>
-<String id="STR_Setting_AlarmLength_60Mins">1 hour</String>
-<String id="STR_Setting_AlarmLength_120Mins">2 hours</String>
-<String id="STR_Setting_AlarmLength_NoLimit">No limit</String>
-<String id="STR_Setting_Alarm_AskShowClock">Do you want the clock to show on THIS controller when the alarm sounds?</String>
-<String id="STR_Setting_Alarm_AskShowClock_Yes">Show Clock</String>
-<String id="STR_Setting_Alarm_AskShowClock_No">Don't Show Clock</String>
-<String id="STR_Setting_AlarmSaveOK">Do you want to save the alarm you are working on?</String>
-<String id="STR_ConfirmDeleteAlarm">Are you sure you want to delete this alarm?</String>
-<String id="STR_Setting_Alarm_Create_Error_Unknown">Unable to save the alarm. Please try again later.</String>
-<String id="STR_Setting_Alarm_ConflictAlarm_Error">Unable to save the alarm. There is already an alarm for this room at the specified time.</String>
-<String id="STR_Setting_Alarm_MaxAlarms_Error">No more alarms may be created. Please delete an existing alarm before adding a new one.</String>
-<String id="STR_Setting_Alarm_Delete_Error">Unable to delete the alarm. Please try again later.</String>
-<String id="STR_Setting_Alarm_Set_From_Internet">Your system will set the date and time from the Internet.</String>
-<String id="STR_Setting_Alarms_EmptyMessage">Press New Alarm to set an alarm.</String>
-<String id="STR_Setting_ArtistView_Warn">Select how you want compilation albums to be grouped.</String>
-<String id="STR_Scrobbling_Prompt">Scrobbling means that when you listen to any song on Sonos, its name is added to your Last.fm music profile. This data helps Last.fm recommend music to you, create radio stations based on your musical taste, and much more.
+<String id="STR_Setting_Alarm_MDY">Måned Dag År</String>
+<String id="STR_Setting_Alarm_DMY">Dag Måned År</String>
+<String id="STR_Setting_Alarm_YMD">År Måned Dag</String>
+<String id="STR_Setting_Alarm_HrFmt">%1$d time</String>
+<String id="STR_Setting_Alarm_HrsFmt">%1$d timer</String>
+<String id="STR_Setting_Alarm_MinFmt">%1$d minutter</String>
+<String id="STR_Setting_AlarmLength_15Mins">15 minutter</String>
+<String id="STR_Setting_AlarmLength_30Mins">30 minutter</String>
+<String id="STR_Setting_AlarmLength_45Mins">45 minutter</String>
+<String id="STR_Setting_AlarmLength_60Mins">1 time</String>
+<String id="STR_Setting_AlarmLength_120Mins">2 timer</String>
+<String id="STR_Setting_AlarmLength_NoLimit">Ingen grense</String>
+<String id="STR_Setting_Alarm_AskShowClock">Ønsker du at klokken skal vises på DENNE controlleren når alarmen høres?</String>
+<String id="STR_Setting_Alarm_AskShowClock_Yes">Vis klokke</String>
+<String id="STR_Setting_Alarm_AskShowClock_No">Ikke vis klokke</String>
+<String id="STR_Setting_AlarmSaveOK">Ønsker du å lagre alarmen du arbeider med?</String>
+<String id="STR_ConfirmDeleteAlarm">Er du sikker på at du ønsker å slette denne alarmen?</String>
+<String id="STR_Setting_Alarm_Create_Error_Unknown">Kunne ikke lagre alarmen. Vennligst prøv igjen senere.</String>
+<String id="STR_Setting_Alarm_ConflictAlarm_Error">Kunne ikke lagre alarmen. Det finnes allerede en alarm for dette rommet på det spesifiserte tidspunktet.</String>
+<String id="STR_Setting_Alarm_MaxAlarms_Error">Ingen flere alarmer kan opprettes. Vennligst slett en eksisterende alarm før tillegging av en ny.</String>
+<String id="STR_Setting_Alarm_Delete_Error">Kunne ikke slette alarmen. Vennligst prøv igjen senere.</String>
+<String id="STR_Setting_Alarm_Set_From_Internet">Systemet ditt vil stille dato og tid fra internett.</String>
+<String id="STR_Setting_Alarms_EmptyMessage">Trykk på Ny alarm for å stille inn en alarm.</String>
+<String id="STR_Setting_ArtistView_Warn">Velg hvordan du ønsker å gruppere samlealbum.</String>
+<String id="STR_Scrobbling_Prompt">Scrobbling betyr at når du hører hvilke som helst låt på Sonos, blir dets navn lagt til i din Last.fm-musikkprofil. Disse dataene hjelper Last.fm å anbefale deg musikk, skape radiostasjoner basert på din musikksmak og mye mer.
 
-Please select a scrobbling option:</String>
-<String id="STR_NPNoInfoAvailable">[No information available]</String>
-<String id="STR_NoMusic" comment="used for now playing">[No music selected]</String>
-<String id="STR_SourceDeviceHdr">Source Device</String>
-<String id="STR_AddToQueue" comment="softkey label">Add to End of Queue</String>
-<String id="STR_PlayNow">Play Now</String>
-<String id="STR_AddNextInQueue">Play Next</String>
-<String id="STR_PlayMenu_InfoView_ItemTitle">Info &amp; Options</String>
-<String id="STR_NoSonosID">&lt;unregistered&gt;</String>
+Vennligst velg et alternativ for scrobbling:</String>
+<String id="STR_NPNoInfoAvailable">[Ingen informasjon tilgjengelig]</String>
+<String comment="used for now playing" id="STR_NoMusic">[ingen musikk]</String>
+<String id="STR_SourceDeviceHdr">Kildeenhet</String>
+<String comment="softkey label" id="STR_AddToQueue">Legg til sist i køen</String>
+<String id="STR_PlayNow">Spill nå</String>
+<String id="STR_AddNextInQueue">Spill etterpå</String>
+<String id="STR_PlayMenu_InfoView_ItemTitle">Info &amp; alternativer</String>
+<String id="STR_NoSonosID">&lt;uregistrert&gt;</String>
 <String id="STR_AboutBoxZPhdr">
 ---------------------------------
 %1$s: %2$s
 </String>
-<String id="STR_AboutBoxZPsn">Serial Number: %1$s
+<String id="STR_AboutBoxZPsn">Serienummer: %1$s
 </String>
-<String id="STR_AboutBoxZPswv">Version: %1$s (build %2$s)
+<String id="STR_AboutBoxZPswv">Versjon: %1$s (utgave %2$s)
 </String>
-<String id="STR_AboutBoxZPhwv">Hardware Version: %1$s
+<String id="STR_AboutBoxZPhwv">Maskinvareversjon: %1$s
 </String>
-<String id="STR_AboutBoxZPserID">Series ID: %1$s
+<String id="STR_AboutBoxZPserID">Serie-ID: %1$s
 </String>
-<String id="STR_AboutBoxZPip">IP Address: %1$s</String>
+<String id="STR_AboutBoxZPip">IP-adresse: %1$s</String>
 <String id="STR_AboutBoxZPHT">
-Audio In: %1$s</String>
+Lydinngang: %1$s</String>
 <String id="STR_AboutBoxZPxi">
 %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
-Warning: Your wireless network will not support the use of a SUB or surrounds with your %1$s.</String>
-<String id="STR_Setting_ZPHidden">%1$s (Hidden)</String>
-<String id="STR_Setting_UnassociatedSub">%1$s (unused)</String>
+Advarsel: Ditt trådløse nettverk støtter ikke bruken av SUB eller surroundhøyttalere med %1$s.</String>
+<String id="STR_Setting_ZPHidden">%1$s (skjult)</String>
+<String id="STR_Setting_UnassociatedSub">%1$s (ubrukt)</String>
 <String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
-<String id="STR_MusicCollection" comment="top-level sub-title">Music</String>
-<String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes® Compilations</String>
-<String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Album Artists</String>
-<String id="STR_ARTISTVIEW_SIMPLE_CONTRACTION">Do Not Group</String>
-<String id="STR_GenericErrorNoSkipNext">Skip Forward is not available for this song.</String>
-<String id="STR_GenericErrorNoSkipBack">Skip Back is not available for this song.</String>
-<String id="STR_GenericErrorNoFF">Fast Forward is not available for this song.</String>
-<String id="STR_GenericErrorNoRew">Rewind is not available for this song.</String>
-<String id="STR_SonosAPIErrorNoRadioFF">Fast Forward is not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNoRadioRW">Rewind is not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNoRadioNext">Skip Forward and Fast Forward are not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNoRadioSkip">Skip Back and Rewind are not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNextLimit">Unable to skip forward. %1$s limits the number of songs you may skip per hour.</String>
-<String id="STR_MSS_LearnMore">You can find out more about %1$s at:
+<String comment="top-level sub-title" id="STR_MusicCollection">Musikk</String>
+<String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes®-samlinger</String>
+<String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Albumartister</String>
+<String id="STR_ARTISTVIEW_SIMPLE_CONTRACTION">Ikke grupper</String>
+<String id="STR_GenericErrorNoSkipNext">Hopp framover er ikke tilgjengelig for denne låten.</String>
+<String id="STR_GenericErrorNoSkipBack">Hopp bakover er ikke tilgjengelig for denne låten.</String>
+<String id="STR_GenericErrorNoFF">Spol framover er ikke tilgjengelig for denne låten.</String>
+<String id="STR_GenericErrorNoRew">Spol tilbake er ikke tilgjengelig for denne låten.</String>
+<String id="STR_SonosAPIErrorNoRadioFF">Spol framover er ikke tilgjengelig for denne %1$s-låten.</String>
+<String id="STR_SonosAPIErrorNoRadioRW">Spol tilbake er ikke tilgjengelig for denne %1$s-låten.</String>
+<String id="STR_SonosAPIErrorNoRadioNext">Hopp framover og spol framover er ikke tilgjengelig for denne %1$s-låten.</String>
+<String id="STR_SonosAPIErrorNoRadioSkip">Hopp bakover og spol tilbake er ikke tilgjengelig for denne %1$s-låten.</String>
+<String id="STR_SonosAPIErrorNextLimit">Kunne ikke hoppe framover. %1$s begrenser antall låter du kan hoppe over hver time.</String>
+<String id="STR_MSS_LearnMore">Du kan finne ut mer om %1$s på:
 
 %2$s.sonos.com/%3$s</String>
-<String id="STR_MSS_SECONDARY_DESC_SONOS">Sign in with %1$s</String>
-<String id="STR_MSS_SECONDARY_DESC_TRIAL">Free Trial</String>
-<String id="STR_MSS_SECONDARY_DESC">Free basic service</String>
-<String id="STR_HouseMuted">All rooms have been muted</String>
-<String id="STR_HouseUnmuted">All rooms have been unmuted</String>
-<String id="STR_Yes">Yes</String>
-<String id="STR_No">No</String>
-<String id="STR_Cancel">Cancel</String>
-<String id="STR_Delete">Delete</String>
-<String id="STR_Enabled">Enabled</String>
-<String id="STR_Disabled">Disabled</String>
-<String id="STR_Enable">Enable</String>
-<String id="STR_Disable">Disable</String>
-<String id="STR_LastFMArtistsTitle" comment="ROBTODO">Artists:</String>
-<String id="STR_LastFMVenueTitle" comment="ROBTODO">Venue:</String>
-<String id="STR_LastFMDescriptionTitle" comment="ROBTODO">Description:</String>
-<String id="STR_InfoViewHeaderLabelTrack">Song</String>
+<String id="STR_MSS_SECONDARY_DESC_SONOS">Logg på med %1$s</String>
+<String id="STR_MSS_SECONDARY_DESC_TRIAL">Gratis prøve</String>
+<String id="STR_MSS_SECONDARY_DESC">Gratis grunntjeneste</String>
+<String id="STR_HouseMuted">Alle rom har blitt dempet</String>
+<String id="STR_HouseUnmuted">Alle rom har fått opphevet dempingen</String>
+<String id="STR_Yes">Ja</String>
+<String id="STR_No">Nei</String>
+<String id="STR_Cancel">Avbryt</String>
+<String id="STR_Delete">Slett</String>
+<String id="STR_Enabled">Aktivert</String>
+<String id="STR_Disabled">Deaktivert</String>
+<String id="STR_Enable">Aktiver</String>
+<String id="STR_Disable">Deaktiver</String>
+<String comment="ROBTODO" id="STR_LastFMArtistsTitle">Artister:</String>
+<String comment="ROBTODO" id="STR_LastFMVenueTitle">Møtested:</String>
+<String comment="ROBTODO" id="STR_LastFMDescriptionTitle">Beskrivelse:</String>
+<String id="STR_InfoViewHeaderLabelTrack">Låt</String>
 <String id="STR_InfoViewHeaderLabelAlbum">Album</String>
 <String id="STR_InfoViewHeaderLabelArtist">Artist</String>
-<String id="STR_InfoViewHeaderLabelStation">playing:</String>
-<String id="STR_InfoViewHeaderLabelRadioStation">Station</String>
+<String id="STR_InfoViewHeaderLabelStation">spiller:</String>
+<String id="STR_InfoViewHeaderLabelRadioStation">Stasjon</String>
 <String id="STR_InfoViewHeaderLabelRadioShow">Show</String>
-<String id="STR_InfoViewHeaderLabelChannel">Channel</String>
-<String id="STR_InfoViewHeaderLabelChannelDescription">Description</String>
-<String id="STR_InfoViewHeaderLabelRadioHost">Host</String>
-<String id="STR_InfoViewHeaderLabelBook">Book</String>
-<String id="STR_InfoViewHeaderLabelChapter">Chapter</String>
-<String id="STR_InfoViewHeaderLabelAuthor">Author</String>
-<String id="STR_InfoViewHeaderLabelAccount">Account</String>
-<String id="STR_FavoriteAdded">Station added to My Radio Stations.</String>
-<String id="STR_FavShowAdded">Show added to My Radio Shows.</String>
-<String id="STR_FavoriteExistsMessage">Station already in My Radio Stations.</String>
-<String id="STR_FavShowExistsMessage">Show already in My Radio Shows.</String>
-<String id="STR_FavStationFailedGeneric">Unable to add station to My Radio Stations.</String>
-<String id="STR_FavShowFailedGeneric">Unable to add show to My Radio Shows.</String>
-<String id="STR_ConfirmDeleteFavoriteWithLinebreaks">You have chosen to delete "%1$s" from My Radio Stations.
+<String id="STR_InfoViewHeaderLabelChannel">Kanal</String>
+<String id="STR_InfoViewHeaderLabelChannelDescription">Beskrivelse</String>
+<String id="STR_InfoViewHeaderLabelRadioHost">Vert</String>
+<String id="STR_InfoViewHeaderLabelBook">Bok</String>
+<String id="STR_InfoViewHeaderLabelChapter">Kapittel</String>
+<String id="STR_InfoViewHeaderLabelAuthor">Forfatter</String>
+<String id="STR_InfoViewHeaderLabelAccount">Konto</String>
+<String id="STR_FavoriteAdded">Stasjonen er lagt til i Mine radiostasjoner.</String>
+<String id="STR_FavShowAdded">Programmet er lagt til i Mine radioprogrammer.</String>
+<String id="STR_FavoriteExistsMessage">Stasjonen er allerede i Mine radiostasjoner.</String>
+<String id="STR_FavShowExistsMessage">Programmet er allerede i Mine radioprogrammer.</String>
+<String id="STR_FavStationFailedGeneric">Kunne ikke legge stasjonen til Mine radiostasjoner.</String>
+<String id="STR_FavShowFailedGeneric">Kunne ikke legge programmet til Mine radioprogrammer.</String>
+<String id="STR_ConfirmDeleteFavoriteWithLinebreaks">Du har valgt å slette «%1$s» fra Mine radiostasjoner.
 
-Are you sure?</String>
-<String id="STR_ConfirmDeleteFavShowWithLinebreaks">You have chosen to delete "%1$s" from My Radio Shows.
+Er du sikker?</String>
+<String id="STR_ConfirmDeleteFavShowWithLinebreaks">Du har valgt å slette «%1$s» fra Mine radioprogrammer.
 
-Are you sure?</String>
-<String id="STR_FavoriteDeleted">Station deleted from My Radio Stations.</String>
-<String id="STR_FavShowDeleted">Show deleted from My Radio Shows.</String>
-<String id="STR_DelRadioStationFavFailed">Unable to remove station from My Radio Stations</String>
-<String id="STR_DelRadioShowFavFailed">Unable to remove show from My Radio Shows</String>
-<String id="STR_AddRadioStationFavorite">Add to My Radio Stations</String>
-<String id="STR_AddRadioShowFavorite">Add to My Radio Shows</String>
-<String id="STR_DeleteRadioStationFavorite">Remove from My Radio Stations</String>
-<String id="STR_DeleteRadioShowFavorite">Remove from My Radio Shows</String>
-<String id="STR_EventName">Event</String>
-<String id="STR_EventLocation">Place</String>
-<String id="STR_EventDate">Date</String>
-<String id="STR_AboutTheArtist">About the Artist</String>
-<String id="STR_AboutTheAuthor">About the Author</String>
-<String id="STR_AboutThisArtist">About This Artist</String>
-<String id="STR_SimilarItems">Similar Items</String>
+Er du sikker?</String>
+<String id="STR_FavoriteDeleted">Stasjonen er slettet fra Mine radiostasjoner</String>
+<String id="STR_FavShowDeleted">Programmet ert slettet fra Mine radioprogrammer.</String>
+<String id="STR_DelRadioStationFavFailed">Kunne ikke fjerne stasjonen fra Mine radiostasjoner</String>
+<String id="STR_DelRadioShowFavFailed">Kunne ikke fjerne programmet fra Mine radioprogrammer</String>
+<String id="STR_AddRadioStationFavorite">Legg til i Mine radiostasjoner</String>
+<String id="STR_AddRadioShowFavorite">Legg til i Mine radioprogrammer</String>
+<String id="STR_DeleteRadioStationFavorite">Fjern fra Mine radiostasjoner</String>
+<String id="STR_DeleteRadioShowFavorite">Fjern fra Mine radioprogrammer</String>
+<String id="STR_EventName">Hendelse</String>
+<String id="STR_EventLocation">Sted</String>
+<String id="STR_EventDate">Dato</String>
+<String id="STR_AboutTheArtist">Om artisten</String>
+<String id="STR_AboutTheAuthor">Om forfatteren</String>
+<String id="STR_AboutThisArtist">Om denne artisten</String>
+<String id="STR_SimilarItems">Lignende elementer</String>
 <String id="STR_RelatedPlayRadio">Start Radio</String>
-<String id="STR_AboutThisAlbum">About This Album</String>
-<String id="STR_AboutThisRadio">About This Radio</String>
-<String id="STR_AboutThisBook">About this Book</String>
-<String id="STR_AboutThisPlaylist">About this Playlist</String>
-<String id="STR_ViewAllTracks">View All Songs on Album</String>
-<String id="STR_ViewAllAlbums">View All Albums</String>
-<String id="STR_ViewReviews">View Reviews</String>
-<String id="STR_MoreAlbumsLikeThis">More Albums Like This</String>
-<String id="STR_RelatedArtists">Related Projects</String>
-<String id="STR_RelatedArtistsGeneral">Related Artists</String>
-<String id="STR_RelatedAuthorsGeneral">Related Authors</String>
-<String id="STR_ContemporaryArtists">Contemporary Artists</String>
-<String id="STR_FollowingArtists">Artist Followers</String>
-<String id="STR_InfluencingArtists">Artist Influences</String>
-<String id="STR_AllTracksArtist">View Songs by This Artist</String>
-<String id="STR_AllAlbumsArtist">View Albums by This Artist</String>
-<String id="STR_BrowseArtist">Browse the Artist</String>
-<String id="STR_BrowseAuthor">Browse the Author</String>
-<String id="STR_AddAlbumToLib">Add Album to My Library</String>
-<String id="STR_DelAlbumFromLib">Delete Album from My Library</String>
-<String id="STR_AddStationToLib">Add Station to My Library</String>
-<String id="STR_DelStationFromLib">Delete Station from My Library</String>
-<String id="STR_AddChannelToLib">Add Channel to My Library</String>
-<String id="STR_DelChannelFromLib">Delete Channel from My Library</String>
-<String id="STR_AddTrackToLib">Add Song to My Library</String>
-<String id="STR_DelTrackFromLib">Delete Song from My Library</String>
-<String id="STR_AddPlaylistToLib">Add Playlist to My Library</String>
-<String id="STR_DelPlaylistFromLib">Delete Playlist</String>
-<String id="STR_ArtistInfo">Artist Info</String>
-<String id="STR_AuthorInfo">Author Info</String>
-<String id="STR_AlbumInfo">Album Info</String>
-<String id="STR_AutomixTrack">Automix this song</String>
-<String id="STR_AutomixAlbum">Automix this album</String>
-<String id="STR_NoSharesAvailable">No shared folders are available.
+<String id="STR_AboutThisAlbum">Om dette albumet</String>
+<String id="STR_AboutThisRadio">Om denne radioen</String>
+<String id="STR_AboutThisBook">Om denne boken</String>
+<String id="STR_AboutThisPlaylist">Om denne spillelisten</String>
+<String id="STR_ViewAllTracks">Vis alle låter på album</String>
+<String id="STR_ViewAllAlbums">Vis alle album</String>
+<String id="STR_ViewReviews">Vis kritikker</String>
+<String id="STR_MoreAlbumsLikeThis">Flere album som dette</String>
+<String id="STR_RelatedArtists">Relaterte prosjekter</String>
+<String id="STR_RelatedArtistsGeneral">Relaterte artister</String>
+<String id="STR_RelatedAuthorsGeneral">Relaterte forfattere</String>
+<String id="STR_ContemporaryArtists">Samtidige artister</String>
+<String id="STR_FollowingArtists">Artistfølgere</String>
+<String id="STR_InfluencingArtists">Artistpåvirkninger</String>
+<String id="STR_AllTracksArtist">Vis låter av denne artisten</String>
+<String id="STR_AllAlbumsArtist">Vis album av denne artisten</String>
+<String id="STR_BrowseArtist">Bla gjennom artisten</String>
+<String id="STR_BrowseAuthor">Finn info om forfatteren</String>
+<String id="STR_AddAlbumToLib">Legg album til mitt bibliotek</String>
+<String id="STR_DelAlbumFromLib">Slett album fra mitt bibliotek</String>
+<String id="STR_AddStationToLib">Legg stasjon til mitt bibliotek</String>
+<String id="STR_DelStationFromLib">Slett stasjon fra mitt bibliotek</String>
+<String id="STR_AddChannelToLib">Legg kanal til mitt bibliotek</String>
+<String id="STR_DelChannelFromLib">Slett kanal fra mitt bibliotek</String>
+<String id="STR_AddTrackToLib">Legg til låt i mitt bibliotek</String>
+<String id="STR_DelTrackFromLib">Slett låt fra mitt bibliotek</String>
+<String id="STR_AddPlaylistToLib">Legg spilleliste til mitt bibliotek</String>
+<String id="STR_DelPlaylistFromLib">Slett spilleliste</String>
+<String id="STR_ArtistInfo">Artistinfo</String>
+<String id="STR_AuthorInfo">Informasjon om forfatteren</String>
+<String id="STR_AlbumInfo">Albuminfo</String>
+<String id="STR_AutomixTrack">Automiks denne låten</String>
+<String id="STR_AutomixAlbum">Automiks dette albumet</String>
+<String id="STR_NoSharesAvailable">Ingen delte mapper tilgjengelige.
 
-Please use the Sonos Setup software on your computer to set up music folders for sharing.</String>
-<String id="STR_ReplaceQueuePrompt">Do you want to replace the Queue?</String>
-<String id="STR_SaveQueueErrorMobileTracksNotSaved">Songs from mobile devices cannot be stored in Sonos Playlists and were not saved.</String>
-<String id="STR_SaveQueueErrorAllMobileTracks">The queue contains only songs from mobile devices. These songs cannot be saved to Sonos Playlists.</String>
-<String id="STR_PostMessage">Update Status</String>
-<String id="STR_PostMessageTo_Fmt">Update %1$s Status</String>
-<String id="RHHSTR_SOCIAL_SINGLE">#NowPlaying %1$s on @Sonos</String>
-<String id="RHHSTR_SOCIAL_TRACK">#NowPlaying "%1$s" by %2$s on @Sonos</String>
-<String id="RHHSTR_SOCIAL_SINGLE_TRACK">#NowPlaying "%1$s" on @Sonos</String>
-<String id="RHHSTR_SOCIAL_NO_INFO">#NowPlaying all the music on earth on @Sonos</String>
-<String id="STR_PostMessageInstructions">Enter text here or press Autofill.</String>
-<String id="STR_Left">Left</String>
-<String id="STR_Right">Right</String>
-<String id="STR_ZPNameFmtLeft">%1$s (L)</String>
-<String id="STR_ZPNameFmtRight">%1$s (R)</String>
-<String id="STR_ZPNameFmtLplusR">%1$s (L + R)</String>
-<String id="STR_ZPNameFmtLplusQ">%1$s (L + ?)</String>
-<String id="STR_ZPNameFmtQplusR">%1$s (? + R)</String>
-<String id="STR_Setting_StereoPair_IntroFmt">You can combine your "%1$s" %2$s speaker with another %2$s to make left and right speakers of a stereo pair.</String>
-<String id="STR_Setting_StereoPair_Start">To start, ensure that both speakers are in the same room.</String>
+Vennligst bruk Sonos-oppsettsprogramvare på datamaskinen din for å sette opp musikkmapper for deling.</String>
+<String id="STR_ReplaceQueuePrompt">Ønsker du å erstatte køen?</String>
+<String id="STR_SaveQueueErrorMobileTracksNotSaved">Låter fra mobile enheter kan ikke lagres i Sonos-spillelister og ble ikke lagret.</String>
+<String id="STR_SaveQueueErrorAllMobileTracks">Køen inneholder bare låter fra mobile enheter. Disse låtene kan ikke lagres i Sonos-spillelister.</String>
+<String id="STR_PostMessage">Oppdateringsstatus</String>
+<String id="STR_PostMessageTo_Fmt">Oppdatering %1$s status</String>
+<String id="RHHSTR_SOCIAL_SINGLE">Spiller nå %1$s på @Sonos #NowPlaying</String>
+<String id="RHHSTR_SOCIAL_TRACK">Spiller nå «%1$s» av %2$s på @Sonos #NowPlaying</String>
+<String id="RHHSTR_SOCIAL_SINGLE_TRACK">Spiller nå «%1$s» på @Sonos #NowPlaying</String>
+<String id="RHHSTR_SOCIAL_NO_INFO">Spiller nå all verdens musikk på @Sonos #NowPlaying</String>
+<String id="STR_PostMessageInstructions">Skriv inn tekst er eller trykk Autofyll.</String>
+<String id="STR_Left">Venstre</String>
+<String id="STR_Right">Høyre</String>
+<String id="STR_ZPNameFmtLeft">%1$s (V)</String>
+<String id="STR_ZPNameFmtRight">%1$s (H)</String>
+<String id="STR_ZPNameFmtLplusR">%1$s (V + H)</String>
+<String id="STR_ZPNameFmtLplusQ">%1$s (V + ?)</String>
+<String id="STR_ZPNameFmtQplusR">%1$s (? + H)</String>
+<String id="STR_Setting_StereoPair_IntroFmt">Du kan kombinere din «%1$s» %2$s høyttaler med en annen %2$s for å utgjøre venstre og høyre høyttalere i et stereopar.</String>
+<String id="STR_Setting_StereoPair_Start">For å starte, sørg for at begge høyttalere er i samme rom.</String>
 <String id="STR_ZPNameFmtBondedDevice">%1$s (%2$s)</String>
 <String id="STR_ZPNameFmtBondFour">%1$s (%2$s+%3$s+%4$s+%5$s)</String>
 <String id="STR_ZPNameFmtBondThree">%1$s (%2$s+%3$s+%4$s)</String>
 <String id="STR_ZPNameFmtBondTwo">%1$s (%2$s+%3$s)</String>
-<String id="STR_ZPNameChannelLeft">L</String>
-<String id="STR_ZPNameChannelRight">R</String>
+<String id="STR_ZPNameChannelLeft">V</String>
+<String id="STR_ZPNameChannelRight">H</String>
 <String id="STR_ZPNameChannelSub">SUB</String>
-<String id="STR_ZPNameChannelLeftSatellite">LS</String>
-<String id="STR_ZPNameChannelRightSatellite">RS</String>
-<String id="STR_ZPNameChannelLeftAndRightSatellite">LS+RS</String>
+<String id="STR_ZPNameChannelLeftSatellite">VH</String>
+<String id="STR_ZPNameChannelRightSatellite">HH</String>
+<String id="STR_ZPNameChannelLeftAndRightSatellite">VH+HH</String>
 <String id="STR_ZPNameChannelMissing">?</String>
-<String id="STR_Setting_StereoPair_Creating">Creating stereo pair…</String>
-<String id="STR_Setting_StereoPair_ErrorCreating">There was a problem creating the stereo pair. Please try again.</String>
-<String id="STR_Setting_StereoPair_ErrorSeparating">There was a problem separating the stereo pair. Please try again.</String>
-<String id="STR_ThirdPartyStreaming">App playing on iPod</String>
-<String id="STR_DockediPods">Docked iPods</String>
-<String id="STR_BrowseiPodConfirm">Are you sure you want to browse %1$s?
-The audio it is currently playing may be paused.</String>
-<String id="STR_BrowseiPod">Browse</String>
-<String id="STR_InDock">Docked iPod</String>
-<String id="STR_ContentFrom">Content from</String>
-<String id="STR_iPodFormat">Songs from %1$s</String>
-<String id="STR_ThirdPartyFormat">Audio from %1$s</String>
-<String id="STR_None">None</String>
-<String id="RHHSTR_CLASS_UNKNOWN">Sonos Product</String>
-<String id="RHHSTR_CLASS_ROOM">Room</String>
-<String id="RHHSTR_UNKNOWN_DEVICE">(Unknown)</String>
-<String id="RHHSTR_DOCKNODE_Playlists">Playlists</String>
-<String id="RHHSTR_DOCKNODE_Artists">Artists</String>
-<String id="RHHSTR_DOCKNODE_Albums">Albums</String>
-<String id="RHHSTR_DOCKNODE_Genres">Genres</String>
-<String id="RHHSTR_DOCKNODE_Tracks">Songs</String>
-<String id="RHHSTR_DOCKNODE_Composers">Composers</String>
-<String id="RHHSTR_DOCKNODE_Audiobooks">Audiobooks</String>
-<String id="RHHSTR_DOCKNODE_Podcasts">Podcasts</String>
-<String id="RHHSTR_DOCKNODE_AllTracks">All Songs</String>
-<String id="RHHSTR_DOCKNODE_AllAlbums">All Albums</String>
-<String id="STR_BrowseMusicByFolder">Folders</String>
-<String id="STR_Favorites">Sonos Favorites</String>
-<String id="STR_MusicLibrary">Music Library</String>
-<String id="STR_LocalMusic">Local Music</String>
-<String id="STR_MoreMusic">Add Music Services</String>
-<String id="STR_MoreMusic_Alt">Add Music Services</String>
-<String id="STR_Queue_Full">Unable to add songs to the Queue.</String>
-<String id="STR_Guest_Account">Guest Account</String>
-<String id="STR_AddToQueueNotAuthorized">Unable to add song(s) to the Queue.
+<String id="STR_Setting_StereoPair_Creating">Oppretter stereopar…</String>
+<String id="STR_Setting_StereoPair_ErrorCreating">Det var et problem under oppretting av stereoparet. Vennligst prøv igjen.</String>
+<String id="STR_Setting_StereoPair_ErrorSeparating">Det var et problem under oppdeling av stereoparet. Vennligst prøv igjen.</String>
+<String id="STR_ThirdPartyStreaming">App spiller på iPod</String>
+<String id="STR_DockediPods">Forankrede iPod-er</String>
+<String id="STR_BrowseiPodConfirm">Er du sikker på at du ønsker å bla gjennom %1$s?
+Lyden den spiller i øyeblikket kan bli pauset.</String>
+<String id="STR_BrowseiPod">Bla gjennom</String>
+<String id="STR_InDock">Forankret iPod</String>
+<String id="STR_ContentFrom">Innhold fra</String>
+<String id="STR_iPodFormat">Låter fra %1$s</String>
+<String id="STR_ThirdPartyFormat">Lyd fra %1$s</String>
+<String id="STR_None">Ingen</String>
+<String id="RHHSTR_CLASS_UNKNOWN">Sonos-produkt</String>
+<String id="RHHSTR_CLASS_ROOM">Rom</String>
+<String id="RHHSTR_UNKNOWN_DEVICE">(ukjent)</String>
+<String id="RHHSTR_DOCKNODE_Playlists">Spillelister</String>
+<String id="RHHSTR_DOCKNODE_Artists">Artister</String>
+<String id="RHHSTR_DOCKNODE_Albums">Album</String>
+<String id="RHHSTR_DOCKNODE_Genres">Sjangre</String>
+<String id="RHHSTR_DOCKNODE_Tracks">Låter</String>
+<String id="RHHSTR_DOCKNODE_Composers">Komponister</String>
+<String id="RHHSTR_DOCKNODE_Audiobooks">Lydbøker</String>
+<String id="RHHSTR_DOCKNODE_Podcasts">Podcaster</String>
+<String id="RHHSTR_DOCKNODE_AllTracks">Alle låter</String>
+<String id="RHHSTR_DOCKNODE_AllAlbums">Alle album</String>
+<String id="STR_BrowseMusicByFolder">Mapper</String>
+<String id="STR_Favorites">Sonos-favoritter</String>
+<String id="STR_MusicLibrary">Musikkbibliotek</String>
+<String id="STR_LocalMusic">Lokal musikk</String>
+<String id="STR_MoreMusic">Legg til musikktjenester</String>
+<String id="STR_MoreMusic_Alt">Legg til musikk- tjenester</String>
+<String id="STR_Queue_Full">Kunne ikke legge til låter i køen.</String>
+<String id="STR_Guest_Account">Gjestekonto</String>
+<String id="STR_AddToQueueNotAuthorized">Kunne ikke legge til låt(er) i køen.
 
-Windows Media Sharing is not turned on for one or more Sonos players. 
+Windows mediedeling er ikke skrudd på for én eller flere Sonos-spillere. 
 
-Go to http://%1$s.sonos.com/wmpsharing for assistance.
+Gå til http://%1$s.sonos.com/wmpsharing for assistanse.
 
-Press the OK button to continue.</String>
-<String id="STR_BrowseNotAuthorized">Unable to browse music.
+Trykk OK-knappen for å fortsette.</String>
+<String id="STR_BrowseNotAuthorized">Kunne ikke bla gjennom musikk.
 
-Windows Media Sharing is not turned on for one or more Sonos players. 
+Windows mediedeling er ikke skrudd på for én eller flere Sonos-spillere. 
 
-Go to http://%1$s.sonos.com/wmpsharing for assistance. 
+Gå til http://%1$s.sonos.com/wmpsharing for assistanse. 
 
-Press the OK button to continue.</String>
-<String id="STR_MiscAddToQueueErr">An error occurred while adding songs to the Queue (%1$d)</String>
-<String id="STR_TracksNotStreamable">These songs are not available for streaming from %1$s</String>
-<String id="STR_AddingTracksToQueue">Adding songs to Queue…</String>
-<String id="STR_FAQHostname">faq</String>
-<String id="STR_WWWHostname">www</String>
-<String id="STR_ZeroTracksAddedToQueue">Zero songs added to the Queue</String>
-<String id="STR_OneTrackAddedToQueue">One song added to the Queue</String>
-<String id="STR_TracksAddedToQueuePlural">%1$d songs added to the Queue</String>
-<String id="STR_MultiAddToQueueErr">Due to this error, some songs may not have been added.</String>
-<String id="STR_Playlists">Imported Playlists</String>
-<String id="STR_Information">Info &amp; Options</String>
-<String id="STR_ReplaceQueueAndPlay">Play Now and Replace Queue</String>
-<String id="STR_ReplaceQueue">Replace Queue</String>
-<String id="STR_RenameSavedPlaylist">Rename Playlist</String>
-<String id="STR_DeleteSavedPlaylist">Delete Playlist</String>
+Trykk OK-knappen for å fortsette.</String>
+<String id="STR_MiscAddToQueueErr">En feil oppsto under tillegging av låter i køen (%1$d)</String>
+<String id="STR_TracksNotStreamable">Disse låtene er ikke tilgjengelige for streaming fra %1$s</String>
+<String id="STR_AddingTracksToQueue">Legger til låter i køen…</String>
+<String id="STR_FAQHostname">faq-no</String>
+<String id="STR_WWWHostname">no</String>
+<String id="STR_ZeroTracksAddedToQueue">Ingen låter er lagt til i køen</String>
+<String id="STR_OneTrackAddedToQueue">Én låt er lagt til i køen</String>
+<String id="STR_TracksAddedToQueuePlural">%1$d låter er lagt til i køen</String>
+<String id="STR_MultiAddToQueueErr">På grunn av denne feilen, kan det hende at noen låter ikke er lagt til.</String>
+<String id="STR_Playlists">Importerte spillelister</String>
+<String id="STR_Information">Info &amp; alternativer</String>
+<String id="STR_ReplaceQueueAndPlay">Spill nå og bytt ut kø</String>
+<String id="STR_ReplaceQueue">Bytt ut kø</String>
+<String id="STR_RenameSavedPlaylist">Gi spilleliste nytt navn</String>
+<String id="STR_DeleteSavedPlaylist">Slett spilleliste</String>
 <String id="STR_Pause">Pause</String>
-<String id="STR_Play">Play</String>
-<String id="STR_Rename">Rename</String>
+<String id="STR_Play">Spill</String>
+<String id="STR_Rename">Gi nytt navn</String>
 <String id="STR_Scrobbling">Scrobbling</String>
 <String id="STR_OK">OK</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">To add Sonos Labs public beta services, you need to share usage data with Sonos.
+<String id="RHHSTR_OptInRequiredForSoundLab">For å legge til Sonos Labs offentlige betatjenester, må du dele bruksdata med Sonos.
 
-To view or change your usage data setting, go to Settings &gt; Advanced Settings &gt; Usage Data.</String>
+For å vise eller endre dine bruksdatainnstillinger, gå til Innstillinger &gt; Avanserte innstillinger &gt; Bruksdata.</String>
 <String id="STR_TwoButtonDevices">PLAY
 CONNECT:AMP
 CONNECT</String>
@@ -1032,63 +1026,59 @@ CONNECT</String>
 SUB
 DOCK</String>
 <String id="STR_HTAudioHdr">TV</String>
-<String id="STR_SUBXOver0">1. Compact</String>
+<String id="STR_SUBXOver0">1. Kompakt</String>
 <String id="STR_SUBXOver1">2.</String>
 <String id="STR_SUBXOver2">3.</String>
-<String id="STR_SUBXOver3">4. Bookshelf / Ceiling</String>
+<String id="STR_SUBXOver3">4. Bokhylle/tak</String>
 <String id="STR_SUBXOver4">5.</String>
-<String id="STR_SUBXOver5">6. Floor</String>
+<String id="STR_SUBXOver5">6. Gulv</String>
 <String id="STR_SUBXOver6">7.</String>
-<String id="STR_StereoPair_Error_SUB_Fmt">This %1$s speaker is set up with a SUB. To create a stereo pair with this speaker, you need to have another %2$s speaker available that is not set up with a SUB and is not already part of a different stereo pair.</String>
-<String id="STR_AddToFavoritesAdded">"%1$s" added to Sonos Favorites.</String>
-<String id="STR_AddToFavoritesAddedWithRemaining">"%1$s" added to Sonos Favorites.
+<String id="STR_StereoPair_Error_SUB_Fmt">Denne %1$s-høyttaleren er satt opp med en SUB. For å lage et stereopar med denne høyttaleren, må du ha en annen %2$s-høyttaler tilgjengelig som ikke er satt opp med en SUB og som ikke allerede er en del av et annet stereopar.</String>
+<String id="STR_AddToFavoritesAdded">«%1$s» er lagt til i Sonos-favoritter.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">«%1$s» er lagt til i Sonos-favoritter.
 
-There are %2$d free remaining favorite slots.</String>
-<String id="STR_AddToFavoritesAddedOneRemaining">"%1$s" added to Sonos Favorites.
+Det finnes %2$d ledige favorittplasser.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">«%1$s» er lagt til i Sonos-favoritter.
 
-There is only 1 free remaining favorite slot.</String>
-<String id="STR_AddToFavoritesAddedNoneRemaining">"%1$s" added to Sonos Favorites.
+Det finnes kun én ledig favorittplass.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">«%1$s» er lagt til i Sonos-favoritter.
 
-All available slots for favorites have been used.</String>
-<String id="STR_AddToFavoritesAlreadyAddedError">"%1$s" is already a Sonos Favorite and will not be added again.</String>
-<String id="STR_AddToFavoritesFullError">Unable to add favorite. There are no empty favorites remaining.
+Alle tilgjengelige favorittplasser er benyttet.</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">«%1$s» er allerede en Sonos-favoritt, og legges ikke til på nytt.</String>
+<String id="STR_AddToFavoritesFullError">Kunne ikke legge til favoritt. Det er ingen tomme, gjenværende favoritter.
 
-You can remove existing Sonos Favorites to make room for new ones.</String>
-<String id="STR_AddToFavoritesError">Unable to add "%1$s" to Sonos Favorites.</String>
-<String id="STR_AddToFavoritesErrorOutOfSpace">Unable to add favorite. To make additional room for new Sonos Favorites, consider removing existing favorites, or remove items from My Radio Stations or My Radio Shows.</String>
-<String id="STR_FavoritesDescriptionByArtist">By %1$s</String>
-<String id="STR_FavoritesDescriptionStation">%1$s Station</String>
-<String id="STR_FavoritesDescriptionRadioShow">Radio Show</String>
+Du kan fjerne eksisterende Sonos-favoritter for å gi plass til nye.</String>
+<String id="STR_AddToFavoritesError">Kan ikke legge til «%1$s» i Sonos-favoritter.</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">Kan ikke legge til favoritt. Hvis du vil lage mer plass til nye Sonos-favoritter, kan du fjerne eksisterende favoritter eller fjerne elementer fra Mine Radiostasjoner eller Mine radioprogrammer.</String>
+<String id="STR_FavoritesDescriptionByArtist">Etter %1$s</String>
+<String id="STR_FavoritesDescriptionStation">%1$s stasjon</String>
+<String id="STR_FavoritesDescriptionRadioShow">Radioprogrammer</String>
 <String id="STR_FavoritesDescriptionArtist">Artist</String>
-<String id="STR_FavoritesDescriptionServicePlaylist">%1$s Playlist</String>
-<String id="STR_FavoritesDescriptionAlbumBy">Album by %1$s</String>
-<String id="STR_FavoritesDescriptionFromService">From %1$s</String>
-<String id="STR_FavoritesDescriptionComposer">Composer</String>
-<String id="STR_FavoritesDescriptionGenre">Genre</String>
-<!-- This is a composite of two string <Artist> and <Station|Playlist>. This will create a  -->
-<!-- string such as "Florence + The Machine" "Top Tracks" -->
-<String id="STR_FavoritesDescriptionArtistsStation" comment="Do not localize">%1$s — %2$s</String>
-
-<String id="STR_AddFavorite">Add to Sonos Favorites</String>
-<String id="STR_AddFavoriteStation">Add Station to Sonos Favorites</String>
-<String id="STR_AddFavoriteTrack">Add Song to Sonos Favorites</String>
-<String id="STR_AddFavoriteAlbum">Add Album to Sonos Favorites</String>
-<String id="STR_AddFavoriteArtist">Add Artist to Sonos Favorites</String>
-<String id="STR_AddFavoritePlaylist">Add Playlist to Sonos Favorites</String>
-<String id="STR_AddFavoriteShow">Add Show to Sonos Favorites</String>
-<String id="STR_AddFavoriteBook">Add Book to Sonos Favorites</String>
-<String id="STR_NoSearchResults">No results were found. Please edit your search and try again</String>
-<String id="STR_LocalMusicEmpty">Music that lives on this device will appear here.</String>
-<String id="STR_SearchNoTerm">To search %1$s, use the search bar at the top of the screen.</String>
-<String id="STR_LocalMusicNotAuthorized">We need permission to access the music stored on this device to play it.</String>
-<String id="STR_LocalMusicGrantPermission">Grant Permission</String>
-<String id="STR_SearchAllMusicButton">Try searching everywhere</String>
-<String id="STR_StoreModeNotAvailable">This feature is not available in store mode.</String>
-<!--Do not put any new strings below comment. Certain methods use generated index numbers to determine what strings to use-->
-<String id="STR_NP_STREAMINFO_UNSUPPORTED">Unsupported TV Audio</String>
-<String id="RHHSTR_TITLESIE_NOSPACE_TITLE">Can't Update Music Library</String>
-<String id="RHHSTR_TITLESIE_ERROR_TITLE">Music Files Not Available</String>
-<String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">Music Library Problem</String>
-<String id="RHHSTR_SAVEDQUEUES_NOSPACE">Your Sonos Playlists is full. You can remove songs from playlists or delete unused playlists and try again.</String>
-<String id="RHHSTR_SECURE_REG_PROMPT">Use %1$s App to Control Sonos</String>
+<String id="STR_FavoritesDescriptionServicePlaylist">%1$s spilleliste</String>
+<String id="STR_FavoritesDescriptionAlbumBy">Album etter %1$s</String>
+<String id="STR_FavoritesDescriptionFromService">Fra %1$s</String>
+<String id="STR_FavoritesDescriptionComposer">Komponist</String>
+<String id="STR_FavoritesDescriptionGenre">Sjanger</String>
+<String comment="Do not localize" id="STR_FavoritesDescriptionArtistsStation">%1$s – %2$s</String>
+<String id="STR_AddFavorite">Legg til i Sonos-favoritter</String>
+<String id="STR_AddFavoriteStation">Legg til stasjonen i Sonos-favoritter</String>
+<String id="STR_AddFavoriteTrack">Legg til i Sonos-favoritter</String>
+<String id="STR_AddFavoriteAlbum">Legg til album i Sonos-favoritter</String>
+<String id="STR_AddFavoriteArtist">Legg til artist i Sonos-favoritter</String>
+<String id="STR_AddFavoritePlaylist">Legg til spilleliste i Sonos-favoritter</String>
+<String id="STR_AddFavoriteShow">Legg til program i Sonos-favoritter</String>
+<String id="STR_AddFavoriteBook">Legg til boka i Sonos-favoritter</String>
+<String id="STR_NoSearchResults">Ingen resultater ble funnet. Vennligst rediger ditt søk og prøv igjen</String>
+<String id="STR_LocalMusicEmpty">Musikken som er lagret på denne enheten vil vises her.</String>
+<String id="STR_SearchNoTerm">Bruk søkefeltet øverst på skjermen for å søke i %1$s.</String>
+<String id="STR_LocalMusicNotAuthorized">Vi må få tilgang til musikken som er lagret på denne enheten for å spille den.</String>
+<String id="STR_LocalMusicGrantPermission">Gi tillatelse</String>
+<String id="STR_SearchAllMusicButton">Prøv å søke overalt</String>
+<String id="STR_StoreModeNotAvailable">Denne funksjonen er ikke tilgjengelig i butikkmodus.</String>
+<String id="STR_NP_STREAMINFO_UNSUPPORTED">TV-lyd støttes ikke</String>
+<String id="RHHSTR_TITLESIE_NOSPACE_TITLE">Kan ikke oppdatere musikkbiblioteket</String>
+<String id="RHHSTR_TITLESIE_ERROR_TITLE">Ingen musikkfiler tilgjengelige</String>
+<String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">Problem med musikkbiblioteket</String>
+<String id="RHHSTR_SAVEDQUEUES_NOSPACE">Sonos-spillelisten din er full. Du kan fjerne sanger fra spillelister eller slette ubrukte spillelister og prøve igjen.</String>
+<String id="RHHSTR_SECURE_REG_PROMPT">Bruk %1$s-appen til å styre Sonos</String>
 </Strings>

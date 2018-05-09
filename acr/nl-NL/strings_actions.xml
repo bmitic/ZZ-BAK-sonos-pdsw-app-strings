@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="alarm_frequency_once">Once</string>
-<string name="alarm_frequency_sunday">Every Sunday</string>
-<string name="alarm_frequency_monday">Every Monday</string>
-<string name="alarm_frequency_tuesday">Every Tuesday</string>
-<string name="alarm_frequency_wednesday">Every Wednesday</string>
-<string name="alarm_frequency_thursday">Every Thursday</string>
-<string name="alarm_frequency_friday">Every Friday</string>
-<string name="alarm_frequency_saturday">Every Saturday</string>
-<string name="alarm_frequency">Repeat</string>
+<string name="alarm_frequency_once">Eénmalig</string>
+<string name="alarm_frequency_sunday">Elke zondag</string>
+<string name="alarm_frequency_monday">Elke maandag</string>
+<string name="alarm_frequency_tuesday">Elke dinsdag</string>
+<string name="alarm_frequency_wednesday">Elke woensdag</string>
+<string name="alarm_frequency_thursday">Elke donderdag</string>
+<string name="alarm_frequency_friday">Elke vrijdag</string>
+<string name="alarm_frequency_saturday">Elke zaterdag</string>
+<string name="alarm_frequency">Herhalen</string>
 </resources>

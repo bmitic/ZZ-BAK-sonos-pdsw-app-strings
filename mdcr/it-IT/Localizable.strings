@@ -12,25 +12,25 @@
 /* Common */
 
     "<OK>" = "OK";
-    "<Cancel>" = "Cancel";
-    "<Yes>" = "Yes";
+    "<Cancel>" = "Annulla";
+    "<Yes>" = "Sì";
     "<No>" = "No";
-    "<Crossfade>" = "Crossfade";
+    "<Crossfade>" = "Dissolvenza";
     "<Mute>" = "Mute";
-    "<MuteAll>" = "Mute All";
-    "<Next>" = "Next";
-    "<Back>" = "Back";
-    "<Pause>" = "Pause";
-    "<Play>" = "Play";
-    "<Previous>" = "Previous";
-    "<RepeatOff>" = "Repeat is off";
-    "<RepeatOne>" = "Repeat song";
-    "<RepeatAll>" = "Repeat all";
-    "<Shuffle>" = "Shuffle";
+    "<MuteAll>" = "Mute tutto";
+    "<Next>" = "Avanti";
+    "<Back>" = "Indietro";
+    "<Pause>" = "Pausa";
+    "<Play>" = "Riproduci";
+    "<Previous>" = "Precedente";
+    "<RepeatOff>" = "Ripeti è off";
+    "<RepeatOne>" = "Ripetere brano";
+    "<RepeatAll>" = "Ripetere tutto";
+    "<Shuffle>" = "Casuale";
     "<Stop>" = "Stop";
-    "<Unmute>" = "Unmute";
-    "<UnmuteAll>" = "Unmute All";
-    "<Done>" = "Done";
+    "<Unmute>" = "Disattiva mute";
+    "<UnmuteAll>" = "Disattiva mute tutto";
+    "<Done>" = "Fatto";
     "<On>" = "On";
     "<Off>" = "Off";
 
@@ -40,357 +40,356 @@
 
 /* General */
 
-    "<BusyUIPleaseWait>" = "Please wait…";
-    "<GeneralConfirmTitle>" = "Confirm";
-    "<GeneralErrorTitle>" = "Error";
+    "<BusyUIPleaseWait>" = "Attendere prego…";
+    "<GeneralConfirmTitle>" = "Conferma";
+    "<GeneralErrorTitle>" = "Errore";
 
 
 /* About Window */
 
-    "<AboutSonosWindowTitle>" = "About My Sonos System";
-    "<AboutControllerName_1>" = "Sonos Controller for Mac %1$@";
-    "<AboutVersion>" = "Version:";
+    "<AboutSonosWindowTitle>" = "Info sul sistema Sonos";
+    "<AboutControllerName_1>" = "Sonos Controller per Mac %1$@";
+    "<AboutVersion>" = "Versione:";
     "<AboutBuild>" = "Build:";
-    "<AboutSonosID>" = "Sonos ID:";
-    "<AboutSubmitDiagnostics>" = "Submit Diagnostics";
+    "<AboutSonosID>" = "ID Sonos:";
+    "<AboutSubmitDiagnostics>" = "Invia diagnostica";
 
 
 /* Error Log Window */
 
-    "<ErrorWindowTitle>" = "Sonos System Error Log";
+    "<ErrorWindowTitle>" = "Registro degli errori di Sonos System";
 
 
 /* Keyboard shortcuts window */
 
-    "<KeyboardWindowTitle>" = "Keyboard Shortcuts";
-    "<KeyboardWindowHeading>" = "Keyboard shortcuts supported by your Sonos System:";
-    "<KeyboardWindowFunction>" = "Function";
-    "<KeyboardWindowShortcut>" = "Shortcut";
+    "<KeyboardWindowTitle>" = "Tasti di scelta rapida";
+    "<KeyboardWindowHeading>" = "Tasti di scelta rapida supportati da Sonos System:";
+    "<KeyboardWindowFunction>" = "Funzione";
+    "<KeyboardWindowShortcut>" = "Collegamento";
 
-    "<ShortcutPlay>" = "Play/Pause";
-    "<ShortcutPrevTrack>" = "Previous Song";
-    "<ShortcutNextTrack>" = "Next Song";
-    "<ShortcutShuffle>" = "Toggle Shuffle";
-    "<ShortcutRepeat>" = "Toggle Repeat";
-    "<ShortcutCrossfade>" = "Toggle Crossfade";
-    "<ShortcutMute>" = "Mute/Unmute Current Room/Group";
-    "<ShortcutMuteAll>" = "Mute All";
-    "<ShortcutVolUp>" = "Increase Volume";
-    "<ShortcutVolDown>" = "Decrease Volume";
-    "<ShortcutPlayNow>" = "Play Selected Song Now";
-    "<ShortcutPlayNext>" = "Play Selected Song Next";
-    "<ShortcutAdd>" = "Play Selection Later";
-    "<ShortcutReplace>" = "Replace Queue with Selection";
-    "<ShortcutDelete>" = "Remove Selected Song from Queue";
-    "<ShortcutTop>" = "Jump to Browse Top";
-    "<ShortcutFavorites>" = "Go to Favorites";
-    "<ShortcutBrowse>" = "Jump Focus to Browse";
-    "<ShortcutRooms>" = "Jump Focus to Rooms";
-    "<ShortcutNowPlaying>" = "Jump Focus to Now Playing";
-    "<ShortcutQueue>" = "Jump Focus to Queue";
-    "<ShortcutNextZone>" = "Select Next Room Group";
-    "<ShortcutPrevZone>" = "Select Previous Room Group";
-    "<ShortcutScroll>" = "Show Current Song in Queue";
-    "<ShortcutResizeQueue>" = "Resize Queue";
-    "<ShortcutContext>" = "Show Menu for Song";
-    "<ShortcutKeyboard>" = "Keyboard Shortcuts";
+    "<ShortcutPlay>" = "Riproduci/Pausa";
+    "<ShortcutPrevTrack>" = "Brano Precedente";
+    "<ShortcutNextTrack>" = "Brano Successivo";
+    "<ShortcutShuffle>" = "Attiva/disattiva Casuale";
+    "<ShortcutRepeat>" = "Attiva/disattiva Ripeti";
+    "<ShortcutCrossfade>" = "Attiva/disattiva Dissolvenza";
+    "<ShortcutMute>" = "Attiva/disattiva audio in stanza/gruppo corrente";
+    "<ShortcutMuteAll>" = "Mute tutto";
+    "<ShortcutVolUp>" = "Alza volume";
+    "<ShortcutVolDown>" = "Abbassa volume";
+    "<ShortcutPlayNow>" = "Riproduci brano selezionato ora";
+    "<ShortcutPlayNext>" = "Riproduci brano selezionato dopo";
+    "<ShortcutAdd>" = "Riproduci selezione dopo";
+    "<ShortcutReplace>" = "Sostituisci coda con la selezione";
+    "<ShortcutDelete>" = "Rimuovi dalla coda brano selezionato";
+    "<ShortcutTop>" = "Passa al 1° livello di Sfoglia";
+    "<ShortcutFavorites>" = "Vai ai Preferiti";
+    "<ShortcutBrowse>" = "Passa a Sfoglia";
+    "<ShortcutRooms>" = "Passa a Stanze";
+    "<ShortcutNowPlaying>" = "Passa a Esecuzione";
+    "<ShortcutQueue>" = "Passa a Coda";
+    "<ShortcutNextZone>" = "Seleziona gruppo stanze successivo";
+    "<ShortcutPrevZone>" = "Seleziona gruppo stanze precedente";
+    "<ShortcutScroll>" = "Mostra brano corrente nella coda";
+    "<ShortcutResizeQueue>" = "Ridimensiona coda";
+    "<ShortcutContext>" = "Mostra menu per Brano";
+    "<ShortcutKeyboard>" = "Tasti di scelta rapida";
 /*
  Localizers:
  When running under OS X Lion, look at the string translations for "Enter Full Screen"
  and "Exit Full Screen" in the View menu. Use those 2 strings to create the
  <ShortcutToggleFullScreen> string below:
 */
-    "<ShortcutToggleFullScreen>" = "Enter/Exit Full Screen";
-    "<ShortcutShowPreferences>" = "Show Preferences";
-    "<ShortcutShowSonosController>" = "Show Sonos Controller";
-    "<ShortcutShowMiniController>" = "Show Mini Controller";
-    "<ShortcutToggleMiniController>" = "Toggle Mini Controller";
+    "<ShortcutToggleFullScreen>" = "Entra/Esci Tutto schermo";
+    "<ShortcutShowPreferences>" = "Mostra Preferenze";
+    "<ShortcutShowSonosController>" = "Mostra Sonos Controller";
+    "<ShortcutShowMiniController>" = "Mostra Mini Controller";
+    "<ShortcutToggleMiniController>" = "Attiva/disattiva Mini Controller";
 
 /* Alarms */
 
-    "<AlarmAlarms>" = "Alarms";
-    "<AlarmsNoTimeTitle>" = "Current Time is Not Set";
-    "<AlarmsNoTimeText>" = "Before you can create an alarm, the current time must be set.";
-    "<AlarmsNoTimeButton>" = "Set Current Time";
-    "<AlarmsDialogTitle>" = "Alarms";
-    "<AlarmsTitle>" = "Manage Sonos Alarms";
-    "<AlarmHeaderWhere>" = "Where";
-    "<AlarmHeaderWhen>" = "When";
+    "<AlarmAlarms>" = "Sveglie";
+    "<AlarmsNoTimeTitle>" = "L'ora corrente non è impostata";
+    "<AlarmsNoTimeText>" = "Prima di creare una sveglia, è necessario impostare l'ora corrente.";
+    "<AlarmsNoTimeButton>" = "Imposta ora corrente";
+    "<AlarmsDialogTitle>" = "Sveglie";
+    "<AlarmsTitle>" = "Gestisci sveglie Sonos";
+    "<AlarmHeaderWhere>" = "Dove";
+    "<AlarmHeaderWhen>" = "Quando";
     "<AlarmHeaderOn>" = "ON";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Current time: %1$@ - %2$@ %3$@";
-    "<AlarmEditButtonTitle>" = "Edit";
-    "<AlarmUnknownDevice>" = "No Room Selected";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Ora corrente: %1$@ - %2$@ %3$@";
+    "<AlarmEditButtonTitle>" = "Modifica";
+    "<AlarmUnknownDevice>" = "Nessuna stanza selezionata";
 
 /* Alarm Edit */
 
-    "<AlarmEditDialogTitle>" = "Edit Alarm";
-    "<AlarmAddDialogTitle>" = "Add Alarm";
-    "<AlarmEditAlarm>" = "Alarm";
-    "<AlarmEditTime>" = "Time";
-    "<AlarmEditZone>" = "Room";
-    "<AlarmEditMusic>" = "Music";
-    "<AlarmSelectMusicButton>" = "Select…";
-    "<AlarmEditSchedule>" = "Schedule";
-    "<AlarmEditScheduleOnceOnly>" = "Once Only";
-    "<AlarmEditScheduleMonday>" = "Monday";
-    "<AlarmEditScheduleTuesday>" = "Tuesday";
-    "<AlarmEditScheduleWednesday>" = "Wednesday";
-    "<AlarmEditScheduleThursday>" = "Thursday";
-    "<AlarmEditScheduleFriday>" = "Friday";
-    "<AlarmEditScheduleSaturday>" = "Saturday";
-    "<AlarmEditScheduleSunday>" = "Sunday";
+    "<AlarmEditDialogTitle>" = "Modifica Sveglia";
+    "<AlarmAddDialogTitle>" = "Aggiungi sveglia";
+    "<AlarmEditAlarm>" = "Sveglia";
+    "<AlarmEditTime>" = "Ora";
+    "<AlarmEditZone>" = "Stanza";
+    "<AlarmEditMusic>" = "Musica";
+    "<AlarmSelectMusicButton>" = "Seleziona…";
+    "<AlarmEditSchedule>" = "Pianifica";
+    "<AlarmEditScheduleOnceOnly>" = "Solo una volta";
+    "<AlarmEditScheduleMonday>" = "Lunedì";
+    "<AlarmEditScheduleTuesday>" = "Martedì";
+    "<AlarmEditScheduleWednesday>" = "Mercoledì";
+    "<AlarmEditScheduleThursday>" = "Giovedì";
+    "<AlarmEditScheduleFriday>" = "Venerdì";
+    "<AlarmEditScheduleSaturday>" = "Sabato";
+    "<AlarmEditScheduleSunday>" = "Domenica";
     "<AlarmEditVolume>" = "Volume";
-    "<AlarmEditDuration>" = "Duration";
-    "<AlarmEditDurationNoLimit>" = "No Limit";
-    "<AlarmEditIncludeText>" = "Include grouped rooms";
-    "<AlarmEditShuffleMusic>" = "Shuffle music";
+    "<AlarmEditDuration>" = "Durata";
+    "<AlarmEditDurationNoLimit>" = "Senza limiti";
+    "<AlarmEditIncludeText>" = "Includi stanze raggruppate";
+    "<AlarmEditShuffleMusic>" = "Musica casuale";
 
-    "<AlarmMusicDialogTitle>" = "Alarm Music";
-    "<AlarmBrowseTitle>" = "Browse to alarm music";
-    "<AlarmSetMusicButton>" = "Set Alarm Music";
-    "<AlarmBrowseTopButtonTitle>" = "TOP";
-    "<AlarmSaveErrorSameTime>" = "Unable to save the alarm. There is already an alarm for this room at the specified time.";
-    "<AlarmSaveErrorTooManyAlarms>" = "No more alarms may be created. Please delete an existing alarm before adding a new one.";
-    "<AlarmSaveErrorOther>" = "Unable to save the alarm. Please try again later.";
+    "<AlarmMusicDialogTitle>" = "Musica sveglia";
+    "<AlarmBrowseTitle>" = "Sfoglia per la musica della sveglia";
+    "<AlarmSetMusicButton>" = "Imposta musica sveglia";
+    "<AlarmBrowseTopButtonTitle>" = "SOPRA";
+    "<AlarmSaveErrorSameTime>" = "Impossibile salvare la sveglia. Per questa stanza è già impostata una sveglia per l'ora specificata.";
+    "<AlarmSaveErrorTooManyAlarms>" = "Impossibile creare nuove sveglie. Eliminare una sveglia esistente prima di aggiungerne una nuova.";
+    "<AlarmSaveErrorOther>" = "Impossibile salvare la sveglia. Riprovare più tardi.";
 
 
 /* Authorization */
 
-    "<EnterAdministratorAccountAndPassword>" = "Enter an administrator account and password";
+    "<EnterAdministratorAccountAndPassword>" = "Inserisci account amministratore e password";
 
 
 /* Browse Panel */
 
-    "<BrowseHeaderTitle>" = "Select a Music Source";
-    "<BrowseMusicButton>" = "MUSIC";
-    "<BrowseMoreButtonTitle>" = "More";
+    "<BrowseHeaderTitle>" = "Seleziona una sorgente musicale";
+    "<BrowseMusicButton>" = "MUSICA";
+    "<BrowseMoreButtonTitle>" = "Altro";
 // %1$@ is what the user searched for. %2$@ is the search result category (Artist, Song, …)
-    "<BrowseEmptySearchResults_2>" = "Search returned no results for ‘%1$@’ in %2$@. Please try a different category or a new search term.";
+    "<BrowseEmptySearchResults_2>" = "La ricerca di ‘%1$@’ in %2$@ non ha dato risultati. Provare con una categoria diversa o un nuovo criterio di ricerca.";
 // %1$@, Search result category (Artist, Song, …)
-    "<BrowseSearchResultsTitle_1>" = "Results: %1$@";
-    "<BrowseEmptyLibrary_1>" = "You haven’t added any music folders to your Sonos system yet.\nTo add music to Sonos, select %@ from the Manage menu.";
-    "<BrowseEmptyLibraryIndexing>" = "Indexing is currently in progress. Music will be available as soon as indexing completes.";
-    "<UnselectAll>" = "Unselect All";
+    "<BrowseSearchResultsTitle_1>" = "Risultati: %1$@";
+    "<BrowseEmptyLibrary_1>" = "Non sono state ancora aggiunte cartelle di musica al sistema Sonos.\nPer aggiungere musica a Sonos, selezionare %@ dal menu Gestisci.";
+    "<BrowseEmptyLibraryIndexing>" = "È in corso la creazione dell’indice. La musica sarà disponibile al termine della creazione dell’indice.";
+    "<UnselectAll>" = "Deseleziona tutto";
 
 /* Dock Menu */
 
     "<DockShowSonosController>" = "Sonos Controller";
-    "<DockNoZonesFound>" = "No Rooms Found";
-    "<DockSwitchToZone>" = "Switch Room Group";
+    "<DockNoZonesFound>" = "Nessuna stanza trovata";
+    "<DockSwitchToZone>" = "Cambia gruppo di stanze";
 // %1$@, Sonos device name
-    "<DockNowPlayingOn_1>" = "Now Playing on %1$@:";
-    "<DockRateThisTrack>" = "Rate This Song";
+    "<DockNowPlayingOn_1>" = "In esecuzione su %1$@:";
+    "<DockRateThisTrack>" = "Vota questo brano";
 
 
 /* Indexing */
 
-    "<IndexingFinishedSuccessMessage>" = "Indexing your music collection has now completed successfully.";
-    "<IndexingInProgressMessage>" = "Your music collection is now being indexed…";
+    "<IndexingFinishedSuccessMessage>" = "Indicizzazione raccolta musicale completata.";
+    "<IndexingInProgressMessage>" = "È in corso la creazione dell’indice della raccolta di musica…";
 // %1$@, Reason why indexing the user's music collection failed.
-    "<IndexingFinishedError_1>" = "Indexing your music collection could not be completed.\n\n%1$@";
-    "<IndexingUpdateMusicLibraryTitle>" = "Update the Music Library";
-    "<IndexingUpdateMusicLibraryMessage>" = "This will update the Music Library of your Sonos system to match any changes you have made in iTunes or other shared music folders.\n\nDo you want to update the Music Library of your Sonos system now?";
+    "<IndexingFinishedError_1>" = "Impossibile completare l’indicizzazione della raccolta musicale.\n\n%1$@";
+    "<IndexingUpdateMusicLibraryTitle>" = "Aggiorna Libreria musicale";
+    "<IndexingUpdateMusicLibraryMessage>" = "La Libreria musicale del sistema Sonos verrà aggiornata sulla base delle modifiche apportate in iTunes o in altre cartelle di musica condivise.\n\nAggiornare la Libreria musicale del sistema Sonos ora?";
 
 
 /* Limited Connectivity */
 
-    "<LimitedConnectivityBlockedByFirewall_1>" = "Your computer’s firewall setting has changed. Your Sonos controller can no longer connect to your Sonos system.\nFor more information, go to %1$@\nClick the Configure Firewall button to adjust your firewall settings.";
-    "<LimitedConnectivityReset>" = "Your Sonos Controller has been reset.\nIt will restart shortly…";
-    "<LimitedConnectivityAboutMySonosSystem>" = "About My Sonos System";
-    "<LimitedConnectivityFirewallConfigure>" = "Configure Firewall";
-    "<LimitedConnectivityMoreOptions>" = "More Options…";
-    "<LimitedConnectivityResetController>" = "Reset Controller";
-    "<LimitedConnectivitySubmitDiagnostics>" = "Submit Diagnostics";
+    "<LimitedConnectivityBlockedByFirewall_1>" = "L’impostazione del firewall del computer è cambiata. Il controller Sonos non è più in grado di connettersi al sistema Sonos.\nPer maggiori informazioni, vai a %1$@\nFai clic sul pulsante Configura Firewall per regolare le impostazioni del firewall.";
+    "<LimitedConnectivityReset>" = "Sonos Controller è stato reimpostato.\nSarà riavviato a breve…";
+    "<LimitedConnectivityAboutMySonosSystem>" = "Info sul sistema Sonos";
+    "<LimitedConnectivityFirewallConfigure>" = "Configura Firewall";
+    "<LimitedConnectivityMoreOptions>" = "Altre opzioni…";
+    "<LimitedConnectivityResetController>" = "Reimpostazione Controller";
+    "<LimitedConnectivitySubmitDiagnostics>" = "Invia diagnostica";
 
 
 /* Configure firewall */
-    "<ConfigureFirewall_WindowTitle>" = "Configure Firewall";
-    "<ConfigureFirewall_Title>" = "Adjust Firewall Settings";
-    "<ConfigureFirewall_Info>" = "Sonos was not able to adjust your firewall settings automatically. Please do the following manual adjustment of your firewall settings:";
-    "<ConfigureFirewall_Instructions>" = "1. Click the Apple menu and select System Preferences…\n2. Click the Security icon in the System Preferences window\n3. Click the Firewall tab\n4. If necessary, click the lock icon to allow changes (type your username and password when prompted)\n5. Click the Advanced… button\n6. Uncheck the Block all incoming connections checkbox\n7. Find Sonos in the list below, and select Allow incoming connections\n8. Click OK\n9. Close the System Preferences window";
+    "<ConfigureFirewall_WindowTitle>" = "Configura Firewall";
+    "<ConfigureFirewall_Title>" = "Regola Impostazioni Firewall";
+    "<ConfigureFirewall_Info>" = "Sonos non è stato in grado di regolare automaticamente le impostazioni del firewall. Esegui la seguente regolazione manuale delle impostazioni del firewall:";
+    "<ConfigureFirewall_Instructions>" = "1. Fai clic sul menu Apple e seleziona Preferenze di Sistema…\n2. Nella finestra Preferenze di Sistema fai clic sull’icona Sicurezza\n3. Fai clic sulla scheda Firewall\n4. Se necessario, fai clic sull’icona del lucchetto per consentire le modifiche (digita il tuo nome utente e la password quando richiesto)\n5. Fai clic sul pulsante Avanzate…\n6. Deseleziona la casella Blocca tutte le connessioni in ingresso\n7. Individua Sonos nell’elenco sottostante, quindi seleziona Consenti tutte le connessioni in ingresso\n8. Fai clic su OK\n9. Chiudi la finestra Preferenze di Sistema";
 /* Localizers: the first instance of this string in the instructions string above will be turned into a link
  * that will launch the System Preferences application. */
-    "<ConfigureFirewall_InstructionsLink>" = "System Preferences…";
+    "<ConfigureFirewall_InstructionsLink>" = "Preferenze di Sistema…";
 
 /* Music Sharing Setup */
 
-    "<MusicPathHomeFolder>" = "(home folder)";
-    "<ShareMigrationAlertTitle>" = "Music library update";
-    "<ShareMigrationAlertMessage>" = "To ensure playback from your music Library, Sonos needs to update the index of songs. This may take a couple of minutes.";
-    "<ShareMigrationAlertNowButton>" = "Update Now";
-    "<ShareMigrationAlertLaterButton>" = "Remind Me Later";
-    "<AuthorizationFailed>" = "Authorization failed.";
-    "<AbleToAddMusicSharesFailed>" = "Sonos was not able to start the music library server because your players are not compatible. Please check for updates.";
-    "<LocalHostNameFailed>" = "Sonos was not able to start the music library server because the computer name can't be read.";
+    "<MusicPathHomeFolder>" = "(cartella home)";
+    "<ShareMigrationAlertTitle>" = "Aggiornamento libreria musicale";
+    "<ShareMigrationAlertMessage>" = "Per assicurare la riproduzione dalla Libreria musicale, Sonos deve aggiornare l'indice dei brani. L'operazione potrebbe richiedere qualche minuto.";
+    "<ShareMigrationAlertNowButton>" = "Aggiorna ora";
+    "<ShareMigrationAlertLaterButton>" = "Ricordamelo più tardi";
+    "<AuthorizationFailed>" = "Autorizzazione non riuscita.";
+    "<AbleToAddMusicSharesFailed>" = "Sonos non è stato in grado di avviare il server della libreria musicale perché il lettori non sono compatibili. Verificare se sono disponibili aggiornamenti.";
+    "<LocalHostNameFailed>" = "Sonos non è stato in grado di avviare il server della libreria musicale perché il nome del computer non può essere letto.";
 
 
 /* Now Playing Panel */
 
-    "<NowPlayingHeaderTitle>" = "NOW PLAYING";
-    "<NowPlayingLabel_Information>" = "Info & Options";
-    "<NowPlayingTrackDefaultLabel>" = "Song [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[No music selected]";
-    "<NowPlayingArtistDefaultLabel>" = "Artist";
+    "<NowPlayingHeaderTitle>" = "IN ESECUZIONE";
+    "<NowPlayingLabel_Information>" = "Info & Opzioni";
+    "<NowPlayingTrackDefaultLabel>" = "Brano [0/0]";
+    "<NowPlayingTrackDefaultString>" = "[Nessun brano musicale]";
+    "<NowPlayingArtistDefaultLabel>" = "Artista";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
 
 /* Queue Panel */
 
-    "<QueueHeaderTitle>" = "QUEUE";
-    "<QueueHeaderTitleNotInUse>" = "(Not in Use)";
-    "<QueueEmpty>" = "The Queue is empty";
-    "<QueueClear>" = "Clear Queue";
-    "<QueueSave>" = "Save Queue";
-    "<QueueConfirmClearText>" = "Are you sure you want to clear the Queue?";
+    "<QueueHeaderTitle>" = "CODA";
+    "<QueueHeaderTitleNotInUse>" = "(Non in uso)";
+    "<QueueEmpty>" = "La coda è vuota.";
+    "<QueueClear>" = "Cancella Coda";
+    "<QueueSave>" = "Salva Coda";
+    "<QueueConfirmClearText>" = "Rimuovere tutte le voci dalla coda?";
 // %1$d, Number of tracks to remove.
-    "<QueueSaveWindowTitle>" = "Save Queue";
-    "<QueueSaveIntroText>" = "The Queue will be saved as a Sonos Playlist.";
-    "<QueuePlaylistNameText>" = "Enter a new playlist name:";
-    "<QueuePlaylistTableText>" = "Or select an existing Sonos Playlist to replace:";
-    "<QueueSaveErrorGeneric>" = "Unable to save the Queue.";
-    "<QueueSaveErrorNotEnoughRoom>" = "Sonos doesn't have enough free space left to save the queue.\nRemove old saved playlists or queues in other rooms, and try again.";
-    "<QueueSaveErrorMobileTracksNotSaved>" = "Songs from mobile devices cannot be stored in Sonos Playlists and were not saved.";
-    "<QueueSaveErrorAllMobileTracks>" = "The queue contains only songs from mobile devices. These songs cannot be saved to Sonos Playlists.";
+    "<QueueSaveWindowTitle>" = "Salva Coda";
+    "<QueueSaveIntroText>" = "La coda verrà salvata come Playlist Sonos:";
+    "<QueuePlaylistNameText>" = "Immettere un nuovo nome playlist:";
+    "<QueuePlaylistTableText>" = "Oppure selezionare una playlist Sonos da sostituire:";
+    "<QueueSaveErrorGeneric>" = "Impossibile salvare la coda.";
+    "<QueueSaveErrorNotEnoughRoom>" = "Sonos non dispone di spazio libero sufficiente per registrare la coda.\nRimuovi le vecchie playlist o le code registrate in altre stanze e riprova.";
+    "<QueueSaveErrorMobileTracksNotSaved>" = "I brani provenienti dai dispositivi mobili non possono essere memorizzati nelle Playlist Sonos e non sono salvati.";
+    "<QueueSaveErrorAllMobileTracks>" = "La coda contiene solo brani provenienti dai dispositivi mobili. Questi brani non possono essere salvati nelle Playlist Sonos.";
 
-    "<QueuePlaylistExistsWarningTitle>" = "Sonos Playlist Exists";
+    "<QueuePlaylistExistsWarningTitle>" = "La Playlist Sonos esiste";
 // %1$@, the name of the pre-existing playlist
-    "<QueuePlaylistExistsWarningMessage_1>" = "A Sonos Playlist named “%1$@” already exists. Replacing it will overwrite its current contents.";
-    "<QueuePlaylistReplace>" = "Replace";
+    "<QueuePlaylistExistsWarningMessage_1>" = "Esiste già una Playlist Sonos denominata “%1$@”. Se la si sostituisce, tutti i contenuti correnti saranno sovrascritti.";
+    "<QueuePlaylistReplace>" = "Sostituisci";
 
 /* Search */
 
-    "<SearchRecentSearches>" = "Recent Searches";
-    "<SearchEmptyRecentSearches>" = "No Recent Searches";
-    "<SearchClearRecentSearches>" = "Clear Recent Searches";
+    "<SearchRecentSearches>" = "Ricerche recenti";
+    "<SearchEmptyRecentSearches>" = "Nessuna ricerca recente";
+    "<SearchClearRecentSearches>" = "Cancella ricerche recenti";
 
 
 /* Settings */
 
-    "<SettingsWindowTitle>" = "Preferences";
-    "<SettingsBasicSettingsTitle>" = "Basic";
+    "<SettingsWindowTitle>" = "Preferenze";
+    "<SettingsBasicSettingsTitle>" = "Base";
 // %1$@, Type of Sonos component (BRIDGE, DOCK, …)
 // $2$@, Text of hyperlink to the wizard
-    "<SettingsNoDevice_2>" = "You currently have no %1$@ in your Sonos system.\n\nTo add a %1$@, select %2$@\nfrom the menu bar.";
-    "<SettingsNoPlayers_1>" = "You currently have no Sonos Players in your Sonos system.\nYou need at least one Sonos player to play music.\n\nTo add a Sonos player, select %1$@ from the menu bar.";
-    "<SettingsNoPlayerLink>" = "Manage > Add a Player or SUB";
-    "<SettingsNoBoostLink>" = "Manage > Add a BOOST or BRIDGE";
-    "<SettingsNoAvailable_1>" = "No %1$@ Available";
-    "<SettingsComponentRoom>" = "Room";
+    "<SettingsNoDevice_2>" = "Nel sistema Sonos non sono attualmente presenti %1$@.\n\nPer aggiungere %1$@, selezionare %2$@\ndalla barra dei menu.";
+    "<SettingsNoPlayers_1>" = "Nel sistema Sonos non sono attualmente presenti lettori Sonos.\nÈ necessario avere almeno un lettore Sonos per riprodurre la musica.\n\nPer aggiungere un lettore Sonos, seleziona %1$@ dalla barra dei menu.";
+    "<SettingsNoPlayerLink>" = "Gestisci > Aggiungi un lettore o un SUB";
+    "<SettingsNoBoostLink>" = "Gestisci > Aggiungi un BOOST o BRIDGE";
+    "<SettingsNoAvailable_1>" = "Non sono disponibili %1$@";
+    "<SettingsComponentRoom>" = "Stanza";
     "<SettingsComponentDock>" = "DOCK";
     "<SettingsComponentBoost>" = "BOOST";
-    "<SettingsEqBass>" = "Bass";
-    "<SettingsEqTreble>" = "Treble";
+    "<SettingsEqBass>" = "Bassi";
+    "<SettingsEqTreble>" = "Alti";
     "<SettingsEqBalance>" = "Balance";
     "<SettingsEqPlus>" = "+";
     "<SettingsEqMinus>" = "-";
-    "<SettingsEqLeft>" = "L";
-    "<SettingsEqRight>" = "R";
+    "<SettingsEqLeft>" = "S";
+    "<SettingsEqRight>" = "D";
     "<SettingsEqMin>" = "Min";
     "<SettingsEqMax>" = "Max";
     "<SettingsEqLoudness>" = "Loudness";
-    "<SettingsEqReset>" = "Reset";
-    "<SettingsEqFixed>" = "Equalization settings are not available while a Sonos player’s Line-Out level is set to Fixed.\n\nChange the Line-Out level setting on the Basic tab to enable the EQ controls.";
-    "<SettingsAdvSettings>" = "Advanced Settings";
-    "<SettingsGeneral>" = "General";
-    "<SettingsUsage>" = "Improve Sonos";
-    "<SettingsServers>" = "Music Sources";
-    "<SettingsDateTime>" = "Date and Time Settings";
-    "<SettingsMusicLibrary>" = "Music Library Settings";
-    "<SettingsMusicService>" = "Service Settings";
-    "<SettingsServiceTitle>" = "My Service Accounts on Sonos";
-    "<SettingsServiceAnonymous>" = "<Anonymous>";
-    "<SettingsServiceLabs>" = "Visit Sonos Labs";
-    "<SettingsServiceAddTooltip>" = "Add a new service to your Sonos system";
-    "<SettingsServiceRemoveTooltip>" = "Remove the highlighted service";
-    "<SettingsServiceEditTooltip>" = "Edit the highlighted service";
-    "<SettingsServiceLabsTooltip>" = "Visit Sonos Labs to try out upcoming services on your Sonos system";
-    "<SettingsParentalControlsTitle>" = "Parental Controls";
-    "<SettingsExplicitFilteringEnabledText>" = "Explicit content filtering is enabled. Click the button below to allow explicit content to play on your Sonos system.\n\nNot all services support content filtering.";
-    "<SettingsExplicitFilteringDisabledText>" = "Explicit content filtering is disabled. Click the button below to prevent explicit content from playing on your Sonos system.\n\nNot all services support content filtering.";
-    "<SettingsExplicitFilteringEnableButtonTitle>" = "Turn Explicit Filtering On";
-    "<SettingsExplicitFilteringDisableButtonTitle>" = "Turn Explicit Filtering Off";
-    "<SettingsExplicitFilteringNoServices>" = "There are no music services on your Sonos system that support content filtering.";
-    "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "More Information";
+    "<SettingsEqReset>" = "Reimposta";
+    "<SettingsEqFixed>" = "Le impostazioni di equalizzazione non sono disponibili mentre il livello Line-Out di un lettore Sonos è impostato su Fisso.\n\nModifica l’impostazione del livello Line-Out sulla scheda Base per abilitare i controlli EQ.";
+    "<SettingsAdvSettings>" = "Impostazioni avanzate";
+    "<SettingsGeneral>" = "Generale";
+    "<SettingsUsage>" = "Migliora Sonos";
+    "<SettingsServers>" = "Sorgenti musicali";
+    "<SettingsDateTime>" = "Impostazioni data e ora";
+    "<SettingsMusicLibrary>" = "Impostazioni Libreria musicale";
+    "<SettingsMusicService>" = "Impostazioni servizio";
+    "<SettingsServiceTitle>" = "I miei account servizi su Sonos";
+    "<SettingsServiceAnonymous>" = "<Anonimo>";
+    "<SettingsServiceLabs>" = "Visita Sonos Labs";
+    "<SettingsServiceAddTooltip>" = "Aggiunge un nuovo servizio al sistema Sonos";
+    "<SettingsServiceRemoveTooltip>" = "Rimuove il servizio evidenziato";
+    "<SettingsServiceEditTooltip>" = "Modifica il servizio evidenziato";
+    "<SettingsServiceLabsTooltip>" = "Visita Sonos Labs per provare i futuri servizi sul tuo sistema Sonos";
+    "<SettingsParentalControlsTitle>" = "Controllo genitori";
+    "<SettingsExplicitFilteringEnabledText>" = "Filtro contenuti espliciti abilitato. Per consentire la riproduzione di contenuti espliciti sul sistema Sonos, fare clic sul pulsante sotto.\n\nNon tutti i servizi supportano il filtro dei contenuti.";
+    "<SettingsExplicitFilteringDisabledText>" = "Filtro contenuti espliciti disabilitato. Per impedire la riproduzione di contenuti espliciti sul sistema Sonos, fare clic sul pulsante sotto.\n\nNon tutti i servizi supportano il filtro dei contenuti.";
+    "<SettingsExplicitFilteringEnableButtonTitle>" = "Attiva filtro contenuti espliciti";
+    "<SettingsExplicitFilteringDisableButtonTitle>" = "Disattiva filtro contenuti espliciti";
+    "<SettingsExplicitFilteringNoServices>" = "Sul sistema Sonos non sono presenti servizi musicali che supportano il filtro dei contenuti.";
+    "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Ulteriori informazioni";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB On";
-    "<SettingsSubEqLevelAdjustment>" = "SUB Level";
-    "<SettingsSubEqPlacementAdjustment>" = "Placement Adjustment";
-    "<SettingsSubEqSpeakerSize>" = "Speaker Size (Crossover)";
-    "<SettingsTVDialogDelay>" = "Audio Delay (Lip Sync)";
-    "<SettingsSurroundEnabled>" = "Surrounds On";
-    "<SettingsSurroundLevel>" = "TV Level";
-    "<SettingsMusicSurroundLevel>" = "Music Level";
-    "<SettingsFolders>" = "Folders";
-    "<SettingsAdvanced>" = "Advanced";
-    "<SettingsLibraryAddTooltip>" = "Add a new folder to your Sonos system";
-    "<SettingsLibraryRemoveTooltip>" = "Remove the highlighted folder";
-    "<SettingsDeviceTitle_1>" = "%1$@ Settings for";
-    "<SettingsFor>" = "Settings for";
-    "<SettingsMusicPlayback>" = "Music Playback";
-    "<SettingsAmbient>" = "Ambient";
-    "<SettingsFull>" = "Full";
-    "<SettingsMusicPlaybackDescription>" = "During music playback, the surround speakers can supplement with subtle, ambient sound or louder, full range sound.";
+    "<SettingsSubEqEnabled>" = "SUB attivo";
+    "<SettingsSubEqLevelAdjustment>" = "Livello SUB";
+    "<SettingsSubEqPlacementAdjustment>" = "Regolazione posizionamento";
+    "<SettingsSubEqSpeakerSize>" = "Dimensioni diffusore (Crossover)";
+    "<SettingsTVDialogDelay>" = "Ritardo audio (Lip Sync)";
+    "<SettingsSurroundEnabled>" = "Surround On";
+    "<SettingsSurroundLevel>" = "Livello TV";
+    "<SettingsMusicSurroundLevel>" = "Livello musica";
+    "<SettingsFolders>" = "Cartelle";
+    "<SettingsAdvanced>" = "Avanzata";
+    "<SettingsLibraryAddTooltip>" = "Aggiunge una nuova cartella al sistema Sonos";
+    "<SettingsLibraryRemoveTooltip>" = "Rimuove la cartella evidenziata";
+    "<SettingsDeviceTitle_1>" = "Impostazioni %1$@ per";
+    "<SettingsFor>" = "Impostazioni per";
+    "<SettingsMusicPlayback>" = "Riproduzione musicale";
+    "<SettingsAmbient>" = "Ambiente";
+    "<SettingsFull>" = "Tutto volume";
+    "<SettingsMusicPlaybackDescription>" = "Durante la riproduzione musicale, i diffusori surround possono fornire un leggero suono d'ambiente, oppure un suono più forte, a tutto volume.";
     "<SettingsSurroundBalanceLabel>" = "Balance";
-    "<SettingsSurroundBalanceButtonLabel>" = "Balance Surround Speakers";
-    "<SettingsSurroundBalanceDescription>" = "Manually balance your surround levels when Trueplay tuning is turned off.";
+    "<SettingsSurroundBalanceButtonLabel>" = "Bilancia diffusori surround";
+    "<SettingsSurroundBalanceDescription>" = "Bilanciamento manuale dei surround quando Trueplay è disattivata.";
 
 
 /* Transport Bar */
-    "<TransportOnState_1>" = "%1$@ is on";
-    "<TransportOffState_1>" = "%1$@ is off";
-    "<TransportMusicEq>" = "Music EQ";
+    "<TransportOnState_1>" = "%1$@ è on";
+    "<TransportOffState_1>" = "%1$@ è off";
+    "<TransportMusicEq>" = "EQ musica";
 
 
 /* Volume */
 
-    "<VolumeAdjustRoomVolumes>" = "Adjust Room Volumes";
-    "<VolumeFixedVolume>" = "Fixed Volume";
-    "<VolumeGroupVolume>" = "Group Volume";
+    "<VolumeAdjustRoomVolumes>" = "Regola volumi stanze";
+    "<VolumeFixedVolume>" = "Volume fisso";
+    "<VolumeGroupVolume>" = "Volume gruppo";
 
 
 /* Zone/Rooms Grouping */
 
-    "<ZoneGroupingWindowTitle>" = "Group Rooms";
-    "<ZoneGroupingNoZonesSelected>" = "No Rooms Selected";
-    "<ZoneGroupingUnselectAllDevices>" = "Unselect All";
-    "<ZoneGroupingSelectAllDevices>" = "Select All - Party Mode";
-    "<ZoneGroupingSelectZonesToGroup>" = "Select rooms to group:";
-    "<ZoneGroupingSelectedZonesWillPlay>" = "Selected rooms will play:";
-    "<MultiMusicMessage>" = "Click Done to choose music";
-    "<MusicGroupingInstructions>" = "Choose music to play in selected rooms";
+    "<ZoneGroupingWindowTitle>" = "Raggruppa stanze";
+    "<ZoneGroupingNoZonesSelected>" = "Nessuna stanza selezionata";
+    "<ZoneGroupingUnselectAllDevices>" = "Deseleziona tutto";
+    "<ZoneGroupingSelectAllDevices>" = "Seleziona tutto - modalità Party";
+    "<ZoneGroupingSelectZonesToGroup>" = "Seleziona stanze da raggruppare:";
+    "<ZoneGroupingSelectedZonesWillPlay>" = "Le stanze selezionate riprodurranno:";
+    "<MultiMusicMessage>" = "Fai clic su Fatto per scegliere la musica";
+    "<MusicGroupingInstructions>" = "Scegli la musica da riprodurre nelle stanze selezionate";
 
 /* Zone/Rooms Panel */
 
-    "<ZoneMenuHeaderTitle>" = "ROOMS";
-    "<ZoneMenuGroupZones>" = "Group";
-    "<ZoneMenuShowLess>" = "Show Less…";
+    "<ZoneMenuHeaderTitle>" = "STANZE";
+    "<ZoneMenuGroupZones>" = "Gruppo";
+    "<ZoneMenuShowLess>" = "Mostra meno…";
 // %1$d, Number of extra (non-visible devices)
-    "<ZoneMenuShowMore_1>" = "Show %1$d More…";
-    "<ZoneMenuPauseAll>" = "Pause All";
-    "<ZoneMenuPlayGroup>" = "Play Group";
+    "<ZoneMenuShowMore_1>" = "Mostra %1$d in più…";
+    "<ZoneMenuPauseAll>" = "Tutto in Pausa";
+    "<ZoneMenuPlayGroup>" = "Riproduci Gruppo";
 // %1$@, Sonos device name.
-    "<ZoneMenuPlay_1>" = "Play %1$@";
-    "<ZoneMenuPauseGroup>" = "Pause Group";
+    "<ZoneMenuPlay_1>" = "Riproduci %1$@";
+    "<ZoneMenuPauseGroup>" = "Metti in Pausa Gruppo";
 // %1$@, Sonos device name.
-    "<ZoneMenuPause_1>" = "Pause %1$@";
-    "<ZoneMenuStopGroup>" = "Stop Group";
+    "<ZoneMenuPause_1>" = "Metti in Pausa %1$@";
+    "<ZoneMenuStopGroup>" = "Stop Gruppo";
 // %1$@, Sonos device name.
     "<ZoneMenuStop_1>" = "Stop %1$@";
 // %1$@, Sonos device name.
-    "<ZoneMenuMuteDevice_1>" = "Mute %1$@";
+    "<ZoneMenuMuteDevice_1>" = "Attiva Mute %1$@";
 // %1$@, Sonos device name.
-    "<ZoneMenuUnmuteDevice_1>" = "Unmute %1$@";
-    "<ZoneMenuMuteGroup>" = "Mute Group";
-    "<ZoneMenuUnmuteGroup>" = "Unmute Group";
+    "<ZoneMenuUnmuteDevice_1>" = "Disattiva Mute %1$@";
+    "<ZoneMenuMuteGroup>" = "Mute (Gruppo)";
+    "<ZoneMenuUnmuteGroup>" = "Disattiva Mute (Gruppo)";
 // %1$@, Sonos device name.
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
-    "<ZoneMenuSettings_1>" = "%1$@ Settings…";
-    "<ZoneMenuSelectToUpdate>" = "Select to Update…";
-    "<ZoneMenuSelectToConfigure>" = "Set up this speaker";
-    "<ZoneMenuSelectToRegister>" = "Register this speaker";
-    "<ZoneMenuConfirmPauseAll>" = "Are you sure you want to pause the music playing in all rooms?";
-    "<ZoneMenuPauseButton>" = "Pause";
+    "<ZoneMenuSettings_1>" = "Impostazioni %1$@…";
+    "<ZoneMenuSelectToUpdate>" = "Seleziona per aggiornare…";
+    "<ZoneMenuSelectToSetUpDevice_1>" = "Selezionare per impostare %1$s";
+    "<ZoneMenuConfirmPauseAll>" = "Mettere in pausa la musica in tutte queste stanze?";
+    "<ZoneMenuPauseButton>" = "Pausa";
 
 
 
@@ -404,238 +403,238 @@
     "<MainWindowTitle>" = "Sonos";
 
     "<MenuTitle_Sonos>" = "Sonos";
-    "<MenuTitle_AboutSonos>" = "About My Sonos System";
-    "<MenuTitle_Preferences>" = "Preferences…";
-    "<MenuTitle_CheckForUpdates>" = "Check for Updates…";
-    "<MenuTitle_Uninstall>" = "Uninstall…";
-    "<MenuTitle_Services>" = "Services";
-    "<MenuTitle_HideSonos>" = "Hide Sonos";
-    "<MenuTitle_HideOthers>" = "Hide Others";
-    "<MenuTitle_ShowAll>" = "Show All";
-    "<MenuTitle_Quit>" = "Quit Sonos";
+    "<MenuTitle_AboutSonos>" = "Info sul sistema Sonos";
+    "<MenuTitle_Preferences>" = "Preferenze…";
+    "<MenuTitle_CheckForUpdates>" = "Ricerca Aggiornamenti…";
+    "<MenuTitle_Uninstall>" = "Disinstalla…";
+    "<MenuTitle_Services>" = "Servizi";
+    "<MenuTitle_HideSonos>" = "Nascondi Sonos";
+    "<MenuTitle_HideOthers>" = "Nascondi Altri";
+    "<MenuTitle_ShowAll>" = "Mostra Tutto";
+    "<MenuTitle_Quit>" = "Esci da Sonos";
 
-    "<MenuTitle_Edit>" = "Edit";
-    "<MenuTitle_Cut>" = "Cut";
-    "<MenuTitle_Copy>" = "Copy";
-    "<MenuTitle_Paste>" = "Paste";
-    "<MenuTitle_Delete>" = "Delete";
-    "<MenuTitle_SelectAll>" = "Select All";
-    "<MenuTitle_Search>" = "Search";
+    "<MenuTitle_Edit>" = "Modifica";
+    "<MenuTitle_Cut>" = "Taglia";
+    "<MenuTitle_Copy>" = "Copia";
+    "<MenuTitle_Paste>" = "Incolla";
+    "<MenuTitle_Delete>" = "Elimina";
+    "<MenuTitle_SelectAll>" = "Seleziona tutto";
+    "<MenuTitle_Search>" = "Ricerca";
 
-    "<MenuTitle_View>" = "View";
+    "<MenuTitle_View>" = "Visualizza";
 
-    "<MenuTitle_Manage>" = "Manage";
-    "<MenuTitle_AddPlayerOrSub>" = "Add a Player or SUB…";
-    "<MenuTitle_AddBoost>" = "Add a BOOST or BRIDGE…";
-    "<MenuTitle_MusicLibrarySettings>" = "Music Library Settings…";
-    "<MenuTitle_ServiceSettings>" = "Service Settings…";
-    "<MenuTitle_AddRadioStation>" = "Add Radio Station…";
-    "<MenuTitle_UpdateMusicLibraryNow>" = "Update Music Library Now";
-    "<MenuTitle_UpdatePlaylistsNow>" = "Update iTunes Playlists Now";
-    "<MenuTitle_UpdateAlbumArtNow>" = "Update Album Art Now";
+    "<MenuTitle_Manage>" = "Gestisci";
+    "<MenuTitle_AddPlayerOrSub>" = "Aggiungi un lettore o un SUB…";
+    "<MenuTitle_AddBoost>" = "Aggiungi un BOOST o BRIDGE…";
+    "<MenuTitle_MusicLibrarySettings>" = "Impostazioni Libreria musicale…";
+    "<MenuTitle_ServiceSettings>" = "Impostazioni servizio…";
+    "<MenuTitle_AddRadioStation>" = "Aggiungi Stazione Radio…";
+    "<MenuTitle_UpdateMusicLibraryNow>" = "Aggiorna libreria musicale ora";
+    "<MenuTitle_UpdatePlaylistsNow>" = "Aggiorna playlist iTunes ora";
+    "<MenuTitle_UpdateAlbumArtNow>" = "Aggiorna copertine ora";
 
-    "<MenuTitle_Window>" = "Window";
-    "<MenuTitle_Close>" = "Close";
-    "<MenuTitle_Minimize>" = "Minimize";
-    "<MenuTitle_Zoom>" = "Zoom";
+    "<MenuTitle_Window>" = "Finestra";
+    "<MenuTitle_Close>" = "Chiudi";
+    "<MenuTitle_Minimize>" = "Riduci a icona";
+    "<MenuTitle_Zoom>" = "Ingrandisci";
     "<MenuTitle_MainWindowName>" = "Sonos Controller";
     "<MenuTitle_MiniWindowName>" = "Mini Controller";
-    "<MenuTitle_BringAllToFront>" = "Bring All to Front";
+    "<MenuTitle_BringAllToFront>" = "Porta tutto in primo piano";
 
-    "<MenuTitle_Account>" = "My Sonos Account";
-    "<MenuTitle_Help>" = "Help";
-    "<MenuTitle_Shop>" = "Shop for Sonos Products";
-    "<MenuTitle_KeyboardShortcuts>" = "Keyboard Shortcuts";
-    "<MenuTitle_SonosSystemHelp>" = "Sonos System Help";
-    "<MenuTitle_FirewallHelp>" = "Help Configuring Firewall";
-    "<MenuTitle_TechSupportWebsite>" = "Technical Support Website";
-    "<MenuTitle_ErrorLog>" = "Error Log";
-    "<MenuTitle_BetaFeedback>" = "Submit Beta Feedback";
-    "<MenuTitle_SubmitDiagnostics>" = "Submit Diagnostics";
-    "<MenuTitle_Reset>" = "Reset Controller";
-    "<MenuTitle_ForgetHousehold>" = "Forget Current Sonos System";
+    "<MenuTitle_Account>" = "Il mio account Sonos";
+    "<MenuTitle_Help>" = "Aiuto";
+    "<MenuTitle_Shop>" = "Acquista prodotti Sonos";
+    "<MenuTitle_KeyboardShortcuts>" = "Tasti di scelta rapida";
+    "<MenuTitle_SonosSystemHelp>" = "Aiuto del Sistema Sonos";
+    "<MenuTitle_FirewallHelp>" = "Aiuto alla Configurazione Firewall";
+    "<MenuTitle_TechSupportWebsite>" = "Sito web Supporto Tecnico";
+    "<MenuTitle_ErrorLog>" = "Registro errori";
+    "<MenuTitle_BetaFeedback>" = "Invia feedback su beta";
+    "<MenuTitle_SubmitDiagnostics>" = "Invia diagnostica";
+    "<MenuTitle_Reset>" = "Reimpostazione Controller";
+    "<MenuTitle_ForgetHousehold>" = "Dimentica attuale sistema Sonos";
 
-    "<MenuTitle_CopyLinkAddress>" = "Copy Link";
+    "<MenuTitle_CopyLinkAddress>" = "Copia collegamento";
 
 /* SMNowPlayingFSViewController.xib */
 
-    "<BackButton>" = "Back";
+    "<BackButton>" = "Indietro";
 
 
 /****************************************************************/
 /* Music Library/Share Setup Wizard                             */
 /****************************************************************/
 
-    "<Browse>" = "Browse";
-    "<Username>" = "Username:";
+    "<Browse>" = "Sfoglia";
+    "<Username>" = "Nome utente:";
     "<Password>" = "Password:";
-    "<Remove>" = "Remove";
+    "<Remove>" = "Rimuovi";
 
-    "<Music_Folder>" = "Folder";
-    "<Music_Path>" = "Path";
+    "<Music_Folder>" = "Cartella";
+    "<Music_Path>" = "Percorso";
 
 /* Open Panel (runs from the Browse… button) */
 /* title of the Open Panel */
-    "<OpenPanelTitle>" = "Add Music Folder";
+    "<OpenPanelTitle>" = "Aggiungi Cartella Musica";
 /* title for the OK button */
-    "<OpenPanelButton>" = "Choose";
+    "<OpenPanelButton>" = "Scegli";
 
 /* message to show in the Open Panel (may not appear in running app yet) */
-    "<OpenPanelText>" = "Choose a folder containing music";
+    "<OpenPanelText>" = "Scegli una cartella che contiene musica";
 
-    "<Service_Name>" = "Service Name";
-    "<Service_Login>" = "Account Login";
-    "<Service_Nickname>" = "Name";
+    "<Service_Name>" = "Nome servizio";
+    "<Service_Login>" = "Accesso account";
+    "<Service_Nickname>" = "Nome";
 
-    "<Shares_Indexing>" = "Updating Music Library…\nPlease wait.";
+    "<Shares_Indexing>" = "Aggiornamento della Libreria musicale…\nAttendere.";
 
-    "<ShareWizard_MusicStart_Title>" = "Music library setup";
-    "<ShareWizard_MusicStart_Body1>" = "The Setup Assistant will now help you add your music to the Music Library of your Sonos system.";
-    "<ShareWizard_MusicStart_Body2>" = "You can add music from folders on this computer, or folders on your network (such as on an Apple Time Capsule or NAS drive) that are already configured for sharing.";
-    "<ShareWizard_MusicStart_Yes_Option>" = "Set up my music";
-    "<ShareWizard_MusicStart_No_Option>" = "Not now";
+    "<ShareWizard_MusicStart_Title>" = "Impostazione Libreria musicale";
+    "<ShareWizard_MusicStart_Body1>" = "Il programma di installazione fornirà assistenza per aggiungere la musica alla Libreria musicale del sistema Sonos.";
+    "<ShareWizard_MusicStart_Body2>" = "È possibile aggiungere la musica dalle cartelle di questo computer o da cartelle di rete (ad esempio su Apple Time Capsule o un'unità NAS) già configurate per la condivisione.";
+    "<ShareWizard_MusicStart_Yes_Option>" = "Imposta la mia musica";
+    "<ShareWizard_MusicStart_No_Option>" = "Non ora";
 
-    "<ShareWizard_MusicSelect_Title>" = "Add music folder";
-    "<ShareWizard_MusicSelect_Body1>" = "Where is the music you'd like to play on Sonos?";
-    "<ShareWizard_MusicSelect_Input1>" = "My Music folder";
-    "<ShareWizard_MusicSelect_Input2>" = "Another folder or a drive connected to my computer";
-    "<ShareWizard_MusicSelect_Input3>" = "Networked device (ex. NAS drive)";
+    "<ShareWizard_MusicSelect_Title>" = "Aggiungi Cartella Musica";
+    "<ShareWizard_MusicSelect_Body1>" = "Dov’é la musica che desideri riprodurre con Sonos?";
+    "<ShareWizard_MusicSelect_Input1>" = "Cartella Musica";
+    "<ShareWizard_MusicSelect_Input2>" = "Un'altra cartella o unità connessa al mio computer";
+    "<ShareWizard_MusicSelect_Input3>" = "Dispositivo di rete (p.es. unità NAS)";
 
-    "<ShareWizard_MusicSelect_NAS_Title>" = "Add music from your networked share";
-    "<ShareWizard_MusicSelect_NAS_Body1>" = "Type the path to your networked share:";
-    "<ShareWizard_MusicSelect_NAS_Body2>" = "Examples:\n\\\\MyOtherComputer\\Shared\\Music\n\\\\MyNetworkedStorage\\Shared\\Music";
-    "<ShareWizard_MusicSelect_External_Title>" = "Add music from your computer or external drive";
-    "<ShareWizard_MusicSelect_External_Body1>" = "Click browse to choose a folder that contains music:";
+    "<ShareWizard_MusicSelect_NAS_Title>" = "Aggiungi musica dalla condivisione in rete";
+    "<ShareWizard_MusicSelect_NAS_Body1>" = "Digita il percorso alla condivisione in rete:";
+    "<ShareWizard_MusicSelect_NAS_Body2>" = "Esempi:\n\\\\MioAltroComputer\\Condivisa\\Musica\n\\\\MioArchiviodiRete\\Condivisa\\Musica";
+    "<ShareWizard_MusicSelect_External_Title>" = "Aggiungi musica dal computer o da un'unità esterna";
+    "<ShareWizard_MusicSelect_External_Body1>" = "Fai clic su Sfoglia per scegliere una cartella contenente musica:";
 
-    "<ShareWizard_AdjustSharing_Title>" = "Adjust file sharing settings";
-    "<ShareWizard_AdjustSharing_Body1>" = "In order for your Sonos system to play music from this computer, file sharing settings need to be adjusted.";
+    "<ShareWizard_AdjustSharing_Title>" = "Regola impostazioni di condivisione documenti";
+    "<ShareWizard_AdjustSharing_Body1>" = "Per poter riprodurre la musica con il sistema Sonos da questo computer, è necessario regolare le impostazioni di condivisione dei documenti.";
 
-    "<ShareWizard_AdminPassword_Body2>" = "To do this, you first need to enter the administrator’s name and password for this computer.";
-    "<ShareWizard_AdminPassword_Button>" = "Click the lock to enter the administrator's information.";
-    "<ShareWizard_AdminPassword_Button_Alt>" = "Authenticating…";
-    "<ShareWizard_AdminPassword_PasswordPrompt>" = "Please enter the administrator’s name and password for this computer:";
+    "<ShareWizard_AdminPassword_Body2>" = "A tale scopo, devi prima immettere il nome e la password dell'amministratore di questo computer.";
+    "<ShareWizard_AdminPassword_Button>" = "Fai clic sul lucchetto per inserire i dati dell’amministratore.";
+    "<ShareWizard_AdminPassword_Button_Alt>" = "Autenticazione in corso…";
+    "<ShareWizard_AdminPassword_PasswordPrompt>" = "Immettere il nome e la password dell'amministratore di questo computer:";
 
-    "<ShareWizard_SleepSetAsk_Title>" = "Adjust Energy Saver settings";
-    "<ShareWizard_SleepSetAsk_Body1>" = "In order for your Sonos system to play music from this computer without interruption, energy saver settings on your computer need to be adjusted.";
-    "<ShareWizard_SleepSetAsk_Body2>" = "Without these changes, music on this computer may not always play on your Sonos system.";
-    "<ShareWizard_SleepSetAsk_Input>" = "Adjust settings";
-    "<ShareWizard_SleepSetAsk_Not_Now>" = "Not now";
+    "<ShareWizard_SleepSetAsk_Title>" = "Regola impostazioni di risparmio energetico";
+    "<ShareWizard_SleepSetAsk_Body1>" = "Per poter riprodurre la musica con il sistema Sonos da questo computer senza interruzioni, è necessario regolare le impostazioni di risparmio energetico.";
+    "<ShareWizard_SleepSetAsk_Body2>" = "Senza queste modifiche, potrebbero verificarsi interruzioni nella riproduzione della musica di questo computer nel sistema Sonos.";
+    "<ShareWizard_SleepSetAsk_Input>" = "Regola impostazioni";
+    "<ShareWizard_SleepSetAsk_Not_Now>" = "Non ora";
 
-    "<ShareWizard_NasPassword_Title>" = "Username and password";
-    "<ShareWizard_NasPassword_Body1>" = "Please enter the username and password for the network drive containing your music:";
+    "<ShareWizard_NasPassword_Title>" = "Nome utente e password";
+    "<ShareWizard_NasPassword_Body1>" = "Immettere nome utente e password per l'unità di rete che contiene la musica:";
 
-    "<ShareWizard_Adding_Body1>" = "Adding share information to Sonos system.";
+    "<ShareWizard_Adding_Body1>" = "Aggiunta di informazioni di condivisione al sistema Sonos.";
 
-    "<ShareWizard_MusicList_Title>" = "My music folders on Sonos";
+    "<ShareWizard_MusicList_Title>" = "Le mie cartelle di musica su Sonos";
 
-    "<ShareWizard_RemoveCheck_Body1>" = "Do you really want to remove the selected folder?";
+    "<ShareWizard_RemoveCheck_Body1>" = "Rimuovere la cartella selezionata?";
 
-    "<ShareWizardErrorTitle>" = "Sonos was unable to add the music folder";
+    "<ShareWizardErrorTitle>" = "Non è stato possibile aggiungere la cartella di musica.";
 
-    "<ShareWizard_SleepSet_Title>" = "Adjust sleep settings";
-    "<ShareWizard_SleepSet_Body1>" = "Sonos was not able to adjust your computer’s sleep settings. To ensure uninterrupted play of music stored on your computer, please do the following:";
-    "<ShareWizard_SleepSet_Steps>" = "1. Click the Energy Saver icon in \"System Preferences\" from the Apple menu\n2. Set the Computer sleep slider to \"Never\"\n3. Close the System Preferences window\n4. Click the \"Next\" button below to continue.";
+    "<ShareWizard_SleepSet_Title>" = "Regola impostazioni di sospensione";
+    "<ShareWizard_SleepSet_Body1>" = "Sonos non ha potuto regolare le impostazioni di sospensione del computer. Per garantire la riproduzione senza interruzione della musica memorizzata nel computer eseguire la seguente procedura:";
+    "<ShareWizard_SleepSet_Steps>" = "1. Fai clic sull'icona Risparmio Energia in \"Preferenze di Sistema\" dal menu Apple\n2. Imposta il cursore di inattività del computer su \"Mai\"\n3. Chiudi la finestra \"Preferenze di sistema\"\n4. Fai clic sul pulsante \"Avanti\", sotto, per continuare";
 
-    "<ShareWizard_SystemPrefs_Title>" = "System preferences open";
-    "<ShareWizard_SystemPrefs_Message>" = "Please close the System Preferences window so that your computer’s sleep settings can be changed";
-    "<ShareWizard_InvalidPath_Empty>" = "The path is empty.";
-    "<ShareWizard_InvalidPath_NotAllowed>" = "The path is not allowed.";
-    "<ShareWizard_InvalidPath_NotExist>" = "The path does not exist.";
-    "<ShareWizard_InvalidPath_NotDirectory>" = "The path is not a folder.";
-    "<ShareWizard_InvalidPath_TooManyNotes>" = "The path contains too many files.";
-    "<ShareWizard_InvalidPath_Message>" = "Please type a valid path for your music share.";
-    "<ShareWizard_NotLocalPath_Title>" = "Network path selected";
-    "<ShareWizard_NotLocalPath_Message>" = "You cannot select a folder on the network to be shared.\n\nPlease select a folder that is on this computer, or on an external hard drive connected to this computer.\n\nTo select a folder that is shared on your network, click Back and choose \"On a networked device…\".";
-    "<ShareWizard_NotLocalPathBrowse_Message>" = "You cannot select a folder on the network to be shared.\n\nPlease select a folder that is on this computer, or on an external hard drive connected to this computer.\n\nTo select a folder that is shared on your network, click Cancel on the file browser, then click Back and choose \"On a networked device…\".";
+    "<ShareWizard_SystemPrefs_Title>" = "Preferenze di Sistema aperte";
+    "<ShareWizard_SystemPrefs_Message>" = "Chiudere la finestra Preferenze di Sistema in modo che sia possibile modificare le impostazioni di inattività del computer";
+    "<ShareWizard_InvalidPath_Empty>" = "Il percorso è vuoto.";
+    "<ShareWizard_InvalidPath_NotAllowed>" = "Il percorso non è consentito.";
+    "<ShareWizard_InvalidPath_NotExist>" = "Il percorso non esiste.";
+    "<ShareWizard_InvalidPath_NotDirectory>" = "Il percorso non è a una cartella.";
+    "<ShareWizard_InvalidPath_TooManyNotes>" = "Il percorso contiene troppi file.";
+    "<ShareWizard_InvalidPath_Message>" = "Digita un percorso valido per la condivisione di musica.";
+    "<ShareWizard_NotLocalPath_Title>" = "Percorso di rete selezionato";
+    "<ShareWizard_NotLocalPath_Message>" = "È impossibile selezionare una cartella nella rete per condividerla.\n\nSeleziona un cartella in questo computer o un’unità disco esterna connessa a questo computer.\n\nPer selezionare una cartella che è condivisa in rete, fai clic su Indietro e scegli \"In un dispositivo di rete…\".";
+    "<ShareWizard_NotLocalPathBrowse_Message>" = "È impossibile selezionare una cartella nella rete per condividerla.\n\nSeleziona un cartella in questo computer o un’unità disco esterna connessa a questo computer.\n\nPer selezionare una cartella che è condivisa in rete, fai clic su Annulla dove si selezionano i file, quindi su Indietro e scegli \"In un dispositivo di rete…\".";
 
-    "<ShareWizard_Complete_Title>" = "Music library setup";
+    "<ShareWizard_Complete_Title>" = "Impostazione Libreria musicale";
 // %1$@, Label of the button on the wizard to continue with.
-    "<ShareWizard_Complete_Body1_Fmt_1>" = "\"%1$@\" is now set up on your Sonos system.";
-    "<ShareWizard_Complete_Body2>" = "Your music is now being added to your Sonos system. This may take several minutes to complete.";
+    "<ShareWizard_Complete_Body1_Fmt_1>" = "\"%1$@\" ora è configurato sul sistema Sonos.";
+    "<ShareWizard_Complete_Body2>" = "La tua musica è aggiunta al sistema Sonos. Il completamento dell'operazione potrebbe richiedere alcuni minuti.";
 
-    "<ShareWizard_SleepSettingsError_Title>" = "Sleep settings changes have not been made.";
-    "<ShareWizard_SleepSettingsError_Body>" = "Without these changes your music on this computer may not always play on your Sonos system.\n\nAre you sure you want to continue without making these changes?";
+    "<ShareWizard_SleepSettingsError_Title>" = "Le modifiche delle impostazioni Inattività non sono state apportate.";
+    "<ShareWizard_SleepSettingsError_Body>" = "Senza queste modifiche, potrebbero verificarsi interruzioni nella riproduzione della musica di questo computer nel sistema Sonos.\n\nContinuare senza apportare queste modifiche?";
 
     "<Wizard_TextFieldLabel_Fmt_1>" = "%1$@:";
 
 /* Errors that can happen during share Adding */
-    "<NoLocalPathsCanBeAdded>" = "No paths could be added as a share.";
+    "<NoLocalPathsCanBeAdded>" = "Non è stato possibile aggiungere percorsi come condivisione.";
 
-    "<ShareWizard_ShareFailedTitle>" = "Shared folder not added";
-    "<ShareWizard_LionVolumeFormatError>" = "The shared folder on this drive can't be added, because it is formatted using an unsupported file system.\n\nIn this version of OS X, Sonos can only share folders on external drives formatted using the HFS+ file system.";
-    "<ShareWizard_FirewallConnectionBlocked>" = "Connection is blocked by your computer’s firewall options.";
+    "<ShareWizard_ShareFailedTitle>" = "Cartella condivisa non aggiunta";
+    "<ShareWizard_LionVolumeFormatError>" = "La cartella condivisa su questa unità non può essere aggiunta perché è formattata con un file system non supportato.\n\nIn questa versione di OS X, Sonos può solo condividere cartelle su unità esterne formattate con il file system HFS+.";
+    "<ShareWizard_FirewallConnectionBlocked>" = "La connessione è bloccata dalle opzioni del firewall del computer.";
 
-    "<ControllerUpdateWizard_Title>" = "Update progress";
-    "<ControllerUpdateWizard_ErrorTitle>" = "Update failed";
-    "<ControllerUpdateWizard_Downloading>" = "Updating controller: downloading";
-    "<ControllerUpdateWizard_Installing>" = "Updating controller: installing";
+    "<ControllerUpdateWizard_Title>" = "Avanzamento aggiornamento";
+    "<ControllerUpdateWizard_ErrorTitle>" = "Aggiornamento non riuscito";
+    "<ControllerUpdateWizard_Downloading>" = "Aggiornamento Controller: Download in corso…";
+    "<ControllerUpdateWizard_Installing>" = "Aggiornamento Controller: Installazione";
 
-    "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "The Sonos controller installer failed to download.\n\nError code %1$ld";
-    "<ControllerUpdateWizard_InstallFailed_Message>" = "The Sonos controller update failed.\n\nAn unexpected error occurred. Please try again.";
+    "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Il download del programma di installazione del controller Sonos non è riuscito.\n\nCodice errore %1$ld";
+    "<ControllerUpdateWizard_InstallFailed_Message>" = "Aggiornamento del controller Sonos non riuscito.\n\nSi è verificato un errore imprevisto. Riprovare.";
 
 
 /****************************************************************/
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "Configuring player";
-    "<AuthorizationWizard_Body>" = "To optimize setup, Sonos will establish a direct wireless connection between this computer and your new Sonos player. To allow this, please enter the administrator’s name and password for this computer.\n\nNOTE: If you don’t have this information, you will need to temporarily wire your player to your router to complete setup.";
-    "<AuthorizationWizard_Button>" = "I don't have this information";
+    "<AuthorizationWizard_Title>" = "Configurazione del lettore";
+    "<AuthorizationWizard_Body>" = "Per ottimizzare l'installazione, Sonos stabilirà una connessione wireless diretta tra questo computer e il nuovo lettore Sonos. Per consentire tale operazione, immettere il nome e la password dell'amministratore di questo computer.\n\nNOTA: se non si dispone di queste informazioni, sarà necessario collegare temporaneamente tramite cavo il lettore al router per completare l'installazione.";
+    "<AuthorizationWizard_Button>" = "Non ho queste informazioni";
 
 /****************************************************************/
 /* SELF_INSTALLER                                               */
 /****************************************************************/
 
 // Initial message
-    "<InstallerInstallSonosSubtitle>" = "Install Sonos";
-    "<InstallerInstallSonosBody>" = "Installing controller";
+    "<InstallerInstallSonosSubtitle>" = "Installa Sonos";
+    "<InstallerInstallSonosBody>" = "Installazione del Controller";
 // Uninstall message
-    "<InstallerUninstallSonosSubtitle>" = "Uninstall Sonos";
-    "<InstallerUninstallSonosBody>" = "Uninstalling controller";
+    "<InstallerUninstallSonosSubtitle>" = "Disinstalla Sonos";
+    "<InstallerUninstallSonosBody>" = "Disinstallazione del Controller";
 // %1$@, Application's directory name
-    "<InstallerInstallMessage_1>" = "Sonos will copy itself to the %1$@ folder (or another folder of your choice), and launch from that location.";
-    "<InstallerChooseLocationTitle>" = "Choose install location for Sonos";
+    "<InstallerInstallMessage_1>" = "Sonos si copierà nella cartella %1$@ (o in un’altra cartella a scelta)e si avvierà da quella posizione.";
+    "<InstallerChooseLocationTitle>" = "Scegli la posizione in cui installare Sonos";
 
 // Error message
-    "<InstallerNewerVersionSubtitle>" = "Newer version already installed";
+    "<InstallerNewerVersionSubtitle>" = "Versione più recente già installata";
 // %1$@, Sonos application directory
-    "<InstallerNewerVersionMessage_1>" = "You already have a newer version of the Sonos controller installed in %1$@.\n\nDo you want to replace it with this older version?";
-    "<InstallerSameVersionSubtitle>" = "Same version already installed";
+    "<InstallerNewerVersionMessage_1>" = "Una versione più recente del controller Sonos è già installata in %1$@.\n\nSostituirla con questa versione precedente?";
+    "<InstallerSameVersionSubtitle>" = "Stessa versione già installata";
 // %1$@, Sonos application directory 
-    "<InstallerSameVersionMessage_1>" = "You already have this version of the Sonos controller installed in %1$@.\n\nDo you want to install it anyway?";
-    "<InstallerBadPermissionSubtitle>" = "Not authorized to install Sonos";
+    "<InstallerSameVersionMessage_1>" = "Questa versione del controller Sonos è già installata in %1$@.\n\nInstallarla comunque?";
+    "<InstallerBadPermissionSubtitle>" = "Non sei autorizzato a installare Sonos";
 // %1$@, Sonos application directory
-    "<InstallerBadPermissionMessage_1>" = "The installation could not be completed because you are not authorized to install the Sonos controller in %1$@.\n\nPlease check your permissions or choose a different folder.";
-    "<InstallerUnexpectedErrorSubtitle>" = "Sonos update failed";
-    "<InstallerUnexpectedErrorMessage>" = "An unexpected error occurred. Please try again.";
-    "<UninstallerSubtitle>" = "Uninstall Sonos";
-    "<UninstallerMessage>" = "If you uninstall the Sonos controller, any music on this computer that has been shared with Sonos will no longer be accessible by your Sonos system.\n\nDo you want to continue and uninstall?";
+    "<InstallerBadPermissionMessage_1>" = "Non è stato possibile completare l’installazione perché l’utente non è autorizzato a installare il controller Sonos in %1$@.\n\nVerificare i permessi o scegliere un’altra cartella.";
+    "<InstallerUnexpectedErrorSubtitle>" = "Aggiornamento Sonos non riuscito";
+    "<InstallerUnexpectedErrorMessage>" = "Si è verificato un errore imprevisto. Riprova.";
+    "<UninstallerSubtitle>" = "Disinstalla Sonos";
+    "<UninstallerMessage>" = "Se si disinstalla il controller Sonos, qualsiasi musica in questo computer che è stata condivisa con Sonos non sarà più accessibile dal sistema Sonos.\n\nProcedere con la disinstallazione?";
 
 // Buttons
-    "<InstallerChooseFolderButton>" = "Choose folder…";
+    "<InstallerChooseFolderButton>" = "Scegli Cartella…";
 // %1$@, Application's directory name
-    "<InstallerCopyToApplicatonButton_1>" = "Copy to %1$@";
-    "<InstallerInstallButton>" = "Install";
-    "<InstallerReplaceButton>" = "Replace";
+    "<InstallerCopyToApplicatonButton_1>" = "Copia su %1$@";
+    "<InstallerInstallButton>" = "Installa";
+    "<InstallerReplaceButton>" = "Sostituisci";
 
 // Unused (will be used)
 // %1$@, Sonos application name
-    "<InstallerSonosRunningSubtitle_1>" = "Problem Updating the %1$@ Controller";
-    "<InstallerSonosRunningMessage>" = "Please try restarting the controller and checking for updates again.";
+    "<InstallerSonosRunningSubtitle_1>" = "Problema di aggiornamento del Controller %1$@";
+    "<InstallerSonosRunningMessage>" = "Provare a riavviare il controller e a verificare nuovamente se sono disponibili aggiornamenti.";
 // %1$@, Sonos application name
-    "<InstallerSonosRunningAnotherUserSubtitle_1>" = "%1$@ is currently running from another account";
-    "<InstallerSonosRunningAnotherUserMessage>" = "The Sonos controller is currently running from another user account on your computer.\n\nPlease quit the Sonos controller from the other account before installing.";
-    "<InstallerUnableToUninstallSubtitle>" = "Could Not Uninstall Old Version";
+    "<InstallerSonosRunningAnotherUserSubtitle_1>" = "%1$@ è attualmente utilizzato da un altro account";
+    "<InstallerSonosRunningAnotherUserMessage>" = "Il controller Sonos è attualmente utilizzato da un altro account utente del computer.\n\nChiudere il controller Sonos dall’altro account prima di procedere con l’installazione.";
+    "<InstallerUnableToUninstallSubtitle>" = "Impossibile disinstallare la versione precedente";
 // %1$@, Sonos application name
-    "<InstallerUnableToUninstallMessage_1>" = "The installer had trouble moving the old version of %1$@ to the trash.\n\nPlease move the old %1$@ to the trash.";
-    "<InstallerUnableToVerifySubtitle>" = "Problem with update";
-    "<InstallerUnableToVerifyMessage>" = "There is a problem with the update for your Sonos controller.\n\nPlease try downloading the update again.";
+    "<InstallerUnableToUninstallMessage_1>" = "Il programma di installazione non è riuscito a spostare nel cestino la precedente versione di %1$@.\n\nSposta la versione precedente di %1$@ nel cestino.";
+    "<InstallerUnableToVerifySubtitle>" = "Problema con l'aggiornamento";
+    "<InstallerUnableToVerifyMessage>" = "Si è verificato un problema con l'aggiornamento del controller Sonos.\n\nProvare a scaricare nuovamente l'aggiornamento.";
 
 /****************************************************************/
 /* UnINSTALLER                                                    */
 /****************************************************************/
     "<UninstallOtherAppTitle>" = "Sonos";
-    "<UninstallOtherAppMessage>" = "There are other copies of the Sonos controller running. Please quit them before uninstalling.";
+    "<UninstallOtherAppMessage>" = "Ci sono altre copie del controller Sonos in esecuzione. Chiuderle prima di procedere con la disinstallazione.";
 
 /****************************************************************/
 /* INSTALLER                                                    */
@@ -644,15 +643,15 @@
 /* Installer App Delegate */
 
 /* Error dialog when the user quits before the install has finished */
-    "<InstallerNotFinishedErrorTitle>" = "Installation hasn't finished.";
-    "<InstallerNotFinishedErrorContinueButton>" = "Return to Installation";
-    "<InstallerNotFinishedErrorText>" = "Installation of the Sonos controller has not finished. If you quit now, the Sonos controller will not be ready for use.";
+    "<InstallerNotFinishedErrorTitle>" = "L'installazione non è terminata.";
+    "<InstallerNotFinishedErrorContinueButton>" = "Torna all'installazione";
+    "<InstallerNotFinishedErrorText>" = "L'installazione del controller Sonos non è completata. Uscendo ora, il controller Sonos non sarà pronto per essere utilizzato.";
 
 /* Error dialog when the DCR is currently running */
-    "<InstallerDCRRunningErrorTitle>" = "The Sonos controller is currently running.";
-    "<InstallerDCRRunningErrorContinueButton>" = "Continue";
-    "<InstallerDCRRunningErrorCancelButton>" = "Cancel Installation";
-    "<InstallerDCRRunningErrorText>" = "Installation cannot continue while the Sonos Controller is running. Please quit it and then press Continue.";
+    "<InstallerDCRRunningErrorTitle>" = "Il controller Sonos è in funzione.";
+    "<InstallerDCRRunningErrorContinueButton>" = "Continua";
+    "<InstallerDCRRunningErrorCancelButton>" = "Annulla installazione";
+    "<InstallerDCRRunningErrorText>" = "Impossibile proseguire l'installazione mentre Sonos Controller è in funzione. Esci e premi Continua.";
 
 /* Download Pane, Stage Titles and More Info */
 
@@ -660,40 +659,40 @@
     "<InstallerDownloadPaneTitle>" = "Download";
 
 /* Checking for latest vesrion */
-    "<InstallerCheckingStageTitle>" = "Checking for latest version…";
+    "<InstallerCheckingStageTitle>" = "Ricerca della versione più recente…";
 
 /* Downloading */
-    "<InstallerDownloadingStageTitle>" = "Downloading…";
+    "<InstallerDownloadingStageTitle>" = "Download in corso…";
 
 /* Preparing */
-    "<InstallerPreparingStageTitle>" = "Preparing…";
+    "<InstallerPreparingStageTitle>" = "Preparazione in corso…";
 
 /* When the user already has a current version intalled */
-    "<InstallerNotNecessaryStageTitle>" = "No Installation Necessary";
-    "<InstallerNotNecessaryMoreInfo_1>" = "You already have the latest version installed at:\n%1$@";
+    "<InstallerNotNecessaryStageTitle>" = "Installazione non necessaria";
+    "<InstallerNotNecessaryMoreInfo_1>" = "La versione più recente è già installata in:\n%1$@";
 
 /* The download and preparing has finished and is ready to install */
-    "<InstallerReadyStageTitle>" = "Ready to Install";
-    "<InstallerReadyMoreInfo>" = "Click Continue to proceed.";
+    "<InstallerReadyStageTitle>" = "Iniziare l'installazione";
+    "<InstallerReadyMoreInfo>" = "Fai clic su Continua per proseguire.";
 
 /* Error */
 
 /* Generic Error */
-    "<InstallerOtherErrorTitle>" = "Installation Error";
-    "<InstallerOtherErrorQuitButton>" = "Quit";
-    "<InstallerOtherErrorText>" = "The Installer is unable to continue";
+    "<InstallerOtherErrorTitle>" = "Errore di installazione";
+    "<InstallerOtherErrorQuitButton>" = "Esci";
+    "<InstallerOtherErrorText>" = "Il programma di installazione non è in grado di continuare";
 
 /* Text on the sheet when the user quits early and we need to do cleanup. */
-    "<PleaseWaitForInstallerToFinishText>" = "Please wait while the Installer quits.";
+    "<PleaseWaitForInstallerToFinishText>" = "Attendere la chiusura del programma di installazione.";
 
 /* While Quitting */
-    "<QuitingProgressText>" = "Quitting…";
-    "<QuitButton>" = "Quit";
+    "<QuitingProgressText>" = "In Uscita…";
+    "<QuitButton>" = "Esci";
 
 
 /*******************************************************************************
  Growl
  ******************************************************************************/
 
-    "<NotificationCenterCurrentZoneGroupNowPlaying>" = "Current Group Now Playing";
-    "<NotificationCenterMusicIndexing>" = "Music Indexing";
+    "<NotificationCenterCurrentZoneGroupNowPlaying>" = "Gruppo corrente in esecuzione";
+    "<NotificationCenterMusicIndexing>" = "Indicizzazione musica";
