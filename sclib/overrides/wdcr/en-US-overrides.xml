@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Music Library Settings</String>
+<String id="SCLIB_STR_SETTINGS_SERVICES">Service Settings</String>
+<String id="SCLIB_STR_SETTINGS_DATEANDTIME">Date and Time Settings</String>
+<String id="SCLIB_STR_SETTINGS_WHITELED">White Status Light On</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">Group Albums using</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">Updating the Music Library…</String>
+<String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">Show Contributing Artists in the Music Library. This preference affects only this controller.</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE">Update content every day at:</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE_Group">Library Updates</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_INTERNETTIME">Set date and time from the Internet</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_DAYLIGHTSAVINGS">Adjust for Daylight Savings Time</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_SOUNDBAR">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">SUB</String>
+<String id="SCLIB_STR_SETTINGS_TVDialog">TV Dialog</String>
+<String id="SCLIB_STR_SETTINGS_Surround">Surrounds</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Automatically check for updates</String>
+<String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Show Windows Media Servers</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">System Updates</String>
+    
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos Setup Assistant</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Click &quot;%2$s&quot; to add one of these products, or click &quot;%1$s&quot; to do this later.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Click &quot;%2$s&quot; to try again, or click &quot;%1$s&quot; to register later.</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">You may change your preferences at any time in &quot;Manage&quot; &gt; &quot;Settings.&quot;</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">After the Sonos Controller starts, please choose Manage &gt; Check for Updates.</String>
+<String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Manage &gt; Settings &gt; Room Settings &gt; %1$s &gt; TV &gt; TV Setup</String>
+<String id="SCLIB_STR_MSS_CredError">The %1$s server did not recognize your login information.
+
+Please make sure that your login (e-mail address or username) and your password are correct, press the Back button, and try again.
+
+If the problem persists, please contact %2$s for help with your account.</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">Back</String>
+<String id="SCLIB_STR_Queue_Title">QUEUE</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">QUEUE (Not in Use)</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">To add Sonos Labs public beta services, you need to share usage data with Sonos.
+
+To view or change your usage data setting, go to Manage &gt; Settings &gt; Advanced Settings &gt; Improve Sonos.</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Go to &quot;Manage&quot; &gt; &quot;Settings&quot; &gt; &quot;Advanced Settings&quot; and select &quot;Wireless Setup.&quot;</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Body_2">You can try registering later in Help &gt; Sonos System Registration.</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes® Compilations</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Album Artists</String>
+<String id="SCLIB_STR_Queue_PlayItem">_Play Song</String>
+<String id="SCLIB_STR_Queue_PauseItem">_Pause Song</String>
+<String id="SCLIB_STR_Queue_RemoveItem">_Remove Song</String>
+<String id="SCLIB_STR_Queue_RemoveItems">_Remove Selected Songs</String>
+<String id="SCLIB_STR_InfoView_Action">_Info &amp; Options</String>
+<String id="SCLIB_STR_PlayNow_Action">_Play Now</String>
+<String id="SCLIB_STR_AddNextInQueue_Action">Play _Next</String>
+<String id="SCLIB_STR_AddToQueue_Action">Add to End of _Queue</String>
+<String id="SCLIB_STR_ReplaceQueue_Action">_Replace Queue</String>
+<String id="SCLIB_STR_AddToQueue_SelItems">Add Selected to End of _Queue</String>
+<String id="SCLIB_STR_PlayNow_SelItems">_Play Selected</String>
+<String id="SCLIB_STR_PlayNext_SelItems">Play Selected _Next</String>
+<String id="SCLIB_STR_EditCustomStation_Action">_Edit Radio Station</String>
+<String id="SCLIB_STR_PandoraAddMusic_Action">_Add More Music</String>
+<String id="SCLIB_STR_PandoraRenameStation_Action">_Rename</String>
+<String id="SCLIB_STR_Delete_Action">_Delete</String>
+<String id="STR_AddFavorite">Add to Sonos _Favorites</String>
+<String id="SCLIB_STR_AddToSonosPlaylist">Add to Sonos Play_list</String>
+<String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Reset Controller</String>
+<String id="SCLIB_STR_RESETCONTROLLER_INSTRUCTIONS">Resetting the controller will disconnect it from your Sonos system. When the controller restarts, you will be able to re-connect it, or connect it to a different Sonos system.</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">Unable to connect to the computer “%1$s” - Sonos can only connect to %2$d computers at a time.</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">The computer “%1$s” cannot be found.</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">The computer “%1$s” is not responding.</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">The computer “%1$s” refused to let Sonos connect to it.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Access to the shared folder “%1$s” is denied.</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">There is no shared folder “%1$s” on the computer “%2$s”.</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">The file “%1$s” does not exist.</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">Access to the file “%1$s” is denied.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Access to the shared folder “%1$s” is denied.</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">The shared folder “%1$s” has too many active connections.</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">There was a problem adding the new music in the shared folder “%1$s” to Sonos. Please see the following link for more information:
+
+http://faq.sonos.com/serverstack</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Unable to add the shared folder “%1$s” to your Music Library (%2$d).</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">The shared folder’s name is too long.</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">The username for the shared folder is too long.</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">The password for the shared folder is too long.</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Unable to remove the music share %1$s from your Music Library (%2$d).</String>
+<String id="SCLIB_STR_OUWiz_Finished_Title">Update complete</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Body_1">You must first register your Sonos system to receive online software updates.</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Instr_Fmt">Click ’%1$s’ to continue.</String>
+<String id="SCLIB_STR_OUWiz_Checking_Body_1">Checking Sonos for available updates…</String>
+<String id="STR_StereoPair_BodyText_Creating"></String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_1">The update has been canceled.</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">You may try again at any time by going to &quot;Manage&quot; &gt; &quot;Check for Software Updates…&quot;</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">Your Music Library Index needs to be rebuilt.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">This operation can take some time.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">While reindexing is happening, you will still be able to use your Music Library.</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body2">For best results, please set up the SUB using a controller in the same room. If this computer cannot be used in the same room as the SUB, it is recommended you choose &quot;Not now&quot; and complete setup with another controller.</String>
+<String id="STR_PandoraPlayStationLater">Play Later</String>
+<String id="STR_PandoraPlayStationNow">Play Now</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Please download the latest Sonos Controller from the Sonos website.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">To update, please select Manage &gt; Check For Software Updates…</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' is no longer available. The device where the music files are stored may not be powered on, or the path may have changed.
+Go to Manage &gt; Music Library Settings to check the path name.</String>
+<String id="SCLIB_STR_LC_SearchingForPlayers">Searching for your Sonos System…</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Sorry, we can’t connect to Sonos.
+Let’s try some things:</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option1">• Turn your Wi-Fi off and on.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option2">• Unplug your router, then plug it back in.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option3">• Check the power to your speakers.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option4">• Restart your computer and try again.</String>
+<String id="SCLIB_STR_LC_Contact">This Isn’t Working</String>
+</Strings>

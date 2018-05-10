@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="menu_search">Search</string>
-<string name="browse_artists_title">Artists</string>
-<string name="browse_genres_title">Genres</string>
-<string name="browse_tracks_title">Songs</string>
-<string name="browse_composers_title">Composers</string>
-<string name="browse_albums_title">Albums</string>
-<string name="browse_playlists_title">Playlists</string>
-<string name="browse_podcasts_title">Podcasts</string>
-<string name="browse_local_library_root">On this Mobile Device</string>
-<string name="browse_empty_favorites">Tap the %1$s icon when browsing or playing music to add songs, stations, or albums to Favorites.</string>
-<string name="browse_more_options">More Options</string>
-<string name="accessibility_browse_explicit_badge_format">%1$s. Explicit.</string>
-<string name="accessibility_item_badge_format">%1$s. New.</string>
-<string name="edit_title_1">Edit %s</string>
-<string name="browse_empty_playlist_modal">To create a Playlist tap *New Playlist* above.</string>
+<string name="menu_search">搜索</string>
+<string name="browse_artists_title">表演者</string>
+<string name="browse_genres_title">流派</string>
+<string name="browse_tracks_title">歌曲</string>
+<string name="browse_composers_title">作曲者</string>
+<string name="browse_albums_title">专辑</string>
+<string name="browse_playlists_title">播放列表</string>
+<string name="browse_podcasts_title">播客</string>
+<string name="browse_local_library_root">此移动设备上</string>
+<string name="browse_empty_favorites">在浏览或播放音乐时点击 %1$s 图标可向个人收藏中添加歌曲、电台或专辑。</string>
+<string name="browse_more_options">更多选项</string>
+<string name="accessibility_browse_explicit_badge_format">%1$s。不宜。</string>
+<string name="accessibility_item_badge_format">%1$s。新。</string>
+<string name="edit_title_1">编辑 %s</string>
+<string name="browse_empty_playlist_modal">要创建播放列表，请单击上面的*新建播放列表*。</string>
 </resources>

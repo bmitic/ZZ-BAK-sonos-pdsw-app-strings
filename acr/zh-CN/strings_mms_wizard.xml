@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="mms_service_password_invalid">Please enter a valid password.</string>
-<string name="mms_service_login_password_invalid">Please enter a valid login and password.</string>
-<string name="mms_accept_trial_conditions_decision_accept">Accept</string>
-<string name="mms_accept_trial_conditions_decision_decline">Decline</string>
-<string name="mms_merge_trial_account_decision">Do you want to merge the music in the trial account with the account you are adding?</string>
-<string name="mms_merge_trial_account_decision_merge">Merge</string>
-<string name="mms_merge_trial_account_decision_merge_not">Don\'t Merge</string>
-<string name="mms_service_setup_complete_text">is now set up on your Sonos system.</string>
-<string name="mms_service_setup_complete_instruction">Press the Done button to continue.</string>
-<string name="mms_login">Login</string>
-<string name="mms_password">Password</string>
+<string name="mms_service_password_invalid">请输入有效的密码。</string>
+<string name="mms_service_login_password_invalid">请输入有效的登录信息和密码。</string>
+<string name="mms_accept_trial_conditions_decision_accept">接受</string>
+<string name="mms_accept_trial_conditions_decision_decline">拒绝</string>
+<string name="mms_merge_trial_account_decision">是否要将试用帐户中的音乐合并到正在添加的帐户中？</string>
+<string name="mms_merge_trial_account_decision_merge">合并</string>
+<string name="mms_merge_trial_account_decision_merge_not">不合并</string>
+<string name="mms_service_setup_complete_text">已在 Sonos 系统上设置。</string>
+<string name="mms_service_setup_complete_instruction">按“完成”按钮继续。</string>
+<string name="mms_login">用户名</string>
+<string name="mms_password">密码</string>
 <string name="mms_string_space_string">%1$s %2$s</string>
-<string name="mms_nickname_specify_nickname">Please enter a unique name</string>
+<string name="mms_nickname_specify_nickname">请输入一个唯一的名称</string>
 </resources>

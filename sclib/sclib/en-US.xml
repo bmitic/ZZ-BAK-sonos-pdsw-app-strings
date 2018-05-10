@@ -17,9 +17,9 @@
 <String id="STR_ReplaceYes">Replace</String>
 <String id="STR_ReplaceNo">Don't Replace</String>
 <String id="STR_ContainerHeaderText">All Songs</String>
-<String id="STR_CompleteAlbum_Fmt" plurality="one">Complete Album (%1$d song)</String>
-<String id="STR_CompleteAlbum_Fmt" plurality="other">Complete Album (%1$d songs)</String>
-<String id="STR_CompleteAlbumPlay">Play All</String>
+<String id="STR_CompleteAlbumSingular">Complete Album (1 song)</String>
+<String id="STR_CompleteAlbumPluralFormat">Complete Album (%1$d songs)</String>
+<String id="STR_CompleteAlbumPlay">Play All</String> 
 <String id="STR_CompleteAlbumShuffle">Shuffle All</String>
 <String id="RHHSTR_PlaylistDeleteConfirm">Are you sure you want to delete “%1$s”?</String>
 <String id="RHHSTR_PlaylistRemoveConfirm">Are you sure you want to remove “%1$s”?</String>
@@ -380,10 +380,6 @@ AssociatedZP: %2$s</String>
 <String id="SCLIB_STR_PARENTALCONTROLS_SETTING_UNAVAILABLE">No Supported Services Found</String>
 <String id="SCLIB_STR_PARENTALCONTROLS_FAQ_TITLE">More Information</String>
 <String id="SCLIB_STR_PARENTALCONTROLS_FAQ_URI">http://faq.sonos.com/parentalcontrols</String>
-<String id="SCLIB_STR_MYSONOS_SIGNIN_SETTING">Sign In</String>
-<String id="SCLIB_STR_MYSONOS_SIGNIN_GroupDesc">It looks like you're not signed in</String>
-<String id="SCLIB_STR_MYSONOS_EMAIL_SETTING">Logged in as: </String>
-<String id="SCLIB_STR_MYSONOS_TRANSFER_SETTING">Transfer Account</String>
 <String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_SETTING">Recently Played</String>
 <String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_CLEAR">Clear All</String>
 <String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_GroupDesc">See recently played music in your home.</String>
@@ -517,7 +513,7 @@ We’ll be continually adding and removing services in Sonos Labs, so be sure to
 <String id="SCLIBSTR_MSS_AccountNeeded">To use %1$s with Sonos, you need an account.</String>
 <String id="SCLIBSTR_MSS_AfterAccount">Once you have done this, you will be asked to update your Sonos system with your login information.</String>
 <String id="STR_MSS_Checking">Checking credentials…</String>
-<String id="SCLIB_STR_MSS_CantConnect">There was a problem adding the %1$s account.
+<String id="SCLIB_STR_MSS_CantConnect">There was a problem adding the %1$s account. 
 
 A connection to %2$s could not be made.</String>
 <String id="SCLIB_STR_MSS_CredError">The %1$s server did not recognize your login information.
@@ -614,10 +610,10 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_Setting_NoZoneSelected">No Room Selected</String>
 <String id="SCLIB_STR_SleepTimerLabel">Sleep Timer</String>
 <String id="SCLIB_STR_SleepTimerInstructionsFmt">Choose a sleep timer duration for “%1$s”:</String>
-<String id="SCLIB_STR_SleepMinutes" plurality="one">%1$d minute</String>
-<String id="SCLIB_STR_SleepMinutes" plurality="other">%1$d minutes</String>
-<String id="SCLIB_STR_SleepHours" plurality="one">%1$d hour</String>
-<String id="SCLIB_STR_SleepHours" plurality="other">%1$d hours</String>
+<String id="SCLIB_STR_SleepMinute">%1$d minute</String>
+<String id="SCLIB_STR_SleepMinutes">%1$d minutes</String>
+<String id="SCLIB_STR_SleepHour">%1$d hour</String>
+<String id="SCLIB_STR_SleepHours">%1$d hours</String>
 <String id="SCLIB_STR_SleepOff">Off</String>
 <String id="SCLIB_STR_Alarm_AlarmSet">Alarm Set</String>
 <String id="SCLIB_STR_Alarm_AlarmZone">Alarm Room</String>
@@ -633,10 +629,12 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_Alarm_Duration">Alarm Duration</String>
 <String id="SCLIB_STR_Alarm_Duration_Instructions">Choose how long the alarm should play</String>
 <String id="SCLIB_STR_Alarm_Duration_NoLimit">No Limit</String>
-<String id="SCLIB_STR_Duration_MinuteCountFormat" plurality="one">%1$d minute</String>
-<String id="SCLIB_STR_Duration_MinuteCountFormat" plurality="other">%1$d minutes</String>
-<String id="SCLIB_STR_Duration_HourCountFormat" plurality="one">%1$d hour</String>
-<String id="SCLIB_STR_Duration_HourCountFormat" plurality="other">%1$d hours</String>
+<String id="SCLIB_STR_Duration_MinuteCountOne">1 minute</String>
+<String id="SCLIB_STR_Duration_MinuteCountTwo">2 minutes</String>
+<String id="SCLIB_STR_Duration_MinuteCountManyFormat">%1$d minutes</String>
+<String id="SCLIB_STR_Duration_HourCountOne">1 hour</String>
+<String id="SCLIB_STR_Duration_HourCountTwo">2 hours</String>
+<String id="SCLIB_STR_Duration_HourCountManyFormat">%1$d hours</String>
 <String id="SCLIB_STR_Duration_Separator">%1$s and %2$s</String>
 <String id="SCLIB_STR_Alarm_Snooze">Snooze</String>
 <String id="SCLIB_STR_Alarm_SnoozeNotification">Snooze Alerts</String>
@@ -655,7 +653,7 @@ The new radio station will be added to Radio &gt; My Radio Stations.</String>
 <String id="SCLIB_STR_WizardTitle_StereoPair">Stereo pair</String>
 <String id="SCLIB_STR_WizardTitle_SonosSetup">Sonos setup</String>
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Setup Wizard</String>
-<String id="SCLIB_STR_WizardTitle_UsageData">Usage data</String>
+<String id="SCLIB_STR_WizardTitle_Registration">Sonos registration</String>
 <String id="SCLIB_STR_WizardTitle_AddComponent">Add a Sonos Product</String>
 <String id="SCLIB_STR_WizardTitle_AddService">Add a service</String>
 <String id="SCLIB_STR_WizardTitle_EditService">Edit service</String>
@@ -907,7 +905,6 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_SubmitDiags_Submitting_Body_2">This may take a few minutes.</String>
 <String id="SCLIB_STR_SubmitDiags_Done_Body_1">Your diagnostic information was sent.</String>
 <String id="SCLIB_STR_SubmitDiags_Done_Body_2_Fmt">Your confirmation number is: %1$d.</String>
-<String id="SCLIB_STR_SubmitDiags_Done_Body_2_Fmt_VO">Your confirmation number is: %1$s.</String>
 <String id="SCLIB_STR_SubmitDiags_Error_Body_1">Your diagnostic information could not be sent at this time.</String>
 <String id="SCLIB_STR_SubmitDiags_Error_Body_2_Fmt">Click ‘%1$s’ to try sending the information again, or click ‘%2$s’ and try again later.</String>
 <String id="SCLIB_STR_ConfigureWireless_Network_Name">Network name</String>
@@ -922,7 +919,8 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_ConfigureWireless_Credentials_Input">Use this network</String>
 <String id="SCLIB_STR_ConfigureWireless_Credentials_Body_HH_1">Sonos will be set up on:</String>
 <String id="SCLIB_STR_ConfigureWireless_Credentials_Body_HH_2">Please enter the password for this network:</String>
-<String id="SCLIB_STR_ConfigureWireless_Submitting_Body_1">Connecting, please wait…</String>
+<String id="SCLIB_STR_ConfigureWireless_Submitting_Body_1">Checking password.</String>
+<String id="SCLIB_STR_ConfigureWireless_Submitting_Body_2">Please wait…</String>
 <String id="SCLIB_STR_ConfigureWireless_Done_Body_1">Sonos is now set up on:</String>
 <String id="SCLIB_STR_ConfigureWireless_Done_Body_2">You can disconnect any Sonos product wired to your router.</String>
 <String id="SCLIB_STR_ConfigureWireless_Error_Title">Wireless problem</String>
@@ -975,7 +973,7 @@ You may try again at any time by going to "Settings" &gt; "Online Update."</Stri
 <String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Flashing">Saving update</String>
 <String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Rebooting">Restarting</String>
 <String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Updated">Updated</String>
-<String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Unknown">Unknown</String>
+<String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Unknown">Unknown</String>	
 <String id="SCLIB_STR_OUWiz_NotRequired_Title">No update required</String>
 <String id="SCLIB_STR_OUWiz_NotRequired_Body_1">Your Sonos system is up to date.</String>
 <String id="SCLIB_STR_OUWiz_ControlUpdate_Title">Sonos app needs updating</String>
@@ -1127,29 +1125,24 @@ You can change the name anytime in &quot;Settings&quot; &gt; &quot;My Services.&
 <String id="SCLIB_STR_Queue_PlayItem">Play Song</String>
 <String id="SCLIB_STR_Queue_PauseItem">Pause Song</String>
 <String id="SCLIB_STR_Queue_RemoveItem">Remove Song</String>
-<String id="SCLIB_STR_Queue_TrackCountFormat" plurality="one">%1$d song</String>
-<String id="SCLIB_STR_Queue_TrackCountFormat" plurality="other">%1$d songs</String>
-<String id="SCLIB_STR_RemovingQueueItems_Fmt" plurality="one">Removing %1$d song from the Queue… Please wait.</String>
-<String id="SCLIB_STR_RemovingQueueItems_Fmt" plurality="other">Removing %1$d songs from the Queue… Please wait.</String>
-<String id="SCLIB_STR_RemovingQueueItems_Confirm_Fmt" plurality="one">Are you sure you want to remove this %1$d song from the Queue?</String>
-<String id="SCLIB_STR_RemovingQueueItems_Confirm_Fmt" plurality="other">Are you sure you want to remove these %1$d songs from the Queue?</String>
-<String id="SCLIB_STR_AddingToQueueItems_Confirm_Fmt" plurality="one">Are you sure you want to add %1$d item to the Queue?</String>
-<String id="SCLIB_STR_AddingToQueueItems_Confirm_Fmt" plurality="other">Are you sure you want to add %1$d items to the Queue?</String>
-<String id="SCLIB_STR_PlayAndAddToQueueItems_Confirm_Fmt" plurality="one">Are you sure you want to play %1$d item and add it to the Queue?</String>
-<String id="SCLIB_STR_PlayAndAddToQueueItems_Confirm_Fmt" plurality="other">Are you sure you want to play %1$d items and add them to the Queue?</String>
+<String id="SCLIB_STR_Queue_TrackCountZero">0 songs</String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 song</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 songs</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d songs</String>
+<String id="SCLIB_STR_RemovingQueueItems_Fmt">Removing %1$d songs from the Queue… Please wait.</String>
+<String id="SCLIB_STR_RemovingQueueItems_Confirm_Fmt">Are you sure you want to remove these %1$d songs from the Queue?</String>
+<String id="SCLIB_STR_AddingToQueueItems_Confirm_Fmt">Are you sure you want to add %1$d items to the Queue?</String>
+<String id="SCLIB_STR_PlayAndAddToQueueItems_Confirm_Fmt">Are you sure you want to play %1$d items and add them to the Queue?</String>
 <String id="SCLIB_STR_ReplaceQueue_Confirm">Are you sure you want to replace the Queue?</String>
-<String id="SCLIB_STR_MovingQueueItems_Fmt" plurality="one">Moving %1$d song in the Queue… Please wait.</String>
-<String id="SCLIB_STR_MovingQueueItems_Fmt" plurality="other">Moving %1$d songs in the Queue… Please wait.</String>
-<String id="SCLIB_STR_PlayNow_Items_Fmt" plurality="one">Playing and adding %1$d item to the Queue… Please wait.</String>
-<String id="SCLIB_STR_PlayNow_Items_Fmt" plurality="other">Playing and adding %1$d items to the Queue… Please wait.</String>
+<String id="SCLIB_STR_MovingQueueItems_Fmt">Moving %1$d songs in the Queue… Please wait.</String>
+<String id="SCLIB_STR_PlayNow_Items_Fmt">Playing and adding %1$d items to the Queue… Please wait.</String>
 <String id="SCLIB_STR_Queue_RemoveItems_Error">Unable to remove all the selected items.</String>
 <String id="SCLIB_STR_Queue_MoveItems_Error">Unable to move all the selected items.</String>
 <String id="SCLIB_STR_Queue_RemoveItems">Remove Song(s)</String>
 <String id="SCLIB_STR_Queue_MoveItems">Move Song(s)</String>
 <String id="SCLIB_STR_Queue_MoveItems_StaleObjError">Another user is editing the Queue from a different controller. Some songs you were editing may have been left unchanged.</String>
 <String id="SCLIB_STR_AddToQueue_NoItems">No items were added to the Queue.</String>
-<String id="SCLIB_STR_AddToQueue_Items_Fmt" plurality="one">Adding %1$d item to the Queue… Please wait.</String>
-<String id="SCLIB_STR_AddToQueue_Items_Fmt" plurality="other">Adding %1$d items to the Queue… Please wait.</String>
+<String id="SCLIB_STR_AddToQueue_Items_Fmt">Adding %1$d item(s) to the Queue… Please wait.</String>
 <String id="SCLIB_STR_AddToQueue_Error">Unable to add selected item(s) to the Queue.</String>
 <String id="SCLIB_STR_PlayNow_Error">Unable to play or add selected item(s) to the Queue.</String>
 <String id="SCLIB_STR_ReplaceQueue_Error">Unable to replace the Queue with the selected item(s).</String>
@@ -1387,8 +1380,6 @@ If the problem persists and your network connection is working, please try again
 <String id="SCLIB_STR_STREAMINFO_PAUSE_BURST">Pause Burst</String>
 <String id="SCLIB_STR_STREAMINFO_UNSUPPORTED">Unsupported</String>
 <String id="SCLIB_STR_STREAMINFO_SILENCE">Silence</String>
-<String id="SCLIB_STR_UnsupportedAudioFormat_Fmt">You are receiving an audio signal that is not supported (%1$s): %2$s</String>
-<String id="SCLIB_STR_Repair">Repair</String>
 <String id="SCLIB_STR_DeviceSetupIncompleteTitle">Setup incomplete</String>
 <String id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Setup is not complete. When you're ready to finish, choose the unused Sonos %1$s from the Rooms tab.</String>
 <String id="SCLIB_STR_ReplaceRemote_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">A remote control is already set up to work with this %1$s. If you set up a new remote, the current remote will no longer work.</String>
@@ -1975,8 +1966,8 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_SpeakerTuning_SkippedTuning_Title">Tuning skipped for now</String>
 <String id="SCLIB_STR_SpeakerTuning_SkippedTuning_Body">You can tune at any time by going to Room Settings.</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Title">Trueplay tuning</String>
-<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Fmt" plurality="other">You have %1$d more rooms that can be tuned with Trueplay.</String>
-<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Fmt" plurality="one">You have %1$d more room that can be tuned with Trueplay.</String>
+<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Fmt">You have %1$d more rooms that can be tuned with Trueplay.</String>
+<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Singular">You have 1 more room that can be tuned with Trueplay.</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body2">Please continue tuning.</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Input_1">Continue tuning</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Input_2">Not now</String>
@@ -1989,8 +1980,8 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_SpeakerTuning_UnplugHeadphones_Title">Unplug your headphones</String>
 <String id="SCLIB_STR_SpeakerTuning_UnplugHeadphones_Body_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Please unplug the headphones from your %1$s before tuning.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Title">Player setup</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_Body1_Fmt" plurality="one">We found %1$d new player near you:</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_Body1_Fmt" plurality="other">We found %1$d new players near you.</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_Single_Body1">We found 1 new player near you:</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_Multi_Body1_Fmt">We found %1$d new players near you.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Multi_Body2">Select the player you want to set up first.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Unknown_Body1">Select the type of Sonos player you are setting up:</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Input1">Set up this player</String>
@@ -2001,9 +1992,8 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_SetupWiz_WacConnectFailed_Body1_One_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You didn't press a button, or you pressed the button on the wrong speaker. Find the Sonos %1$s with this serial number, then try again:</String>
 <String id="SCLIB_STR_SetupWiz_WacConnectFailed_Body1_Two_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You didn't press any buttons, or you pressed the buttons on the wrong speaker. Find the Sonos %1$s with this serial number, then try again:</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModel_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Confirm your %1$s</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body1_Plural_Fmt" plurality="other">It looks like you have %1$d identical players.</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body1_Gendered_Fmt" gender="no-gender" comment="Substitution: Sonos Player">It's important to confirm which %1$s you have started setting up.</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body2_Fmt">When you continue, the speaker you're currently setting up will play a sound.</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body1_Fmt" gender="no-gender" comment="Substitution 2: Sonos Player">It looks like you have %1$d identical players. It's important to confirm which %2$s you have started setting up.</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">When you continue, the speaker you're currently setting up will play a sound.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntroFromError_Body1_One">You may have pressed the button on the wrong player, or you may not have pressed any button at all.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntroFromError_Body1_Two">You may have pressed the buttons on the wrong player, or you may not have pressed any buttons at all.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntroFromError_Body2_One">It's important to ensure you press the button on the correct player.</String>
@@ -2051,8 +2041,8 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String comment="Off (adjective)" id="SCLIB_STR_SleepTimer_Off_Status">Off</String>
 <String id="SCLIB_STR_SleepTimer_Remaining">%1$s remaining</String>
 <String id="SCLIB_STR_SleepTimer_CombinedTitle">Sleep Timer %1$s</String>
-<String id="SCLIB_STR_SleepSeconds" plurality="one">%1$d second</String>
-<String id="SCLIB_STR_SleepSeconds" plurality="other">%1$d seconds</String>
+<String id="SCLIB_STR_SleepSecond">%1$d second</String>
+<String id="SCLIB_STR_SleepSeconds">%1$d seconds</String>
 <String id="SCLIB_STR_SleepMinutes_Short">%1$dm</String>
 <String id="SCLIB_STR_SleepSeconds_Short">%1$ds</String>
 <String id="SCLIB_STR_Wiz_FatalPlayer_Title">Unable to set up device</String>
@@ -2225,36 +2215,36 @@ Please try again.</String>
 <String id="SCLIB_STR_MixedAccount_SettingTitle">Link players to Sonos account</String>
 <String id="SCLIB_STR_MixedAccount_SettingDesc">Sign in to fix players not linked to your Sonos Account.</String>
 <String id="SCLIB_STR_MixedAccount_ButtonTitle">Link players</String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Body"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Title"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_1"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_2"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_3"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Title"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Body"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Allow_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_GoBack_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Skip_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Title"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Body"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Title"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Body"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Enable_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Skip_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Title"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Message"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Title">Bluetooth makes setup even easier</String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Body"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Denied_Title">Are you sure you don't want to turn on Bluetooth?</String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Denied_Body">If it's off, you'll need an Ethernet cable to finish setup.</String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Enable_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Back_Button"></String>
-<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Skip_Button">Continue without Bluetooth</String>
-<String id="SCLIB_STR_Setup_Prereqs_Lets_Get_Started">Let's get started…</String>
+<String id="SCLIB_STR_LocationAccess_Body"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_Title"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_1"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_2"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_3"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Title"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Body"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Allow_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_GoBack_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Skip_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Title"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Body"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Title"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Body"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Enable_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Skip_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Title"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Message"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Request_Title">Bluetooth makes setup even easier</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Request_Body"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Denied_Title">Are you sure you don't want to turn on Bluetooth?</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Denied_Body">If it's off, you'll need an Ethernet cable to finish setup.</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Enable_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Back_Button"></String>
+<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Skip_Button">Continue without Bluetooth</String>
+<String id="SCLIB_STR_BLE_Prerequisites_Lets_Get_Started">Let's get started…</String>
 <String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title"></String>
 <String id="SCLIB_STR_Wiz_Network_Error_Title">Network problem</String>
 <String id="SCLIB_STR_Wiz_Network_Error_Body1">Check your internet connection and make sure all your speakers are plugged in.</String>
@@ -2374,10 +2364,6 @@ Please try again.</String>
 <String id="SCLIB_STR_WizardTitle_VoiceServices">Voice Services</String>
 <String id="SCLIB_STR_Voice_Services_Details_Title">Amazon Alexa</String>
 <String id="SCLIB_STR_Voice_Services_Details_Subtitle">Requires Alexa app</String>
-<String id="SCLIB_STR_Voice_Services_Update_Intro_Title">Your Sonos system requires an update</String>
-<String id="SCLIB_STR_Voice_Services_Update_Intro_Body1">The latest software ensures that your Sonos system works with new features securely and reliably.</String>
-<String id="SCLIB_STR_Voice_Services_Update_Intro_Body2">You'll need to update your system to use this feature.</String>
-<String id="SCLIB_STR_Voice_Services_Update_Intro_Input">Update Sonos</String>
 <String id="SCLIB_STR_Update_And_Secure_Update_Intro_Title">Your Sonos system requires an update</String>
 <String id="SCLIB_STR_Update_And_Secure_Update_Intro_Body1">The latest software ensures that your Sonos system works with new features securely and reliably.</String>
 <String id="SCLIB_STR_Update_And_Secure_Update_Intro_Body2">You'll need to update your system to use this feature.</String>
@@ -2488,15 +2474,14 @@ AirPlay from your iPhone, iPad or Mac to Sonos.</String>
 <String id="SCLIB_STR_BLE_Setup_BTConnecting_Title">Getting your speaker ready…</String>
 <String id="SCLIB_STR_BLE_Setup_BTConnectFail_Title">Looks like something went wrong</String>
 <String id="SCLIB_STR_BLE_Setup_BTConnectFail_Body">Make sure the speaker's plugged in. Move closer to it and try again.</String>
-<String id="SCLIB_STR_BLE_Setup_BTConnectFail_Alternative_Body">If this doesn't work, choose "Alternative setup."</String>
-<String id="SCLIB_STR_BLE_Setup_BTConnectFail_Alternative_Etherthreat_Body">If this doesn't work, choose &quot;Alternative setup&quot; (requires an Ethernet cable).</String>
+<String id="SCLIB_STR_BLE_Setup_BTConnectFail_Alternative_Body">If this doesn't work, choose "Alternative setup".</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Single_Title">Is this the speaker you want to set up?</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Title">Which one do you want to set up first?</String>
-<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Body_Fmt" plurality="one">We found %1$d speaker.</String>
-<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Body_Fmt" plurality="other">We found %1$d speakers.</String>
+<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Body_Fmt">We found %1$d speakers.</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Single_Input1">Yes</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Input1">Set up this speaker</String>
-<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Input2">Choose different speaker</String>
+<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Single_Input2">No, choose different speaker</String>
+<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Input2">Choose different speaker</String>
 <String id="SCLIB_STR_Setup_WacishTimeout_Body1">It was not possible to check the password for your wireless network. To complete setup, you will now be guided through an alternative setup method.</String>
 <String id="SCLIB_STR_Setup_OnlyBleBeacons_Title">Are you trying to set up this speaker?</String>
 <String id="SCLIB_STR_AirPlayDialog_StopMusic">Stop Music</String>
@@ -2512,6 +2497,4 @@ Removing them will stop AirPlay in the other rooms too.</String>
 Removing them will stop AirPlay in the other rooms too.</String>
 <String id="SCLIB_STR_StopMusicDialog_Title">No Rooms Selected</String>
 <String id="SCLIB_STR_StopMusicDialog_Text">Are you sure you want to stop the music in all rooms?</String>
-<String id="SCLIB_STR_Setup_WACish_APFailure_Title">Unable to connect to speaker</String>
-<String id="SCLIB_STR_Setup_WACish_APFailure_Body">We couldn't connect your phone to your speaker. Let's try something else.</String>
 </Strings>

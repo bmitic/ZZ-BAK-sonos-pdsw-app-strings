@@ -12,27 +12,27 @@
 /* Common */
 
     "<OK>" = "OK";
-    "<Cancel>" = "Cancel";
-    "<Yes>" = "Yes";
-    "<No>" = "No";
-    "<Crossfade>" = "Crossfade";
-    "<Mute>" = "Mute";
-    "<MuteAll>" = "Mute All";
-    "<Next>" = "Next";
-    "<Back>" = "Back";
-    "<Pause>" = "Pause";
-    "<Play>" = "Play";
-    "<Previous>" = "Previous";
-    "<RepeatOff>" = "Repeat is off";
-    "<RepeatOne>" = "Repeat song";
-    "<RepeatAll>" = "Repeat all";
-    "<Shuffle>" = "Shuffle";
-    "<Stop>" = "Stop";
-    "<Unmute>" = "Unmute";
-    "<UnmuteAll>" = "Unmute All";
-    "<Done>" = "Done";
-    "<On>" = "On";
-    "<Off>" = "Off";
+    "<Cancel>" = "キャンセル";
+    "<Yes>" = "はい";
+    "<No>" = "いいえ";
+    "<Crossfade>" = "クロスフェード";
+    "<Mute>" = "ミュート";
+    "<MuteAll>" = "すべてミュート";
+    "<Next>" = "次へ";
+    "<Back>" = "戻る";
+    "<Pause>" = "一時停止";
+    "<Play>" = "再生";
+    "<Previous>" = "前へ";
+    "<RepeatOff>" = "リピートがオフ";
+    "<RepeatOne>" = "曲を繰り返す";
+    "<RepeatAll>" = "全てを繰り返す";
+    "<Shuffle>" = "シャッフル";
+    "<Stop>" = "停止";
+    "<Unmute>" = "ミュート解除";
+    "<UnmuteAll>" = "すべてミュート解除";
+    "<Done>" = "完了";
+    "<On>" = "オン";
+    "<Off>" = "オフ";
 
 /*******************************************************************************
  Code strings
@@ -40,357 +40,356 @@
 
 /* General */
 
-    "<BusyUIPleaseWait>" = "Please wait…";
-    "<GeneralConfirmTitle>" = "Confirm";
-    "<GeneralErrorTitle>" = "Error";
+    "<BusyUIPleaseWait>" = "少々お待ちください…";
+    "<GeneralConfirmTitle>" = "確認";
+    "<GeneralErrorTitle>" = "エラー";
 
 
 /* About Window */
 
-    "<AboutSonosWindowTitle>" = "About My Sonos System";
-    "<AboutControllerName_1>" = "Sonos Controller for Mac %1$@";
-    "<AboutVersion>" = "Version:";
-    "<AboutBuild>" = "Build:";
+    "<AboutSonosWindowTitle>" = "Sonosについて";
+    "<AboutControllerName_1>" = "Mac %1$@用Sonosコントローラ";
+    "<AboutVersion>" = "バージョン:";
+    "<AboutBuild>" = "ビルド:";
     "<AboutSonosID>" = "Sonos ID:";
-    "<AboutSubmitDiagnostics>" = "Submit Diagnostics";
+    "<AboutSubmitDiagnostics>" = "診断を送信";
 
 
 /* Error Log Window */
 
-    "<ErrorWindowTitle>" = "Sonos System Error Log";
+    "<ErrorWindowTitle>" = "Sonosシステムエラー ログ";
 
 
 /* Keyboard shortcuts window */
 
-    "<KeyboardWindowTitle>" = "Keyboard Shortcuts";
-    "<KeyboardWindowHeading>" = "Keyboard shortcuts supported by your Sonos System:";
-    "<KeyboardWindowFunction>" = "Function";
-    "<KeyboardWindowShortcut>" = "Shortcut";
+    "<KeyboardWindowTitle>" = "キーボード ショートカット";
+    "<KeyboardWindowHeading>" = "Sonosシステムでサポートされるキーボード ショートカット：";
+    "<KeyboardWindowFunction>" = "ファンクション";
+    "<KeyboardWindowShortcut>" = "ショートカット";
 
-    "<ShortcutPlay>" = "Play/Pause";
-    "<ShortcutPrevTrack>" = "Previous Song";
-    "<ShortcutNextTrack>" = "Next Song";
-    "<ShortcutShuffle>" = "Toggle Shuffle";
-    "<ShortcutRepeat>" = "Toggle Repeat";
-    "<ShortcutCrossfade>" = "Toggle Crossfade";
-    "<ShortcutMute>" = "Mute/Unmute Current Room/Group";
-    "<ShortcutMuteAll>" = "Mute All";
-    "<ShortcutVolUp>" = "Increase Volume";
-    "<ShortcutVolDown>" = "Decrease Volume";
-    "<ShortcutPlayNow>" = "Play Selected Song Now";
-    "<ShortcutPlayNext>" = "Play Selected Song Next";
-    "<ShortcutAdd>" = "Play Selection Later";
-    "<ShortcutReplace>" = "Replace Queue with Selection";
-    "<ShortcutDelete>" = "Remove Selected Song from Queue";
-    "<ShortcutTop>" = "Jump to Browse Top";
-    "<ShortcutFavorites>" = "Go to Favorites";
-    "<ShortcutBrowse>" = "Jump Focus to Browse";
-    "<ShortcutRooms>" = "Jump Focus to Rooms";
-    "<ShortcutNowPlaying>" = "Jump Focus to Now Playing";
-    "<ShortcutQueue>" = "Jump Focus to Queue";
-    "<ShortcutNextZone>" = "Select Next Room Group";
-    "<ShortcutPrevZone>" = "Select Previous Room Group";
-    "<ShortcutScroll>" = "Show Current Song in Queue";
-    "<ShortcutResizeQueue>" = "Resize Queue";
-    "<ShortcutContext>" = "Show Menu for Song";
-    "<ShortcutKeyboard>" = "Keyboard Shortcuts";
+    "<ShortcutPlay>" = "再生/一時停止";
+    "<ShortcutPrevTrack>" = "前の曲";
+    "<ShortcutNextTrack>" = "次の曲";
+    "<ShortcutShuffle>" = "シャッフルの切り替え";
+    "<ShortcutRepeat>" = "リピートの切り替え";
+    "<ShortcutCrossfade>" = "クロスフェードの切り替え";
+    "<ShortcutMute>" = "現在の部屋/グループをミュート/ミュート解除";
+    "<ShortcutMuteAll>" = "すべてミュート";
+    "<ShortcutVolUp>" = "音量を上げる";
+    "<ShortcutVolDown>" = "音量を下げる";
+    "<ShortcutPlayNow>" = "選択した曲を今すぐ再生";
+    "<ShortcutPlayNext>" = "選択した曲を次に再生";
+    "<ShortcutAdd>" = "後で選択を再生";
+    "<ShortcutReplace>" = "予約リストを選択したものに入れ替え";
+    "<ShortcutDelete>" = "選択した曲を予約リストから削除";
+    "<ShortcutTop>" = "参照トップにジャンプ";
+    "<ShortcutFavorites>" = "お気に入りにアクセス";
+    "<ShortcutBrowse>" = "参照にフォーカスを移動";
+    "<ShortcutRooms>" = "部屋にフォーカスを移動";
+    "<ShortcutNowPlaying>" = "再生中にフォーカスを移動";
+    "<ShortcutQueue>" = "予約リストにフォーカスを移動";
+    "<ShortcutNextZone>" = "次の部屋グループを選択";
+    "<ShortcutPrevZone>" = "前の部屋グループを選択";
+    "<ShortcutScroll>" = "予約リスト内の現在の曲を表示";
+    "<ShortcutResizeQueue>" = "リサイズ予約リスト";
+    "<ShortcutContext>" = "曲のメニューを表示";
+    "<ShortcutKeyboard>" = "キーボード ショートカット";
 /*
  Localizers:
  When running under OS X Lion, look at the string translations for "Enter Full Screen"
  and "Exit Full Screen" in the View menu. Use those 2 strings to create the
  <ShortcutToggleFullScreen> string below:
 */
-    "<ShortcutToggleFullScreen>" = "Enter/Exit Full Screen";
-    "<ShortcutShowPreferences>" = "Show Preferences";
-    "<ShortcutShowSonosController>" = "Show Sonos Controller";
-    "<ShortcutShowMiniController>" = "Show Mini Controller";
-    "<ShortcutToggleMiniController>" = "Toggle Mini Controller";
+    "<ShortcutToggleFullScreen>" = "全画面表示/終了";
+    "<ShortcutShowPreferences>" = "設定を表示";
+    "<ShortcutShowSonosController>" = "Sonosコントローラを表示";
+    "<ShortcutShowMiniController>" = "ミニ コントローラを表示";
+    "<ShortcutToggleMiniController>" = "ミニコントローラの切り換え";
 
 /* Alarms */
 
-    "<AlarmAlarms>" = "Alarms";
-    "<AlarmsNoTimeTitle>" = "Current Time is Not Set";
-    "<AlarmsNoTimeText>" = "Before you can create an alarm, the current time must be set.";
-    "<AlarmsNoTimeButton>" = "Set Current Time";
-    "<AlarmsDialogTitle>" = "Alarms";
-    "<AlarmsTitle>" = "Manage Sonos Alarms";
-    "<AlarmHeaderWhere>" = "Where";
-    "<AlarmHeaderWhen>" = "When";
-    "<AlarmHeaderOn>" = "ON";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Current time: %1$@ - %2$@ %3$@";
-    "<AlarmEditButtonTitle>" = "Edit";
-    "<AlarmUnknownDevice>" = "No Room Selected";
+    "<AlarmAlarms>" = "アラーム";
+    "<AlarmsNoTimeTitle>" = "現在時刻が設定されていません";
+    "<AlarmsNoTimeText>" = "アラームを作成する前に、現在時刻を設定する必要があります。";
+    "<AlarmsNoTimeButton>" = "現在時刻の設定";
+    "<AlarmsDialogTitle>" = "アラーム";
+    "<AlarmsTitle>" = "Sonosアラームの管理";
+    "<AlarmHeaderWhere>" = "どこで";
+    "<AlarmHeaderWhen>" = "いつ";
+    "<AlarmHeaderOn>" = "オン";
+    "<AlarmDialogCurrentTimeFormat_3>" = "現在の時刻： %1$@ - %2$@ %3$@";
+    "<AlarmEditButtonTitle>" = "編集";
+    "<AlarmUnknownDevice>" = "部屋が選択されていません";
 
 /* Alarm Edit */
 
-    "<AlarmEditDialogTitle>" = "Edit Alarm";
-    "<AlarmAddDialogTitle>" = "Add Alarm";
-    "<AlarmEditAlarm>" = "Alarm";
-    "<AlarmEditTime>" = "Time";
-    "<AlarmEditZone>" = "Room";
-    "<AlarmEditMusic>" = "Music";
-    "<AlarmSelectMusicButton>" = "Select…";
-    "<AlarmEditSchedule>" = "Schedule";
-    "<AlarmEditScheduleOnceOnly>" = "Once Only";
-    "<AlarmEditScheduleMonday>" = "Monday";
-    "<AlarmEditScheduleTuesday>" = "Tuesday";
-    "<AlarmEditScheduleWednesday>" = "Wednesday";
-    "<AlarmEditScheduleThursday>" = "Thursday";
-    "<AlarmEditScheduleFriday>" = "Friday";
-    "<AlarmEditScheduleSaturday>" = "Saturday";
-    "<AlarmEditScheduleSunday>" = "Sunday";
-    "<AlarmEditVolume>" = "Volume";
-    "<AlarmEditDuration>" = "Duration";
-    "<AlarmEditDurationNoLimit>" = "No Limit";
-    "<AlarmEditIncludeText>" = "Include grouped rooms";
-    "<AlarmEditShuffleMusic>" = "Shuffle music";
+    "<AlarmEditDialogTitle>" = "アルバムを編集";
+    "<AlarmAddDialogTitle>" = "アラームの追加";
+    "<AlarmEditAlarm>" = "アラーム";
+    "<AlarmEditTime>" = "時間";
+    "<AlarmEditZone>" = "部屋";
+    "<AlarmEditMusic>" = "音楽";
+    "<AlarmSelectMusicButton>" = "選択…";
+    "<AlarmEditSchedule>" = "スケジュール";
+    "<AlarmEditScheduleOnceOnly>" = "1回のみ";
+    "<AlarmEditScheduleMonday>" = "月曜日";
+    "<AlarmEditScheduleTuesday>" = "火曜日";
+    "<AlarmEditScheduleWednesday>" = "水曜日";
+    "<AlarmEditScheduleThursday>" = "木曜日";
+    "<AlarmEditScheduleFriday>" = "金曜日";
+    "<AlarmEditScheduleSaturday>" = "土曜日";
+    "<AlarmEditScheduleSunday>" = "日曜日";
+    "<AlarmEditVolume>" = "音量";
+    "<AlarmEditDuration>" = "継続時間";
+    "<AlarmEditDurationNoLimit>" = "無制限";
+    "<AlarmEditIncludeText>" = "グループ化された部屋を含める";
+    "<AlarmEditShuffleMusic>" = "音楽のシャッフル";
 
-    "<AlarmMusicDialogTitle>" = "Alarm Music";
-    "<AlarmBrowseTitle>" = "Browse to alarm music";
-    "<AlarmSetMusicButton>" = "Set Alarm Music";
-    "<AlarmBrowseTopButtonTitle>" = "TOP";
-    "<AlarmSaveErrorSameTime>" = "Unable to save the alarm. There is already an alarm for this room at the specified time.";
-    "<AlarmSaveErrorTooManyAlarms>" = "No more alarms may be created. Please delete an existing alarm before adding a new one.";
-    "<AlarmSaveErrorOther>" = "Unable to save the alarm. Please try again later.";
+    "<AlarmMusicDialogTitle>" = "アラーム音楽";
+    "<AlarmBrowseTitle>" = "アラーム音楽の参照";
+    "<AlarmSetMusicButton>" = "アラーム音楽を設定";
+    "<AlarmBrowseTopButtonTitle>" = "トップ";
+    "<AlarmSaveErrorSameTime>" = "アラームを保存できません。指定した時間に鳴動するアラームがこの部屋にすでに存在します。";
+    "<AlarmSaveErrorTooManyAlarms>" = "これ以上アラームを作成できません。新しいアラームを追加する前に既存のアラームを削除してください。";
+    "<AlarmSaveErrorOther>" = "アラームを保存できません。しばらくしてから、もう一度お試しください。";
 
 
 /* Authorization */
 
-    "<EnterAdministratorAccountAndPassword>" = "Enter an administrator account and password";
+    "<EnterAdministratorAccountAndPassword>" = "管理者アカウントおよびパスワードを入力";
 
 
 /* Browse Panel */
 
-    "<BrowseHeaderTitle>" = "Select a Music Source";
-    "<BrowseMusicButton>" = "MUSIC";
-    "<BrowseMoreButtonTitle>" = "More";
+    "<BrowseHeaderTitle>" = "音楽ソースを選択";
+    "<BrowseMusicButton>" = "音楽";
+    "<BrowseMoreButtonTitle>" = "詳細";
 // %1$@ is what the user searched for. %2$@ is the search result category (Artist, Song, …)
-    "<BrowseEmptySearchResults_2>" = "Search returned no results for ‘%1$@’ in %2$@. Please try a different category or a new search term.";
+    "<BrowseEmptySearchResults_2>" = "%2$@で「%1$@」に対する検索結果が返されませんでした。別のカテゴリまたは新しい検索キーワードをお試しください。";
 // %1$@, Search result category (Artist, Song, …)
-    "<BrowseSearchResultsTitle_1>" = "Results: %1$@";
-    "<BrowseEmptyLibrary_1>" = "You haven’t added any music folders to your Sonos system yet.\nTo add music to Sonos, select %@ from the Manage menu.";
-    "<BrowseEmptyLibraryIndexing>" = "Indexing is currently in progress. Music will be available as soon as indexing completes.";
-    "<UnselectAll>" = "Unselect All";
+    "<BrowseSearchResultsTitle_1>" = "結果: %1$@";
+    "<BrowseEmptyLibrary_1>" = "音楽フォルダがSonosシステムにまだ追加されていません。\n音楽をSonosに追加するには、[管理]メニューから[%@]を選択します。";
+    "<BrowseEmptyLibraryIndexing>" = "現在インデックスの作成中です。インデックスの作成が完了すると、すぐに音楽をお楽しみになれます。";
+    "<UnselectAll>" = "すべて選択解除";
 
 /* Dock Menu */
 
-    "<DockShowSonosController>" = "Sonos Controller";
-    "<DockNoZonesFound>" = "No Rooms Found";
-    "<DockSwitchToZone>" = "Switch Room Group";
+    "<DockShowSonosController>" = "Sonosコントローラ";
+    "<DockNoZonesFound>" = "部屋が見つかりません";
+    "<DockSwitchToZone>" = "部屋グループの切り替え";
 // %1$@, Sonos device name
-    "<DockNowPlayingOn_1>" = "Now Playing on %1$@:";
-    "<DockRateThisTrack>" = "Rate This Song";
+    "<DockNowPlayingOn_1>" = "%1$@で再生中:";
+    "<DockRateThisTrack>" = "この曲を評価";
 
 
 /* Indexing */
 
-    "<IndexingFinishedSuccessMessage>" = "Indexing your music collection has now completed successfully.";
-    "<IndexingInProgressMessage>" = "Your music collection is now being indexed…";
+    "<IndexingFinishedSuccessMessage>" = "音楽コレクションのインデックス化が正しく完了しました。";
+    "<IndexingInProgressMessage>" = "ミュージック ライブラリのインデックスの作成中…";
 // %1$@, Reason why indexing the user's music collection failed.
-    "<IndexingFinishedError_1>" = "Indexing your music collection could not be completed.\n\n%1$@";
-    "<IndexingUpdateMusicLibraryTitle>" = "Update the Music Library";
-    "<IndexingUpdateMusicLibraryMessage>" = "This will update the Music Library of your Sonos system to match any changes you have made in iTunes or other shared music folders.\n\nDo you want to update the Music Library of your Sonos system now?";
+    "<IndexingFinishedError_1>" = "音楽コレクションのインデックス化を完了できませんでした。\n\n%1$@";
+    "<IndexingUpdateMusicLibraryTitle>" = "ミュージック ライブラリをアップデート";
+    "<IndexingUpdateMusicLibraryMessage>" = "この操作で、Sonosシステムのミュージック ライブラリがアップデートされて、iTunesまたは他の共有音楽フォルダでの変更内容が反映されます。\n\nSonosシステムのミュージック ライブラリを今すぐアップデートしますか?";
 
 
 /* Limited Connectivity */
 
-    "<LimitedConnectivityBlockedByFirewall_1>" = "Your computer’s firewall setting has changed. Your Sonos controller can no longer connect to your Sonos system.\nFor more information, go to %1$@\nClick the Configure Firewall button to adjust your firewall settings.";
-    "<LimitedConnectivityReset>" = "Your Sonos Controller has been reset.\nIt will restart shortly…";
-    "<LimitedConnectivityAboutMySonosSystem>" = "About My Sonos System";
-    "<LimitedConnectivityFirewallConfigure>" = "Configure Firewall";
-    "<LimitedConnectivityMoreOptions>" = "More Options…";
-    "<LimitedConnectivityResetController>" = "Reset Controller";
-    "<LimitedConnectivitySubmitDiagnostics>" = "Submit Diagnostics";
+    "<LimitedConnectivityBlockedByFirewall_1>" = "コンピュータのファイアウォール設定が変更されました。SonosコントローラがSonosシステムに接続できなくなりました。\n詳細については、%1$@ を参照してください。\nファイアウォールの設定を調整するには、[ファイアウォールの設定]ボタンをクリックします。";
+    "<LimitedConnectivityReset>" = "Sonosコントローラがリセットされました。\n間もなく再起動します…";
+    "<LimitedConnectivityAboutMySonosSystem>" = "Sonosシステムについて";
+    "<LimitedConnectivityFirewallConfigure>" = "ファイアウォールの設定";
+    "<LimitedConnectivityMoreOptions>" = "その他のオプション…";
+    "<LimitedConnectivityResetController>" = "コントローラをリセット";
+    "<LimitedConnectivitySubmitDiagnostics>" = "診断を送信";
 
 
 /* Configure firewall */
-    "<ConfigureFirewall_WindowTitle>" = "Configure Firewall";
-    "<ConfigureFirewall_Title>" = "Adjust Firewall Settings";
-    "<ConfigureFirewall_Info>" = "Sonos was not able to adjust your firewall settings automatically. Please do the following manual adjustment of your firewall settings:";
-    "<ConfigureFirewall_Instructions>" = "1. Click the Apple menu and select System Preferences…\n2. Click the Security icon in the System Preferences window\n3. Click the Firewall tab\n4. If necessary, click the lock icon to allow changes (type your username and password when prompted)\n5. Click the Advanced… button\n6. Uncheck the Block all incoming connections checkbox\n7. Find Sonos in the list below, and select Allow incoming connections\n8. Click OK\n9. Close the System Preferences window";
+    "<ConfigureFirewall_WindowTitle>" = "ファイアウォールの設定";
+    "<ConfigureFirewall_Title>" = "ファイアウォール設定の調整";
+    "<ConfigureFirewall_Info>" = "ファイアウォールの設定を自動的に調整できませんでした。以下の手順に従い、手動でファイアウォールの設定を調整してください。";
+    "<ConfigureFirewall_Instructions>" = "1。アップルメニューをクリックして[システム環境設定…]を選択します\n2。[システム環境設定]ウィンドウで[セキュリティ]アイコンをクリックします\n3。[ファイアウォール]タブをクリックします\n4。必要に応じて、変更を許可するために鍵のアイコンをクリックします（ユーザー名とパスワードを求められたら、それを入力します）\n5。[詳細]ボタンをクリックします\n6。[すべての受信接続をブロック]チェックボックスをオフにします\n7。下のリストからSonosを見つけ、[受信接続を許可]を選択します\n8。[OK]をクリックします\n9。[システム環境設定]ウィンドウを閉じます";
 /* Localizers: the first instance of this string in the instructions string above will be turned into a link
  * that will launch the System Preferences application. */
-    "<ConfigureFirewall_InstructionsLink>" = "System Preferences…";
+    "<ConfigureFirewall_InstructionsLink>" = "システム環境設定…";
 
 /* Music Sharing Setup */
 
-    "<MusicPathHomeFolder>" = "(home folder)";
-    "<ShareMigrationAlertTitle>" = "Music library update";
-    "<ShareMigrationAlertMessage>" = "To ensure playback from your music Library, Sonos needs to update the index of songs. This may take a couple of minutes.";
-    "<ShareMigrationAlertNowButton>" = "Update Now";
-    "<ShareMigrationAlertLaterButton>" = "Remind Me Later";
-    "<AuthorizationFailed>" = "Authorization failed.";
-    "<AbleToAddMusicSharesFailed>" = "Sonos was not able to start the music library server because your players are not compatible. Please check for updates.";
-    "<LocalHostNameFailed>" = "Sonos was not able to start the music library server because the computer name can't be read.";
+    "<MusicPathHomeFolder>" = "(ホーム フォルダ)";
+    "<ShareMigrationAlertTitle>" = "ミュージック ライブラリ アップデート";
+    "<ShareMigrationAlertMessage>" = "ミュージック ライブラリからの再生を行うためには、Sonosが歌のインデックスをアップデートする必要があります。これには数分かかる事があります。";
+    "<ShareMigrationAlertNowButton>" = "今すぐアップデート";
+    "<ShareMigrationAlertLaterButton>" = "後で通知する";
+    "<AuthorizationFailed>" = "認証に失敗しました。";
+    "<AbleToAddMusicSharesFailed>" = "プレイヤーの互換性がないため、Sonosは音楽ライブラリを開始できません。アップデートを確認してください。";
+    "<LocalHostNameFailed>" = "コンピューターの名前が読み込めないため、Sonosは音楽ライブラリを開始できません。";
 
 
 /* Now Playing Panel */
 
-    "<NowPlayingHeaderTitle>" = "NOW PLAYING";
-    "<NowPlayingLabel_Information>" = "Info & Options";
-    "<NowPlayingTrackDefaultLabel>" = "Song [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[No music selected]";
-    "<NowPlayingArtistDefaultLabel>" = "Artist";
-    "<NowPlayingAlbumDefaultLabel>" = "Album";
+    "<NowPlayingHeaderTitle>" = "再生中";
+    "<NowPlayingLabel_Information>" = "情報 & オプション";
+    "<NowPlayingTrackDefaultLabel>" = "曲[0/0]";
+    "<NowPlayingTrackDefaultString>" = "[音楽がありません]";
+    "<NowPlayingArtistDefaultLabel>" = "アーティスト";
+    "<NowPlayingAlbumDefaultLabel>" = "アルバム";
 
 
 /* Queue Panel */
 
-    "<QueueHeaderTitle>" = "QUEUE";
-    "<QueueHeaderTitleNotInUse>" = "(Not in Use)";
-    "<QueueEmpty>" = "The Queue is empty";
-    "<QueueClear>" = "Clear Queue";
-    "<QueueSave>" = "Save Queue";
-    "<QueueConfirmClearText>" = "Are you sure you want to clear the Queue?";
+    "<QueueHeaderTitle>" = "予約リスト";
+    "<QueueHeaderTitleNotInUse>" = "(未使用)";
+    "<QueueEmpty>" = "予約リストは空です。";
+    "<QueueClear>" = "予約リストをクリア";
+    "<QueueSave>" = "予約リストを保存";
+    "<QueueConfirmClearText>" = "予約リストをクリアしてもよろしいですか?";
 // %1$d, Number of tracks to remove.
-    "<QueueSaveWindowTitle>" = "Save Queue";
-    "<QueueSaveIntroText>" = "The Queue will be saved as a Sonos Playlist.";
-    "<QueuePlaylistNameText>" = "Enter a new playlist name:";
-    "<QueuePlaylistTableText>" = "Or select an existing Sonos Playlist to replace:";
-    "<QueueSaveErrorGeneric>" = "Unable to save the Queue.";
-    "<QueueSaveErrorNotEnoughRoom>" = "Sonos doesn't have enough free space left to save the queue.\nRemove old saved playlists or queues in other rooms, and try again.";
-    "<QueueSaveErrorMobileTracksNotSaved>" = "Songs from mobile devices cannot be stored in Sonos Playlists and were not saved.";
-    "<QueueSaveErrorAllMobileTracks>" = "The queue contains only songs from mobile devices. These songs cannot be saved to Sonos Playlists.";
+    "<QueueSaveWindowTitle>" = "予約リストを保存";
+    "<QueueSaveIntroText>" = "予約リストをSonosのプレイリストとして保存します。";
+    "<QueuePlaylistNameText>" = "新しいプレイリスト名を入力:";
+    "<QueuePlaylistTableText>" = "または、置換する既存のSonosプレイリストを選択します:";
+    "<QueueSaveErrorGeneric>" = "予約リストを保存できません。";
+    "<QueueSaveErrorNotEnoughRoom>" = "Sonosには予約リストを保存するのに十分な容量がありません。\nその他の部屋で保存した古いプレイリストまたは予約リストを削除してから、もう一度お試しください。";
+    "<QueueSaveErrorMobileTracksNotSaved>" = "モバイル デバイスからの曲は、Sonosプレイリストに保存することができなくて、保存されていませんでした。";
+    "<QueueSaveErrorAllMobileTracks>" = "この予約リストには、モバイル デバイスにある曲しか含まれていません。これらの曲は、Sonosプレイリストに保存できません。";
 
-    "<QueuePlaylistExistsWarningTitle>" = "Sonos Playlist Exists";
+    "<QueuePlaylistExistsWarningTitle>" = "Sonosプレイリストが存在します";
 // %1$@, the name of the pre-existing playlist
-    "<QueuePlaylistExistsWarningMessage_1>" = "A Sonos Playlist named “%1$@” already exists. Replacing it will overwrite its current contents.";
-    "<QueuePlaylistReplace>" = "Replace";
+    "<QueuePlaylistExistsWarningMessage_1>" = "“%1$@”という名前のSonosプレイリストがすでに存在します。 置き換えると現在のコンテンツが上書きされます。";
+    "<QueuePlaylistReplace>" = "置き換える";
 
 /* Search */
 
-    "<SearchRecentSearches>" = "Recent Searches";
-    "<SearchEmptyRecentSearches>" = "No Recent Searches";
-    "<SearchClearRecentSearches>" = "Clear Recent Searches";
+    "<SearchRecentSearches>" = "最近の検索";
+    "<SearchEmptyRecentSearches>" = "最近の検索がありません";
+    "<SearchClearRecentSearches>" = "最近の検索をクリア";
 
 
 /* Settings */
 
-    "<SettingsWindowTitle>" = "Preferences";
-    "<SettingsBasicSettingsTitle>" = "Basic";
+    "<SettingsWindowTitle>" = "設定";
+    "<SettingsBasicSettingsTitle>" = "ベーシック";
 // %1$@, Type of Sonos component (BRIDGE, DOCK, …)
 // $2$@, Text of hyperlink to the wizard
-    "<SettingsNoDevice_2>" = "You currently have no %1$@ in your Sonos system.\n\nTo add a %1$@, select %2$@\nfrom the menu bar.";
-    "<SettingsNoPlayers_1>" = "You currently have no Sonos Players in your Sonos system.\nYou need at least one Sonos player to play music.\n\nTo add a Sonos player, select %1$@ from the menu bar.";
-    "<SettingsNoPlayerLink>" = "Manage > Add a Player or SUB";
-    "<SettingsNoBoostLink>" = "Manage > Add a BOOST or BRIDGE";
-    "<SettingsNoAvailable_1>" = "No %1$@ Available";
-    "<SettingsComponentRoom>" = "Room";
+    "<SettingsNoDevice_2>" = "Sonosシステムには現在、%1$@がありません。\n\n%1$@を追加するには、メニュー バーから%2$@\nを選択します。";
+    "<SettingsNoPlayers_1>" = "Sonosシステムには現在、Sonosプレイヤーがありません。\n音楽を再生するには、少なくとも1台のSonosプレイヤーが必要です。\n\nSonosプレイヤーを追加するには、メニュー バーから[%1$@]を選択します。";
+    "<SettingsNoPlayerLink>" = "[管理] > [PlayerまたはSUBの追加]";
+    "<SettingsNoBoostLink>" = "[管理] > [BOOSTまたはBRIDGEの追加]";
+    "<SettingsNoAvailable_1>" = "%1$@を利用できません";
+    "<SettingsComponentRoom>" = "部屋";
     "<SettingsComponentDock>" = "DOCK";
     "<SettingsComponentBoost>" = "BOOST";
-    "<SettingsEqBass>" = "Bass";
-    "<SettingsEqTreble>" = "Treble";
-    "<SettingsEqBalance>" = "Balance";
+    "<SettingsEqBass>" = "低音";
+    "<SettingsEqTreble>" = "高音";
+    "<SettingsEqBalance>" = "バランス";
     "<SettingsEqPlus>" = "+";
     "<SettingsEqMinus>" = "-";
-    "<SettingsEqLeft>" = "L";
-    "<SettingsEqRight>" = "R";
-    "<SettingsEqMin>" = "Min";
-    "<SettingsEqMax>" = "Max";
-    "<SettingsEqLoudness>" = "Loudness";
-    "<SettingsEqReset>" = "Reset";
-    "<SettingsEqFixed>" = "Equalization settings are not available while a Sonos player’s Line-Out level is set to Fixed.\n\nChange the Line-Out level setting on the Basic tab to enable the EQ controls.";
-    "<SettingsAdvSettings>" = "Advanced Settings";
-    "<SettingsGeneral>" = "General";
-    "<SettingsUsage>" = "Improve Sonos";
-    "<SettingsServers>" = "Music Sources";
-    "<SettingsDateTime>" = "Date and Time Settings";
-    "<SettingsMusicLibrary>" = "Music Library Settings";
-    "<SettingsMusicService>" = "Service Settings";
-    "<SettingsServiceTitle>" = "My Service Accounts on Sonos";
-    "<SettingsServiceAnonymous>" = "<Anonymous>";
-    "<SettingsServiceLabs>" = "Visit Sonos Labs";
-    "<SettingsServiceAddTooltip>" = "Add a new service to your Sonos system";
-    "<SettingsServiceRemoveTooltip>" = "Remove the highlighted service";
-    "<SettingsServiceEditTooltip>" = "Edit the highlighted service";
-    "<SettingsServiceLabsTooltip>" = "Visit Sonos Labs to try out upcoming services on your Sonos system";
-    "<SettingsParentalControlsTitle>" = "Parental Controls";
-    "<SettingsExplicitFilteringEnabledText>" = "Explicit content filtering is enabled. Click the button below to allow explicit content to play on your Sonos system.\n\nNot all services support content filtering.";
-    "<SettingsExplicitFilteringDisabledText>" = "Explicit content filtering is disabled. Click the button below to prevent explicit content from playing on your Sonos system.\n\nNot all services support content filtering.";
-    "<SettingsExplicitFilteringEnableButtonTitle>" = "Turn Explicit Filtering On";
-    "<SettingsExplicitFilteringDisableButtonTitle>" = "Turn Explicit Filtering Off";
-    "<SettingsExplicitFilteringNoServices>" = "There are no music services on your Sonos system that support content filtering.";
-    "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "More Information";
+    "<SettingsEqLeft>" = "左";
+    "<SettingsEqRight>" = "右";
+    "<SettingsEqMin>" = "最小";
+    "<SettingsEqMax>" = "最大";
+    "<SettingsEqLoudness>" = "ラウドネス";
+    "<SettingsEqReset>" = "リセット";
+    "<SettingsEqFixed>" = "Sonosプレイヤーのラインアウト レベルを[固定]に設定している間は、イコライゼーションの設定は使用できません。\n\nEQコントロールを有効にするには、[ベーシック]タブのラインアウト レベルを変更します。";
+    "<SettingsAdvSettings>" = "詳細設定";
+    "<SettingsGeneral>" = "一般";
+    "<SettingsUsage>" = "Sonos製品品質の向上";
+    "<SettingsServers>" = "音楽ソース";
+    "<SettingsDateTime>" = "日付と時刻設定";
+    "<SettingsMusicLibrary>" = "ミュージック ライブラリ設定";
+    "<SettingsMusicService>" = "サービス設定";
+    "<SettingsServiceTitle>" = "Sonosのマイ サービス アカウント";
+    "<SettingsServiceAnonymous>" = "<匿名>";
+    "<SettingsServiceLabs>" = "Sonos Labsにアクセス";
+    "<SettingsServiceAddTooltip>" = "新しいサービスをSonosシステムに追加します";
+    "<SettingsServiceRemoveTooltip>" = "強調表示されているサービスを削除します";
+    "<SettingsServiceEditTooltip>" = "強調表示されているサービスを編集します";
+    "<SettingsServiceLabsTooltip>" = "Sonos Labsにアクセスして、Sonosシステムで今後登場する音楽サービスを試してみます";
+    "<SettingsParentalControlsTitle>" = "ペアレンタルコントロール";
+    "<SettingsExplicitFilteringEnabledText>" = "露骨なコンテンツ・フィルタリングは有効です。下のボタンをクリックすると、Sonosシステムで露骨なコンテンツを再生できます。\n\n全てのサービスがコンテンツ・フィルタリングをサポートしているわけではありません。";
+    "<SettingsExplicitFilteringDisabledText>" = "露骨なコンテンツ・フィルタリングは無効です。下のボタンを押すと、Sonosシステムで露骨なコンテンツは再生されません。\n\n全てのサービスがコンテンツ・フィルタリングをサポートしているわけではありません。";
+    "<SettingsExplicitFilteringEnableButtonTitle>" = "露骨なコンテンツ・フィルタリングを有効にする";
+    "<SettingsExplicitFilteringDisableButtonTitle>" = "露骨なコンテンツ・フィルタリングを無効にする";
+    "<SettingsExplicitFilteringNoServices>" = "お使いのSonosシステムでコンテンツ・フィルタリングの対象となる音楽サービスはありません。";
+    "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "詳細";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB On";
-    "<SettingsSubEqLevelAdjustment>" = "SUB Level";
-    "<SettingsSubEqPlacementAdjustment>" = "Placement Adjustment";
-    "<SettingsSubEqSpeakerSize>" = "Speaker Size (Crossover)";
-    "<SettingsTVDialogDelay>" = "Audio Delay (Lip Sync)";
-    "<SettingsSurroundEnabled>" = "Surrounds On";
-    "<SettingsSurroundLevel>" = "TV Level";
-    "<SettingsMusicSurroundLevel>" = "Music Level";
-    "<SettingsFolders>" = "Folders";
-    "<SettingsAdvanced>" = "Advanced";
-    "<SettingsLibraryAddTooltip>" = "Add a new folder to your Sonos system";
-    "<SettingsLibraryRemoveTooltip>" = "Remove the highlighted folder";
-    "<SettingsDeviceTitle_1>" = "%1$@ Settings for";
-    "<SettingsFor>" = "Settings for";
-    "<SettingsMusicPlayback>" = "Music Playback";
-    "<SettingsAmbient>" = "Ambient";
-    "<SettingsFull>" = "Full";
-    "<SettingsMusicPlaybackDescription>" = "During music playback, the surround speakers can supplement with subtle, ambient sound or louder, full range sound.";
-    "<SettingsSurroundBalanceLabel>" = "Balance";
-    "<SettingsSurroundBalanceButtonLabel>" = "Balance Surround Speakers";
-    "<SettingsSurroundBalanceDescription>" = "Manually balance your surround levels when Trueplay tuning is turned off.";
+    "<SettingsSubEqEnabled>" = "SUBオン";
+    "<SettingsSubEqLevelAdjustment>" = "SUBレベル";
+    "<SettingsSubEqPlacementAdjustment>" = "配置の調節";
+    "<SettingsSubEqSpeakerSize>" = "ｽﾋﾟｰｶｰ ｻｲｽﾞ (ｸﾛｽｵｰﾊﾞｰ)";
+    "<SettingsTVDialogDelay>" = "オーディオ遅延 (リップシンク)";
+    "<SettingsSurroundEnabled>" = "サラウンド オン";
+    "<SettingsSurroundLevel>" = "TVレベル";
+    "<SettingsMusicSurroundLevel>" = "音楽レベル";
+    "<SettingsFolders>" = "フォルダ";
+    "<SettingsAdvanced>" = "詳細";
+    "<SettingsLibraryAddTooltip>" = "新しいフォルダをSonosシステムに追加します";
+    "<SettingsLibraryRemoveTooltip>" = "強調表示されているフォルダを削除します";
+    "<SettingsDeviceTitle_1>" = "%1$@設定";
+    "<SettingsFor>" = "セッティングの対象";
+    "<SettingsMusicPlayback>" = "音楽再生";
+    "<SettingsAmbient>" = "アンビエント";
+    "<SettingsFull>" = "フル";
+    "<SettingsMusicPlaybackDescription>" = "音楽再生時には、サラウンド スピーカーがかすかな背景音または高音量のフルレンジサウンドを鳴らし、補完します。";
+    "<SettingsSurroundBalanceLabel>" = "バランス";
+    "<SettingsSurroundBalanceButtonLabel>" = "サラウンド スピーカーを調整";
+    "<SettingsSurroundBalanceDescription>" = "Trueplay調整がOFFになっている際に、サラウンドレベルを手動で調整します。";
 
 
 /* Transport Bar */
-    "<TransportOnState_1>" = "%1$@ is on";
-    "<TransportOffState_1>" = "%1$@ is off";
-    "<TransportMusicEq>" = "Music EQ";
+    "<TransportOnState_1>" = "%1$@がオン";
+    "<TransportOffState_1>" = "%1$@がオフ";
+    "<TransportMusicEq>" = "音楽EQ";
 
 
 /* Volume */
 
-    "<VolumeAdjustRoomVolumes>" = "Adjust Room Volumes";
-    "<VolumeFixedVolume>" = "Fixed Volume";
-    "<VolumeGroupVolume>" = "Group Volume";
+    "<VolumeAdjustRoomVolumes>" = "部屋の音量の調整";
+    "<VolumeFixedVolume>" = "固定音量";
+    "<VolumeGroupVolume>" = "グループ ボリューム";
 
 
 /* Zone/Rooms Grouping */
 
-    "<ZoneGroupingWindowTitle>" = "Group Rooms";
-    "<ZoneGroupingNoZonesSelected>" = "No Rooms Selected";
-    "<ZoneGroupingUnselectAllDevices>" = "Unselect All";
-    "<ZoneGroupingSelectAllDevices>" = "Select All - Party Mode";
-    "<ZoneGroupingSelectZonesToGroup>" = "Select rooms to group:";
-    "<ZoneGroupingSelectedZonesWillPlay>" = "Selected rooms will play:";
-    "<MultiMusicMessage>" = "Click Done to choose music";
-    "<MusicGroupingInstructions>" = "Choose music to play in selected rooms";
+    "<ZoneGroupingWindowTitle>" = "グループ部屋";
+    "<ZoneGroupingNoZonesSelected>" = "部屋が選択されていません";
+    "<ZoneGroupingUnselectAllDevices>" = "すべて選択解除";
+    "<ZoneGroupingSelectAllDevices>" = "すべてを選択 - パーティー モード";
+    "<ZoneGroupingSelectZonesToGroup>" = "グループに部屋を選択:";
+    "<ZoneGroupingSelectedZonesWillPlay>" = "選択された部屋が再生されます:";
+    "<MultiMusicMessage>" = "[完了]をクリックして音楽を選択";
+    "<MusicGroupingInstructions>" = "選択された部屋で再生する音楽を選択してください";
 
 /* Zone/Rooms Panel */
 
-    "<ZoneMenuHeaderTitle>" = "ROOMS";
-    "<ZoneMenuGroupZones>" = "Group";
-    "<ZoneMenuShowLess>" = "Show Less…";
+    "<ZoneMenuHeaderTitle>" = "部屋";
+    "<ZoneMenuGroupZones>" = "グループ";
+    "<ZoneMenuShowLess>" = "少なく表示…";
 // %1$d, Number of extra (non-visible devices)
-    "<ZoneMenuShowMore_1>" = "Show %1$d More…";
-    "<ZoneMenuPauseAll>" = "Pause All";
-    "<ZoneMenuPlayGroup>" = "Play Group";
+    "<ZoneMenuShowMore_1>" = "%1$d部屋をさらに表示…";
+    "<ZoneMenuPauseAll>" = "すべて一時停止";
+    "<ZoneMenuPlayGroup>" = "グループを再生";
 // %1$@, Sonos device name.
-    "<ZoneMenuPlay_1>" = "Play %1$@";
-    "<ZoneMenuPauseGroup>" = "Pause Group";
+    "<ZoneMenuPlay_1>" = "%1$@を再生";
+    "<ZoneMenuPauseGroup>" = "グループを一時停止";
 // %1$@, Sonos device name.
-    "<ZoneMenuPause_1>" = "Pause %1$@";
-    "<ZoneMenuStopGroup>" = "Stop Group";
+    "<ZoneMenuPause_1>" = "%1$@を一時停止";
+    "<ZoneMenuStopGroup>" = "グループを停止";
 // %1$@, Sonos device name.
-    "<ZoneMenuStop_1>" = "Stop %1$@";
+    "<ZoneMenuStop_1>" = "%1$@を停止";
 // %1$@, Sonos device name.
-    "<ZoneMenuMuteDevice_1>" = "Mute %1$@";
+    "<ZoneMenuMuteDevice_1>" = "%1$@をミュート";
 // %1$@, Sonos device name.
-    "<ZoneMenuUnmuteDevice_1>" = "Unmute %1$@";
-    "<ZoneMenuMuteGroup>" = "Mute Group";
-    "<ZoneMenuUnmuteGroup>" = "Unmute Group";
+    "<ZoneMenuUnmuteDevice_1>" = "%1$@のミュートを解除";
+    "<ZoneMenuMuteGroup>" = "グループをミュート";
+    "<ZoneMenuUnmuteGroup>" = "グループのミュートを解除";
 // %1$@, Sonos device name.
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
-    "<ZoneMenuSettings_1>" = "%1$@ Settings…";
-    "<ZoneMenuSelectToUpdate>" = "Select to Update…";
-    "<ZoneMenuSelectToConfigure>" = "Set up this speaker";
-    "<ZoneMenuSelectToRegister>" = "Register this speaker";
-    "<ZoneMenuConfirmPauseAll>" = "Are you sure you want to pause the music playing in all rooms?";
-    "<ZoneMenuPauseButton>" = "Pause";
+    "<ZoneMenuSettings_1>" = "%1$@設定…";
+    "<ZoneMenuSelectToUpdate>" = "選択してアップデートします…";
+    "<ZoneMenuSelectToSetUpDevice_1>" = "%1$sのセットアップの選択";
+    "<ZoneMenuConfirmPauseAll>" = "すべての部屋で音楽を一時停止してもよろしいですか?";
+    "<ZoneMenuPauseButton>" = "一時停止";
 
 
 
@@ -404,238 +403,238 @@
     "<MainWindowTitle>" = "Sonos";
 
     "<MenuTitle_Sonos>" = "Sonos";
-    "<MenuTitle_AboutSonos>" = "About My Sonos System";
-    "<MenuTitle_Preferences>" = "Preferences…";
-    "<MenuTitle_CheckForUpdates>" = "Check for Updates…";
-    "<MenuTitle_Uninstall>" = "Uninstall…";
-    "<MenuTitle_Services>" = "Services";
-    "<MenuTitle_HideSonos>" = "Hide Sonos";
-    "<MenuTitle_HideOthers>" = "Hide Others";
-    "<MenuTitle_ShowAll>" = "Show All";
-    "<MenuTitle_Quit>" = "Quit Sonos";
+    "<MenuTitle_AboutSonos>" = "Sonosについて";
+    "<MenuTitle_Preferences>" = "設定…";
+    "<MenuTitle_CheckForUpdates>" = "アップデートを確認…";
+    "<MenuTitle_Uninstall>" = "アンインストール…";
+    "<MenuTitle_Services>" = "サービス";
+    "<MenuTitle_HideSonos>" = "Sonosを隠す";
+    "<MenuTitle_HideOthers>" = "他を隠す";
+    "<MenuTitle_ShowAll>" = "すべて表示";
+    "<MenuTitle_Quit>" = "Sonosを終了";
 
-    "<MenuTitle_Edit>" = "Edit";
-    "<MenuTitle_Cut>" = "Cut";
-    "<MenuTitle_Copy>" = "Copy";
-    "<MenuTitle_Paste>" = "Paste";
-    "<MenuTitle_Delete>" = "Delete";
-    "<MenuTitle_SelectAll>" = "Select All";
-    "<MenuTitle_Search>" = "Search";
+    "<MenuTitle_Edit>" = "編集";
+    "<MenuTitle_Cut>" = "切り取り";
+    "<MenuTitle_Copy>" = "コピー";
+    "<MenuTitle_Paste>" = "貼り付け";
+    "<MenuTitle_Delete>" = "削除";
+    "<MenuTitle_SelectAll>" = "すべて選択";
+    "<MenuTitle_Search>" = "検索";
 
-    "<MenuTitle_View>" = "View";
+    "<MenuTitle_View>" = "表示";
 
-    "<MenuTitle_Manage>" = "Manage";
-    "<MenuTitle_AddPlayerOrSub>" = "Add a Player or SUB…";
-    "<MenuTitle_AddBoost>" = "Add a BOOST or BRIDGE…";
-    "<MenuTitle_MusicLibrarySettings>" = "Music Library Settings…";
-    "<MenuTitle_ServiceSettings>" = "Service Settings…";
-    "<MenuTitle_AddRadioStation>" = "Add Radio Station…";
-    "<MenuTitle_UpdateMusicLibraryNow>" = "Update Music Library Now";
-    "<MenuTitle_UpdatePlaylistsNow>" = "Update iTunes Playlists Now";
-    "<MenuTitle_UpdateAlbumArtNow>" = "Update Album Art Now";
+    "<MenuTitle_Manage>" = "管理";
+    "<MenuTitle_AddPlayerOrSub>" = "PlayerまたはSUBの追加…";
+    "<MenuTitle_AddBoost>" = "BOOSTまたはBRIDGEの追加…";
+    "<MenuTitle_MusicLibrarySettings>" = "ミュージック ライブラリ設定…";
+    "<MenuTitle_ServiceSettings>" = "サービス設定…";
+    "<MenuTitle_AddRadioStation>" = "ラジオ ステーションを追加…";
+    "<MenuTitle_UpdateMusicLibraryNow>" = "ミュージック ライブラリを今すぐアップデート";
+    "<MenuTitle_UpdatePlaylistsNow>" = "iTunes再生リストを今すぐアップデート";
+    "<MenuTitle_UpdateAlbumArtNow>" = "今すぐアルバム アートをアップデート";
 
-    "<MenuTitle_Window>" = "Window";
-    "<MenuTitle_Close>" = "Close";
-    "<MenuTitle_Minimize>" = "Minimize";
-    "<MenuTitle_Zoom>" = "Zoom";
-    "<MenuTitle_MainWindowName>" = "Sonos Controller";
-    "<MenuTitle_MiniWindowName>" = "Mini Controller";
-    "<MenuTitle_BringAllToFront>" = "Bring All to Front";
+    "<MenuTitle_Window>" = "ウィンドウ";
+    "<MenuTitle_Close>" = "閉じる";
+    "<MenuTitle_Minimize>" = "最小にする";
+    "<MenuTitle_Zoom>" = "ズーム";
+    "<MenuTitle_MainWindowName>" = "Sonosコントローラ";
+    "<MenuTitle_MiniWindowName>" = "ミニ コントローラ";
+    "<MenuTitle_BringAllToFront>" = "すべてをフロントに";
 
-    "<MenuTitle_Account>" = "My Sonos Account";
-    "<MenuTitle_Help>" = "Help";
-    "<MenuTitle_Shop>" = "Shop for Sonos Products";
-    "<MenuTitle_KeyboardShortcuts>" = "Keyboard Shortcuts";
-    "<MenuTitle_SonosSystemHelp>" = "Sonos System Help";
-    "<MenuTitle_FirewallHelp>" = "Help Configuring Firewall";
-    "<MenuTitle_TechSupportWebsite>" = "Technical Support Website";
-    "<MenuTitle_ErrorLog>" = "Error Log";
-    "<MenuTitle_BetaFeedback>" = "Submit Beta Feedback";
-    "<MenuTitle_SubmitDiagnostics>" = "Submit Diagnostics";
-    "<MenuTitle_Reset>" = "Reset Controller";
-    "<MenuTitle_ForgetHousehold>" = "Forget Current Sonos System";
+    "<MenuTitle_Account>" = "Sonosアカウント";
+    "<MenuTitle_Help>" = "ヘルプ";
+    "<MenuTitle_Shop>" = "Sonos製品ショップ";
+    "<MenuTitle_KeyboardShortcuts>" = "キーボード ショートカット";
+    "<MenuTitle_SonosSystemHelp>" = "Sonosシステム ヘルプ";
+    "<MenuTitle_FirewallHelp>" = "ファイアフォール設定のヘルプ";
+    "<MenuTitle_TechSupportWebsite>" = "テクニカル サポートWebサイト";
+    "<MenuTitle_ErrorLog>" = "エラー ログ";
+    "<MenuTitle_BetaFeedback>" = "ベータ版のフィードバックを送信";
+    "<MenuTitle_SubmitDiagnostics>" = "診断を送信";
+    "<MenuTitle_Reset>" = "コントローラをリセット";
+    "<MenuTitle_ForgetHousehold>" = "現在のSonosシステムが不明";
 
-    "<MenuTitle_CopyLinkAddress>" = "Copy Link";
+    "<MenuTitle_CopyLinkAddress>" = "リンクをコピー";
 
 /* SMNowPlayingFSViewController.xib */
 
-    "<BackButton>" = "Back";
+    "<BackButton>" = "戻る";
 
 
 /****************************************************************/
 /* Music Library/Share Setup Wizard                             */
 /****************************************************************/
 
-    "<Browse>" = "Browse";
-    "<Username>" = "Username:";
-    "<Password>" = "Password:";
-    "<Remove>" = "Remove";
+    "<Browse>" = "参照";
+    "<Username>" = "ユーザー名:";
+    "<Password>" = "パスワード:";
+    "<Remove>" = "削除";
 
-    "<Music_Folder>" = "Folder";
-    "<Music_Path>" = "Path";
+    "<Music_Folder>" = "フォルダ";
+    "<Music_Path>" = "パス";
 
 /* Open Panel (runs from the Browse… button) */
 /* title of the Open Panel */
-    "<OpenPanelTitle>" = "Add Music Folder";
+    "<OpenPanelTitle>" = "音楽フォルダを追加";
 /* title for the OK button */
-    "<OpenPanelButton>" = "Choose";
+    "<OpenPanelButton>" = "選択";
 
 /* message to show in the Open Panel (may not appear in running app yet) */
-    "<OpenPanelText>" = "Choose a folder containing music";
+    "<OpenPanelText>" = "音楽があるフォルダを選択";
 
-    "<Service_Name>" = "Service Name";
-    "<Service_Login>" = "Account Login";
-    "<Service_Nickname>" = "Name";
+    "<Service_Name>" = "サービス名";
+    "<Service_Login>" = "アカウント ログイン";
+    "<Service_Nickname>" = "名前";
 
-    "<Shares_Indexing>" = "Updating Music Library…\nPlease wait.";
+    "<Shares_Indexing>" = "ミュージック ライブラリのアップデート中…\n少々お待ちください。";
 
-    "<ShareWizard_MusicStart_Title>" = "Music library setup";
-    "<ShareWizard_MusicStart_Body1>" = "The Setup Assistant will now help you add your music to the Music Library of your Sonos system.";
-    "<ShareWizard_MusicStart_Body2>" = "You can add music from folders on this computer, or folders on your network (such as on an Apple Time Capsule or NAS drive) that are already configured for sharing.";
-    "<ShareWizard_MusicStart_Yes_Option>" = "Set up my music";
-    "<ShareWizard_MusicStart_No_Option>" = "Not now";
+    "<ShareWizard_MusicStart_Title>" = "ミュージック ライブラリ設定";
+    "<ShareWizard_MusicStart_Body1>" = "セットアップ アシスタントを使用して、Sonosシステムの音楽ライブラリに音楽を追加できます。";
+    "<ShareWizard_MusicStart_Body2>" = "このコンピューターのフォルダまたはすでに共有するように設定されているネットワークのフォルダ（Apple Time CapsuleやNASドライブなど）から音楽を追加できます。";
+    "<ShareWizard_MusicStart_Yes_Option>" = "音楽のセットアップ";
+    "<ShareWizard_MusicStart_No_Option>" = "今はしない";
 
-    "<ShareWizard_MusicSelect_Title>" = "Add music folder";
-    "<ShareWizard_MusicSelect_Body1>" = "Where is the music you'd like to play on Sonos?";
-    "<ShareWizard_MusicSelect_Input1>" = "My Music folder";
-    "<ShareWizard_MusicSelect_Input2>" = "Another folder or a drive connected to my computer";
-    "<ShareWizard_MusicSelect_Input3>" = "Networked device (ex. NAS drive)";
+    "<ShareWizard_MusicSelect_Title>" = "音楽フォルダを追加";
+    "<ShareWizard_MusicSelect_Body1>" = "Sonosで再生したい音楽の場所";
+    "<ShareWizard_MusicSelect_Input1>" = "「マイミュージック」フォルダー";
+    "<ShareWizard_MusicSelect_Input2>" = "コンピュータに接続された別のフォルダーまたはドライブ";
+    "<ShareWizard_MusicSelect_Input3>" = "ネットワークデバイス(外付NASドライブ)";
 
-    "<ShareWizard_MusicSelect_NAS_Title>" = "Add music from your networked share";
-    "<ShareWizard_MusicSelect_NAS_Body1>" = "Type the path to your networked share:";
-    "<ShareWizard_MusicSelect_NAS_Body2>" = "Examples:\n\\\\MyOtherComputer\\Shared\\Music\n\\\\MyNetworkedStorage\\Shared\\Music";
-    "<ShareWizard_MusicSelect_External_Title>" = "Add music from your computer or external drive";
-    "<ShareWizard_MusicSelect_External_Body1>" = "Click browse to choose a folder that contains music:";
+    "<ShareWizard_MusicSelect_NAS_Title>" = "ネットワーク共有から音楽を追加";
+    "<ShareWizard_MusicSelect_NAS_Body1>" = "ネットワーク共有へのパスを入力してください:";
+    "<ShareWizard_MusicSelect_NAS_Body2>" = "例:\n\\\\他のマイコンピュータ\\共有\\ミュージック\n\\\\マイネットワークストレージ\\共有\\ミュージック";
+    "<ShareWizard_MusicSelect_External_Title>" = "コンピューターまたは外部ドライブから音楽を追加";
+    "<ShareWizard_MusicSelect_External_Body1>" = "[参照]をクリックして、音楽が保存されているフォルダを選択します:";
 
-    "<ShareWizard_AdjustSharing_Title>" = "Adjust file sharing settings";
-    "<ShareWizard_AdjustSharing_Body1>" = "In order for your Sonos system to play music from this computer, file sharing settings need to be adjusted.";
+    "<ShareWizard_AdjustSharing_Title>" = "ファイル共有設定を調整";
+    "<ShareWizard_AdjustSharing_Body1>" = "Sonosシステムがこのコンピューターの音楽を再生するには、ファイル共有設定を調整する必要があります。";
 
-    "<ShareWizard_AdminPassword_Body2>" = "To do this, you first need to enter the administrator’s name and password for this computer.";
-    "<ShareWizard_AdminPassword_Button>" = "Click the lock to enter the administrator's information.";
-    "<ShareWizard_AdminPassword_Button_Alt>" = "Authenticating…";
-    "<ShareWizard_AdminPassword_PasswordPrompt>" = "Please enter the administrator’s name and password for this computer:";
+    "<ShareWizard_AdminPassword_Body2>" = "そのためには、このコンピューターの管理者のユーザー名とパスワードを入力する必要があります。";
+    "<ShareWizard_AdminPassword_Button>" = "管理者情報を入力するには、ロックをクリックしてください。";
+    "<ShareWizard_AdminPassword_Button_Alt>" = "認証中…";
+    "<ShareWizard_AdminPassword_PasswordPrompt>" = "このコンピューターの管理者のユーザー名とパスワードを入力してください:";
 
-    "<ShareWizard_SleepSetAsk_Title>" = "Adjust Energy Saver settings";
-    "<ShareWizard_SleepSetAsk_Body1>" = "In order for your Sonos system to play music from this computer without interruption, energy saver settings on your computer need to be adjusted.";
-    "<ShareWizard_SleepSetAsk_Body2>" = "Without these changes, music on this computer may not always play on your Sonos system.";
-    "<ShareWizard_SleepSetAsk_Input>" = "Adjust settings";
-    "<ShareWizard_SleepSetAsk_Not_Now>" = "Not now";
+    "<ShareWizard_SleepSetAsk_Title>" = "省エネ設定の調整";
+    "<ShareWizard_SleepSetAsk_Body1>" = "Sonosシステムがこのコンピューターの音楽を中断なく再生するには、コンピューターの省エネ設定を調整する必要があります。";
+    "<ShareWizard_SleepSetAsk_Body2>" = "これらを変更しないと、このコンピューターの音楽のSonosシステムでの再生が中断する可能性があります。";
+    "<ShareWizard_SleepSetAsk_Input>" = "設定の調整";
+    "<ShareWizard_SleepSetAsk_Not_Now>" = "今はしない";
 
-    "<ShareWizard_NasPassword_Title>" = "Username and password";
-    "<ShareWizard_NasPassword_Body1>" = "Please enter the username and password for the network drive containing your music:";
+    "<ShareWizard_NasPassword_Title>" = "ユーザー名とパスワード";
+    "<ShareWizard_NasPassword_Body1>" = "音楽が保存されているネットワーク ドライブのユーザー名とパスワードを入力してください:";
 
-    "<ShareWizard_Adding_Body1>" = "Adding share information to Sonos system.";
+    "<ShareWizard_Adding_Body1>" = "共有情報のSonosシステムへの追加。";
 
-    "<ShareWizard_MusicList_Title>" = "My music folders on Sonos";
+    "<ShareWizard_MusicList_Title>" = "Sonosのマイ音楽フォルダ";
 
-    "<ShareWizard_RemoveCheck_Body1>" = "Do you really want to remove the selected folder?";
+    "<ShareWizard_RemoveCheck_Body1>" = "選択したフォルダを削除しますか?";
 
-    "<ShareWizardErrorTitle>" = "Sonos was unable to add the music folder";
+    "<ShareWizardErrorTitle>" = "音楽フォルダを追加できませんでした";
 
-    "<ShareWizard_SleepSet_Title>" = "Adjust sleep settings";
-    "<ShareWizard_SleepSet_Body1>" = "Sonos was not able to adjust your computer’s sleep settings. To ensure uninterrupted play of music stored on your computer, please do the following:";
-    "<ShareWizard_SleepSet_Steps>" = "1. Click the Energy Saver icon in \"System Preferences\" from the Apple menu\n2. Set the Computer sleep slider to \"Never\"\n3. Close the System Preferences window\n4. Click the \"Next\" button below to continue.";
+    "<ShareWizard_SleepSet_Title>" = "スリープ設定を調整する";
+    "<ShareWizard_SleepSet_Body1>" = "コンピューターのスリープ設定を調整できませんでした。コンピューターに保存されている音楽を中断なしで再生できるようにするには、次の操作を実行します。";
+    "<ShareWizard_SleepSet_Steps>" = "1。Appleメニューの[システム環境設定]の省エネ アイコンをクリックします\n2。コンピューターをスリープ状態にする時間のスライダーを[なし]に設定します\n3。[システム環境設定]ウィンドウを閉じます\n4。下の[次へ]ボタンを押して続行します";
 
-    "<ShareWizard_SystemPrefs_Title>" = "System preferences open";
-    "<ShareWizard_SystemPrefs_Message>" = "Please close the System Preferences window so that your computer’s sleep settings can be changed";
-    "<ShareWizard_InvalidPath_Empty>" = "The path is empty.";
-    "<ShareWizard_InvalidPath_NotAllowed>" = "The path is not allowed.";
-    "<ShareWizard_InvalidPath_NotExist>" = "The path does not exist.";
-    "<ShareWizard_InvalidPath_NotDirectory>" = "The path is not a folder.";
-    "<ShareWizard_InvalidPath_TooManyNotes>" = "The path contains too many files.";
-    "<ShareWizard_InvalidPath_Message>" = "Please type a valid path for your music share.";
-    "<ShareWizard_NotLocalPath_Title>" = "Network path selected";
-    "<ShareWizard_NotLocalPath_Message>" = "You cannot select a folder on the network to be shared.\n\nPlease select a folder that is on this computer, or on an external hard drive connected to this computer.\n\nTo select a folder that is shared on your network, click Back and choose \"On a networked device…\".";
-    "<ShareWizard_NotLocalPathBrowse_Message>" = "You cannot select a folder on the network to be shared.\n\nPlease select a folder that is on this computer, or on an external hard drive connected to this computer.\n\nTo select a folder that is shared on your network, click Cancel on the file browser, then click Back and choose \"On a networked device…\".";
+    "<ShareWizard_SystemPrefs_Title>" = "システム環境設定が開いています";
+    "<ShareWizard_SystemPrefs_Message>" = "コンピューターのスリープ設定を変更できるようにするため、[システム環境設定]ウィンドウを閉じてください。";
+    "<ShareWizard_InvalidPath_Empty>" = "パスが空です。";
+    "<ShareWizard_InvalidPath_NotAllowed>" = "パスが許可されていません。";
+    "<ShareWizard_InvalidPath_NotExist>" = "パスが存在しません。";
+    "<ShareWizard_InvalidPath_NotDirectory>" = "パスがフォルダではありません。";
+    "<ShareWizard_InvalidPath_TooManyNotes>" = "パスに含まれるファイルが多すぎます。";
+    "<ShareWizard_InvalidPath_Message>" = "音楽共有への有効なパスを入力してください。";
+    "<ShareWizard_NotLocalPath_Title>" = "ネットワーク パスが選択されました";
+    "<ShareWizard_NotLocalPath_Message>" = "共有フォルダとして、ネットワーク上のフォルダを選択できません。\n\nこのコンピューターにあるフォルダ、またはこのコンピューターに接続された外部ハードドライブにあるフォルダを選択してください。\n\nネットワークで共有されているフォルダを選択するには、ファイルブラウザで[キャンセル]をクリックし、次に[戻る]をクリックして、[ネットワーク上のネットワーク接続ストレージ(NAS)などのネットワーク機器]を選択します。";
+    "<ShareWizard_NotLocalPathBrowse_Message>" = "共有フォルダとして、ネットワーク上のフォルダを選択できません。\n\nこのコンピューターにあるフォルダ、またはこのコンピューターに接続された外部ハードドライブにあるフォルダを選択してください。\n\nネットワークで共有されているフォルダを選択するには、ファイルブラウザで[キャンセル]をクリックし、次に[戻る]をクリックして、[ネットワーク上のネットワーク接続ストレージ(NAS)などのネットワーク機器]を選択します。";
 
-    "<ShareWizard_Complete_Title>" = "Music library setup";
+    "<ShareWizard_Complete_Title>" = "ミュージック ライブラリ設定";
 // %1$@, Label of the button on the wizard to continue with.
-    "<ShareWizard_Complete_Body1_Fmt_1>" = "\"%1$@\" is now set up on your Sonos system.";
-    "<ShareWizard_Complete_Body2>" = "Your music is now being added to your Sonos system. This may take several minutes to complete.";
+    "<ShareWizard_Complete_Body1_Fmt_1>" = "\"%1$@\"がSonosシステムに設定されました。";
+    "<ShareWizard_Complete_Body2>" = "音楽をSonosシステムに追加します。この処理の完了には数分かかる場合があります。";
 
-    "<ShareWizard_SleepSettingsError_Title>" = "Sleep settings changes have not been made.";
-    "<ShareWizard_SleepSettingsError_Body>" = "Without these changes your music on this computer may not always play on your Sonos system.\n\nAre you sure you want to continue without making these changes?";
+    "<ShareWizard_SleepSettingsError_Title>" = "スリープ設定が変更されていません。";
+    "<ShareWizard_SleepSettingsError_Body>" = "これらの変更を行わないと、このコンピューター上にある音楽がSonosシステムで再生されない可能性があります。\n\nこれらの変更を行わずに続行してもよろしいですか?";
 
     "<Wizard_TextFieldLabel_Fmt_1>" = "%1$@:";
 
 /* Errors that can happen during share Adding */
-    "<NoLocalPathsCanBeAdded>" = "No paths could be added as a share.";
+    "<NoLocalPathsCanBeAdded>" = "パスを共有として追加できませんでした";
 
-    "<ShareWizard_ShareFailedTitle>" = "Shared folder not added";
-    "<ShareWizard_LionVolumeFormatError>" = "The shared folder on this drive can't be added, because it is formatted using an unsupported file system.\n\nIn this version of OS X, Sonos can only share folders on external drives formatted using the HFS+ file system.";
-    "<ShareWizard_FirewallConnectionBlocked>" = "Connection is blocked by your computer’s firewall options.";
+    "<ShareWizard_ShareFailedTitle>" = "共有フォルダが追加されていません";
+    "<ShareWizard_LionVolumeFormatError>" = "このドライブの共有フォルダは、サポートしていないファイルシステムでフォーマットされているため、追加できません。\n\nこのOS Xのバージョンでは、SonosはHFS+ファイルシステムでフォーマットされた外部ドライブ上のフォルダのみを共有できます。";
+    "<ShareWizard_FirewallConnectionBlocked>" = "あなたのコンピューターのファイアウォール オプションにより接続がブロックされました。";
 
-    "<ControllerUpdateWizard_Title>" = "Update progress";
-    "<ControllerUpdateWizard_ErrorTitle>" = "Update failed";
-    "<ControllerUpdateWizard_Downloading>" = "Updating controller: downloading";
-    "<ControllerUpdateWizard_Installing>" = "Updating controller: installing";
+    "<ControllerUpdateWizard_Title>" = "アップデート進行度";
+    "<ControllerUpdateWizard_ErrorTitle>" = "アップデート失敗";
+    "<ControllerUpdateWizard_Downloading>" = "コントローラのアップデート：ダウンロード中";
+    "<ControllerUpdateWizard_Installing>" = "コントローラのアップデート：インストール中";
 
-    "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "The Sonos controller installer failed to download.\n\nError code %1$ld";
-    "<ControllerUpdateWizard_InstallFailed_Message>" = "The Sonos controller update failed.\n\nAn unexpected error occurred. Please try again.";
+    "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Sonosコントローラー インストーラーは、ダウンロードに失敗しました。\n\nエラーコード%1$ld";
+    "<ControllerUpdateWizard_InstallFailed_Message>" = "Sonosコントローラのアップデートに失敗しました。\n\n予期せぬエラーが発生しました。もう一度お試しください。";
 
 
 /****************************************************************/
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "Configuring player";
-    "<AuthorizationWizard_Body>" = "To optimize setup, Sonos will establish a direct wireless connection between this computer and your new Sonos player. To allow this, please enter the administrator’s name and password for this computer.\n\nNOTE: If you don’t have this information, you will need to temporarily wire your player to your router to complete setup.";
-    "<AuthorizationWizard_Button>" = "I don't have this information";
+    "<AuthorizationWizard_Title>" = "プレイヤーの構成";
+    "<AuthorizationWizard_Body>" = "設定を最適化するため、Sonosにより、このコンピューターと新しいSonosプレイヤーが直接ワイヤレスで接続されます。接続を許可するため、このコンピューターの管理者のユーザー名とパスワードを入力してください。\n\n注:この情報がない場合は、プレイヤーを一時的にルーターに有線接続して、設定を完了する必要があります。";
+    "<AuthorizationWizard_Button>" = "この情報がありません";
 
 /****************************************************************/
 /* SELF_INSTALLER                                               */
 /****************************************************************/
 
 // Initial message
-    "<InstallerInstallSonosSubtitle>" = "Install Sonos";
-    "<InstallerInstallSonosBody>" = "Installing controller";
+    "<InstallerInstallSonosSubtitle>" = "Sonosのインストール";
+    "<InstallerInstallSonosBody>" = "コントローラのインストール";
 // Uninstall message
-    "<InstallerUninstallSonosSubtitle>" = "Uninstall Sonos";
-    "<InstallerUninstallSonosBody>" = "Uninstalling controller";
+    "<InstallerUninstallSonosSubtitle>" = "Sonosのアンインストール";
+    "<InstallerUninstallSonosBody>" = "コントローラのアンインストール";
 // %1$@, Application's directory name
-    "<InstallerInstallMessage_1>" = "Sonos will copy itself to the %1$@ folder (or another folder of your choice), and launch from that location.";
-    "<InstallerChooseLocationTitle>" = "Choose install location for Sonos";
+    "<InstallerInstallMessage_1>" = "Sonosは%1$@フォルダ（または任意の別のフォルダ）に自分自身をコピーし、その場所から起動します。";
+    "<InstallerChooseLocationTitle>" = "Sonosのインストール先を選択してください";
 
 // Error message
-    "<InstallerNewerVersionSubtitle>" = "Newer version already installed";
+    "<InstallerNewerVersionSubtitle>" = "新しいバージョンが既にインストールされています";
 // %1$@, Sonos application directory
-    "<InstallerNewerVersionMessage_1>" = "You already have a newer version of the Sonos controller installed in %1$@.\n\nDo you want to replace it with this older version?";
-    "<InstallerSameVersionSubtitle>" = "Same version already installed";
+    "<InstallerNewerVersionMessage_1>" = "新しいバージョンのSonosコントローラが既に%1$@にインストールされています。\n\nこの古いバージョンと置き換えてもよろしいですか?";
+    "<InstallerSameVersionSubtitle>" = "同じバージョンが既にインストールされています";
 // %1$@, Sonos application directory 
-    "<InstallerSameVersionMessage_1>" = "You already have this version of the Sonos controller installed in %1$@.\n\nDo you want to install it anyway?";
-    "<InstallerBadPermissionSubtitle>" = "Not authorized to install Sonos";
+    "<InstallerSameVersionMessage_1>" = "同じバージョンのSonosコントローラが既に%1$@にインストールされています。\n\nそれでもインストールしますか?";
+    "<InstallerBadPermissionSubtitle>" = "Sonosをインストールする権限がありません";
 // %1$@, Sonos application directory
-    "<InstallerBadPermissionMessage_1>" = "The installation could not be completed because you are not authorized to install the Sonos controller in %1$@.\n\nPlease check your permissions or choose a different folder.";
-    "<InstallerUnexpectedErrorSubtitle>" = "Sonos update failed";
-    "<InstallerUnexpectedErrorMessage>" = "An unexpected error occurred. Please try again.";
-    "<UninstallerSubtitle>" = "Uninstall Sonos";
-    "<UninstallerMessage>" = "If you uninstall the Sonos controller, any music on this computer that has been shared with Sonos will no longer be accessible by your Sonos system.\n\nDo you want to continue and uninstall?";
+    "<InstallerBadPermissionMessage_1>" = "Sonosコントローラの%1$@へのインストールが許可されていないため、インストールを完了できませんでした。\n\nアクセス権をご確認になるか、別のフォルダを選択してください。";
+    "<InstallerUnexpectedErrorSubtitle>" = "Sonosアップデートに失敗しました";
+    "<InstallerUnexpectedErrorMessage>" = "予期せぬエラーが発生しました。もう一度お試しください。";
+    "<UninstallerSubtitle>" = "Sonosのアンインストール";
+    "<UninstallerMessage>" = "Sonosコントローラをアンインストールすると、このコンピューター上のSonosと共有されているすべての音楽に、Sonosシステムがアクセスできなくなります。\n\nこのまま続行して、アンインストールしてもよろしいですか?";
 
 // Buttons
-    "<InstallerChooseFolderButton>" = "Choose folder…";
+    "<InstallerChooseFolderButton>" = "フォルダを選択してください…";
 // %1$@, Application's directory name
-    "<InstallerCopyToApplicatonButton_1>" = "Copy to %1$@";
-    "<InstallerInstallButton>" = "Install";
-    "<InstallerReplaceButton>" = "Replace";
+    "<InstallerCopyToApplicatonButton_1>" = "%1$@にコピー";
+    "<InstallerInstallButton>" = "インストール";
+    "<InstallerReplaceButton>" = "置き換える";
 
 // Unused (will be used)
 // %1$@, Sonos application name
-    "<InstallerSonosRunningSubtitle_1>" = "Problem Updating the %1$@ Controller";
-    "<InstallerSonosRunningMessage>" = "Please try restarting the controller and checking for updates again.";
+    "<InstallerSonosRunningSubtitle_1>" = "%1$@コントローラの更新問題";
+    "<InstallerSonosRunningMessage>" = "コントローラを再起動し、アップデートを再確認してください。";
 // %1$@, Sonos application name
-    "<InstallerSonosRunningAnotherUserSubtitle_1>" = "%1$@ is currently running from another account";
-    "<InstallerSonosRunningAnotherUserMessage>" = "The Sonos controller is currently running from another user account on your computer.\n\nPlease quit the Sonos controller from the other account before installing.";
-    "<InstallerUnableToUninstallSubtitle>" = "Could Not Uninstall Old Version";
+    "<InstallerSonosRunningAnotherUserSubtitle_1>" = "%1$@が別のアカウントで現在実行されています";
+    "<InstallerSonosRunningAnotherUserMessage>" = "Sonosコントローラは現在、このコンピューターの別のユーザーアカウントで実行されています。\n\nインストールを開始する前に、別のアカウントで実行しているSonosコントローラを終了してください。";
+    "<InstallerUnableToUninstallSubtitle>" = "古いバージョンをアンインストールできませんでした";
 // %1$@, Sonos application name
-    "<InstallerUnableToUninstallMessage_1>" = "The installer had trouble moving the old version of %1$@ to the trash.\n\nPlease move the old %1$@ to the trash.";
-    "<InstallerUnableToVerifySubtitle>" = "Problem with update";
-    "<InstallerUnableToVerifyMessage>" = "There is a problem with the update for your Sonos controller.\n\nPlease try downloading the update again.";
+    "<InstallerUnableToUninstallMessage_1>" = "インストーラが古いバージョンの%1$@をゴメ箱に移動できません。\n\n古い%1$@をゴミ箱に移動してください。";
+    "<InstallerUnableToVerifySubtitle>" = "アップデートの問題";
+    "<InstallerUnableToVerifyMessage>" = "Sonosコントローラのアップデートに問題があります。\n\nアップデートをもう一度ダウンロードしてください。";
 
 /****************************************************************/
 /* UnINSTALLER                                                    */
 /****************************************************************/
     "<UninstallOtherAppTitle>" = "Sonos";
-    "<UninstallOtherAppMessage>" = "There are other copies of the Sonos controller running. Please quit them before uninstalling.";
+    "<UninstallOtherAppMessage>" = "Sonosコントローラの別のコピーが実行中です。アンインストールを行う前に、終了してください。";
 
 /****************************************************************/
 /* INSTALLER                                                    */
@@ -644,56 +643,56 @@
 /* Installer App Delegate */
 
 /* Error dialog when the user quits before the install has finished */
-    "<InstallerNotFinishedErrorTitle>" = "Installation hasn't finished.";
-    "<InstallerNotFinishedErrorContinueButton>" = "Return to Installation";
-    "<InstallerNotFinishedErrorText>" = "Installation of the Sonos controller has not finished. If you quit now, the Sonos controller will not be ready for use.";
+    "<InstallerNotFinishedErrorTitle>" = "インストールは終了していません。";
+    "<InstallerNotFinishedErrorContinueButton>" = "インストールに戻る";
+    "<InstallerNotFinishedErrorText>" = "Sonosコントローラのインストールは終了していません。ここで終了すると、Sonosコントローラを使用することはできません。";
 
 /* Error dialog when the DCR is currently running */
-    "<InstallerDCRRunningErrorTitle>" = "The Sonos controller is currently running.";
-    "<InstallerDCRRunningErrorContinueButton>" = "Continue";
-    "<InstallerDCRRunningErrorCancelButton>" = "Cancel Installation";
-    "<InstallerDCRRunningErrorText>" = "Installation cannot continue while the Sonos Controller is running. Please quit it and then press Continue.";
+    "<InstallerDCRRunningErrorTitle>" = "Sonosコントローラは現在実行中です。";
+    "<InstallerDCRRunningErrorContinueButton>" = "続ける";
+    "<InstallerDCRRunningErrorCancelButton>" = "インストールのキャンセル";
+    "<InstallerDCRRunningErrorText>" = "Sonosコントローラの実行中は、インストールを続行できません。終了してから、[続行]を押してください。";
 
 /* Download Pane, Stage Titles and More Info */
 
 /* Pane title */
-    "<InstallerDownloadPaneTitle>" = "Download";
+    "<InstallerDownloadPaneTitle>" = "ダウンロード";
 
 /* Checking for latest vesrion */
-    "<InstallerCheckingStageTitle>" = "Checking for latest version…";
+    "<InstallerCheckingStageTitle>" = "最新バージョンの確認中…";
 
 /* Downloading */
-    "<InstallerDownloadingStageTitle>" = "Downloading…";
+    "<InstallerDownloadingStageTitle>" = "ダウンロード中…";
 
 /* Preparing */
-    "<InstallerPreparingStageTitle>" = "Preparing…";
+    "<InstallerPreparingStageTitle>" = "準備中…";
 
 /* When the user already has a current version intalled */
-    "<InstallerNotNecessaryStageTitle>" = "No Installation Necessary";
-    "<InstallerNotNecessaryMoreInfo_1>" = "You already have the latest version installed at:\n%1$@";
+    "<InstallerNotNecessaryStageTitle>" = "インストールの必要はありません";
+    "<InstallerNotNecessaryMoreInfo_1>" = "最新バージョンがすでにインストールされています:\n%1$@";
 
 /* The download and preparing has finished and is ready to install */
-    "<InstallerReadyStageTitle>" = "Ready to Install";
-    "<InstallerReadyMoreInfo>" = "Click Continue to proceed.";
+    "<InstallerReadyStageTitle>" = "インストールできます";
+    "<InstallerReadyMoreInfo>" = "実行するには[続ける]をクリックしてください。";
 
 /* Error */
 
 /* Generic Error */
-    "<InstallerOtherErrorTitle>" = "Installation Error";
-    "<InstallerOtherErrorQuitButton>" = "Quit";
-    "<InstallerOtherErrorText>" = "The Installer is unable to continue";
+    "<InstallerOtherErrorTitle>" = "インストール エラー";
+    "<InstallerOtherErrorQuitButton>" = "終了";
+    "<InstallerOtherErrorText>" = "インストールを続行できません";
 
 /* Text on the sheet when the user quits early and we need to do cleanup. */
-    "<PleaseWaitForInstallerToFinishText>" = "Please wait while the Installer quits.";
+    "<PleaseWaitForInstallerToFinishText>" = "インストーラーが終了する間、しばらくお待ちください。";
 
 /* While Quitting */
-    "<QuitingProgressText>" = "Quitting…";
-    "<QuitButton>" = "Quit";
+    "<QuitingProgressText>" = "終了中…";
+    "<QuitButton>" = "終了";
 
 
 /*******************************************************************************
  Growl
  ******************************************************************************/
 
-    "<NotificationCenterCurrentZoneGroupNowPlaying>" = "Current Group Now Playing";
-    "<NotificationCenterMusicIndexing>" = "Music Indexing";
+    "<NotificationCenterCurrentZoneGroupNowPlaying>" = "現在再生中のグループ";
+    "<NotificationCenterMusicIndexing>" = "音楽のインデックス化";

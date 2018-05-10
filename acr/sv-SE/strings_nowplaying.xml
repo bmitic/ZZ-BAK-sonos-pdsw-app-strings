@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="vol_adjust_zone_volumes">Adjust room volumes</string>
-<string name="accessibility_np_close_actions">Close Actions</string>
-
+<string name="vol_adjust_zone_volumes">Justera rumsvolymer</string>
+<string name="accessibility_np_close_actions">Stäng Åtgärder</string>
 </resources>

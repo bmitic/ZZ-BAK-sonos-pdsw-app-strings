@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="mms_service_password_invalid">Please enter a valid password.</string>
-<string name="mms_service_login_password_invalid">Please enter a valid login and password.</string>
-<string name="mms_accept_trial_conditions_decision_accept">Accept</string>
-<string name="mms_accept_trial_conditions_decision_decline">Decline</string>
-<string name="mms_merge_trial_account_decision">Do you want to merge the music in the trial account with the account you are adding?</string>
-<string name="mms_merge_trial_account_decision_merge">Merge</string>
-<string name="mms_merge_trial_account_decision_merge_not">Don\'t Merge</string>
-<string name="mms_service_setup_complete_text">is now set up on your Sonos system.</string>
-<string name="mms_service_setup_complete_instruction">Press the Done button to continue.</string>
-<string name="mms_login">Login</string>
-<string name="mms_password">Password</string>
+<string name="mms_service_password_invalid">Voer een geldig wachtwoord in.</string>
+<string name="mms_service_login_password_invalid">Voer een geldige aanmeldingsnaam en wachtwoord in.</string>
+<string name="mms_accept_trial_conditions_decision_accept">Accepteren</string>
+<string name="mms_accept_trial_conditions_decision_decline">Niet akkoord</string>
+<string name="mms_merge_trial_account_decision">Wil je de muziek in je proefaccount samenvoegen met de account die je aan het toevoegen bent?</string>
+<string name="mms_merge_trial_account_decision_merge">Samenvoegen</string>
+<string name="mms_merge_trial_account_decision_merge_not">Niet samenvoegen</string>
+<string name="mms_service_setup_complete_text">is nu ingesteld op je Sonos-systeem.</string>
+<string name="mms_service_setup_complete_instruction">Druk op de knop Klaar om door te gaan.</string>
+<string name="mms_login">Aanmeldingsnaam</string>
+<string name="mms_password">Wachtwoord</string>
 <string name="mms_string_space_string">%1$s %2$s</string>
-<string name="mms_nickname_specify_nickname">Please enter a unique name</string>
+<string name="mms_nickname_specify_nickname">Voer een unieke naam in</string>
 </resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Libreria musicale</String>
+<String id="SCLIB_STR_SETTINGS_SERVICES">Servizi</String>
+<String id="SCLIB_STR_SETTINGS_DATEANDTIME">Data e Ora</String>
+<String id="SCLIB_STR_SETTINGS_ADVANCED">Avanzate</String>
+<String id="SCLIB_STR_SETTINGS_WHITELED">Luce di stato bianca On</String>
+<String id="SCLIB_STR_SETTINGS_TVDialog">Dialogo TV</String>
+<String id="SCLIB_STR_SETTINGS_Surround">Surround</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">Aggiornamento Libreria musicale…</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">Raggruppa album utilizzando</String>
+<String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">Mostra artisti collaboratori nella Libreria musicale. Questa preferenza influisce solo su questo controller.</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE">Aggiorna contenuto ogni giorno alle:</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE_Group">Aggiornamenti Libreria</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME"></String>
+<String id="SCLIB_STR_DATETIMESETTINGS_INTERNETTIME">Imposta la data e l’ora da Internet</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_DAYLIGHTSAVINGS">Regola in base all'ora legale</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_SOUNDBAR">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">SUB</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Ricerca automatica aggiornamenti</String>
+<String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Mostra server Windows Media</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Aggiornamenti del sistema</String>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Programma di installazione di Sonos</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Fare clic su &quot;%2$s&quot; per aggiungere uno di questi prodotti oppure su &quot;%1$s&quot; per farlo in seguito.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Fare clic su &quot;%2$s&quot; per riprovare oppure su &quot;%1$s&quot; per effettuare la registrazione dopo.</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">È possibile modificare le preferenze in qualsiasi momento scegliendo Preferenze dal menu Sonos e selezionando la scheda &quot;Utilizzo&quot; sotto &quot;Impostazioni avanzate&quot;.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Per cambiare l'account predefinito, fare clic con il pulsante destro (Ctrl+clic) su %1$s nel menu Musica di Sonos per selezionare un altro account.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$s ha terminato.
+
+È necessario aggiornare ora il software Sonos.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Dopo l'avvio di Sonos Controller, scegliere Sonos &gt; Ricerca aggiornamenti…</String>
+<String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">Numero di telefono</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">Indietro</String>
+<String id="SCLIB_STR_Queue_Title">CODA</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">CODA (non in uso)</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">Registrati</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Per aggiungere i servizi beta pubblici di Sonos Labs è necessario condividere i dati di utilizzo con Sonos.
+
+Per visualizzare o modificare l'impostazione dei dati di utilizzo, andare a Sonos &gt; Preferenze &gt; Avanzate &gt; Migliora Sonos.</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Andare a &quot;Sonos&quot; &gt; &quot;Preferenze&quot; &gt; &quot;Avanzate&quot; e selezionare &quot;Installazione wireless&quot;.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Body_2">È possibile effettuare la registrazione in seguito in Guida &gt; Registrazione del sistema Sonos.</String>
+<String id="SCLIB_STR_MSS_CredError">Il server %1$s non ha riconosciuto le informazioni di accesso.
+
+Assicurarsi che i dati per il login (indirizzo e-mail o nome utente) e la password siano corretti, premere il pulsante Indietro e riprovare.
+
+Se il problema persiste, contattare %2$s per assistenza con l'account.</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">Compilation iTunes®</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Artisti Album</String>
+<String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Reimposta Controller</String>
+<String id="SCLIB_STR_RESETCONTROLLER_INSTRUCTIONS">Reimpostando il controller ci si scollegherà dal sistema Sonos. Al riavvio del controller sarà possibile riconnettersi o connettersi a un altro sistema Sonos.</String>
+<String id="STR_StereoPair_BodyText_Creating"></String>
+<String id="SCLIB_STR_OUWiz_Finished_Title">Aggiornamento completato</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Body_1">È necessario effettuare prima la registrazione al sistema Sonos per ricevere gli aggiornamenti software online.</String>
+<String id="SCLIB_STR_OUWiz_Checking_Body_1">Verifica degli aggiornamenti Sonos disponibili…</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_1">L'aggiornamento è stato annullato.</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">È possibile riprovare in qualsiasi momento andando a &quot;Sonos&quot; &gt; &quot;Ricerca aggiornamenti…&quot;.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">È necessario ricreare l'Indice Libreria musicale.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">L'operazione potrebbe richiedere un po' di tempo.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">Mentre viene ricreato l'indice, è comunque possibile utilizzare la Libreria musicale.</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body2">Per risultati ottimali, configura il SUB utilizzando un controller nella stessa stanza. Se questo computer non può essere utilizzato nella stessa stanza del SUB, consigliamo di scegliere “Non ora” e di completare l'installazione con un altro controller.</String>
+<String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Sonos &gt; Preferences &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">Impossibile connettersi al computer “%1$s”: Sonos può collegarsi solo a %2$d computer alla volta.</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">Impossibile trovare il computer “%1$s”.</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">Il computer %1$s non risponde.</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">Il computer “%1$s” ha respinto la richiesta di connessione di Sonos.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Accesso negato alla cartella condivisa “%1$s”: controllare nome utente e/o password.</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">Non esiste alcuna cartella condivisa “%1$s” nel computer “%2$s”.</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">Il file “%1$s” non esiste.</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">Accesso negato al file “%1$s”.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Accesso negato alla cartella condivisa “%1$s”: potrebbe essere necessario specificare nome utente e password.</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">La cartella condivisa “%1$s” ha troppe connessioni attive.</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Impossibile aggiungere la cartella condivisa “%1$s” alla Libreria musicale (900).</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Impossibile aggiungere la cartella condivisa “%1$s” alla Libreria musicale (%2$d).</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">Il nome della cartella condivisa è troppo lungo.</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">Il nome utente per la cartella condivisa è troppo lungo.</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">La password per la cartella condivisa è troppo lunga.</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Impossibile rimuovere la condivisione musica %1$s dalla Libreria musicale (%2$d).</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Scaricare il Sonos Controller più recente dal sito Sonos.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Per aggiornare, selezionare Sonos &gt; Ricerca aggiornamenti…</String>
+<String id="SCLIB_STR_Forget_Title">Dimenticare il sistema Sonos attualmente in uso?
+</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' non è più disponibile. Il dispositivo in cui sono memorizzati i file musicali potrebbe non essere acceso o il percorso potrebbe essere cambiato.
+Andare a Gestisci &gt; Impostazioni Libreria musicale per verificare il nome del percorso.</String>
+<String id="SCLIB_STR_LC_SearchingForPlayers">Ricerca del sistema Sonos…</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Aprire Preferenze di Sistema &gt; Network e passare alla rete in cui è presente Sonos.</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Spiacenti, impossibile connettersi a Sonos.
+Proviamo qualcosa:</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option1">• Disattivare e riattivare il Wi-Fi</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option2">• Scollegare e ricollegare il router</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option3">• Verificare l'alimentazione ai diffusori</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option4">• Restart your computer and try again.ZXZ</String>
+<String id="SCLIB_STR_LC_Contact">Non funziona</String>
+</Strings>

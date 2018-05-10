@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="menu_search">Search</string>
-<string name="browse_artists_title">Artists</string>
+<string name="menu_search">Rechercher</string>
+<string name="browse_artists_title">Artistes</string>
 <string name="browse_genres_title">Genres</string>
-<string name="browse_tracks_title">Songs</string>
-<string name="browse_composers_title">Composers</string>
+<string name="browse_tracks_title">Morceaux</string>
+<string name="browse_composers_title">Compositeurs</string>
 <string name="browse_albums_title">Albums</string>
-<string name="browse_playlists_title">Playlists</string>
+<string name="browse_playlists_title">Listes de lecture</string>
 <string name="browse_podcasts_title">Podcasts</string>
-<string name="browse_local_library_root">On this Mobile Device</string>
-<string name="browse_empty_favorites">Tap the %1$s icon when browsing or playing music to add songs, stations, or albums to Favorites.</string>
-<string name="browse_more_options">More Options</string>
-<string name="accessibility_browse_explicit_badge_format">%1$s. Explicit.</string>
-<string name="accessibility_item_badge_format">%1$s. New.</string>
-<string name="edit_title_1">Edit %s</string>
-<string name="browse_empty_playlist_modal">To create a Playlist tap *New Playlist* above.</string>
+<string name="browse_local_library_root">Sur ce périphérique mobile</string>
+<string name="browse_empty_favorites">Appuyez sur l\'icône %1$s pendant l\'exploration ou la diffusion de musique pour ajouter des morceaux, des stations ou des albums à Favoris.</string>
+<string name="browse_more_options">Plus d\'options</string>
+<string name="accessibility_browse_explicit_badge_format">%1$s. Explicite.</string>
+<string name="accessibility_item_badge_format">%1$s. Nouveau.</string>
+<string name="edit_title_1">Modifier %s</string>
+<string name="browse_empty_playlist_modal">Pour créer une liste de lecture, appuyez sur *Nouvelle liste de lecture* ci-dessus.</string>
 </resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="zones_pause_all">Pause All</string>
-<string name="zones_pause_all_warning">Do you want to pause the music in all rooms?</string>
-<string name="zone_group_button_text">Group</string>
-<string name="zone_menu_select_to_update">Software Update Required</string>
-<string name="zone_menu_select_to_configure">Set up this speaker</string>
-<string name="zone_menu_select_to_register">Register this speaker</string>
+<string name="zones_pause_all">すべて一時停止</string>
+<string name="zones_pause_all_warning">すべての部屋の音楽を一時停止しますか?</string>
+<string name="zone_group_button_text">グループ</string>
+<string name="zone_menu_select_to_update">ソフトウェアアップデートが必要です</string>
+<string name="zone_menu_select_to_setup_sub">SUBを設定</string>
+<string name="zone_menu_select_to_configure">設定を続ける</string>
 </resources>

@@ -1,1029 +1,1023 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<String id="RHHSTR_SHARE_NAME_FMT">%1$s on %2$s</String>
-<String id="RHHSTR_PLAYMODE_NORMAL">Normal</String>
-<String id="RHHSTR_PLAYMODE_RANDOM">Shuffle</String>
-<String id="RHHSTR_PLAYMODE_REPEAT">Repeat</String>
-<String id="STR_Crossfade">Crossfade</String>
-<String id="RHHSTR_PLAYMODE_RANDOM_ON">Shuffle On</String>
-<String id="RHHSTR_PLAYMODE_REPEAT_ALL_ON">Repeat All</String>
-<String id="RHHSTR_PLAYMODE_REPEAT_ONE_ON">Repeat Song</String>
-<String id="RHHSTR_PLAYMODE_CROSSFADE_ON">Crossfade On</String>
-<String id="RHHSTR_PLAYMODE_RANDOM_OFF">Shuffle Off</String>
-<String id="RHHSTR_PLAYMODE_REPEAT_OFF">Repeat Off</String>
-<String id="RHHSTR_PLAYMODE_CROSSFADE_OFF">Crossfade Off</String>
-<String id="STR_Turn_Crossfade_On">Turn Crossfading On</String>
-<String id="STR_Turn_Crossfade_Off">Turn Crossfading Off</String>
-<String id="RHHSTR_PLAYMODE_RANDREPEAT">Shuffle-Repeat</String>
-<String id="RHHSTR_PLAYMODE_UNKNOWN">Unknown</String>
-<String id="RHHSTR_SETTING_BBFTITLE">Song Name</String>
-<String id="RHHSTR_SETTING_BBFFILE">File Name</String>
-<String id="RHHSTR_SETTING_BBFTRACKNUM">Song Number</String>
-<String id="RHHSTR_SETTING_ON">On</String>
-<String id="RHHSTR_SETTING_OFF">Off</String>
-<String id="RHHSTR_SETTING_SHOW">Show</String>
-<String id="RHHSTR_SETTING_HIDE">Hide</String>
-<String id="RHHSTR_SETTING_ASMCHARGEOFF">Off While Charging</String>
-<String id="RHHSTR_UNUSED2">[unused]</String>
-<String id="RHHSTR_SETTING_10SEC">10 seconds</String>
-<String id="RHHSTR_SETTING_30SEC">30 seconds</String>
-<String id="RHHSTR_SETTING_1MIN">1 minute</String>
-<String id="RHHSTR_SETTING_2MIN">2 minutes</String>
-<String id="RHHSTR_SETTING_5MIN">5 minutes</String>
-<String id="RHHSTR_SETTING_10MIN">10 minutes</String>
-<String id="RHHSTR_SETTING_30MIN">30 minutes</String>
-<String id="RHHSTR_SETTING_1HR">1 hour</String>
-<String id="RHHSTR_SETTING_2HR">2 hours</String>
-<String id="RHHSTR_SETTING_4HR">4 hours</String>
-<String id="RHHSTR_SETTING_5HR">5 hours</String>
-<String id="RHHSTR_SETTING_8HR">8 hours</String>
-<String id="RHHSTR_SETTING_12HR">12 hours</String>
-<String id="STR_ROOMNAME_BATHROOM">Bathroom</String>
-<String id="STR_ROOMNAME_BEDROOM">Bedroom</String>
-<String id="STR_ROOMNAME_DEN">Den</String>
-<String id="STR_ROOMNAME_DINING_ROOM">Dining Room</String>
-<String id="STR_ROOMNAME_FAMILY_ROOM">Family Room</String>
-<String id="STR_ROOMNAME_FOYER">Foyer</String>
-<String id="STR_ROOMNAME_GARAGE">Garage</String>
-<String id="STR_ROOMNAME_GARDEN">Garden</String>
-<String id="STR_ROOMNAME_GUEST_ROOM">Guest Room</String>
-<String id="STR_ROOMNAME_HALLWAY">Hallway</String>
-<String id="STR_ROOMNAME_KITCHEN">Kitchen</String>
-<String id="STR_ROOMNAME_LIBRARY">Library</String>
-<String id="STR_ROOMNAME_LIVING_ROOM">Living Room</String>
-<String id="STR_ROOMNAME_MASTER_BEDROOM">Master Bedroom</String>
-<String id="STR_ROOMNAME_MEDIA_ROOM">Media Room</String>
-<String id="STR_ROOMNAME_OFFICE">Office</String>
-<String id="STR_ROOMNAME_PATIO">Patio</String>
-<String id="STR_ROOMNAME_PLAYROOM">Playroom</String>
-<String id="STR_ROOMNAME_POOL">Pool</String>
-<String id="STR_ROOMNAME_PORTABLE">Portable</String>
-<String id="STR_ROOMNAME_TVROOM">TV Room</String>
-<String id="STR_ROOMNAME_UNNAMED">Unnamed</String>
+<String id="RHHSTR_SHARE_NAME_FMT">%2$s 上的 %1$s</String>
+<String id="RHHSTR_PLAYMODE_NORMAL">正常模式</String>
+<String id="RHHSTR_PLAYMODE_RANDOM">随机播放</String>
+<String id="RHHSTR_PLAYMODE_REPEAT">重复</String>
+<String id="STR_Crossfade">渐入渐出</String>
+<String id="RHHSTR_PLAYMODE_RANDOM_ON">随机播放打开</String>
+<String id="RHHSTR_PLAYMODE_REPEAT_ALL_ON">重复全部</String>
+<String id="RHHSTR_PLAYMODE_REPEAT_ONE_ON">重复歌曲</String>
+<String id="RHHSTR_PLAYMODE_CROSSFADE_ON">渐入渐出打开</String>
+<String id="RHHSTR_PLAYMODE_RANDOM_OFF">随机播放关闭</String>
+<String id="RHHSTR_PLAYMODE_REPEAT_OFF">重复播放关闭</String>
+<String id="RHHSTR_PLAYMODE_CROSSFADE_OFF">渐入渐出关闭</String>
+<String id="STR_Turn_Crossfade_On">打开渐入渐出</String>
+<String id="STR_Turn_Crossfade_Off">关闭渐入渐出</String>
+<String id="RHHSTR_PLAYMODE_RANDREPEAT">随机播放 - 重复</String>
+<String id="RHHSTR_PLAYMODE_UNKNOWN">未知</String>
+<String id="RHHSTR_SETTING_BBFTITLE">歌曲名称</String>
+<String id="RHHSTR_SETTING_BBFFILE">文件名</String>
+<String id="RHHSTR_SETTING_BBFTRACKNUM">歌曲编号</String>
+<String id="RHHSTR_SETTING_ON">开</String>
+<String id="RHHSTR_SETTING_OFF">关</String>
+<String id="RHHSTR_SETTING_SHOW">显示</String>
+<String id="RHHSTR_SETTING_HIDE">隐藏</String>
+<String id="RHHSTR_SETTING_ASMCHARGEOFF">充电时关闭</String>
+<String id="RHHSTR_UNUSED2">[未使用]</String>
+<String id="RHHSTR_SETTING_10SEC">10 秒</String>
+<String id="RHHSTR_SETTING_30SEC">30 秒</String>
+<String id="RHHSTR_SETTING_1MIN">1 分钟</String>
+<String id="RHHSTR_SETTING_2MIN">2 分钟</String>
+<String id="RHHSTR_SETTING_5MIN">5 分钟</String>
+<String id="RHHSTR_SETTING_10MIN">10 分钟</String>
+<String id="RHHSTR_SETTING_30MIN">30 分钟</String>
+<String id="RHHSTR_SETTING_1HR">1 小时</String>
+<String id="RHHSTR_SETTING_2HR">2 小时</String>
+<String id="RHHSTR_SETTING_4HR">4 小时</String>
+<String id="RHHSTR_SETTING_5HR">5 小时</String>
+<String id="RHHSTR_SETTING_8HR">8 小时</String>
+<String id="RHHSTR_SETTING_12HR">12 小时</String>
+<String id="STR_ROOMNAME_BATHROOM">浴室</String>
+<String id="STR_ROOMNAME_BEDROOM">卧室</String>
+<String id="STR_ROOMNAME_DEN">工作室</String>
+<String id="STR_ROOMNAME_DINING_ROOM">饭厅</String>
+<String id="STR_ROOMNAME_FAMILY_ROOM">家庭活动室</String>
+<String id="STR_ROOMNAME_FOYER">门厅</String>
+<String id="STR_ROOMNAME_GARAGE">车库</String>
+<String id="STR_ROOMNAME_GARDEN">花园</String>
+<String id="STR_ROOMNAME_GUEST_ROOM">客房</String>
+<String id="STR_ROOMNAME_HALLWAY">走廊</String>
+<String id="STR_ROOMNAME_KITCHEN">厨房</String>
+<String id="STR_ROOMNAME_LIBRARY">书房</String>
+<String id="STR_ROOMNAME_LIVING_ROOM">客厅</String>
+<String id="STR_ROOMNAME_MASTER_BEDROOM">主卧室</String>
+<String id="STR_ROOMNAME_MEDIA_ROOM">多媒体室</String>
+<String id="STR_ROOMNAME_OFFICE">办公室</String>
+<String id="STR_ROOMNAME_PATIO">露台</String>
+<String id="STR_ROOMNAME_PLAYROOM">娱乐室</String>
+<String id="STR_ROOMNAME_POOL">游泳池</String>
+<String id="STR_ROOMNAME_PORTABLE">便携式</String>
+<String id="STR_ROOMNAME_TVROOM">影音室</String>
+<String id="STR_ROOMNAME_UNNAMED">未命名</String>
 <String id="STR_ROOMNAME_VIPER">BRIDGE</String>
 <String id="STR_ROOMNAME_BOOST">BOOST</String>
-<String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos Extender</String>
+<String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos 扩展器</String>
 <String id="STR_ROOMNAME_DOCK">DOCK</String>
 <String id="STR_ROOMNAME_ANVIL">SUB</String>
-<String id="STR_ROOMNAME_LOUNGE">Lounge</String>
-<String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos Playlist</String>
-<String id="RHHSTR_E_MALFORMED_PATH">%1$s is not a valid share path. It should look like \\Computer\Folder or \\Computer\Shared\Folder</String>
-<String id="RHHSTR_E_TOO_MANY_MOUNTED">Unable to connect to %1$s - the Sonos player can only connect to %2$d computers at a time</String>
-<String id="RHHSTR_E_CANT_RESOLVE_NAME">The computer %1$s cannot be found</String>
-<String id="RHHSTR_E_HOST_NO_RESPONSE">The computer %1$s is not responding</String>
-<String id="RHHSTR_E_CONNECT_REFUSED">The computer %1$s refused to let the Sonos player connect to it</String>
-<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Access to the share %1$s is denied - check the user name and/or password</String>
-<String id="RHHSTR_E_NO_SUCH_SHARE">There is no share %1$s on the computer %2$s</String>
-<String id="RHHSTR_E_NO_SUCH_FILE">The file %1$s does not exist</String>
-<String id="RHHSTR_E_FILE_ACCESS_DENIED">Access to the file %1$s is denied</String>
-<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Access to the share %1$s is denied - you may need to specify a user name and password</String>
-<String id="RHHSTR_E_TOO_MANY_USERS">Share %1$s has too many active connections</String>
-<String id="RHHSTR_E_EXISTING_SHARED_FOLDER">Failed to add the shared folder. The folder you wish to add is a subset of an existing shared folder.</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Unable to add the music share %1$s to your music library (900)</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Unable to add the music share %1$s to your music library (%2$d)</String>
-<String id="RHHSTR_TOO_MANY_SHARES">Unable to add the music share %1$s to your music library. Sonos can only connect to %2$d folders at a time.</String>
-<String id="RHHSTR_SHARE_NAME_TOO_LONG">The share name is too long</String>
-<String id="RHHSTR_USERNAME_TOO_LONG">The user name is too long</String>
-<String id="RHHSTR_PASSWORD_TOO_LONG">The password is too long</String>
-<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Unable to remove the music share %1$s from your music library (%2$d)</String>
-<String id="RHHSTR_WIFI_CHANNEL">Wireless Channel: %1$d (%2$d MHz)</String>
-<String id="RHHSTR_WIFI_CHANNEL_MENU_FMT">Channel %1$d</String>
+<String id="STR_ROOMNAME_LOUNGE">休闲</String>
+<String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos 播放列表</String>
+<String id="RHHSTR_E_MALFORMED_PATH">%1$s 不是有效的共享路径。共享路径的形式应该是 \\Computer\Folder 或 \\Computer\Shared\Folder</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">无法连接到 %1$s – Sonos 播放器一次只能与 %2$d 台电脑连接</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">无法找到计算机 %1$s</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">计算机 %1$s 没有响应</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">电脑 %1$s 拒绝 Sonos 播放器与其连接</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">对共享 %1$s 的访问被拒绝 - 检查用户名和/或密码</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">计算机 %2$s 上没有共享 %1$s</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">文件 %1$s 不存在</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">对文件 %1$s 的访问被拒绝</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">对共享 %1$s 的访问被拒绝 - 可能需要指定用户名和密码</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">共享 %1$s 有太多活动连接</String>
+<String id="RHHSTR_E_EXISTING_SHARED_FOLDER">添加共享文件夹失败。您要添加的文件夹是现有共享文件夹的子文件夹。</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">无法将音乐共享 %1$s 添加到您的音乐库 (900)</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">无法将音乐共享 %1$s 添加到您的音乐库 (%2$d)</String>
+<String id="RHHSTR_TOO_MANY_SHARES">无法将音乐共享 %1$s 添加到您的音乐库。 Sonos 一次只能连接 %2$d 个文件夹。</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">共享名称太长</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">用户名太长</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">密码太长</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">无法将音乐共享 %1$s 从您的音乐库移除 (%2$d)</String>
+<String id="RHHSTR_WIFI_CHANNEL">无线频道： %1$d (%2$d MHz)</String>
+<String id="RHHSTR_WIFI_CHANNEL_MENU_FMT">频道 %1$d</String>
 <String id="RHHSTR_LINEIN_DISPLAY_NAME_FMT">%1$s</String>
-<String id="RHHSTR_INPUTNAME_AudioComponent">Audio Component</String>
-<String id="RHHSTR_INPUTNAME_CDPlayer">CD Player</String>
-<String id="RHHSTR_INPUTNAME_Computer">Computer</String>
-<String id="RHHSTR_INPUTNAME_HomeTheater">Home Theater</String>
-<String id="RHHSTR_INPUTNAME_Mac">Mac Computer</String>
-<String id="RHHSTR_INPUTNAME_PortablePlayer">Portable Player</String>
-<String id="RHHSTR_INPUTNAME_Receiver">Receiver</String>
-<String id="RHHSTR_INPUTNAME_Satellite">Satellite Receiver</String>
-<String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay Device</String>
-<String id="RHHSTR_INPUTVOL_VOL0">Level 1 (Low)</String>
-<String id="RHHSTR_INPUTVOL_VOL1">Level 2 (A/V Component)</String>
-<String id="RHHSTR_INPUTVOL_VOL2">Level 3</String>
-<String id="RHHSTR_INPUTVOL_VOL3">Level 4 (AirPlay)</String>
-<String id="RHHSTR_INPUTVOL_VOL4">Level 5</String>
-<String id="RHHSTR_INPUTVOL_VOL5">Level 6 (Mac Computer)</String>
-<String id="RHHSTR_INPUTVOL_VOL6">Level 7</String>
-<String id="RHHSTR_INPUTVOL_VOL7">Level 8 (Portable Player, PC)</String>
-<String id="RHHSTR_INPUTVOL_VOL8">Level 9</String>
-<String id="RHHSTR_INPUTVOL_VOL9">Level 10 (High)</String>
-<String id="RHHSTR_UPDATE_NOW">Update Now</String>
-<String id="RHHSTR_CANCEL">Cancel</String>
-<String id="RHHSTR_SONOS_UPDATES">Sonos Updates</String>
-<String id="RHHSTR_ALL">All</String>
-<!--Note the order here matters and must correlate to the enum order in transporterror.h-->
-<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.</String>
-<String id="RHHSTR_RTE_CANT_REACH_SERVER">Unable to play '%1$s' - unable to connect to %2$s.</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED">Unable to play '%1$s' - access to %3$s denied.#END_OF_LOCALIZED_STRING %2$s</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">Unable to play '%1$s' - access is denied.</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_FILE">Unable to play '%1$s' - the file %3$s cannot be found.#END_OF_LOCALIZED_STRING %2$s</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_FILE_SANS_PATH">Unable to play '%1$s' - the file cannot be found.</String>
-<String id="RHHSTR_RTE_LOST_CONNECTION">Unable to play '%1$s' - the connection to %2$s was lost.</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_FORMAT">Unable to play '%1$s' - the file is in an unsupported format.</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_FREQ">Unable to play '%1$s' - it is encoded at unsupported sample rate %4$s Hz.#END_OF_LOCALIZED_STRING %2$s%3$s</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_DRM">Unable to play '%1$s' - it is encoded using an unsupported digital rights management system.</String>
-<String id="RHHSTR_RTE_CORRUPT_FILE">Unable to play '%1$s' - the song is not encoded correctly.</String>
-<String id="RHHSTR_RTE_SHARE_ACCESS_DENIED">Unable to play '%1$s' - access to %2$s denied.</String>
-<String id="RHHSTR_RTE_TOO_MANY_MOUNTED">Unable to connect to %2$s - too many active shares.#END_OF_LOCALIZED_STRING %1$s</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_SHARE">Unable to play '%1$s' - the share %2$s does not exist.</String>
-<String id="RHHSTR_RTE_TOO_MANY_USERS">Unable to play '%1$s' - there are too many connections to the share %2$s.</String>
-<String id="RHHSTR_RTE_BAD_INET_RADIO">Unable to play '%1$s' - station not found.</String>
-<String id="RHHSTR_RTE_BUFFERING">Unable to play '%1$s' - network connection speed insufficient to maintain playback buffer.</String>
-<String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Unable to play '%1$s' - cannot connect to %2$s because the server cannot be found.</String>
-<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_UNAVAILABLE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_AUDIBLE_DRM">Audible is no longer supported on Sonos.</String>
-<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Unable to play '%1$s' - Windows Media Sharing is not turned on for one or more Sonos players.</String>
-<String id="RHHSTR_RTE_WMP_NO_LICENSE">Unable to play '%1$s' - a valid license could not be obtained.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_INACTIVE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_READ_ONLY"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_STATION_GONE"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_PAND_SUSPENDED"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Unable to play '%1$s' - the %2$s account login information is not valid.</String>
-<String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">Unable to play '%1$s' - the associated %2$s account was not found in your Sonos system.</String>
-<String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Unable to play '%1$s' - your %2$s trial has expired.
+<String id="RHHSTR_INPUTNAME_AudioComponent">音频组件</String>
+<String id="RHHSTR_INPUTNAME_CDPlayer">CD 播放机</String>
+<String id="RHHSTR_INPUTNAME_Computer">计算机</String>
+<String id="RHHSTR_INPUTNAME_HomeTheater">家庭影院</String>
+<String id="RHHSTR_INPUTNAME_Mac">Mac 计算机</String>
+<String id="RHHSTR_INPUTNAME_PortablePlayer">便携式播放机</String>
+<String id="RHHSTR_INPUTNAME_Receiver">接收器</String>
+<String id="RHHSTR_INPUTNAME_Satellite">卫星接收器</String>
+<String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay 设备</String>
+<String id="RHHSTR_INPUTVOL_VOL0">级别 1（低）</String>
+<String id="RHHSTR_INPUTVOL_VOL1">级别 2（A/V 组件）</String>
+<String id="RHHSTR_INPUTVOL_VOL2">级别 3</String>
+<String id="RHHSTR_INPUTVOL_VOL3">级别 4 (AirPlay)</String>
+<String id="RHHSTR_INPUTVOL_VOL4">级别 5</String>
+<String id="RHHSTR_INPUTVOL_VOL5">级别 6（Mac 计算机）</String>
+<String id="RHHSTR_INPUTVOL_VOL6">级别 7</String>
+<String id="RHHSTR_INPUTVOL_VOL7">级别 8（便携式播放机、计算机）</String>
+<String id="RHHSTR_INPUTVOL_VOL8">级别 9</String>
+<String id="RHHSTR_INPUTVOL_VOL9">级别 10（高）</String>
+<String id="RHHSTR_UPDATE_NOW">立即更新</String>
+<String id="RHHSTR_CANCEL">取消</String>
+<String id="RHHSTR_SONOS_UPDATES">Sonos 更新</String>
+<String id="RHHSTR_ALL">全部</String>
+<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.ZXZ</String>
+<String id="RHHSTR_RTE_CANT_REACH_SERVER">无法播放“%1$s” - 无法连接到 %2$s。</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED">无法播放“%1$s” – 访问 %3$s 被拒绝。#END_OF_LOCALIZED_STRING %2$s</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">无法播放“%1$s” - 访问被拒绝。</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_FILE">无法播放“%1$s” – 找不到文件 %3$s。#END_OF_LOCALIZED_STRING %2$s</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_FILE_SANS_PATH">无法播放“%1$s” - 无法找到文件。</String>
+<String id="RHHSTR_RTE_LOST_CONNECTION">无法播放“%1$s” - 失去与 %2$s 的连接。</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_FORMAT">无法播放“%1$s” - 不支持文件的格式。</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_FREQ">无法播放“%1$s” – 不支持以采样速率 %4$s Hz 编码。#END_OF_LOCALIZED_STRING %2$s%3$s</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_DRM">无法播放“%1$s” - 不支持数字版权管理系统编码。</String>
+<String id="RHHSTR_RTE_CORRUPT_FILE">无法播放“%1$s” - 该歌曲未采用正确编码。</String>
+<String id="RHHSTR_RTE_SHARE_ACCESS_DENIED">无法播放“%1$s” - 对 %2$s 的访问被拒绝。</String>
+<String id="RHHSTR_RTE_TOO_MANY_MOUNTED">无法连接到 %2$s - 活动共享太多。#END_OF_LOCALIZED_STRING %1$s</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_SHARE">无法播放“%1$s” - 共享 %2$s 不存在。</String>
+<String id="RHHSTR_RTE_TOO_MANY_USERS">无法播放“%1$s” - 与共享 %2$s 的连接太多。</String>
+<String id="RHHSTR_RTE_BAD_INET_RADIO">无法播放“%1$s” - 找不到电台。</String>
+<String id="RHHSTR_RTE_BUFFERING">无法播放“%1$s” - 网络连接速度不足以保持播放缓冲。</String>
+<String id="RHHSTR_RTE_CANT_RESOLVE_NAME">无法播放“%1$s” - 无法连接到 %2$s，因为找不到服务器。</String>
+<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT">无法播放“%1$s” - Rhapsody 不得超过 3 个同步音频流。</String>
+<String id="RHHSTR_RTE_RHAP_UNAVAILABLE">无法播放“%1$s” - 此歌曲不可用作 Rhapsody 的流媒体。</String>
+<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT">无法播放“%1$s” － 您的 Rhapsody 登录信息无效。</String>
+<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED">无法播放“%1$s” - 您的 Rhapsody 试用帐户已过期。</String>
+<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到关联的 Rhapsody 帐户。请输入您的 Rhapsody 帐户信息。</String>
+<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT">无法播放“%1$s” - 请升级您的 Rhapsody 帐户以成为正式订户。</String>
+<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC">无法播放“%1$s” - Audible 节目必须使用“格式 4”(MP3)。</String>
+<String id="RHHSTR_RTE_AUDIBLE_DRM">Sonos 不再支持音乐内容服务。</String>
+<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING">无法播放“%1$s” – 为 Audible 激活的 Sonos 播放器不存在。</String>
+<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">无法播放“%1$s” – 一个或多个 Sonos 播放器没有打开 Windows Media 共享功能。</String>
+<String id="RHHSTR_RTE_WMP_NO_LICENSE">无法播放“%1$s” - 无法获取有效许可证。</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT">在另一个房间播放的 SiriusXM 频道已停止。SiriusXM 每次只允许播放一个频道。</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT">无法播放“%1$s” - 您的 SiriusXM 帐户正被另一台计算机或音乐播放器使用。</String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT">无法播放“%1$s” － 您的 SiriusXM 登录信息无效。</String>
+<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED">无法播放“%1$s” - 您的 SiriusXM 试用帐户已过期。</String>
+<String id="RHHSTR_RTE_SIRIUS_INACTIVE">无法播放“%1$s”- SiriusXM 在长时间静止后会自动停止播放。</String>
+<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到与此工作站关联的 Sirius XM 帐户。请输入您的 SiriusXM 帐户信息。</String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL">无法播放“%1$s” － 需要订阅高级 SiriusXM 服务。请升级您订阅的 SiriusXM 服务。</String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL">无法播放“%1$s” － SiriusXM 无法验证您的登录信息。请稍后重试。</String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE">无法播放“%1$s” - 您的 SiriusXM 帐户处于非活动状态。 请联系 SiriusXM 以获取帮助。</String>
+<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT">无法播放“%1$s” － 您的 Pandora 登录信息无效。</String>
+<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED">无法播放“%1$s” - 您的 Pandora 试用帐户已过期。</String>
+<String id="RHHSTR_RTE_PAND_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到与此工作站关联的 Pandora 帐户。请输入您的 Pandora 帐户信息。</String>
+<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL">无法播放“%1$s” - 需要订阅 Pandora。 请升级您的 Pandora 帐户。</String>
+<String id="RHHSTR_RTE_PAND_READ_ONLY">无法播放“%1$s” - Pandora 因日常维护暂不可用。</String>
+<String id="RHHSTR_RTE_PAND_STATION_GONE">无法播放“%1$s” - 此电台已被删除。</String>
+<String id="RHHSTR_RTE_PAND_SUSPENDED">由于您的帐户已被停用，因此 Pandora 无法完成您的请求。请发送电子邮件至 pandora-support@pandora.com 联系 Pandora 客户支持。</String>
+<String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">无法播放“%1$s” － 您的 %2$s 帐户登录信息无效。</String>
+<String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到关联的 %2$s 帐户。</String>
+<String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">无法播放“%1$s” - 您的 %2$s 试用帐户已过期。
 
-Please upgrade your account with %2$s.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_LASTFM_NO_CONTENT"></String> <!-- Obsolete. Leave empty. -->
-<String id="RHHSTR_RTE_DOCK_INTERRUPT">Music playback from '%1$s' was interrupted.</String>
-<String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Playback from %2$s was stopped because playback was started from another room or device. %2$s limits the number of simultaneous audio streams you can access from its service.#END_OF_LOCALIZED_STRING %1$s</String>
-<String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Unable to play '%1$s' - please upgrade your account with %2$s to become a full subscriber.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_ACCOUNT">Unable to play '%1$s' - your Last.fm login information is not valid.</String>
-<String id="RHHSTR_RTE_MOBILE_CANT_REACH_SERVER">Unable to play song '%1$s' because '%2$s' is unavailable. Launch the Sonos controller on '%2$s' to enable playback.</String>
-<String id="RHHSTR_RTE_SONOS_TOKEN_EXPIRED">Unable to play '%1$s' because you need to reauthorize %2$s.</String>
-<String id="RHHSTR_RTE_SONOS_BAD_LOCATION">Unable to play '%1$s' because %2$s is not available in your area.</String>
-<String id="RHHSTR_RTE_SONOS_INACTIVE">Unable to play '%1$s' - '%2$s' automatically stops playback after long periods of inactivity.</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_ERROR">Unable to play '%4$s' - service error.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_ACCESS_DENIED">Unable to play '%4$s' - access is denied.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_STREAM_LIMIT">Playback from '%4$s' was stopped because playback was started from another room or device. '%4$s' limits the number of simultaneous audio streams you can access from its service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_UNRESPONSIVE">Unable to play '%4$s' - service unresponsive.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_CANT_REACH_SERVER">Unable to play '%4$s' - unable to connect to service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CERT_BLACKLISTED">Unable to play '%1$s'. Your player has been forbidden from accessing content from %2$s. Please contact Sonos Customer Care to resolve this issue.</String>
-<String id="RHHSTR_RTE_CERT_NEEDED">Unable to play '%1$s'. Please ensure you have a good internet connection and try again.</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_EXPLICIT">Turn off Explicit Content Filtering in Settings > Parental Controls to play this song.</String>
-<String id="RHHSTR_RTE_NO_CONTENT"></String> <!-- The controller supresses this error. Leave empty to avoid an off by one error for enum values -->
-<String id="RHHSTR_RTE_FILE_NO_LONGER_AVAILABLE">'%1$s' is no longer available on %2$s</String>
-<!--Note the order above matters and must correlate to the enum order in transporterror.h-->
-<String id="RHHSTR_INTERNETRADIO">Radio</String>
-<String id="RHHSTR_LOCALRADIO">Local Radio (%1$s)</String>
-<String id="RHHSTR_LOCALRADIO_NOLOCDCR">Location not set</String>
-<String id="RHHSTR_IR_FAVORITE">Favorites</String>
-<String id="RHHSTR_INPUTTYPE_AUTO">Automatic</String>
-<String id="RHHSTR_INPUTTYPE_UNCOMPRESSED">Uncompressed</String>
-<String id="RHHSTR_INPUTTYPE_COMPRESSED">Compressed</String>
-<String id="RHHSTR_SIE_NOSPACE">There is not enough room to update your music library. Please remove unused queues or saved playlists and try again.</String>
-<String id="RHHSTR_SIE_ERROR">'%1$s' is no longer available. The device where the music files are stored may not be powered on, or the path may have changed.</String>
-<String id="RHHSTR_SIE_LOCALERROR">Your music library could not be updated. Please contact Sonos Customer Support for assistance: http://www.sonos.com/contact</String>
-<String id="RHHSTR_SIE_ITPL_OUT_OF_SPACE">There is not enough room to import all playlists. Please delete some playlists and update the music index.</String>
-<String id="RHHSTR_SIE_ITPL_GEN_FAILURE">An unexpected error occurred while importing playlists.</String>
-<String id="RHHSTR_HOST_NOT_FOUND">'%1$s' not found. Unable to connect.</String>
-<String id="RHHSTR_CONNECTING">Connecting…</String>
-<String id="RHHSTR_BUFFERING">Starting…</String>
-<String id="RHHSTR_MEDIA_SERVER">Media Server</String>
-<String id="RHHSTR_SUPPORT_BANNER">Submit Support Diagnostics to Sonos, Inc.</String>
-<String id="RHHSTR_SUPPORT_SERIAL">Serial Number:</String>
-<String id="RHHSTR_SUPPORT_SUBMIT">Submit</String>
-<String id="RHHSTR_SCPATTR_ALBUMARTIST">Artists</String>
-<String id="RHHSTR_SCPATTR_ARTIST">Contributing Artists</String>
-<String id="RHHSTR_SCPATTR_ALBUM">Albums</String>
-<String id="RHHSTR_SCPATTR_COMPOSER">Composers</String>
-<String id="RHHSTR_SCPATTR_GENRE">Genres</String>
-<String id="RHHSTR_SCPATTR_TRACKS">Songs</String>
-<String id="RHHSTR_SCPATTR_PLAYLISTS">Playlists</String>
-<String id="RHHSTR_RDCPATTR_SEARCH">Search</String>
-<String id="RHHSTR_SEARCHTYPE_ARTISTS">Artists</String>
-<String id="RHHSTR_SEARCHTYPE_GENRES">Genres</String>
-<String id="RHHSTR_SEARCHTYPE_ALBUMS">Albums</String>
-<String id="RHHSTR_SEARCHTYPE_COMPOSERS">Composers</String>
-<String id="RHHSTR_SEARCHTYPE_TRACKS">Songs</String>
-<String id="RHHSTR_SEARCHTYPE_TAGS">Tags</String>
-<String id="RHHSTR_SEARCHTYPE_PODCASTS">Podcasts</String>
-<String id="RHHSTR_COMPILATIONS">(Compilations)</String>
-<String id="RHHSTR_MONTH_JANUARY">January</String>
-<String id="RHHSTR_MONTH_FEBRUARY">February</String>
-<String id="RHHSTR_MONTH_MARCH">March</String>
-<String id="RHHSTR_MONTH_APRIL">April</String>
-<String id="RHHSTR_MONTH_MAY">May</String>
-<String id="RHHSTR_MONTH_JUNE">June</String>
-<String id="RHHSTR_MONTH_JULY">July</String>
-<String id="RHHSTR_MONTH_AUGUST">August</String>
-<String id="RHHSTR_MONTH_SEPTEMBER">September</String>
-<String id="RHHSTR_MONTH_OCTOBER">October</String>
-<String id="RHHSTR_MONTH_NOVEMBER">November</String>
-<String id="RHHSTR_MONTH_DECEMBER">December</String>
-<String id="RHHSTR_MONTHABBR_JANUARY">Jan</String>
-<String id="RHHSTR_MONTHABBR_FEBRUARY">Feb</String>
-<String id="RHHSTR_MONTHABBR_MARCH">Mar</String>
-<String id="RHHSTR_MONTHABBR_APRIL">Apr</String>
-<String id="RHHSTR_MONTHABBR_MAY">May</String>
-<String id="RHHSTR_MONTHABBR_JUNE">Jun</String>
-<String id="RHHSTR_MONTHABBR_JULY">Jul</String>
-<String id="RHHSTR_MONTHABBR_AUGUST">Aug</String>
-<String id="RHHSTR_MONTHABBR_SEPTEMBER">Sep</String>
-<String id="RHHSTR_MONTHABBR_OCTOBER">Oct</String>
-<String id="RHHSTR_MONTHABBR_NOVEMBER">Nov</String>
-<String id="RHHSTR_MONTHABBR_DECEMBER">Dec</String>
-<!-- The SwfObjAlarm::getAlarmFrequencyUIString alarm clock code depends on the following day of week abbreviations being in order -->
-<String id="RHHSTR_DAYABBR_SUNDAY">Sun</String>
-<String id="RHHSTR_DAYABBR_MONDAY">Mon</String>
-<String id="RHHSTR_DAYABBR_TUESDAY">Tue</String>
-<String id="RHHSTR_DAYABBR_WEDNESDAY">Wed</String>
-<String id="RHHSTR_DAYABBR_THURSDAY">Thu</String>
-<String id="RHHSTR_DAYABBR_FRIDAY">Fri</String>
-<String id="RHHSTR_DAYABBR_SATURDAY">Sat</String>
-<String id="RHHSTR_DAYABBR_SHORT_SUNDAY">Su</String>
-<String id="RHHSTR_DAYABBR_SHORT_MONDAY">M</String>
-<String id="RHHSTR_DAYABBR_SHORT_TUESDAY">T</String>
-<String id="RHHSTR_DAYABBR_SHORT_WEDNESDAY">W</String>
-<String id="RHHSTR_DAYABBR_SHORT_THURSDAY">Th</String>
-<String id="RHHSTR_DAYABBR_SHORT_FRIDAY">F</String>
-<String id="RHHSTR_DAYABBR_SHORT_SATURDAY">Sa</String>
-<String id="RHHSTR_DAY_SUNDAY">Sunday</String>
-<String id="RHHSTR_DAY_MONDAY">Monday</String>
-<String id="RHHSTR_DAY_TUESDAY">Tuesday</String>
-<String id="RHHSTR_DAY_WEDNESDAY">Wednesday</String>
-<String id="RHHSTR_DAY_THURSDAY">Thursday</String>
-<String id="RHHSTR_DAY_FRIDAY">Friday</String>
-<String id="RHHSTR_DAY_SATURDAY">Saturday</String>
-<String id="RHHSTR_TIME_AM">AM</String>
-<String id="RHHSTR_TIME_PM">PM</String>
-<!-- RHHSTR_DAY_RANGE is used for alarm frequencies such as "Monday through Thursday" -->
-<String id="RHHSTR_DAY_RANGE">%1$s through %2$s</String>
+请升级您的 %2$s 帐户。</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL">无法播放“%1$s”- 此功能需要付费订阅。请在转到 www.sonos.com/Last.fm/expired 升级您的帐户。</String>
+<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT">在您另一个房间播放的 Last.fm 电台已停止。Last.fm 每次只允许播放一个电台。</String>
+<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到关联的 Last.fm 帐户。请输入您的 Last.fm 帐户信息。</String>
+<String id="RHHSTR_RTE_LASTFM_NO_CONTENT">无法播放“%1$s” - 此 Last.fm 电台无可播放的内容。</String>
+<String id="RHHSTR_RTE_DOCK_INTERRUPT">从“%1$s”的音乐播放被打断。</String>
+<String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">%2$s 的播放已停止，因为另一个房间或设备已开始播放。%2$s 限制您可以通过其服务访问的同步音频流的数量。#END_OF_LOCALIZED_STRING %1$s</String>
+<String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">无法播放“%1$s” - 请升级您的 %2$s 帐户以成为正式订户。</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_ACCOUNT">无法播放“%1$s” － 您的 Last.fm 登录信息无效。</String>
+<String id="RHHSTR_RTE_MOBILE_CANT_REACH_SERVER">“%2$s”不可用，因此无法播放歌曲“%1$s”。请在“%2$s”上启动 Sonos 控制器，以启用播放功能。</String>
+<String id="RHHSTR_RTE_SONOS_TOKEN_EXPIRED">无法播放“%1$s”，您需要重新验证 %2$s。</String>
+<String id="RHHSTR_RTE_SONOS_BAD_LOCATION">%2$s 在您的区域不可用，无法播放“%1$s”。</String>
+<String id="RHHSTR_RTE_SONOS_INACTIVE">无法播放 '%1$s' - '%2$s' 在长时间静止后会自动停止播放。</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_ERROR">无法播放 '%4$s' - 服务出现故障。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_ACCESS_DENIED">无法播放 '%4$s' - 访问被拒绝。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_STREAM_LIMIT">'%4$s' 的播放已停止，因为另一个房间或设备已开始播放。'%4$s' 限制您可以通过其服务访问的同步音频流的数量。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_UNRESPONSIVE">无法播放 '%4$s' - 服务无响应。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_CANT_REACH_SERVER">无法播放 '%4$s' - 无法连接到服务。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_RTE_CERT_BLACKLISTED">无法播放 '%1$s'。您的播放器已被禁止访问来自 %2$s 的内容。请联系 Sonos 客户支持中心解决此问题。</String>
+<String id="RHHSTR_RTE_CERT_NEEDED">无法播放 '%1$s'。请确保您的 Internet 连接没有问题，然后重试。</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_EXPLICIT">在家长控制中关闭不宜内容过滤，即可播放该歌曲。</String>
+<String id="RHHSTR_RTE_NO_CONTENT"></String>
+<String id="RHHSTR_RTE_FILE_NO_LONGER_AVAILABLE">%2$s 上的 '%1$s' 不再可用</String>
+<String id="RHHSTR_INTERNETRADIO">电台</String>
+<String id="RHHSTR_LOCALRADIO">地方电台 (%1$s)</String>
+<String id="RHHSTR_LOCALRADIO_NOLOCDCR">未设置位置</String>
+<String id="RHHSTR_IR_FAVORITE">收藏夹</String>
+<String id="RHHSTR_INPUTTYPE_AUTO">自动</String>
+<String id="RHHSTR_INPUTTYPE_UNCOMPRESSED">未压缩</String>
+<String id="RHHSTR_INPUTTYPE_COMPRESSED">已压缩</String>
+<String id="RHHSTR_SIE_NOSPACE">空间不足，无法更新您的音乐库。请删除不使用的队列或保存播放列表，然后重试。</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' 不再可用。存储音乐文件的设备可能没有接通电源， 或者文件路径发生了变化。</String>
+<String id="RHHSTR_SIE_LOCALERROR">您的音乐库无法更新。请联系 Sonos 客服人员寻求帮助：http://www.sonos.com/contact</String>
+<String id="RHHSTR_SIE_ITPL_OUT_OF_SPACE">没有足够空间导入所有播放列表。 请删除部分播放列表并更新音乐索引。</String>
+<String id="RHHSTR_SIE_ITPL_GEN_FAILURE">导入播放列表时发生意外错误。</String>
+<String id="RHHSTR_HOST_NOT_FOUND">未发现 '%1$s'。无法连接。</String>
+<String id="RHHSTR_CONNECTING">正在连接…</String>
+<String id="RHHSTR_BUFFERING">正在启动…</String>
+<String id="RHHSTR_MEDIA_SERVER">媒体服务器</String>
+<String id="RHHSTR_SUPPORT_BANNER">向 Sonos, Inc. 提交支持诊断信息</String>
+<String id="RHHSTR_SUPPORT_SERIAL">序列号：</String>
+<String id="RHHSTR_SUPPORT_SUBMIT">提交</String>
+<String id="RHHSTR_SCPATTR_ALBUMARTIST">表演者</String>
+<String id="RHHSTR_SCPATTR_ARTIST">特约表演者</String>
+<String id="RHHSTR_SCPATTR_ALBUM">专辑</String>
+<String id="RHHSTR_SCPATTR_COMPOSER">作曲者</String>
+<String id="RHHSTR_SCPATTR_GENRE">流派</String>
+<String id="RHHSTR_SCPATTR_TRACKS">歌曲</String>
+<String id="RHHSTR_SCPATTR_PLAYLISTS">播放列表</String>
+<String id="RHHSTR_RDCPATTR_SEARCH">搜索</String>
+<String id="RHHSTR_SEARCHTYPE_ARTISTS">表演者</String>
+<String id="RHHSTR_SEARCHTYPE_GENRES">流派</String>
+<String id="RHHSTR_SEARCHTYPE_ALBUMS">专辑</String>
+<String id="RHHSTR_SEARCHTYPE_COMPOSERS">作曲者</String>
+<String id="RHHSTR_SEARCHTYPE_TRACKS">歌曲</String>
+<String id="RHHSTR_SEARCHTYPE_TAGS">标签</String>
+<String id="RHHSTR_SEARCHTYPE_PODCASTS">播客</String>
+<String id="RHHSTR_COMPILATIONS">（合辑）</String>
+<String id="RHHSTR_MONTH_JANUARY">1月</String>
+<String id="RHHSTR_MONTH_FEBRUARY">2月</String>
+<String id="RHHSTR_MONTH_MARCH">3月</String>
+<String id="RHHSTR_MONTH_APRIL">4月</String>
+<String id="RHHSTR_MONTH_MAY">5月</String>
+<String id="RHHSTR_MONTH_JUNE">6月</String>
+<String id="RHHSTR_MONTH_JULY">7月</String>
+<String id="RHHSTR_MONTH_AUGUST">8月</String>
+<String id="RHHSTR_MONTH_SEPTEMBER">9月</String>
+<String id="RHHSTR_MONTH_OCTOBER">10月</String>
+<String id="RHHSTR_MONTH_NOVEMBER">11月</String>
+<String id="RHHSTR_MONTH_DECEMBER">12月</String>
+<String id="RHHSTR_MONTHABBR_JANUARY">1月</String>
+<String id="RHHSTR_MONTHABBR_FEBRUARY">2月</String>
+<String id="RHHSTR_MONTHABBR_MARCH">3月</String>
+<String id="RHHSTR_MONTHABBR_APRIL">4月</String>
+<String id="RHHSTR_MONTHABBR_MAY">5月</String>
+<String id="RHHSTR_MONTHABBR_JUNE">6月</String>
+<String id="RHHSTR_MONTHABBR_JULY">7月</String>
+<String id="RHHSTR_MONTHABBR_AUGUST">8月</String>
+<String id="RHHSTR_MONTHABBR_SEPTEMBER">9月</String>
+<String id="RHHSTR_MONTHABBR_OCTOBER">10月</String>
+<String id="RHHSTR_MONTHABBR_NOVEMBER">11月</String>
+<String id="RHHSTR_MONTHABBR_DECEMBER">12月</String>
+<String id="RHHSTR_DAYABBR_SUNDAY">星期日</String>
+<String id="RHHSTR_DAYABBR_MONDAY">星期一</String>
+<String id="RHHSTR_DAYABBR_TUESDAY">星期二</String>
+<String id="RHHSTR_DAYABBR_WEDNESDAY">星期三</String>
+<String id="RHHSTR_DAYABBR_THURSDAY">星期四</String>
+<String id="RHHSTR_DAYABBR_FRIDAY">星期五</String>
+<String id="RHHSTR_DAYABBR_SATURDAY">星期六</String>
+<String id="RHHSTR_DAYABBR_SHORT_SUNDAY">周日</String>
+<String id="RHHSTR_DAYABBR_SHORT_MONDAY">周一</String>
+<String id="RHHSTR_DAYABBR_SHORT_TUESDAY">周二</String>
+<String id="RHHSTR_DAYABBR_SHORT_WEDNESDAY">周三</String>
+<String id="RHHSTR_DAYABBR_SHORT_THURSDAY">周四</String>
+<String id="RHHSTR_DAYABBR_SHORT_FRIDAY">周五</String>
+<String id="RHHSTR_DAYABBR_SHORT_SATURDAY">周六</String>
+<String id="RHHSTR_DAY_SUNDAY">星期日</String>
+<String id="RHHSTR_DAY_MONDAY">星期一</String>
+<String id="RHHSTR_DAY_TUESDAY">星期二</String>
+<String id="RHHSTR_DAY_WEDNESDAY">星期三</String>
+<String id="RHHSTR_DAY_THURSDAY">星期四</String>
+<String id="RHHSTR_DAY_FRIDAY">星期五</String>
+<String id="RHHSTR_DAY_SATURDAY">星期六</String>
+<String id="RHHSTR_TIME_AM">上午</String>
+<String id="RHHSTR_TIME_PM">下午</String>
+<String id="RHHSTR_DAY_RANGE">从 %1$s 至 %2$s</String>
 <String comment="Has special translation" id="RHHSTR_TIME_FMT_12HR">%1$u:%2$02u %3$s</String>
 <String comment="Has special translation" id="RHHSTR_TIME_FMT_24HR">%1$02u:%2$02u</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG">%2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT">%2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT_DOW">%4$s, %2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG_DOW">%4$s, %2$s %3$d, %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG">%3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT">%3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT_DOW">%4$s, %3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG_DOW">%4$s, %3$d %2$s %1$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG">%1$d %2$s %3$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT">%1$d %2$s %3$d</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT_DOW">%1$d %2$s %3$d, %4$s</String>
-<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG_DOW">%1$d %2$s %3$d, %4$s</String>
-<String id="RHHSTR_ARTISTVIEW_ITUNES">Use iTunes® Compilations</String>
-<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Use Album Artists</String>
-<String id="RHHSTR_ARTISTVIEW_SIMPLE">Do not group compilations</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACK">Unable to delete song. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACKS">Unable to delete songs. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_ALBUM">Unable to delete album. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_ARTIST">Unable to delete artist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_PLAYLIST">Unable to delete playlist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_STATION">Unable to delete station. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_TRACK">Unable to add song. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_POSTED_TRACK">Message has been posted.</String>
-<String id="RHHSTR_LIBRARY_POSTING_TRACK">Posting…</String>
-<String id="RHHSTR_LIBRARY_POSTFAIL_TRACK">Unable to post message. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_AUTOMIXFAIL_TRACK">Unable to automix song. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_TRACKS">Unable to add songs. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_ALBUM">Unable to add album. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_ARTIST">Unable to add artist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_PLAYLIST">Unable to add playlist. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_STATION">Unable to add station. Please try again later.</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACK">Adding song to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACKS">Adding songs to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_ALBUM">Adding album to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_ARTIST">Adding artist to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_PLAYLIST">Adding playlist to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_STATION">Adding channel to My %1$s Library…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACK">Song added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXING_TRACK">Automixing %1$s song</String>
-<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXED_TRACK">Automixed %1$s song</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACKS">Songs added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_ALBUM">Album added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_ARTIST">Artist added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_PLAYLIST">Playlist added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_STATION">Channel added to My %1$s Library</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACK">Are you sure you want to delete the song from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACKS">Are you sure you want to delete the songs from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ALBUM">Are you sure you want to delete the album from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ARTIST">Are you sure you want to delete the artist from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_PLAYLIST">Are you sure you want to delete the playlist from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_STATION">Are you sure you want to delete the channel from %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACK">Deleting song from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACKS">Deleting songs from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ALBUM">Deleting album from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ARTIST">Deleting artist from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_PLAYLIST">Deleting playlist from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_STATION">Deleting channel from %1$s…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACK">Song deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACKS">Songs deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ALBUM">Album deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ARTIST">Artist deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_PLAYLIST">Playlist deleted from %1$s</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_STATION">Channel deleted from %1$s</String>
-<String id="RHHSTR_RATE_OP_FAILED">Operation failed</String>
-<String id="RHHSTR_RATE_OP_SUCCEEDED">Successfully rated</String>
-<String id="RHHSTR_SONOS_TRIAL_UNKNOWNDAYS">%1$s Trial</String>
-<String id="RHHSTR_SONOS_TRIAL_1DAY">%1$s Trial (1 day)</String>
-<String id="RHHSTR_SONOS_TRIAL_NDAYS">%2$s Trial (%1$s days)</String>
-<String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s Trial (Expired)</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG">%2$s%3$d日%1$d年</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT">%2$s%3$d日%1$d年</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_SHORT_DOW">%2$s%3$d日%1$d年  %4$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG_DOW">%2$s%3$d日%1$d年  %4$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG">%3$d日%2$s%1$d年</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT">%3$d日%2$s%1$d年</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_SHORT_DOW">%3$d日%2$s%1$d年  %4$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_DMY_LONG_DOW">%3$d日%2$s%1$d年  %4$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG">%1$d年%2$s%3$d日</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT">%1$d年%2$s%3$d日</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT_DOW">%1$d年%2$s%3$d日  %4$s</String>
+<String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG_DOW">%1$d年%2$s%3$d日  %4$s</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">使用 iTunes® 合辑</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">使用专辑表演者</String>
+<String id="RHHSTR_ARTISTVIEW_SIMPLE">不对合辑进行分组</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACK">无法删除歌曲。请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACKS">无法删除这些歌曲。请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_ALBUM">无法删除专辑。 请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_ARTIST">无法删除表演者。 请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_PLAYLIST">无法删除播放列表。 请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_STATION">无法删除电台。请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_TRACK">无法添加歌曲。请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_POSTED_TRACK">消息已发送。</String>
+<String id="RHHSTR_LIBRARY_POSTING_TRACK">正在发送…</String>
+<String id="RHHSTR_LIBRARY_POSTFAIL_TRACK">无法发送消息。 请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_AUTOMIXFAIL_TRACK">无法对歌曲进行自动混音。请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_TRACKS">无法添加歌曲。请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_ALBUM">无法添加专辑。 请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_ARTIST">无法添加表演者。 请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_PLAYLIST">无法添加播放列表。 请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_STATION">无法添加电台。请稍后重试。</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACK">正在将歌曲添加到我的 %1$s 音乐库…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACKS">正在将多首歌曲添加到我的 %1$s 音乐库…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_ALBUM">正在将专辑添加到我的 %1$s 音乐库…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_ARTIST">正在将表演者添加到我的 %1$s 库…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_PLAYLIST">正在将播放列表添加到我的 %1$s 音乐库…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_STATION">正在将频道添加到我的 %1$s 音乐库…</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACK">歌曲已添加到我的 %1$s 音乐库</String>
+<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXING_TRACK">正在对 %1$s 歌曲自动混音</String>
+<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXED_TRACK">已对 %1$s 歌曲自动混音</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACKS">多首歌曲已添加到我的 %1$s 音乐库</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_ALBUM">专辑已添加到我的 %1$s 库</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_ARTIST">表演者已添加到我的 %1$s 库</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_PLAYLIST">播放列表已添加到我的 %1$s 音乐库</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_STATION">频道已添加到我的 %1$s 音乐库</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACK">是否确实要从我的 %1$s 音乐库删除歌曲？</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACKS">是否确实要从我的 %1$s 音乐库删除多首歌曲？</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ALBUM">是否确实要从我的 %1$s 音乐库删除专辑？</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ARTIST">是否确实要从我的 %1$s 音乐库删除表演者？</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_PLAYLIST">是否确实要从我的 %1$s 库删除播放列表？</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_STATION">是否确实要从我的 %1$s 音乐库删除频道？</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACK">正在从 %1$s 删除歌曲…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACKS">正在从 %1$s 删除多首歌曲…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ALBUM">正在从 %1$s 删除专辑…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ARTIST">正在从 %1$s 删除表演者…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_PLAYLIST">正在从 %1$s 删除播放列表…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_STATION">正在从 %1$s 删除频道…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACK">已从 %1$s 删除歌曲</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACKS">已从 %1$s 删除多首歌曲</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ALBUM">已从 %1$s 删除专辑</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ARTIST">已从 %1$s 删除表演者</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_PLAYLIST">已从 %1$s 删除播放列表</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_STATION">已从 %1$s 删除频道</String>
+<String id="RHHSTR_RATE_OP_FAILED">操作失败</String>
+<String id="RHHSTR_RATE_OP_SUCCEEDED">已成功评分</String>
+<String id="RHHSTR_SONOS_TRIAL_UNKNOWNDAYS">%1$s 试用帐户</String>
+<String id="RHHSTR_SONOS_TRIAL_1DAY">%1$s 试用帐户（1 天）</String>
+<String id="RHHSTR_SONOS_TRIAL_NDAYS">%2$s 试用帐户（%1$s 天）</String>
+<String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s 试用帐户（已过期）</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
-<!-- short names for Woodstock Music -->
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
-<!-- end of short names -->
-<String id="RHHSTR_BROWSE_UPNP_ERROR">Unable to browse music</String>
-<String id="RHHSTR_SEARCH_UPNP_ERROR">There was a problem searching. Please try again.</String>
-<String id="RHHSTR_BROWSE_SVC_BAD_ACCOUNT_SONOS">Unable to browse music - your %1$s login information is not valid.</String>
-<String id="RHHSTR_BROWSE_SVC_BAD_LOCATION_SONOS">Unable to browse music - %1$s is not available in your area.</String>
-<String id="RHHSTR_BROWSE_SVC_TRIAL_EXPIRED_SONOS">Unable to browse music - your %1$s trial has expired.</String>
-<String id="RHHSTR_BROWSE_SVC_NEED_FULL_ACCT_SONOS">Unable to browse music - your %1$s account has not been upgraded to a subscription account.</String>
-<String id="RHHSTR_BROWSE_SVC_MAX_LOGINS_SONOS">Unable to browse music - %1$s limits the number of times you can access your account each day. Please try again tomorrow.</String>
-<String id="RHHSTR_BROWSE_SVC_CANT_CONNECT_SONOS">Unable to browse music - there was a problem connecting to %1$s.</String>
-<String id="RHHSTR_AVT_ERR_LINE_IN">Unable to play the line-in source.</String>
-<String id="RHHSTR_AVT_ERR_IR">Unable to play the Radio station.</String>
-<String id="RHHSTR_AVT_ERR_ALREADYPLAYING">This Pandora Station is currently playing.</String>
-<String id="RHHSTR_AVT_ERR_GENERIC">Unable to play the selected item.</String>
-<String id="RHHSTR_AVT_ERR_CANT_CONNECT">Unable to connect to Sonos player.</String>
-<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">Your player has been forbidden from accessing content from this service. Please contact Sonos Customer Care to resolve this issue.</String>
-<String id="RHHSTR_AVT_ERR_CERT_NEEDED">Unable to play the selected item. Please ensure you have a good internet connection and try again.</String>
-<String id="RHHSTR_LFM_CANT_CONNECT">There was a problem connecting to Last.fm. Please try again later.</String>
-<String id="RHHSTR_LFM_BAD_ACCOUNT">Your Last.fm login information is no longer valid. If you have changed your password on Last.fm, please update it in your Sonos system.</String>
-<String id="RHHSTR_LFM_NO_ACCOUNT">The associated Last.fm account was not found in your Sonos system. Please enter your Last.fm account information.</String>
-<String id="RHHSTR_LFM_GENERIC">There was a problem communicating with Last.fm. Please try again later.</String>
-<String id="RHHSTR_FAVSTATIONS">My Radio Stations</String>
-<String id="RHHSTR_FAVSHOWS">My Radio Shows</String>
-<String id="RHHSTR_TrialLearnMore_Sonos">You can learn more about the %2$s trial at:
+<String id="RHHSTR_BROWSE_UPNP_ERROR">无法浏览音乐</String>
+<String id="RHHSTR_SEARCH_UPNP_ERROR">搜索时出现问题。 请重试。</String>
+<String id="RHHSTR_BROWSE_SVC_BAD_ACCOUNT_SONOS">无法浏览音乐 － 您的 %1$s 登录信息无效。</String>
+<String id="RHHSTR_BROWSE_SVC_BAD_LOCATION_SONOS">无法浏览音乐 – %1$s 在您的区域不可用。</String>
+<String id="RHHSTR_BROWSE_SVC_TRIAL_EXPIRED_SONOS">无法浏览音乐 - 您的 %1$s 试用帐户已过期。</String>
+<String id="RHHSTR_BROWSE_SVC_NEED_FULL_ACCT_SONOS">无法浏览音乐 - 您的 %1$s 帐户尚未升级为订阅帐户。</String>
+<String id="RHHSTR_BROWSE_SVC_MAX_LOGINS_SONOS">无法浏览音乐 – %1$s 限制每天访问帐户的次数。请明天再试。</String>
+<String id="RHHSTR_BROWSE_SVC_CANT_CONNECT_SONOS">无法浏览音乐 - 连接 %1$s 时出现问题。</String>
+<String id="RHHSTR_AVT_ERR_LINE_IN">无法播放线路输入源。</String>
+<String id="RHHSTR_AVT_ERR_IR">无法播放电台。</String>
+<String id="RHHSTR_AVT_ERR_ALREADYPLAYING">该 Pandora 站正在播放。</String>
+<String id="RHHSTR_AVT_ERR_GENERIC">无法播放选定的曲目。</String>
+<String id="RHHSTR_AVT_ERR_CANT_CONNECT">无法连接到 Sonos 播放器。</String>
+<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">您的播放器已被禁止访问此服务的内容。请联系 Sonos 客户支持中心解决此问题。</String>
+<String id="RHHSTR_AVT_ERR_CERT_NEEDED">无法播放选定的曲目。请确保您的 Internet 连接没有问题，然后重试。</String>
+<String id="RHHSTR_LFM_CANT_CONNECT">连接 Last.fm 时出现问题。请稍后重试。</String>
+<String id="RHHSTR_LFM_BAD_ACCOUNT">您的 Last.fm 登录信息不再有效。如果您在 Last.fm 上更改了密码，请在您的 Sonos 系统中更新密码。</String>
+<String id="RHHSTR_LFM_NO_ACCOUNT">Sonos 系统中找不到关联的 Last.fm 帐户。请输入您的 Last.fm 帐户信息。</String>
+<String id="RHHSTR_LFM_GENERIC">与 Last.fm 进行通信时出现问题。请稍后重试。</String>
+<String id="RHHSTR_FAVSTATIONS">我的电台</String>
+<String id="RHHSTR_FAVSHOWS">我的电台节目</String>
+<String id="RHHSTR_TrialLearnMore_Sonos">有关 %2$s 试用帐户的详细信息，请访问：
 
 %1$s.sonos.com/%3$s</String>
-<String id="RHHSTR_TrialPromo_Sonos">Please select from the following choices:</String>
-<String id="RHHSTR_Promo_LastFM">Last.fm is a music recommendation service that lets you share and discover new music. By effortlessly scrobbling the music you play you can get personalised recommendations tailored to your taste.</String>
-<String id="RHHSTR_PleaseSignup_Sonos">To use %1$s with Sonos, create an account by pressing the button below.
+<String id="RHHSTR_TrialPromo_Sonos">请从以下选项中作出选择：</String>
+<String id="RHHSTR_Promo_LastFM">Last.fm 是一个能让您分享和发现新音乐的音乐推荐服务。通过轻松记录您播放过的音乐，您可以获得符合您喜好的个性化音乐推荐。</String>
+<String id="RHHSTR_PleaseSignup_Sonos">要在 %1$s 上使用 Sonos，请按住以下按钮创建一个帐号。
 
 %2$s
 </String>
-<String id="RHHSTR_PleaseSignupUri_Sonos" comment="Do not translate">http://%1$s.sonos.com/%2$s/subscribe</String>
-<String id="RHHSTR_CONNECTING_TITLE">Please wait…</String>
-<String id="RHHSTR_APPLINK_CONNECTION_QUIT">Not now</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s not installed. Please install app and try again.</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install App</String>
-<String id="RHHSTR_SN_POST_SUCCESS">Message was successfully sent.</String>
-<String id="RHHSTR_SN_POST_FAIL">Message failed to be sent.</String>
-<String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Message sent to %1$s (%2$s), but was not sent to %3$s (%4$s).</String>
-<String id="RHHSTR_SN_POST_NUM_SUCCEES_NUM_FAIL_FMT">Message sent to %1$d services, but failed to be sent to %2$d services.</String>
-<String id="RHHSTR_SN_POST_SINGLE_FAIL_FMT">Message failed to be sent to %1$s (%2$s) but succeeded to the other services.</String>
-<String id="RHHSTR_SN_POST_SINGLE_SUCCESS_FMT">Message sent to %1$s (%2$s), but failed to be sent to other services.</String>
-<String id="RHHSTR_SN_POST_PASSWORD_ERROR">One or more accounts had an invalid login information.</String>
-<String id="RHHSTR_ZONEEXTENDERMENU_ON">Extender</String>
-<String id="RHHSTR_ZONEEXTENDERMENU_OFF">Normal</String>
-<String id="RHHSTR_SONOS_CHIME">Sonos Chime</String>
-<String id="STR_Setting_AlarmFreq_Once">Once</String>
-<String id="STR_Setting_AlarmFreq_Sunday">Every Sunday</String>
-<String id="STR_Setting_AlarmFreq_Monday">Every Monday</String>
-<String id="STR_Setting_AlarmFreq_Tuesday">Every Tuesday</String>
-<String id="STR_Setting_AlarmFreq_Wednesday">Every Wednesday</String>
-<String id="STR_Setting_AlarmFreq_Thursday">Every Thursday</String>
-<String id="STR_Setting_AlarmFreq_Friday">Every Friday</String>
-<String id="STR_Setting_AlarmFreq_Saturday">Every Saturday</String>
-<String id="RHHSTR_Setting_AlarmFreq_EveryDay">Daily</String>
+<String comment="Do not translate" id="RHHSTR_PleaseSignupUri_Sonos">http://%1$s.sonos.com/%2$s/subscribe</String>
+<String id="RHHSTR_CONNECTING_TITLE">请稍候…</String>
+<String id="RHHSTR_APPLINK_CONNECTION_QUIT">现在不用</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s 未安装。请安装应用程序然后重试。</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install AppZXZ</String>
+<String id="RHHSTR_SN_POST_SUCCESS">消息发送成功。</String>
+<String id="RHHSTR_SN_POST_FAIL">消息发送失败。</String>
+<String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">消息已发送到 %1$s (%2$s)，但未发送到 %3$s (%4$s)。</String>
+<String id="RHHSTR_SN_POST_NUM_SUCCEES_NUM_FAIL_FMT">消息已发送到 %1$d 服务，但未能发送到 %2$d 服务。</String>
+<String id="RHHSTR_SN_POST_SINGLE_FAIL_FMT">消息未能发送到 %1$s (%2$s)，但已成功发送到其他服务。</String>
+<String id="RHHSTR_SN_POST_SINGLE_SUCCESS_FMT">消息已发送到 %1$s (%2$s)，但未能发送到其他服务。</String>
+<String id="RHHSTR_SN_POST_PASSWORD_ERROR">一个或多个帐户的登录信息无效。</String>
+<String id="RHHSTR_ZONEEXTENDERMENU_ON">扩展模式</String>
+<String id="RHHSTR_ZONEEXTENDERMENU_OFF">正常模式</String>
+<String id="RHHSTR_SONOS_CHIME">Sonos 排钟</String>
+<String id="STR_Setting_AlarmFreq_Once">一次</String>
+<String id="STR_Setting_AlarmFreq_Sunday">每周日</String>
+<String id="STR_Setting_AlarmFreq_Monday">每周一</String>
+<String id="STR_Setting_AlarmFreq_Tuesday">每周二</String>
+<String id="STR_Setting_AlarmFreq_Wednesday">每周三</String>
+<String id="STR_Setting_AlarmFreq_Thursday">每周四</String>
+<String id="STR_Setting_AlarmFreq_Friday">每周五</String>
+<String id="STR_Setting_AlarmFreq_Saturday">每周六</String>
+<String id="RHHSTR_Setting_AlarmFreq_EveryDay">每天</String>
 <String id="RHHSTR_FreeTrialAccountName">Sonos</String>
-<String id="RHHSTR_TrialDescription_Sonos">Sonos comes with a free, no-obligation %1$s trial.</String>
-<String id="RHHSTR_TrialAgreement_Sonos">By taking advantage of this free, no-obligation trial, you agree to the %2$s terms and conditions at:
+<String id="RHHSTR_TrialDescription_Sonos">Sonos 提供完全免费的 %1$s 试用服务。</String>
+<String id="RHHSTR_TrialAgreement_Sonos">使用这一完全免费的试用服务，即表示您同意
 
-%1$s.sonos.com/%3$s/terms</String>
-<String id="RHHSTR_AcctNeedTrial_Sonos">With your %1$s login information, you'll be able to use the %1$s trial on your Sonos system.
+%1$s.sonos.com/%3$s/terms 上所列的 %2$s 条款和条件。</String>
+<String id="RHHSTR_AcctNeedTrial_Sonos">使用您的 %1$s 登录信息，您可以在 Sonos 系统上使用 %1$s 试用服务。
 
-To continue listening after the trial has ended, you will need to upgrade your account with %1$s to become a subscriber.</String>
-<String id="RHHSTR_AcctExpiredSuccess_Sonos">The %1$s trial has ended on this Sonos system.
+要在试用期过后继续收听，需要升级您的 %1$s 帐户以成为订户。</String>
+<String id="RHHSTR_AcctExpiredSuccess_Sonos">%1$s 试用服务在此 Sonos 系统上已结束。
 
-To continue listening, please upgrade your account with %1$s to become a subscriber.
+要继续收听，请升级您的 %1$s 帐户以成为订户。
 
-Press the OK button to continue.</String>
-<String id="RHHSTR_RegUpgrade_Sonos">To continue listening after the trial has ended, go to the following Web site to upgrade your account with %2$s and become a subscriber.
+按“确定”按钮继续。</String>
+<String id="RHHSTR_RegUpgrade_Sonos">要在试用期过后继续收听，请转至以下网站升级您的 %2$s 帐户并成为订户。
 
 %1$s.sonos.com/%3$s/subscribe
 
 %4$s</String>
-<String id="RHHSTR_TrialUpgrade_Sonos">To continue listening after the trial has ended, go to the following Web site to become a %2$s subscriber:
+<String id="RHHSTR_TrialUpgrade_Sonos">要在试用期过后继续收听，请转至以下网站以成为 %2$s 订户：
 
 %1$s.sonos.com/%3$s/subscribe 
 
 %4$s</String>
-<String id="STR_AnonymousNewUser">Set up %1$s</String>
-<String id="RHHSTR_TrialNewUser_Sonos">I'm new to %1$s</String>
-<String id="RHHSTR_TrialNewUser_LastFM">I'm new to Last.fm</String>
-<String id="RHHSTR_TrialHaveAcct">I already have an account</String>
-<String id="RHHSTR_AcctBadLocation_Sonos">Unable to create account.
-%1$s is not available in your area.</String>
-<String id="RHHSTR_AddMusicServiceType_Sonos">Add a %1$s Account</String>
-<String id="RHHSTR_AddMusicServiceType_LastFM">Add a Last.fm Account</String>
-<String id="RHHSTR_AcctNeedFullAccount_Sonos">It looks like your %1$s account has not been upgraded to a subscription account.
+<String id="STR_AnonymousNewUser">设置 %1$s</String>
+<String id="RHHSTR_TrialNewUser_Sonos">我是 %1$s 的新用户</String>
+<String id="RHHSTR_TrialNewUser_LastFM">我是 Last.fm 的新用户</String>
+<String id="RHHSTR_TrialHaveAcct">我已有一个帐户</String>
+<String id="RHHSTR_AcctBadLocation_Sonos">无法创建帐户。
+%1$s 在您的区域不可用。</String>
+<String id="RHHSTR_AddMusicServiceType_Sonos">添加 %1$s 帐户</String>
+<String id="RHHSTR_AddMusicServiceType_LastFM">添加 Last.fm 帐户</String>
+<String id="RHHSTR_AcctNeedFullAccount_Sonos">您的 %1$s 帐户似乎尚未升级为订阅帐户。
 
-Please check your account with %1$s, and then press the Back button to try again.
+请检查您的 %1$s 帐户，然后按“上一步”按钮重试。
 
-Press the OK button to do this later.</String>
-<String id="RHHSTR_InsufficientAcctType_Sonos">There was a problem adding this account.
+按“确定”按钮可稍后执行此操作。</String>
+<String id="RHHSTR_InsufficientAcctType_Sonos">添加帐户时出现问题。
 
-To use this account with Sonos, you must first upgrade it with %1$s to become a full subscriber.</String>
-<String id="RHHSTR_AcctSuspended_Sonos">%1$s was unable to complete your request because your account has been suspended.</String>
-<String id="RHHSTR_MenuOptsTempUnavail">Some menu options are temporarily unavailable. Please try again later.</String>
-<String id="RHHSTR_InfoView_NoInfo">No information available.</String>
-<String id="RHHSTR_EventDetails" comment="ROBTODO">Event Details</String>
-<String id="RHHSTR_UnsupportedTerritoryErr_Sonos">There was a problem adding the trial. %1$s is not available in your location.</String>
-<String id="RHHSTR_TooManyAccounts">You have reached the maximum number of music service accounts that can be added to your Sonos system. Please remove an existing account before adding a new one.</String>
-<String id="RHHSTR_COUNTRY_NAMES">United States:US
-Afghanistan:AF
-Albania:AL
-American Samoa:AS
-Andorra:AD
-Angola:AO
-Anguilla:AI
-Antigua:AG
-Argentina:AR
-Armenia:AM
-Aruba:AW
-Australia:AU
-Austria:AT
-Azerbaijan:AZ
-Bahamas:BS
-Bahrain:BH
-Bangladesh:BD
-Barbados:BB
-Belarus:BY
-Belgium:BE
-Belize:BZ
-Benin:BJ
-Bermuda:BM
-Bhutan:BT
-Bolivia:BO
-Bosnia-Herzegovina:BA
-Botswana:BW
-Brazil:BR
-British Virgin Is.:VG
-Brunei:BN
-Bulgaria:BG
-Burkina Faso:BF
-Burundi:BI
-Cambodia:KH
-Canada:CA
-Cape Verde:CV
-Cayman Islands:KY
-Chad:TD
-Chile:CL
-China:CN
-Colombia:CO
-Congo:CG
-Congo, Democratic Republic of:CD
-Cook Islands:CK
-Costa Rica:CR
-Croatia:HR
-Cyprus:CY
-Czech Republic:CZ
-Denmark:DK
-Djibouti:DJ
-Dominica:DM
-Dominican Republic:DO
-Ecuador:EC
-Egypt:EG
-El Salvador:SV
-Equatorial Guinea:GQ
-Eritrea:ER
-Estonia:EE
-Ethiopia:ET
-Faeroe Islands:FO
-Fiji:FJ
-Finland:FI
-France:FR
-French Guiana:GF
-French Polynesia:PF
-Gabon:GA
-Gambia:GM
-Georgia:GE
-Germany:DE
-Ghana:GH
-Gibraltar:GI
-Greece:GR
-Greenland:GL
-Grenada:GD
-Guadeloupe:GP
-Guam:GU
-Guatemala:GT
-Guinea:GN
-Guyana:GY
-Haiti:HT
-Honduras:HN
-Hong Kong:HK
-Hungary:HU
-Iceland:IS
-India:IN
-Indonesia:ID
-Iraq:IQ
-Ireland:IE
-Israel:IL
-Italy:IT
-Jamaica:JM
-Japan:JP
-Jordan:JO
-Kazakhstan:KZ
-Kenya:KE
-Kuwait:KW
-Kyrgyzstan:KG
-Laos:LA
-Latvia:LV
-Lebanon:LB
-Lesotho:LS
-Liberia:LR
-Liechtenstein:LI
-Lithuania:LT
-Luxembourg:LU
-Macau:MO
-Macedonia:MK
-Madagascar:MG
-Malawi:MW
-Malaysia:MY
-Maldives:MV
-Mali:ML
-Malta:MT
-Marshall Islands:MH
-Martinique:MQ
-Mauritania:MR
-Mauritius:MU
-Mexico:MX
-Micronesia:FM
-Moldova:MD
-Monaco:MC
-Mongolia:MN
-Montenegro:ME
-Montserrat:MS
-Morocco:MA
-Mozambique:MZ
-Namibia:NA
-Nepal:NP
-Netherlands:NL
-Netherlands Antilles:AN
-New Caledonia:NC
-New Zealand:NZ
-Nicaragua:NI
-Niger:NE
-Nigeria:NG
-Norway:NO
-Oman:OM
-Pakistan:PK
-Palau:PW
-Palestine Autonomous:PS
-Panama:PA
-Papua New Guinea:PG
-Paraguay:PY
-Peru:PE
-Philippines:PH
-Poland:PL
-Portugal:PT
-Puerto Rico:PR
-Qatar:QA
-Reunion:RE
-Romania:RO
-Russian Federation:RU
-Rwanda:RW
-Saudi Arabia:SA
-Senegal:SN
-Serbia:RS
-Seychelles:SC
-Singapore:SG
-Slovak Republic:SK
-Slovenia:SI
-South Africa:ZA
-South Korea:KR
-Spain:ES
-Sri Lanka:LK
-St Kitts/Nevis:KN
-St Lucia:LC
-St Vincent:VC
-Suriname:SR
-Swaziland:SZ
-Sweden:SE
-Switzerland:CH
-Syria:SY
-Taiwan:TW
-Tanzania:TZ
-Thailand:TH
-Togo:TG
-Trinidad/Tobago:TT
-Tunisia:TN
-Turkey:TR
-Turkmenistan:TM
-Turks &amp; Caicos:TC
-U.A.E.:AE
-U.S. Virgin Islands:VI
-Uganda:UG
-Ukraine:UA
-United Kingdom:GB
-Uruguay:UY
-Uzbekistan:UZ
-Vanuatu:VU
-Venezuela:VE
-Vietnam:VN
-Wallis &amp; Futuna:WF
-Yemen:YE
-Zambia:ZM
-Zimbabwe:ZW</String>
-<String id="RHHSTR_TIME_ZONES">(GMT-12:00) International Date Line West
-(GMT-11:00) Midway Island, Samoa
-(GMT-10:00) Hawaii
-(GMT-09:00) Alaska
-(GMT-08:00) Pacific Time (US and Canada)
-(GMT-07:00) Arizona
-(GMT-07:00) Chihuahua, La Paz, Mazatlan
-(GMT-07:00) Mountain Time (US and Canada)
-(GMT-06:00) Central America
-(GMT-06:00) Central Time (US and Canada)
-(GMT-06:00) Guadalajara, Mexico City, Monterrey
-(GMT-06:00) Saskatchewan
-(GMT-05:00) Bogota, Lima, Quito
-(GMT-05:00) Eastern Time (US and Canada)
-(GMT-05:00) Indiana (East)
-(GMT-04:00) Atlantic Time (Canada)
-(GMT-04:00) Caracas, La Paz
-(GMT-04:00) Santiago
-(GMT-03:30) Newfoundland
-(GMT-03:00) Brasilia
-(GMT-03:00) Buenos Aires, Georgetown
-(GMT-03:00) Greenland
-(GMT-02:00) Mid-Atlantic
-(GMT-01:00) Azores
-(GMT-01:00) Cape Verde Is.
-(GMT) Casablanca, Monrovia
-(GMT) Greenwich Mean Time : Dublin, London
-(GMT+01:00) Amsterdam, Berlin, Bern, Rome
-(GMT+01:00) Belgrade, Bratislava, Budapest
-(GMT+01:00) Brussels, Copenhagen, Madrid, Paris
-(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb
-(GMT+01:00) West Central Africa
-(GMT+02:00) Athens
-(GMT+02:00) Bucharest
-(GMT+02:00) Cairo
-(GMT+02:00) Harare, Pretoria
-(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn
-(GMT+02:00) Jerusalem
-(GMT+03:00) Baghdad, Istanbul, Minsk
-(GMT+03:00) Kuwait, Riyadh
-(GMT+03:00) Moscow, St. Petersburg, Volgograd
-(GMT+03:00) Nairobi
-(GMT+03:30) Tehran
-(GMT+04:00) Abu Dhabi, Muscat
-(GMT+04:00) Baku, Tbilisi, Yerevan
-(GMT+04:30) Kabul
-(GMT+05:00) Ekaterinburg
-(GMT+05:00) Islamabad, Karachi, Tashkent
-(GMT+05:30) Chennai, Kolkata, Mumbai
-(GMT+05:45) Kathmandu
-(GMT+06:00) Almaty, Novosibirsk
-(GMT+06:00) Astana, Dhaka
-(GMT+06:00) Sri Jayawardenepura
-(GMT+06:30) Rangoon
-(GMT+07:00) Bangkok, Hanoi, Jakarta
-(GMT+07:00) Krasnoyarsk
-(GMT+08:00) Beijing, Chongqing, Hong Kong
-(GMT+08:00) Irkutsk, Ulaan Bataar
-(GMT+08:00) Kuala Lumpur, Singapore
-(GMT+08:00) Perth
-(GMT+08:00) Taipei
-(GMT+09:00) Osaka, Sapporo, Tokyo
-(GMT+09:00) Seoul
-(GMT+09:00) Yakutsk
-(GMT+09:30) Adelaide
-(GMT+09:30) Darwin
-(GMT+10:00) Brisbane
-(GMT+10:00) Canberra, Melbourne, Sydney
-(GMT+10:00) Guam, Port Moresby
-(GMT+10:00) Hobart
-(GMT+10:00) Vladivostok
-(GMT+11:00) Magadan, Solomon Is., New Caledonia
-(GMT+12:00) Auckland, Wellington
-(GMT+12:00) Fiji Is., Kamchatka, Marshall Is.
-(GMT+13:00) Nuku'alofa</String>
-<String id="STR_JoinHouseholdError" comment="uses STR_ prefix for Actionscript access">This controller was unable to connect to a Sonos component. Please try again. (%1$d)</String>
-<String id="STR_Setting_fixedOutputLevel">Line-Out Level (%1$s)</String>
-<String id="STR_Setting_fixedOutputLevel_Fixed">Fixed</String>
-<String id="STR_Setting_fixedOutputLevel_Variable">Variable</String>
-<String id="STR_Setting_fixedOutputLevel_Msg">You can set the Sonos player's Line-Out level to Variable or Fixed.</String>
-<String id="STR_GeneralSettings">System Settings</String>
-<String id="STR_Setting_ZoneExtender">Player Mode (%1$s)</String>
-<String id="STR_Setting_ZoneExtenderWarn">When a Sonos player is set to Extender mode it will not appear in the Rooms menu. Select a mode for this Sonos player.</String>
-<String id="STR_ChooseZonePlayerAudioInputName">Choose a name for the Line-In source</String>
-<String id="STR_NoBrowseSelections">No selections are available.</String>
-<String id="STR_NoBrowseSettings">No settings are available.</String>
-<String id="STR_NowPlayingHdr">Now Playing</String>
-<String id="STR_Setting_Bass">Bass</String>
-<String id="STR_Setting_Treble">Treble</String>
-<String id="STR_Setting_Balance">Balance</String>
-<String id="STR_Setting_Balance_Left">L</String>
-<String id="STR_Setting_Balance_Right">R</String>
-<String id="STR_Setting_Delay">Audio Delay (Lip Sync)</String>
-<String id="STR_Setting_SurroundEnabled">Surrounds</String>
-<String id="STR_Setting_SurroundLevel">TV Level Adjustment</String>
-<String id="STR_Setting_SurroundMode">Music Playback</String>
-<String id="STR_InternetRadioHdr">Radio</String>
-<String id="STR_Setting_SleepTimer_Off">Off</String>
-<String id="STR_Setting_SleepTimer_15Mins">15 minutes</String>
-<String id="STR_Setting_SleepTimer_30Mins">30 minutes</String>
-<String id="STR_Setting_SleepTimer_45Mins">45 minutes</String>
-<String id="STR_Setting_SleepTimer_60Mins">1 hour</String>
-<String id="STR_Setting_SleepTimer_120Mins">2 hours</String>
-<String id="STR_Setting_AlarmBuzzer">Sonos Chime</String>
-<String id="STR_Setting_Alarm">Alarm</String>
-<String id="STR_Setting_Alarms">Alarms</String>
-<String id="STR_Setting_Alarm_Advanced">Advanced</String>
-<String id="STR_Setting_Alarm_Enable">Alarm (%1$s)</String>
-<String id="STR_Setting_Alarm_Music">Music (%1$s)</String>
-<String id="STR_Setting_Alarm_Music_NoTitle">Music</String>
-<String id="STR_Setting_Alarm_Volume">Volume</String>
-<String id="STR_Setting_Alarm_ZoneReqd">You must select a Sonos player before setting alarm volume.</String>
-<String id="STR_Setting_Alarm_FixedOutputVolume">Volume settings are not available while a Sonos player's Line-Out level is set to Fixed.</String>
-<String id="STR_Setting_Alarm_12H">12 hour</String>
-<String id="STR_Setting_Alarm_24H">24 hour</String>
-<String id="STR_Setting_Alarm_AM">AM</String>
-<String id="STR_Setting_Alarm_PM">PM</String>
-<String id="STR_Setting_Alarm_MDY">Month Day Year</String>
-<String id="STR_Setting_Alarm_DMY">Day Month Year</String>
-<String id="STR_Setting_Alarm_YMD">Year Month Day</String>
-<String id="STR_Setting_Alarm_HrFmt">%1$d hour</String>
-<String id="STR_Setting_Alarm_HrsFmt">%1$d hours</String>
-<String id="STR_Setting_Alarm_MinFmt">%1$d mins</String>
-<String id="STR_Setting_AlarmLength_15Mins">15 minutes</String>
-<String id="STR_Setting_AlarmLength_30Mins">30 minutes</String>
-<String id="STR_Setting_AlarmLength_45Mins">45 minutes</String>
-<String id="STR_Setting_AlarmLength_60Mins">1 hour</String>
-<String id="STR_Setting_AlarmLength_120Mins">2 hours</String>
-<String id="STR_Setting_AlarmLength_NoLimit">No limit</String>
-<String id="STR_Setting_Alarm_AskShowClock">Do you want the clock to show on THIS controller when the alarm sounds?</String>
-<String id="STR_Setting_Alarm_AskShowClock_Yes">Show Clock</String>
-<String id="STR_Setting_Alarm_AskShowClock_No">Don't Show Clock</String>
-<String id="STR_Setting_AlarmSaveOK">Do you want to save the alarm you are working on?</String>
-<String id="STR_ConfirmDeleteAlarm">Are you sure you want to delete this alarm?</String>
-<String id="STR_Setting_Alarm_Create_Error_Unknown">Unable to save the alarm. Please try again later.</String>
-<String id="STR_Setting_Alarm_ConflictAlarm_Error">Unable to save the alarm. There is already an alarm for this room at the specified time.</String>
-<String id="STR_Setting_Alarm_MaxAlarms_Error">No more alarms may be created. Please delete an existing alarm before adding a new one.</String>
-<String id="STR_Setting_Alarm_Delete_Error">Unable to delete the alarm. Please try again later.</String>
-<String id="STR_Setting_Alarm_Set_From_Internet">Your system will set the date and time from the Internet.</String>
-<String id="STR_Setting_Alarms_EmptyMessage">Press New Alarm to set an alarm.</String>
-<String id="STR_Setting_ArtistView_Warn">Select how you want compilation albums to be grouped.</String>
-<String id="STR_Scrobbling_Prompt">Scrobbling means that when you listen to any song on Sonos, its name is added to your Last.fm music profile. This data helps Last.fm recommend music to you, create radio stations based on your musical taste, and much more.
+要在 Sonos 中使用此帐户，必须先通过 %1$s 升级此帐户以成为正式订户。</String>
+<String id="RHHSTR_AcctSuspended_Sonos">由于您的帐户已被停用，因此 %1$s 无法完成您的请求。</String>
+<String id="RHHSTR_MenuOptsTempUnavail">某些菜单选项暂时不可用。 请稍后重试。</String>
+<String id="RHHSTR_InfoView_NoInfo">无可用信息。</String>
+<String comment="ROBTODO" id="RHHSTR_EventDetails">事件详细信息</String>
+<String id="RHHSTR_UnsupportedTerritoryErr_Sonos">添加试用帐户时出现问题。 %1$s 在您的位置不可用。</String>
+<String id="RHHSTR_TooManyAccounts">您已达到 Sonos 系统所支持的音乐服务帐户数量的上限。请先移除一个现有帐户，再添加新帐户。</String>
+<String id="RHHSTR_COUNTRY_NAMES">美国:US
+阿富汗:AF
+阿尔巴尼亚:AL
+美属萨摩亚:AS
+安道尔:AD
+安哥拉:AO
+安圭拉:AI
+安提瓜:AG
+阿根廷:AR
+亚美尼亚:AM
+阿鲁巴:AW
+澳大利亚:AU
+奥地利:AT
+阿塞拜疆:AZ
+巴哈马:BS
+巴林:BH
+孟加拉国:BD
+巴巴多斯:BB
+白俄罗斯:BY
+比利时:BE
+伯利兹:BZ
+贝宁:BJ
+百慕大:BM
+不丹:BT
+玻利维亚:BO
+波斯尼亚和黑塞哥维那:BA
+博茨瓦纳:BW
+巴西:BR
+英属维尔京群岛:VG
+文莱:BN
+保加利亚:BG
+布基纳法索:BF
+布隆迪:BI
+柬埔寨:KH
+加拿大:CA
+佛得角:CV
+开曼群岛:KY
+乍得:TD
+智利:CL
+中国:CN
+哥伦比亚:CO
+刚果:CG
+刚果民主共和国:CD
+库克群岛:CK
+哥斯达黎加:CR
+克罗地亚:HR
+塞浦路斯:CY
+捷克共和国:CZ
+丹麦:DK
+吉布提:DJ
+多米尼加:DM
+多米尼加共和国:DO
+厄瓜多尔:EC
+埃及:EG
+萨尔瓦多:SV
+赤道几内亚:GQ
+厄立特里亚:ER
+爱沙尼亚:EE
+埃塞俄比亚:ET
+法罗群岛:FO
+斐济:FJ
+芬兰:FI
+法国:FR
+法属圭亚那:GF
+法属玻利尼西亚:PF
+加蓬:GA
+冈比亚:GM
+格鲁吉亚:GE
+德国:DE
+加纳:GH
+直布罗陀:GI
+希腊:GR
+格陵兰:GL
+格林纳达:GD
+瓜德罗普岛:GP
+关岛:GU
+危地马拉:GT
+几内亚:GN
+圭亚那:GY
+海地:HT
+洪都拉斯:HN
+香港:HK
+匈牙利:HU
+冰岛:IS
+印度:IN
+印度尼西亚:ID
+伊拉克:IQ
+爱尔兰:IE
+以色列:IL
+意大利:IT
+牙买加:JM
+日本:JP
+约旦:JO
+哈萨克斯坦:KZ
+肯尼亚:KE
+科威特:KW
+吉尔吉斯斯坦:KG
+老挝:LA
+拉脱维亚:LV
+黎巴嫩:LB
+莱索托:LS
+利比里亚:LR
+列支敦士登:LI
+立陶宛:LT
+卢森堡:LU
+澳门:MO
+马其顿:MK
+马达加斯加:MG
+马拉维:MW
+马来西亚:MY
+马尔代夫:MV
+马里:ML
+马耳他:MT
+马绍尔群岛:MH
+马提尼克:MQ
+毛里塔尼亚:MR
+毛里求斯:MU
+墨西哥:MX
+密克罗尼西亚:FM
+摩尔多瓦:MD
+摩纳哥:MC
+蒙古:MN
+黑山:ME
+蒙特塞拉特:MS
+摩洛哥:MA
+莫桑比克:MZ
+纳米比亚:NA
+尼泊尔:NP
+荷兰:NL
+荷属安的列斯群岛:AN
+新喀里多尼亚:NC
+新西兰:NZ
+尼加拉瓜:NI
+尼日尔:NE
+尼日利亚:NG
+挪威:NO
+阿曼:OM
+巴基斯坦:PK
+帕劳:PW
+巴勒斯坦自治区:PS
+巴拿马:PA
+巴布亚新几内亚:PG
+巴拉圭:PY
+秘鲁:PE
+菲律宾:PH
+波兰:PL
+葡萄牙:PT
+波多黎各:PR
+卡塔尔:QA
+留尼旺:RE
+罗马尼亚:RO
+俄罗斯联邦:RU
+卢旺达:RW
+沙特阿拉伯:SA
+塞内加尔:SN
+塞尔维亚:RS
+塞舌尔:SC
+新加坡:SG
+斯洛伐克共和国:SK
+斯洛文尼亚:SI
+南非:ZA
+韩国:KR
+西班牙:ES
+斯里兰卡:LK
+圣基茨/尼维斯:KN
+圣露西亚:LC
+圣文森:VC
+苏里南:SR
+斯威士兰:SZ
+瑞典:SE
+瑞士:CH
+叙利亚:SY
+台湾:TW
+坦桑尼亚:TZ
+泰国:TH
+多哥:TG
+特立尼达/多巴哥:TT
+突尼斯:TN
+土耳其:TR
+土库曼斯坦:TM
+特克斯和凯科斯群岛:TC
+阿拉伯联合酋长国:AE
+美属维尔京群岛:VI
+乌干达:UG
+乌克兰:UA
+英国:GB
+乌拉圭:UY
+乌兹别克斯坦:UZ
+瓦努阿图:VU
+委内瑞拉:VE
+越南:VN
+瓦利斯和富图纳群岛:WF
+也门:YE
+赞比亚:ZM
+津巴布韦:ZW</String>
+<String id="RHHSTR_TIME_ZONES">(GMT-12:00) 国际日期变更线以西
+(GMT-11:00) 中途岛，萨摩亚群岛
+(GMT-10:00) 夏威夷
+(GMT-09:00) 阿拉斯加
+(GMT-08:00) 太平洋时间（美国和加拿大）
+(GMT-07:00) 亚利桑那
+(GMT-07:00) 奇瓦瓦，拉巴斯，马扎特兰
+(GMT-07:00) 山地时间（美国和加拿大）
+(GMT-06:00) 中美洲
+(GMT-06:00) 中部时间（美国和加拿大）
+(GMT-06:00) 瓜达拉哈拉，墨西哥城，蒙特雷
+(GMT-06:00) 萨斯喀彻温
+(GMT-05:00) 波哥大，利马，基多
+(GMT-05:00) 东部时间（美国和加拿大）
+(GMT-05:00) 印第安那（东部）
+(GMT-04:00) 大西洋时间（加拿大）
+(GMT-04:00) 加拉加斯，拉巴斯
+(GMT-04:00) 圣地亚哥
+(GMT-03:30) 纽芬兰
+(GMT-03:00) 巴西利亚
+(GMT-03:00) 布宜诺斯艾利斯，乔治敦
+(GMT-03:00) 格陵兰
+(GMT-02:00) 中大西洋
+(GMT-01:00) 亚速尔群岛
+(GMT-01:00) 佛得角群岛
+(GMT) 卡萨布兰卡，蒙罗维亚
+(GMT) 格林威治标准时间：都柏林，伦敦
+(GMT+01:00) 阿姆斯特丹，柏林，伯尔尼，罗马
+(GMT+01:00) 贝尔格莱德，布拉迪斯拉发，布达佩斯
+(GMT+01:00) 布鲁塞尔，哥本哈根，马德里，巴黎
+(GMT+01:00) 萨拉热窝，斯科普里，华沙，萨格勒布
+(GMT+01:00) 中非西部
+(GMT+02:00) 雅典，伊斯坦布尔，明斯克
+(GMT+02:00) 布加勒斯特
+(GMT+02:00) 开罗
+(GMT+02:00) 哈拉雷，比勒陀利亚
+(GMT+02:00) 赫尔辛基，基辅，里加，索非亚，塔林
+(GMT+02:00) 耶路撒冷
+(GMT+03:00) 巴格达
+(GMT+03:00) 科威特，利雅得
+(GMT+03:00) 莫斯科，圣彼得堡，伏尔加格勒
+(GMT+03:00) 内罗毕
+(GMT+03:30) 德黑兰
+(GMT+04:00) 阿布扎比，马斯喀特
+(GMT+04:00) 巴库，第比利斯，埃里温
+(GMT+04:30) 喀布尔
+(GMT+05:00) 叶卡特琳堡
+(GMT+05:00) 伊斯兰堡，卡拉奇，塔什干
+(GMT+05:30) 钦奈，加尔各答，孟买
+(GMT+05:45) 加德满都
+(GMT+06:00) 阿拉木图，新西伯利亚
+(GMT+06:00) 阿斯塔纳，达卡
+(GMT+06:00) 斯里贾亚瓦德纳普拉
+(GMT+06:30) 仰光
+(GMT+07:00) 曼谷，河内，雅加达
+(GMT+07:00) 克拉斯诺亚尔斯克
+(GMT+08:00) 北京，重庆，香港
+(GMT+08:00) 伊尔库次克，乌兰巴托
+(GMT+08:00) 吉隆坡，新加坡
+(GMT+08:00) 珀斯
+(GMT+08:00) 台北
+(GMT+09:00) 大阪，札幌，东京
+(GMT+09:00) 首尔
+(GMT+09:00) 雅库茨克
+(GMT+09:30) 阿德莱德
+(GMT+09:30) 达尔文
+(GMT+10:00) 布里斯班
+(GMT+10:00) 堪培拉，墨尔本，悉尼
+(GMT+10:00) 关岛，莫尔兹比港
+(GMT+10:00) 霍巴特
+(GMT+10:00) 符拉迪沃斯托克
+(GMT+11:00) 马加丹，所罗门群岛，新喀里多尼亚
+(GMT+12:00) 奥克兰，惠灵顿
+(GMT+12:00) 斐济群岛，堪察加半岛，马绍尔群岛
+(GMT+13:00) 努库阿洛法</String>
+<String comment="uses STR_ prefix for Actionscript access" id="STR_JoinHouseholdError">此控制器无法连接到 Sonos 组件。请重试。(%1$d)</String>
+<String id="STR_Setting_fixedOutputLevel">线路输出等级 (%1$s)</String>
+<String id="STR_Setting_fixedOutputLevel_Fixed">固定</String>
+<String id="STR_Setting_fixedOutputLevel_Variable">可变</String>
+<String id="STR_Setting_fixedOutputLevel_Msg">可以将 Sonos 播放器的线路输出等级设定为“可变”或“固定”。</String>
+<String id="STR_GeneralSettings">系统设置</String>
+<String id="STR_Setting_ZoneExtender">播放器模式 (%1$s)</String>
+<String id="STR_Setting_ZoneExtenderWarn">当 Sonos 播放器设定为“扩展”模式时，就不会显示在“房间”菜单中。为此 Sonos 播放器选择模式。</String>
+<String id="STR_ChooseZonePlayerAudioInputName">为线路输入源选择名称</String>
+<String id="STR_NoBrowseSelections">没有选择可用。</String>
+<String id="STR_NoBrowseSettings">没有设置可用。</String>
+<String id="STR_NowPlayingHdr">正在播放</String>
+<String id="STR_Setting_Bass">低音</String>
+<String id="STR_Setting_Treble">高音</String>
+<String id="STR_Setting_Balance">声道平衡</String>
+<String id="STR_Setting_Balance_Left">左</String>
+<String id="STR_Setting_Balance_Right">右</String>
+<String id="STR_Setting_Delay">音频延迟（影音同步）</String>
+<String id="STR_Setting_SurroundEnabled">环绕声</String>
+<String id="STR_Setting_SurroundLevel">TV 级别调整</String>
+<String id="STR_Setting_SurroundMode">音乐播放</String>
+<String id="STR_InternetRadioHdr">电台</String>
+<String id="STR_Setting_SleepTimer_Off">关</String>
+<String id="STR_Setting_SleepTimer_15Mins">15 分钟</String>
+<String id="STR_Setting_SleepTimer_30Mins">30 分钟</String>
+<String id="STR_Setting_SleepTimer_45Mins">45 分钟</String>
+<String id="STR_Setting_SleepTimer_60Mins">1 小时</String>
+<String id="STR_Setting_SleepTimer_120Mins">2 小时</String>
+<String id="STR_Setting_AlarmBuzzer">Sonos 排钟</String>
+<String id="STR_Setting_Alarm">闹钟</String>
+<String id="STR_Setting_Alarms">闹钟</String>
+<String id="STR_Setting_Alarm_Advanced">高级</String>
+<String id="STR_Setting_Alarm_Enable">闹钟 (%1$s)</String>
+<String id="STR_Setting_Alarm_Music">音乐 (%1$s)</String>
+<String id="STR_Setting_Alarm_Music_NoTitle">音乐</String>
+<String id="STR_Setting_Alarm_Volume">音量</String>
+<String id="STR_Setting_Alarm_ZoneReqd">在设定闹钟音量前，必须先选择一个 Sonos 播放器。</String>
+<String id="STR_Setting_Alarm_FixedOutputVolume">当 Sonos 播放器的线路输出等级设定为“固定”时，音量设置不可用。</String>
+<String id="STR_Setting_Alarm_12H">12 小时制</String>
+<String id="STR_Setting_Alarm_24H">24 小时制</String>
+<String id="STR_Setting_Alarm_AM">上午</String>
+<String id="STR_Setting_Alarm_PM">下午</String>
+<String id="STR_Setting_Alarm_MDY">月/日/年</String>
+<String id="STR_Setting_Alarm_DMY">日/月/年</String>
+<String id="STR_Setting_Alarm_YMD">年/月/日</String>
+<String id="STR_Setting_Alarm_HrFmt">%1$d 小时</String>
+<String id="STR_Setting_Alarm_HrsFmt">%1$d 小时</String>
+<String id="STR_Setting_Alarm_MinFmt">%1$d 分钟</String>
+<String id="STR_Setting_AlarmLength_15Mins">15 分钟</String>
+<String id="STR_Setting_AlarmLength_30Mins">30 分钟</String>
+<String id="STR_Setting_AlarmLength_45Mins">45 分钟</String>
+<String id="STR_Setting_AlarmLength_60Mins">1 小时</String>
+<String id="STR_Setting_AlarmLength_120Mins">2 小时</String>
+<String id="STR_Setting_AlarmLength_NoLimit">无限制</String>
+<String id="STR_Setting_Alarm_AskShowClock">当闹钟响起时，是否在此控制器上显示时钟？</String>
+<String id="STR_Setting_Alarm_AskShowClock_Yes">显示时钟</String>
+<String id="STR_Setting_Alarm_AskShowClock_No">不显示时钟</String>
+<String id="STR_Setting_AlarmSaveOK">是否保存正在使用的闹钟？</String>
+<String id="STR_ConfirmDeleteAlarm">是否确实要删除此闹钟？</String>
+<String id="STR_Setting_Alarm_Create_Error_Unknown">无法保存闹钟。 请稍后重试。</String>
+<String id="STR_Setting_Alarm_ConflictAlarm_Error">无法保存闹钟。此房间已在指定时间设置闹钟。</String>
+<String id="STR_Setting_Alarm_MaxAlarms_Error">不能再创建闹钟。 请先删除现有闹钟，再添加新闹钟。</String>
+<String id="STR_Setting_Alarm_Delete_Error">无法删除闹钟。 请稍后重试。</String>
+<String id="STR_Setting_Alarm_Set_From_Internet">系统将通过互联网设置日期和时间。</String>
+<String id="STR_Setting_Alarms_EmptyMessage">按“新建闹钟”可设定闹钟。</String>
+<String id="STR_Setting_ArtistView_Warn">选择合辑的分组方式。</String>
+<String id="STR_Scrobbling_Prompt">歌曲记录是指当您在 Sonos 上收听歌曲时，其名称将被添加到您的 Last.fm 音乐配置文件中。 此数据有助于 Last.fm 向您推荐音乐，根据您的音乐品味创建电台等。
 
-Please select a scrobbling option:</String>
-<String id="STR_NPNoInfoAvailable">[No information available]</String>
-<String id="STR_NoMusic" comment="used for now playing">[No music selected]</String>
-<String id="STR_SourceDeviceHdr">Source Device</String>
-<String id="STR_AddToQueue" comment="softkey label">Add to End of Queue</String>
-<String id="STR_PlayNow">Play Now</String>
-<String id="STR_AddNextInQueue">Play Next</String>
-<String id="STR_PlayMenu_InfoView_ItemTitle">Info &amp; Options</String>
-<String id="STR_NoSonosID">&lt;unregistered&gt;</String>
+请选择歌曲记录选项：</String>
+<String id="STR_NPNoInfoAvailable">[无可用信息]</String>
+<String comment="used for now playing" id="STR_NoMusic">[无音乐]</String>
+<String id="STR_SourceDeviceHdr">线路输入源设备</String>
+<String comment="softkey label" id="STR_AddToQueue">添加到队列的末尾</String>
+<String id="STR_PlayNow">立即播放</String>
+<String id="STR_AddNextInQueue">添加至下一曲</String>
+<String id="STR_PlayMenu_InfoView_ItemTitle">信息与选项</String>
+<String id="STR_NoSonosID">&lt;未注册&gt;</String>
 <String id="STR_AboutBoxZPhdr">
 ---------------------------------
-%1$s: %2$s
+%1$s： %2$s
 </String>
-<String id="STR_AboutBoxZPsn">Serial Number: %1$s
+<String id="STR_AboutBoxZPsn">序列号： %1$s
 </String>
-<String id="STR_AboutBoxZPswv">Version: %1$s (build %2$s)
+<String id="STR_AboutBoxZPswv">版本： %1$s（内部版本 %2$s）
 </String>
-<String id="STR_AboutBoxZPhwv">Hardware Version: %1$s
+<String id="STR_AboutBoxZPhwv">硬件版本： %1$s
 </String>
-<String id="STR_AboutBoxZPserID">Series ID: %1$s
+<String id="STR_AboutBoxZPserID">系列 ID：%1$s
 </String>
-<String id="STR_AboutBoxZPip">IP Address: %1$s</String>
+<String id="STR_AboutBoxZPip">IP 地址： %1$s</String>
 <String id="STR_AboutBoxZPHT">
-Audio In: %1$s</String>
+音频输入：%1$s</String>
 <String id="STR_AboutBoxZPxi">
 %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
-Warning: Your wireless network will not support the use of a SUB or surrounds with your %1$s.</String>
-<String id="STR_Setting_ZPHidden">%1$s (Hidden)</String>
-<String id="STR_Setting_UnassociatedSub">%1$s (unused)</String>
+警告：您的无线网络不支持您的 %1$s 使用低音炮或环绕声。</String>
+<String id="STR_Setting_ZPHidden">%1$s（隐藏）</String>
+<String id="STR_Setting_UnassociatedSub">%1$s （未使用）</String>
 <String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
-<String id="STR_MusicCollection" comment="top-level sub-title">Music</String>
-<String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes® Compilations</String>
-<String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Album Artists</String>
-<String id="STR_ARTISTVIEW_SIMPLE_CONTRACTION">Do Not Group</String>
-<String id="STR_GenericErrorNoSkipNext">Skip Forward is not available for this song.</String>
-<String id="STR_GenericErrorNoSkipBack">Skip Back is not available for this song.</String>
-<String id="STR_GenericErrorNoFF">Fast Forward is not available for this song.</String>
-<String id="STR_GenericErrorNoRew">Rewind is not available for this song.</String>
-<String id="STR_SonosAPIErrorNoRadioFF">Fast Forward is not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNoRadioRW">Rewind is not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNoRadioNext">Skip Forward and Fast Forward are not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNoRadioSkip">Skip Back and Rewind are not available for this %1$s song.</String>
-<String id="STR_SonosAPIErrorNextLimit">Unable to skip forward. %1$s limits the number of songs you may skip per hour.</String>
-<String id="STR_MSS_LearnMore">You can find out more about %1$s at:
+<String comment="top-level sub-title" id="STR_MusicCollection">音乐</String>
+<String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes® 合辑</String>
+<String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">专辑表演者</String>
+<String id="STR_ARTISTVIEW_SIMPLE_CONTRACTION">不分组</String>
+<String id="STR_GenericErrorNoSkipNext">此歌曲没有前进功能。</String>
+<String id="STR_GenericErrorNoSkipBack">此歌曲没有后退功能。</String>
+<String id="STR_GenericErrorNoFF">此歌曲没有快进功能。</String>
+<String id="STR_GenericErrorNoRew">此歌曲没有倒回功能。</String>
+<String id="STR_SonosAPIErrorNoRadioFF">此 %1$s 歌曲没有快进功能。</String>
+<String id="STR_SonosAPIErrorNoRadioRW">此 %1$s 歌曲没有倒回功能。</String>
+<String id="STR_SonosAPIErrorNoRadioNext">此 %1$s 歌曲没有前进和快进功能。</String>
+<String id="STR_SonosAPIErrorNoRadioSkip">此 %1$s 歌曲没有后退和倒回功能。</String>
+<String id="STR_SonosAPIErrorNextLimit">无法前进。%1$s 对每小时可跳过的歌曲数有限制。</String>
+<String id="STR_MSS_LearnMore">要了解 %1$s 的更多信息，请访问：
 
 %2$s.sonos.com/%3$s</String>
-<String id="STR_MSS_SECONDARY_DESC_SONOS">Sign in with %1$s</String>
-<String id="STR_MSS_SECONDARY_DESC_TRIAL">Free Trial</String>
-<String id="STR_MSS_SECONDARY_DESC">Free basic service</String>
-<String id="STR_HouseMuted">All rooms have been muted</String>
-<String id="STR_HouseUnmuted">All rooms have been unmuted</String>
-<String id="STR_Yes">Yes</String>
-<String id="STR_No">No</String>
-<String id="STR_Cancel">Cancel</String>
-<String id="STR_Delete">Delete</String>
-<String id="STR_Enabled">Enabled</String>
-<String id="STR_Disabled">Disabled</String>
-<String id="STR_Enable">Enable</String>
-<String id="STR_Disable">Disable</String>
-<String id="STR_LastFMArtistsTitle" comment="ROBTODO">Artists:</String>
-<String id="STR_LastFMVenueTitle" comment="ROBTODO">Venue:</String>
-<String id="STR_LastFMDescriptionTitle" comment="ROBTODO">Description:</String>
-<String id="STR_InfoViewHeaderLabelTrack">Song</String>
-<String id="STR_InfoViewHeaderLabelAlbum">Album</String>
-<String id="STR_InfoViewHeaderLabelArtist">Artist</String>
-<String id="STR_InfoViewHeaderLabelStation">playing:</String>
-<String id="STR_InfoViewHeaderLabelRadioStation">Station</String>
-<String id="STR_InfoViewHeaderLabelRadioShow">Show</String>
-<String id="STR_InfoViewHeaderLabelChannel">Channel</String>
-<String id="STR_InfoViewHeaderLabelChannelDescription">Description</String>
-<String id="STR_InfoViewHeaderLabelRadioHost">Host</String>
-<String id="STR_InfoViewHeaderLabelBook">Book</String>
-<String id="STR_InfoViewHeaderLabelChapter">Chapter</String>
-<String id="STR_InfoViewHeaderLabelAuthor">Author</String>
-<String id="STR_InfoViewHeaderLabelAccount">Account</String>
-<String id="STR_FavoriteAdded">Station added to My Radio Stations.</String>
-<String id="STR_FavShowAdded">Show added to My Radio Shows.</String>
-<String id="STR_FavoriteExistsMessage">Station already in My Radio Stations.</String>
-<String id="STR_FavShowExistsMessage">Show already in My Radio Shows.</String>
-<String id="STR_FavStationFailedGeneric">Unable to add station to My Radio Stations.</String>
-<String id="STR_FavShowFailedGeneric">Unable to add show to My Radio Shows.</String>
-<String id="STR_ConfirmDeleteFavoriteWithLinebreaks">You have chosen to delete "%1$s" from My Radio Stations.
+<String id="STR_MSS_SECONDARY_DESC_SONOS">向 %1$s 注册</String>
+<String id="STR_MSS_SECONDARY_DESC_TRIAL">免费试用服务</String>
+<String id="STR_MSS_SECONDARY_DESC">免费基本服务</String>
+<String id="STR_HouseMuted">已对所有房间静音</String>
+<String id="STR_HouseUnmuted">已取消对所有房间静音</String>
+<String id="STR_Yes">是</String>
+<String id="STR_No">否</String>
+<String id="STR_Cancel">取消</String>
+<String id="STR_Delete">删除</String>
+<String id="STR_Enabled">已启用</String>
+<String id="STR_Disabled">已禁用</String>
+<String id="STR_Enable">启用</String>
+<String id="STR_Disable">禁用</String>
+<String comment="ROBTODO" id="STR_LastFMArtistsTitle">表演者：</String>
+<String comment="ROBTODO" id="STR_LastFMVenueTitle">场地：</String>
+<String comment="ROBTODO" id="STR_LastFMDescriptionTitle">说明：</String>
+<String id="STR_InfoViewHeaderLabelTrack">歌曲</String>
+<String id="STR_InfoViewHeaderLabelAlbum">专辑</String>
+<String id="STR_InfoViewHeaderLabelArtist">表演者</String>
+<String id="STR_InfoViewHeaderLabelStation">正在播放：</String>
+<String id="STR_InfoViewHeaderLabelRadioStation">电台</String>
+<String id="STR_InfoViewHeaderLabelRadioShow">节目</String>
+<String id="STR_InfoViewHeaderLabelChannel">频道</String>
+<String id="STR_InfoViewHeaderLabelChannelDescription">说明</String>
+<String id="STR_InfoViewHeaderLabelRadioHost">主持人</String>
+<String id="STR_InfoViewHeaderLabelBook">书</String>
+<String id="STR_InfoViewHeaderLabelChapter">章节</String>
+<String id="STR_InfoViewHeaderLabelAuthor">作者</String>
+<String id="STR_InfoViewHeaderLabelAccount">帐户</String>
+<String id="STR_FavoriteAdded">电台已添加到我的电台。</String>
+<String id="STR_FavShowAdded">节目已添加到我的电台节目。</String>
+<String id="STR_FavoriteExistsMessage">该电台已存在于我的电台中。</String>
+<String id="STR_FavShowExistsMessage">该节目已存在于我的电台节目中。</String>
+<String id="STR_FavStationFailedGeneric">无法将电台添加到我的电台。</String>
+<String id="STR_FavShowFailedGeneric">无法将节目添加到我的电台节目。</String>
+<String id="STR_ConfirmDeleteFavoriteWithLinebreaks">您选择了从我的电台中删除“%1$s”。
 
-Are you sure?</String>
-<String id="STR_ConfirmDeleteFavShowWithLinebreaks">You have chosen to delete "%1$s" from My Radio Shows.
+是否确定要执行此操作？</String>
+<String id="STR_ConfirmDeleteFavShowWithLinebreaks">您选择了从我的电台节目中删除“%1$s”。
 
-Are you sure?</String>
-<String id="STR_FavoriteDeleted">Station deleted from My Radio Stations.</String>
-<String id="STR_FavShowDeleted">Show deleted from My Radio Shows.</String>
-<String id="STR_DelRadioStationFavFailed">Unable to remove station from My Radio Stations</String>
-<String id="STR_DelRadioShowFavFailed">Unable to remove show from My Radio Shows</String>
-<String id="STR_AddRadioStationFavorite">Add to My Radio Stations</String>
-<String id="STR_AddRadioShowFavorite">Add to My Radio Shows</String>
-<String id="STR_DeleteRadioStationFavorite">Remove from My Radio Stations</String>
-<String id="STR_DeleteRadioShowFavorite">Remove from My Radio Shows</String>
-<String id="STR_EventName">Event</String>
-<String id="STR_EventLocation">Place</String>
-<String id="STR_EventDate">Date</String>
-<String id="STR_AboutTheArtist">About the Artist</String>
-<String id="STR_AboutTheAuthor">About the Author</String>
-<String id="STR_AboutThisArtist">About This Artist</String>
-<String id="STR_SimilarItems">Similar Items</String>
-<String id="STR_RelatedPlayRadio">Start Radio</String>
-<String id="STR_AboutThisAlbum">About This Album</String>
-<String id="STR_AboutThisRadio">About This Radio</String>
-<String id="STR_AboutThisBook">About this Book</String>
-<String id="STR_AboutThisPlaylist">About this Playlist</String>
-<String id="STR_ViewAllTracks">View All Songs on Album</String>
-<String id="STR_ViewAllAlbums">View All Albums</String>
-<String id="STR_ViewReviews">View Reviews</String>
-<String id="STR_MoreAlbumsLikeThis">More Albums Like This</String>
-<String id="STR_RelatedArtists">Related Projects</String>
-<String id="STR_RelatedArtistsGeneral">Related Artists</String>
-<String id="STR_RelatedAuthorsGeneral">Related Authors</String>
-<String id="STR_ContemporaryArtists">Contemporary Artists</String>
-<String id="STR_FollowingArtists">Artist Followers</String>
-<String id="STR_InfluencingArtists">Artist Influences</String>
-<String id="STR_AllTracksArtist">View Songs by This Artist</String>
-<String id="STR_AllAlbumsArtist">View Albums by This Artist</String>
-<String id="STR_BrowseArtist">Browse the Artist</String>
-<String id="STR_BrowseAuthor">Browse the Author</String>
-<String id="STR_AddAlbumToLib">Add Album to My Library</String>
-<String id="STR_DelAlbumFromLib">Delete Album from My Library</String>
-<String id="STR_AddStationToLib">Add Station to My Library</String>
-<String id="STR_DelStationFromLib">Delete Station from My Library</String>
-<String id="STR_AddChannelToLib">Add Channel to My Library</String>
-<String id="STR_DelChannelFromLib">Delete Channel from My Library</String>
-<String id="STR_AddTrackToLib">Add Song to My Library</String>
-<String id="STR_DelTrackFromLib">Delete Song from My Library</String>
-<String id="STR_AddPlaylistToLib">Add Playlist to My Library</String>
-<String id="STR_DelPlaylistFromLib">Delete Playlist</String>
-<String id="STR_ArtistInfo">Artist Info</String>
-<String id="STR_AuthorInfo">Author Info</String>
-<String id="STR_AlbumInfo">Album Info</String>
-<String id="STR_AutomixTrack">Automix this song</String>
-<String id="STR_AutomixAlbum">Automix this album</String>
-<String id="STR_NoSharesAvailable">No shared folders are available.
+是否确定要执行此操作？</String>
+<String id="STR_FavoriteDeleted">电台已从我的电台中删除。</String>
+<String id="STR_FavShowDeleted">节目已从我的电台节目中删除。</String>
+<String id="STR_DelRadioStationFavFailed">无法将电台从我的电台中删除</String>
+<String id="STR_DelRadioShowFavFailed">无法将节目从我的电台节目中删除</String>
+<String id="STR_AddRadioStationFavorite">添加到我的电台</String>
+<String id="STR_AddRadioShowFavorite">添加到我的电台节目</String>
+<String id="STR_DeleteRadioStationFavorite">从我的电台中移除</String>
+<String id="STR_DeleteRadioShowFavorite">从我的电台节目中移除</String>
+<String id="STR_EventName">事件</String>
+<String id="STR_EventLocation">地点</String>
+<String id="STR_EventDate">日期</String>
+<String id="STR_AboutTheArtist">关于表演者</String>
+<String id="STR_AboutTheAuthor">关于作者</String>
+<String id="STR_AboutThisArtist">关于此表演者</String>
+<String id="STR_SimilarItems">相似曲目</String>
+<String id="STR_RelatedPlayRadio">启动电台</String>
+<String id="STR_AboutThisAlbum">关于此专辑</String>
+<String id="STR_AboutThisRadio">关于此电台</String>
+<String id="STR_AboutThisBook">关于此书</String>
+<String id="STR_AboutThisPlaylist">关于此播放列表</String>
+<String id="STR_ViewAllTracks">显示专辑中的所有歌曲</String>
+<String id="STR_ViewAllAlbums">显示所有专辑</String>
+<String id="STR_ViewReviews">显示评论</String>
+<String id="STR_MoreAlbumsLikeThis">更多类似专辑</String>
+<String id="STR_RelatedArtists">相关项目</String>
+<String id="STR_RelatedArtistsGeneral">相关表演者</String>
+<String id="STR_RelatedAuthorsGeneral">相关作者</String>
+<String id="STR_ContemporaryArtists">当代表演者</String>
+<String id="STR_FollowingArtists">歌迷</String>
+<String id="STR_InfluencingArtists">表演者影响力</String>
+<String id="STR_AllTracksArtist">显示此表演者的歌曲</String>
+<String id="STR_AllAlbumsArtist">显示此表演者的专辑</String>
+<String id="STR_BrowseArtist">浏览此表演者</String>
+<String id="STR_BrowseAuthor">浏览作者</String>
+<String id="STR_AddAlbumToLib">将专辑添加到我的音乐库</String>
+<String id="STR_DelAlbumFromLib">从我的音乐库删除专辑</String>
+<String id="STR_AddStationToLib">将电台添加到我的音乐库</String>
+<String id="STR_DelStationFromLib">从我的音乐库删除电台</String>
+<String id="STR_AddChannelToLib">将频道添加到我的音乐库</String>
+<String id="STR_DelChannelFromLib">从我的音乐库删除频道</String>
+<String id="STR_AddTrackToLib">将歌曲添加到我的音乐库</String>
+<String id="STR_DelTrackFromLib">从我的音乐库删除歌曲</String>
+<String id="STR_AddPlaylistToLib">将播放列表添加到我的音乐库</String>
+<String id="STR_DelPlaylistFromLib">删除播放列表</String>
+<String id="STR_ArtistInfo">表演者信息</String>
+<String id="STR_AuthorInfo">作者信息</String>
+<String id="STR_AlbumInfo">专辑信息</String>
+<String id="STR_AutomixTrack">对此歌曲进行自动混音</String>
+<String id="STR_AutomixAlbum">对此专辑进行自动混音</String>
+<String id="STR_NoSharesAvailable">没有可用的共享文件夹。
 
-Please use the Sonos Setup software on your computer to set up music folders for sharing.</String>
-<String id="STR_ReplaceQueuePrompt">Do you want to replace the Queue?</String>
-<String id="STR_SaveQueueErrorMobileTracksNotSaved">Songs from mobile devices cannot be stored in Sonos Playlists and were not saved.</String>
-<String id="STR_SaveQueueErrorAllMobileTracks">The queue contains only songs from mobile devices. These songs cannot be saved to Sonos Playlists.</String>
-<String id="STR_PostMessage">Update Status</String>
-<String id="STR_PostMessageTo_Fmt">Update %1$s Status</String>
-<String id="RHHSTR_SOCIAL_SINGLE">#NowPlaying %1$s on @Sonos</String>
-<String id="RHHSTR_SOCIAL_TRACK">#NowPlaying "%1$s" by %2$s on @Sonos</String>
-<String id="RHHSTR_SOCIAL_SINGLE_TRACK">#NowPlaying "%1$s" on @Sonos</String>
-<String id="RHHSTR_SOCIAL_NO_INFO">#NowPlaying all the music on earth on @Sonos</String>
-<String id="STR_PostMessageInstructions">Enter text here or press Autofill.</String>
-<String id="STR_Left">Left</String>
-<String id="STR_Right">Right</String>
-<String id="STR_ZPNameFmtLeft">%1$s (L)</String>
-<String id="STR_ZPNameFmtRight">%1$s (R)</String>
-<String id="STR_ZPNameFmtLplusR">%1$s (L + R)</String>
-<String id="STR_ZPNameFmtLplusQ">%1$s (L + ?)</String>
-<String id="STR_ZPNameFmtQplusR">%1$s (? + R)</String>
-<String id="STR_Setting_StereoPair_IntroFmt">You can combine your "%1$s" %2$s speaker with another %2$s to make left and right speakers of a stereo pair.</String>
-<String id="STR_Setting_StereoPair_Start">To start, ensure that both speakers are in the same room.</String>
+请使用计算机上的 Sonos 设置软件设置音乐共享文件夹。</String>
+<String id="STR_ReplaceQueuePrompt">是否要替换此队列？</String>
+<String id="STR_SaveQueueErrorMobileTracksNotSaved">无法在 Sonos 播放列表中存储移动设备中的歌曲，因此未保存歌曲。</String>
+<String id="STR_SaveQueueErrorAllMobileTracks">队列中仅包含来自移动设备的歌曲。无法将这些歌曲保存到 Sonos 播放列表。</String>
+<String id="STR_PostMessage">更新状态</String>
+<String id="STR_PostMessageTo_Fmt">更新 %1$s 状态</String>
+<String id="RHHSTR_SOCIAL_SINGLE">现在正在使用 Sonos 播放 %1$s #NowPlaying</String>
+<String id="RHHSTR_SOCIAL_TRACK">现在正在使用 Sonos 播放 %2$s 的“%1$s” #NowPlaying</String>
+<String id="RHHSTR_SOCIAL_SINGLE_TRACK">现在正在使用 Sonos 播放“%1$s” #NowPlaying</String>
+<String id="RHHSTR_SOCIAL_NO_INFO">现在正在使用 Sonos 播放各种类型的音乐 #NowPlaying</String>
+<String id="STR_PostMessageInstructions">在此处输入文本或按“Sonos 消息”。</String>
+<String id="STR_Left">左</String>
+<String id="STR_Right">右</String>
+<String id="STR_ZPNameFmtLeft">%1$s (左)</String>
+<String id="STR_ZPNameFmtRight">%1$s (右)</String>
+<String id="STR_ZPNameFmtLplusR">%1$s (左 + 右)</String>
+<String id="STR_ZPNameFmtLplusQ">%1$s (左 + ?)</String>
+<String id="STR_ZPNameFmtQplusR">%1$s (? + 右)</String>
+<String id="STR_Setting_StereoPair_IntroFmt">可将“%1$s”%2$s 扬声器与另一个 %2$s 进行组合，以作为立体声对的左右扬声器。</String>
+<String id="STR_Setting_StereoPair_Start">要开始建立立体声对，请先确保两个扬声器均位于同一房间。</String>
 <String id="STR_ZPNameFmtBondedDevice">%1$s (%2$s)</String>
 <String id="STR_ZPNameFmtBondFour">%1$s (%2$s+%3$s+%4$s+%5$s)</String>
 <String id="STR_ZPNameFmtBondThree">%1$s (%2$s+%3$s+%4$s)</String>
 <String id="STR_ZPNameFmtBondTwo">%1$s (%2$s+%3$s)</String>
-<String id="STR_ZPNameChannelLeft">L</String>
-<String id="STR_ZPNameChannelRight">R</String>
+<String id="STR_ZPNameChannelLeft">左</String>
+<String id="STR_ZPNameChannelRight">右</String>
 <String id="STR_ZPNameChannelSub">SUB</String>
-<String id="STR_ZPNameChannelLeftSatellite">LS</String>
-<String id="STR_ZPNameChannelRightSatellite">RS</String>
-<String id="STR_ZPNameChannelLeftAndRightSatellite">LS+RS</String>
+<String id="STR_ZPNameChannelLeftSatellite">左环绕声</String>
+<String id="STR_ZPNameChannelRightSatellite">右环绕声</String>
+<String id="STR_ZPNameChannelLeftAndRightSatellite">左+右</String>
 <String id="STR_ZPNameChannelMissing">?</String>
-<String id="STR_Setting_StereoPair_Creating">Creating stereo pair…</String>
-<String id="STR_Setting_StereoPair_ErrorCreating">There was a problem creating the stereo pair. Please try again.</String>
-<String id="STR_Setting_StereoPair_ErrorSeparating">There was a problem separating the stereo pair. Please try again.</String>
-<String id="STR_ThirdPartyStreaming">App playing on iPod</String>
-<String id="STR_DockediPods">Docked iPods</String>
-<String id="STR_BrowseiPodConfirm">Are you sure you want to browse %1$s?
-The audio it is currently playing may be paused.</String>
-<String id="STR_BrowseiPod">Browse</String>
-<String id="STR_InDock">Docked iPod</String>
-<String id="STR_ContentFrom">Content from</String>
-<String id="STR_iPodFormat">Songs from %1$s</String>
-<String id="STR_ThirdPartyFormat">Audio from %1$s</String>
-<String id="STR_None">None</String>
-<String id="RHHSTR_CLASS_UNKNOWN">Sonos Product</String>
-<String id="RHHSTR_CLASS_ROOM">Room</String>
-<String id="RHHSTR_UNKNOWN_DEVICE">(Unknown)</String>
-<String id="RHHSTR_DOCKNODE_Playlists">Playlists</String>
-<String id="RHHSTR_DOCKNODE_Artists">Artists</String>
-<String id="RHHSTR_DOCKNODE_Albums">Albums</String>
-<String id="RHHSTR_DOCKNODE_Genres">Genres</String>
-<String id="RHHSTR_DOCKNODE_Tracks">Songs</String>
-<String id="RHHSTR_DOCKNODE_Composers">Composers</String>
-<String id="RHHSTR_DOCKNODE_Audiobooks">Audiobooks</String>
-<String id="RHHSTR_DOCKNODE_Podcasts">Podcasts</String>
-<String id="RHHSTR_DOCKNODE_AllTracks">All Songs</String>
-<String id="RHHSTR_DOCKNODE_AllAlbums">All Albums</String>
-<String id="STR_BrowseMusicByFolder">Folders</String>
-<String id="STR_Favorites">Sonos Favorites</String>
-<String id="STR_MusicLibrary">Music Library</String>
-<String id="STR_LocalMusic">Local Music</String>
-<String id="STR_MoreMusic">Add Music Services</String>
-<String id="STR_MoreMusic_Alt">Add Music Services</String>
-<String id="STR_Queue_Full">Unable to add songs to the Queue.</String>
-<String id="STR_Guest_Account">Guest Account</String>
-<String id="STR_AddToQueueNotAuthorized">Unable to add song(s) to the Queue.
+<String id="STR_Setting_StereoPair_Creating">正在创建立体声对…</String>
+<String id="STR_Setting_StereoPair_ErrorCreating">创建立体声对时出现问题。请重试。</String>
+<String id="STR_Setting_StereoPair_ErrorSeparating">分离立体声对时出现问题。请重试。</String>
+<String id="STR_ThirdPartyStreaming">在 iPod 上播放的应用程序</String>
+<String id="STR_DockediPods">连接的多个 iPod</String>
+<String id="STR_BrowseiPodConfirm">是否确实要浏览 %1$s？
+这样会暂停当前正在播放的音频。</String>
+<String id="STR_BrowseiPod">浏览</String>
+<String id="STR_InDock">连接的一个 iPod</String>
+<String id="STR_ContentFrom">内容</String>
+<String id="STR_iPodFormat">来自 %1$s 的歌曲</String>
+<String id="STR_ThirdPartyFormat">来自 %1$s 的音频</String>
+<String id="STR_None">无</String>
+<String id="RHHSTR_CLASS_UNKNOWN">Sonos 产品</String>
+<String id="RHHSTR_CLASS_ROOM">房间</String>
+<String id="RHHSTR_UNKNOWN_DEVICE">（未知）</String>
+<String id="RHHSTR_DOCKNODE_Playlists">播放列表</String>
+<String id="RHHSTR_DOCKNODE_Artists">表演者</String>
+<String id="RHHSTR_DOCKNODE_Albums">专辑</String>
+<String id="RHHSTR_DOCKNODE_Genres">流派</String>
+<String id="RHHSTR_DOCKNODE_Tracks">歌曲</String>
+<String id="RHHSTR_DOCKNODE_Composers">作曲者</String>
+<String id="RHHSTR_DOCKNODE_Audiobooks">有声读物</String>
+<String id="RHHSTR_DOCKNODE_Podcasts">播客</String>
+<String id="RHHSTR_DOCKNODE_AllTracks">所有歌曲</String>
+<String id="RHHSTR_DOCKNODE_AllAlbums">所有专辑</String>
+<String id="STR_BrowseMusicByFolder">文件夹</String>
+<String id="STR_Favorites">Sonos 收藏夹</String>
+<String id="STR_MusicLibrary">音乐库</String>
+<String id="STR_LocalMusic">本地音乐</String>
+<String id="STR_MoreMusic">添加音乐服务</String>
+<String id="STR_MoreMusic_Alt">添加音乐服务</String>
+<String id="STR_Queue_Full">无法将歌曲添加到队列。</String>
+<String id="STR_Guest_Account">Guest 账户</String>
+<String id="STR_AddToQueueNotAuthorized">无法将歌曲添加到队列中。
 
-Windows Media Sharing is not turned on for one or more Sonos players. 
+一个或多个 Sonos 播放器没有打开 Windows Media 共享功能。
 
-Go to http://%1$s.sonos.com/wmpsharing for assistance.
+请转至 http://%1$s.sonos.com/wmpsharing 获取帮助。
 
-Press the OK button to continue.</String>
-<String id="STR_BrowseNotAuthorized">Unable to browse music.
+按“确定”按钮继续。</String>
+<String id="STR_BrowseNotAuthorized">无法浏览音乐。
 
-Windows Media Sharing is not turned on for one or more Sonos players. 
+一个或多个 Sonos 播放器没有打开 Windows Media 共享功能。
 
-Go to http://%1$s.sonos.com/wmpsharing for assistance. 
+请转至 http://%1$s.sonos.com/wmpsharing 获取帮助。
 
-Press the OK button to continue.</String>
-<String id="STR_MiscAddToQueueErr">An error occurred while adding songs to the Queue (%1$d)</String>
-<String id="STR_TracksNotStreamable">These songs are not available for streaming from %1$s</String>
-<String id="STR_AddingTracksToQueue">Adding songs to Queue…</String>
-<String id="STR_FAQHostname">faq</String>
-<String id="STR_WWWHostname">www</String>
-<String id="STR_ZeroTracksAddedToQueue">Zero songs added to the Queue</String>
-<String id="STR_OneTrackAddedToQueue">One song added to the Queue</String>
-<String id="STR_TracksAddedToQueuePlural">%1$d songs added to the Queue</String>
-<String id="STR_MultiAddToQueueErr">Due to this error, some songs may not have been added.</String>
-<String id="STR_Playlists">Imported Playlists</String>
-<String id="STR_Information">Info &amp; Options</String>
-<String id="STR_ReplaceQueueAndPlay">Play Now and Replace Queue</String>
-<String id="STR_ReplaceQueue">Replace Queue</String>
-<String id="STR_RenameSavedPlaylist">Rename Playlist</String>
-<String id="STR_DeleteSavedPlaylist">Delete Playlist</String>
-<String id="STR_Pause">Pause</String>
-<String id="STR_Play">Play</String>
-<String id="STR_Rename">Rename</String>
-<String id="STR_Scrobbling">Scrobbling</String>
-<String id="STR_OK">OK</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">To add Sonos Labs public beta services, you need to share usage data with Sonos.
+按“确定”按钮继续。</String>
+<String id="STR_MiscAddToQueueErr">向队列添加歌曲时出错 (%1$d)</String>
+<String id="STR_TracksNotStreamable">这些歌曲不可用作 %1$s 的流媒体</String>
+<String id="STR_AddingTracksToQueue">正在将歌曲添加到队列…</String>
+<String id="STR_FAQHostname">faq-zh</String>
+<String id="STR_WWWHostname">zh</String>
+<String id="STR_ZeroTracksAddedToQueue">0 首歌曲已添加到队列</String>
+<String id="STR_OneTrackAddedToQueue">1 首歌曲已添加到队列</String>
+<String id="STR_TracksAddedToQueuePlural">%1$d 首歌曲已添加到队列</String>
+<String id="STR_MultiAddToQueueErr">由于此错误，部分歌曲可能无法添加。</String>
+<String id="STR_Playlists">导入的播放列表</String>
+<String id="STR_Information">信息与选项</String>
+<String id="STR_ReplaceQueueAndPlay">立即播放并替换队列</String>
+<String id="STR_ReplaceQueue">替换队列</String>
+<String id="STR_RenameSavedPlaylist">重命名播放列表</String>
+<String id="STR_DeleteSavedPlaylist">删除播放列表</String>
+<String id="STR_Pause">暂停</String>
+<String id="STR_Play">播放</String>
+<String id="STR_Rename">重命名</String>
+<String id="STR_Scrobbling">歌曲记录</String>
+<String id="STR_OK">确定</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">要添加 Sonos Labs 公共测试版服务，需要与 Sonos 分享您的使用情况数据。
 
-To view or change your usage data setting, go to Settings &gt; Advanced Settings &gt; Usage Data.</String>
+要查看或更改您的使用情况数据设置，请转至“设置”&gt;“高级设置”&gt;“使用情况数据”。</String>
 <String id="STR_TwoButtonDevices">PLAY
 CONNECT:AMP
 CONNECT</String>
@@ -1032,63 +1026,59 @@ CONNECT</String>
 SUB
 DOCK</String>
 <String id="STR_HTAudioHdr">TV</String>
-<String id="STR_SUBXOver0">1. Compact</String>
+<String id="STR_SUBXOver0">1. 紧凑式</String>
 <String id="STR_SUBXOver1">2.</String>
 <String id="STR_SUBXOver2">3.</String>
-<String id="STR_SUBXOver3">4. Bookshelf / Ceiling</String>
+<String id="STR_SUBXOver3">4. 书架式/悬挂式</String>
 <String id="STR_SUBXOver4">5.</String>
-<String id="STR_SUBXOver5">6. Floor</String>
+<String id="STR_SUBXOver5">6. 落地式</String>
 <String id="STR_SUBXOver6">7.</String>
-<String id="STR_StereoPair_Error_SUB_Fmt">This %1$s speaker is set up with a SUB. To create a stereo pair with this speaker, you need to have another %2$s speaker available that is not set up with a SUB and is not already part of a different stereo pair.</String>
-<String id="STR_AddToFavoritesAdded">"%1$s" added to Sonos Favorites.</String>
-<String id="STR_AddToFavoritesAddedWithRemaining">"%1$s" added to Sonos Favorites.
+<String id="STR_StereoPair_Error_SUB_Fmt">此 %1$s 扬声器设置了 SUB。要与此扬声器创建一个立体声对，需要另一个未设置 SUB，并且独立于其他立体声对的 %2$s 扬声器。</String>
+<String id="STR_AddToFavoritesAdded">已将“%1$s”添加到 Sonos 收藏夹。</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">已将“%1$s”添加到 Sonos 收藏夹。
 
-There are %2$d free remaining favorite slots.</String>
-<String id="STR_AddToFavoritesAddedOneRemaining">"%1$s" added to Sonos Favorites.
+还有 %2$d 个收藏项目席位。</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">已将“%1$s”添加到 Sonos 收藏夹。
 
-There is only 1 free remaining favorite slot.</String>
-<String id="STR_AddToFavoritesAddedNoneRemaining">"%1$s" added to Sonos Favorites.
+还只剩 1 个收藏项目席位。</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">“%1$s”已添加到 Sonos 个人收藏。
 
-All available slots for favorites have been used.</String>
-<String id="STR_AddToFavoritesAlreadyAddedError">"%1$s" is already a Sonos Favorite and will not be added again.</String>
-<String id="STR_AddToFavoritesFullError">Unable to add favorite. There are no empty favorites remaining.
+个人收藏中的所有位置已用完。</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">“%1$s”已添加到 Sonos 收藏夹，不会重复添加。</String>
+<String id="STR_AddToFavoritesFullError">无法添加个人收藏。个人收藏已满。
 
-You can remove existing Sonos Favorites to make room for new ones.</String>
-<String id="STR_AddToFavoritesError">Unable to add "%1$s" to Sonos Favorites.</String>
-<String id="STR_AddToFavoritesErrorOutOfSpace">Unable to add favorite. To make additional room for new Sonos Favorites, consider removing existing favorites, or remove items from My Radio Stations or My Radio Shows.</String>
-<String id="STR_FavoritesDescriptionByArtist">By %1$s</String>
-<String id="STR_FavoritesDescriptionStation">%1$s Station</String>
-<String id="STR_FavoritesDescriptionRadioShow">Radio Show</String>
-<String id="STR_FavoritesDescriptionArtist">Artist</String>
-<String id="STR_FavoritesDescriptionServicePlaylist">%1$s Playlist</String>
-<String id="STR_FavoritesDescriptionAlbumBy">Album by %1$s</String>
-<String id="STR_FavoritesDescriptionFromService">From %1$s</String>
-<String id="STR_FavoritesDescriptionComposer">Composer</String>
-<String id="STR_FavoritesDescriptionGenre">Genre</String>
-<!-- This is a composite of two string <Artist> and <Station|Playlist>. This will create a  -->
-<!-- string such as "Florence + The Machine" "Top Tracks" -->
-<String id="STR_FavoritesDescriptionArtistsStation" comment="Do not localize">%1$s — %2$s</String>
-
-<String id="STR_AddFavorite">Add to Sonos Favorites</String>
-<String id="STR_AddFavoriteStation">Add Station to Sonos Favorites</String>
-<String id="STR_AddFavoriteTrack">Add Song to Sonos Favorites</String>
-<String id="STR_AddFavoriteAlbum">Add Album to Sonos Favorites</String>
-<String id="STR_AddFavoriteArtist">Add Artist to Sonos Favorites</String>
-<String id="STR_AddFavoritePlaylist">Add Playlist to Sonos Favorites</String>
-<String id="STR_AddFavoriteShow">Add Show to Sonos Favorites</String>
-<String id="STR_AddFavoriteBook">Add Book to Sonos Favorites</String>
-<String id="STR_NoSearchResults">No results were found. Please edit your search and try again</String>
-<String id="STR_LocalMusicEmpty">Music that lives on this device will appear here.</String>
-<String id="STR_SearchNoTerm">To search %1$s, use the search bar at the top of the screen.</String>
-<String id="STR_LocalMusicNotAuthorized">We need permission to access the music stored on this device to play it.</String>
-<String id="STR_LocalMusicGrantPermission">Grant Permission</String>
-<String id="STR_SearchAllMusicButton">Try searching everywhere</String>
-<String id="STR_StoreModeNotAvailable">This feature is not available in store mode.</String>
-<!--Do not put any new strings below comment. Certain methods use generated index numbers to determine what strings to use-->
-<String id="STR_NP_STREAMINFO_UNSUPPORTED">Unsupported TV Audio</String>
-<String id="RHHSTR_TITLESIE_NOSPACE_TITLE">Can't Update Music Library</String>
-<String id="RHHSTR_TITLESIE_ERROR_TITLE">Music Files Not Available</String>
-<String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">Music Library Problem</String>
-<String id="RHHSTR_SAVEDQUEUES_NOSPACE">Your Sonos Playlists is full. You can remove songs from playlists or delete unused playlists and try again.</String>
-<String id="RHHSTR_SECURE_REG_PROMPT">Use %1$s App to Control Sonos</String>
+您可删除已有的 Sonos 个人收藏以便放入新收藏。</String>
+<String id="STR_AddToFavoritesError">无法将“%1$s”添加到 Sonos 收藏夹。</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">无法添加个人收藏。要为新的 Sonos 个人收藏空间腾出空间，可以移除已有个人收藏，也可以从“我的电台”或“我的电台节目”中删除相关内容。</String>
+<String id="STR_FavoritesDescriptionByArtist">表演者 %1$s</String>
+<String id="STR_FavoritesDescriptionStation">%1$s 电台</String>
+<String id="STR_FavoritesDescriptionRadioShow">电台节目</String>
+<String id="STR_FavoritesDescriptionArtist">表演者</String>
+<String id="STR_FavoritesDescriptionServicePlaylist">%1$s 播放列表</String>
+<String id="STR_FavoritesDescriptionAlbumBy">专辑作者 %1$s</String>
+<String id="STR_FavoritesDescriptionFromService">来自 %1$s</String>
+<String id="STR_FavoritesDescriptionComposer">作曲者</String>
+<String id="STR_FavoritesDescriptionGenre">流派</String>
+<String comment="Do not localize" id="STR_FavoritesDescriptionArtistsStation">%1$s — %2$s</String>
+<String id="STR_AddFavorite">添加到 Sonos 收藏夹</String>
+<String id="STR_AddFavoriteStation">将电台添加到 Sonos 收藏夹</String>
+<String id="STR_AddFavoriteTrack">将歌曲添加到 Sonos 收藏夹</String>
+<String id="STR_AddFavoriteAlbum">将专辑添加到 Sonos 收藏夹</String>
+<String id="STR_AddFavoriteArtist">向 Sonos 个人收藏中添加表演者</String>
+<String id="STR_AddFavoritePlaylist">向 Sonos 个人收藏中添加播放列表</String>
+<String id="STR_AddFavoriteShow">向 Sonos 个人收藏中添加节目</String>
+<String id="STR_AddFavoriteBook">将该书添加到 Sonos 收藏</String>
+<String id="STR_NoSearchResults">找不到结果。 请编辑您的搜索并重试</String>
+<String id="STR_LocalMusicEmpty">该设备上的音乐将于此处显示。</String>
+<String id="STR_SearchNoTerm">使用屏幕上端的搜索栏，搜索 %1$s。</String>
+<String id="STR_LocalMusicNotAuthorized">我们需要获得授权访问存储在此设备上的音乐，对其进行播放。</String>
+<String id="STR_LocalMusicGrantPermission">授予权限</String>
+<String id="STR_SearchAllMusicButton">尝试搜索所有位置</String>
+<String id="STR_StoreModeNotAvailable">此功能在商店模式下不可用。</String>
+<String id="STR_NP_STREAMINFO_UNSUPPORTED">不支持的电视音频</String>
+<String id="RHHSTR_TITLESIE_NOSPACE_TITLE">无法更新音乐库</String>
+<String id="RHHSTR_TITLESIE_ERROR_TITLE">没有可用的音乐文件</String>
+<String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">音乐库问题</String>
+<String id="RHHSTR_SAVEDQUEUES_NOSPACE">您的 Sonos 播放列表已满。您可以从播放列表中删除歌曲，或者删除播放列表，然后重试。</String>
+<String id="RHHSTR_SECURE_REG_PROMPT">使用 %1$s App 来控制 Sonos</String>
 </Strings>

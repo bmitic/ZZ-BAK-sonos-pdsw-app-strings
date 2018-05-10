@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="zone_grouping_title">Group Rooms</string>
-    <string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead"
-            name="zone_grouping_title_short">Group Rooms</string>
-    <string name="zone_grouping_select_all_button_text">Select All</string>
-    <string name="zone_grouping_unselect_all_button_text">Unselect All</string>
-    <string name="zone_grouping_selected_will_play">Selected rooms will play:</string>
-    <string name="zone_grouping_multi_selected_will_play">The rooms you selected have different music playing</string>
-    <string name="zone_grouping_no_music">No music selected</string>
-    <string name="zone_grouping_choose_music">Tap Done to choose music</string>
-    <string name="zone_grouping_picker_header">Choose music to play in selected rooms</string>
-    <string name="zone_grouping_play_to_the_following">Play to the following</string>
+<string name="zone_grouping_title">Gruppera rum</string>
+<string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead" name="zone_grouping_title_short">Gruppera rum</string>
+<string name="zone_grouping_select_all_button_text">Markera allt</string>
+<string name="zone_grouping_unselect_all_button_text">Avmarkera allt</string>
+<string name="zone_grouping_selected_will_play">Valda rum spelar upp:</string>
+<string name="zone_grouping_multi_selected_will_play">I de rum som du har valt spelas det upp olika musik</string>
+<string name="zone_grouping_no_music">Ingen musik</string>
+<string name="zone_grouping_choose_music">Tryck på Klar för att välja musik</string>
+<string name="zone_grouping_picker_header">Välj musik att spela upp i valda rum</string>
+<string name="zone_grouping_play_to_the_following">Spela till följande</string>
 </resources>

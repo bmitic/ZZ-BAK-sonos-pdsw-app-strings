@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="zones_pause_all">Pause All</string>
-<string name="zones_pause_all_warning">Do you want to pause the music in all rooms?</string>
-<string name="zone_group_button_text">Group</string>
-<string name="zone_menu_select_to_update">Software Update Required</string>
-<string name="zone_menu_select_to_configure">Set up this speaker</string>
-<string name="zone_menu_select_to_register">Register this speaker</string>
+<string name="zones_pause_all">Wstrzymaj wszystkie</string>
+<string name="zones_pause_all_warning">Czy chcesz wstrzymać odtwarzanie muzyki we wszystkich pomieszczeniach?</string>
+<string name="zone_group_button_text">Grupuj</string>
+<string name="zone_menu_select_to_update">Wymagana aktualizacja oprogramowania</string>
+<string name="zone_menu_select_to_setup_sub">Skonfiguruj SUB</string>
+<string name="zone_menu_select_to_configure">Kontynuuj konfigurację</string>
 </resources>
