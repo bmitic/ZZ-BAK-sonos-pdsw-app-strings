@@ -60,11 +60,11 @@
 <String id="STR_ROOMNAME_PORTABLE">Portable</String>
 <String id="STR_ROOMNAME_TVROOM">TV Room</String>
 <String id="STR_ROOMNAME_UNNAMED">Unnamed</String>
-<String id="STR_ROOMNAME_VIPER">BRIDGE</String>
-<String id="STR_ROOMNAME_BOOST">BOOST</String>
+<String id="STR_ROOMNAME_VIPER">Bridge</String>
+<String id="STR_ROOMNAME_BOOST">Boost</String>
 <String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos Extender</String>
-<String id="STR_ROOMNAME_DOCK">DOCK</String>
-<String id="STR_ROOMNAME_ANVIL">SUB</String>
+<String id="STR_ROOMNAME_DOCK">Dock</String>
+<String id="STR_ROOMNAME_ANVIL">Sub</String>
 <String id="STR_ROOMNAME_LOUNGE">Lounge</String>
 <String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos Playlist</String>
 <String id="RHHSTR_E_MALFORMED_PATH">%1$s is not a valid share path. It should look like \\Computer\Folder or \\Computer\Shared\Folder</String>
@@ -785,7 +785,7 @@ Zimbabwe:ZW</String>
 
 Please select a scrobbling option:</String>
 <String id="STR_NPNoInfoAvailable">[No information available]</String>
-<String id="STR_NoMusic" comment="used for now playing">[no music]</String>
+<String id="STR_NoMusic" comment="used for now playing">[No music selected]</String>
 <String id="STR_SourceDeviceHdr">Source Device</String>
 <String id="STR_AddToQueue" comment="softkey label">Add to End of Queue</String>
 <String id="STR_PlayNow">Play Now</String>
@@ -812,8 +812,6 @@ Audio In: %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
 Warning: Your wireless network will not support the use of a SUB or surrounds with your %1$s.</String>
 <String id="STR_Setting_ZPHidden">%1$s (Hidden)</String>
-<String id="STR_Setting_UnassociatedSub">%1$s (unused)</String>
-<String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
 <String id="STR_MusicCollection" comment="top-level sub-title">Music</String>
 <String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes® Compilations</String>
 <String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Album Artists</String>
@@ -1024,13 +1022,6 @@ Press the OK button to continue.</String>
 <String id="RHHSTR_OptInRequiredForSoundLab">To add Sonos Labs public beta services, you need to share usage data with Sonos.
 
 To view or change your usage data setting, go to Settings &gt; Advanced Settings &gt; Usage Data.</String>
-<String id="STR_TwoButtonDevices">PLAY
-CONNECT:AMP
-CONNECT</String>
-<String id="STR_OneButtonDevicesInitial">BRIDGE</String>
-<String id="STR_OneButtonDevicesWithPlayer">BRIDGE
-SUB
-DOCK</String>
 <String id="STR_HTAudioHdr">TV</String>
 <String id="STR_SUBXOver0">1. Compact</String>
 <String id="STR_SUBXOver1">2.</String>

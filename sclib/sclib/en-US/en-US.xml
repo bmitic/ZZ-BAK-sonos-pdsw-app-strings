@@ -17,9 +17,9 @@
 <String id="STR_ReplaceYes">Replace</String>
 <String id="STR_ReplaceNo">Don't Replace</String>
 <String id="STR_ContainerHeaderText">All Songs</String>
-<String id="STR_CompleteAlbumSingular">Complete Album (1 song)</String>
-<String id="STR_CompleteAlbumPluralFormat">Complete Album (%1$d songs)</String>
-<String id="STR_CompleteAlbumPlay">Play All</String> 
+<String id="STR_CompleteAlbum_Fmt" plurality="one">Complete Album (%1$d song)</String>
+<String id="STR_CompleteAlbum_Fmt" plurality="other">Complete Album (%1$d songs)</String>
+<String id="STR_CompleteAlbumPlay">Play All</String>
 <String id="STR_CompleteAlbumShuffle">Shuffle All</String>
 <String id="RHHSTR_PlaylistDeleteConfirm">Are you sure you want to delete “%1$s”?</String>
 <String id="RHHSTR_PlaylistRemoveConfirm">Are you sure you want to remove “%1$s”?</String>
@@ -46,18 +46,18 @@
 <String id="SCLIB_STR_AudibleError_Network">Adding the new account failed because the Audible server did not respond. Please check your Internet connection and try again.</String>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Manage Music Library</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Manage Services</String>
-<String id="SCLIB_STR_SETTINGS_ADDPLAYERORSUB">Add a Player or SUB</String>
+<String id="SCLIB_STR_SETTINGS_ADDPLAYERORSUB">Add a Player or Sub</String>
 <String id="SCLIB_STR_SETTINGS_ADDSPEAKERS">Add Speakers</String>
-<String id="SCLIB_STR_SETTINGS_ADDBRIDGE">Add a BOOST or BRIDGE</String>
+<String id="SCLIB_STR_SETTINGS_ADDBRIDGE">Add a Boost or Bridge</String>
 <String id="SCLIB_STR_SETTINGS_JOINANOTHERHOUSEHOLD">Add Another Sonos System</String>
 <String id="SCLIB_STR_SETTINGS_ADDANOTHERHOUSEHOLD">Add Another Sonos System</String>
 <String id="SCLIB_STR_SETTINGS_CONNECTANOTHERHOUSEHOLD">Connnect to Existing Sonos System</String>
 <String id="SCLIB_STR_SETTINGS_CONFIGURESONOSCOMPONENT">Configure a Sonos Product</String>
 <String id="SCLIB_STR_SETTINGS_ZONEPLAYER">Room Settings</String>
-<String id="SCLIB_STR_SETTINGS_ZONEBRIDGES">BRIDGE Settings</String>
-<String id="SCLIB_STR_SETTINGS_BOOST">BOOST Settings</String>
-<String id="SCLIB_STR_SETTINGS_BOOSTANDBRIDGE">BOOST/BRIDGE Settings</String>
-<String id="SCLIB_STR_SETTINGS_DOCKS">DOCK Settings</String>
+<String id="SCLIB_STR_SETTINGS_ZONEBRIDGES">Bridge Settings</String>
+<String id="SCLIB_STR_SETTINGS_BOOST">Boost Settings</String>
+<String id="SCLIB_STR_SETTINGS_BOOSTANDBRIDGE">Boost/Bridge Settings</String>
+<String id="SCLIB_STR_SETTINGS_DOCKS">Dock Settings</String>
 <String id="SCLIB_STR_SETTINGS_AIRPLAY">AirPlay</String>
 <String id="SCLIB_STR_SETTINGS_CONTROLLER">Controller Settings</String>
 <String id="SCLIB_STR_SETTINGS_PARENTALCONTROLS">Parental Controls</String>
@@ -339,13 +339,13 @@ AssociatedZP: %2$s</String>
 <String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">EQ</String>
 <String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION">Adjust treble and bass to your taste.</String>
 <String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION_WITH_TUNING">Adjust treble and bass. This will not interfere with Trueplay tuning.</String>
-<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">SUB Settings</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">Sub Settings</String>
 <String id="SCLIB_STR_ZPSETTINGS_SPEAKER">Speaker Size</String>
 <String id="SCLIB_STR_ZPSETTINGS_AUDIO">Advanced Audio</String>
 <String id="SCLIB_STR_ZPSETTINGS_NAME">Room Name</String>
-<String id="SCLIB_STR_ZBSETTINGS_NAME">BRIDGE Name</String>
-<String id="SCLIB_STR_BOOSTSETTINGS_NAME">BOOST Name</String>
-<String id="SCLIB_STR_DOCKSETTINGS_NAME">DOCK Name</String>
+<String id="SCLIB_STR_ZBSETTINGS_NAME">Bridge Name</String>
+<String id="SCLIB_STR_BOOSTSETTINGS_NAME">Boost Name</String>
+<String id="SCLIB_STR_DOCKSETTINGS_NAME">Dock Name</String>
 <String id="SCLIB_STR_DOCKSETTINGS_AUTOPLAYZONE">Autoplay Room</String>
 <String id="SCLIB_STR_DOCKSETTINGS_GROUPEDZONES">Include Grouped Rooms</String>
 <String id="SCLIB_STR_DOCKSETTINGS_AUTOPLAYVOL">Autoplay Volume</String>
@@ -380,6 +380,10 @@ AssociatedZP: %2$s</String>
 <String id="SCLIB_STR_PARENTALCONTROLS_SETTING_UNAVAILABLE">No Supported Services Found</String>
 <String id="SCLIB_STR_PARENTALCONTROLS_FAQ_TITLE">More Information</String>
 <String id="SCLIB_STR_PARENTALCONTROLS_FAQ_URI">http://faq.sonos.com/parentalcontrols</String>
+<String id="SCLIB_STR_MYSONOS_SIGNIN_SETTING">Sign In</String>
+<String id="SCLIB_STR_MYSONOS_SIGNIN_GroupDesc">It looks like you're not signed in</String>
+<String id="SCLIB_STR_MYSONOS_EMAIL_SETTING">Logged in as: </String>
+<String id="SCLIB_STR_MYSONOS_TRANSFER_SETTING">Transfer Account</String>
 <String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_SETTING">Recently Played</String>
 <String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_CLEAR">Clear All</String>
 <String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_GroupDesc">See recently played music in your home.</String>
@@ -427,9 +431,9 @@ See this FAQ for more info:
 <String id="SCLIB_STR_MLSETTINGS_SORTFOLDERBY">Sort Folders By</String>
 <String id="SCLIB_STR_SETTINGS_UNKNOWN_DEVICE_NAME">Sonos Product Name</String>
 <String id="SCLIB_STR_ZPSETTINGS_NAME_INSTRUCTIONS">Type or select a name for the Sonos player</String>
-<String id="SCLIB_STR_DOCKSETTINGS_NAME_INSTRUCTIONS">Type a name for the DOCK</String>
-<String id="SCLIB_STR_ZBSETTINGS_NAME_INSTRUCTIONS">Type a name for the BRIDGE</String>
-<String id="SCLIB_STR_BOOSTSETTINGS_NAME_INSTRUCTIONS">Type a name for the BOOST</String>
+<String id="SCLIB_STR_DOCKSETTINGS_NAME_INSTRUCTIONS">Type a name for the Dock</String>
+<String id="SCLIB_STR_ZBSETTINGS_NAME_INSTRUCTIONS">Type a name for the Bridge</String>
+<String id="SCLIB_STR_BOOSTSETTINGS_NAME_INSTRUCTIONS">Type a name for the Boost</String>
 <String id="SCLIB_STR_UNKNOWNDEVICE_NAME_INSTRUCTIONS">Type a name for the Sonos product</String>
 <String id="SCLIB_STR_RESET">Reset</String>
 <String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Reset controller?</String>
@@ -442,10 +446,10 @@ See this FAQ for more info:
 <String id="SCLIB_STR_DEVICE_DISAPPEARED_BEFORE_RENAME">Unable to rename the %1$s because it is no longer connected to your Sonos system.</String>
 <String id="SCLIB_STR_ZONEPLAYER">Sonos player</String>
 <String id="SCLIB_STR_SONOS_COMPONENT">Sonos product</String>
-<String id="SCLIB_STR_ZONEBRIDGE">BRIDGE</String>
-<String id="SCLIB_STR_BOOST">BOOST</String>
-<String id="SCLIB_STR_BOOST_OR_BRIDGE">BOOST or BRIDGE</String>
-<String id="SCLIB_STR_SONOS_DOCK">DOCK</String>
+<String id="SCLIB_STR_ZONEBRIDGE">Bridge</String>
+<String id="SCLIB_STR_BOOST">Boost</String>
+<String id="SCLIB_STR_BOOST_OR_BRIDGE">Boost or Bridge</String>
+<String id="SCLIB_STR_SONOS_DOCK">Dock</String>
 <String id="SCLIB_STR_RENAME_DEVICE_CONFIRM">"%1$s" was renamed to "%2$s"</String>
 <String id="SCLIB_STR_RENAME_DEVICE_ERROR">An unexpected error occurred while renaming "%1$s".</String>
 <String id="SCLIB_STR_RENAME_DEVICE_GENERIC_ERROR">An unexpected error occurred while renaming a Sonos product.</String>
@@ -513,7 +517,7 @@ We’ll be continually adding and removing services in Sonos Labs, so be sure to
 <String id="SCLIBSTR_MSS_AccountNeeded">To use %1$s with Sonos, you need an account.</String>
 <String id="SCLIBSTR_MSS_AfterAccount">Once you have done this, you will be asked to update your Sonos system with your login information.</String>
 <String id="STR_MSS_Checking">Checking credentials…</String>
-<String id="SCLIB_STR_MSS_CantConnect">There was a problem adding the %1$s account. 
+<String id="SCLIB_STR_MSS_CantConnect">There was a problem adding the %1$s account.
 
 A connection to %2$s could not be made.</String>
 <String id="SCLIB_STR_MSS_CredError">The %1$s server did not recognize your login information.
@@ -610,10 +614,10 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_Setting_NoZoneSelected">No Room Selected</String>
 <String id="SCLIB_STR_SleepTimerLabel">Sleep Timer</String>
 <String id="SCLIB_STR_SleepTimerInstructionsFmt">Choose a sleep timer duration for “%1$s”:</String>
-<String id="SCLIB_STR_SleepMinute">%1$d minute</String>
-<String id="SCLIB_STR_SleepMinutes">%1$d minutes</String>
-<String id="SCLIB_STR_SleepHour">%1$d hour</String>
-<String id="SCLIB_STR_SleepHours">%1$d hours</String>
+<String id="SCLIB_STR_SleepMinutes" plurality="one">%1$d minute</String>
+<String id="SCLIB_STR_SleepMinutes" plurality="other">%1$d minutes</String>
+<String id="SCLIB_STR_SleepHours" plurality="one">%1$d hour</String>
+<String id="SCLIB_STR_SleepHours" plurality="other">%1$d hours</String>
 <String id="SCLIB_STR_SleepOff">Off</String>
 <String id="SCLIB_STR_Alarm_AlarmSet">Alarm Set</String>
 <String id="SCLIB_STR_Alarm_AlarmZone">Alarm Room</String>
@@ -629,12 +633,10 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_Alarm_Duration">Alarm Duration</String>
 <String id="SCLIB_STR_Alarm_Duration_Instructions">Choose how long the alarm should play</String>
 <String id="SCLIB_STR_Alarm_Duration_NoLimit">No Limit</String>
-<String id="SCLIB_STR_Duration_MinuteCountOne">1 minute</String>
-<String id="SCLIB_STR_Duration_MinuteCountTwo">2 minutes</String>
-<String id="SCLIB_STR_Duration_MinuteCountManyFormat">%1$d minutes</String>
-<String id="SCLIB_STR_Duration_HourCountOne">1 hour</String>
-<String id="SCLIB_STR_Duration_HourCountTwo">2 hours</String>
-<String id="SCLIB_STR_Duration_HourCountManyFormat">%1$d hours</String>
+<String id="SCLIB_STR_Duration_MinuteCountFormat" plurality="one">%1$d minute</String>
+<String id="SCLIB_STR_Duration_MinuteCountFormat" plurality="other">%1$d minutes</String>
+<String id="SCLIB_STR_Duration_HourCountFormat" plurality="one">%1$d hour</String>
+<String id="SCLIB_STR_Duration_HourCountFormat" plurality="other">%1$d hours</String>
 <String id="SCLIB_STR_Duration_Separator">%1$s and %2$s</String>
 <String id="SCLIB_STR_Alarm_Snooze">Snooze</String>
 <String id="SCLIB_STR_Alarm_SnoozeNotification">Snooze Alerts</String>
@@ -653,7 +655,7 @@ The new radio station will be added to Radio &gt; My Radio Stations.</String>
 <String id="SCLIB_STR_WizardTitle_StereoPair">Stereo pair</String>
 <String id="SCLIB_STR_WizardTitle_SonosSetup">Sonos setup</String>
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Setup Wizard</String>
-<String id="SCLIB_STR_WizardTitle_Registration">Sonos registration</String>
+<String id="SCLIB_STR_WizardTitle_UsageData">Usage data</String>
 <String id="SCLIB_STR_WizardTitle_AddComponent">Add a Sonos Product</String>
 <String id="SCLIB_STR_WizardTitle_AddService">Add a service</String>
 <String id="SCLIB_STR_WizardTitle_EditService">Edit service</String>
@@ -717,21 +719,16 @@ The new radio station will be added to Radio &gt; My Radio Stations.</String>
 <String id="SCLIB_STR_SetupWiz_Welcome_Button">Continue</String>
 <String id="SCLIB_STR_SetupWiz_UseWireless_Title">Select your setup</String>
 <String id="SCLIB_STR_SetupWiz_UseWireless_Body_1">Standard setup uses your existing wireless network and is best for most users.</String>
-<String id="SCLIB_STR_SetupWiz_UseWireless_Body_2">BOOST setup applies if you want to connect a Sonos BOOST, BRIDGE, or player to your router with an Ethernet cable to create a dedicated Sonos wireless network.</String>
+<String id="SCLIB_STR_SetupWiz_UseWireless_Body_2">Boost setup applies if you want to connect a Sonos Boost, Bridge, or player to your router with an Ethernet cable to create a dedicated Sonos wireless network.</String>
 <String id="SCLIB_STR_SetupWiz_UseWireless_Body_1_Short">Standard setup uses your existing wireless network and is best for most users.</String>
-<String id="SCLIB_STR_SetupWiz_UseWireless_Body_2_Short">BOOST setup applies if you purchased a Sonos BOOST or BRIDGE for enhanced wireless.</String>
-<String id="SCLIB_STR_SetupWiz_NoWireless_Body_1">To set up a new Sonos system using this controller, you will need to have a Sonos product, such as a BOOST, BRIDGE, or player, wired to your router.</String>
+<String id="SCLIB_STR_SetupWiz_UseWireless_Body_2_Short">Boost setup applies if you purchased a Sonos Boost or Bridge for enhanced wireless.</String>
+<String id="SCLIB_STR_SetupWiz_NoWireless_Body_1">To set up a new Sonos system using this controller, you will need to have a Sonos product, such as a Boost, Bridge, or player, wired to your router.</String>
 <String id="SCLIB_STR_SetupWiz_NoWireless_Body_2">If you want to set up a Sonos system without a product wired to your router, please use the Sonos Controller App for your smartphone, tablet, or wireless computer. Once the system is configured, you can then connect this controller to it.</String>
 <String id="SCLIB_STR_SetupWiz_UseWireless_Input_1">Standard setup</String>
-<String id="SCLIB_STR_SetupWiz_UseWireless_Input_2">BOOST setup</String>
+<String id="SCLIB_STR_SetupWiz_UseWireless_Input_2">Boost setup</String>
 <String id="SCLIB_STR_SetupWiz_Prep_Common_Body">You will set up your new Sonos products one at a time.</String>
 <String id="SCLIB_STR_SetupWiz_Prep_Common_Body_Bridge">You will set up your new Sonos products one at a time, starting with the product that will be permanently wired to your router.</String>
 <String id="SCLIB_STR_SetupWiz_Prep_Body1">Choose the Sonos player you want to set up first and follow the instructions.</String>
-<String id="SCLIB_STR_SetupWiz_PlayerCheck_Title">Sonos Product</String>
-<String id="SCLIB_STR_SetupWiz_PlayerCheck_Body_1">Please identify the Sonos product you want to set up.</String>
-<String id="SCLIB_STR_SetupWiz_PlayerCheck_Body_2">Is this product a Sonos PLAY:1?</String>
-<String id="SCLIB_STR_SetupWiz_PlayerCheck_Input_1">PLAY:1</String>
-<String id="SCLIB_STR_SetupWiz_PlayerCheck_Input_2">Not a PLAY:1</String>
 <String id="SCLIB_STR_SetupWiz_StartTempWire_Title">Player setup</String>
 <String id="SCLIB_STR_SetupWiz_StartTempWire_Body_1">To complete setup, you will now be guided to connect your player to your router with an Ethernet cable.</String>
 <String id="SCLIB_STR_SetupWiz_StartTempWire_Body_2">When setup is complete, you can move the player back to your desired location.</String>
@@ -825,7 +822,7 @@ A controller update is required.</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Body_1_AddedAndNamed_Fmt" gender="no-gender" comment="Substitution 1: Sonos Player">The %1$s will be used in: %2$s</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Body_1_HTAddedAndNamed_Fmt">Your home theater will be used in: %1$s</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Body_1_SubUnused_Fmt" gender="no-gender" comment="Substitution 1: Sonos Player">The %1$s has been named: %2$s</String>
-<String id="SCLIB_STR_SetupWiz_DeviceAdded_Body_1_SubUsed_Fmt" gender="no-gender" comment="Substitution: Sonos Player">The SUB will be used with: %1$s.</String>
+<String id="SCLIB_STR_SetupWiz_DeviceAdded_Body_1_SubUsed_Fmt" gender="no-gender" comment="Substitution: Sonos Player">The Sub will be used with: %1$s.</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Input_1">Would you like to add another player to your Sonos system?</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Alt_Input_1">Would you like to add a player to your Sonos system?</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Input_2">Add another player</String>
@@ -905,6 +902,7 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_SubmitDiags_Submitting_Body_2">This may take a few minutes.</String>
 <String id="SCLIB_STR_SubmitDiags_Done_Body_1">Your diagnostic information was sent.</String>
 <String id="SCLIB_STR_SubmitDiags_Done_Body_2_Fmt">Your confirmation number is: %1$d.</String>
+<String id="SCLIB_STR_SubmitDiags_Done_Body_2_Fmt_VO">Your confirmation number is: %1$s.</String>
 <String id="SCLIB_STR_SubmitDiags_Error_Body_1">Your diagnostic information could not be sent at this time.</String>
 <String id="SCLIB_STR_SubmitDiags_Error_Body_2_Fmt">Click ‘%1$s’ to try sending the information again, or click ‘%2$s’ and try again later.</String>
 <String id="SCLIB_STR_ConfigureWireless_Network_Name">Network name</String>
@@ -919,8 +917,7 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_ConfigureWireless_Credentials_Input">Use this network</String>
 <String id="SCLIB_STR_ConfigureWireless_Credentials_Body_HH_1">Sonos will be set up on:</String>
 <String id="SCLIB_STR_ConfigureWireless_Credentials_Body_HH_2">Please enter the password for this network:</String>
-<String id="SCLIB_STR_ConfigureWireless_Submitting_Body_1">Checking password.</String>
-<String id="SCLIB_STR_ConfigureWireless_Submitting_Body_2">Please wait…</String>
+<String id="SCLIB_STR_ConfigureWireless_Submitting_Body_1">Connecting, please wait…</String>
 <String id="SCLIB_STR_ConfigureWireless_Done_Body_1">Sonos is now set up on:</String>
 <String id="SCLIB_STR_ConfigureWireless_Done_Body_2">You can disconnect any Sonos product wired to your router.</String>
 <String id="SCLIB_STR_ConfigureWireless_Error_Title">Wireless problem</String>
@@ -937,7 +934,7 @@ A Sonos customer account has been created using your email address. You can sign
 <String id="SCLIB_STR_ConfigureWireless_NetworkName_Body_1_VO">Enter the name of the network, or choose from the list of available networks (Sonos requires a 2.4GHz network compatible with 802.11 B/802.11 G):</String>
 <String id="SCLIB_STR_ConfigureWireless_Cleared_Title">Wireless details reset</String>
 <String id="SCLIB_STR_ConfigureWireless_Cleared_Body_1">Your wireless network details have been removed from Sonos.</String>
-<String id="SCLIB_STR_ConfigureWireless_Cleared_Body_2">To use your Sonos system, you will need to provide new wireless network details or ensure that a Sonos BOOST or player is permanently wired to your router.</String>
+<String id="SCLIB_STR_ConfigureWireless_Cleared_Body_2">To use your Sonos system, you will need to provide new wireless network details or ensure that a Sonos Boost or player is permanently wired to your router.</String>
 <String id="SCLIB_STR_OUWiz_SecureIntro_Title">Let's set up your Sonos account</String>
 <String id="SCLIB_STR_OUWiz_SecureIntro_Body_1">It only takes a few minutes. An account gives you access to new features so you can get the most out of your Sonos system.</String>
 <String id="SCLIB_STR_OUWiz_SecureIntro_Button">Set up your account</String>
@@ -973,7 +970,7 @@ You may try again at any time by going to "Settings" &gt; "Online Update."</Stri
 <String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Flashing">Saving update</String>
 <String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Rebooting">Restarting</String>
 <String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Updated">Updated</String>
-<String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Unknown">Unknown</String>	
+<String id="SCLIB_STR_OUWiz_UpdateInProgress_Status_Unknown">Unknown</String>
 <String id="SCLIB_STR_OUWiz_NotRequired_Title">No update required</String>
 <String id="SCLIB_STR_OUWiz_NotRequired_Body_1">Your Sonos system is up to date.</String>
 <String id="SCLIB_STR_OUWiz_ControlUpdate_Title">Sonos app needs updating</String>
@@ -992,7 +989,7 @@ You may try again at any time by going to "Settings" &gt; "Online Update."</Stri
 <String id="SCLIB_STR_OUWiz_Error_Body2">Select ‘Try again’ to repeat the update.</String>
 <String id="SCLIB_STR_OUWiz_Error_Body3">If the problem persists, please contact Sonos Customer Care for help.</String>
 <String id="SCLIB_STR_OUWiz_ErrorInfo_Title">Update information</String>
-<String id="SCLIB_STR_OUWiz_ErrorInfo_Body1">The following errors occured during the update:</String>
+<String id="SCLIB_STR_OUWiz_ErrorInfo_Body1">The following errors occurred during the update:</String>
 <String id="SCLIB_STR_OUWiz_ErrorInfo_Body3" comment="URL must have trailing whitespace or punctuation!">For more information, see
 http://faq.sonos.com/updateerror</String>
 <String id="SCLIB_STR_OUWiz_ErrorCode_Fmt">Error code %1$d</String>
@@ -1125,24 +1122,29 @@ You can change the name anytime in &quot;Settings&quot; &gt; &quot;My Services.&
 <String id="SCLIB_STR_Queue_PlayItem">Play Song</String>
 <String id="SCLIB_STR_Queue_PauseItem">Pause Song</String>
 <String id="SCLIB_STR_Queue_RemoveItem">Remove Song</String>
-<String id="SCLIB_STR_Queue_TrackCountZero">0 songs</String>
-<String id="SCLIB_STR_Queue_TrackCountOne">1 song</String>
-<String id="SCLIB_STR_Queue_TrackCountTwo">2 songs</String>
-<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d songs</String>
-<String id="SCLIB_STR_RemovingQueueItems_Fmt">Removing %1$d songs from the Queue… Please wait.</String>
-<String id="SCLIB_STR_RemovingQueueItems_Confirm_Fmt">Are you sure you want to remove these %1$d songs from the Queue?</String>
-<String id="SCLIB_STR_AddingToQueueItems_Confirm_Fmt">Are you sure you want to add %1$d items to the Queue?</String>
-<String id="SCLIB_STR_PlayAndAddToQueueItems_Confirm_Fmt">Are you sure you want to play %1$d items and add them to the Queue?</String>
+<String id="SCLIB_STR_Queue_TrackCountFormat" plurality="one">%1$d song</String>
+<String id="SCLIB_STR_Queue_TrackCountFormat" plurality="other">%1$d songs</String>
+<String id="SCLIB_STR_RemovingQueueItems_Fmt" plurality="one">Removing %1$d song from the Queue… Please wait.</String>
+<String id="SCLIB_STR_RemovingQueueItems_Fmt" plurality="other">Removing %1$d songs from the Queue… Please wait.</String>
+<String id="SCLIB_STR_RemovingQueueItems_Confirm_Fmt" plurality="one">Are you sure you want to remove this %1$d song from the Queue?</String>
+<String id="SCLIB_STR_RemovingQueueItems_Confirm_Fmt" plurality="other">Are you sure you want to remove these %1$d songs from the Queue?</String>
+<String id="SCLIB_STR_AddingToQueueItems_Confirm_Fmt" plurality="one">Are you sure you want to add %1$d item to the Queue?</String>
+<String id="SCLIB_STR_AddingToQueueItems_Confirm_Fmt" plurality="other">Are you sure you want to add %1$d items to the Queue?</String>
+<String id="SCLIB_STR_PlayAndAddToQueueItems_Confirm_Fmt" plurality="one">Are you sure you want to play %1$d item and add it to the Queue?</String>
+<String id="SCLIB_STR_PlayAndAddToQueueItems_Confirm_Fmt" plurality="other">Are you sure you want to play %1$d items and add them to the Queue?</String>
 <String id="SCLIB_STR_ReplaceQueue_Confirm">Are you sure you want to replace the Queue?</String>
-<String id="SCLIB_STR_MovingQueueItems_Fmt">Moving %1$d songs in the Queue… Please wait.</String>
-<String id="SCLIB_STR_PlayNow_Items_Fmt">Playing and adding %1$d items to the Queue… Please wait.</String>
+<String id="SCLIB_STR_MovingQueueItems_Fmt" plurality="one">Moving %1$d song in the Queue… Please wait.</String>
+<String id="SCLIB_STR_MovingQueueItems_Fmt" plurality="other">Moving %1$d songs in the Queue… Please wait.</String>
+<String id="SCLIB_STR_PlayNow_Items_Fmt" plurality="one">Playing and adding %1$d item to the Queue… Please wait.</String>
+<String id="SCLIB_STR_PlayNow_Items_Fmt" plurality="other">Playing and adding %1$d items to the Queue… Please wait.</String>
 <String id="SCLIB_STR_Queue_RemoveItems_Error">Unable to remove all the selected items.</String>
 <String id="SCLIB_STR_Queue_MoveItems_Error">Unable to move all the selected items.</String>
 <String id="SCLIB_STR_Queue_RemoveItems">Remove Song(s)</String>
 <String id="SCLIB_STR_Queue_MoveItems">Move Song(s)</String>
 <String id="SCLIB_STR_Queue_MoveItems_StaleObjError">Another user is editing the Queue from a different controller. Some songs you were editing may have been left unchanged.</String>
 <String id="SCLIB_STR_AddToQueue_NoItems">No items were added to the Queue.</String>
-<String id="SCLIB_STR_AddToQueue_Items_Fmt">Adding %1$d item(s) to the Queue… Please wait.</String>
+<String id="SCLIB_STR_AddToQueue_Items_Fmt" plurality="one">Adding %1$d item to the Queue… Please wait.</String>
+<String id="SCLIB_STR_AddToQueue_Items_Fmt" plurality="other">Adding %1$d items to the Queue… Please wait.</String>
 <String id="SCLIB_STR_AddToQueue_Error">Unable to add selected item(s) to the Queue.</String>
 <String id="SCLIB_STR_PlayNow_Error">Unable to play or add selected item(s) to the Queue.</String>
 <String id="SCLIB_STR_ReplaceQueue_Error">Unable to replace the Queue with the selected item(s).</String>
@@ -1164,16 +1166,16 @@ You can change the name anytime in &quot;Settings&quot; &gt; &quot;My Services.&
 <String id="SCLIB_STR_MusicLibrarySetup_FinalText">Your new share will be added to your Sonos system.
 
 Sonos first needs to create an index of your music. When this is finished, the music will appear in your Music Library.</String>
-<String id="SCLIB_STR_SetupWiz_SUB_NoRooms">To set up the SUB, you need a room that has a Sonos speaker.</String>
-<String id="SCLIB_STR_SetupWiz_SUB_TempWire">SUB setup cannot be completed while any Sonos product is temporarily wired to the router.</String>
-<String id="SCLIB_STR_SetupWiz_SUB_Unused">The SUB has been added to your system, but has not been set up in a room. Select this SUB from the Rooms menu to complete the setup later.</String>
-<String id="SCLIB_STR_SetupWiz_SubOutro_Body_1">The SUB sound has now been optimized for this room.</String>
-<String id="SCLIB_STR_SetupWiz_SubIntro_Body1">The SUB can be used in any room that has a Sonos speaker.</String>
+<String id="SCLIB_STR_SetupWiz_SUB_NoRooms">To set up the Sub, you need a room that has a Sonos speaker.</String>
+<String id="SCLIB_STR_SetupWiz_SUB_TempWire">Sub setup cannot be completed while any Sonos product is temporarily wired to the router.</String>
+<String id="SCLIB_STR_SetupWiz_SUB_Unused">The Sub has been added to your system, but has not been set up in a room. Select this Sub from the Rooms menu to complete the setup later.</String>
+<String id="SCLIB_STR_SetupWiz_SubOutro_Body_1">The Sub sound has now been optimized for this room.</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body1">The Sub can be used in any room that has a Sonos speaker.</String>
 <String id="SCLIB_STR_SetupWiz_SubIntro_Body2"></String>
-<String id="SCLIB_STR_SetupWiz_SubIntro_Input1">Choose room for SUB</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Input1">Choose room for Sub</String>
 <String id="SCLIB_STR_SetupWiz_SubIntro_Input2">Not now</String>
-<String id="SCLIB_STR_SetupWiz_SubChooseRoom_Title">Choose room for SUB</String>
-<String id="SCLIB_STR_SetupWiz_SubChooseRoom_Input1">Please choose where you will use the SUB:</String>
+<String id="SCLIB_STR_SetupWiz_SubChooseRoom_Title">Choose room for Sub</String>
+<String id="SCLIB_STR_SetupWiz_SubChooseRoom_Input1">Please choose where you will use the Sub:</String>
 <String id="SCLIB_STR_SetupWiz_SubFailure_Title">Setup Problem</String>
 <String id="SCLIB_STR_SetupWiz_SubFailure_Body1">There was a problem configuring your products.</String>
 <String id="SCLIB_STR_SetupWiz_SubFailure_Body2_Fmt">Press ‘%1$s’ to try again, or press ‘%2$s’ to continue.</String>
@@ -1187,20 +1189,20 @@ Sonos first needs to create an index of your music. When this is finished, the m
 <String id="SCLIB_StereoSUBUnbondMsg">The Left speaker has reverted to %1$s. The Right speaker has reverted to %2$s.
 
 The SUB will be unused for now. Please select it from the Rooms menu to set it up in another room.</String>
-<String id="SCLIB_STR_ConfigureSub">Remove SUB</String>
-<String id="SCLIB_STR_RecalibrateSub">Recalibrate SUB</String>
-<String id="SCLIB_STR_SetupWiz_SubRemove_Title">Remove SUB</String>
-<String id="SCLIB_STR_SetupWiz_SubRemove_Body1">Please choose what you would like to do with the SUB.</String>
-<String id="SCLIB_STR_SetupWiz_SubRemove_Body2">Once you remove the SUB, the existing tuning will be removed.</String>
-<String id="SCLIB_STR_SetupWiz_SubRemove_Body3">If you decide not to use the SUB, it will appear as unused in the Rooms menu. If you then disconnect it from power, it will be completely removed from your Sonos system.</String>
-<String id="SCLIB_STR_SetupWiz_SubRemove_Input1">Choose room for SUB</String>
-<String id="SCLIB_STR_SetupWiz_SubRemove_Input2">Don't use SUB</String>
-<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You're about to pair a SUB with a %1$s that was already tuned with Trueplay.</String>
-<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body1_Multi">You're about to pair a SUB with an existing stereo pair that was already tuned with Trueplay.</String>
-<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You'll need to tune the SUB and your %1$s together later.</String>
-<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Multi">You will need to tune the SUB and stereo pair together later in the setup process.</String>
-<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Alt_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You'll need to tune the SUB and your %1$s together later.</String>
-<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Alt_Multi">You will need to tune the SUB and stereo pair together later.</String>
+<String id="SCLIB_STR_ConfigureSub">Remove Sub</String>
+<String id="SCLIB_STR_RecalibrateSub">Recalibrate Sub</String>
+<String id="SCLIB_STR_SetupWiz_SubRemove_Title">Remove Sub</String>
+<String id="SCLIB_STR_SetupWiz_SubRemove_Body1">Please choose what you would like to do with the Sub.</String>
+<String id="SCLIB_STR_SetupWiz_SubRemove_Body2">Once you remove the Sub, the existing tuning will be removed.</String>
+<String id="SCLIB_STR_SetupWiz_SubRemove_Body3">If you decide not to use the Sub, it will appear as unused in the Rooms menu. If you then disconnect it from power, it will be completely removed from your Sonos system.</String>
+<String id="SCLIB_STR_SetupWiz_SubRemove_Input1">Choose room for Sub</String>
+<String id="SCLIB_STR_SetupWiz_SubRemove_Input2">Don't use Sub</String>
+<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You're about to pair a Sub with a %1$s that was already tuned with Trueplay.</String>
+<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body1_Multi">You're about to pair a Sub with an existing stereo pair that was already tuned with Trueplay.</String>
+<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You'll need to tune the Sub and your %1$s together later.</String>
+<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Multi">You will need to tune the Sub and stereo pair together later in the setup process.</String>
+<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Alt_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You'll need to tune the Sub and your %1$s together later.</String>
+<String id="SCLIB_STR_SetupWiz_SubRetuneNeeded_Body2_Alt_Multi">You will need to tune the Sub and stereo pair together later.</String>
 <String id="SCLIB_STR_SetupWiz_SurroundsRetuneNeeded_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You're about to add surrounds to a %1$s that was already tuned with Trueplay.</String>
 <String id="SCLIB_STR_SetupWiz_SurroundsRetuneNeeded_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You'll need to tune the surrounds and your %1$s together later.</String>
 <String id="SCLIB_STR_SetupWiz_SurroundsRetuneNeeded_Body2_Alt_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You'll need to tune the surrounds and your %1$s together later.</String>
@@ -1211,39 +1213,34 @@ The SUB will be unused for now. Please select it from the Rooms menu to set it u
 <String id="SCLIB_STR_SetupWiz_PlayerType_Input3">Surround speaker for home theater</String>
 <String id="SCLIB_STR_SetupWiz_SurroundChooseRoom_Input2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Choose the room where you want to use your %1$s:</String>
 
-<String id="SCLIB_STR_SetupWiz_SoundbarSub_Title">Add a SUB</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSub_Title">Add a Sub</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurrounds_Title">Add surrounds</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Do you want to use surround speakers with your %1$s?</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Body1_Alt">Do you still want to add surround speakers?</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Input1">Add surrounds</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Input2">Not now</String>
 
-<String id="SCLIB_STR_SetupWiz_SoundbarSubConfig_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Do you want to use a SUB with your %1$s?</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSubStillAdd_Body1_Fmt">Do you still want to add a SUB to your %1$s?</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSubConfig_Input1">Add a SUB</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSubConfig_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Do you want to use a Sub with your %1$s?</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSubStillAdd_Body1_Fmt">Do you still want to add a Sub to your %1$s?</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSubConfig_Input1">Add a Sub</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSubConfig_Input2">Not now</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarAddSUB_Title">Add a SUB</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBPower_Body1">Ensure your SUB is connected to a power outlet in your desired location.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBWaiting_Body1">On your SUB, press and release the button as shown below:</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarAddSUB_Title">Add a Sub</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBPower_Body1">Ensure your Sub is connected to a power outlet in your desired location.</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBWaiting_Body1">On your Sub, press and release the button as shown below:</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSUBConnecting_Body2">This can take a few minutes.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBConnectOK_Title">Added a SUB</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBConnectOK_Title">Added a Sub</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSUBConnectOK_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Added a SUB to your %1$s.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUB_Title">Not a SUB</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUBNew_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You just added a %1$s, not a SUB.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUBNew_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">After setup is complete, you can configure this %1$s from the Rooms menu where it will be named:</String>
-<String id="SCLIB_STR_SetupWiz_Soundbar_BogusBridge_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">The %1$s has been set up, and was named:</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUBNew_Body3_Fmt" gender="no-gender" comment="Substitution: Sonos Player">%1$s (unused)</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUBNew_Body4">Press the Next button below to continue.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUBExisting_Body1">Do you still want to add a SUB?</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNoSUB_Title">No SUB</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBNoSUB_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s will not use a SUB for now.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBError_Title">SUB setup error</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBError_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">There was a problem adding the SUB. Make sure the SUB and your %1$s are connected to power.</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUB_Title">Not a Sub</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBNotASUBExisting_Body1">Do you still want to add a Sub?</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBNoSUB_Title">No Sub</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBNoSUB_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s will not use a Sub for now.</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBError_Title">Sub setup error</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBError_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">There was a problem adding the Sub. Make sure the Sub and your %1$s are connected to power.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarAudioSetup_Title">Audio setup</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep_Body1">Please ensure the Sonos speakers are placed in your desired locations in this room.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep_Body2">You will now be asked some questions to optimize the sound.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep2_Body1">Move to a central location in the room where you will normally watch TV.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSUBAudioSetup_Title">SUB audio setup</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSUBAudioSetup_Title">Sub audio setup</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSUBPhase_Body1">Press play to start a pair of alternating test sounds. Is one clearly louder? If you’re not sure, choose “No Difference”.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarCalibDone_Body1">The sound has now been optimized for this room.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarTVIntro_Title">TV sound</String>
@@ -1334,14 +1331,14 @@ If the problem persists and your network connection is working, please try again
 <String id="SCLIB_STR_ErrorNoRadioFF">Skip Forward and Fast Forward are not available.</String>
 <String id="SCLIB_STR_ErrorNoRadioSkip">Skip Back and Rewind are not available.</String>
 <String id="SCLIB_STR_WaitingReconnect">Waiting to reconnect…</String>
-<String id="SCLIB_STR_SubCalIntro_Body1">Please ensure the SUB is placed in your desired location in this room.</String>
-<String id="SCLIB_STR_SubCalIntro_Body2">You will now be asked some questions to optimize the SUB sound.</String>
+<String id="SCLIB_STR_SubCalIntro_Body1">Please ensure the Sub is placed in your desired location in this room.</String>
+<String id="SCLIB_STR_SubCalIntro_Body2">You will now be asked some questions to optimize the Sub sound.</String>
 <String id="SCLIB_STR_SubCalMove_Body">The next steps involve listening to test sounds. For best results, please assess these sounds from a normal listening location in the room.</String>
 <String id="SCLIB_STR_SubCalPhase_Body">Press play to start a pair of alternating test sounds. Is one clearly louder? If you're not sure, choose 'No difference'.</String>
 <String id="SCLIB_STR_SubCalPhase_Input1">No difference</String>
 <String id="SCLIB_STR_SubCalPhase_Input2">A is louder</String>
 <String id="SCLIB_STR_SubCalPhase_Input3">B is louder</String>
-<String id="SCLIB_STR_SubCalLevel_Body">Press play and select one of the settings so the SUB sounds clear but not overwhelming. In many cases the middle setting is good, but if the SUB is in the corner of the room you may prefer to turn it down.</String>
+<String id="SCLIB_STR_SubCalLevel_Body">Press play and select one of the settings so the Sub sounds clear but not overwhelming. In many cases the middle setting is good, but if the Sub is in the corner of the room you may prefer to turn it down.</String>
 <String id="SCLIB_STR_SubCalLevel_Inst">When you have made your adjustment, press 'Next'.</String>
 <String id="SCLIB_STR_SurroundCalibration_Title">Surround audio setup</String>
 <String id="SCLIB_STR_SurroundCalibrationLeft_Body">How far away from you is the left surround?</String>
@@ -1354,10 +1351,10 @@ If the problem persists and your network connection is working, please try again
 <String id="SCLIB_STR_SurroundBalanceRight_Body">How far away is the right surround?</String>
 <String id="SCLIB_STR_SurroundsBalanced_Title">Balanced</String>
 <String id="SCLIB_STR_SurroundsBalanced_Body1">You have manually balanced your surround speakers.</String>
-<String id="SCLIB_STR_SubSetupTitle">SUB setup</String>
-<String id="SCLIB_STR_SubSetupCompleteTitle">SUB setup complete</String>
+<String id="SCLIB_STR_SubSetupTitle">Sub setup</String>
+<String id="SCLIB_STR_SubSetupCompleteTitle">Sub setup complete</String>
 <String id="SCLIB_STR_UpdateRequired">Update required</String>
-<String id="SCLIB_STR_SUBUpdateRequired">An update is required before the SUB can be set up and used. You can perform the update and then complete setup by selecting this SUB from the Rooms menu.</String>
+<String id="SCLIB_STR_SUBUpdateRequired">An update is required before the Sub can be set up and used. You can perform the update and then complete setup by selecting this Sub from the Rooms menu.</String>
 <String id="SCLIB_STR_STREAMINFO_STEREO">Stereo</String>
 <String id="SCLIB_STR_STREAMINFO_DOLBY_DIGITAL_DUAL_MONO">Dolby Digital Dual-Mono</String>
 <String id="SCLIB_STR_STREAMINFO_DOLBY_DIGITAL_DUAL_MONO_WITH_LFE">Dolby Digital Dual-Mono (LFE)</String>
@@ -1380,6 +1377,17 @@ If the problem persists and your network connection is working, please try again
 <String id="SCLIB_STR_STREAMINFO_PAUSE_BURST">Pause Burst</String>
 <String id="SCLIB_STR_STREAMINFO_UNSUPPORTED">Unsupported</String>
 <String id="SCLIB_STR_STREAMINFO_SILENCE">Silence</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_DTS">DTS</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_DD_PLUS">Dolby Digital Plus</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_ATRAC">ATRAC</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_MPEG1">MPEG1</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_MPEG2_AAC">MPEG2 AAC</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_MPEG2">MPEG2</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_WMA_PRO">WMA Pro</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_MPEG4_AAC">MPEG4 AAC</String>
+<String id="SCLIB_STR_STREAMINFO_UNSUPPORTED_MAT">Dolby MAT</String>
+<String id="SCLIB_STR_UnsupportedAudioFormat_Fmt">You are receiving an audio signal that is not supported (%1$s): %2$s</String>
+<String id="SCLIB_STR_Repair">Repair</String>
 <String id="SCLIB_STR_DeviceSetupIncompleteTitle">Setup incomplete</String>
 <String id="SCLIB_STR_DeviceSetupIncompleteBody_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Setup is not complete. When you're ready to finish, choose the unused Sonos %1$s from the Rooms tab.</String>
 <String id="SCLIB_STR_ReplaceRemote_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">A remote control is already set up to work with this %1$s. If you set up a new remote, the current remote will no longer work.</String>
@@ -1388,7 +1396,7 @@ If the problem persists and your network connection is working, please try again
 <String id="SCLIB_STR_ReplaceRemote_Input2">Don't replace</String>
 <String id="SCLIB_STR_SoundbarWiz_OtherComponents_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">%1$s setup</String>
 <String id="SCLIB_STR_SoundbarWiz_OtherComponentsSurrounds_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s will be set up without surround speakers for now.</String>
-<String id="SCLIB_STR_SoundbarWiz_OtherComponentsSubOrSurrounds_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s will be set up without a SUB or surround speakers for now.</String>
+<String id="SCLIB_STR_SoundbarWiz_OtherComponentsSubOrSurrounds_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s will be set up without a Sub or surround speakers for now.</String>
 <String id="SCLIB_STR_SoundbarWiz_OtherComponents_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You can add additional products to your %1$s later.</String>
 <String id="SCLIB_STR_SoundbarWiz_AddSurround_Left_Title">Add left surround</String>
 <String id="SCLIB_STR_SoundbarWiz_AddSurround_Right_Title">Add right surround</String>
@@ -1463,10 +1471,10 @@ If the problem persists and your network connection is working, please try again
 <String id="SCLIB_STR_SoundbarWiz_SurroundChooseSide_Input1">Left</String>
 <String id="SCLIB_STR_SoundbarWiz_SurroundChooseSide_Input2">Right</String>
 
-<String id="SCLIB_STR_AddRemSub_Group">SUB</String>
+<String id="SCLIB_STR_AddRemSub_Group">Sub</String>
 <String id="SCLIB_STR_AddRemSurrounds_Group">Surrounds</String>
-<String id="SCLIB_STR_RemoveSub">Remove SUB</String>
-<String id="SCLIB_STR_AddSub">Add SUB</String>
+<String id="SCLIB_STR_RemoveSub">Remove Sub</String>
+<String id="SCLIB_STR_AddSub">Add Sub</String>
 <String id="SCLIB_STR_RemoveSurrounds">Remove Surrounds</String>
 <String id="SCLIB_STR_AddRemoveSurrounds">Add/Remove Surrounds</String>
 <String id="SCLIB_STR_AddSurrounds">Add Surrounds</String>
@@ -1507,14 +1515,14 @@ If your system is registered, you can also add music services by selecting More 
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_Error_Title">Version unconfirmed</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_Error_Body1">There was a problem confirming if your Sonos controller is up-to-date.</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_Error_Body2">If you continue and your controller is not up-to-date, you will be unable to set up certain Sonos products.</String>
-<String id="SCLIB_STR_SetupWiz_SUBConfiguring_Body1">Adding your SUB to the room. Please wait…</String>
-<String id="SCLIB_STR_SetupWiz_SUBRemoving_Body1">Removing your SUB from the room. Please wait…</String>
+<String id="SCLIB_STR_SetupWiz_SUBConfiguring_Body1">Adding your Sub to the room. Please wait…</String>
+<String id="SCLIB_STR_SetupWiz_SUBRemoving_Body1">Removing your Sub from the room. Please wait…</String>
 <String id="SCLIB_STR_SetupWiz_SurroundRemoving_Body1">Removing surrounds from the room. Please wait…</String>
 <String id="SCLIB_STR_SetupWiz_ConnectPower_Title">Connect to power</String>
-<String id="SCLIB_STR_SetupWiz_ConnectSubPower_Title">Connect SUB to power</String>
+<String id="SCLIB_STR_SetupWiz_ConnectSubPower_Title">Connect Sub to power</String>
 <String id="SCLIB_STR_SetupWiz_ConnectPower_Body_1">Ensure your Sonos player is connected to a power outlet in your desired location.</String>
 <String id="SCLIB_STR_SetupWiz_ConnectPower_First_Body_1">Ensure your first Sonos player is connected to a power outlet in your desired location.</String>
-<String id="SCLIB_STR_SetupWiz_ConnectPower_Bridge_Body_1">Ensure your Sonos BOOST or BRIDGE is connected to a power outlet.</String>
+<String id="SCLIB_STR_SetupWiz_ConnectPower_Bridge_Body_1">Ensure your Sonos Boost or Bridge is connected to a power outlet.</String>
 <String id="SCLIB_STR_SetupWiz_ConnectPower_Product_Body_1">Ensure your Sonos product is connected to a power outlet.</String>
 <String id="SCLIB_STR_SetupWiz_ConnectPower_TempFirst_Body_1">Ensure your Sonos player is connected to a power outlet.</String>
 <String id="SCLIB_STR_SetupWiz_ConnectPower_NFW_Body_2">Note: Don't connect an Ethernet cable to your player unless you are prompted to do so.</String>
@@ -1553,23 +1561,19 @@ Please wait, this could take a minute…</String>
 <String id="SCLIB_STR_SetupWiz_WirelessSetupError_Body2" comment="URL must have trailing whitespace or punctuation!">If this problem persists, find more information here:
 http://faq.sonos.com/wifi_player</String>
 <String id="SCLIB_STR_SetupWiz_WirelessSetupError_Body3_Fmt">If you cannot resolve the problem, select %1$s.</String>
-<String id="SCLIB_STR_SetupWiz_WirelessSubAndSurrounds">SUB and surrounds</String>
-<String id="SCLIB_STR_SetupWiz_WirelessSubOnly">SUB</String>
-<String id="SCLIB_STR_SetupWiz_WirelessSurroundsOnly">surrounds</String>
-<String id="SCLIB_STR_SetupWiz_NeedBridge_Title">Alternative setup</String>
-<String id="SCLIB_STR_SetupWiz_NeedBridge_Body1">You will need a Sonos BOOST or player permanently connected to your router in order to use your Sonos system.</String>
-<String id="SCLIB_STR_SetupWiz_PermWire_Body1">There was a problem configuring Sonos to work on your wireless network. You will need a Sonos BOOST or player permanently connected to your router in order to use your Sonos system.</String>
+<String id="SCLIB_STR_SetupWiz_NeedBridge_Body1">You will need a Sonos Boost or player permanently connected to your router in order to use your Sonos system.</String>
+<String id="SCLIB_STR_SetupWiz_PermWire_Body1">There was a problem configuring Sonos to work on your wireless network. You will need a Sonos Boost or player permanently connected to your router in order to use your Sonos system.</String>
 <String id="SCLIB_STR_SetupWiz_NeedBridge_Body2_Fmt">Press %1$s to complete setup with your new player wired to the router for now. This will enable you to use your Sonos system for now.</String>
 <String id="SCLIB_STR_SetupWiz_NeedBridge_Body3" comment="URL must have trailing whitespace or punctuation!">For more information, go to:
 http://faq.sonos.com/wifi</String>
-<String id="SCLIB_STR_SetupWiz_AddBridge_Title">Add a BOOST or BRIDGE</String>
+<String id="SCLIB_STR_SetupWiz_AddBridge_Title">Add a Boost or Bridge</String>
 <String id="SCLIB_STR_SetupWiz_AddBridge_Body1">You already have a Sonos product wired to your router.</String>
-<String id="SCLIB_STR_SetupWiz_AddBridge_Body2">Do you want to wire your new BOOST or BRIDGE to the router, or use it elsewhere to improve the range of your Sonos system?</String>
+<String id="SCLIB_STR_SetupWiz_AddBridge_Body2">Do you want to wire your new Boost or Bridge to the router, or use it elsewhere to improve the range of your Sonos system?</String>
 <String id="SCLIB_STR_SetupWiz_AddBridge_Input1">Wire to router</String>
 <String id="SCLIB_STR_SetupWiz_AddBridge_Input2">Use somewhere else</String>
 <String id="SCLIB_STR_SetupWiz_WireBridge_Title">Connect to router</String>
-<String id="SCLIB_STR_SetupWiz_WireBridge_Body1">Connect your Sonos BOOST or BRIDGE to your router with an Ethernet cable.</String>
-<String id="SCLIB_STR_SetupWiz_WireBridge_Body2">NOTE: If you do not have a Sonos BOOST or BRIDGE, you can also wire any other Sonos product to your router to achieve similar benefits.</String>
+<String id="SCLIB_STR_SetupWiz_WireBridge_Body1">Connect your Sonos Boost or Bridge to your router with an Ethernet cable.</String>
+<String id="SCLIB_STR_SetupWiz_WireBridge_Body2">NOTE: If you do not have a Sonos Boost or Bridge, you can also wire any other Sonos product to your router to achieve similar benefits.</String>
 <String id="SCLIB_STR_SetupWiz_FinishAddPlayers_Title">Setup complete</String>
 <String id="SCLIB_STR_SetupWiz_FinishAddPlayers_Body1">Your new Sonos products are now set up.</String>
 <String id="SCLIB_STR_SetupWiz_FinishAddPlayers_Body1_Singular">Your new Sonos product is now set up.</String>
@@ -1739,7 +1743,7 @@ Please call us for help.</String>
 <String id="SCLIB_STR_ImportantUpdateAvailable_Input_1">Update</String>
 <String id="SCLIB_STR_ImportantUpdateAvailable_Input_2">Cancel</String>
 <String id="SCLIB_STR_SetupWiz_NewWired_Body1">You will set up your new Sonos products one at a time.</String>
-<String id="SCLIB_STR_SetupWiz_NewWired_Body2_Single_Wired_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You will set up your new products separately. Start with the Sonos %1$s wired to your router.</String>
+<String id="SCLIB_STR_SetupWiz_NewWired_Body2_Single_Wired_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Start with the Sonos %1$s wired to your router.</String>
 <String id="SCLIB_STR_SetupWiz_NewWired_Body2_Multiple_Wired">Please start with a player wired to your router.</String>
 <String id="SCLIB_STR_SetupWiz_NewWired_Body2_Single_Wireless_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Start with the Sonos %1$s already connected to your wireless network.</String>
 <String id="SCLIB_STR_SetupWiz_NewWired_Body2_Multiple_Wireless">Please start with a player already configured on your wireless network.</String>
@@ -1777,11 +1781,9 @@ Please call us for help.</String>
 <String id="SCLIB_STR_ExtenderWarningTitle">Wireless range extender</String>
 <String id="SCLIB_STR_ExtenderWarningText">Some Sonos players are using the wireless connection from your range extender device. You will be unable to play music in a group of rooms including such a player.
 
-To ensure playback in all grouped rooms, you will need a Sonos BOOST or player permanently wired to your router.</String>
+To ensure playback in all grouped rooms, you will need a Sonos Boost or player permanently wired to your router.</String>
 <String id="SCLIB_STR_NoControllerInlineUpdate">Setup could not be completed because this Sonos controller application requires an update.</String>
 <String id="SCLIB_STR_EmailHint">E-mail Address</String>
-<String id="SCLIB_STR_SetupWiz_Waiting_Input_1_AddingBoost">I'm adding a BOOST</String>
-<String id="SCLIB_STR_SetupWiz_Waiting_Input_1_AddingBridge">I'm adding a BRIDGE</String>
 <String id="SCLIB_STR_SetupWiz_UpdateNeeded_Title">Update needed</String>
 <String id="SCLIB_STR_SetupWiz_UpdateNeededCantUseForNew">To set up your Sonos system, please update the OS on this device or use a different device.
 
@@ -1966,8 +1968,8 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_SpeakerTuning_SkippedTuning_Title">Tuning skipped for now</String>
 <String id="SCLIB_STR_SpeakerTuning_SkippedTuning_Body">You can tune at any time by going to Room Settings.</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Title">Trueplay tuning</String>
-<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Fmt">You have %1$d more rooms that can be tuned with Trueplay.</String>
-<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Singular">You have 1 more room that can be tuned with Trueplay.</String>
+<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Fmt" plurality="other">You have %1$d more rooms that can be tuned with Trueplay.</String>
+<String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body1_Fmt" plurality="one">You have %1$d more room that can be tuned with Trueplay.</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Body2">Please continue tuning.</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Input_1">Continue tuning</String>
 <String id="SCLIB_STR_SpeakerTuning_ContinueTuning_Input_2">Not now</String>
@@ -1980,8 +1982,8 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_SpeakerTuning_UnplugHeadphones_Title">Unplug your headphones</String>
 <String id="SCLIB_STR_SpeakerTuning_UnplugHeadphones_Body_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Please unplug the headphones from your %1$s before tuning.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Title">Player setup</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_Single_Body1">We found 1 new player near you:</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_Multi_Body1_Fmt">We found %1$d new players near you.</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_Body1_Fmt" plurality="one">We found %1$d new player near you:</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_Body1_Fmt" plurality="other">We found %1$d new players near you.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Multi_Body2">Select the player you want to set up first.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Unknown_Body1">Select the type of Sonos player you are setting up:</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_Input1">Set up this player</String>
@@ -1992,8 +1994,9 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_SetupWiz_WacConnectFailed_Body1_One_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You didn't press a button, or you pressed the button on the wrong speaker. Find the Sonos %1$s with this serial number, then try again:</String>
 <String id="SCLIB_STR_SetupWiz_WacConnectFailed_Body1_Two_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You didn't press any buttons, or you pressed the buttons on the wrong speaker. Find the Sonos %1$s with this serial number, then try again:</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModel_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Confirm your %1$s</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body1_Fmt" gender="no-gender" comment="Substitution 2: Sonos Player">It looks like you have %1$d identical players. It's important to confirm which %2$s you have started setting up.</String>
-<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">When you continue, the speaker you're currently setting up will play a sound.</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body1_Plural_Fmt" plurality="other">It looks like you have %1$d identical players.</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body1_Gendered_Fmt" gender="no-gender" comment="Substitution: Sonos Player">It's important to confirm which %1$s you have started setting up.</String>
+<String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntro_Body2_Fmt">When you continue, the speaker you're currently setting up will play a sound.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntroFromError_Body1_One">You may have pressed the button on the wrong player, or you may not have pressed any button at all.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntroFromError_Body1_Two">You may have pressed the buttons on the wrong player, or you may not have pressed any buttons at all.</String>
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeConfirmModelIntroFromError_Body2_One">It's important to ensure you press the button on the correct player.</String>
@@ -2012,15 +2015,18 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_SetupWiz_WacConnect_ChimeCheckSerial_Input">Check serial number</String>
 <String id="SCLIB_STR_InfoView_Sonos_Group_Title">Sonos</String>
 <String id="SCLIB_STR_BadWireless_NoSatellites_Title">Wireless network problem</String>
-<String id="SCLIB_STR_BadWireless_NoSatellites_Body1_SUB_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your network doesn't support the use of a SUB or surrounds with your %1$s.</String>
-<String id="SCLIB_STR_BadWireless_NoSatellites_Body1_Delayed_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your network doesn't support the use of a SUB or surrounds with your %1$s.</String>
+<String id="SCLIB_STR_BadWireless_NoSatellites_Body1_SUB_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your network doesn't support the use of a Sub or surrounds with your %1$s.</String>
+<String id="SCLIB_STR_BadWireless_NoSatellites_Body1_Delayed_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your network doesn't support the use of a Sub or surrounds with your %1$s.</String>
 <String id="SCLIB_STR_BadWireless_NoSatellites_Body1_Surround_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s can't be set up as a surround speaker right now.  You can set it up later by selecting it from the Rooms tab.</String>
-<String id="SCLIB_STR_BadWireless_NoSatellites_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">To use a SUB or surrounds with your %1$s, you'll need to permanently wire a BOOST or speaker to your router.</String>
-<String id="SCLIB_STR_BadWireless_NoSatellites_Body3_Delayed">After the setup is complete, you can configure your unused SUB and/or surrounds from the Rooms menu.</String>
+<String id="SCLIB_STR_BadWireless_NoSatellites_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">To use a Sub or surrounds with your %1$s, you'll need to permanently wire a Boost or speaker to your router.</String>
+<String id="SCLIB_STR_BadWireless_NoSatellites_Body3_Delayed">After the setup is complete, you can configure your unused Sub and/or surrounds from the Rooms menu.</String>
 <String id="SCLIB_STR_SurroundType_Title">Add surrounds</String>
 <String id="SCLIB_STR_SurroundType_Body1">Select the speakers you are setting up as surrounds:</String>
 <String id="SCLIB_STR_SurroundType_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Two Sonos %1$ss</String>
-<String id="SCLIB_STR_SurroundType_ZPS6">Two Sonos PLAY:5s (gen2)</String>
+<String id="SCLIB_STR_SurroundType_ZPS6">Two Sonos Play:5s (gen2)</String>
+<String id="SCLIB_STR_SurroundType_ZPS6_VO">Two Sonos play fives (gen2)</String>
+<String id="SCLIB_STR_SurroundType_ZPS3_VO">Two Sonos play threes</String>
+<String id="SCLIB_STR_SurroundType_ZPS1_VO">Two Sonos play ones</String>
 <String id="SCLIB_STR_Carousel_Multi_Input1">Set up these speakers</String>
 <String id="SCLIB_STR_Rename_Title">Room name change</String>
 <String id="SCLIB_STR_Rename_Changed_Title">Did you move your speaker?</String>
@@ -2035,14 +2041,14 @@ You may hear subtle improvements at first, and increased clarity the more you li
 <String id="SCLIB_STR_Rename_Changed_RetuneLater_Input">Retune later</String>
 <String id="SCLIB_STR_Rename_Changed_NotMoved_Input">I haven't moved it</String>
 <String id="SCLIB_STR_Rename_Changed_NotMoved_Multi_Input">I haven't moved them</String>
-<String id="SCLIB_STR_PLAY5_GEN1">PLAY:5 (gen1)</String>
-<String id="SCLIB_STR_PLAY5_GEN2">PLAY:5 (gen2)</String>
+<String id="SCLIB_STR_PLAY5_GEN1">Play:5 (gen1)</String>
+<String id="SCLIB_STR_PLAY5_GEN2">Play:5 (gen2)</String>
 <String comment="Off (verb)" id="SCLIB_STR_SleepTimer_Off_Command">Off</String>
 <String comment="Off (adjective)" id="SCLIB_STR_SleepTimer_Off_Status">Off</String>
 <String id="SCLIB_STR_SleepTimer_Remaining">%1$s remaining</String>
 <String id="SCLIB_STR_SleepTimer_CombinedTitle">Sleep Timer %1$s</String>
-<String id="SCLIB_STR_SleepSecond">%1$d second</String>
-<String id="SCLIB_STR_SleepSeconds">%1$d seconds</String>
+<String id="SCLIB_STR_SleepSeconds" plurality="one">%1$d second</String>
+<String id="SCLIB_STR_SleepSeconds" plurality="other">%1$d seconds</String>
 <String id="SCLIB_STR_SleepMinutes_Short">%1$dm</String>
 <String id="SCLIB_STR_SleepSeconds_Short">%1$ds</String>
 <String id="SCLIB_STR_Wiz_FatalPlayer_Title">Unable to set up device</String>
@@ -2215,36 +2221,36 @@ Please try again.</String>
 <String id="SCLIB_STR_MixedAccount_SettingTitle">Link players to Sonos account</String>
 <String id="SCLIB_STR_MixedAccount_SettingDesc">Sign in to fix players not linked to your Sonos Account.</String>
 <String id="SCLIB_STR_MixedAccount_ButtonTitle">Link players</String>
-<String id="SCLIB_STR_LocationAccess_Body"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_Title"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_1"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_2"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Body_3"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Request_CantAsk_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Title"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Denied_Body"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Allow_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_GoBack_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Perms_Skip_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Title"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Request_Body"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Title"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Denied_Body"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Enable_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Skip_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Title"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Loc_Serv_Notification_Message"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Request_Title">Bluetooth makes setup even easier</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Request_Body"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Denied_Title">Are you sure you don't want to turn on Bluetooth?</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Denied_Body">If it's off, you'll need an Ethernet cable to finish setup.</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Enable_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Back_Button"></String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Skip_Button">Continue without Bluetooth</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Lets_Get_Started">Let's get started…</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Body"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Title"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_1"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_2"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_3"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Title"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Body"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Allow_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_GoBack_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Skip_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Title"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Body"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Title"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Body"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Enable_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Skip_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Title"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Message"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Title">Bluetooth makes setup even easier</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Body"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt" gender="no-gender" comment="Substitution: user device"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Denied_Title">Are you sure you don't want to turn on Bluetooth?</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Denied_Body">If it's off, you'll need an Ethernet cable to finish setup.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Enable_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Back_Button"></String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Skip_Button">Continue without Bluetooth</String>
+<String id="SCLIB_STR_Setup_Prereqs_Lets_Get_Started">Let's get started…</String>
 <String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title"></String>
 <String id="SCLIB_STR_Wiz_Network_Error_Title">Network problem</String>
 <String id="SCLIB_STR_Wiz_Network_Error_Body1">Check your internet connection and make sure all your speakers are plugged in.</String>
@@ -2320,6 +2326,8 @@ Please try again.</String>
 <String id="SCLIB_STR_Voice_Authorization_Default_Language">Your default language was set to %1$s.</String>
 <String id="SCLIB_STR_Voice_Authorization_Change_Language">Voice language can be changed in Settings > Room Settings</String>
 <String id="SCLIB_STR_Voice_Authorization_Change_Language_VO">Voice language can be changed in Settings, Room Settings</String>
+<String id="SCLIB_STR_Voice_Authorization_Mic_Optimization_Title">We have optimized the voice experience for your home theater</String>
+<String id="SCLIB_STR_Voice_Authorization_Mic_Optimization_Body">The microphones on your Sonos One surrounds have been turned off for a better voice-control experience.</String>
 <String id="SCLIB_STR_Voice_Authentication_Continue">Continue</String>
 <String id="SCLIB_STR_Voice_Authentication_HeaderPage_Title">Add Amazon Alexa to your new speaker(s)</String>
 <String id="SCLIB_STR_Voice_Authentication_HeaderPage_Body">Let's start by signing in to your Amazon account.</String>
@@ -2364,6 +2372,10 @@ Please try again.</String>
 <String id="SCLIB_STR_WizardTitle_VoiceServices">Voice Services</String>
 <String id="SCLIB_STR_Voice_Services_Details_Title">Amazon Alexa</String>
 <String id="SCLIB_STR_Voice_Services_Details_Subtitle">Requires Alexa app</String>
+<String id="SCLIB_STR_Voice_Services_Update_Intro_Title">Your Sonos system requires an update</String>
+<String id="SCLIB_STR_Voice_Services_Update_Intro_Body1">The latest software ensures that your Sonos system works with new features securely and reliably.</String>
+<String id="SCLIB_STR_Voice_Services_Update_Intro_Body2">You'll need to update your system to use this feature.</String>
+<String id="SCLIB_STR_Voice_Services_Update_Intro_Input">Update Sonos</String>
 <String id="SCLIB_STR_Update_And_Secure_Update_Intro_Title">Your Sonos system requires an update</String>
 <String id="SCLIB_STR_Update_And_Secure_Update_Intro_Body1">The latest software ensures that your Sonos system works with new features securely and reliably.</String>
 <String id="SCLIB_STR_Update_And_Secure_Update_Intro_Body2">You'll need to update your system to use this feature.</String>
@@ -2391,7 +2403,7 @@ Please try again.</String>
 <String id="SCLIB_STR_Voice_Services_NetworkError_Input2">Not now</String>
 <String id="SCLIB_STR_Voice_Authentication_Error_Title_Generic">There was a problem adding Alexa</String>
 <String id="SCLIB_STR_Voice_Authentication_Error_Body_WrongAccount_Fmt" comment="Substitution 1: Room Name, Substitution 2: Email Address, do not remove **">You have already added an Amazon account (**%2$s**) in %1$s. Please use the same Amazon account on all of your speakers in %1$s.</String>
-<String id="SCLIB_STR_Voice_Authentication_Error_Body_LowMemory">Your device doesn't have enough available memory to complete Amazon Alexa setup. Restart your phone and try again.</String>
+<String id="SCLIB_STR_Voice_Authentication_Error_Body_LowMemory">Your mobile device doesn't have enough available memory to complete Amazon Alexa setup. Restart your mobile device and try again.</String>
 <String id="SCLIB_STR_Voice_Authentication_Error_Title_UseDifferentAccount_Fmt" comment="Substitution: Room Name">Change the Amazon account linked to %1$s</String>
 <String id="SCLIB_STR_Voice_Authentication_Error_Body1_UseDifferentAccount_Fmt" comment="Substitution 1: Room Name, Substitution 2: Email Address, do not remove **">%1$s is linked to Amazon account **%2$s**.</String>
 <String id="SCLIB_STR_Voice_Authentication_Error_Body2_UseDifferentAccount_Fmt">Amazon used this Amazon account info since you were already signed in. Tap **%1$s** if you need help switching to a different Amazon account and try again.</String>
@@ -2414,6 +2426,10 @@ Please try again.</String>
 AirPlay from your iPhone, iPad or Mac to Sonos.</String>
 <String id="SCLIB_STR_HDMI_ARC_Connecting_Title">Connecting</String>
 <String id="SCLIB_STR_HDMI_ARC_TurnOnTv_Title">Please turn on your TV</String>
+<String id="SCLIB_STR_HDMI_Connection_Issue_Title">Connection Issue</String>
+<String id="SCLIB_STR_HDMI_Connection_Issue_Body">We have detected an issue with your HDMI connection. We can help you fix it.</String>
+<String id="SCLIB_STR_HDMI_Connection_Issue_Button1">Dismiss</String>
+<String id="SCLIB_STR_HDMI_Connection_Issue_Button2">Fix it</String>
 <String id="SCLIB_STR_HDMI_ARC_TurnOnTv_Body_Fmt" gender="no-gender" comment="Substitution: Sonos Player">This is important for us to configure your %1$s.</String>
 <String id="SCLIB_STR_HDMI_ARC_TurnOnTv_Input">My TV is on</String>
 <String id="SCLIB_STR_HDMI_ARC_Education_Title">Connecting with HDMI-ARC</String>
@@ -2455,6 +2471,10 @@ AirPlay from your iPhone, iPad or Mac to Sonos.</String>
 <String id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body1">Disconnect any home theater devices connected to your TV.</String>
 <String id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">If you’re still having trouble, unplug all HDMI cables and plug them back in, starting with %1$s.</String>
 <String id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Make sure %1$s is plugged into your TV’s ARC port.</String>
+<String id="SCLIB_STR_HDMI_ARC_Blocked_Error_Title">CEC broadcast blocked</String>
+<String id="SCLIB_STR_HDMI_ARC_Blocked_Error_Body1">There is a device connected to your TV causing an issue.</String>
+<String id="SCLIB_STR_HDMI_ARC_Blocked_Error_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Please unplug all HDMI cables and plug them back in, starting with %1$s.</String>
+<String id="SCLIB_STR_HDMI_ARC_Blocked_Error_Body3_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Make sure %1$s is plugged in to your TV‘s ARC port.</String>
 <String id="SCLIB_STR_HDMI_TestConnection">Test connection</String>
 <String id="SCLIB_STR_HDMI_NotWorking">This isn’t working</String>
 <String id="SCLIB_STR_HDMI_PleaseTryAgain">Please try again…</String>
@@ -2467,21 +2487,22 @@ AirPlay from your iPhone, iPad or Mac to Sonos.</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body2">You will still be able to connect to your music services and stream audio.</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body3">You can try TV setup again later by going to:</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">More &gt; Settings &gt; Room Settings &gt; %1$s &gt; TV &gt; TV Setup</String>
-<String id="SCLIB_STR_SetupWiz_HTSkipPage_Body_Fmt" gender="no-gender" comment="Substitution: Sonos Player">We‘ll help you connect %1$s to your TV. If you have a SUB or surrounds, we‘ll help you with that too.</String>
+<String id="SCLIB_STR_SetupWiz_HTSkipPage_Body_Fmt" gender="no-gender" comment="Substitution: Sonos Player">We‘ll help you connect %1$s to your TV. If you have a Sub or surrounds, we‘ll help you with that too.</String>
 <String id="SCLIB_STR_SetupWiz_HTSkipPage_Title">Home theater setup</String>
 <String id="SCLIB_STR_BLE_Setup_ButtonPress_NotDetected_Title">Button press not detected</String>
 <String id="SCLIB_STR_BLE_Setup_ButtonPress_NotDetected_Body">Move closer to the speaker and try again.</String>
 <String id="SCLIB_STR_BLE_Setup_BTConnecting_Title">Getting your speaker ready…</String>
 <String id="SCLIB_STR_BLE_Setup_BTConnectFail_Title">Looks like something went wrong</String>
 <String id="SCLIB_STR_BLE_Setup_BTConnectFail_Body">Make sure the speaker's plugged in. Move closer to it and try again.</String>
-<String id="SCLIB_STR_BLE_Setup_BTConnectFail_Alternative_Body">If this doesn't work, choose "Alternative setup".</String>
+<String id="SCLIB_STR_BLE_Setup_BTConnectFail_Alternative_Body">If this doesn't work, choose "Alternative setup."</String>
+<String id="SCLIB_STR_BLE_Setup_BTConnectFail_Alternative_Etherthreat_Body">If this doesn't work, choose &quot;Alternative setup&quot; (requires an Ethernet cable).</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Single_Title">Is this the speaker you want to set up?</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Title">Which one do you want to set up first?</String>
-<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Body_Fmt">We found %1$d speakers.</String>
+<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Body_Fmt" plurality="one">We found %1$d speaker.</String>
+<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Body_Fmt" plurality="other">We found %1$d speakers.</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Single_Input1">Yes</String>
 <String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Input1">Set up this speaker</String>
-<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Single_Input2">No, choose different speaker</String>
-<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Multiple_Input2">Choose different speaker</String>
+<String id="SCLIB_STR_BLE_Setup_PlayerSelection_Input2">Choose different speaker</String>
 <String id="SCLIB_STR_Setup_WacishTimeout_Body1">It was not possible to check the password for your wireless network. To complete setup, you will now be guided through an alternative setup method.</String>
 <String id="SCLIB_STR_Setup_OnlyBleBeacons_Title">Are you trying to set up this speaker?</String>
 <String id="SCLIB_STR_AirPlayDialog_StopMusic">Stop Music</String>
@@ -2497,4 +2518,7 @@ Removing them will stop AirPlay in the other rooms too.</String>
 Removing them will stop AirPlay in the other rooms too.</String>
 <String id="SCLIB_STR_StopMusicDialog_Title">No Rooms Selected</String>
 <String id="SCLIB_STR_StopMusicDialog_Text">Are you sure you want to stop the music in all rooms?</String>
+<String id="SCLIB_STR_Setup_WACish_APFailure_Title">Unable to connect to speaker</String>
+<String id="SCLIB_STR_Setup_WACish_APFailure_Body">We couldn't connect your phone to your speaker. Let's try something else.</String>
+<String id="SCLIB_STR_DesktopSettings_Unknown_Email">Unknown</String>
 </Strings>

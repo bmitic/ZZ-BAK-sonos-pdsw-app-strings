@@ -3,7 +3,7 @@
 /****************************************************************/
 
 /* Main Tabs */
-    "<Home>" = "My Sonosdaefgg";
+    "<Home>" = "My Sonos";
     "<Browse>" = "Browse";
 
 /* General */
@@ -138,7 +138,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Double tap to open Now Playing";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ and %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +146,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@, and %3$d others";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Currently playing %@";
+    "<NowPlayingOpen>" = "Open Now Playing";
     "<NowPlayingClose>" = "Close Now Playing";
-    "<NowPlayingCloseHint>" = "Double tap to return to music browse";
 
 /* Info Menu */
 
@@ -210,9 +209,9 @@
     "<GroupRooms_Short>" = "Group Rooms";
     "<PauseAll>" = "Pause All";
     "<PauseAllConfirmation>" = "Are you sure you want to pause the music playing in all rooms?";
-    "<SelectToConfigure>" = "Set up this speaker";
-    "<SelectToRegister>" = "Register this speaker";
-    "<SoftwareUpdateRequired>" = "Software Update Required";
+    "<SelectToUpdate>" = "Select to update";
+    "<SelectToConfigure>" = "Select to set up";
+    "<SelectToRegister>" = "Select to register";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -508,6 +507,8 @@
     "<DirectControlLastPlayedFrom>" = "Last Played From";
     "<DirectControlLastPlayedFrom_1>" = "Last played from %1$@";
     "<DirectControlResumeFrom>" = "Resume From";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Resume from %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Playing from %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known

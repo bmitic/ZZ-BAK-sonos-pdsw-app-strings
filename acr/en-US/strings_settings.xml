@@ -18,9 +18,7 @@
 <string name="music_eq_balance_positive_value">R</string>
 <string name="music_eq_loudness_text">Loudness</string>
 <string name="music_eq_reset_all_text">Reset All</string>
-<string name="music_eq_on_text">ON</string>
-<string name="music_eq_off_text">OFF</string>
-<string name="tv_audio_delay_text">Audio Delay (Lip Sync)</string>
+    <string name="tv_audio_delay_text">Audio Delay (Lip Sync)</string>
 <string name="tv_audio_delay_min_value">Min</string>
 <string name="tv_audio_delay_max_value">Max</string>
 <string name="tv_dialog_reset_all_text">Reset All</string>
@@ -50,8 +48,7 @@
 <string name="music_shares_sharename">\\\\MyComputer\\Shared\\Music</string>
 <string name="music_eq_not_supported">Equalization settings are not available while a Sonos player\'s Line-Out level is set to Fixed.</string>
 <string name="moreinfo_title">More Information</string>
-<string name="unconfigured_spinner_header">Choose Player</string>
-<string name="notifications_setting">Show Notifications</string>
+    <string name="notifications_setting">Show Notifications</string>
 <string name="lockscreen_setting">Show Lock Screen Controls</string>
 <string name="lockscreen_volume_homescreen_setting">Allow Volume Control on Home Screen</string>
 <string name="lockscreen_setting_subtitle">Requires Notifications</string>
@@ -59,8 +56,7 @@
 <string name="lockscreen_external_setting_subtitle">Requires Lock Screen</string>
 <string name="app_shortcuts_setting">Show App Shortcuts</string>
 <string name="app_shortcuts_setting_subtitle">Requires Notifications</string>
-<string name="use_tablet_layout_setting">Use Tablet layout</string>
-<string name="debug_wizard">Debug Wizard</string>
+    <string name="debug_wizard">Debug Wizard</string>
 <string name="alarm_toggle">Alarm Toggle</string>
 <string name="time_picker_content">Time Picker: %s</string>
 <string name="time_picker_label_hr">Hr</string>
