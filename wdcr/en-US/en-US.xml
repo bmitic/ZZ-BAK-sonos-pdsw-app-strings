@@ -91,9 +91,9 @@ The unc path %s is not a valid unc path, or not a share on this computer.</Strin
   <String UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content" Category="None">Show {0} More…</String>
   <String UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content" Category="None">Show More…</String>
   <String UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content" Category="None">Show Less…</String>
-  <String UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content" Category="None">Click to update…</String>
-  <String UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_1:System.String.$Content" Category="None">Set up this speaker</String>
-  <String UniqueId="zones/strings.baml:CLICK_TO_REGISTER_1:System.String.$Content" Category="None">Register this speaker</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content" Category="None">Select to update</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_1:System.String.$Content" Category="None">Select to set up</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_REGISTER_1:System.String.$Content" Category="None">Select to register</String>
   <String UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content" Category="None">The current room group contains</String>
   <String UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content" Category="None">Use the up and down arrow keys to switch between room groups. Press the space bar to open the grouping dialog.</String>
   <String UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content" Category="None">Use the up and down arrow keys to switch between room groups. Press the space bar to set up this device.</String>
@@ -257,13 +257,13 @@ The unc path %s is not a valid unc path, or not a share on this computer.</Strin
   <String UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title" Category="Title">Settings</String>
   <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text" Category="Text">Room Settings for</String>
   <String UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text" Category="Text">You currently have no Sonos players in your Sonos system. You need at least one Sonos player to play music.</String>
-  <String UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">To add a Sonos player, select Manage &gt; Add a Player or SUB from the menu bar.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">To add a Sonos player, select Manage &gt; Add a Player or Sub from the menu bar.</String>
   <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text" Category="Text">Settings for</String>
-  <String UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">You currently have no BOOSTs in your Sonos system.</String>
-  <String UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text" Category="Text">To add a BOOST, select Manage &gt; Add a BOOST or BRIDGE from the menu bar.</String>
-  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text" Category="Text">DOCK Settings for</String>
-  <String UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text" Category="Text">You currently have no DOCKs in your Sonos system.</String>
-  <String UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text" Category="Text">To add a DOCK, select Manage &gt; Add a Player or SUB from the menu bar.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">You currently have no Boosts in your Sonos system.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text" Category="Text">To add a Boost, select Manage &gt; Add a Boost or Bridge from the menu bar.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text" Category="Text">Dock Settings for</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text" Category="Text">You currently have no Docks in your Sonos system.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text" Category="Text">To add a Dock, select Manage &gt; Add a Player or Sub from the menu bar.</String>
   <String UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Music Library</String>
   <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Music Library Settings</String>
   <String UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Folders</String>
@@ -301,8 +301,8 @@ The unc path %s is not a valid unc path, or not a share on this computer.</Strin
   <String UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">_Copy</String>
   <String UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">_Paste</String>
   <String UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the Manage menu">_Manage</String>
-  <String UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Add a Player or SUB…</String>
-  <String UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Add a _BOOST or BRIDGE…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Add a Player or Sub…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Add a _Boost or Bridge…</String>
   <String UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Music _Library Settings…</String>
   <String UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Ser_vice Settings…</String>
   <String UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Add _Radio Station…</String>
@@ -498,8 +498,8 @@ The unc path %s is not a valid unc path, or not a share on this computer.</Strin
   <String UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Clear Queue</String>
   <String UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Save Queue</String>
   <String UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content" Category="None">White Indicator Light</String>
-  <String UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content" Category="None">BRIDGE Name</String>
-  <String UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content" Category="None">DOCK Name</String>
+  <String UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content" Category="None">Bridge Name</String>
+  <String UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content" Category="None">Dock Name</String>
   <String UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content" Category="None">Room Name</String>
   <String UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content" Category="None">Basic</String>
   <String UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content" Category="None">General</String>
@@ -527,9 +527,9 @@ The unc path %s is not a valid unc path, or not a share on this computer.</Strin
   <String UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content" Category="None">Max</String>
   <String UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content" Category="None">L</String>
   <String UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content" Category="None">R</String>
-  <String UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content" Category="None">SUB</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content" Category="None">Sub</String>
   <String UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content" Category="None">On</String>
-  <String UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content" Category="None">SUB Level</String>
+  <String UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content" Category="None">Sub Level</String>
   <String UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content" Category="None">Placement Adjustment</String>
   <String UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content" Category="None">Dialog Enhancement</String>
   <String UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content" Category="None">Audio Delay (Lip Sync)</String>

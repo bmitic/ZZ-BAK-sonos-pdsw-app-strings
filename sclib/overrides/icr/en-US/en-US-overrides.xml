@@ -5,7 +5,7 @@
 <String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonos presets the best audio compression for player Line-In and Sonos DOCK. To override, choose a new setting.</String>
 <String id="STR_MusicLibraryIndexing">Music Library - Indexing…</String>
 <String id="STR_SonosPlaylists">Sonos Playlists</String>
-<String id="STR_NoMusic">No Music</String>
+<String id="STR_NoMusic">No music selected</String>
 <String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
 <String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
 <String id="SCLIB_STR_MSWiz_Password_Body_1_Fmt">Enter your new password</String>
@@ -81,10 +81,10 @@ You can remove existing items from My Sonos to make room for new ones.</String>
 <String id="STR_AddFavoritePlaylist">Add Playlist to My Sonos</String>
 <String id="STR_AddFavoriteShow">Add Show to My Sonos</String>
 <String id="STR_AddFavoriteBook">Add Book to My Sonos</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Back_Button">Go back</String>
-<String id="SCLIB_STR_SetupWiz_RegEmailOpts_Input_2_CheckboxVO">You acknowledge the use of personal information as described in the Privacy Statement</String>
-<String id="SCLIB_STR_Wiz_Sec_Reg_Account_NewAccount_PrivacyStatement_Input_CheckboxVO">I accept the Sonos Privacy Statement</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt" gender="no-gender" comment="Substitution: user device">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt" gender="no-gender" comment="Substitution: user device">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt" gender="no-gender" comment="Substitution: user device">Double-click the Home button on your %1$s and turn on the Bluetooth setting.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Back_Button">Go back</String>
+<String id="SCLIB_STR_SetupWiz_RegEmailOpts_Input_2_CheckboxVO">You acknowledge the use of personal information as described in the Privacy Statement. Double tap to navigate</String>
+<String id="SCLIB_STR_Wiz_Sec_Reg_Account_NewAccount_PrivacyStatement_Input_CheckboxVO">I accept the Sonos Privacy Statement. Double tap to navigate.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt" gender="no-gender" comment="Substitution: user device">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt" gender="no-gender" comment="Substitution: user device">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt" gender="no-gender" comment="Substitution: user device">Double-click the Home button on your %1$s and turn on the Bluetooth setting.</String>
 </Strings>

@@ -229,7 +229,7 @@
     "<NowPlayingHeaderTitle>" = "NOW PLAYING";
     "<NowPlayingLabel_Information>" = "Info & Options";
     "<NowPlayingTrackDefaultLabel>" = "Song [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[no music]";
+    "<NowPlayingTrackDefaultString>" = "[No music selected]";
     "<NowPlayingArtistDefaultLabel>" = "Artist";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -268,16 +268,16 @@
 
     "<SettingsWindowTitle>" = "Preferences";
     "<SettingsBasicSettingsTitle>" = "Basic";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "You currently have no %1$@ in your Sonos system.\n\nTo add a %1$@, select %2$@\nfrom the menu bar.";
     "<SettingsNoPlayers_1>" = "You currently have no Sonos Players in your Sonos system.\nYou need at least one Sonos player to play music.\n\nTo add a Sonos player, select %1$@ from the menu bar.";
-    "<SettingsNoPlayerLink>" = "Manage > Add a Player or SUB";
-    "<SettingsNoBoostLink>" = "Manage > Add a BOOST or BRIDGE";
+    "<SettingsNoPlayerLink>" = "Manage > Add a Player or Sub";
+    "<SettingsNoBoostLink>" = "Manage > Add a Boost or Bridge";
     "<SettingsNoAvailable_1>" = "No %1$@ Available";
     "<SettingsComponentRoom>" = "Room";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bass";
     "<SettingsEqTreble>" = "Treble";
     "<SettingsEqBalance>" = "Balance";
@@ -312,8 +312,8 @@
     "<SettingsExplicitFilteringNoServices>" = "There are no music services on your Sonos system that support content filtering.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "More Information";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB On";
-    "<SettingsSubEqLevelAdjustment>" = "SUB Level";
+    "<SettingsSubEqEnabled>" = "Sub On";
+    "<SettingsSubEqLevelAdjustment>" = "Sub Level";
     "<SettingsSubEqPlacementAdjustment>" = "Placement Adjustment";
     "<SettingsSubEqSpeakerSize>" = "Speaker Size (Crossover)";
     "<SettingsTVDialogDelay>" = "Audio Delay (Lip Sync)";
@@ -386,8 +386,9 @@
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@ Settings…";
-    "<ZoneMenuSelectToUpdate>" = "Select to Update…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Select to set up %1$s";
+    "<ZoneMenuSelectToUpdate>" = "Select to update";
+    "<ZoneMenuSelectToConfigure>" = "Select to set up";
+    "<ZoneMenuSelectToRegister>" = "Select to register";
     "<ZoneMenuConfirmPauseAll>" = "Are you sure you want to pause the music playing in all rooms?";
     "<ZoneMenuPauseButton>" = "Pause";
 
@@ -424,8 +425,8 @@
     "<MenuTitle_View>" = "View";
 
     "<MenuTitle_Manage>" = "Manage";
-    "<MenuTitle_AddPlayerOrSub>" = "Add a Player or SUB…";
-    "<MenuTitle_AddBoost>" = "Add a BOOST or BRIDGE…";
+    "<MenuTitle_AddPlayerOrSub>" = "Add a Player or Sub…";
+    "<MenuTitle_AddBoost>" = "Add a Boost or Bridge…";
     "<MenuTitle_MusicLibrarySettings>" = "Music Library Settings…";
     "<MenuTitle_ServiceSettings>" = "Service Settings…";
     "<MenuTitle_AddRadioStation>" = "Add Radio Station…";
