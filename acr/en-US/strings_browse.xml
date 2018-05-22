@@ -9,8 +9,7 @@
 <string name="browse_playlists_title">Playlists</string>
 <string name="browse_podcasts_title">Podcasts</string>
 <string name="browse_local_library_root">On this Mobile Device</string>
-<string name="browse_empty_favorites">Tap the %1$s icon when browsing or playing music to add songs, stations, or albums to Favorites.</string>
-<string name="browse_more_options">More Options</string>
+    <string name="browse_more_options">More Options</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s. Explicit.</string>
 <string name="accessibility_item_badge_format">%1$s. New.</string>
 <string name="edit_title_1">Edit %s</string>
