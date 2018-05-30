@@ -6,6 +6,10 @@
     "<Home>" = "My Sonos";
     "<Browse>" = "Browse";
 
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\"Test Strings 1\""
+    "<LocalziationTestICR2>" = "%1$@, %2$@, and %3$d tests"
+
 /* General */
 
     "<Sonos>" = "SONOS";
@@ -203,7 +207,7 @@
 
     "<Rooms>" = "Rooms";
     "<GroupRooms>" = "Group Rooms";
-    "<Group>" = "Group";
+    "<Group>" = "Changed for Test";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Group Rooms";

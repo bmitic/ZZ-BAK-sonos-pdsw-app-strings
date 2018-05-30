@@ -9,6 +9,9 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "Testing localization here too"
+
 /* Common */
 
     "<OK>" = "OK";

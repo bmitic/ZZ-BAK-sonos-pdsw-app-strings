@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="app_name">Sonos</string>
+<string name="acr_localization_test_1">Test for android\n</string>
+<string name="acr_localization_test_2">Test for android &amp; %1$s and %2$d</string>
+<string name="acr_localization_test_3">Testing…</string>
 <string name="close_button_name">Close</string>
 <string name="done_button_name">Done</string>
 <string name="edit_button_name">Edit</string>
