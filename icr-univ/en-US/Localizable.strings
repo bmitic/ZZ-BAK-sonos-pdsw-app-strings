@@ -7,8 +7,8 @@
     "<Browse>" = "Browse";
 
 /* Localization Tests */
-    "<LocalziationTestICR1>" = "\"Test Strings 1\""
-    "<LocalziationTestICR2>" = "%1$@, %2$@, and %3$d tests"
+    "<LocalziationTestICR1>" = "\"View information and options on what's currently being tested.\""
+    "<LocalziationTestICR2>" = "A Sonos Playlist named “%1$@” already exists. Replacing it will overwrite its contents."
 
 /* General */
 
@@ -207,7 +207,7 @@
 
     "<Rooms>" = "Rooms";
     "<GroupRooms>" = "Group Rooms";
-    "<Group>" = "Changed for Test";
+    "<Group>" = "Test";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Group Rooms";

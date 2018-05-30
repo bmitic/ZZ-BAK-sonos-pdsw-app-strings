@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1"></String>
+<string id="localizationTestSCLIB1">Are you sure you want to delete “%1$s”?</String>
 <string id="localizationTestSCLIB2" plurality="one">Complete %1$d test</String>
 <string id="localizationTestSCLIB2" plurality="other">Complete %1$d tests</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">You can combine your "%1$s" %2$s speaker with another %2$s to make left and right speakers of a stereo pair for testing purpuses.</String>
