@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <plurals name="localization_test_plurals_acr">
-    <item quantity="one">%1$s Test.</item>
-    <item quantity="other">%1$s Tests.</item>
+    <item quantity="one">Run %1$d test</item>
+    <item quantity="other">Run %1$d tests</item>
 </plurals>
 <plurals name="accessibility_tab_badge_format">
     <item quantity="one">%1$s. %2$d Item.</item>
