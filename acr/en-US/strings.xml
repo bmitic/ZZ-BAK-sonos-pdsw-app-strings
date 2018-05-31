@@ -2,7 +2,7 @@
 <resources>
 <string name="app_name">Sonos</string>
 <string name="acr_localization_test_1">Not connected to Sonos.\nTap for more tests.</string>
-<string name="acr_localization_test_2">Alarms set by voice command are managed by %1$s for testing/string>
+<string name="acr_localization_test_2">Alarms set by voice command are managed by %1$s for testing</string>
 <string name="acr_localization_test_3">Testing…</string>
 <string name="close_button_name">Close</string>
 <string name="done_button_name">Done</string>
