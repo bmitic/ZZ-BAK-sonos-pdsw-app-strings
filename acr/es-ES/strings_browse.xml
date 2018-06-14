@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="menu_search">Buscar</string>
 <string name="browse_artists_title">Artistas</string>
@@ -9,8 +9,7 @@
 <string name="browse_playlists_title">Listas de reproducción</string>
 <string name="browse_podcasts_title">Podcasts</string>
 <string name="browse_local_library_root">En este dispositivo móvil</string>
-<string name="browse_empty_favorites">Pulsa el icono %1$s al navegar o reproducir música para añadir canciones, emisoras o álbumes a Favoritos.</string>
-<string name="browse_more_options">Más opciones</string>
+    <string name="browse_more_options">Más opciones</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s. Explícito.</string>
 <string name="accessibility_item_badge_format">%1$s. Nuevo.</string>
 <string name="edit_title_1">Editar %s</string>
