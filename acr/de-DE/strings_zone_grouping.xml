@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="zone_grouping_title">Räume gruppieren</string>
-<string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead" name="zone_grouping_title_short">Gruppe</string>
-<string name="zone_grouping_select_all_button_text">Alle auswählen</string>
-<string name="zone_grouping_unselect_all_button_text">Auswahl aufheben</string>
-<string name="zone_grouping_selected_will_play">Wiedergabe in ausgewählten Räumen:</string>
-<string name="zone_grouping_multi_selected_will_play">In den ausgewählten Räumen wird unterschiedliche Musik abgespielt</string>
-<string name="zone_grouping_no_music">Keine Musik</string>
-<string name="zone_grouping_choose_music">Zur Musikauswahl auf „Fertig“ tippen</string>
-<string name="zone_grouping_picker_header">Musik zur Wiedergabe in ausgewählten Räumen auswählen</string>
-<string name="zone_grouping_play_to_the_following">Auf folgendem Lautsprecher abspielen</string>
+    <string name="zone_grouping_title">Räume gruppieren</string>
+    <string name="zone_grouping_no_music">Keine Musik ausgewählt</string>
+    <string name="zone_grouping_choose_music">Zur Musikauswahl auf „Fertig“ tippen</string>
+    <string name="zone_grouping_picker_header">Musik zur Wiedergabe in ausgewählten Räumen auswählen</string>
+    <string name="zone_grouping_play_to_the_following">Auf folgendem Lautsprecher abspielen</string>
 </resources>
