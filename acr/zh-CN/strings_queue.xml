@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">队列</string>
-<string name="queue_title_tab">队列</string>
-<string name="edit_queue_title">编辑队列</string>
+    <string name="edit_queue_title">编辑队列</string>
 <string name="queue_subtitle_not_in_use">未使用</string>
 <string name="clear_queue_title">清除队列</string>
 <string name="clear_queue_text">是否确实要清除此队列？</string>
@@ -25,8 +24,7 @@
 <string name="direct_control_playing_from_accessibility">播放位置 %1$s</string>
 <string name="direct_control_started_from">从以下位置开始</string>
 <string name="direct_control_started_from_accessibility">来自 %1$s</string>
-<string name="direct_control_resume_playing_from">继续从此位置播放</string>
-<string name="direct_control_last_played_from">上次播放位置</string>
+    <string name="direct_control_last_played_from">上次播放位置</string>
 <string name="direct_control_last_played_from_accessibility">上次从 %1$s 播放</string>
 <string name="direct_control_last_played">上次在此房间播放</string>
 <string name="direct_control_next">下一步：%s</string>
