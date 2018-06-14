@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="mms_service_password_invalid">Immettere una password valida.</string>
 <string name="mms_service_login_password_invalid">Immettere un nome di accesso e una password validi.</string>
