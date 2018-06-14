@@ -6,10 +6,14 @@
     "<Home>" = "Il mio Sonos";
     "<Browse>" = "Sfoglia";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Visualizza informazioni e opzioni su ciò che viene attualmente testato. \\" "
+    " <LocalziationTestICR2> " = "Esiste già una playlist Sonos denominata" %1$@ ". La sua sostituzione sovrascriverà il suo contenuto. " 
 
-    "<Sonos>" = "SONOS";
-    "<Cancel>" = "Annulla";
+ / * Generale * /
+
+    " <Sonos> " = "SONOS";
+    "<Cancel>" = "Cancella";
     "<Done>" = "Fatto";
     "<Yes>" = "Sì";
     "<No>" = "No";
@@ -63,7 +67,7 @@
 
     "<LimitedConnTrySearchingAgain>" = "Prova a cercare di nuovo";
     "<LimitedConnConnecting>" = "Ricerca di Sonos sul Wi-Fi in corso";
-    "<LimitedConnStillSearching>" = "Attendi Ricerca ancora in corso…";
+    "<LimitedConnStillSearching>" = "Un attimo. Ancora cercando…";
 
     "<WelcomeSetupButton>" = "Installare un nuovo sistema Sonos";
     "<WelcomeJoinButton>" = "Connettere a un sistema esistente";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Capitolo successivo";
     "<QUEUE>" = "Coda";
     "<NotInUse>" = "Non in uso";
-    "<NowPlayingNoMusic>" = "Nessun brano musicale";
+    "<NowPlayingNoMusic>" = "Nessuna musica selezionata";
     "<NowPlayingDialogEnhacementLabel>" = "Miglioramento dialoghi";
     "<NowPlayingNightModeLabel>" = "Suono di notte";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Toccare due volte per aprire Esecuzione";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ e %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ e %3$d altri";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Attualmente in esecuzione %@";
+    "<NowPlayingOpen>" = "Apri ora giocando";
     "<NowPlayingClose>" = "Chiudi Esecuzione";
-    "<NowPlayingCloseHint>" = "Toccare due volte per tornare a sfogliare la musica";
 
 /* Info Menu */
 
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d brani.";
+    "<QueueTrackLabel_1>" = ".%d canzone (s).";
     "<QueueShuffleButtonLabel>" = "Casuale";
     "<QueueRepeatAllButtonLabel>" = "Ripetere tutto";
     "<QueueRepeatOneButtonLabel>" = "Ripetere brano";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "Stanze";
     "<GroupRooms>" = "Raggruppa stanze";
-    "<Group>" = "Gruppo";
+    "<Group>" = "Test";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Raggruppa stanze";
     "<PauseAll>" = "Tutto in pausa";
     "<PauseAllConfirmation>" = "Mettere in pausa la musica in tutte queste stanze?";
-    "<ContinueSetUp>" = "Continua installazione";
-    "<SoftwareUpdateRequired>" = "Aggiornamento software richiesto";
+    "<SelectToUpdate>" = "Seleziona per aggiornare";
+    "<SelectToConfigure>" = "Seleziona per impostare";
+    "<SelectToRegister>" = "Seleziona per registrarti";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "Impostazioni";
     "<RoomSettings>" = "Impostazioni stanza";
     "<ParentalControls>" = "Controllo genitori";
+    "<MySonosSettings>" = "Impostazioni Il mio Sonos";
     "<MoreInformation>" = "Ulteriori informazioni";
     "<Help>" = "Aiuto";
     "<Call>" = "Chiama";
@@ -315,7 +320,7 @@
 
     "<Wireless_CheckOpenAP_NoLight_Title>" = "Premi di nuovo il pulsante";
     "<Wireless_CheckOpenAP_NoLight_Body1>" = "È necessario premere ancora il pulsante.\nPremere \"Riprova\".";
-    "<Wireless_CheckOpenAP_NoLight_Body2>" = "NOTA: se i problemi persistono, selezionare \"Installazione alternativa\".";
+    "<Wireless_CheckOpenAP_NoLight_Body2>" = "NOTA: Se i problemi persistono, selezionare \"Installazione alternativa\".";
     "<Wireless_CheckOpenAP_NoLight_Button1>" = "Riprova";
     "<Wireless_CheckOpenAP_NoLight_Button2>" = "Installazione alternativa";
 
@@ -398,7 +403,7 @@
     "<SurroundMode>" = "Riproduzione musicale";
     "<SurroundAmbient>" = "Ambiente";
     "<SurroundFull>" = "Tutto volume";
-    "<SurroundDescription>" = "Durante la riproduzione musicale, i diffusori surround possono fornire un leggero suono d'ambiente, oppure un suono più forte, a tutto volume.";
+    "<SurroundDescription>" = "Durante la riproduzione musicale, i diffusori surround possono fornire un leggero suono d\'ambiente, oppure un suono più forte, a tutto volume.";
     "<SurroundBalanceButtonLabel>" = "Bilancia diffusori surround";
     "<SurroundBalanceDescription>" = "Bilanciamento manuale dei livelli dei diffusori surround. Utilizza l'ottimizzazione Trueplay per regolare il suono per questa stanza.";
 
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "Ancora %1$@ %2$@ %3$@";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ residuo";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "Ancora %1$@ %2$@";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,14 +479,14 @@
     "<FavoritesIconTitle>" = "Il mio Sonos";
     "<PlayIconPlainTitle>" = "Riproduci";
     "<PlayIconPlainSubtitle>" = "Riprendi ultima esecuzione";
-    "<PlayIconRoomTitle>" = "Riproduci: %@";
+    "<PlayIconRoomTitle>" = "Giocare: %@";
     "<PauseIconPlainTitle>" = "Pausa";
     "<PauseIconPlainSubtitle>" = "Metti in pausa musica attuale";
-    "<PauseIconRoomTitle>" = "Metti in pausa: %@";
+    "<PauseIconRoomTitle>" = "Pausa: %@";
 
 /* Store mode */
 
-    "<GotIt>" = "Ricevuto";
+    "<GotIt>" = "Ricevuto!";
 
 /* In App Messages */
 
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Ultima esecuzione su";
     "<DirectControlLastPlayedFrom_1>" = "Ultima esecuzione su %1$@";
     "<DirectControlResumeFrom>" = "Riprendi da";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Riprendi da %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Riproduzione da %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -515,7 +522,7 @@
 
     "<DirectControlResume>" = "Riprendi";
     "<DirectControlDisconnect>" = "Termina sessione";
-    "<DirectControlUpNext>" = "Successivo: %@";
+    "<DirectControlUpNext>" = "Il prossimo: %@";
     "<DirectControlMoreInfo>" = "Mostra di più";
     "<DirectControlMoreInfoVOLabel>" = "Mostra dettagli %@";
     "<DirectControlLessInfo>" = "Nascondi";
