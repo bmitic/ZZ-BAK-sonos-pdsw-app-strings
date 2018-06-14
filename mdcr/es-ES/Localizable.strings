@@ -9,9 +9,12 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
-/* Common */
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "Probando la localización aquí también " 
 
-    "<OK>" = "Aceptar";
+ / * Común * /
+
+    " <OK> " = "OK";
     "<Cancel>" = "Cancelar";
     "<Yes>" = "Sí";
     "<No>" = "No";
@@ -117,7 +120,7 @@
     "<AlarmHeaderWhere>" = "Dónde";
     "<AlarmHeaderWhen>" = "Cuándo";
     "<AlarmHeaderOn>" = "ACT";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Hora actual: %1$@ - %2$@ %3$@";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Tiempo actual: %1$@ - %2$@ %3$@";
     "<AlarmEditButtonTitle>" = "Editar";
     "<AlarmUnknownDevice>" = "Ninguna habitación seleccionada";
 
@@ -229,7 +232,7 @@
     "<NowPlayingHeaderTitle>" = "AHORA SUENA";
     "<NowPlayingLabel_Information>" = "Información & Opciones";
     "<NowPlayingTrackDefaultLabel>" = "Canción [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[no hay música]";
+    "<NowPlayingTrackDefaultString>" = "[Sin música seleccionada]";
     "<NowPlayingArtistDefaultLabel>" = "Artista";
     "<NowPlayingAlbumDefaultLabel>" = "Álbum";
 
@@ -250,7 +253,7 @@
     "<QueueSaveErrorGeneric>" = "No se pudo guardar la cola.";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonos no cuenta con espacio libre suficiente en el disco para guardar la cola.\nElimina las listas de reproducción o las colas guardadas anteriormente en otras habitaciones, e inténtalo de nuevo.";
     "<QueueSaveErrorMobileTracksNotSaved>" = "No se pueden almacenar canciones de dispositivos móviles en las listas de reproducción de Sonos y no se guardaron.";
-    "<QueueSaveErrorAllMobileTracks>" = "La cola contiene solo canciones del dispositivo móvil. Estas canciones no se pueden guardar en las Listas de reproducción de Sonos.";
+    "<QueueSaveErrorAllMobileTracks>" = "La cola solo contiene canciones de dispositivos móviles. Estas canciones no se pueden guardar en las Listas de reproducción de Sonos.";
 
     "<QueuePlaylistExistsWarningTitle>" = "La lista de reproducción de Sonos existe";
 // %1$@, the name of the pre-existing playlist
@@ -268,16 +271,16 @@
 
     "<SettingsWindowTitle>" = "Preferencias";
     "<SettingsBasicSettingsTitle>" = "Básico";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Actualmente no tienes ningún %1$@ en tu sistema Sonos.\n\nPara añadir un %1$@, selecciona %2$@\nde la barra de menú.";
     "<SettingsNoPlayers_1>" = "Actualmente no tienes ningún reproductor Sonos en tu sistema Sonos.\nNecesitas al menos un reproductor Sonos en el sistema para reproducir música.\n\nPara añadir un reproductor Sonos, selecciona %1$@ en la barra de menú.";
-    "<SettingsNoPlayerLink>" = "Aministrar > Añadir un reproductor o SUB";
-    "<SettingsNoBoostLink>" = "Administrar > Añadir un BOOST o BRIDGE";
+    "<SettingsNoPlayerLink>" = "Administrar> Agregar un reproductor o sub";
+    "<SettingsNoBoostLink>" = "Administrar> Agregar un Boost o puente";
     "<SettingsNoAvailable_1>" = "%1$@ no disponible";
     "<SettingsComponentRoom>" = "Habitación";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Muelle";
+    "<SettingsComponentBoost>" = "Aumentar";
     "<SettingsEqBass>" = "Graves";
     "<SettingsEqTreble>" = "Agudos";
     "<SettingsEqBalance>" = "Balance";
@@ -312,8 +315,8 @@
     "<SettingsExplicitFilteringNoServices>" = "No hay servicios de música en tu sistema Sonos que admitan el filtrado de contenido.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Más información";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB encendido";
-    "<SettingsSubEqLevelAdjustment>" = "Nivel de SUB";
+    "<SettingsSubEqEnabled>" = "Sub On";
+    "<SettingsSubEqLevelAdjustment>" = "Sub Level";
     "<SettingsSubEqPlacementAdjustment>" = "Ajuste de colocación";
     "<SettingsSubEqSpeakerSize>" = "Tamaño de los altavoces (cruce)";
     "<SettingsTVDialogDelay>" = "Retraso de sonido (sincronización de labios)";
@@ -386,8 +389,9 @@
     "<ZoneMenuEq_1>" = "Ecualización de %1$@…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "Configuración de %1$@…";
-    "<ZoneMenuSelectToUpdate>" = "Seleccionar para actualizar…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Seleccione para configurar %1$s";
+    "<ZoneMenuSelectToUpdate>" = "Seleccionar para actualizar";
+    "<ZoneMenuSelectToConfigure>" = "Seleccionar para configurar";
+    "<ZoneMenuSelectToRegister>" = "Seleccionar para registrarse";
     "<ZoneMenuConfirmPauseAll>" = "¿Estás seguro de que quieres detener la música en todas las habitaciones?";
     "<ZoneMenuPauseButton>" = "Pausar";
 
@@ -424,8 +428,8 @@
     "<MenuTitle_View>" = "Ver";
 
     "<MenuTitle_Manage>" = "Administrar";
-    "<MenuTitle_AddPlayerOrSub>" = "Añadir un reproductor o SUB…";
-    "<MenuTitle_AddBoost>" = "Añadir un BOOST o BRIDGE…";
+    "<MenuTitle_AddPlayerOrSub>" = "Agrega un jugador o Sub ...";
+    "<MenuTitle_AddBoost>" = "Agregue un Boost o Bridge ...";
     "<MenuTitle_MusicLibrarySettings>" = "Configuración de biblioteca musical…";
     "<MenuTitle_ServiceSettings>" = "Configuración de servicios…";
     "<MenuTitle_AddRadioStation>" = "Añadir emisora de radio…";
@@ -497,8 +501,8 @@
     "<ShareWizard_MusicSelect_Title>" = "Añadir carpeta Música";
     "<ShareWizard_MusicSelect_Body1>" = "¿Dónde está la música que te gustaría escuchar en Sonos?";
     "<ShareWizard_MusicSelect_Input1>" = "Mi carpeta Música";
-    "<ShareWizard_MusicSelect_Input2>" = "Otra carpeta o una unidad conectada a mi ordenador";
-    "<ShareWizard_MusicSelect_Input3>" = "Dispositivo en red (ej. unidad NAS)";
+    "<ShareWizard_MusicSelect_Input2>" = "Otra carpeta o una unidad conectada a mi computadora";
+    "<ShareWizard_MusicSelect_Input3>" = "Dispositivo en red (por ejemplo, unidad NAS)";
 
     "<ShareWizard_MusicSelect_NAS_Title>" = "Añadir música desde tu recurso compartido de red";
     "<ShareWizard_MusicSelect_NAS_Body1>" = "Escribe la ruta a un recurso compartido de red:";
@@ -566,8 +570,8 @@
 
     "<ControllerUpdateWizard_Title>" = "Avance de la actualización";
     "<ControllerUpdateWizard_ErrorTitle>" = "Falló la actualización";
-    "<ControllerUpdateWizard_Downloading>" = "Actualizando el Controller: Descargando";
-    "<ControllerUpdateWizard_Installing>" = "Actualizando el Controller: Instalando";
+    "<ControllerUpdateWizard_Downloading>" = "Actualización de controlador: descargando";
+    "<ControllerUpdateWizard_Installing>" = "Actualización de controlador: instalando";
 
     "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "No se pudo descargar el instalador de Sonos Controller.\n\nCódigo de error %1$ld";
     "<ControllerUpdateWizard_InstallFailed_Message>" = "Falló la actualización del Sonos Controller.\n\nSe produjo un error inesperado. Inténtalo de nuevo.";
