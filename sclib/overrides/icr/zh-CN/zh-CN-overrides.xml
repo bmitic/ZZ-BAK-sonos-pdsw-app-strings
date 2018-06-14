@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">配置 Sonos 在您的无线网络中运行。</String>
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Sonos 的预设配置会优先使用效果最好的无线频道。要覆盖预设频道，请选择一个新频道。</String>
-<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonos 的预设配置会为播放器线路输入和  Sonos DOCK 优先使用最好的音频压缩。要覆盖默认设置，请选择一个新设置。</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonos 的预设配置会为播放器线路输入和 Sonos DOCK 优先使用最好的音频压缩。要覆盖默认设置，请选择一个新设置。</String>
 <String id="STR_MusicLibraryIndexing">音乐库 - 正在编制索引…</String>
 <String id="STR_SonosPlaylists">Sonos 播放列表</String>
-<String id="STR_NoMusic">无音乐</String>
+<String id="STR_NoMusic">没有选择音乐</String>
 <String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
 <String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
 <String id="SCLIB_STR_MSWiz_Password_Body_1_Fmt">输入您的新密码</String>
@@ -27,44 +27,39 @@
 <String id="SCLIB_STR_Queue_TrackCountOne">1 首歌曲</String>
 <String id="SCLIB_STR_Queue_TrackCountTwo">2 首歌曲</String>
 <String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d 首歌曲</String>
+
 <String id="SCLIB_STR_NewPlaylistInstructions"></String>
 <String id="SCLIB_STR_RenameFavoriteInstructions"></String>
 <String id="SCLIB_STR_RenameSavedPlaylistInputTitle">重命名播放列表</String>
 <String id="SCLIB_STR_NewPlaylistInputTitle">新建播放列表</String>
-<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">要将歌曲添加到播放列表中，请在浏览或播放音乐时点击 ⋯，然后选择 *添加到 Sonos 播放列表*。</String>
-<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_NewPlaylist" id="SCLIB_STR_EmptyPlaylistContainerMessage_AddToPlaylist">要创建 Sonos 播放列表，点击下方的*新建播放列表*。</String>
+<String id="SCLIB_STR_EmptyPlaylistMessage" comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist">要将歌曲添加到播放列表中，请在浏览或播放音乐时点击 ⋯，然后选择 *添加到 Sonos 播放列表*。</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage_AddToPlaylist" comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_NewPlaylist">要创建 Sonos 播放列表，点击下方的*新建播放列表*。</String>
 <String id="SCLIB_STR_EmptyPlaylistContainerMessage">要创建 Sonos 播放列表，点击上方的 ⋯。</String>
-<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">要将电台、播放列表、专辑或艺术家添加到我的 Sonos，请在浏览或播放音乐时点击⋯，然后选择 *添加到我的 Sonos *。</String>
-<String id="SCLIB_STR_DeleteFavorite_Success_Format">已从“我的 Sonos”移除&quot;%1$s&quot;</String>
+<String id="SCLIB_STR_EmptyFavoritesMessage" comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite">要将电台、播放列表、专辑或艺术家添加到我的 Sonos，请在浏览或播放音乐时点击⋯，然后选择 *添加到我的 Sonos *。</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">已从“我的 Sonos”移除"%1$s"</String>
 <String id="SCLIB_STR_DeleteFavorite_Failure_Format">未能从“我的 Sonos”移除“%1$s”</String>
-<String id="RHHSTR_SIE_ERROR">'%1$s' 不再可用。存储音乐文件的设备可能没有接通电源， 或者文件路径发生了变化。
-请转至“设置” &gt; “管理音乐库” &gt; “音乐库设置”检查路径名称。</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' 不再可用。存储音乐文件的设备可能没有接通电源， 或者文件路径发生了变化。请转至“设置” &gt; “管理音乐库” &gt; “音乐库设置”检查路径名称。</String>
+
 <String id="SCLIB_STR_SETTINGS_CONTROLLER">应用设置</String>
 <String id="SCLIB_STR_LC_NoNetwork_String_No_Button">在您的设备上，转至“设置” &gt; “Wi-Fi”。</String>
 <String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">转至“设置” &gt; “Wi-Fi”，然后更改到 Sonos 所在的网络。</String>
-<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">检查更新</String>
-<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">关于 Sonos 系统</String>
-<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">转到 Wi-Fi 设置</String>
-<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">配置播放器</String>
+
+<String id="SCLIB_STR_LC_UpdateSonos" comment="New Line is required for English only. Use previous translation for all other langauges">检查更新</String>
+<String id="SCLIB_STR_LC_AboutSonos" comment="Non-breaking space for English only. Use previous translation for all other langauges">关于 Sonos 系统</String>
+<String id="SCLIB_STR_LC_Wifi_Settings" comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges">转到 Wi-Fi 设置</String>
+<String id="SCLIB_STR_LC_ConfigurePlayer" comment="New Line for English only. Use previous translation for all other langauges">配置播放器</String>
 <String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">在 *%1$s* 无线网络中发现了 Sonos。</String>
 <String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">我们在 *%1$s* 无线网络中发现了一个新的 Sonos 音响。</String>
+
 <String id="STR_AddFavorite">添加到我的 Sonos</String>
 <String id="SCLIB_STR_DeleteFavorite">从“我的 Sonos”移除</String>
-<String id="STR_AddToFavoritesAdded">&quot;%1$s&quot; 已经添加到我的 Sonos 中。</String>
-<String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot; 已经添加到我的 Sonos 中。
-
-我的 Sonos 中还剩 %2$d 个位置可用。</String>
-<String id="STR_AddToFavoritesAddedOneRemaining">&quot;%1$s&quot; 已经添加到我的 Sonos 中。
-
-我的 Sonos 中还剩 1 个位置可用。</String>
-<String id="STR_AddToFavoritesAddedNoneRemaining">&quot;%1$s&quot; 已经添加到我的 Sonos 中。
-
-个人收藏中的所有位置已用完。</String>
-<String id="STR_AddToFavoritesAlreadyAddedError">&quot;%1$s&quot; 已添加到我的 Sonos 中，无法再次添加。</String>
-<String id="STR_AddToFavoritesFullError">无法添加到我的 Sonos 中。可用位置已满。
-
-可以从我的 Sonos 移除已有的曲目，释放空间以保存新的曲目。</String>
-<String id="STR_AddToFavoritesError">无法添加 &quot;%1$s&quot; 到我的 Sonos 中。</String>
+<String id="STR_AddToFavoritesAdded">"%1$s" 已经添加到我的 Sonos 中。</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">"%1$s" 已经添加到我的 Sonos 中。我的 Sonos 中还剩 %2$d 个位置可用。</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">"%1$s" 已经添加到我的 Sonos 中。我的 Sonos 中还剩 1 个位置可用。</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">"%1$s" 已经添加到我的 Sonos 中。个人收藏中的所有位置已用完。</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">"%1$s" 已添加到我的 Sonos 中，无法再次添加。</String>
+<String id="STR_AddToFavoritesFullError">无法添加到我的 Sonos 中。可用位置已满。可以从我的 Sonos 移除已有的曲目，释放空间以保存新的曲目。</String>
+<String id="STR_AddToFavoritesError">无法添加 "%1$s" 到我的 Sonos 中。</String>
 <String id="STR_AddToFavoritesErrorOutOfSpace">无法添加到我的 Sonos 中。要为新的曲目腾出空间，可以移除已有曲目，也可以从“我的电台”或“我的电台节目”中删除相关内容。</String>
 <String id="SCLIB_STR_RenameFavorite">为项目重命名</String>
 <String id="STR_AddFavoriteStation">将电台添加到我的 Sonos</String>
@@ -74,25 +69,10 @@
 <String id="STR_AddFavoritePlaylist">将播放列表添加到我的 Sonos</String>
 <String id="STR_AddFavoriteShow">将节目添加到我的 Sonos</String>
 <String id="STR_AddFavoriteBook">将书添加到我的 Sonos</String>
-<String id="SCLIB_STR_BLE_Prerequisites_Bluetooth_Back_Button">后退</String>
-<String id="SCLIB_STR_SetupWiz_RegEmailOpts_Input_2_CheckboxVO">您确认会按照“隐私声明”中的要求使用个人信息。</String>
-<String id="SCLIB_STR_Wiz_Sec_Reg_Account_NewAccount_PrivacyStatement_Input_CheckboxVO">我接受 Sonos 隐私声明</String>
-<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeUp_Body_Fmt">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_SwipeDown_Body_Fmt">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
-<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_BLE_Prerequisites_Bluetooth_IOS_DoubleClick_Body_Fmt">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Back_Button">后退</String>
+<String id="SCLIB_STR_SetupWiz_RegEmailOpts_Input_2_CheckboxVO">您确认会按照“隐私声明”中的要求使用个人信息。点按两次即可导航</String>
+<String id="SCLIB_STR_Wiz_Sec_Reg_Account_NewAccount_PrivacyStatement_Input_CheckboxVO">我接受 Sonos 隐私声明点按两次即可导航。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt" gender="no-gender" comment="Substitution: user device">Swipe up from the bottom of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt" gender="no-gender" comment="Substitution: user device">Swipe down from the top right of the screen on your %1$s and turn on the Bluetooth setting.ZXZ</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt" gender="no-gender" comment="Substitution: user device">Double-click the Home button on your %1$s and turn on the Bluetooth setting.ZXZ</String>
 </Strings>
