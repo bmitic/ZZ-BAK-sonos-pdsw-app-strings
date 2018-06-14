@@ -1,4 +1,4 @@
-{
+﻿{
   "strings": {
     "1": {
       "computerLibraryDescription": "Fra Sonos-appen på datamaskinen din, går du til <b>Administrer &#10132; Innstillinger for musikkbibliotek</b> og legger til mappen der musikken din er lagret. (Den er som regel lagret i datamaskinens <b>Musikk</b>-mappe.)", 
@@ -11,15 +11,15 @@
       "musicServicesBullet2": "Velg en tjeneste du vil legge til eller prøve.", 
       "musicServicesButtonText": "Legg til musikktjeneste", 
       "musicServicesDescription": "Legg til egen musikk eller prøv noe nytt.", 
-      "section1Title": "Musikktjenester", 
-      "section2Title": "TuneIn Radio", 
       "section3Title": "Musikk på mobilenheten din", 
       "section4Title": "Musikk på datamaskinen din", 
       "title": "Legg til musikken din", 
       "tuneInBullet1": "Gå til <b>Bla gjennom &#10132; Radio fra TuneIn</b>.", 
       "tuneInBullet2": "Bli kjent med tjenesten.", 
       "tuneInButtonText": "La oss prøve", 
-      "tuneInDescription": "Utforsk over 100 000 gratis stasjoner og podcaster på nett."
+      "tuneInDescription": "Utforsk over 100 000 gratis stasjoner og podcaster på nett.",
+      "testForLocalization1": "Testing av en annen filtype",
+      "testForLocalization2": "Gå til <b> Test &#10132; Lokalisering </b> ."
     }, 
     "10": {
       "description": "Når ny programvare blir tilgjengelig, vil du se <b>Oppdater nå</b> i kategorien <b>Mer</b>.", 
@@ -38,14 +38,14 @@
     }, 
     "1013": {
       "adjustSettings": "Juster innstillinger", 
-      "chooseRoomSurround": "Velg rommet der PLAYBAR/PLAYBASE og surroundhøyttalerne befinner seg.", 
+      "chooseRoomSurround": "Velg rommet der PLAYBAR/PLAYBASE og surroundhøyttalerne befinner seg.",
       "learnMoreHomeTheater": "Du finner mer informasjon om oppsett av Sonos-hjemmekino på nettstedet vårt", 
       "navToRoomSettings": "Gå til <b>Mer &#10132; Innstillinger &#10132; Rominnstillinger</b>.", 
       "navToSurroundSettings": "Trykk på <b>Avansert lyd &#10132; Surroundinnstillinger</b>.", 
       "nightSound": "Forsterker lave og demper høye TV-lyder.", 
       "sectionTitle1": "Spesialinnstillinger for hjemmekino", 
       "sectionTitle2": "Juster surroundinnstillingene for TV og musikk", 
-      "selectRoom": "Velg rommet der PLAYBAR eller PLAYBASE befinner seg.", 
+      "selectRoom": "Velg rommet der PLAYBAR eller PLAYBASE befinner seg.",
       "setLevels": "Angi ønsket volum for TV- og musikklyd.", 
       "speechEnhancement": "Gjør dialogen på TV-en enklere å høre.", 
       "tapIcon": "Trykk på ikonet på skjermbildet <b>Spiller nå</b>.", 
@@ -53,7 +53,7 @@
       "toUseSettings": "For å bruke disse innstillingene:"
     }, 
     "11": {
-      "goToEnhanceTVSound": "Gå til tipset «Forbedre TV-lyden» for mer informasjon", 
+      "goToEnhanceTVSound": "Gå til tipset «Forbedre TV-lyden» for mer informasjon.", 
       "letsTryIt": "La oss prøve", 
       "roomSettingsNav": "Velg <b>Mer &#10132; Innstillinger &#10132; Rominnstillinger</b>.", 
       "section1Header": "Kjør Trueplay-innstilling av en høyttaler", 
@@ -71,18 +71,18 @@
       "playPause": "Trykk én gang for å starte musikken. Trykk igjen for å sette på pause.\nTrykk to ganger for å hoppe til neste sang. Trykk tre ganger for å hoppe til forrige sang. Trykk og hold for å legge til musikken som spilles i et annet rom.", 
       "pressAndHold": "Trykk én gang for å spille av eller sette på pause. Trykk og hold for å legge til musikken som spilles i et annet rom.", 
       "sectionTitle1": "Sonos One", 
-      "sectionTitle2": "PLAY:1", 
-      "sectionTitle3": "PLAY:3", 
-      "sectionTitle4": "PLAY:5 (gen 1)", 
-      "sectionTitle5": "PLAY:5 (gen 2)", 
-      "sectionTitle6": "PLAYBAR", 
-      "sectionTitle7": "PLAYBASE", 
-      "sectionTitle8": "CONNECT", 
-      "sectionTitle9": "CONNECT:AMP", 
-      "sigdetailVolume": "(: :) Volumkontroll: Trykk venstre for å senke volumet, eller høyre for å øke det.", 
-      "sigdetailVolumePlay5": "(: :) Volumkontroll: Trykk venstre for å senke volumet, eller høyre for å øke det. Hvis PLAY:5 står vertikalt, trykker du over Sonos-logoen for å øke volumet eller under logoen for å senke det.", 
+      "sectionTitle2": "PLAY:1",
+      "sectionTitle3": "PLAY:3",
+      "sectionTitle4": "PLAY:5 (gen 1)",
+      "sectionTitle5": "PLAY:5 (gen 2)",
+      "sectionTitle6": "PLAYBAR",
+      "sectionTitle7": "PLAYBASE",
+      "sectionTitle8": "CONNECT",
+      "sectionTitle9": "CONNECT:AMP",
+      "sigdetailVolume": "(: :) Volumkontroll: Trykk til venstre for å senke volumet, trykk på høyre for å skru det opp.", 
+      "sigdetailVolumePlay5": "(: :) Volumkontroll: Trykk til venstre for å senke volumet, trykk på høyre for å skru det opp. Hvis PLAY:5 står vertikalt, trykker du over Sonos-logoen for å øke volumet eller under logoen for å senke det.",
       "swipe": "Sveip til høyre for å høre neste sang, eller sveip til venstre for å høre den forrige.", 
-      "swipePlay5": "Sveip til høyre for å høre neste sang, eller sveip til venstre for å høre den forrige. Hvis PLAY:5 står vertikalt, sveiper du opp for neste sang eller ned for forrige sang.", 
+      "swipePlay5": "Sveip til høyre for å høre neste sang, eller sveip til venstre for å høre den forrige. Hvis PLAY:5 står vertikalt, sveiper du opp for neste sang eller ned for forrige sang.",
       "tapVolumeDown": "Trykk for å senke volumet.", 
       "tapVolumeUp": "Trykk for å øke volumet.", 
       "title": "Bruk berøringskontroller", 
@@ -91,7 +91,7 @@
     "13": {
       "adjustBalance": "Juster og balanser oppsettet ditt for optimal lyd.", 
       "adjustSettings": "Juster innstillinger", 
-      "chooseRoomSurround": "Velg rommet der PLAYBAR/PLAYBASE og surroundhøyttalerne befinner seg.", 
+      "chooseRoomSurround": "Velg rommet der PLAYBAR/PLAYBASE og surroundhøyttalerne befinner seg.",
       "goToCustomTuneTip": "Gå til «Still inn en høyttaler»-tipset for mer informasjon.", 
       "learnMoreHomeTheater": "Du finner mer informasjon om oppsett av Sonos-hjemmekino på nettstedet vårt", 
       "navToRoomSettings": "Gå til <b>Mer &#10132; Innstillinger &#10132; Rominnstillinger</b>.", 
@@ -100,7 +100,7 @@
       "sectionTitle1": "Spesialinnstillinger for hjemmekino", 
       "sectionTitle2": "Juster surroundinnstillingene for TV og musikk", 
       "sectionTitle3": "Kjør Trueplay-innstilling av Sonos-hjemmekinoen din", 
-      "selectRoom": "Velg rommet der PLAYBAR eller PLAYBASE befinner seg.", 
+      "selectRoom": "Velg rommet der PLAYBAR eller PLAYBASE befinner seg.",
       "setLevels": "Angi ønsket volum for TV- og musikklyd.", 
       "speechEnhancement": "Gjør dialogen på TV-en enklere å høre.", 
       "tapIcon": "Trykk på ikonet på skjermbildet <b>Spiller nå</b>.", 
@@ -116,14 +116,14 @@
     }, 
     "15": {
       "buttonTitle": "Opprett stereopar", 
-      "intro": "Gjør to Sonos One-, PLAY:1-, PLAY:3- eller PLAY:5-høyttalere til separate venstre- og høyrekanaler.", 
+      "intro": "Gjør to PLAY:1-, PLAY:3- eller PLAY:5-høyttalere til separate venstre- og høyrekanaler.",
       "learnMore": "Du finner mer informasjon om stereopar på nettstedet vårt", 
       "navToRoomSettings": "Gå til <b>Mer &#10132; Innstillinger &#10132; Rominnstillinger</b>.", 
       "selectSpeaker": "Velg en høyttaler og trykk på <b>Opprett stereopar</b>.", 
       "title": "Opprett et stereopar"
     }, 
     "16": {
-      "connectToLineIn": "Koble platespillerens lydutgang til en inngang på PLAY:5, eller til lydinngangene på en CONNECT eller CONNECT:AMP.", 
+      "connectToLineIn": "Koble platespillerens lydutgang til en inngang på PLAY:5, eller til lydinngangene på en CONNECT eller CONNECT:AMP.",
       "intro": "Send lyd fra en platespiller med forforsterker til en Sonos-høyttaler.", 
       "learnMore": "Du finner mer informasjon om lydinnganger på nettstedet vårt", 
       "learnMoreLink": "https://faq.sonos.com/HelpLineIn", 
@@ -199,7 +199,7 @@
       "title": "Spill direkte fra Pandora"
     }, 
     "24": {
-      "bullet1": "Alexa, spill Blondie på kjøkkenet.", 
+      "bullet1": "Alexa, spill av ____ på kjøkkenet.", 
       "bullet2": "Alexa, hva spilles nå?", 
       "bullet3": "Alexa, hopp til neste sang.", 
       "bulletTitle": "<b>Ting du kan prøve med Alexa …</b>", 
@@ -216,7 +216,7 @@
       "buttonTitle": "Konfigurer den nå", 
       "disclaimerText": "På nettstedet vårt kan du se om Amazon Alexa er tilgjengelig i ditt land.", 
       "introText": "<b>Du må installere Alexa-appen før du begynner</b>.", 
-      "makeChanges": "Du vil gjøre noen endringer i både Sonos- og Alexa-appen under konfigurasjonen. Vi veileder deg gjennom prosessen.", 
+      "makeChanges": "Du vil gjøre noen endringer i både Sonos- og Alexa-appen under konfigurasjonen.", 
       "number1": "Konfigurer Sonos One.", 
       "number2": "Gå til <b>Mer &#10132; Stemmetjenester</b> og følg anvisningene.", 
       "title": "Konfigurer stemmekontroll på Sonos One"
@@ -253,28 +253,28 @@
       "title": "Ting du kan prøve med Alexa"
     }, 
     "28": {
-      "bullet1Text": "Grupper og fjern gruppering av AirPlay-kompatible Sonos-høyttalere direkte i AirPlay-menyen. (AirPlay-kompatible Sonos-høyttalere inkluderer Sonos One, Play:5 og Playbase.)", 
-      "bullet2Text": "Bruk Sonos-appen til å legge til de andre Sonos-høyttalerne dine i gruppen, så vil de også streame AirPlay. Du kan holde disse høyttalerne gruppert med de AirPlay-kompatible Sonos-høyttalerne dine.", 
-      "bullet3Text": "Trykk og hold inne Spill av-knappen på en Sonos-høyttaler for å legge til musikken som spilles i et annet rom.", 
-      "introText": "Spill lyd fra favorittappene dine. Spill lyd fra Apple-enhetene dine på Sonos via AirPlay. Lytt til Apple Music på Sonos One. Se en film på YouTube eller Netflix og få lyden på Sonos.", 
-      "learnMoreText": "Du finner mer informasjon om bruk av AirPlay med Sonos på nettstedet vårt.", 
-      "title": "Bruk AirPlay med Sonos"
+      "bullet1Text": "Group and ungroup AirPlay-compatible Sonos speakers right from the AirPlay menu. (AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.)ZXZ", 
+      "bullet2Text": "Use the Sonos app to add your other Sonos speakers to the group and they’ll stream AirPlay too. You can keep these speakers grouped with your AirPlay-compatible Sonos speakers.ZXZ", 
+      "bullet3Text": "Press and hold the Play button on any Sonos speaker to add the music that’s playing in another room.ZXZ", 
+      "introText": "Enjoy your favorite apps out loud. Play sound from your Apple devices straight to Sonos with AirPlay. Listen to Apple Music on your Sonos One. Watch a YouTube or Netflix video and enjoy the sound on Sonos.ZXZ", 
+      "learnMoreText": "Learn more about using AirPlay with Sonos on our website.ZXZ", 
+      "title": "Use AirPlay with SonosZXZ"
     }, 
     "29": {
-      "bullet1Text": "Åpne Hjem-appen og trykk + eller «Legg til tilbehør».", 
-      "bullet2Text": "Velg «Mangler kode eller kan ikke skanne?»", 
-      "bullet3Text": "Trykk på høyttaleren du vil legge til.", 
-      "bullet4Text": "Velg samme romnavn som brukes i Sonos-appen.", 
-      "footnoteText": "* AirPlay-kompatible Sonos-høyttalere inkluderer Sonos One, Play:5 og Playbase.", 
-      "introText": "Legg til AirPlay-kompatible* Sonos-høyttalere i Apples Hjem-app og bruk en Apple-mobilenhet til å be Siri om å spille av musikk (foreløpig begrenset til Apple Music).", 
-      "learnMoreText": "Du finner mer informasjon om bruk av Siri med Sonos på nettstedet vårt.", 
-      "title": "Bruk Siri til å styre Apple Music"
+      "bullet1Text": "Open the Home app and tap + or Add Accessory.ZXZ", 
+      "bullet2Text": "Choose \"Don’t Have a Code or Can’t Scan?\"ZXZ", 
+      "bullet3Text": "Tap the speaker you want to add.ZXZ", 
+      "bullet4Text": "Pick the same room name that’s used in the Sonos app.ZXZ", 
+      "footnoteText": "*AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.ZXZ", 
+      "introText": "Just add your AirPlay-compatible* Sonos speakers to the Apple Home app and then use an Apple mobile device to ask Siri to play music (currently limited to Apple Music).ZXZ", 
+      "learnMoreText": "Learn more about using Siri with Sonos on our website.ZXZ", 
+      "title": "Use Siri to control Apple MusicZXZ"
     }, 
     "3": {
-      "bullet1Text": "Trykk på <b>Søk</b> for å finne en låt du liker.", 
-      "bullet2Text": "Trykk <b>Flere alternativer (&#8943;)</b> &#10132; <b>Legg til i Sonos-spilleliste</b>.", 
-      "bullet3Text": "Velg en eksisterende spilleliste, eller trykk <b>Flere alternativer (&#8943;)</b> &#10132; <b>Ny spilleliste</b> for å lage en ny.", 
-      "fromNowPlayingText": "Hvis du er i Spiller nå-skjermbildet, er det enda enklere. Legg til låten som spilles ved å trykke <b>Info og alternativer (&#8943;)</b> &#10132; <b>Legg til låt i Sonos-spilleliste</b>.", 
+      "bullet1Text": "Trykk på <b>Søk</b> for å finne en sang du liker.", 
+      "bullet2Text": "Trykk (<b>&#8943;</b>) &#10132; <b>Legg til i Sonos-spilleliste</b>.", 
+      "bullet3Text": "Velg en eksisterende spilleliste, eller trykk (&#8943;) &#10132; <b>Ny spilleliste</b> for å lage en ny.", 
+      "fromNowPlayingText": "Det er enklere hvis du befinner deg på Spiller nå-skjermen. Du legger til sangen du vil ha ved å trykke på (<b>&#8943;</b>) &#10132; <b>Legg til sang i Sonos-spilleliste</b>.", 
       "title": "Opprett og lagre spillelister"
     }, 
     "4": {
@@ -286,7 +286,7 @@
       "title": "Musikkøen"
     }, 
     "5": {
-      "intro": "For elegante overganger mellom låtene kan du trykke på <b>Info og alternativer (&#8943;)</b> i skjermbildet «Spiller nå» og slå på <b>Kryssfade</b>.", 
+      "intro": "For elegante overganger mellom sangene, kan du trykke på (<b>&#8943;</b>) i skjermbildet «Spiller nå» og slå på <b>Kryssfade</b>.", 
       "intro2": "Øverst i køskjermbildet:", 
       "repeat": "Trykk for å gjenta hele køen. Trykk igjen for å gjenta sangen som spilles av. Trykk en gang til for å slå av gjentakelse.", 
       "shuffle": "Trykk for å blande rekkefølgen på sangene. Trykk igjen for å gå tilbake til normal rekkefølge.", 
@@ -294,37 +294,37 @@
     }, 
     "6": {
       "introText": "Hvis du er Spotify Premium-bruker, kan du sende det du spiller av på Spotify rett til en Sonos-høyttaler. Du gjør det med ett trykk.", 
-      "secureRegistration": "Du må ha en Sonos-konto for å bruke denne funksjonen. Gå til <b>Mer &#10132; Innstillinger &#10132; Sonos-konto</b> for å opprette en konto. (Hvis du ikke ser <b>Sonos-konto</b>, må Sonos-systemet ditt oppdateres.)", 
+      "secureRegistration": "Du må ha en Sonos-konto for å bruke denne funksjonen. Gå til <b>Mer &#10132; Innstillinger &#10132; Min Sonos-konto</b> for å opprette en konto. (Hvis du ikke ser <b>Min Sonos-konto</b>, må Sonos-systemet ditt oppdateres.)", 
       "spotifyInstruction": "Når musikken spilles av i Spotify-appen, velger du TILGJENGELIGE ENHETER for å sende den til Sonos.", 
       "title": "Spill av direkte fra Spotify"
     }, 
     "7": {
-      "bullet1Text": "Våkne til forskjellige låter, radiostasjoner eller spillelister på forskjellige dager.", 
-      "bullet2Text": "Sørg for at favorittlåtene dine spilles av når du kommer hjem fra jobb.", 
+      "bullet1Text": "Våkne til forskjellige sanger, radiostasjoner eller spillelister på forskjellige dager.", 
+      "bullet2Text": "Sørg for at favorittsangene dine spilles av når du kommer hjem fra jobb.", 
       "bullet3Text": "Still inn at Sonos skal spille av musikk i noen timer hver kveld mens du er på ferie.", 
       "buttonTitle": "Angi en alarm", 
       "catchSomeMoreDescription": "Slå på slumrevarslinger når du setter en alarm.", 
       "catchSomeMoreText": "Trenger du å sove bare litt til?", 
       "directionText": "Velg <b>Mer</b> &#10132; <b>Alarmer</b> &#10132; <b>Ny alarm</b> for å komme i gang.", 
-      "sleepToMusicDescription": "Sonos kan slås av automatisk. Trykk <b>Info og alternativer (&#8943;)</b> i skjermbildet «Spiller nå» for å konfigurere innsovningstid.", 
+      "sleepToMusicDescription": "Sonos kan slås av automatisk. Trykk (<b>&#8943;</b>) i skjermbildet «Spiller nå» for å angi Innsovning.", 
       "sleepToMusicText": "Liker du å sovne til musikk?", 
       "title": "Angi en musikkalarm"
     }, 
     "8": {
       "addFavoritesToMySonos": "<b>Legge til favoritter i Min Sonos:</b>", 
-      "addFromNowPlaying": "<b>Obs!</b> Du kan også favorittmarkere en låt eller stasjon direkte fra Spiller nå-skjermbildet ved å trykke <b>Info og alternativer (&#8943;)</b> &#10132; <b>Legg til i Min Sonos</b>. (Låter på mobilenheten din kan ikke lagres som favoritter.)", 
+      "addFromNowPlaying": "<b>Obs!</b> Du kan også favorittmarkere en sang eller stasjon direkte fra Spiller nå-skjermbildet ved å trykke på (&#8943;) &#10132; <b>Legg til i Min Sonos</b>. (Sanger på mobilenheter kan ikke lagres som favoritter.)", 
       "buttonTitle": "Gå til Min Sonos", 
-      "editInstructions": "Gå til <b>Min Sonos</b> og trykk <b>Rediger</b>. Du kan også redigere innholdet i kategorier i Min Sonos (f.eks. album, spillelister eller låter) ved å trykke <b>Se alle</b> og <b>Flere alternativer (&#8943;)</b> øverst på skjermen.", 
+      "editInstructions": "Gå til <b>Min Sonos</b> og trykk <b>Rediger</b>. Du kan også redigere innholdet i kategorier i Min Sonos (f.eks. album, spillelister eller sanger) ved å trykke <b>Se alle</b> og (&#8943;) øverst på skjermen.", 
       "editYourFavorites": "<b>Rediger favorittene dine:</b>", 
       "goToMySonos": "Gå til <b>Min Sonos</b>.", 
-      "introText": "Lagre låter, stasjoner og samlinger, f.eks. «Nye utgivelser», i <b>Min Sonos</b>, så trenger du aldri søke etter dem igjen.", 
+      "introText": "Lagre sanger, stasjoner og samlinger, f.eks. «Nye utgivelser», i <b>Min Sonos</b>, så trenger du aldri søke etter dem igjen.", 
       "seeYourFavorites": "<b>Se favorittene dine:</b>", 
-      "tapWhenBrowsing": "Trykk <b>Flere alternativer (&#8943;)</b> når du søker etter eller blar gjennom musikk.", 
+      "tapWhenBrowsing": "Trykk (&#8943;) når du søker etter eller blar gjennom musikk.", 
       "title": "Lagre favorittene dine i Min Sonos"
     }, 
     "9": {
-      "createAccount": "Hvis du ikke ser <b>Sonos-konto</b>, må Sonos-systemet ditt oppdateres.", 
-      "intro": "Med en konto kan du legge til flere høyttalere, få nye funksjoner og trygt og sikkert integrere med appene du bruker til å streame musikk.",
+      "createAccount": "Hvis du ikke ser <b>Min Sonos-konto</b>, må Sonos-systemet ditt oppdateres.", 
+      "intro": "An account lets you add more speakers, get new features, and safely and securely integrate with your streaming apps.ZXZ",
       "navInstructions": "Du kan gå til kontoen din når som helst ved å velge <b>Mer &#10132; Innstillinger &#10132; Sonos-konto</b>.",
       "title": "Din Sonos-konto"
     }, 
@@ -336,7 +336,7 @@
       "category1": "Bruk av appen", 
       "category2": "Bruk av høyttalerne", 
       "category3": "Bruke stemmekontroll", 
-      "category4": "Med andre apper", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Styr Sonos med Amazon Alexa", 
       "createAStereoPair": "Opprett et stereopar", 
       "crossfadeShuffleRepeat": "Kryssfade, bland, gjenta", 
@@ -370,7 +370,7 @@
       "category1": "Bruk av appen", 
       "category2": "Bruk av høyttalerne", 
       "category3": "Bruke stemmekontroll", 
-      "category4": "Med andre apper", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Styr Sonos med Amazon Alexa", 
       "createAStereoPair": "Opprett et stereopar", 
       "crossfadeShuffleRepeat": "Kryssfade, bland, gjenta", 
