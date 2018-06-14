@@ -1,580 +1,569 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<String Category="None" UniqueId="browse/searchboxspecialized.baml:SearchMusicLibrary_1:System.String.$Content">Musikbibliothek durchsuchen</String>
-<String Category="Title" UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Wecker</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Fertig</String>
-<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_3:System.Windows.Documents.Run.Text">Sonos-Weckeinstellungen verwalten</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">Wo</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">Wann</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content">EIN</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">Hinzufügen</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_2:System.Windows.Controls.ContentControl.Content">Bearbeiten</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_3:System.Windows.Controls.ContentControl.Content">Entfernen</String>
-<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_1:System.Windows.Documents.Run.Text">Klicke auf „Hinzufügen“, um einen neuen Wecker hinzuzufügen.</String>
-<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_2:System.Windows.Documents.Run.Text">Klicke auf „Entfernen“, um den ausgewählten Wecker zu entfernen.</String>
-<String Category="Title" UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Tastaturzugriffstasten</String>
-<String Category="Button" UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Fertig</String>
-<String Category="Text" UniqueId="main/keyboardshortcutwindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Folgende Tastaturzugriffstasten werden von deinem Sonos-System unterstützt:</String>
-<String Category="Button" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Fertig</String>
-<String Category="Button" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Abbrechen</String>
-<String Category="Title" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:System.Windows.Window.Title">Liste speichern</String>
-<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Die Liste wird als Sonos-Playliste gespeichert.</String>
-<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text">Neuen Namen für die Playliste eingeben:</String>
-<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Oder wähle eine vorhandene Sonos-Playliste aus, die ersetzt werden soll:</String>
-<String Category="Label" UniqueId="nowplaying/groupvolumepopover.baml:PART_GroupMuteVolume_Copy_1:Sonos.Controller.Desktop.NowPlaying.MuteVolumeControl.LabelText">Gruppe</String>
-<String Category="Button" UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">Name</String>
-<String Category="Button" UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">Pfad</String>
-<String Category="Button" UniqueId="utilities/messagewindow.baml:yesButton_1:System.Windows.Controls.ContentControl.Content">Ja</String>
-<String Category="Button" UniqueId="utilities/messagewindow.baml:noButton_1:System.Windows.Controls.ContentControl.Content">Nein</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_CURRENT_USES_PARMNUM_1:System.String.$Content">Ungültiger Freigabeparameter „Aktuelle Verbindungen“.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_REMOVE_RIGHT_1:System.String.$Content">%s für Gastkonto konnte nicht entfernt werden.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_APPLY_PASSWORD_FAILED_1:System.String.$Content">Neues Kennwort konnte nicht übernommen werden</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_TYPE_PARMNUM_1:System.String.$Content">Ungültiger Freigabeparameter für Typ.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_NO_ADVAPIDLL_1:System.String.$Content">Fehler beim Laden von advapi32.dll. LSA-Einstellungen nicht verfügbar.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_FILE_SD_PARMNUM_1:System.String.$Content">Ungültiger Freigabeparameter für Sicherheitsbeschreibung.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_UNKNOWN_PARMNUM_1:System.String.$Content">Ungültiger Freigabeparameter.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SONOS_USER_FAILED_1:System.String.$Content">Sonos-Benutzer konnte nicht erstellt werden.
-Stelle sicher, dass du auf diesem Computer über Administratorrechte verfügst.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_PERMISSION_FAILED_1:System.String.$Content">Fehler beim Hinzufügen der Freigabe „%s“ mit den erforderlichen Berechtigungen</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_PARM_ERR_CREATE_SHARE_FAILED_1:System.String.$Content">Fehler beim Hinzufügen der Freigabe „%s“ %s</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content">Fehler beim Hinzufügen der Freigabe „%s“</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_NETWORK_PATH_1:System.String.$Content">
+  <!--DO NOT EDIT. This file was generated by BamlLocalization in ResourceXmlWriter.cs-->
+  <String UniqueId="localizationTest1/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content" Category="None">Der Test ' %s ' konnte nicht %shinzugefügt werden</String>
+  <String UniqueId="localizationTest2/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content" Category="None">Der * Test * konnte nicht hinzugefügt werden</String>
+  <String UniqueId="browse/searchboxspecialized.baml:SearchMusicLibrary_1:System.String.$Content" Category="None">Musikbibliothek durchsuchen</String>
+  <String UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Wecker</String>
+  <String UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Fertig</String>
+  <String UniqueId="alarms/alarmwindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Sonos-Weckeinstellungen verwalten</String>
+  <String UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content" Category="Button">Wo</String>
+  <String UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content" Category="Button">Wann</String>
+  <String UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content" Category="Button">EIN</String>
+  <String UniqueId="alarms/alarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content" Category="Button">Hinzufügen</String>
+  <String UniqueId="alarms/alarmwindow.baml:Button_2:System.Windows.Controls.ContentControl.Content" Category="Button">Bearbeiten</String>
+  <String UniqueId="alarms/alarmwindow.baml:Button_3:System.Windows.Controls.ContentControl.Content" Category="Button">Entfernen</String>
+  <String UniqueId="alarms/alarmwindow.baml:Run_1:System.Windows.Documents.Run.Text" Category="Text">Klicke auf „Hinzufügen“, um einen neuen Wecker hinzuzufügen.</String>
+  <String UniqueId="alarms/alarmwindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">Klicke auf „Entfernen“, um den ausgewählten Wecker zu entfernen.</String>
+  <String UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Tastaturzugriffstasten</String>
+  <String UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Fertig</String>
+  <String UniqueId="main/keyboardshortcutwindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Folgende Tastaturzugriffstasten werden von deinem Sonos-System unterstützt:</String>
+  <String UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Fertig</String>
+  <String UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Abbrechen</String>
+  <String UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Liste speichern</String>
+  <String UniqueId="browse/savequeuedialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Die Liste wird als Sonos-Playliste gespeichert.</String>
+  <String UniqueId="browse/savequeuedialog.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text" Category="Text">Neuen Namen für die Playliste eingeben:</String>
+  <String UniqueId="browse/savequeuedialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Oder wähle eine vorhandene Sonos-Playliste aus, die ersetzt werden soll:</String>
+  <String UniqueId="nowplaying/groupvolumepopover.baml:PART_GroupMuteVolume_Copy_1:Sonos.Controller.Desktop.NowPlaying.MuteVolumeControl.LabelText" Category="Label">Gruppe</String>
+  <String UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content" Category="Button">Name</String>
+  <String UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content" Category="Button">Pfad</String>
+  <String UniqueId="utilities/messagewindow.baml:yesButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Ja</String>
+  <String UniqueId="utilities/messagewindow.baml:noButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Nein</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_CURRENT_USES_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabeparameter „Aktuelle Verbindungen“.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_REMOVE_RIGHT_1:System.String.$Content" Category="None">%s für Gastkonto konnte nicht entfernt werden.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_APPLY_PASSWORD_FAILED_1:System.String.$Content" Category="None">Neues Kennwort konnte nicht übernommen werden</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_TYPE_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabeparameter für Typ.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_NO_ADVAPIDLL_1:System.String.$Content" Category="None">Fehler beim Laden von advapi32.dll. LSA-Einstellungen nicht verfügbar.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_FILE_SD_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabeparameter für Sicherheitsbeschreibung.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_UNKNOWN_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabeparameter.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SONOS_USER_FAILED_1:System.String.$Content" Category="None">Sonos-Benutzer konnte nicht erstellt werden. Stelle sicher, dass du auf diesem Computer über Administratorrechte verfügst.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_PERMISSION_FAILED_1:System.String.$Content" Category="None">Fehler beim Hinzufügen der Freigabe „%s“ mit den erforderlichen Berechtigungen</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_PARM_ERR_CREATE_SHARE_FAILED_1:System.String.$Content" Category="None">Fehler beim Hinzufügen der Freigabe „%s“ %s</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content" Category="None">Fehler beim Hinzufügen der Freigabe „%s“</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_NETWORK_PATH_1:System.String.$Content" Category="None">
 
-Netzwerkpfad ausgewählt.
-
-Du kannst keinen Netzwerkordner als Freigabe auswählen.
-
-Bitte wähle einen Ordner auf diesem Computer oder auf einer externen Festplatte, die mit diesem Computer verbunden ist.
-
-Zur Auswahl einer Ordnerfreigabe in deinem Netzwerk klicke auf „Zurück“, und wähle „Auf einem Netzwerkgerät“ aus.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_REMOVE_SHARE_1:System.String.$Content">Fehler beim Entfernen der Freigabe „%s“</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_FULLNAME_1:System.String.$Content">Sonos Wireless HiFi System</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_1:System.String.$Content">Sonos</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_MAX_USES_PARMNUM_1:System.String.$Content">Ungültiger Freigabeparameter „Maximum erlaubt“.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PASSWD_PARMNUM_1:System.String.$Content">Ungültiger Freigabeparameter für Kennwort.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PERMISSIONS_PARMNUM_1:System.String.$Content">Ungültiger Parameter für Freigabeberechtigungen.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_NETNAME_PARMNUM_1:System.String.$Content">Ungültiger Freigabename „%s“.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PATH_PARMNUM_1:System.String.$Content">Ungültiger Freigabepfad: %s.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GET_SHARE_INFO_FAILED_1:System.String.$Content">Abrufen von Freigabeinformationen für „%s“ auf „%s“ nicht möglich
+Netzwerkpfad ausgewählt. Du kannst keinen Netzwerkordner als Freigabe auswählen. Bitte wähle einen Ordner auf diesem Computer oder auf einer externen Festplatte, die mit diesem Computer verbunden ist. Zur Auswahl einer Ordnerfreigabe in deinem Netzwerk klicke auf „Zurück“, und wähle „Auf einem Netzwerkgerät“ aus.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_REMOVE_SHARE_1:System.String.$Content" Category="None">Fehler beim Entfernen der Freigabe „%s“</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_FULLNAME_1:System.String.$Content" Category="None">Sonos Wireless HiFi System</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_1:System.String.$Content" Category="None">Sonos</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_MAX_USES_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabeparameter „Maximum erlaubt“.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PASSWD_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabeparameter für Kennwort.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PERMISSIONS_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Parameter für Freigabeberechtigungen.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_NETNAME_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabename „%s“.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PATH_PARMNUM_1:System.String.$Content" Category="None">Der Pfad zum Teilen: ' %s ' ist ungültig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GET_SHARE_INFO_FAILED_1:System.String.$Content" Category="None">Abrufen von Freigabeinformationen für „%s“ auf „%s“ nicht möglich
 </String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_COMMENT_1:System.String.$Content">Vom Sonos-System verwendetes Konto, um auf Musikordner auf diesem Computer zuzugreifen</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_SHARE_PERMISSIONS_1:System.String.$Content">Überprüfen der Freigabeberechtigungen nicht möglich.
-Der UNC-Pfad ist %s ist ungültig, oder es handelt sich nicht um eine Freigabe auf diesem Computer.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_ADD_RIGHT_1:System.String.$Content">%s für Gastkonto konnte nicht hinzugefügt werden.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SONOS_JOIN_GROUP_FAILED_1:System.String.$Content">Sonos-Benutzer konnte nicht zu Gruppe „%s“ hinzugefügt werden</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_REMARK_PARMNUM_1:System.String.$Content">Ungültiger Freigabeparameter für Bemerkung.</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Überblenden ist deaktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Überblenden ist aktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_7:System.Windows.Controls.ContentControl.Content">Equalizer</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Wiederholen ist deaktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content">Alle wiederholen</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_8:System.Windows.Controls.ContentControl.Content">Titel wiederholen</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_5:System.Windows.Controls.ContentControl.Content">Zufällige Wiedergabe ist deaktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_6:System.Windows.Controls.ContentControl.Content">Zufällige Wiedergabe ist aktiviert</String>
-<String Category="Text" UniqueId="wizard/setupdatatemplates.baml:pageTitle_2:System.Windows.Controls.TextBlock.Text">Wähle eine Sprache:</String>
-<String Category="Title" UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Fehlerprotokoll für Sonos-System</String>
-<String Category="Button" UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Fertig</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PLAY_FORMAT_1:System.String.$Content">{0} _abspielen</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PAUSE_FORMAT_1:System.String.$Content">{0} _anhalten</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_STOP_FORMAT_1:System.String.$Content">{0} _beenden</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_MUTE_STATE_MUTE_FORMAT_1:System.String.$Content">{0} _stumm schalten</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_MUTE_STATE_UNMUTE_FORMAT_1:System.String.$Content">_Stummschaltung für {0} aufheben</String>
-<String Category="None" UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content">{0} _Equalizer…</String>
-<String Category="None" UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content">{0} Ei_nstellungen…</String>
-<String Category="None" UniqueId="zones/strings.baml:GROUP_1:System.String.$Content">Gruppe</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TITLE_1:System.String.$Content">Keine Räume ausgewählt</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TEXT_1:System.String.$Content">Möchtest du die Musikwiedergabe in all diesen Räumen anhalten?</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content">[keine Musikdatei]</String>
-<String Category="None" UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content">Zur Musikauswahl auf „Fertig“ klicken</String>
-<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">Bestätigen</String>
-<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_PAUSE_1:System.String.$Content">Pause</String>
-<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content">Möchtest du die Musikwiedergabe in all diesen Räumen anhalten?</String>
-<String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content">Weitere {0} anzeigen…</String>
-<String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content">Weitere anzeigen…</String>
-<String Category="None" UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content">Weniger anzeigen…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">Zur Aktualisierung hier klicken…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_SUB_1:System.String.$Content">SUB-Setup wählen</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_UNUSED_1:System.String.$Content">{0}-Setup wählen</String>
-<String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content">Die aktuelle Raumgruppe umfasst</String>
-<String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content">Verwende die Aufwärts- und Abwärtspfeiltasten, um zwischen Raumgruppen zu wechseln. Drücke die Leertaste, um das Dialogfeld für Gruppierungen zu öffnen.</String>
-<String Category="None" UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content">Verwende die Aufwärts- und Abwärtspfeiltasten, um zwischen Raumgruppen zu wechseln. Drücke die Leertaste, um dieses Gerät einzurichten.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_NEXT_BUTTON_1:System.String.$Content">Senden</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_FINISH_BUTTON_1:System.String.$Content">Fertig</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TRY_AGAIN_BUTTON_1:System.String.$Content">Erneut versuchen</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TITLE_1:System.String.$Content">Support-Diagnoseinformationen senden</String>
-<String Category="None" UniqueId="wizard/strings.baml:NormalWizardNextButtonLabel_1:System.String.$Content">Weiter</String>
-<String Category="None" UniqueId="wizard/strings.baml:NormalWizardDoneButtonLabel_1:System.String.$Content">Fertig</String>
-<String Category="None" UniqueId="wizard/strings.baml:NormalWizardBackButtonLabel_1:System.String.$Content">Zurück</String>
-<String Category="None" UniqueId="wizard/strings.baml:WizardTextFieldLabel_1:System.String.$Content">{0}:</String>
-<String Category="None" UniqueId="wizard/strings.baml:RegistrationEmailLabel_1:System.String.$Content">E-Mail:</String>
-<String Category="None" UniqueId="wizard/strings.baml:RegistrationEmailConfirmLabel_1:System.String.$Content">E-Mail bestätigen:</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupLoginLabel_1:System.String.$Content">Anmeldung</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupPasswordLabel_1:System.String.$Content">Kennwort</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupAddingTitle_1:System.String.$Content">Konto wird hinzugefügt</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupCompleteTitle_1:System.String.$Content">Setup abgeschlossen</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupAcceptTermsLabel_1:System.String.$Content">Ich habe die Nutzungsbedingungen gelesen und akzeptiere sie.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupDeclineTermsLabel_1:System.String.$Content">Ich akzeptiere die Nutzungsbedingungen nicht.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupTitle_1:System.String.$Content">Musikbibliothek einrichten</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupText1_1:System.String.$Content">Der Setup-Assistent unterstützt dich beim Hinzufügen deiner Musik zur Musikbibliothek deines Sonos-Systems.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupText2_1:System.String.$Content">Du kannst Musik aus Ordnern auf diesem Computer oder aus Ordnern in deinem Netzwerk hinzufügen (z. B. auf einer Apple Time Capsule oder einem NAS-Laufwerk), die bereits zur Freigabe konfiguriert sind.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNowLabel_1:System.String.$Content">Meine Musik einrichten</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupLaterLabel_1:System.String.$Content">Nicht jetzt</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesTitle_1:System.String.$Content">Musik von iTunes hinzufügen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesText1_1:System.String.$Content">Der Setup-Assistent hat Musik in deinem iTunes-Medienordner gefunden.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesText2_1:System.String.$Content">Möchtest du deine iTunes-Musik deinem Sonos-System hinzufügen?</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesYesText_1:System.String.$Content">Ja</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesNoText_1:System.String.$Content">Nein</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherTitle_1:System.String.$Content">Weitere Musik hinzufügen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherText_1:System.String.$Content">Besitzt du neben iTunes weitere Musik, die du deinem Sonos-System hinzufügen möchtest?</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherYesText_1:System.String.$Content">Ja</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherNoText_1:System.String.$Content">Nein</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectTitle_1:System.String.$Content">Musikordner hinzufügen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectText_1:System.String.$Content">Wo befinden sich die Musikdateien für die Wiedergabe in Sonos?</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabel_1:System.String.$Content">Mein {0}-Ordner</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabelSub_1:System.String.$Content">Im {0}-Ordner speichert iTunes® üblicherweise Musikdateien.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryMusicFolderAlreadySharedSub_1:System.String.$Content">Dein {0}-Ordner wurde Sonos bereits hinzugefügt.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalFolderLabel_1:System.String.$Content">Anderer Ordner oder externes Laufwerk, das mit dem Computer verbunden ist</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkFolderLabel_1:System.String.$Content">Netzwerkgerät (z. B. NAS-Laufwerk)</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsTitle_1:System.String.$Content">Benutzername und Kennwort</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsText_1:System.String.$Content">Bitte gib ggf. Benutzernamen und Kennwort für das Netzlaufwerk ein, das deine Musik enthält:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsUserNameLabel_1:System.String.$Content">Benutzer:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content">Kennwort:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content">Einstellungen zur Dateifreigabe festlegen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content">Damit dein Sonos-System Musik von diesem Computer abspielen kann, muss der Setup-Assistent folgende Windows-Einstellungen anpassen:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Die Windows-Datei- und Druckerfreigabe der Windows Firewall-Ausnahmeliste hinzufügen. Ohne diese Änderungen wird deine Musik auf diesem Computer nicht auf deinem Sonos-System wiedergegeben.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content">Die Windows-Einstellungen für den Ruhezustand auf „Nie“ festlegen. Ohne diese Einstellung wird deine Musik auf diesem Computer möglicherweise nicht immer auf deinem Sonos-System wiedergegeben.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content">Musikbibliothek einrichten</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content">Deine Musik wird jetzt deinem Sonos-System hinzugefügt. Dieser Vorgang wird nach dem Start des Sonos Controllers fortgesetzt und kann bei großen Musiksammlungen mehrere Minuten andauern.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText2_1:System.String.$Content">Du kannst künftig weitere Musik über die Option „Musikbibliothek verwalten“ in den Einstellungen hinzufügen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText3_1:System.String.$Content">Wenn du Musik von einem anderen Computer hinzufügen möchtest, installiere bitte den Sonos Controller auf dem betreffenden Computer.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredTitle_1:System.String.$Content">Dein Sonos-System ist bereits registriert.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredText1_1:System.String.$Content">Wenn du deine Registrierungsinformationen anzeigen oder ändern möchtest, melde sich bei deinem Kundenkonto unter %1$s an.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredText2_1:System.String.$Content">Zur Anmeldung benötigst du dein Sonos-Kontokennwort. Das anfänglich vergebene Kennwort wurde dir bei der Registrierung per E-Mail zugesandt.</String>
-<String Category="None" UniqueId="wizard/strings.baml:LibraryAddingShareTitle_1:System.String.$Content">Musikordner wird hinzugefügt</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmCancelSetupMessage_1:System.String.$Content">Möchtest du den Setup-Assistenten beenden?</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmCancelSetupTitle_1:System.String.$Content">Bestätigen</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareTitle_1:System.String.$Content">Fehler beim Hinzufügen von Musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessage_1:System.String.$Content">Das Sonos-System konnte den Musikordner nicht hinzufügen</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content">Bitte prüfe, ob der Pfad zum Ordner sowie ggf. Benutzername und Kennwort korrekt sind.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content">Grund: {0}</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content">Unbekannter Fehler.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Error getting hostnameZXZ</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Could not write to share fileZXZ</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content">Bestätigen</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content">Möchtest du den ausgewählten Ordner entfernen?</String>
-<String Category="None" UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content">Keine</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicServiceMergeTrialYesText_1:System.String.$Content">Ja</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicServiceMergeTrialNoText_1:System.String.$Content">Nein</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardTitle_1:System.String.$Content">Sonos Setup-Assistent</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardNextButton_1:System.String.$Content">Weiter</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardNextIsRestartButton_1:System.String.$Content">Neu starten</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardPreviousButton_1:System.String.$Content">Zurück</String>
-<String Category="None" UniqueId="wizard/strings.baml:ContinueIsReset_1:System.String.$Content">Klicke auf „Neu starten“, um den Controller neu zu starten und das Setup fortzusetzen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ExitButtonLabel_1:System.String.$Content">Beenden</String>
-<String Category="None" UniqueId="wizard/strings.baml:CancelButtonLabel_1:System.String.$Content">Abbrechen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathTitle_1:System.String.$Content">Musik von Computer oder externem Laufwerk hinzufügen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathText_1:System.String.$Content">Klicke auf „Durchsuchen“, um nach einem Ordner mit Musikdateien zu suchen:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathTitle_1:System.String.$Content">Musik von einer Netzwerkfreigabe hinzufügen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathText_1:System.String.$Content">Gib den Pfad zur Netzwerkfreigabe ein:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleTitle_1:System.String.$Content">Beispiele:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText_1:System.String.$Content">\\\\AndererComputer\\Freigabe\\Musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText2_1:System.String.$Content">\\\\MeinNetzwerkspeicher\\Freigabe\\Musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectPathBrowseButtonText_1:System.String.$Content">Durchsuchen</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicFolderLibrarySetupCompleteTitle_1:System.String.$Content">Musikbibliothek einrichten</String>
-<String Category="None" UniqueId="wizard/strings.baml:FolderIsSetupText_1:System.String.$Content">„{0}“ ist jetzt auf deinem Sonos-System eingerichtet.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicBeingAddedText_1:System.String.$Content">Deine Musik wird jetzt deinem Sonos-System hinzugefügt. Dieser Vorgang kann mehrere Minuten dauern.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupCompleteTitle_1:System.String.$Content">Musikbibliothek einrichten</String>
-<String Category="None" UniqueId="wizard/strings.baml:ManageMusicLibraryNoticeText_1:System.String.$Content">Du kannst Sonos künftig Musik über die Option „Musikbibliothek verwalten“ in den Einstellungen hinzufügen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AddAnotherComputerNoticeText_1:System.String.$Content">Wenn du Musik von einem anderen Computer hinzufügen möchtest, installiere bitte den Sonos Controller auf dem betreffenden Computer.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdateProgress_1:System.String.$Content">Aktualisierungsverlauf</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadingController_1:System.String.$Content">Controller wird aktualisiert: Download läuft</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdatingController_1:System.String.$Content">Controller wird aktualisiert: Update wird gespeichert</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateCautionText_1:System.String.$Content">Vorsicht: Beende während der Aktualisierung nicht die Controller-Anwendung und schalte das Gerät nicht aus.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateAfterCompleteText_1:System.String.$Content">Nach Abschluss des Downloads aktualisiert das Installationsprogramm den Controller.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedTitle_1:System.String.$Content">Aktualisierung fehlgeschlagen</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailed_1:System.String.$Content">Fehler beim Download des Sonos Controller-Installationsprogramms.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalError_1:System.String.$Content">Interner Fehler (\#10000).</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUrlParse_1:System.String.$Content">Interner Fehler (\#10001).</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorNoUrl_1:System.String.$Content">Interner Fehler (\#10002).</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedFileMissing_1:System.String.$Content">Die Datei des Installationsprogramms wurde nicht am erwarteten Speicherort gefunden, oder der Controller ist nicht berechtigt, auf die Datei zuzugreifen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUnsafeExecutable_1:System.String.$Content">Dein Controller wurde nicht erfolgreich aktualisiert. Versuche es bitte noch einmal. Wenn diese Meldung erneut angezeigt wird, wende dich bitte an den Sonos-Kundendienst.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInstallFailed_1:System.String.$Content">Fehler bei der Installation des Sonos Controllers. Die verbleibenden Aktualisierungsschritte können nicht ausgeführt werden.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceededTitle_1:System.String.$Content">Aktualisierungsverlauf</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceeded_1:System.String.$Content">Der Sonos Controller wird geschlossen und aktualisiert. Nach dem Neustart werden die übrigen Elemente deines Sonos-Systems aktualisiert.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersTitle_1:System.String.$Content">Sonos wird bereits über ein anderes Konto ausgeführt</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine1_1:System.String.$Content">Der Sonos Controller wird von einem anderen Benutzerkonto auf deinem Computer ausgeführt.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine2_1:System.String.$Content">Bitte beende vor der Installation den Sonos Controller von dem anderen Konto aus.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateErrorCode_1:System.String.$Content">Fehlercode: {0}</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWindowMessage_1:System.String.$Content">Die Firewall-Einstellungen werden angepasst. Möglicherweise wird eine Windows-Aufforderung zum Zulassen dieser Änderung angezeigt. Klicke in den Windows-Bestätigungsdialogfeldern, die möglicherweise nach dem Klicken auf „OK“ geöffnet werden, auf „Ja“.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWindowTitle_1:System.String.$Content">Firewall konfigurieren</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardPreLink_1:System.String.$Content">Deine Firewall muss möglicherweise angepasst werden.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardLink_1:System.String.$Content">Klicke hier, um die Firewall zu konfigurieren</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardPostLink_1:System.String.$Content">.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionTitle_1:System.String.$Content">Freigabename bereits in Verwendung</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionText_1:System.String.$Content">Ein anderer Ordner auf diesem Computer wurde bereits mit dem Namen „{0}“ zu deiner Musikbibliothek hinzugefügt. Gib einen anderen Namen ein, damit das Sonos-System die Ordner unterscheiden kann. Der tatsächliche Ordnername wird dadurch nicht geändert.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AutomationShares_1:System.String.$Content">Freigaben</String>
-<String Category="None" UniqueId="wizard/strings.baml:AutomationConnectImageString_1:System.String.$Content">Drücke die Stumm- und Lauter-Taste gleichzeitig, oder drücke die Verbindungstaste, wenn dein Gerät nicht sowohl über die Stumm- als auch über die Lauter-Taste verfügt.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorFailedCreateWindowsShare_1:System.String.$Content">Windows-Freigabe konnte nicht erstellt werden: {0}</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorPathMissingWindowsShare_1:System.String.$Content">Pfad {0} ist nicht vorhanden, Freigabe kann nicht erstellt werden</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationTitle_1:System.String.$Content">Windows-Firewall</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody_1:System.String.$Content">Für eine erfolgreiche Einrichtigung muss deine Windows Firewall für die Verwendung mit Sonos konfiguriert werden.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody2_1:System.String.$Content">Wähle „Windows Firewall konfigurieren“ und befolge die Anweisungen, damit Sonos Änderungen an Windows Firewall vornehmen kann.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput1_1:System.String.$Content">Windows Firewall konfigurieren</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput2_1:System.String.$Content">Windows Firewall nicht konfigurieren</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationSuccessfulBody_1:System.String.$Content">Deine Windows Firewall wurde erfolgreich konfiguriert.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody1_1:System.String.$Content">Deine Windows Firewall wurde nicht erfolgreich konfiguriert. Bitte klicke auf „{0}“, um es erneut zu versuchen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody2_1:System.String.$Content">Wenn du fortfährst, ohne dass deine Windows Firewall erfolgreich konfiguriert wurde, treten beim Abschließen der Sonos-Einrichtung möglicherweise Probleme auf.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationSkippedBody_1:System.String.$Content">Du hast dich dazu entschlossen, deine Windows Firewall nicht zu konfigurieren. Wenn du fortfährst, treten beim Abschließen der Sonos-Einrichtung möglicherweise Probleme auf.</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content">{0}:{1:00}:{2:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_MINUTES_SECONDS_FORMAT_1:System.String.$Content">{0}:{1:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content">-{0}:{1:00}:{2:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_MINUTES_SECONDS_FORMAT_1:System.String.$Content">-{0}:{1:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationMute_1:System.String.$Content">Stumm</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationNext_1:System.String.$Content">Nächster Titel</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationPrevious_1:System.String.$Content">Vorheriger Titel</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationInfo_1:System.String.$Content">Info und Optionen</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationPlayPause_1:System.String.$Content">Wiedergabe/Pause</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationVolume_1:System.String.$Content">Lautstärke</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationScrubber_1:System.String.$Content">Schneller Vorlauf</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationRepeat_1:System.String.$Content">Wiederholen</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationShuffle_1:System.String.$Content">Zufällige Wiedergabe</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationCrossfade_1:System.String.$Content">Überblenden</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationMusicEQ_1:System.String.$Content">Equalizer</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationSearch_1:System.String.$Content">Suchfeld</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:NightSoundTooltip_1:System.String.$Content">Nachtsound</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SpeechEnhancementTooltip_1:System.String.$Content">Sprachverbesserung</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationQuickSkipBackward_1:System.String.$Content">30 Sekunden zurück</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationQuickSkipForward_1:System.String.$Content">30 Sekunden vor</String>
-<String Category="Button" UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Fertig</String>
-<String Category="Button" UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Abbrechen</String>
-<String Category="Text" UniqueId="zones/groupingmusicpicker.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Musik zur Wiedergabe im ausgewählten Raum auswählen</String>
-<String Category="Title" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:System.Windows.Window.Title">Räume gruppieren</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Fertig</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Abbrechen</String>
-<String Category="Text" UniqueId="zones/groupingdialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Ausgewählte Räume spielen:</String>
-<String Category="Text" UniqueId="zones/groupingdialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Räume für Gruppierung auswählen:</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:unselectAllButton_1:System.Windows.Controls.ContentControl.Content">Auswahl aufheben</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content">Alle auswählen - Partymodus</String>
-<String Category="Title" UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title">Einstellungen</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Raumeinstellungen für</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">Dein Sonos-System enthält derzeit keine Sonos-Player. Du benötigst mindestens einen Sonos-Player zur Wiedergabe von Musik.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Wähle zum Hinzufügen eines Sonos-Players „Verwalten“ &gt; „Player oder SUB hinzufügen“ in der Menüleiste aus.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">Einstellungen für</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text">Dein Sonos-System enthält derzeit keine BOOST-Komponenten.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text">Wähle zum Hinzufügen eines BOOST „Verwalten“ &gt; „BOOST oder BRIDGE hinzufügen“ in der Menüleiste aus.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text">DOCK-Einstellungen für</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text">Dein Sonos-System enthält derzeit keine DOCKs.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text">Wähle zum Hinzufügen eines DOCK „Verwalten“ &gt; „Player oder SUB hinzufügen“ in der Menüleiste aus.</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header">Musikbibliothek</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Einstellungen der Musikbibliothek</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header">Ordner</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_3:System.Windows.Controls.HeaderedContentControl.Header">Erweitert</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_4:System.Windows.Controls.HeaderedContentControl.Header">Dienste</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text">Diensteinstellungen</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text">Meine Dienstkonten auf Sonos</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Klicke auf „Hinzufügen“, um deinem Sonos-System einen neuen Dienst hinzuzufügen.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_4:System.Windows.Controls.TextBlock.Text">Klicke auf „Sonos Labs“, um neue Dienste auf deinem Sonos-System auszuprobieren.</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">Dienstname</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">Name</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content">Kontoanmeldung</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">Hinzufügen</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_2:System.Windows.Controls.ContentControl.Content">Sonos Labs</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content">Entfernen</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content">Ersetzen</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content">Erneut autorisieren</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header">Datum und Uhrzeit</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text">Datum und Uhrzeit einstellen</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header">Erweitert</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text">Erweiterte Einstellungen</String>
-<String Category="Title" UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title">Info</String>
-<String Category="None" UniqueId="about/aboutwindow.baml:SonosController_1:System.String.$Content">Sonos Controller für PC</String>
-<String Category="None" UniqueId="about/aboutwindow.baml:SonosControllerAlpha_1:System.String.$Content">Sonos Controller für PC (ALPHA)</String>
-<String Category="None" UniqueId="about/aboutwindow.baml:SonosControllerBeta_1:System.String.$Content">Sonos Controller für PC (BETA)</String>
-<String Category="Text" UniqueId="about/aboutwindow.baml:Run_2:System.Windows.Documents.Run.Text">Version:</String>
-<String Category="Text" UniqueId="about/aboutwindow.baml:Run_3:System.Windows.Documents.Run.Text">Build:</String>
-<String Category="Text" UniqueId="about/aboutwindow.baml:Run_4:System.Windows.Documents.Run.Text">Sonos-ID:</String>
-<String Category="Button" UniqueId="about/aboutwindow.baml:submitDiagnosticsButton_1:System.Windows.Controls.ContentControl.Content">Diagnoseinformationen senden…</String>
-<String Category="Menu" Comments="This is the root of the File menu" UniqueId="main/mainmenu.baml:MenuItem_1:System.Windows.Controls.HeaderedItemsControl.Header">_Datei</String>
-<String Category="Menu" Comments="This item belongs to the File menu" UniqueId="main/mainmenu.baml:MenuItem_34:System.Windows.Controls.HeaderedItemsControl.Header">_Mini-Controller anzeigen</String>
-<String Category="Menu" Comments="This item belongs to the File menu" UniqueId="main/mainmenu.baml:MenuItem_2:System.Windows.Controls.HeaderedItemsControl.Header">_Beenden</String>
-<String Category="Menu" Comments="This is the root of the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_23:System.Windows.Controls.HeaderedItemsControl.Header">_Bearbeiten</String>
-<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_24:System.Windows.Controls.HeaderedItemsControl.Header">_Ausschneiden</String>
-<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header">_Kopieren</String>
-<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header">_Einfügen</String>
-<String Category="Menu" Comments="This is the root of the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header">_Verwalten</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header">_Player oder SUB hinzufügen…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header">_BOOST oder BRIDGE hinzufügen…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header">Einstellungen der _Musikbibliothek…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header">_Diensteinstellungen…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header">_Radiosender hinzufügen…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_29:System.Windows.Controls.HeaderedItemsControl.Header">Musikbibliothek _jetzt aktualisieren</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_5:System.Windows.Controls.HeaderedItemsControl.Header">Auf Software-_Updates prüfen…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header">_Sprache wechseln…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header">_Einstellungen…</String>
-<String Category="Menu" Comments="This is the root of the Help menu" UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header">_Hilfe</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header">_Mein Sonos-Konto…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header">Sonos-_Produktshop…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header">_Tastaturzugriffstasten…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header">Sonos-System_hilfe…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_32:System.Windows.Controls.HeaderedItemsControl.Header">Technische _Supportwebsite…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_15:System.Windows.Controls.HeaderedItemsControl.Header">_Fehlerprotokoll…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_96:System.Windows.Controls.HeaderedItemsControl.Header">_Beta-Feedback senden…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_9:System.Windows.Controls.HeaderedItemsControl.Header">_Diagnoseinfo senden…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_99:System.Windows.Controls.HeaderedItemsControl.Header">Aktuelles System _ignorieren…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_10:System.Windows.Controls.HeaderedItemsControl.Header">Controller _zurücksetzen…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_11:System.Windows.Controls.HeaderedItemsControl.Header">Ü_ber mein Sonos-System…</String>
-<String Category="Text" UniqueId="utilities/timepicker.baml:TextBox_1:System.Windows.Controls.TextBox.Text">1</String>
-<String Category="Text" UniqueId="utilities/timepicker.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">:</String>
-<String Category="Text" UniqueId="utilities/timepicker.baml:TextBox_2:System.Windows.Controls.TextBox.Text">01</String>
-<String Category="ComboBox" UniqueId="utilities/timepicker.baml:ComboBoxItem_1:System.Windows.Controls.ContentControl.Content">AM</String>
-<String Category="ComboBox" UniqueId="utilities/timepicker.baml:ComboBoxItem_2:System.Windows.Controls.ContentControl.Content">PM</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderTitle_1:System.String.$Content">Meine Musikordner auf Sonos</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderText1_1:System.String.$Content">Klicke auf „Hinzufügen“, um deinem Sonos-System einen neuen Musikordner hinzuzufügen.</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderText2_1:System.String.$Content">Klicke auf „Entfernen“, um den markierten Ordner zu entfernen.</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderAdd_1:System.String.$Content">Hinzufügen</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderEdit_1:System.String.$Content">Bearbeiten</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderRemove_1:System.String.$Content">Entfernen</String>
-<String Category="None" UniqueId="utilities/strings.baml:IndexingMessage_1:System.String.$Content">Musikbibliothek wird aktualisiert…</String>
-<String Category="None" UniqueId="utilities/strings.baml:IndexingMessageLine2_1:System.String.$Content">Bitte warten.</String>
-<String Category="None" UniqueId="utilities/strings.baml:KeyboardShortcutNameHeader_1:System.String.$Content">Funktion</String>
-<String Category="None" UniqueId="utilities/strings.baml:KeyboardShortcutRepresentationHeader_1:System.String.$Content">Zugriffstaste</String>
-<String Category="None" UniqueId="utilities/strings.baml:PlayPause_1:System.String.$Content">Wiedergabe/Pause</String>
-<String Category="None" UniqueId="utilities/strings.baml:PreviousTrack_1:System.String.$Content">Vorheriger Titel</String>
-<String Category="None" UniqueId="utilities/strings.baml:NextTrack_1:System.String.$Content">Nächster Titel</String>
-<String Category="None" UniqueId="utilities/strings.baml:QuickSkipBackward_1:System.String.$Content">30 Sekunden zurück</String>
-<String Category="None" UniqueId="utilities/strings.baml:QuickSkipForward_1:System.String.$Content">30 Sekunden vor</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleShuffle_1:System.String.$Content">Zufällige Wiedergabe ein/aus</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleRepeat_1:System.String.$Content">Wiederholen ein/aus</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleCrossfade_1:System.String.$Content">Überblenden ein/aus</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleMute_1:System.String.$Content">Stummschaltung für aktuellen Raum/Gruppe ein/aus</String>
-<String Category="None" UniqueId="utilities/strings.baml:MuteAll_1:System.String.$Content">Alle stumm</String>
-<String Category="None" UniqueId="utilities/strings.baml:VolumeUp_1:System.String.$Content">Lauter</String>
-<String Category="None" UniqueId="utilities/strings.baml:VolumeDown_1:System.String.$Content">Leiser</String>
-<String Category="None" UniqueId="utilities/strings.baml:PlayNow_1:System.String.$Content">Ausgewählten Titel jetzt abspielen</String>
-<String Category="None" UniqueId="utilities/strings.baml:PlayNext_1:System.String.$Content">Ausgewählten Titel danach abspielen</String>
-<String Category="None" UniqueId="utilities/strings.baml:AddToQueue_1:System.String.$Content">Auswahl später abspielen</String>
-<String Category="None" UniqueId="utilities/strings.baml:ReplaceQueue_1:System.String.$Content">Liste durch Auswahl ersetzen</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleLargeArt_1:System.String.$Content">Vergrößerte Coveranzeige ein/aus</String>
-<String Category="None" UniqueId="utilities/strings.baml:Cut_1:System.String.$Content">Ausschneiden</String>
-<String Category="None" UniqueId="utilities/strings.baml:Copy_1:System.String.$Content">Kopieren</String>
-<String Category="None" UniqueId="utilities/strings.baml:Paste_1:System.String.$Content">Einsetzen</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleMiniPlayer_1:System.String.$Content">Mini-Controller ein/aus</String>
-<String Category="None" UniqueId="utilities/strings.baml:ShowKeyboardShortcuts_1:System.String.$Content">Liste der Tastaturzugriffstasten anzeigen</String>
-<String Category="None" UniqueId="utilities/strings.baml:DeleteTracks_1:System.String.$Content">Ausgewählte(n) Titel löschen</String>
-<String Category="None" UniqueId="utilities/strings.baml:TopMusicMenu_1:System.String.$Content">Zurück zur obersten Musikmenüebene</String>
-<String Category="None" UniqueId="utilities/strings.baml:Favorites_1:System.String.$Content">Zu Favoriten wechseln</String>
-<String Category="None" UniqueId="utilities/strings.baml:Search_1:System.String.$Content">Zum Suchfeld</String>
-<String Category="None" UniqueId="utilities/strings.baml:NextRoomGroup_1:System.String.$Content">Nächste Raumgruppe auswählen</String>
-<String Category="None" UniqueId="utilities/strings.baml:PreviousRoomGroup_1:System.String.$Content">Vorherige Raumgruppe auswählen</String>
-<String Category="None" UniqueId="utilities/strings.baml:SelectCurrentTrack_1:System.String.$Content">Bildlauf zum aktuellen Titel in Liste</String>
-<String Category="None" UniqueId="utilities/strings.baml:UpdateMusicLibrary_1:System.String.$Content">Musikbibliothek jetzt aktualisieren</String>
-<String Category="None" UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content">Listengröße ändern</String>
-<String Category="None" UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content">Aktives Fenster schließen</String>
-<String Category="None" UniqueId="utilities/strings.baml:OK_1:System.String.$Content">OK</String>
-<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">CancelZXZ</String>
-<String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content">{0}-Optionsfeld. Drücke zum Auswählen die Leertaste.</String>
-<String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content">{0}-Optionsfeld, ausgewählt.</String>
-<String Category="Title" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Wecker bearbeiten</String>
-<String Category="Button" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>
-<String Category="Button" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Abbrechen</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_1:System.Windows.Controls.TextBlock.Text">Wecker</String>
-<String Category="RadioButton" UniqueId="alarms/editalarmwindow.baml:RadioButton_1:System.Windows.Controls.ContentControl.Content">Ein</String>
-<String Category="RadioButton" UniqueId="alarms/editalarmwindow.baml:RadioButton_2:System.Windows.Controls.ContentControl.Content">Aus</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_2:System.Windows.Controls.TextBlock.Text">Uhrzeit</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_3:System.Windows.Controls.TextBlock.Text">Raum</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_4:System.Windows.Controls.TextBlock.Text">Musik</String>
-<String Category="Button" UniqueId="alarms/editalarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">Auswählen…</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_5:System.Windows.Controls.TextBlock.Text">Planen</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_1:System.Windows.Controls.ContentControl.Content">Nur einmal</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_2:System.Windows.Controls.ContentControl.Content">Montag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_3:System.Windows.Controls.ContentControl.Content">Dienstag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">Mittwoch</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_5:System.Windows.Controls.ContentControl.Content">Donnerstag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_6:System.Windows.Controls.ContentControl.Content">Freitag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_7:System.Windows.Controls.ContentControl.Content">Samstag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_8:System.Windows.Controls.ContentControl.Content">Sonntag</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_6:System.Windows.Controls.TextBlock.Text">Lautstärke</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_7:System.Windows.Controls.TextBlock.Text">Dauer</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_11:System.Windows.Controls.ContentControl.Content">Unbegrenzt</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_9:System.Windows.Controls.ContentControl.Content">Inkl. gruppierte Räume</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_10:System.Windows.Controls.ContentControl.Content">Zufällige Musikwiedergabe</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:headerSource_1:System.Windows.Controls.TextBlock.Text">Musikquelle auswählen</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text">MUSIK</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_6:System.Windows.Controls.TextBlock.Text">Keine Auswahl verfügbar.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_18:System.Windows.Controls.TextBlock.Text">Indexerstellung läuft. Deine Musik steht zur Verfügung, sobald die Indexerstellung abgeschlossen ist.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_10:System.Windows.Controls.TextBlock.Text">Mehr</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">Keine Auswahl verfügbar.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_19:System.Windows.Controls.TextBlock.Text">Indexerstellung läuft. Deine Musik steht zur Verfügung, sobald die Indexerstellung abgeschlossen ist.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text">Mehr</String>
-<String Category="Button" UniqueId="browse/browsepanel.baml:alarmsButton_1:System.Windows.Controls.ContentControl.Content">Wecker</String>
-<String Category="Button" UniqueId="utilities/multibuttonmessagewindow.baml:cancelButton_1:System.Windows.Controls.ContentControl.Content">Abbrechen</String>
-<String Category="None" UniqueId="main/strings.baml:DefaultCancelUIMessage_1:System.String.$Content">Bitte warten…</String>
-<String Category="None" UniqueId="main/strings.baml:Confirm_1:System.String.$Content">Bestätigen</String>
-<String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content">Musikbibliothek aktualisieren</String>
-<String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content">Die Musikbibliothek deines Sonos-Systems wird aktualisiert und enthält im Anschluss die Änderungen, die du in iTunes oder anderen Musikfreigaben vorgenommen hast. Möchtest du die Musikbibliothek deines Sonos-Systems jetzt aktualisieren?</String>
-<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content">Weitere Informationen findest du unter {0}</String>
-<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">Um einen Raum einzublenden, muss der Sonos-Player für diesen Raum auf die Werkseinstellungen zurückgesetzt werden. Weitere Informationen findest du unter {0}</String>
-<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content">Aktuelle Uhrzeit nicht eingestellt</String>
-<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content">Bevor du eine Weckeinstellung erstellen kannst, musst du zunächst die aktuelle Uhrzeit einstellen.</String>
-<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content">Aktuelle Uhrzeit einstellen</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage1_1:System.String.$Content">Die Firewall-Einstellung deines Computers wurde geändert. Dein Sonos Controller hat die Verbindung zum Sonos-System verloren.</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage2_1:System.String.$Content">Weitere Informationen findest du unter {0}</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage3_1:System.String.$Content">Klicke auf die Schaltfläche „Firewall konfigurieren“, um deine Firewall-Einstellungen anzupassen.</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallButton_1:System.String.$Content">Firewall konfigurieren</String>
-<String Category="None" UniqueId="main/strings.baml:LCMoreOptionsButton_1:System.String.$Content">Weitere Optionen…</String>
-<String Category="None" UniqueId="main/strings.baml:LCResetControllerItem_1:System.String.$Content">Controller zurücksetzen</String>
-<String Category="None" UniqueId="main/strings.baml:LCAboutSonosItem_1:System.String.$Content">Über mein Sonos-System</String>
-<String Category="None" UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content">Diagnoseinfo senden</String>
-<String Category="None" UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content">Der Link konnte nicht geöffnet werden: {0}. Stelle sicher, dass ein Standard-Internetbrowser festgelegt ist.</String>
-<String Category="None" UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content">Fehler beim Öffnen von Link</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Music library updateZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Update NowZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Remind Me LaterZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content">Nutzungsdaten</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content">Um unsere Produkte und unseren Kundendienst zu verbessern, erfasst Sonos Informationen zu deiner Verwendung des Sonos-Systems. Weitere Informationen findest du unter</String>
-<String Category="CheckBox" UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">Ja, Nutzungsdaten freigeben, um Sonos-Produkte zu verbessern.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">Wenn der Ausgangspegel eines Sonos-Players auf „Festgelegt“ eingestellt ist, sind die Equalizer-Einstellungen nicht verfügbar.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text">Ändere die Ausgangspegel-Einstellung auf der Registerkarte „Basis“, um die Equalizer-Bedienelemente zu aktivieren.</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content">Zurücksetzen</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content">Zurücksetzen</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content">Zurücksetzen</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content">Zurücksetzen</String>
-<String Category="Text" UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Gruppe</String>
-<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Info &amp; Optionen</String>
-<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Stummschaltung ist deaktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Stummschaltung ist aktiviert</String>
-<String Category="Text" UniqueId="nowplaying/nowplayingpanel.baml:header_1:System.Windows.Controls.TextBlock.Text">AKTUELLER TITEL</String>
-<String Category="ToolTip" UniqueId="nowplaying/nowplayingpanel.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Info &amp; Optionen</String>
-<String Category="None" UniqueId="alarms/strings.baml:SC_ALARM_UNKNOWN_1:System.String.$Content">Kein Raum ausgewählt</String>
-<String Category="None" UniqueId="alarms/strings.baml:DateTimeFormatString_1:System.String.$Content">Aktuelle Uhrzeit: {0} - {1} {2}</String>
-<String Category="None" UniqueId="alarms/strings.baml:TitleFallback_1:System.String.$Content">Weckmusik</String>
-<String Category="None" UniqueId="alarms/strings.baml:AddTitle_1:System.String.$Content">Weckeinstellung hinzufügen</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_SLEEP_TIMER_HOURS_MINUTES_FORMAT_1:System.String.$Content">Zeit bis Schlummer ({0}:{1:00})</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_SLEEP_TIMER_OFF_1:System.String.$Content">Schlummermodus</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_TRACK_NUMBER_FORMAT_1:System.String.$Content">{0:00}</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">Bestätigen</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CLEAR_1:System.String.$Content">Löschen</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CANCEL_1:System.String.$Content">Abbrechen</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content">Möchtest du die Liste löschen?</String>
-<String Category="None" UniqueId="browse/strings.baml:SearchEmptyString_1:System.String.$Content">Bei der Suche wurden keine Ergebnisse für „{0}“ in „{1}“ gefunden. Versuche es mit einer anderen Kategorie oder einem neuen Suchbegriff.</String>
-<String Category="None" UniqueId="browse/strings.baml:UnselectAllLabel_1:System.String.$Content">Auswahl aufheben</String>
-<String Category="None" UniqueId="browse/strings.baml:NotEnoughRoom_1:System.String.$Content">Sonos verfügt nicht über genügend Speicherplatz zum Speichern der Liste. Entferne alte gespeicherte Playlisten oder Listen in anderen Räumen und versuche es erneut.</String>
-<String Category="None" UniqueId="browse/strings.baml:UnableToSave_1:System.String.$Content">Liste kann nicht gespeichert werden.</String>
-<String Category="None" UniqueId="browse/strings.baml:UnableToSaveMobileTracks_1:System.String.$Content">Titel von Mobilgeräten können nicht in Sonos-Playlisten abgelegt werden und wurden nicht gespeichert.</String>
-<String Category="None" UniqueId="browse/strings.baml:UnableToSaveAllMobileTrack_1:System.String.$Content">Die Liste enthält nur Titel von Mobilgeräten. Diese Titel können nicht in Sonos-Playlisten gespeichert werden.</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationBrowse_1:System.String.$Content">Durchsuchen</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationQueue_1:System.String.$Content">Liste</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationSearchbox_1:System.String.$Content">Suchfeld</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationResizeQueue_1:System.String.$Content">Listengröße ändern</String>
-<String Category="None" UniqueId="browse/strings.baml:RecentSearches_1:System.String.$Content">Letzte Suchläufe</String>
-<String Category="None" UniqueId="browse/strings.baml:ClearRecentSearches_1:System.String.$Content">Letzte Suchläufe löschen</String>
-<String Category="None" UniqueId="browse/strings.baml:NoRecentSearches_1:System.String.$Content">Keine Suchläufe</String>
-<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TITLE_1:System.String.$Content">Sonos-Playliste vorhanden</String>
-<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TEXT_FORMAT_1:System.String.$Content">Eine Sonos-Playliste namens „{0}” ist bereits vorhanden. Wenn du sie ersetzt, wird der aktuelle Inhalt überschrieben.</String>
-<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_OK_BUTTON_1:System.String.$Content">Ersetzen</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationBackButton_1:System.String.$Content">Zurück</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationDropdownButton_1:System.String.$Content">Dropdown</String>
-<String Category="None" UniqueId="browse/strings.baml:ExplicitBadgeString_1:System.String.$Content">{0} – Anstößige Inhalte</String>
-<String Category="None" UniqueId="browse/strings.baml:RestrictedString_1:System.String.$Content">{0} – Eingeschränkte Inhalte</String>
-<String Category="None" UniqueId="browse/strings.baml:RestrictedAndExplicitString_1:System.String.$Content">{0} – Eingeschränkte und anstößige Inhalte</String>
-<String Category="Title" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Wecker bearbeiten</String>
-<String Category="Button" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Weckmusik festlegen</String>
-<String Category="Button" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Abbrechen</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsewindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Weckmusik suchen</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text">NACH OBEN</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Keine Auswahl verfügbar.</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Keine Auswahl verfügbar.</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Stummschaltung ist deaktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Stummschaltung ist aktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Stummschaltung ist deaktiviert</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content">Stummschaltung ist aktiviert</String>
-<String Category="Text" UniqueId="nowplaying/mutevolume.baml:fixedText_1:System.Windows.Controls.TextBlock.Text">Festgelegte Lautstärke</String>
-<String Category="Text" UniqueId="nowplaying/mutevolume.baml:individualOnlyText_1:System.Windows.Controls.TextBlock.Text">Raumlautstärke einstellen</String>
-<String Category="Text" UniqueId="browse/queuepanel.baml:header_1:System.Windows.Controls.TextBlock.Text">LISTE</String>
-<String Category="Text" UniqueId="browse/queuepanel.baml:notInUse_1:System.Windows.Controls.TextBlock.Text">(Nicht verwendet)</String>
-<String Category="ToolTip" UniqueId="browse/queuepanel.baml:notInUseTooltip_1:System.Windows.Controls.ContentControl.Content">Nicht verwendet</String>
-<String Category="Text" UniqueId="browse/queuepanel.baml:queueEmpty_1:System.Windows.Controls.TextBlock.Text">Liste ist leer.</String>
-<String Category="Button" UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content">Liste löschen</String>
-<String Category="Button" UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content">Liste speichern</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content">Weiße Statusanzeige</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">BRIDGE-Name</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">DOCK-Name</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content">Raumname</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content">Basis</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content">Allgemein</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:MusicServersTabHeader_1:System.String.$Content">Musikquellen</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:UsageTabHeader_1:System.String.$Content">Nutzung</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LanguageTabHeader_1:System.String.$Content">Sprache</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:Anonymous_1:System.String.$Content">&lt;Anonym&gt;</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingHeaderText_1:System.String.$Content">Berechtigungen für Musikbibliothek</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingLabelText_1:System.String.$Content">Berechtigungen für Musikdateien so ändern, dass das Sonos-System stets darauf zugreifen kann.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationMusicLibrary_1:System.String.$Content">Musikbibliothek</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationServices_1:System.String.$Content">Dienste</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationVolume_1:System.String.$Content">Lautstärke</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBass_1:System.String.$Content">Bass</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTreble_1:System.String.$Content">Treble</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBalance_1:System.String.$Content">Balance</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content">SUB-Pegeleinstellung</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:EditButtonLabel_1:System.String.$Content">Bearbeiten</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BassHeader_1:System.String.$Content">Bass</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:TrebleHeader_1:System.String.$Content">Treble</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BalanceHeader_1:System.String.$Content">Balance</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LoudnessLabel_1:System.String.$Content">Loudness</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelMinus_1:System.String.$Content">-</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelPlus_1:System.String.$Content">+</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelMin_1:System.String.$Content">Min.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content">Max.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content">L</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content">R</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">SUB</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content">Ein</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">SUB-Pegel</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content">Platzierungseinstellung</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content">Dialogverbesserung</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content">Audioverzögerung (Lip-Sync)</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityLabel_1:System.String.$Content">Ein</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SpeakerSizeHeader_1:System.String.$Content">Lautsprechergröße (Crossover)</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ParentalControlsTitle_1:System.String.$Content">Jugendschutz</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnabledText_1:System.String.$Content">Die Filterung anstößiger Inhalte ist aktiviert. Klicke unten auf die Schaltfläche, um die Wiedergabe anstößiger Inhalte auf deinem Sonos-System zu erlauben.
-
-Das Filtern von Inhalten wird nicht von allen Diensten unterstützt.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisabledText_1:System.String.$Content">Die Filterung anstößiger Inhalte ist deaktiviert. Klicke unten auf die Schaltfläche, um die Wiedergabe anstößiger Inhalte auf deinem Sonos-System zu verhindern.
-
-Das Filtern von Inhalten wird nicht von allen Diensten unterstützt.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnableButtonTitle_1:System.String.$Content">Filterung anstößiger Inhalte aktivieren</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisableButtonTitle_1:System.String.$Content">Filterung anstößiger Inhalte deaktivieren</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringNoServices_1:System.String.$Content">Es gibt keine Musikdienste auf deinem Sonos-System, die das Filtern von Inhalten unterstützen.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoButtonTitle_1:System.String.$Content">Weitere Infos</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoUri_1:System.String.$Content">http://faq.sonos.com/parentalcontrols</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundLevelHeader_1:System.String.$Content">TV-Pegel</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:MusicSurroundLevelHeader_1:System.String.$Content">Musikpegel</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSurroundEnabledHeader_1:System.String.$Content">Surround-Lautsprecher</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSurroundEnabledLabel_1:System.String.$Content">Ein</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeHeader_1:System.String.$Content">Musikwiedergabe</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeAmbient_1:System.String.$Content">Hintergrund</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeFull_1:System.String.$Content">Voll</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeDescription_1:System.String.$Content">Während der Musikwiedergabe dienen die Surround-Lautsprecher als Ergänzung durch subtilen Hintergrundsound oder lauteren, vollen Sound.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceLabel_1:System.String.$Content">Balance</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceButtonLabel_1:System.String.$Content">Balance für Surround-Lautsprecher</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceDescription_1:System.String.$Content">Lege die Surround-Balance manuell fest, wenn Trueplay deaktiviert ist.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationEQLabel_1:System.String.$Content">EQ</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSurroundLevel_1:System.String.$Content">Surround-TV-Pegel</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationMusicSurroundLevel_1:System.String.$Content">Surroundmusikpegel</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationAudioDelay_1:System.String.$Content">Audioverzögerung</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubGain_1:System.String.$Content">SUB-Verstärkung</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubEnabled_1:System.String.$Content">SUB aktiviert</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubPolarity_1:System.String.$Content">Platzierungseinstellung</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSurroundsEnabled_1:System.String.$Content">Surround aktiviert</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRSignalLight_1:System.String.$Content">IR-Signalleuchte</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRRepeater_1:System.String.$Content">IR-Repeater</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTVAutoplay_1:System.String.$Content">TV-Autoplay</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content">Gruppierung bei Autoplay aufheben</String>
-<String Category="Text" UniqueId="zones/zonespanel.baml:header_1:System.Windows.Controls.TextBlock.Text">RÄUME</String>
-<String Category="Button" UniqueId="zones/zonespanel.baml:pauseAllButton_1:System.Windows.Controls.ContentControl.Content">Alle anhalten</String>
-<String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>
-<String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Abbrechen</String>
-<String Category="Button" UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>
-<String Category="Button" UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Abbrechen</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_COMMENT_1:System.String.$Content" Category="None">Vom Sonos-System verwendetes Konto, um auf Musikordner auf diesem Computer zuzugreifen</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_SHARE_PERMISSIONS_1:System.String.$Content" Category="None">Überprüfen der Freigabeberechtigungen nicht möglich. Der UNC-Pfad ist %s ist ungültig, oder es handelt sich nicht um eine Freigabe auf diesem Computer.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_ADD_RIGHT_1:System.String.$Content" Category="None">%s für Gastkonto konnte nicht hinzugefügt werden.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SONOS_JOIN_GROUP_FAILED_1:System.String.$Content" Category="None">Sonos-Benutzer konnte nicht zu Gruppe „%s“ hinzugefügt werden</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_REMARK_PARMNUM_1:System.String.$Content" Category="None">Ungültiger Freigabeparameter für Bemerkung.</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Überblenden ist deaktiviert</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Überblenden ist aktiviert</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_7:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Equalizer</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Wiederholen ist deaktiviert</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Alle wiederholen</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_8:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Titel wiederholen</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_5:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Zufällige Wiedergabe ist deaktiviert</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_6:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Zufällige Wiedergabe ist aktiviert</String>
+  <String UniqueId="wizard/setupdatatemplates.baml:pageTitle_2:System.Windows.Controls.TextBlock.Text" Category="Text">Wähle eine Sprache:</String>
+  <String UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Fehlerprotokoll für Sonos-System</String>
+  <String UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Fertig</String>
+  <String UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PLAY_FORMAT_1:System.String.$Content" Category="None">{0} _abspielen</String>
+  <String UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PAUSE_FORMAT_1:System.String.$Content" Category="None">{0} _anhalten</String>
+  <String UniqueId="zones/strings.baml:NEXT_PLAY_STATE_STOP_FORMAT_1:System.String.$Content" Category="None">{0} _beenden</String>
+  <String UniqueId="zones/strings.baml:NEXT_MUTE_STATE_MUTE_FORMAT_1:System.String.$Content" Category="None">{0} _stumm schalten</String>
+  <String UniqueId="zones/strings.baml:NEXT_MUTE_STATE_UNMUTE_FORMAT_1:System.String.$Content" Category="None">_Stummschaltung für {0} aufheben</String>
+  <String UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content" Category="None">{0} _Equalizer…</String>
+  <String UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content" Category="None">{0} Ei_nstellungen…</String>
+  <String UniqueId="zones/strings.baml:GROUP_1:System.String.$Content" Category="None">Gruppe</String>
+  <String UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content" Category="None">[keine Musikdatei]</String>
+  <String UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content" Category="None">Zur Musikauswahl auf „Fertig“ klicken</String>
+  <String UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content" Category="None">Bestätigen</String>
+  <String UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_PAUSE_1:System.String.$Content" Category="None">Pause</String>
+  <String UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content" Category="None">Möchtest du die Musikwiedergabe in all diesen Räumen anhalten?</String>
+  <String UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content" Category="None">Weitere {0} anzeigen…</String>
+  <String UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content" Category="None">Weitere anzeigen…</String>
+  <String UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content" Category="None">Weniger anzeigen…</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content" Category="None">Wählen Sie, um zu aktualisieren</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_1:System.String.$Content" Category="None">Wählen Sie, um einzurichten</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_REGISTER_1:System.String.$Content" Category="None">Wählen Sie, um sich zu registrieren</String>
+  <String UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content" Category="None">Die aktuelle Raumgruppe umfasst</String>
+  <String UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content" Category="None">Verwende die Aufwärts- und Abwärtspfeiltasten, um zwischen Raumgruppen zu wechseln. Drücke die Leertaste, um das Dialogfeld für Gruppierungen zu öffnen.</String>
+  <String UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content" Category="None">Verwende die Aufwärts- und Abwärtspfeiltasten, um zwischen Raumgruppen zu wechseln. Drücke die Leertaste, um dieses Gerät einzurichten.</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_NEXT_BUTTON_1:System.String.$Content" Category="None">Senden</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_FINISH_BUTTON_1:System.String.$Content" Category="None">Fertig</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TRY_AGAIN_BUTTON_1:System.String.$Content" Category="None">Erneut versuchen</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TITLE_1:System.String.$Content" Category="None">Support-Diagnoseinformationen senden</String>
+  <String UniqueId="wizard/strings.baml:NormalWizardNextButtonLabel_1:System.String.$Content" Category="None">Weiter</String>
+  <String UniqueId="wizard/strings.baml:NormalWizardDoneButtonLabel_1:System.String.$Content" Category="None">Fertig</String>
+  <String UniqueId="wizard/strings.baml:NormalWizardBackButtonLabel_1:System.String.$Content" Category="None">Zurück</String>
+  <String UniqueId="wizard/strings.baml:WizardTextFieldLabel_1:System.String.$Content" Category="None">{0}:</String>
+  <String UniqueId="wizard/strings.baml:RegistrationEmailLabel_1:System.String.$Content" Category="None">E-Mail:</String>
+  <String UniqueId="wizard/strings.baml:RegistrationEmailConfirmLabel_1:System.String.$Content" Category="None">E-Mail bestätigen:</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupLoginLabel_1:System.String.$Content" Category="None">Anmeldung</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupPasswordLabel_1:System.String.$Content" Category="None">Kennwort</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupAddingTitle_1:System.String.$Content" Category="None">Konto wird hinzugefügt</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupCompleteTitle_1:System.String.$Content" Category="None">Setup abgeschlossen</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupAcceptTermsLabel_1:System.String.$Content" Category="None">Ich habe die Nutzungsbedingungen gelesen und akzeptiere sie.</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupDeclineTermsLabel_1:System.String.$Content" Category="None">Ich akzeptiere die Nutzungsbedingungen nicht.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupTitle_1:System.String.$Content" Category="None">Musikbibliothek einrichten</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupText1_1:System.String.$Content" Category="None">Der Setup-Assistent unterstützt dich beim Hinzufügen deiner Musik zur Musikbibliothek deines Sonos-Systems.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupText2_1:System.String.$Content" Category="None">Du kannst Musik aus Ordnern auf diesem Computer oder aus Ordnern in deinem Netzwerk hinzufügen (z. B. auf einer Apple Time Capsule oder einem NAS-Laufwerk), die bereits zur Freigabe konfiguriert sind.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupNowLabel_1:System.String.$Content" Category="None">Meine Musik einrichten</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupLaterLabel_1:System.String.$Content" Category="None">Nicht jetzt</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesTitle_1:System.String.$Content" Category="None">Musik von iTunes hinzufügen</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesText1_1:System.String.$Content" Category="None">Der Setup-Assistent hat Musik in deinem iTunes-Medienordner gefunden.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesText2_1:System.String.$Content" Category="None">Möchtest du deine iTunes-Musik deinem Sonos-System hinzufügen?</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesYesText_1:System.String.$Content" Category="None">Ja</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesNoText_1:System.String.$Content" Category="None">Nein</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherTitle_1:System.String.$Content" Category="None">Weitere Musik hinzufügen</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherText_1:System.String.$Content" Category="None">Besitzt du neben iTunes weitere Musik, die du deinem Sonos-System hinzufügen möchtest?</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherYesText_1:System.String.$Content" Category="None">Ja</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherNoText_1:System.String.$Content" Category="None">Nein</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectTitle_1:System.String.$Content" Category="None">Musikordner hinzufügen</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectText_1:System.String.$Content" Category="None">Wo befinden sich die Musikdateien für die Wiedergabe in Sonos?</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabel_1:System.String.$Content" Category="None">Mein {0}-Ordner</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabelSub_1:System.String.$Content" Category="None">Im {0}-Ordner speichert iTunes® üblicherweise Musikdateien.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryMusicFolderAlreadySharedSub_1:System.String.$Content" Category="None">Dein {0}-Ordner wurde Sonos bereits hinzugefügt.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectLocalFolderLabel_1:System.String.$Content" Category="None">Anderer Ordner oder externes Laufwerk, das mit dem Computer verbunden ist</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkFolderLabel_1:System.String.$Content" Category="None">Netzwerkgerät (z. B. NAS-Laufwerk)</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsTitle_1:System.String.$Content" Category="None">Benutzername und Kennwort</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsText_1:System.String.$Content" Category="None">Bitte gib ggf. Benutzernamen und Kennwort für das Netzlaufwerk ein, das deine Musik enthält:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsUserNameLabel_1:System.String.$Content" Category="None">Benutzer:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content" Category="None">Kennwort:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content" Category="None">Einstellungen zur Dateifreigabe festlegen</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content" Category="None">Damit dein Sonos-System Musik von diesem Computer abspielen kann, muss der Setup-Assistent folgende Windows-Einstellungen anpassen:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content" Category="None">Die Windows-Datei- und Druckerfreigabe der Windows Firewall-Ausnahmeliste hinzufügen. Ohne diese Änderungen wird deine Musik auf diesem Computer nicht auf deinem Sonos-System wiedergegeben.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content" Category="None">Die Windows-Einstellungen für den Ruhezustand auf „Nie“ festlegen. Ohne diese Einstellung wird deine Musik auf diesem Computer möglicherweise nicht immer auf deinem Sonos-System wiedergegeben.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content" Category="None">Musikbibliothek einrichten</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content" Category="None">Deine Musik wird jetzt deinem Sonos-System hinzugefügt. Dieser Vorgang wird nach dem Start des Sonos Controllers fortgesetzt und kann bei großen Musiksammlungen mehrere Minuten andauern.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteText2_1:System.String.$Content" Category="None">Du kannst künftig weitere Musik über die Option „Musikbibliothek verwalten“ in den Einstellungen hinzufügen.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteText3_1:System.String.$Content" Category="None">Wenn du Musik von einem anderen Computer hinzufügen möchtest, installiere bitte den Sonos Controller auf dem betreffenden Computer.</String>
+  <String UniqueId="wizard/strings.baml:AlreadyRegisteredTitle_1:System.String.$Content" Category="None">Dein Sonos-System ist bereits registriert.</String>
+  <String UniqueId="wizard/strings.baml:AlreadyRegisteredText1_1:System.String.$Content" Category="None">Wenn du deine Registrierungsinformationen anzeigen oder ändern möchtest, melde sich bei deinem Kundenkonto unter %1$s an.</String>
+  <String UniqueId="wizard/strings.baml:AlreadyRegisteredText2_1:System.String.$Content" Category="None">Zur Anmeldung benötigst du dein Sonos-Kontokennwort. Das anfänglich vergebene Kennwort wurde dir bei der Registrierung per E-Mail zugesandt.</String>
+  <String UniqueId="wizard/strings.baml:LibraryAddingShareTitle_1:System.String.$Content" Category="None">Musikordner wird hinzugefügt</String>
+  <String UniqueId="wizard/strings.baml:ConfirmCancelSetupMessage_1:System.String.$Content" Category="None">Möchtest du den Setup-Assistenten beenden?</String>
+  <String UniqueId="wizard/strings.baml:ConfirmCancelSetupTitle_1:System.String.$Content" Category="None">Bestätigen</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareTitle_1:System.String.$Content" Category="None">Fehler beim Hinzufügen von Musik</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareMessage_1:System.String.$Content" Category="None">Das Sonos-System konnte den Musikordner nicht hinzufügen</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content" Category="None">Bitte prüfe, ob der Pfad zum Ordner sowie ggf. Benutzername und Kennwort korrekt sind.</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content" Category="None">Grund: 0.</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content" Category="None">Unbekannter Fehler.</String>
+  <String UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content" Category="None">Error getting hostnameZXZ</String>
+  <String UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content" Category="None">Could not write to share fileZXZ</String>
+  <String UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content" Category="None">Bestätigen</String>
+  <String UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content" Category="None">Möchtest du den ausgewählten Ordner entfernen?</String>
+  <String UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content" Category="None">Keine</String>
+  <String UniqueId="wizard/strings.baml:MusicServiceMergeTrialYesText_1:System.String.$Content" Category="None">Ja</String>
+  <String UniqueId="wizard/strings.baml:MusicServiceMergeTrialNoText_1:System.String.$Content" Category="None">Nein</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardTitle_1:System.String.$Content" Category="None">Sonos Setup-Assistent</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardNextButton_1:System.String.$Content" Category="None">Weiter</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardNextIsRestartButton_1:System.String.$Content" Category="None">Neu starten</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardPreviousButton_1:System.String.$Content" Category="None">Zurück</String>
+  <String UniqueId="wizard/strings.baml:ContinueIsReset_1:System.String.$Content" Category="None">Klicke auf „Neu starten“, um den Controller neu zu starten und das Setup fortzusetzen.</String>
+  <String UniqueId="wizard/strings.baml:ExitButtonLabel_1:System.String.$Content" Category="None">Beenden</String>
+  <String UniqueId="wizard/strings.baml:CancelButtonLabel_1:System.String.$Content" Category="None">Abbrechen</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathTitle_1:System.String.$Content" Category="None">Musik von Computer oder externem Laufwerk hinzufügen</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathText_1:System.String.$Content" Category="None">Klicke auf „Durchsuchen“, um nach einem Ordner mit Musikdateien zu suchen:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathTitle_1:System.String.$Content" Category="None">Musik von einer Netzwerkfreigabe hinzufügen</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathText_1:System.String.$Content" Category="None">Gib den Pfad zur Netzwerkfreigabe ein:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleTitle_1:System.String.$Content" Category="None">Beispiele:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText_1:System.String.$Content" Category="None">\\\\AndererComputer\\Freigabe\\Musik</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText2_1:System.String.$Content" Category="None">\\\\MeinNetzwerkspeicher\\Freigabe\\Musik</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectPathBrowseButtonText_1:System.String.$Content" Category="None">Durchsuchen</String>
+  <String UniqueId="wizard/strings.baml:MusicFolderLibrarySetupCompleteTitle_1:System.String.$Content" Category="None">Musikbibliothek einrichten</String>
+  <String UniqueId="wizard/strings.baml:FolderIsSetupText_1:System.String.$Content" Category="None">„{0}“ ist jetzt auf deinem Sonos-System eingerichtet.</String>
+  <String UniqueId="wizard/strings.baml:MusicBeingAddedText_1:System.String.$Content" Category="None">Deine Musik wird jetzt deinem Sonos-System hinzugefügt. Dieser Vorgang kann mehrere Minuten dauern.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupCompleteTitle_1:System.String.$Content" Category="None">Musikbibliothek einrichten</String>
+  <String UniqueId="wizard/strings.baml:ManageMusicLibraryNoticeText_1:System.String.$Content" Category="None">Du kannst Sonos künftig Musik über die Option „Musikbibliothek verwalten“ in den Einstellungen hinzufügen.</String>
+  <String UniqueId="wizard/strings.baml:AddAnotherComputerNoticeText_1:System.String.$Content" Category="None">Wenn du Musik von einem anderen Computer hinzufügen möchtest, installiere bitte den Sonos Controller auf dem betreffenden Computer.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdateProgress_1:System.String.$Content" Category="None">Aktualisierungsverlauf</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadingController_1:System.String.$Content" Category="None">Controller wird aktualisiert: Download läuft</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdatingController_1:System.String.$Content" Category="None">Controller wird aktualisiert: Update wird gespeichert</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateCautionText_1:System.String.$Content" Category="None">Vorsicht: Beende während der Aktualisierung nicht die Controller-Anwendung und schalte das Gerät nicht aus.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateAfterCompleteText_1:System.String.$Content" Category="None">Nach Abschluss des Downloads aktualisiert das Installationsprogramm den Controller.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedTitle_1:System.String.$Content" Category="None">Aktualisierung fehlgeschlagen</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailed_1:System.String.$Content" Category="None">Fehler beim Download des Sonos Controller-Installationsprogramms.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalError_1:System.String.$Content" Category="None">Interner Fehler (\#10000).</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUrlParse_1:System.String.$Content" Category="None">Interner Fehler (\#10001).</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorNoUrl_1:System.String.$Content" Category="None">Interner Fehler (\#10002).</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedFileMissing_1:System.String.$Content" Category="None">Die Datei des Installationsprogramms wurde nicht am erwarteten Speicherort gefunden, oder der Controller ist nicht berechtigt, auf die Datei zuzugreifen.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUnsafeExecutable_1:System.String.$Content" Category="None">Dein Controller wurde nicht erfolgreich aktualisiert. Versuche es bitte noch einmal. Wenn diese Meldung erneut angezeigt wird, wende dich bitte an den Sonos-Kundendienst.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInstallFailed_1:System.String.$Content" Category="None">Fehler bei der Installation des Sonos Controllers. Die verbleibenden Aktualisierungsschritte können nicht ausgeführt werden.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceededTitle_1:System.String.$Content" Category="None">Aktualisierungsverlauf</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceeded_1:System.String.$Content" Category="None">Der Sonos Controller wird geschlossen und aktualisiert. Nach dem Neustart werden die übrigen Elemente deines Sonos-Systems aktualisiert.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersTitle_1:System.String.$Content" Category="None">Sonos wird bereits über ein anderes Konto ausgeführt</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine1_1:System.String.$Content" Category="None">Der Sonos Controller wird von einem anderen Benutzerkonto auf deinem Computer ausgeführt.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine2_1:System.String.$Content" Category="None">Bitte beenden Sie den Sonos-Controller vor der Installation von dem anderen Konto.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateErrorCode_1:System.String.$Content" Category="None">Fehlercode :  0.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWindowMessage_1:System.String.$Content" Category="None">Fehlercode: {0} Die Firewall-Einstellungen werden angepasst. Möglicherweise wird eine Windows-Aufforderung zum Zulassen dieser Änderung angezeigt.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWindowTitle_1:System.String.$Content" Category="None">Klicke in den Windows-Bestätigungsdialogfeldern, die möglicherweise nach dem Klicken auf „OK“ geöffnet werden, auf „Ja“.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWizardPreLink_1:System.String.$Content" Category="None">Ihre Firewall muss möglicherweise angepasst werden.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWizardLink_1:System.String.$Content" Category="None">Klicke hier, um die Firewall zu konfigurieren</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWizardPostLink_1:System.String.$Content" Category="None">.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionTitle_1:System.String.$Content" Category="None">Freigabename bereits in Verwendung</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionText_1:System.String.$Content" Category="None">Ein anderer Ordner auf diesem Computer wurde bereits mit dem Namen „{0}“ zu deiner Musikbibliothek hinzugefügt. Gib einen anderen Namen ein, damit das Sonos-System die Ordner unterscheiden kann. Der tatsächliche Ordnername wird dadurch nicht geändert.</String>
+  <String UniqueId="wizard/strings.baml:AutomationShares_1:System.String.$Content" Category="None">Freigaben</String>
+  <String UniqueId="wizard/strings.baml:AutomationConnectImageString_1:System.String.$Content" Category="None">Drücken Sie gleichzeitig die Tasten "Mute" und "Lautstärke erhöhen", oder drücken Sie die Join-Taste, wenn Ihr Gerät nicht über die Tasten "Mute" und "Volume Up" verfügt.</String>
+  <String UniqueId="wizard/strings.baml:ErrorFailedCreateWindowsShare_1:System.String.$Content" Category="None">Fehler beim Erstellen der Windows-Freigabe: 0.</String>
+  <String UniqueId="wizard/strings.baml:ErrorPathMissingWindowsShare_1:System.String.$Content" Category="None">Pfad {0} existiert nicht, kann keine Freigabe erstellen</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationTitle_1:System.String.$Content" Category="None">Windows-Freigabe konnte nicht erstellt werden: {0}</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody_1:System.String.$Content" Category="None">Windows-Firewall</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody2_1:System.String.$Content" Category="None">Für eine erfolgreiche Einrichtigung muss deine Windows Firewall für die Verwendung mit Sonos konfiguriert werden.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput1_1:System.String.$Content" Category="None">Wähle „Windows Firewall konfigurieren“ und befolge die Anweisungen, damit Sonos Änderungen an Windows Firewall vornehmen kann.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput2_1:System.String.$Content" Category="None">Windows Firewall konfigurieren</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationSuccessfulBody_1:System.String.$Content" Category="None">Windows Firewall nicht konfigurieren</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody1_1:System.String.$Content" Category="None">Deine Windows Firewall wurde erfolgreich konfiguriert. Bitte klicken Sie auf "{0}", um es erneut zu versuchen.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody2_1:System.String.$Content" Category="None">Deine Windows Firewall wurde nicht erfolgreich konfiguriert.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationSkippedBody_1:System.String.$Content" Category="None">Wenn du fortfährst, ohne dass deine Windows Firewall erfolgreich konfiguriert wurde, treten beim Abschließen der Sonos-Einrichtung möglicherweise Probleme auf. Du hast dich dazu entschlossen, deine Windows Firewall nicht zu konfigurieren. Wenn du fortfährst, treten beim Abschließen der Sonos-Einrichtung möglicherweise Probleme auf.</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">{0}:{1:00}:{2:00}</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">{0}:{1:00}</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">-{0}:{1:00}:{2:00}</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">-{0}:{1:00}</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationMute_1:System.String.$Content" Category="None">Stumm</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationNext_1:System.String.$Content" Category="None">Nächster Titel</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationPrevious_1:System.String.$Content" Category="None">Vorheriger Titel</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationInfo_1:System.String.$Content" Category="None">Info und Optionen</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationPlayPause_1:System.String.$Content" Category="None">Wiedergabe/Pause</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationVolume_1:System.String.$Content" Category="None">Lautstärke</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationScrubber_1:System.String.$Content" Category="None">Schneller Vorlauf</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationRepeat_1:System.String.$Content" Category="None">Wiederholen</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationShuffle_1:System.String.$Content" Category="None">Zufällige Wiedergabe</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationCrossfade_1:System.String.$Content" Category="None">Überblenden</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationMusicEQ_1:System.String.$Content" Category="None">Equalizer</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationSearch_1:System.String.$Content" Category="None">Suchfeld</String>
+  <String UniqueId="nowplaying/strings.baml:NightSoundTooltip_1:System.String.$Content" Category="None">Nachtsound</String>
+  <String UniqueId="nowplaying/strings.baml:SpeechEnhancementTooltip_1:System.String.$Content" Category="None">Sprachverbesserung</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationQuickSkipBackward_1:System.String.$Content" Category="None">30 Sekunden zurück</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationQuickSkipForward_1:System.String.$Content" Category="None">30 Sekunden vor</String>
+  <String UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Fertig</String>
+  <String UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Abbrechen</String>
+  <String UniqueId="zones/groupingmusicpicker.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text" Category="Text">Musik zur Wiedergabe im ausgewählten Raum auswählen</String>
+  <String UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Räume gruppieren</String>
+  <String UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Fertig</String>
+  <String UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Abbrechen</String>
+  <String UniqueId="zones/groupingdialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Ausgewählte Räume spielen:</String>
+  <String UniqueId="zones/groupingdialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Räume für Gruppierung auswählen:</String>
+  <String UniqueId="zones/groupingdialog.baml:unselectAllButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Auswahl aufheben</String>
+  <String UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Alle auswählen - Partymodus</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title" Category="Title">Einstellungen</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text" Category="Text">Raumeinstellungen für</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text" Category="Text">Dein Sonos-System enthält derzeit keine Sonos-Player. Du benötigst mindestens einen Sonos-Player zur Wiedergabe von Musik.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">Wähle zum Hinzufügen eines Sonos-Players „Verwalten“ &gt; „Player oder SUB hinzufügen“ in der Menüleiste aus.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text" Category="Text">Einstellungen für</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Dein Sonos-System enthält derzeit keine BOOST-Komponenten.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text" Category="Text">Wähle zum Hinzufügen eines BOOST „Verwalten“ &gt; „BOOST oder BRIDGE hinzufügen“ in der Menüleiste aus.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text" Category="Text">DOCK-Einstellungen für</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text" Category="Text">Dein Sonos-System enthält derzeit keine DOCKs.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text" Category="Text">Wähle zum Hinzufügen eines DOCK „Verwalten“ &gt; „Player oder SUB hinzufügen“ in der Menüleiste aus.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Musikbibliothek</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Einstellungen der Musikbibliothek</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Ordner</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_3:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Erweitert</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_4:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Dienste</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text" Category="Text">Diensteinstellungen</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text" Category="Text">Meine Dienstkonten auf Sonos</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Klicke auf „Hinzufügen“, um deinem Sonos-System einen neuen Dienst hinzuzufügen.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_4:System.Windows.Controls.TextBlock.Text" Category="Text">Klicke auf „Sonos Labs“, um neue Dienste auf deinem Sonos-System auszuprobieren.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content" Category="Button">Dienstname</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content" Category="Button">Name</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content" Category="Button">Kontoanmeldung</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_1:System.Windows.Controls.ContentControl.Content" Category="Button">Hinzufügen</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_2:System.Windows.Controls.ContentControl.Content" Category="Button">Sonos Labs</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content" Category="Button">Entfernen</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content" Category="Button">Ersetzen</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content" Category="Button">Erneut autorisieren</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Datum und Uhrzeit</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text" Category="Text">Datum und Uhrzeit einstellen</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Erweitert</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text" Category="Text">Erweiterte Einstellungen</String>
+  <String UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title" Category="Title">Info</String>
+  <String UniqueId="about/aboutwindow.baml:SonosController_1:System.String.$Content" Category="None">Sonos Controller für PC</String>
+  <String UniqueId="about/aboutwindow.baml:SonosControllerAlpha_1:System.String.$Content" Category="None">Sonos Controller für PC (ALPHA)</String>
+  <String UniqueId="about/aboutwindow.baml:SonosControllerBeta_1:System.String.$Content" Category="None">Sonos Controller für PC (BETA)</String>
+  <String UniqueId="about/aboutwindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">Version:</String>
+  <String UniqueId="about/aboutwindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Build:</String>
+  <String UniqueId="about/aboutwindow.baml:Run_4:System.Windows.Documents.Run.Text" Category="Text">Sonos-ID:</String>
+  <String UniqueId="about/aboutwindow.baml:submitDiagnosticsButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Diagnoseinformationen senden…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_1:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the File menu">_Datei</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_34:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the File menu">_Mini-Controller anzeigen</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_2:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the File menu">_Beenden</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_23:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the Edit menu">_Bearbeiten</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_24:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">_Ausschneiden</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">_Kopieren</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">_Einfügen</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the Manage menu">_Verwalten</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Player oder SUB hinzufügen…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_BOOST oder BRIDGE hinzufügen…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Einstellungen der _Musikbibliothek…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Diensteinstellungen…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Radiosender hinzufügen…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_29:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Musikbibliothek _jetzt aktualisieren</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_5:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Auf Software-_Updates prüfen…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Sprache wechseln…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Einstellungen…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the Help menu">_Hilfe</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Mein Sonos-Konto…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Sonos-_Produktshop…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Tastaturzugriffstasten…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Sonos-System_hilfe…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_32:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Technische _Supportwebsite…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_15:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Fehlerprotokoll…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_96:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Beta-Feedback senden…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_9:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Diagnoseinfo senden…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_99:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Aktuelles System _ignorieren…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_10:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Controller _zurücksetzen…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_11:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Ü_ber mein Sonos-System…</String>
+  <String UniqueId="utilities/timepicker.baml:TextBox_1:System.Windows.Controls.TextBox.Text" Category="Text">1</String>
+  <String UniqueId="utilities/timepicker.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">:</String>
+  <String UniqueId="utilities/timepicker.baml:TextBox_2:System.Windows.Controls.TextBox.Text" Category="Text">01</String>
+  <String UniqueId="utilities/timepicker.baml:ComboBoxItem_1:System.Windows.Controls.ContentControl.Content" Category="ComboBox">AM</String>
+  <String UniqueId="utilities/timepicker.baml:ComboBoxItem_2:System.Windows.Controls.ContentControl.Content" Category="ComboBox">PM</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderTitle_1:System.String.$Content" Category="None">Meine Musikordner auf Sonos</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderText1_1:System.String.$Content" Category="None">Klicke auf „Hinzufügen“, um deinem Sonos-System einen neuen Musikordner hinzuzufügen.</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderText2_1:System.String.$Content" Category="None">Klicke auf „Entfernen“, um den markierten Ordner zu entfernen.</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderAdd_1:System.String.$Content" Category="None">Hinzufügen</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderEdit_1:System.String.$Content" Category="None">Bearbeiten</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderRemove_1:System.String.$Content" Category="None">Entfernen</String>
+  <String UniqueId="utilities/strings.baml:IndexingMessage_1:System.String.$Content" Category="None">Musikbibliothek wird aktualisiert…</String>
+  <String UniqueId="utilities/strings.baml:IndexingMessageLine2_1:System.String.$Content" Category="None">Bitte warten.</String>
+  <String UniqueId="utilities/strings.baml:KeyboardShortcutNameHeader_1:System.String.$Content" Category="None">Funktion</String>
+  <String UniqueId="utilities/strings.baml:KeyboardShortcutRepresentationHeader_1:System.String.$Content" Category="None">Zugriffstaste</String>
+  <String UniqueId="utilities/strings.baml:PlayPause_1:System.String.$Content" Category="None">Wiedergabe/Pause</String>
+  <String UniqueId="utilities/strings.baml:PreviousTrack_1:System.String.$Content" Category="None">Vorheriger Titel</String>
+  <String UniqueId="utilities/strings.baml:NextTrack_1:System.String.$Content" Category="None">Nächster Titel</String>
+  <String UniqueId="utilities/strings.baml:QuickSkipBackward_1:System.String.$Content" Category="None">30 Sekunden zurück</String>
+  <String UniqueId="utilities/strings.baml:QuickSkipForward_1:System.String.$Content" Category="None">30 Sekunden vor</String>
+  <String UniqueId="utilities/strings.baml:ToggleShuffle_1:System.String.$Content" Category="None">Zufällige Wiedergabe ein/aus</String>
+  <String UniqueId="utilities/strings.baml:ToggleRepeat_1:System.String.$Content" Category="None">Wiederholen ein/aus</String>
+  <String UniqueId="utilities/strings.baml:ToggleCrossfade_1:System.String.$Content" Category="None">Überblenden ein/aus</String>
+  <String UniqueId="utilities/strings.baml:ToggleMute_1:System.String.$Content" Category="None">Stummschaltung für aktuellen Raum/Gruppe ein/aus</String>
+  <String UniqueId="utilities/strings.baml:MuteAll_1:System.String.$Content" Category="None">Alle stumm</String>
+  <String UniqueId="utilities/strings.baml:VolumeUp_1:System.String.$Content" Category="None">Lauter</String>
+  <String UniqueId="utilities/strings.baml:VolumeDown_1:System.String.$Content" Category="None">Leiser</String>
+  <String UniqueId="utilities/strings.baml:PlayNow_1:System.String.$Content" Category="None">Ausgewählten Titel jetzt abspielen</String>
+  <String UniqueId="utilities/strings.baml:PlayNext_1:System.String.$Content" Category="None">Ausgewählten Titel danach abspielen</String>
+  <String UniqueId="utilities/strings.baml:AddToQueue_1:System.String.$Content" Category="None">Auswahl später abspielen</String>
+  <String UniqueId="utilities/strings.baml:ReplaceQueue_1:System.String.$Content" Category="None">Liste durch Auswahl ersetzen</String>
+  <String UniqueId="utilities/strings.baml:ToggleLargeArt_1:System.String.$Content" Category="None">Vergrößerte Coveranzeige ein/aus</String>
+  <String UniqueId="utilities/strings.baml:Cut_1:System.String.$Content" Category="None">Ausschneiden</String>
+  <String UniqueId="utilities/strings.baml:Copy_1:System.String.$Content" Category="None">Kopieren</String>
+  <String UniqueId="utilities/strings.baml:Paste_1:System.String.$Content" Category="None">Einsetzen</String>
+  <String UniqueId="utilities/strings.baml:ToggleMiniPlayer_1:System.String.$Content" Category="None">Mini-Controller ein/aus</String>
+  <String UniqueId="utilities/strings.baml:ShowKeyboardShortcuts_1:System.String.$Content" Category="None">Liste der Tastaturzugriffstasten anzeigen</String>
+  <String UniqueId="utilities/strings.baml:DeleteTracks_1:System.String.$Content" Category="None">Ausgewählte(n) Titel löschen</String>
+  <String UniqueId="utilities/strings.baml:TopMusicMenu_1:System.String.$Content" Category="None">Zurück zur obersten Musikmenüebene</String>
+  <String UniqueId="utilities/strings.baml:Favorites_1:System.String.$Content" Category="None">Zu Favoriten wechseln</String>
+  <String UniqueId="utilities/strings.baml:Search_1:System.String.$Content" Category="None">Zum Suchfeld</String>
+  <String UniqueId="utilities/strings.baml:NextRoomGroup_1:System.String.$Content" Category="None">Nächste Raumgruppe auswählen</String>
+  <String UniqueId="utilities/strings.baml:PreviousRoomGroup_1:System.String.$Content" Category="None">Vorherige Raumgruppe auswählen</String>
+  <String UniqueId="utilities/strings.baml:SelectCurrentTrack_1:System.String.$Content" Category="None">Bildlauf zum aktuellen Titel in Liste</String>
+  <String UniqueId="utilities/strings.baml:UpdateMusicLibrary_1:System.String.$Content" Category="None">Musikbibliothek jetzt aktualisieren</String>
+  <String UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content" Category="None">Listengröße ändern</String>
+  <String UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content" Category="None">Aktives Fenster schließen</String>
+  <String UniqueId="utilities/strings.baml:OK_1:System.String.$Content" Category="None">OK</String>
+  <String UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content" Category="None">CancelZXZ</String>
+  <String UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content" Category="None">{0}-Optionsfeld. Drücke zum Auswählen die Leertaste.</String>
+  <String UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content" Category="None">{0}-Optionsfeld, ausgewählt.</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Wecker bearbeiten</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">OK</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Abbrechen</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_1:System.Windows.Controls.TextBlock.Text" Category="Text">Wecker</String>
+  <String UniqueId="alarms/editalarmwindow.baml:RadioButton_1:System.Windows.Controls.ContentControl.Content" Category="RadioButton">Ein</String>
+  <String UniqueId="alarms/editalarmwindow.baml:RadioButton_2:System.Windows.Controls.ContentControl.Content" Category="RadioButton">Aus</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_2:System.Windows.Controls.TextBlock.Text" Category="Text">Uhrzeit</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_3:System.Windows.Controls.TextBlock.Text" Category="Text">Raum</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_4:System.Windows.Controls.TextBlock.Text" Category="Text">Musik</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content" Category="Button">Auswählen…</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_5:System.Windows.Controls.TextBlock.Text" Category="Text">Planen</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_1:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Nur einmal</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_2:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Montag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_3:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Dienstag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Mittwoch</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_5:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Donnerstag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_6:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Freitag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_7:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Samstag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_8:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Sonntag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_6:System.Windows.Controls.TextBlock.Text" Category="Text">Lautstärke</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_7:System.Windows.Controls.TextBlock.Text" Category="Text">Dauer</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_11:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Unbegrenzt</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_9:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Inkl. gruppierte Räume</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_10:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Zufällige Musikwiedergabe</String>
+  <String UniqueId="browse/browsepanel.baml:headerSource_1:System.Windows.Controls.TextBlock.Text" Category="Text">Musikquelle auswählen</String>
+  <String UniqueId="browse/browsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text" Category="Text">MUSIK</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_6:System.Windows.Controls.TextBlock.Text" Category="Text">Keine Auswahl verfügbar.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_18:System.Windows.Controls.TextBlock.Text" Category="Text">Indexerstellung läuft. Deine Musik steht zur Verfügung, sobald die Indexerstellung abgeschlossen ist.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_10:System.Windows.Controls.TextBlock.Text" Category="Text">Mehr</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text" Category="Text">Keine Auswahl verfügbar.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_19:System.Windows.Controls.TextBlock.Text" Category="Text">Indexerstellung läuft. Deine Musik steht zur Verfügung, sobald die Indexerstellung abgeschlossen ist.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text" Category="Text">Mehr</String>
+  <String UniqueId="browse/browsepanel.baml:alarmsButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Wecker</String>
+  <String UniqueId="utilities/multibuttonmessagewindow.baml:cancelButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Abbrechen</String>
+  <String UniqueId="main/strings.baml:DefaultCancelUIMessage_1:System.String.$Content" Category="None">Bitte warten…</String>
+  <String UniqueId="main/strings.baml:Confirm_1:System.String.$Content" Category="None">Bestätigen</String>
+  <String UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content" Category="None">Musikbibliothek aktualisieren</String>
+  <String UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content" Category="None">Die Musikbibliothek deines Sonos-Systems wird aktualisiert und enthält im Anschluss die Änderungen, die du in iTunes oder anderen Musikfreigaben vorgenommen hast. Möchtest du die Musikbibliothek deines Sonos-Systems jetzt aktualisieren?</String>
+  <String UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content" Category="None">Weitere Informationen findest du unter {0}</String>
+  <String UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content" Category="None">Um einen Raum einzublenden, muss der Sonos-Player für diesen Raum auf die Werkseinstellungen zurückgesetzt werden. Weitere Informationen findest du unter {0}</String>
+  <String UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content" Category="None">Aktuelle Uhrzeit nicht eingestellt</String>
+  <String UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content" Category="None">Bevor du eine Weckeinstellung erstellen kannst, musst du zunächst die aktuelle Uhrzeit einstellen.</String>
+  <String UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content" Category="None">Aktuelle Uhrzeit einstellen</String>
+  <String UniqueId="main/strings.baml:LCFirewallMessage1_1:System.String.$Content" Category="None">Die Firewall-Einstellung deines Computers wurde geändert. Dein Sonos Controller hat die Verbindung zum Sonos-System verloren.</String>
+  <String UniqueId="main/strings.baml:LCFirewallMessage2_1:System.String.$Content" Category="None">Weitere Informationen findest du unter {0}</String>
+  <String UniqueId="main/strings.baml:LCFirewallMessage3_1:System.String.$Content" Category="None">Klicke auf die Schaltfläche „Firewall konfigurieren“, um deine Firewall-Einstellungen anzupassen.</String>
+  <String UniqueId="main/strings.baml:LCFirewallButton_1:System.String.$Content" Category="None">Firewall konfigurieren</String>
+  <String UniqueId="main/strings.baml:LCMoreOptionsButton_1:System.String.$Content" Category="None">Weitere Optionen…</String>
+  <String UniqueId="main/strings.baml:LCResetControllerItem_1:System.String.$Content" Category="None">Controller zurücksetzen</String>
+  <String UniqueId="main/strings.baml:LCAboutSonosItem_1:System.String.$Content" Category="None">Über mein Sonos-System</String>
+  <String UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content" Category="None">Diagnoseinfo senden</String>
+  <String UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content" Category="None">Verknüpfung konnte nicht geöffnet werden: 0. Stelle sicher, dass ein Standard-Internetbrowser festgelegt ist.</String>
+  <String UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content" Category="None">Fehler beim Öffnen von Link</String>
+  <String UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content" Category="None">Music library updateZXZ</String>
+  <String UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content" Category="None">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
+  <String UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content" Category="None">Update NowZXZ</String>
+  <String UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content" Category="None">Remind Me LaterZXZ</String>
+  <String UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content" Category="None">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content" Category="Text">Nutzungsdaten</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content" Category="Text">Um unsere Produkte und unseren Kundendienst zu verbessern, erfasst Sonos Informationen zu deiner Verwendung des Sonos-Systems. Weitere Informationen findest du unter</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Ja, Nutzungsdaten freigeben, um Sonos-Produkte zu verbessern.</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text" Category="Text">Wenn der Ausgangspegel eines Sonos-Players auf „Festgelegt“ eingestellt ist, sind die Equalizer-Einstellungen nicht verfügbar.</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Ändere die Ausgangspegel-Einstellung auf der Registerkarte „Basis“, um die Equalizer-Bedienelemente zu aktivieren.</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Zurücksetzen</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Zurücksetzen</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Zurücksetzen</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Zurücksetzen</String>
+  <String UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Gruppe</String>
+  <String UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Info &amp; Optionen</String>
+  <String UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Stummschaltung ist deaktiviert</String>
+  <String UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Stummschaltung ist aktiviert</String>
+  <String UniqueId="nowplaying/nowplayingpanel.baml:header_1:System.Windows.Controls.TextBlock.Text" Category="Text">AKTUELLER TITEL</String>
+  <String UniqueId="nowplaying/nowplayingpanel.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Info &amp; Optionen</String>
+  <String UniqueId="alarms/strings.baml:SC_ALARM_UNKNOWN_1:System.String.$Content" Category="None">Kein Raum ausgewählt</String>
+  <String UniqueId="alarms/strings.baml:DateTimeFormatString_1:System.String.$Content" Category="None">Aktuelle Uhrzeit: {0} - {1} {2}</String>
+  <String UniqueId="alarms/strings.baml:TitleFallback_1:System.String.$Content" Category="None">Weckmusik</String>
+  <String UniqueId="alarms/strings.baml:AddTitle_1:System.String.$Content" Category="None">Weckeinstellung hinzufügen</String>
+  <String UniqueId="browse/strings.baml:SC_SLEEP_TIMER_HOURS_MINUTES_FORMAT_1:System.String.$Content" Category="None">Zeit bis Schlummer ({0}:{1:00})</String>
+  <String UniqueId="browse/strings.baml:SC_SLEEP_TIMER_OFF_1:System.String.$Content" Category="None">Schlummermodus</String>
+  <String UniqueId="browse/strings.baml:SC_TRACK_NUMBER_FORMAT_1:System.String.$Content" Category="None">{0:00}</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content" Category="None">Bestätigen</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CLEAR_1:System.String.$Content" Category="None">Löschen</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CANCEL_1:System.String.$Content" Category="None">Abbrechen</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content" Category="None">Möchtest du die Liste löschen?</String>
+  <String UniqueId="browse/strings.baml:SearchEmptyString_1:System.String.$Content" Category="None">Bei der Suche wurden keine Ergebnisse für „{0}“ in „{1}“ gefunden. Versuche es mit einer anderen Kategorie oder einem neuen Suchbegriff.</String>
+  <String UniqueId="browse/strings.baml:UnselectAllLabel_1:System.String.$Content" Category="None">Auswahl aufheben</String>
+  <String UniqueId="browse/strings.baml:NotEnoughRoom_1:System.String.$Content" Category="None">Sonos verfügt nicht über genügend Speicherplatz zum Speichern der Liste. Entferne alte gespeicherte Playlisten oder Listen in anderen Räumen und versuche es erneut.</String>
+  <String UniqueId="browse/strings.baml:UnableToSave_1:System.String.$Content" Category="None">Liste kann nicht gespeichert werden.</String>
+  <String UniqueId="browse/strings.baml:UnableToSaveMobileTracks_1:System.String.$Content" Category="None">Titel von Mobilgeräten können nicht in Sonos-Playlisten abgelegt werden und wurden nicht gespeichert.</String>
+  <String UniqueId="browse/strings.baml:UnableToSaveAllMobileTrack_1:System.String.$Content" Category="None">Die Liste enthält nur Titel von Mobilgeräten. Diese Titel können nicht in Sonos-Playlisten gespeichert werden.</String>
+  <String UniqueId="browse/strings.baml:AutomationBrowse_1:System.String.$Content" Category="None">Durchsuchen</String>
+  <String UniqueId="browse/strings.baml:AutomationQueue_1:System.String.$Content" Category="None">Liste</String>
+  <String UniqueId="browse/strings.baml:AutomationSearchbox_1:System.String.$Content" Category="None">Suchfeld</String>
+  <String UniqueId="browse/strings.baml:AutomationResizeQueue_1:System.String.$Content" Category="None">Listengröße ändern</String>
+  <String UniqueId="browse/strings.baml:RecentSearches_1:System.String.$Content" Category="None">Letzte Suchläufe</String>
+  <String UniqueId="browse/strings.baml:ClearRecentSearches_1:System.String.$Content" Category="None">Letzte Suchläufe löschen</String>
+  <String UniqueId="browse/strings.baml:NoRecentSearches_1:System.String.$Content" Category="None">Keine Suchläufe</String>
+  <String UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TITLE_1:System.String.$Content" Category="None">Sonos-Playliste vorhanden</String>
+  <String UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TEXT_FORMAT_1:System.String.$Content" Category="None">Eine Sonos-Playliste namens „{0}” ist bereits vorhanden. Wenn du sie ersetzt, wird der aktuelle Inhalt überschrieben.</String>
+  <String UniqueId="browse/strings.baml:PLAYLIST_EXISTS_OK_BUTTON_1:System.String.$Content" Category="None">Ersetzen</String>
+  <String UniqueId="browse/strings.baml:AutomationBackButton_1:System.String.$Content" Category="None">Zurück</String>
+  <String UniqueId="browse/strings.baml:AutomationDropdownButton_1:System.String.$Content" Category="None">Dropdown</String>
+  <String UniqueId="browse/strings.baml:ExplicitBadgeString_1:System.String.$Content" Category="None">{0} – Anstößige Inhalte</String>
+  <String UniqueId="browse/strings.baml:RestrictedString_1:System.String.$Content" Category="None">{0} – Eingeschränkte Inhalte</String>
+  <String UniqueId="browse/strings.baml:RestrictedAndExplicitString_1:System.String.$Content" Category="None">{0} – Eingeschränkte und anstößige Inhalte</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Wecker bearbeiten</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Weckmusik festlegen</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Abbrechen</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Weckmusik suchen</String>
+  <String UniqueId="alarms/editalarmbrowsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text" Category="Text">NACH OBEN</String>
+  <String UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Keine Auswahl verfügbar.</String>
+  <String UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text" Category="Text">Keine Auswahl verfügbar.</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Stummschaltung ist deaktiviert</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Stummschaltung ist aktiviert</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Stummschaltung ist deaktiviert</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Stummschaltung ist aktiviert</String>
+  <String UniqueId="nowplaying/mutevolume.baml:fixedText_1:System.Windows.Controls.TextBlock.Text" Category="Text">Festgelegte Lautstärke</String>
+  <String UniqueId="nowplaying/mutevolume.baml:individualOnlyText_1:System.Windows.Controls.TextBlock.Text" Category="Text">Raumlautstärke einstellen</String>
+  <String UniqueId="browse/queuepanel.baml:header_1:System.Windows.Controls.TextBlock.Text" Category="Text">LISTE</String>
+  <String UniqueId="browse/queuepanel.baml:notInUse_1:System.Windows.Controls.TextBlock.Text" Category="Text">(Nicht verwendet)</String>
+  <String UniqueId="browse/queuepanel.baml:notInUseTooltip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Nicht verwendet</String>
+  <String UniqueId="browse/queuepanel.baml:queueEmpty_1:System.Windows.Controls.TextBlock.Text" Category="Text">Liste ist leer.</String>
+  <String UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Liste löschen</String>
+  <String UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Liste speichern</String>
+  <String UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content" Category="None">Weiße Statusanzeige</String>
+  <String UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content" Category="None">BRIDGE-Name</String>
+  <String UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content" Category="None">DOCK-Name</String>
+  <String UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content" Category="None">Raumname</String>
+  <String UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content" Category="None">Basis</String>
+  <String UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content" Category="None">Allgemein</String>
+  <String UniqueId="settingsmenu/strings.baml:MusicServersTabHeader_1:System.String.$Content" Category="None">Musikquellen</String>
+  <String UniqueId="settingsmenu/strings.baml:UsageTabHeader_1:System.String.$Content" Category="None">Nutzung</String>
+  <String UniqueId="settingsmenu/strings.baml:LanguageTabHeader_1:System.String.$Content" Category="None">Sprache</String>
+  <String UniqueId="settingsmenu/strings.baml:Anonymous_1:System.String.$Content" Category="None">&lt;Anonym&gt;</String>
+  <String UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingHeaderText_1:System.String.$Content" Category="None">Berechtigungen für Musikbibliothek</String>
+  <String UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingLabelText_1:System.String.$Content" Category="None">Berechtigungen für Musikdateien so ändern, dass das Sonos-System stets darauf zugreifen kann.</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationMusicLibrary_1:System.String.$Content" Category="None">Musikbibliothek</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationServices_1:System.String.$Content" Category="None">Dienste</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationVolume_1:System.String.$Content" Category="None">Lautstärke</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationBass_1:System.String.$Content" Category="None">Bass</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationTreble_1:System.String.$Content" Category="None">Treble</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationBalance_1:System.String.$Content" Category="None">Balance</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content" Category="None">SUB-Pegeleinstellung</String>
+  <String UniqueId="settingsmenu/strings.baml:EditButtonLabel_1:System.String.$Content" Category="None">Bearbeiten</String>
+  <String UniqueId="settingsmenu/strings.baml:BassHeader_1:System.String.$Content" Category="None">Bass</String>
+  <String UniqueId="settingsmenu/strings.baml:TrebleHeader_1:System.String.$Content" Category="None">Treble</String>
+  <String UniqueId="settingsmenu/strings.baml:BalanceHeader_1:System.String.$Content" Category="None">Balance</String>
+  <String UniqueId="settingsmenu/strings.baml:LoudnessLabel_1:System.String.$Content" Category="None">Loudness</String>
+  <String UniqueId="settingsmenu/strings.baml:LeftLabelMinus_1:System.String.$Content" Category="None">-</String>
+  <String UniqueId="settingsmenu/strings.baml:RightLabelPlus_1:System.String.$Content" Category="None">+</String>
+  <String UniqueId="settingsmenu/strings.baml:LeftLabelMin_1:System.String.$Content" Category="None">Min.</String>
+  <String UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content" Category="None">Max.</String>
+  <String UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content" Category="None">L</String>
+  <String UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content" Category="None">R</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content" Category="None">SUB</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content" Category="None">Ein</String>
+  <String UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content" Category="None">SUB-Pegel</String>
+  <String UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content" Category="None">Platzierungseinstellung</String>
+  <String UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content" Category="None">Dialogverbesserung</String>
+  <String UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content" Category="None">Audioverzögerung (Lip-Sync)</String>
+  <String UniqueId="settingsmenu/strings.baml:SubPolarityLabel_1:System.String.$Content" Category="None">Ein</String>
+  <String UniqueId="settingsmenu/strings.baml:SpeakerSizeHeader_1:System.String.$Content" Category="None">Lautsprechergröße (Crossover)</String>
+  <String UniqueId="settingsmenu/strings.baml:ParentalControlsTitle_1:System.String.$Content" Category="None">Jugendschutz</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnabledText_1:System.String.$Content" Category="None">Die Filterung anstößiger Inhalte ist aktiviert. Klicke unten auf die Schaltfläche, um die Wiedergabe anstößiger Inhalte auf deinem Sonos-System zu erlauben. Das Filtern von Inhalten wird nicht von allen Diensten unterstützt.</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisabledText_1:System.String.$Content" Category="None">Die Filterung anstößiger Inhalte ist deaktiviert. Klicke unten auf die Schaltfläche, um die Wiedergabe anstößiger Inhalte auf deinem Sonos-System zu verhindern. Das Filtern von Inhalten wird nicht von allen Diensten unterstützt.</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnableButtonTitle_1:System.String.$Content" Category="None">Filterung anstößiger Inhalte aktivieren</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisableButtonTitle_1:System.String.$Content" Category="None">Filterung anstößiger Inhalte deaktivieren</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringNoServices_1:System.String.$Content" Category="None">Es gibt keine Musikdienste auf deinem Sonos-System, die das Filtern von Inhalten unterstützen.</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoButtonTitle_1:System.String.$Content" Category="None">Weitere Infos</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoUri_1:System.String.$Content" Category="None">http://faq.sonos.com/parentalcontrols</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundLevelHeader_1:System.String.$Content" Category="None">TV-Pegel</String>
+  <String UniqueId="settingsmenu/strings.baml:MusicSurroundLevelHeader_1:System.String.$Content" Category="None">Musikpegel</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSurroundEnabledHeader_1:System.String.$Content" Category="None">Surround-Lautsprecher</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSurroundEnabledLabel_1:System.String.$Content" Category="None">Ein</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeHeader_1:System.String.$Content" Category="None">Musikwiedergabe</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeAmbient_1:System.String.$Content" Category="None">Hintergrund</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeFull_1:System.String.$Content" Category="None">Voll</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeDescription_1:System.String.$Content" Category="None">Während der Musikwiedergabe dienen die Surround-Lautsprecher als Ergänzung durch subtilen Hintergrundsound oder lauteren, vollen Sound.</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundBalanceLabel_1:System.String.$Content" Category="None">Balance</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundBalanceButtonLabel_1:System.String.$Content" Category="None">Balance für Surround-Lautsprecher</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundBalanceDescription_1:System.String.$Content" Category="None">Lege die Surround-Balance manuell fest, wenn Trueplay deaktiviert ist.</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationEQLabel_1:System.String.$Content" Category="None">EQ</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSurroundLevel_1:System.String.$Content" Category="None">Surround-TV-Pegel</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationMusicSurroundLevel_1:System.String.$Content" Category="None">Surroundmusikpegel</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationAudioDelay_1:System.String.$Content" Category="None">Audioverzögerung</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSubGain_1:System.String.$Content" Category="None">SUB-Verstärkung</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSubEnabled_1:System.String.$Content" Category="None">SUB aktiviert</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSubPolarity_1:System.String.$Content" Category="None">Platzierungseinstellung</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSurroundsEnabled_1:System.String.$Content" Category="None">Surround aktiviert</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationIRSignalLight_1:System.String.$Content" Category="None">IR-Signalleuchte</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationIRRepeater_1:System.String.$Content" Category="None">IR-Repeater</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationTVAutoplay_1:System.String.$Content" Category="None">TV-Autoplay</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content" Category="None">Gruppierung bei Autoplay aufheben</String>
+  <String UniqueId="zones/zonespanel.baml:header_1:System.Windows.Controls.TextBlock.Text" Category="Text">RÄUME</String>
+  <String UniqueId="zones/zonespanel.baml:pauseAllButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Alle anhalten</String>
+  <String UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">OK</String>
+  <String UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Abbrechen</String>
+  <String UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">OK</String>
+  <String UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Abbrechen</String>
 </Strings>
