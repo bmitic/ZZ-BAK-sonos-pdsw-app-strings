@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="zones_pause_all">Pausar Tudo</string>
 <string name="zones_pause_all_warning">Você deseja pausar a música em todas as salas?</string>
 <string name="zone_group_button_text">Grupo</string>
-<string name="zone_menu_select_to_update">Atualização do Software Necessária</string>
-<string name="zone_menu_select_to_setup_sub">Configuração de SUB</string>
-<string name="zone_menu_select_to_configure">Continuar Configuração</string>
+<string name="zone_menu_select_to_update">Selecionar para Atualizar</string>
+<string name="zone_menu_select_to_configure">Selecione para configurar</string>
+<string name="zone_menu_select_to_register">Selecione para registrar</string>
 </resources>
