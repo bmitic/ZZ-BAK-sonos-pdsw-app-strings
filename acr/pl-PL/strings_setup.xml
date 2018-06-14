@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="setup_wizard_next">Dalej</string>
 <string name="setup_wizard_back">Wstecz</string>
@@ -7,24 +7,9 @@
 <string name="welcome_body_active_vpn_long">Obecnie nawiązano łączność z wirtualną siecią prywatną (VPN), co może uniemożliwiać połączenie z systemem Sonos. Zakończ połączenie z VPN i spróbuj ponownie.</string>
 <string name="welcome_setup_button_text">Skonfiguruj nowy system Sonos</string>
 <string name="welcome_join_button_text">Połącz się z istniejącym systemem</string>
-<string name="welcome_body_or">- LUB -</string>
 <string name="welcome_body">Nie masz jeszcze systemu Sonos?</string>
-<string name="welcome_signup_button_text">Bądź na bieżąco</string>
 <string name="welcome_viewdemo_button_text">Dowiedz się więcej o Sonos</string>
-<string name="setup_try_again">Spróbuj ponownie</string>
-<string name="setup_zoneplayer_spinner_prompt">Wybierz nazwę</string>
-<string name="setup_autoplay_spinner_select_text">Brak</string>
-<string name="setup_autoplay_spinner_select_uri"></string>
-<string name="setup_autoplay_spinner_select_id"></string>
-<string name="setup_country_list_spinner_prompt">Wybierz kraj</string>
-<string name="setup_sonos_registration_postalcode_error">Wpisz poprawny kod pocztowy.</string>
-<string name="setup_device_name_zoneplayer">Odtwarzacz Sonos</string>
-<string name="setup_device_name_zonebridge">BRIDGE</string>
-<string name="setup_device_name_sonos_dock">DOCK</string>
-<string name="setup_device_name_unknown">Komponent Sonos</string>
 <string name="setup_device_name_really_unknown">Nieznany</string>
-<string name="welcome_learn_more_visible_url">www.sonos.com</string>
-<string name="welcome_learn_more_actual_url">http://www.sonos.com/acr_ref</string>
 <string name="demo_sonos_string">Dowiedz się więcej</string>
 <string name="show_sonos_string">Chcesz pokazać system Sonos innym?</string>
 <string name="sub_level_minus3">-3</string>
@@ -34,9 +19,6 @@
 <string name="sub_level_plus1">+1</string>
 <string name="sub_level_plus2">+2</string>
 <string name="sub_level_plus3">+3</string>
-<string name="left_string">Lewy</string>
-<string name="right_string">Prawy</string>
-<string name="playback_tips_next">Dalej</string>
 <string name="playback_tips_previous">Wstecz</string>
 <string name="playback_tips_done">Gotowe</string>
 <string name="show_string">Pokaż</string>
