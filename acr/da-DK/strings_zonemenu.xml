@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="zones_pause_all">Stop alt</string>
 <string name="zones_pause_all_warning">Vil du stoppe musikken i alle rum midlertidigt?</string>
 <string name="zone_group_button_text">Gruppe</string>
-<string name="zone_menu_select_to_update">En software-opdatering er nødvendig</string>
-<string name="zone_menu_select_to_setup_sub">Konfigurer SUB</string>
-<string name="zone_menu_select_to_configure">Fortsæt opsætning</string>
+<string name="zone_menu_select_to_update">Vælg for at opdatere</string>
+<string name="zone_menu_select_to_configure">Vælg for at konfigurere</string>
+<string name="zone_menu_select_to_register">Vælg for at registrere</string>
 </resources>
