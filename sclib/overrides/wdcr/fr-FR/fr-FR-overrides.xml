@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Paramètres de la bibliothèque musicale</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Paramètres des services</String>
@@ -19,23 +19,18 @@
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Vérifier automatiquement les mises à jour</String>
 <String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Afficher les serveurs Windows Media</String>
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Mises à jour système</String>
+    
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Assistant Installation de Sonos</String>
 <String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Cliquez sur « %2$s » pour ajouter un de ces produits ou cliquez sur « %1$s » pour le faire ultérieurement.</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Cliquez sur « %2$s » pour réessayer ou sur « %1$s » pour vous enregistrer plus tard.</String>
 <String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Vous pourrez modifier vos préférences à tout moment dans « Gérer » &gt; « Paramètres ».</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Après le démarrage du Sonos Controller, choisissez Gérer &gt; Vérifier les mises à jour.</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Manage &gt; Settings &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
-<String id="SCLIB_STR_MSS_CredError">Le serveur %1$s n'a pas reconnu vos informations de connexion.
-
-Assurez-vous que ces informations (adresse e-mail ou nom d'utilisateur) et votre mot de passe sont corrects, appuyez sur le bouton Retour, puis réessayez.
-
-Si le problème persiste, contactez %2$s pour obtenir de l'aide pour votre compte.</String>
+<String id="SCLIB_STR_MSS_CredError">Le serveur %1$s n'a pas reconnu vos informations de connexion. Assurez-vous que ces informations (adresse e-mail ou nom d'utilisateur) et votre mot de passe sont corrects, appuyez sur le bouton Retour, puis réessayez. Si le problème persiste, contactez %2$s pour obtenir de l'aide pour votre compte.</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Retour</String>
 <String id="SCLIB_STR_Queue_Title">LISTE</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">LISTE (non utilisée)</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">Pour ajouter les services bêta publics Sonos Labs, vous devez partager les données d'utilisation avec Sonos.
-
-Pour afficher ou modifier le paramètre de vos données d'utilisation, accédez à Gérer &gt; Paramètres &gt; Paramètres avancés &gt; Améliorer Sonos.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Pour ajouter les services bêta publics Sonos Labs, vous devez partager les données d'utilisation avec Sonos. Pour afficher ou modifier le paramètre de vos données d'utilisation, accédez à Gérer &gt; Paramètres &gt; Paramètres avancés &gt; Améliorer Sonos.</String>
 <String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Allez sur « Gérer » &gt; « Paramètres » &gt; « Paramètres avancés » et sélectionnez « Configuration sans fil ».</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Vous pouvez essayer de vous enregistrer plus tard à partir du menu Aide &gt; Enregistrement du système Sonos.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">Compilations iTunes®</String>
@@ -70,9 +65,7 @@ Pour afficher ou modifier le paramètre de vos données d'utilisation, accédez 
 <String id="RHHSTR_E_FILE_ACCESS_DENIED">Accès au fichier %1$s refusé.</String>
 <String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Accès au dossier partagé %1$s refusé.</String>
 <String id="RHHSTR_E_TOO_MANY_USERS">Le dossier partagé %1$s a trop de connexions actives.</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Un problème est survenu lors de l’ajout de musique dans le dossier partagé « %1$s » de Sonos. Consultez le lien suivant pour plus d'informations :
-
-http://faq.sonos.com/serverstack</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Un problème est survenu lors de l’ajout de musique dans le dossier partagé « %1$s » de Sonos. S'il vous plaît voir le lien suivant pour plus d'informations: http://faq.sonos.com/serverstack</String>
 <String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Impossible d'ajouter le dossier partagé %1$s à votre bibliothèque musicale (%2$d).</String>
 <String id="RHHSTR_SHARE_NAME_TOO_LONG">Le nom du dossier partagé est trop long.</String>
 <String id="RHHSTR_USERNAME_TOO_LONG">Le nom d'utilisateur pour le dossier partagé est trop long.</String>
@@ -94,11 +87,9 @@ http://faq.sonos.com/serverstack</String>
 <String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Téléchargez le Sonos Controller le plus récent depuis le site Web Sonos.</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Pour mettre à jour, sélectionnez Gérer &gt; Vérifier les mises à jour du logiciel…</String>
-<String id="RHHSTR_SIE_ERROR">« %1$s » n'est plus disponible. Le périphérique où les fichiers musicaux sont stockés n'est peut-être pas sous tension, ou le chemin a changé.
-Accédez à Gérer &gt; Paramètres de la bibliothèque musicale pour vérifier le nom du chemin.</String>
+<String id="RHHSTR_SIE_ERROR">« %1$s » n'est plus disponible. Le périphérique où les fichiers musicaux sont stockés n'est peut-être pas sous tension, ou le chemin a changé. Accédez à Gérer &gt; Paramètres de la bibliothèque musicale pour vérifier le nom du chemin.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Recherche de votre système Sonos…</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Désolé, nous ne pouvons pas nous connecter à Sonos.
-Essayons de résoudre le problème comme suit :</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Désolé, nous ne pouvons pas nous connecter à Sonos. Essayons de résoudre le problème comme suit :</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Désactivez et activez votre Wi-Fi.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Débranchez votre box ADSL, puis rebranchez-la.</String>
