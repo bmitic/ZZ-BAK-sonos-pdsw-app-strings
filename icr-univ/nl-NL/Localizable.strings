@@ -6,9 +6,13 @@
     "<Home>" = "Mijn Sonos";
     "<Browse>" = "Bladeren";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Informatie en opties bekijken over wat er momenteel wordt getest. \\" "
+    " <LocalziationTestICR2> " = "Er bestaat al een Sonos-afspeellijst met de naam" %1$@ ". Als je het vervangt, wordt de inhoud overschreven. " 
 
-    "<Sonos>" = "SONOS";
+ / * Algemeen * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Annuleren";
     "<Done>" = "Klaar";
     "<Yes>" = "Ja";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Volgende hoofdstuk";
     "<QUEUE>" = "Wachtrij";
     "<NotInUse>" = "Niet in gebruik";
-    "<NowPlayingNoMusic>" = "Geen muziek";
+    "<NowPlayingNoMusic>" = "Geen muziek geselecteerd";
     "<NowPlayingDialogEnhacementLabel>" = "Spraakversterking";
     "<NowPlayingNightModeLabel>" = "Nachtmodus";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Twee keer tikken om 'Je hoort nu' te openen";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ en %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ en %3$de andere";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Speelt nu %@";
+    "<NowPlayingOpen>" = "Nu Openen Spelen";
     "<NowPlayingClose>" = "'Je hoort nu' sluiten";
-    "<NowPlayingCloseHint>" = "Twee keer tikken om terug te keren naar muziek browsen";
 
 /* Info Menu */
 
@@ -180,9 +183,9 @@
     "<QueueSaveErrorAllMobileTracks>" = "De wachtrij bevat alleen nummers van mobiele apparaten. Deze nummers kunnen niet worden opgeslagen in Sonos-afspeellijsten.";
     "<QueuePlaylistExistsWarningTitle>" = "Sonos-afspeellijst bestaat al";
     // %1$@, the name of the pre-existing playlist
-    "<QueuePlaylistExistsWarningMessage_1>" = "De Sonos-afspeellijst “%1$@” bestaat al. Door deze te vervangen wordt de huidige inhoud overschreven.";
+    "<QueuePlaylistExistsWarningMessage_1>" = "De Sonos-afspeellijst “%1$@” bestaat al. Door deze te vervangen wordt de huidige inhoud overschreven. Vervang";
     "<QueuePlaylistReplace>" = "Vervang";
-    "<AddToPlaylistFolderHint>" = "Map met afspeellijsten. Twee keer tikken om te openen.";
+    "<AddToPlaylistFolderHint>" = "Afspeellijst map. Twee keer tikken om te openen.";
     "<AddToPlaylistDisabledHint>" = "Je hebt geen toestemming om nummers aan deze afspeellijst toe te voegen.";
 
 /* Queue Voice Over */
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d nummers.";
+    "<QueueTrackLabel_1>" = ".%d nummer (s).";
     "<QueueShuffleButtonLabel>" = "Willekeurig";
     "<QueueRepeatAllButtonLabel>" = "Alles herhalen";
     "<QueueRepeatOneButtonLabel>" = "Nummer herhalen";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "Kamers";
     "<GroupRooms>" = "Kamers groeperen";
-    "<Group>" = "Groep";
+    "<Group>" = "Test";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
-    "<GroupRooms_Short>" = "Groep";
+    "<GroupRooms_Short>" = "Kamers groeperen";
     "<PauseAll>" = "Alles pauzeren";
     "<PauseAllConfirmation>" = "Weet je zeker dat je de muziek in alle kamers wilt pauzeren?";
-    "<ContinueSetUp>" = "Doorgaan met installeren";
-    "<SoftwareUpdateRequired>" = "Software-update vereist";
+    "<SelectToUpdate>" = "Selecteer om te updaten";
+    "<SelectToConfigure>" = "Selecteer om in te stellen";
+    "<SelectToRegister>" = "Selecteer om te registreren";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "Instellingen";
     "<RoomSettings>" = "Instellingen kamer";
     "<ParentalControls>" = "Ouderlijk toezicht";
+    "<MySonosSettings>" = "Instellingen Mijn Sonos";
     "<MoreInformation>" = "Meer informatie";
     "<Help>" = "Help";
     "<Call>" = "Bellen";
@@ -342,7 +347,7 @@
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Je bent niet verbonden met het '%1$@'-netwerk. Selecteer '%1$@' in de lijst met beschikbare netwerken in de WiFi-instellingen van deze iPod.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Je bent niet verbonden met het '%1$@'-netwerk. Selecteer '%1$@' in de lijst met beschikbare netwerken in de WiFi-instellingen van deze iPad.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Je bent niet verbonden met het '%1$@'-netwerk. Selecteer '%1$@' in de lijst met beschikbare netwerken in de WiFi-instellingen van deze iPhone.";
-    "<Wireless_NotSonosAP_Body_2>" = "Druk op 'Opnieuw proberen' om de installatie te herhalen. Als je problemen blijft ondervinden, druk je op 'Alternatieve installatie'.";
+    "<Wireless_NotSonosAP_Body_2>" = "Druk op 'Opnieuw proberen' om de installatie te herhalen.  Als je problemen blijft ondervinden, druk je op 'Alternatieve installatie'.";
     "<Wireless_NotSonosAP_TryAgain>" = "Opnieuw proberen";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Alternatieve installatie";
 
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "nog %1$@ %2$@ %3$@";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ overblijvende";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "nog %1$@ %2$@";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,10 +479,10 @@
     "<FavoritesIconTitle>" = "Mijn Sonos";
     "<PlayIconPlainTitle>" = "Afspelen";
     "<PlayIconPlainSubtitle>" = "Laatst afgespeelde hervatten";
-    "<PlayIconRoomTitle>" = "Afspelen: %@";
+    "<PlayIconRoomTitle>" = "Spelen: %@";
     "<PauseIconPlainTitle>" = "Pauze";
     "<PauseIconPlainSubtitle>" = "Huidige muziek pauzeren";
-    "<PauseIconRoomTitle>" = "Pauzeren: %@";
+    "<PauseIconRoomTitle>" = "Pauze: %@";
 
 /* Store mode */
 
@@ -506,8 +511,10 @@
     "<DirectControlLastPlayedFrom>" = "Laatst afgespeeld vanaf";
     "<DirectControlLastPlayedFrom_1>" = "Laatst afgespeeld vanaf %1$@";
     "<DirectControlResumeFrom>" = "Hervatten vanaf";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Hervat vanaf %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
-    "<VoiceOverPlayingFrom_1>" = "Speelt nu af vanaf %1$@";
+    "<VoiceOverPlayingFrom_1>" = "Afspelen vanaf %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
     "<VoiceOverCurrentlyPlayingFrom_1>" = "Speelt nu vanaf %1$@";
     // VoiceOver label: "Currently Playing." - used when playback is in progress but service name is unknown
