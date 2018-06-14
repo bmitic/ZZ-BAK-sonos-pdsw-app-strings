@@ -6,9 +6,13 @@
     "<Home>" = "Min Sonos";
     "<Browse>" = "Bla gjennom";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Se informasjon og alternativer på det som for tiden blir testet. \\" "
+    " <LocalziationTestICR2> " = "En Sonos spilleliste som heter" %1$@ "eksisterer allerede. Hvis du erstatter det, vil det overskrive innholdet. " 
 
-    "<Sonos>" = "SONOS";
+ / * Generelt * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Avbryt";
     "<Done>" = "Ferdig";
     "<Yes>" = "Ja";
@@ -63,7 +67,7 @@
 
     "<LimitedConnTrySearchingAgain>" = "Søk på nytt";
     "<LimitedConnConnecting>" = "Søker etter Sonos på ditt Wi-Fi";
-    "<LimitedConnStillSearching>" = "Vent litt. Søker fremdeles…";
+    "<LimitedConnStillSearching>" = "Vent litt. Leter fortsatt…";
 
     "<WelcomeSetupButton>" = "Konfigurere et nytt Sonos-system";
     "<WelcomeJoinButton>" = "Koble til et eksisterende system";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Neste kapittel";
     "<QUEUE>" = "Kø";
     "<NotInUse>" = "Ikke i bruk";
-    "<NowPlayingNoMusic>" = "Ingen musikk";
+    "<NowPlayingNoMusic>" = "Ingen musikk valgt";
     "<NowPlayingDialogEnhacementLabel>" = "Taleforbedring";
     "<NowPlayingNightModeLabel>" = "Nattlyd";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Dobbelttrykk for å åpne Spiller nå";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ og%2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ og %3$d andre";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Spilles av: %@";
+    "<NowPlayingOpen>" = "Åpne nå avspilling";
     "<NowPlayingClose>" = "Lukk Spiller nå";
-    "<NowPlayingCloseHint>" = "Dobbelttrykk for å gå tilbake til musikksøk";
 
 /* Info Menu */
 
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d låter.";
+    "<QueueTrackLabel_1>" = ".%d sang (er).";
     "<QueueShuffleButtonLabel>" = "Bland";
     "<QueueRepeatAllButtonLabel>" = "Gjenta alle";
     "<QueueRepeatOneButtonLabel>" = "Gjenta låt";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "Rom";
     "<GroupRooms>" = "Grupper rom";
-    "<Group>" = "Gruppe";
+    "<Group>" = "Test";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Grupper rom";
     "<PauseAll>" = "Pause alle";
     "<PauseAllConfirmation>" = "Er du sikker på at du ønsker å pause musikken som spiller i alle rom?";
-    "<ContinueSetUp>" = "Fortsett installasjonen";
-    "<SoftwareUpdateRequired>" = "Programvareoppdatering er nødvendig";
+    "<SelectToUpdate>" = "Velg for å oppdatere";
+    "<SelectToConfigure>" = "Velg for å sette opp";
+    "<SelectToRegister>" = "Velg for å registrere deg";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "Innstillinger";
     "<RoomSettings>" = "Rominnstillinger";
     "<ParentalControls>" = "Foreldrekontroll";
+    "<MySonosSettings>" = "Innstillinger for Min Sonos";
     "<MoreInformation>" = "Mer informasjon";
     "<Help>" = "Hjelp";
     "<Call>" = "Ring";
@@ -342,7 +347,7 @@
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Du er ikke koblet til nettverket «%1$@». I Wi-Fi-innstillingene for iPod velger du «%1$@» fra listen over tilgjengelige nettverk.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Du er ikke koblet til nettverket «%1$@». I Wi-Fi-innstillingene for iPad velger du «%1$@» fra listen over tilgjengelige nettverk.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Du er ikke koblet til nettverket «%1$@». I Wi-Fi-innstillingene for iPhone velger du «%1$@» fra listen over tilgjengelige nettverk.";
-    "<Wireless_NotSonosAP_Body_2>" = "Velg «Prøv igjen» for å gjenta konfigureringen. Hvis du fortsatt har problemer, velger du «Alternativt oppsett».";
+    "<Wireless_NotSonosAP_Body_2>" = "Velg «Prøv igjen» for å gjenta konfigureringen.  Hvis du fortsatt har problemer, velger du «Alternativt oppsett».";
     "<Wireless_NotSonosAP_TryAgain>" = "Prøv igjen";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Alternativt oppsett";
 
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ gjenstår";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ gjenstående";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "%1$@ %2$@ gjenstår";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,14 +479,14 @@
     "<FavoritesIconTitle>" = "Min Sonos";
     "<PlayIconPlainTitle>" = "Spill";
     "<PlayIconPlainSubtitle>" = "Gjenoppta siste avspilling";
-    "<PlayIconRoomTitle>" = "Spill av: %@";
+    "<PlayIconRoomTitle>" = "Spille: %@";
     "<PauseIconPlainTitle>" = "Pause";
     "<PauseIconPlainSubtitle>" = "Sett musikk på pause";
-    "<PauseIconRoomTitle>" = "Sett på pause: %@";
+    "<PauseIconRoomTitle>" = "Pause: %@";
 
 /* Store mode */
 
-    "<GotIt>" = "Utført";
+    "<GotIt>" = "Utført!";
 
 /* In App Messages */
 
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Sist spilt fra";
     "<DirectControlLastPlayedFrom_1>" = "Sist spilt fra %1$@";
     "<DirectControlResumeFrom>" = "Fortsett fra";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Fortsett fra %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Spiller fra %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
