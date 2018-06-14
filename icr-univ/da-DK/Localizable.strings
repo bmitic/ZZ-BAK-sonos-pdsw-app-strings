@@ -6,9 +6,13 @@
     "<Home>" = "Mit Sonos";
     "<Browse>" = "Gennemse";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Se oplysninger og muligheder for, hvad der aktuelt bliver testet. \\" "
+    " <LocalziationTestICR2> " = "En Sonos-afspilningsliste med navnet" %1$@ "eksisterer allerede. Hvis du udskifter det, overskrives indholdet. " 
 
-    "<Sonos>" = "SONOS";
+ / * Generelt * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Annuller";
     "<Done>" = "Udført";
     "<Yes>" = "Ja";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Næste kapitel";
     "<QUEUE>" = "Kø";
     "<NotInUse>" = "Ikke i brug";
-    "<NowPlayingNoMusic>" = "Ingen musik";
+    "<NowPlayingNoMusic>" = "Ingen musik valgt";
     "<NowPlayingDialogEnhacementLabel>" = "Forbedret talekvalitet";
     "<NowPlayingNightModeLabel>" = "Nattelyd";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Dobbelttryk for at åbne Spiller nu";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ og %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ og %3$d andre";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Afspiller nu %@";
+    "<NowPlayingOpen>" = "Åbn nu afspilning";
     "<NowPlayingClose>" = "Luk Spiller nu";
-    "<NowPlayingCloseHint>" = "Tryk to gange for at vende tilbage til at gennemse musik";
 
 /* Info Menu */
 
@@ -177,7 +180,7 @@
     "<QueueSaveErrorGeneric>" = "Kunne ikke gemme køen.";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonos har ikke tilstrækkelig plads til at gemme køen.\nFjern tidligere gemte playlister eller køer i andre rum, og prøv igen.";
     "<QueueSaveErrorMobileTracksNotSaved>" = "Sange fra mobile enheder kan ikke lagres på Sonos-playlister, og blev ikke gemt.";
-    "<QueueSaveErrorAllMobileTracks>" = "Køen indeholder kun sange fra mobile enheder. Disse sange kan ikke gemmes på Sonos-playlister.";
+    "<QueueSaveErrorAllMobileTracks>" = "Køen indeholder kun numre fra mobile enheder. Disse sange kan ikke gemmes på Sonos-playlister.";
     "<QueuePlaylistExistsWarningTitle>" = "Sonos-playliste findes";
     // %1$@, the name of the pre-existing playlist
     "<QueuePlaylistExistsWarningMessage_1>" = "En Sonos-playliste ved navn “%1$@” eksisterer allerede. En udskiftning vil overskrive det aktuelle indhold.";
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d sange.";
+    "<QueueTrackLabel_1>" = ".%d sang (r).";
     "<QueueShuffleButtonLabel>" = "Bland";
     "<QueueRepeatAllButtonLabel>" = "Gentag alle";
     "<QueueRepeatOneButtonLabel>" = "Gentag sang";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "Rum";
     "<GroupRooms>" = "Grupper rum";
-    "<Group>" = "Gruppe";
+    "<Group>" = "Prøve";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Grupper rum";
     "<PauseAll>" = "Stop alt";
     "<PauseAllConfirmation>" = "Er du sikker på, at du vil stoppe musikken midlertidigt i alle rum?";
-    "<ContinueSetUp>" = "Fortsæt opsætning";
-    "<SoftwareUpdateRequired>" = "En software-opdatering er nødvendig";
+    "<SelectToUpdate>" = "Vælg for at opdatere";
+    "<SelectToConfigure>" = "Vælg for at konfigurere";
+    "<SelectToRegister>" = "Vælg for at registrere";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -293,7 +297,8 @@
 
     "<Settings>" = "Indstillinger";
     "<RoomSettings>" = "Rumindstillinger";
-    "<ParentalControls>" = "Forældrestyring";
+    "<ParentalControls>" = "Filtrering af stødende indhold er slået til.";
+    "<MySonosSettings>" = "Indstillinger for Mit Sonos";
     "<MoreInformation>" = "Flere oplysninger";
     "<Help>" = "Hjælp";
     "<Call>" = "Ring";
@@ -342,7 +347,7 @@
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Du har ikke forbindelse til netværket \"%1$@\". I Wi-Fi-indstillingerne for denne iPod skal du vælge \"%1$@\" på listen over tilgængelige netværk.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Du har ikke forbindelse til netværket \"%1$@\". I Wi-Fi-indstillingerne for denne iPad skal du vælge \"%1$@\" på listen over tilgængelige netværk.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Du har ikke forbindelse til netværket \"%1$@\". I Wi-Fi-indstillingerne for denne iPhone skal du vælge \"%1$@\" på listen over tilgængelige netværk.";
-    "<Wireless_NotSonosAP_Body_2>" = "Tryk på \"Prøv igen\" for at gentage opsætningen. Har du fortsat problemer, skal du trykke på \"Alternativ opsætning\".";
+    "<Wireless_NotSonosAP_Body_2>" = "Tryk på \"Prøv igen\" for at gentage opsætningen.  Har du fortsat problemer, skal du trykke på \"Alternativ opsætning\".";
     "<Wireless_NotSonosAP_TryAgain>" = "Prøv igen";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Alternativ opsætning";
 
@@ -400,7 +405,7 @@
     "<SurroundFull>" = "Fuld";
     "<SurroundDescription>" = "Under musikafspilning kan surroundhøjttalerne supplere med dæmpet, baggrundslyd eller med højere, dynamisk lyd.";
     "<SurroundBalanceButtonLabel>" = "Balancer surroundhøjttalere";
-    "<SurroundBalanceDescription>" = "Balancer dine surroundniveauer manuelt Brug Trueplay-indstillingen til automatisk at justere lyden i dette rum.";
+    "<SurroundBalanceDescription>" = "Balancer surroundhøjttalere Balancer dine surroundniveauer manuelt Brug Trueplay-indstillingen til automatisk at justere lyden i dette rum.";
 
 /* TV Equalizer */
 
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ tilbage";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ resterende";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "%1$@ %2$@ tilbage";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,7 +479,7 @@
     "<FavoritesIconTitle>" = "Mit Sonos";
     "<PlayIconPlainTitle>" = "Afspil";
     "<PlayIconPlainSubtitle>" = "Fortsæt senest afspillet";
-    "<PlayIconRoomTitle>" = "Afspil: %@";
+    "<PlayIconRoomTitle>" = "Spille: %@";
     "<PauseIconPlainTitle>" = "Stop";
     "<PauseIconPlainSubtitle>" = "Sæt nuværende musik på pause";
     "<PauseIconRoomTitle>" = "Pause: %@";
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Senest afspillet fra";
     "<DirectControlLastPlayedFrom_1>" = "Senest afspillet fra %1$@";
     "<DirectControlResumeFrom>" = "Fortsæt fra";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Genoptag fra %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Afspiller fra %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
