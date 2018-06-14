@@ -9,10 +9,13 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
-/* Common */
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "Lokalisatie ook hier testen " 
 
-    "<OK>" = "OK";
-    "<Cancel>" = "Annuleer";
+ / * Vaak * /
+
+    " <OK> " = "OK";
+    "<Cancel>" = "Annuleren";
     "<Yes>" = "Ja";
     "<No>" = "Nee";
     "<Crossfade>" = "Crossfaden";
@@ -117,8 +120,8 @@
     "<AlarmHeaderWhere>" = "Waar";
     "<AlarmHeaderWhen>" = "Wanneer";
     "<AlarmHeaderOn>" = "AAN";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Huidige tijd: %1$@ - %2$@ %3$@";
-    "<AlarmEditButtonTitle>" = "Bewerk";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Huidige tijd:  -  ";
+    "<AlarmEditButtonTitle>" = "Bewerken";
     "<AlarmUnknownDevice>" = "Geen kamer geselecteerd";
 
 /* Alarm Edit */
@@ -167,7 +170,7 @@
 // %1$@ is what the user searched for. %2$@ is the search result category (Artist, Song, …)
     "<BrowseEmptySearchResults_2>" = "Geen zoekresultaten voor ‘%1$@’ in %2$@. Probeer een andere categorie of een nieuwe zoekopdracht.";
 // %1$@, Search result category (Artist, Song, …)
-    "<BrowseSearchResultsTitle_1>" = "Resultaten: %1$@";
+    "<BrowseSearchResultsTitle_1>" = "resultaten: %1$@";
     "<BrowseEmptyLibrary_1>" = "Je hebt nog geen muziekmappen aan het Sonos-systeem toegevoegd.\nSelecteer %@ in het menu Beheer om muziek toe te voegen aan Sonos.";
     "<BrowseEmptyLibraryIndexing>" = "De index wordt op dit moment samengesteld. Wanneer dat proces is voltooid, is de muziek beschikbaar.";
     "<UnselectAll>" = "Deselecteer alles";
@@ -229,7 +232,7 @@
     "<NowPlayingHeaderTitle>" = "JE HOORT";
     "<NowPlayingLabel_Information>" = "Info & Opties";
     "<NowPlayingTrackDefaultLabel>" = "Nummer [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[geen muziek]";
+    "<NowPlayingTrackDefaultString>" = "[Geen muziek geselecteerd]";
     "<NowPlayingArtistDefaultLabel>" = "Artiest";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -254,7 +257,7 @@
 
     "<QueuePlaylistExistsWarningTitle>" = "Sonos-afspeellijst bestaat al";
 // %1$@, the name of the pre-existing playlist
-    "<QueuePlaylistExistsWarningMessage_1>" = "De Sonos-afspeellijst “%1$@” bestaat al. Door deze te vervangen wordt de huidige inhoud overschreven.";
+    "<QueuePlaylistExistsWarningMessage_1>" = "De Sonos-afspeellijst “%1$@” bestaat al. Door deze te vervangen wordt de huidige inhoud overschreven. Vervang";
     "<QueuePlaylistReplace>" = "Vervang";
 
 /* Search */
@@ -268,21 +271,21 @@
 
     "<SettingsWindowTitle>" = "Voorkeuren";
     "<SettingsBasicSettingsTitle>" = "Basis";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Je hebt momenteel geen %1$@ in je Sonos-systeem.\n\nOm een %1$@ toe te voegen, selecteer je %2$@\nin de menubalk.";
     "<SettingsNoPlayers_1>" = "Je hebt op dit moment geen Sonos-spelers in je Sonos-systeem.\nJe hebt ten minste één Sonos-speler nodig om muziek af te kunnen spelen.\n\nOm een Sonos-speler toe te voegen, selecteer je %1$@ in de menubalk.";
-    "<SettingsNoPlayerLink>" = "Beheren > Speler of SUB toevoegen";
-    "<SettingsNoBoostLink>" = "Beheren > BOOST of BRIDGE toevoegen";
+    "<SettingsNoPlayerLink>" = "Beheer> Een speler of sub toevoegen";
+    "<SettingsNoBoostLink>" = "Beheer> Voeg een boost of brug toe";
     "<SettingsNoAvailable_1>" = "Geen %1$@ beschikbaar";
     "<SettingsComponentRoom>" = "Kamer";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dok";
+    "<SettingsComponentBoost>" = "boost";
     "<SettingsEqBass>" = "Bas";
     "<SettingsEqTreble>" = "Treble";
     "<SettingsEqBalance>" = "Balans";
     "<SettingsEqPlus>" = "+";
-    "<SettingsEqMinus>" = "–";
+    "<SettingsEqMinus>" = "-";
     "<SettingsEqLeft>" = "L";
     "<SettingsEqRight>" = "R";
     "<SettingsEqMin>" = "Min";
@@ -312,8 +315,8 @@
     "<SettingsExplicitFilteringNoServices>" = "Er zijn geen muziekservices op je Sonos-systeem die het filteren van inhoud ondersteunen.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Meer informatie";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB aan";
-    "<SettingsSubEqLevelAdjustment>" = "SUB-niveau";
+    "<SettingsSubEqEnabled>" = "Sub op";
+    "<SettingsSubEqLevelAdjustment>" = "Subniveau";
     "<SettingsSubEqPlacementAdjustment>" = "Positieaanpassing";
     "<SettingsSubEqSpeakerSize>" = "Speakergrootte (crossover)";
     "<SettingsTVDialogDelay>" = "Audiovertraging (Lipsync)";
@@ -386,8 +389,9 @@
     "<ZoneMenuEq_1>" = "EQ %1$@…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "Instellingen %1$@…";
-    "<ZoneMenuSelectToUpdate>" = "Selecteer om bij te werken…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Selecteren om %1$s te configureren";
+    "<ZoneMenuSelectToUpdate>" = "Selecteer om te updaten";
+    "<ZoneMenuSelectToConfigure>" = "Selecteer om in te stellen";
+    "<ZoneMenuSelectToRegister>" = "Selecteer om te registreren";
     "<ZoneMenuConfirmPauseAll>" = "Weet je zeker dat je de muziek in alle kamers wilt pauzeren?";
     "<ZoneMenuPauseButton>" = "Pauze";
 
@@ -424,8 +428,8 @@
     "<MenuTitle_View>" = "Bekijk";
 
     "<MenuTitle_Manage>" = "Beheren";
-    "<MenuTitle_AddPlayerOrSub>" = "Speler of SUB toevoegen…";
-    "<MenuTitle_AddBoost>" = "BOOST of BRIDGE toevoegen…";
+    "<MenuTitle_AddPlayerOrSub>" = "Een speler of sub toevoegen ...";
+    "<MenuTitle_AddBoost>" = "Voeg een boost of brug toe ...";
     "<MenuTitle_MusicLibrarySettings>" = "Instellingen muziekbibliotheek…";
     "<MenuTitle_ServiceSettings>" = "Instellingen service…";
     "<MenuTitle_AddRadioStation>" = "Voeg radiostation toe…";
@@ -498,7 +502,7 @@
     "<ShareWizard_MusicSelect_Body1>" = "Waar staat de muziek die je wil afspelen met Sonos?";
     "<ShareWizard_MusicSelect_Input1>" = "Mijn muziekmap";
     "<ShareWizard_MusicSelect_Input2>" = "Een andere map of op mijn computer aangesloten schijf";
-    "<ShareWizard_MusicSelect_Input3>" = "Netwerkapparaat (ex. NAS-station)";
+    "<ShareWizard_MusicSelect_Input3>" = "Netwerkapparaat (bijvoorbeeld NAS-station)";
 
     "<ShareWizard_MusicSelect_NAS_Title>" = "Voeg muziek op je netwerkonderdeel toe";
     "<ShareWizard_MusicSelect_NAS_Body1>" = "Typ het pad naar een netwerkonderdeel.";
@@ -507,7 +511,7 @@
     "<ShareWizard_MusicSelect_External_Body1>" = "Klik op 'Bladeren' om een map met muziek te kiezen:";
 
     "<ShareWizard_AdjustSharing_Title>" = "Wijzig instellingen voor bestandsdeling";
-    "<ShareWizard_AdjustSharing_Body1>" = "Het Sonos-systeem kan geen muziek op deze computer afspelen. Pas de instellingen voor de bestandsdeling aan.";
+    "<ShareWizard_AdjustSharing_Body1>" = "Het Sonos-systeem kan geen muziek op deze computer afspelen.";
 
     "<ShareWizard_AdminPassword_Body2>" = "Om dit te doen, moet je eerst de naam en het wachtwoord van de beheerder van deze computer invoeren.";
     "<ShareWizard_AdminPassword_Button>" = "Klik op het hangslot om de beheerdersgegevens in te voeren.";
@@ -515,7 +519,7 @@
     "<ShareWizard_AdminPassword_PasswordPrompt>" = "Voer de naam en het wachtwoord van de beheerder van deze computer in:";
 
     "<ShareWizard_SleepSetAsk_Title>" = "Pas instellingen energiebesparing aan";
-    "<ShareWizard_SleepSetAsk_Body1>" = "Het Sonos-systeem kan muziek op deze computer niet zonder onderbreking afspelen. De instellingen voor de energiebesparing op de computer moeten worden aangepast.";
+    "<ShareWizard_SleepSetAsk_Body1>" = "Het Sonos-systeem kan muziek op deze computer niet zonder onderbreking afspelen.";
     "<ShareWizard_SleepSetAsk_Body2>" = "Zonder deze wijzigingen kan de muziek op deze computer niet altijd worden afgespeeld via het Sonos-systeem.";
     "<ShareWizard_SleepSetAsk_Input>" = "Instellingen aanpassen";
     "<ShareWizard_SleepSetAsk_Not_Now>" = "Niet nu";
@@ -566,8 +570,8 @@
 
     "<ControllerUpdateWizard_Title>" = "Voortgang update";
     "<ControllerUpdateWizard_ErrorTitle>" = "Bijwerken mislukt";
-    "<ControllerUpdateWizard_Downloading>" = "Bezig met bijwerken Controller: Downloaden";
-    "<ControllerUpdateWizard_Installing>" = "Bezig met bijwerken Controller: Installeren";
+    "<ControllerUpdateWizard_Downloading>" = "Controller updaten: downloaden";
+    "<ControllerUpdateWizard_Installing>" = "Controller updaten: installeren";
 
     "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Het installatieprogramma van de Sonos-controller kon niet worden gedownload.\n\nFoutcode %1$ld";
     "<ControllerUpdateWizard_InstallFailed_Message>" = "De update van de Sonos-controller is mislukt.\n\nEr is een onverwachte fout opgetreden. Probeer het opnieuw.";
