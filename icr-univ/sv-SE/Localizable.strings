@@ -6,9 +6,13 @@
     "<Home>" = "Mitt Sonos";
     "<Browse>" = "Bläddra";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Visa information och alternativ på vad som för närvarande testas. \\" "
+    " <LocalziationTestICR2> " = "En Sonos-spellista med namnet" %1$@ "finns redan. Om du ersätter det kommer det att överskrivas. " 
 
-    "<Sonos>" = "SONOS";
+ / * Allmänt * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Avbryt";
     "<Done>" = "Klar";
     "<Yes>" = "Ja";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Nästa kapitel";
     "<QUEUE>" = "Kö";
     "<NotInUse>" = "Används inte";
-    "<NowPlayingNoMusic>" = "Ingen musik";
+    "<NowPlayingNoMusic>" = "Ingen musik vald";
     "<NowPlayingDialogEnhacementLabel>" = "Talförbättring";
     "<NowPlayingNightModeLabel>" = "Nattljud";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Dubbeltryck för att öppna Spelar nu";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ och %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ och %3$d andra";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Spelar för närvarande upp %@";
+    "<NowPlayingOpen>" = "Öppna nu spelar";
     "<NowPlayingClose>" = "Stäng Spelar nu";
-    "<NowPlayingCloseHint>" = "Dubbeltryck för att gå tillbaka till musikbläddring";
 
 /* Info Menu */
 
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d låtar.";
+    "<QueueTrackLabel_1>" = ".%d sång (er).";
     "<QueueShuffleButtonLabel>" = "Blanda";
     "<QueueRepeatAllButtonLabel>" = "Upprepa alla";
     "<QueueRepeatOneButtonLabel>" = "Upprepa låt";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "Rum";
     "<GroupRooms>" = "Gruppera rum";
-    "<Group>" = "Grupp";
+    "<Group>" = "Testa";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Gruppera rum";
     "<PauseAll>" = "Pausa alla";
     "<PauseAllConfirmation>" = "Vill du pausa musiken som spelas upp i alla rum?";
-    "<ContinueSetUp>" = "Fortsätt installationen";
-    "<SoftwareUpdateRequired>" = "Programuppdatering krävs";
+    "<SelectToUpdate>" = "Välj att uppdatera";
+    "<SelectToConfigure>" = "Välj för att ställa in";
+    "<SelectToRegister>" = "Välj att registrera";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "Inställningar";
     "<RoomSettings>" = "Rumsinställningar";
     "<ParentalControls>" = "Föräldrakontroller";
+    "<MySonosSettings>" = "Inställningar för Mitt Sonos";
     "<MoreInformation>" = "Mer information";
     "<Help>" = "Hjälp";
     "<Call>" = "Ring";
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ kvar";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ återstående";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "%1$@ %2$@ kvar";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,10 +479,10 @@
     "<FavoritesIconTitle>" = "Mitt Sonos";
     "<PlayIconPlainTitle>" = "Spela upp";
     "<PlayIconPlainSubtitle>" = "Återuppta senast uppspelade";
-    "<PlayIconRoomTitle>" = "Spela upp: %@";
+    "<PlayIconRoomTitle>" = "Spela: %@";
     "<PauseIconPlainTitle>" = "Paus";
     "<PauseIconPlainSubtitle>" = "Pausa aktuell musik";
-    "<PauseIconRoomTitle>" = "Pausa: %@";
+    "<PauseIconRoomTitle>" = "Paus: %@";
 
 /* Store mode */
 
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Spelades senast upp från";
     "<DirectControlLastPlayedFrom_1>" = "Spelades senast upp från %1$@";
     "<DirectControlResumeFrom>" = "Återuppta från";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Fortsätt från %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Spelar upp från %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -515,7 +522,7 @@
 
     "<DirectControlResume>" = "Återuppta";
     "<DirectControlDisconnect>" = "Avsluta session";
-    "<DirectControlUpNext>" = "Sedan: %@";
+    "<DirectControlUpNext>" = "Nästa: %@";
     "<DirectControlMoreInfo>" = "Visa mer";
     "<DirectControlMoreInfoVOLabel>" = "Visa detaljer om %@";
     "<DirectControlLessInfo>" = "Dölj";
