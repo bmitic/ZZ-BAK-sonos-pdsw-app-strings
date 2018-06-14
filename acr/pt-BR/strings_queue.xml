@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Lista</string>
-<string name="queue_title_tab">Lista</string>
-<string name="edit_queue_title">Editar lista</string>
+    <string name="edit_queue_title">Editar lista</string>
 <string name="queue_subtitle_not_in_use">Não está em uso</string>
 <string name="clear_queue_title">Limpar Lista</string>
 <string name="clear_queue_text">Tem certeza de que deseja limpar a Lista?</string>
@@ -12,7 +11,7 @@
 <string name="save_queue_prompt">Listas de reprodução</string>
 <string name="save_queue_alert_title">A Lista de reprodução Sonos existe</string>
 <string name="save_queue_header">Salvar Lista</string>
-<string name="save_queue_already_exists_1">Já existe uma Lista de reprodução Sonos com o nome \&quot;%1$s\&quot;. Deseja substituir o conteúdo?</string>
+<string name="save_queue_already_exists_1">Já existe uma Lista de reprodução Sonos com o nome \"%1$s\". Deseja substituir o conteúdo?</string>
 <string name="replace_button_name">Substituir</string>
 <string name="save_queue_empty_name_alert_text">Digite ou selecione um nome para a Lista de reprodução Sonos.</string>
 <string name="save_queue_not_enough_space">O Sonos não tem espaço livre suficiente para salvar a lista. Remova listas de reprodução ou listas de outras salas antigas salvas e tente novamente.</string>
@@ -25,11 +24,10 @@
 <string name="direct_control_playing_from_accessibility">Tocando de %1$s</string>
 <string name="direct_control_started_from">Iniciado a partir de</string>
 <string name="direct_control_started_from_accessibility">Iniciado de %1$s</string>
-<string name="direct_control_resume_playing_from">Continuar a Tocar De</string>
-<string name="direct_control_last_played_from">Última Reprodução De</string>
+    <string name="direct_control_last_played_from">Última Reprodução De</string>
 <string name="direct_control_last_played_from_accessibility">Última reprodução de %1$s</string>
 <string name="direct_control_last_played">Última Reprodução Nesta Sala</string>
-<string name="direct_control_next">Próxima: %s</string>
+<string name="direct_control_next">Próxima:  %s</string>
 <string name="direct_control_resume">Continuar</string>
 <string name="direct_control_disconnect">Encerrar Sessão</string>
 </resources>
