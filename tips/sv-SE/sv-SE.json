@@ -1,4 +1,4 @@
-{
+﻿{
   "strings": {
     "1": {
       "computerLibraryDescription": "På Sonos-appen på datorn går du till <b>Hantera &#10132; Inställningar för Musikbiblioteket</b> och lägger till mappen som din musik finns lagrad i. (Det är vanligtvis i datormappen <b>Musik</b>.)", 
@@ -11,15 +11,15 @@
       "musicServicesBullet2": "Välj någon tjänst som du vill lägga till eller prova.", 
       "musicServicesButtonText": "Lägg till musiktjänst", 
       "musicServicesDescription": "Lägg till din egen eller prova något nytt.", 
-      "section1Title": "Musiktjänster", 
-      "section2Title": "TuneIn Radio", 
       "section3Title": "Musik på din mobila enhet", 
       "section4Title": "Musik på din dator", 
       "title": "Lägg till din musik", 
       "tuneInBullet1": "Gå till <b>Bläddra &#10132; Radio från TuneIn</b>.", 
       "tuneInBullet2": "Börja utforska.", 
       "tuneInButtonText": "Låt oss prova", 
-      "tuneInDescription": "Utforska mer än 100 000 gratis stationer och poddsändningar online."
+      "tuneInDescription": "Utforska mer än 100 000 gratis stationer och poddsändningar online.",
+      "testForLocalization1": "Testar en annan filtyp",
+      "testForLocalization2": "Gå till <b> Test &#10132; Lokalisering </b> ."
     }, 
     "10": {
       "description": "När ny programvara blir tillgänglig kommer du att se <b>Uppdatera nu</b> på fliken <b>Mer</b>.", 
@@ -38,14 +38,14 @@
     }, 
     "1013": {
       "adjustSettings": "Justera inställningar", 
-      "chooseRoomSurround": "Välj det rum där din PLAYBAR/PLAYBASE och dina surroundenheter finns.", 
+      "chooseRoomSurround": "Välj det rum där din PLAYBAR/PLAYBASE och dina surroundenheter finns.",
       "learnMoreHomeTheater": "Det finns mer information om Sonos hemmabioinstallationer på vår webbplats", 
       "navToRoomSettings": "Gå till <b>Mer &#10132; Inställningar &#10132; Rumsinställningar</b>.", 
       "navToSurroundSettings": "Tryck på <b>Avancerat ljud &#10132; Surroundinställningar</b>.", 
       "nightSound": "Förstärker de tystare tv-ljuden, sänker de höga.", 
       "sectionTitle1": "Speciella hemmabioinställningar", 
       "sectionTitle2": "Justera surroundinställningarna för tv och musik", 
-      "selectRoom": "Välj det rum där din PLAYBAR eller PLAYBASE finns.", 
+      "selectRoom": "Välj det rum där din PLAYBAR eller PLAYBASE finns.",
       "setLevels": "Ställ in tv- och musiknivåer till det som du önskar.", 
       "speechEnhancement": "Gör det enklare att förstå tv-dialog.", 
       "tapIcon": "Tryck på ikonen på skärmen <b>Spelar nu</b>.", 
@@ -71,18 +71,18 @@
       "playPause": "Tryck en gång för att starta musiken. Tryck igen för att pausa.\nTryck två gånger för att hoppa till nästa låt. Tre gånger för att hoppa tillbaka en låt. Tryck och håll nere för att lägga till den musik som spelas upp i ett annat rum.", 
       "pressAndHold": "Tryck en gång för att spela upp eller pausa. Tryck och håll nere för att lägga till den musik som spelas upp i ett annat rum.", 
       "sectionTitle1": "Sonos One", 
-      "sectionTitle2": "PLAY:1", 
-      "sectionTitle3": "PLAY:3", 
-      "sectionTitle4": "PLAY:5 (gen 1)", 
-      "sectionTitle5": "PLAY:5 (gen 2)", 
-      "sectionTitle6": "PLAYBAR", 
-      "sectionTitle7": "PLAYBASE", 
-      "sectionTitle8": "CONNECT", 
-      "sectionTitle9": "CONNECT:AMP", 
-      "sigdetailVolume": "(: :) Volymkontroll: Tryck vänster för att sänka volymen, höger om du vill höja volymen.", 
-      "sigdetailVolumePlay5": "(: :) Volymkontroll: Tryck vänster för att sänka volymen, höger om du vill höja volymen. Om PLAY:5 ställs lodrätt, tryck ovanför Sonos-logotypen för att höja volymen, tryck under logotypen för att sänka volymen.", 
+      "sectionTitle2": "PLAY:1",
+      "sectionTitle3": "PLAY:3",
+      "sectionTitle4": "PLAY:5 (gen 1)",
+      "sectionTitle5": "PLAY:5 (gen 2)",
+      "sectionTitle6": "PLAYBAR",
+      "sectionTitle7": "PLAYBASE",
+      "sectionTitle8": "CONNECT",
+      "sectionTitle9": "CONNECT:AMP",
+      "sigdetailVolume": "(: :) Volymkontroll: Tryck på vänster för att sänka volymen, tryck på höger för att skruva upp den.", 
+      "sigdetailVolumePlay5": "(: :) Volymkontroll: Tryck på vänster för att sänka volymen, tryck på höger för att skruva upp den. Om PLAY:5 ställs lodrätt, tryck ovanför Sonos-logotypen för att höja, tryck under logotypen för att sänka volymen.",
       "swipe": "Dra höger om du vill höra nästa låt. Dra vänster om du vill höra föregående låt.", 
-      "swipePlay5": "Dra höger om du vill höra nästa låt. Dra vänster om du vill höra föregående låt. Om PLAY:5 ställs lodrätt, dra uppåt för nästa låt och nedåt för föregående låt.", 
+      "swipePlay5": "Dra höger om du vill höra nästa låt. Dra vänster om du vill höra föregående låt. Om PLAY:5 ställs lodrätt, dra uppåt för nästa låt och nedåt för föregående låt.",
       "tapVolumeDown": "Tryck för att sänka volymen.", 
       "tapVolumeUp": "Tryck för att höja volymen.", 
       "title": "Använd pekkontroller", 
@@ -91,7 +91,7 @@
     "13": {
       "adjustBalance": "Justera och balansera din installation för bästa möjliga ljud.", 
       "adjustSettings": "Justera inställningar", 
-      "chooseRoomSurround": "Välj det rum där din PLAYBAR/PLAYBASE och dina surroundenheter finns.", 
+      "chooseRoomSurround": "Välj det rum där din PLAYBAR/PLAYBASE och dina surroundenheter finns.",
       "goToCustomTuneTip": "Gå till vårt tips \"Specialjustera en högtalare\" för mer information.", 
       "learnMoreHomeTheater": "Det finns mer information om Sonos hemmabioinstallationer på vår webbplats", 
       "navToRoomSettings": "Gå till <b>Mer &#10132; Inställningar &#10132; Rumsinställningar</b>.", 
@@ -100,7 +100,7 @@
       "sectionTitle1": "Speciella hemmabioinställningar", 
       "sectionTitle2": "Justera surroundinställningarna för tv och musik", 
       "sectionTitle3": "Trueplay-justera din Sonos-hemmabio", 
-      "selectRoom": "Välj det rum där din PLAYBAR eller PLAYBASE finns.", 
+      "selectRoom": "Välj det rum där din PLAYBAR eller PLAYBASE finns.",
       "setLevels": "Ställ in tv- och musiknivåer till det som du önskar.", 
       "speechEnhancement": "Gör det enklare att förstå tv-dialog.", 
       "tapIcon": "Tryck på ikonen på skärmen <b>Spelar nu</b>.", 
@@ -116,14 +116,14 @@
     }, 
     "15": {
       "buttonTitle": "Skapa stereopar", 
-      "intro": "Omvandla två högtalare av typ Sonos One, PLAY:1, PLAY:3 eller PLAY:5 till separata vänster- och högerkanaler.", 
+      "intro": "Omvandla två högtalare av typ PLAY:1, PLAY:3 eller PLAY:5 till separata vänster- och högerkanaler.",
       "learnMore": "Mer information om stereopar på vår webbplats", 
       "navToRoomSettings": "Gå till <b>Mer &#10132; Inställningar &#10132; Rumsinställningar</b>.", 
       "selectSpeaker": "Välj högtalare och tryck på <b>Skapa stereopar</b>.", 
       "title": "Skapa ett stereopar"
     }, 
     "16": {
-      "connectToLineIn": "Anslut grammofonens ljudutmatning till en PLAY:5-linjeingångsport, eller till ljudingångsuttagen på en CONNECT eller CONNECT:AMP.", 
+      "connectToLineIn": "Anslut grammofonens ljudutmatning till en PLAY:5-linjeingångsport, eller till ljudingångsuttagen på en CONNECT eller CONNECT:AMP.",
       "intro": "Skicka ljud från en grammofon med förstärkare till en Sonos-högtalare.", 
       "learnMore": "Det finns mer information om linjeingång på vår webbplats", 
       "learnMoreLink": "https://faq.sonos.com/HelpLineIn", 
@@ -199,7 +199,7 @@
       "title": "Spela upp direkt från Pandora"
     }, 
     "24": {
-      "bullet1": "Alexa, spela Blondie i köket.", 
+      "bullet1": "Alexa, spela upp ____ i köket.", 
       "bullet2": "Alexa, vad är det som spelas upp nu?", 
       "bullet3": "Alexa, hoppa till nästa avsnitt.", 
       "bulletTitle": "<b>Saker du kan prova med Alexa…</b>", 
@@ -225,7 +225,7 @@
       "bullet1": "Håll mikrofonlampan tänd så är dina högtalare alltid redo att svara på Alexas uppvakningsord.", 
       "bullet2": "Om mikrofonlampan är släckt kan du ändå använda röstkommandon. Bara tryck och håll nere mikrofonknappen för att tala med Alexa – du behöver inte starta med ett uppvakningsord. När du släpper knappen stängs röststyrningen av igen.", 
       "disclaimerText": "På vår webbplats kan du se om Amazon Alexa finns tillgängligt i ditt land.", 
-      "introText": "<b>Tryck bara på mikrofonknappen. När mikrofonlampan är släckt är röststyrningen avstängd och du kan inte använda Alexa</b>.", 
+      "introText": "<b>Tryck bara på mikrofonknappen. När mikrofonlampan är släckt är röststyrningen avstängd och du kan inte använda Alexa.</b>.", 
       "text1": "Om du inte har en rösttjänst installerad är mikrofonen inte aktiv.", 
       "title": "Hur stänger jag av mikrofonen på Sonos One?"
     }, 
@@ -253,28 +253,28 @@
       "title": "Saker att prova med Alexa"
     }, 
     "28": {
-      "bullet1Text": "Gruppera och avgruppera AirPlay-kompatibla Sonos-högtalare direkt från AirPlay-menyn. (AirPlay-kompatibla Sonos-högtalare inkluderar Sonos One, Play:5 och Playbase.)", 
-      "bullet2Text": "Använd Sonos-appen för att lägga till dina andra Sonos-högtalare i gruppen så kommer de också att streama AirPlay. Du kan hålla dessa högtalare grupperade med dina AirPlay-kompatibla Sonos-högtalare.", 
-      "bullet3Text": "Tryck på och håll nere uppspelningsknappen på valfri Sonos-högtalare för att lägga till den musik som spelas upp i ett annat rum.", 
-      "introText": "Njut av dina favoritappar direkt. Spela upp ljud från Apple-enheter direkt till Sonos med AirPlay. Lyssna på Apple Music på din Sonos One. Titta på YouTube eller Netflix och njut av ljudet på Sonos.", 
-      "learnMoreText": "Mer information om att använda AirPlay med Sonos på vår webbplats.", 
-      "title": "Använd AirPlay med Sonos"
+      "bullet1Text": "Group and ungroup AirPlay-compatible Sonos speakers right from the AirPlay menu. (AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.)ZXZ", 
+      "bullet2Text": "Use the Sonos app to add your other Sonos speakers to the group and they’ll stream AirPlay too. You can keep these speakers grouped with your AirPlay-compatible Sonos speakers.ZXZ", 
+      "bullet3Text": "Press and hold the Play button on any Sonos speaker to add the music that’s playing in another room.ZXZ", 
+      "introText": "Enjoy your favorite apps out loud. Play sound from your Apple devices straight to Sonos with AirPlay. Listen to Apple Music on your Sonos One. Watch a YouTube or Netflix video and enjoy the sound on Sonos.ZXZ", 
+      "learnMoreText": "Learn more about using AirPlay with Sonos on our website.ZXZ", 
+      "title": "Use AirPlay with SonosZXZ"
     }, 
     "29": {
-      "bullet1Text": "Öppna Hem-appen och tryck på + eller Lägg till tillbehör.", 
-      "bullet2Text": "Välj Har inte en kod eller kan inte skanna?", 
-      "bullet3Text": "Tryck på den högtalare du vill lägga till.", 
-      "bullet4Text": "Välj samma rumsnamn som används i Sonos-appen.", 
-      "footnoteText": "*AirPlay-kompatibla Sonos-högtalare inkluderar Sonos One, Play:5 och Playbase.", 
-      "introText": "Lägg bara till AirPlay-kompatibla* Sonos-högtalare i Apple Home-appen och använd sedan en Apple-mobilenhet för att be Siri att spela musik (för närvarande begränsat till Apple Music).", 
-      "learnMoreText": "Mer information om att använda Siri med Sonos på vår webbplats.", 
-      "title": "Använd Siri för att styra Apple Music"
+      "bullet1Text": "Open the Home app and tap + or Add Accessory.ZXZ", 
+      "bullet2Text": "Choose \"Don’t Have a Code or Can’t Scan?\"ZXZ", 
+      "bullet3Text": "Tap the speaker you want to add.ZXZ", 
+      "bullet4Text": "Pick the same room name that’s used in the Sonos app.ZXZ", 
+      "footnoteText": "*AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.ZXZ", 
+      "introText": "Just add your AirPlay-compatible* Sonos speakers to the Apple Home app and then use an Apple mobile device to ask Siri to play music (currently limited to Apple Music).ZXZ", 
+      "learnMoreText": "Learn more about using Siri with Sonos on our website.ZXZ", 
+      "title": "Use Siri to control Apple MusicZXZ"
     }, 
     "3": {
       "bullet1Text": "Tryck på <b>Sök</b> för att hitta en låt som du gillar.", 
-      "bullet2Text": "Tryck på (<b>Fler alternativ (&#8943;)</b> &#10132; <b>Lägg till i Sonos-spellista</b>.", 
-      "bullet3Text": "Välj befintlig spellista eller tryck på <b>Fler alternativ (&#8943;)</b> &#10132; <b>Ny spellista</b> om du vill starta en ny.", 
-      "fromNowPlayingText": "Om du är på skärmen Spelar nu är det ännu lättare. Lägg till den låt som spelas upp genom att trycka på <b>Information och alternativ (&#8943;)</b> &#10132; <b>Lägg till låt i Sonos-spellista</b>.", 
+      "bullet2Text": "Tryck på (<b>&#8943;</b>) &#10132; <b>Lägg till i Sonos-spellista</b>.", 
+      "bullet3Text": "Välj befintlig spellista eller tryck på (&#8943;) &#10132; <b>Ny spellista</b> om du vill starta en ny.", 
+      "fromNowPlayingText": "Om du befinner dig på skärmen Spelar nu är det ännu enklare. Lägg till den låt som spelas upp genom att trycka på (<b>&#8943;</b>) &#10132; <b>Lägg till låt i Sonos-spellista</b>.", 
       "title": "Bygg och spara spellistor"
     }, 
     "4": {
@@ -286,7 +286,7 @@
       "title": "Musikkön"
     }, 
     "5": {
-      "intro": "För supersmidiga övergångar mellan låtar, tryck på <b>Information och alternativ (&#8943;)</b> på skärmen Spelar nu och aktivera <b>Crossfading</b>.", 
+      "intro": "För supersmidiga övergångar mellan låtar, tryck på (<b>&#8943;</b>) på skärmen Spelar nu och aktivera <b>Crossfading</b>.", 
       "intro2": "Längst upp på köskärmen:", 
       "repeat": "Tryck för att upprepa hela kön. Tryck igen för att upprepa den aktuella låten. Tryck en gång till för att stänga av upprepning.", 
       "shuffle": "Tryck för att slumpmässigt ändra ordningen för låtarna. Tryck igen så kommer du tillbaka till den ursprungliga ordningen.", 
@@ -294,7 +294,7 @@
     }, 
     "6": {
       "introText": "Om du har Spotify Premium kan du skicka vad du lyssnar till på Spotify direkt till valfri Sonos-högtalare. Med ett tryck.", 
-      "secureRegistration": "Innan du kan använda den här funktionen måste du ha ett Sonos-konto. Skapa ett konto genom att gå till <b>Mer &#10132; Inställningar &#10132; Sonos-konto</b>. (Om du inte ser <b>Sonos-konto</b> måste ditt Sonos-system uppdateras.)", 
+      "secureRegistration": "Innan du kan använda den här funktionen måste du ha ett Sonos-konto. Skapa ett konto genom att gå till <b>Mer &#10132; Inställningar &#10132; Mitt Sonos-konto</b>. (Om du inte ser <b>Mitt Sonos-konto</b> måste ditt Sonos-system uppdateras.)", 
       "spotifyInstruction": "Om musiken spelas upp i Spotify-appen skickar du den till Sonos genom att välja TILLGÄNGLIGA ENHETER.", 
       "title": "Spela upp direkt från Spotify"
     }, 
@@ -306,25 +306,25 @@
       "catchSomeMoreDescription": "Aktivera vilolägesaviseringar när du ställer in en väckning.", 
       "catchSomeMoreText": "Vill du sova lite längre?", 
       "directionText": "Välj <b>Mer</b> &#10132; <b>Väckningar</b> &#10132; <b>Ny väckning</b> för att komma igång.", 
-      "sleepToMusicDescription": "Sonos kan stängas av automatiskt. Tryck på <b>Information och alternativ (&#8943;)</b> på skärmen Spelar nu för att ställa in Timer för vila.", 
+      "sleepToMusicDescription": "Sonos kan stängas av automatiskt. Tryck på (<b>&#8943;</b>) på skärmen Spelar nu när du ska ställa in <b>Timer för vila</b>.", 
       "sleepToMusicText": "Gillar du att somna till musik?", 
       "title": "Ge dig ett musikaliskt uppvaknande"
     }, 
     "8": {
       "addFavoritesToMySonos": "<b>Lägg till favoriter i Mitt Sonos:</b>", 
-      "addFromNowPlaying": "<b>Obs!</b> Du kan också ange att en låt eller station är en favorit direkt från skärmen Spelar nu genom att trycka på <b>Info och alternativ (&#8943;)</b> &#10132; <b>Lägg till i Mitt Sonos</b>. (Det går inte att spara låtar som finns på din mobilenhet som favoriter.)", 
+      "addFromNowPlaying": "<b>Obs!</b> Du kan också ange att en låt eller station är en favorit direkt från skärmen Spelar nu genom att trycka på (&#8943;) &#10132; <b>Lägg till i Mitt Sonos</b>. (Det går inte att spara låtar som finns på din mobilenhet som favoriter.)", 
       "buttonTitle": "Gå till Mitt Sonos", 
-      "editInstructions": "Gå till <b>Mitt Sonos</b> och tryck på <b>Redigera</b>. Du kan också redigera innehållet i en kategori i Mitt Sonos (t.ex. Album, Spellistor eller Låtar), genom att trycka på <b>Se allt</b>, sedan <b>Fler alternativ (&#8943;)</b> längst upp på skärmen.", 
+      "editInstructions": "Gå till <b>Mitt Sonos</b> och tryck på <b>Redigera</b>. Du kan också redigera innehållet i en kategori i Mitt Sonos (t.ex. Album, Spellistor eller Låtar), genom att trycka på <b>Se allt</b>, sedan (&#8943;) längst upp på skärmen.", 
       "editYourFavorites": "<b>Redigera dina favoriter:</b>", 
       "goToMySonos": "Gå till <b>Mitt Sonos</b>.", 
       "introText": "Spara dina favoritlåtar, -stationer eller -samlingar som \"Nya utgåvor\" till <b>Mitt Sonos</b> så behöver du aldrig söka efter dem igen.", 
       "seeYourFavorites": "<b>Se dina favoriter:</b>", 
-      "tapWhenBrowsing": "Tryck på <b>Fler alternativ (&#8943;)</b> när du söker efter eller bläddrar musik.", 
+      "tapWhenBrowsing": "Tryck på (&#8943;) när du söker efter eller bläddrar musik.", 
       "title": "Spara dina favoriter till Mitt Sonos"
     }, 
     "9": {
-      "createAccount": "Om du inte ser <b>Sonos-konto</b> måste ditt Sonos-system uppdateras.", 
-      "intro": "Med ett konto kan du lägga till fler högtalare, få nya funktioner och på ett säkert och tryggt sätt integrera med dina streamingappar.",
+      "createAccount": "Om du inte ser <b>Mitt Sonos-konto</b> måste ditt Sonos-system uppdateras.", 
+      "intro": "An account lets you add more speakers, get new features, and safely and securely integrate with your streaming apps.ZXZ",
       "navInstructions": "Du kan nå ditt konto när som helst genom att välja <b>Mer &#10132; Inställningar &#10132; Sonos-konto</b>.",
       "title": "Ditt Sonos-konto"
     }, 
@@ -336,7 +336,7 @@
       "category1": "Använda appen", 
       "category2": "Använda högtalarna", 
       "category3": "Använda röststyrning", 
-      "category4": "Använda andra appar", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Styr Sonos med Amazon Alexa", 
       "createAStereoPair": "Skapa ett stereopar", 
       "crossfadeShuffleRepeat": "Crossfading, blanda, upprepa", 
@@ -370,7 +370,7 @@
       "category1": "Använda appen", 
       "category2": "Använda högtalarna", 
       "category3": "Använda röststyrning", 
-      "category4": "Använda andra appar", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Styr Sonos med Amazon Alexa", 
       "createAStereoPair": "Skapa ett stereopar", 
       "crossfadeShuffleRepeat": "Crossfading, blanda, upprepa", 
