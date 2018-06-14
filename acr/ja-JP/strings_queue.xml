@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">予約リスト</string>
-<string name="queue_title_tab">予約リスト</string>
-<string name="edit_queue_title">予約リストの編集</string>
+    <string name="edit_queue_title">予約リストの編集</string>
 <string name="queue_subtitle_not_in_use">未使用</string>
 <string name="clear_queue_title">予約リストをクリア</string>
 <string name="clear_queue_text">本当に予約リストをクリアしてもよろしいですか?</string>
@@ -12,7 +11,7 @@
 <string name="save_queue_prompt">プレイリスト</string>
 <string name="save_queue_alert_title">Sonosプレイリストが存在します</string>
 <string name="save_queue_header">予約リスト保存</string>
-<string name="save_queue_already_exists_1">\&quot;%1$s\&quot;という名前のSonosプレイリストがすでに存在します。内容を置き換えますか?</string>
+<string name="save_queue_already_exists_1">\"%1$s\"という名前のSonosプレイリストがすでに存在します。内容を置き換えますか?</string>
 <string name="replace_button_name">置き換える</string>
 <string name="save_queue_empty_name_alert_text">Sonosプレイリストの名前を入力するか選択してください。</string>
 <string name="save_queue_not_enough_space">Sonosには予約リストを保存するのに十分な容量がありません。その他の部屋で保存した古いプレイリストまたは予約リストを削除してから、もう一度お試しください。</string>
@@ -25,8 +24,7 @@
 <string name="direct_control_playing_from_accessibility">%1$sから再生します</string>
 <string name="direct_control_started_from">以下から開始</string>
 <string name="direct_control_started_from_accessibility">%1$sから開始</string>
-<string name="direct_control_resume_playing_from">からの再生を続ける</string>
-<string name="direct_control_last_played_from">から最後に再生</string>
+    <string name="direct_control_last_played_from">から最後に再生</string>
 <string name="direct_control_last_played_from_accessibility">最後に%1$sから再生した曲</string>
 <string name="direct_control_last_played">この部屋で最後に再生</string>
 <string name="direct_control_next">次へ：%s</string>
