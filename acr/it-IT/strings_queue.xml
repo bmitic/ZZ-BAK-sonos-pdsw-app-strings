@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Coda</string>
-<string name="queue_title_tab">Coda</string>
-<string name="edit_queue_title">Modifica coda</string>
+    <string name="edit_queue_title">Modifica coda</string>
 <string name="queue_subtitle_not_in_use">Non in uso</string>
 <string name="clear_queue_title">Cancella coda</string>
 <string name="clear_queue_text">Cancellare la coda?</string>
@@ -12,7 +11,7 @@
 <string name="save_queue_prompt">Playlist</string>
 <string name="save_queue_alert_title">La Playlist Sonos esiste</string>
 <string name="save_queue_header">Salva coda</string>
-<string name="save_queue_already_exists_1">Esiste già una Playlist Sonos denominata \&quot;%1$s\&quot;. Sostituire il contenuto?</string>
+<string name="save_queue_already_exists_1">Esiste già una Playlist Sonos denominata \"%1$s\". Sostituire il contenuto?</string>
 <string name="replace_button_name">Sostituisci</string>
 <string name="save_queue_empty_name_alert_text">Digitare o scegliere un nome per la playlist Sonos.</string>
 <string name="save_queue_not_enough_space">Sonos non dispone di spazio libero sufficiente per salvare la coda. Rimuovere le vecchie playlist o le code salvate in altre stanze e riprovare.</string>
@@ -25,11 +24,10 @@
 <string name="direct_control_playing_from_accessibility">Riproduzione da %1$s</string>
 <string name="direct_control_started_from">Iniziato su</string>
 <string name="direct_control_started_from_accessibility">Avviato da %1$s</string>
-<string name="direct_control_resume_playing_from">Riprendi esecuzione su</string>
-<string name="direct_control_last_played_from">Ultima esecuzione su</string>
+    <string name="direct_control_last_played_from">Ultima esecuzione su</string>
 <string name="direct_control_last_played_from_accessibility">Ultima riproduzione su %1$s</string>
 <string name="direct_control_last_played">Ultima esecuzione in questa stanza</string>
-<string name="direct_control_next">Successivo: %s</string>
+<string name="direct_control_next">Successivo:  %s</string>
 <string name="direct_control_resume">Riprendi</string>
 <string name="direct_control_disconnect">Termina sessione</string>
 </resources>
