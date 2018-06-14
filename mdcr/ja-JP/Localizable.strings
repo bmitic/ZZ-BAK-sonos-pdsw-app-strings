@@ -9,9 +9,12 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
-/* Common */
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "ここでローカライゼーションをテストする」 
 
-    "<OK>" = "OK";
+ / * Common * /
+
+    " <OK> " = "OK";
     "<Cancel>" = "キャンセル";
     "<Yes>" = "はい";
     "<No>" = "いいえ";
@@ -117,7 +120,7 @@
     "<AlarmHeaderWhere>" = "どこで";
     "<AlarmHeaderWhen>" = "いつ";
     "<AlarmHeaderOn>" = "オン";
-    "<AlarmDialogCurrentTimeFormat_3>" = "現在の時刻： %1$@ - %2$@ %3$@";
+    "<AlarmDialogCurrentTimeFormat_3>" = "現在の時刻：%1$@ - %2$@%3$@";
     "<AlarmEditButtonTitle>" = "編集";
     "<AlarmUnknownDevice>" = "部屋が選択されていません";
 
@@ -167,7 +170,7 @@
 // %1$@ is what the user searched for. %2$@ is the search result category (Artist, Song, …)
     "<BrowseEmptySearchResults_2>" = "%2$@で「%1$@」に対する検索結果が返されませんでした。別のカテゴリまたは新しい検索キーワードをお試しください。";
 // %1$@, Search result category (Artist, Song, …)
-    "<BrowseSearchResultsTitle_1>" = "結果: %1$@";
+    "<BrowseSearchResultsTitle_1>" = "結果：%1$@";
     "<BrowseEmptyLibrary_1>" = "音楽フォルダがSonosシステムにまだ追加されていません。\n音楽をSonosに追加するには、[管理]メニューから[%@]を選択します。";
     "<BrowseEmptyLibraryIndexing>" = "現在インデックスの作成中です。インデックスの作成が完了すると、すぐに音楽をお楽しみになれます。";
     "<UnselectAll>" = "すべて選択解除";
@@ -194,29 +197,29 @@
 
 /* Limited Connectivity */
 
-    "<LimitedConnectivityBlockedByFirewall_1>" = "コンピュータのファイアウォール設定が変更されました。SonosコントローラがSonosシステムに接続できなくなりました。\n詳細については、%1$@ を参照してください。\nファイアウォールの設定を調整するには、[ファイアウォールの設定]ボタンをクリックします。";
-    "<LimitedConnectivityReset>" = "Sonosコントローラがリセットされました。\n間もなく再起動します…";
-    "<LimitedConnectivityAboutMySonosSystem>" = "Sonosシステムについて";
-    "<LimitedConnectivityFirewallConfigure>" = "ファイアウォールの設定";
+    "<LimitedConnectivityBlockedByFirewall_1>" = "コンピュータのファイアウォール設定が変更されました。SonosコントローラがSonosシステムに接続できなくなりました。\n詳細については、%1$@ を参照してください。";
+    "<LimitedConnectivityReset>" = "\nファイアウォールの設定を調整するには、[ファイアウォールの設定]ボタンをクリックします。";
+    "<LimitedConnectivityAboutMySonosSystem>" = "マイSonosシステムについて";
+    "<LimitedConnectivityFirewallConfigure>" = "その他のオプション…";
     "<LimitedConnectivityMoreOptions>" = "その他のオプション…";
-    "<LimitedConnectivityResetController>" = "コントローラをリセット";
-    "<LimitedConnectivitySubmitDiagnostics>" = "診断を送信";
+    "<LimitedConnectivityResetController>" = "Sonosシステムについて";
+    "<LimitedConnectivitySubmitDiagnostics>" = "ファイアウォールの設定";
 
 
 /* Configure firewall */
-    "<ConfigureFirewall_WindowTitle>" = "ファイアウォールの設定";
-    "<ConfigureFirewall_Title>" = "ファイアウォール設定の調整";
-    "<ConfigureFirewall_Info>" = "ファイアウォールの設定を自動的に調整できませんでした。以下の手順に従い、手動でファイアウォールの設定を調整してください。";
-    "<ConfigureFirewall_Instructions>" = "1。アップルメニューをクリックして[システム環境設定…]を選択します\n2。[システム環境設定]ウィンドウで[セキュリティ]アイコンをクリックします\n3。[ファイアウォール]タブをクリックします\n4。必要に応じて、変更を許可するために鍵のアイコンをクリックします（ユーザー名とパスワードを求められたら、それを入力します）\n5。[詳細]ボタンをクリックします\n6。[すべての受信接続をブロック]チェックボックスをオフにします\n7。下のリストからSonosを見つけ、[受信接続を許可]を選択します\n8。[OK]をクリックします\n9。[システム環境設定]ウィンドウを閉じます";
+    "<ConfigureFirewall_WindowTitle>" = "その他のオプション…";
+    "<ConfigureFirewall_Title>" = "コントローラをリセット";
+    "<ConfigureFirewall_Info>" = "診断を送信ファイアウォールの設定";
+    "<ConfigureFirewall_Instructions>" = "1。アップルメニューをクリックし、システム環境設定... \n2を選択します。\n3システム環境設定ウィンドウで[セキュリティ]アイコンをクリックします。[ファイアウォール]タブ\n4をクリックします。必要に応じて、変更が\n5（プロンプトが表示されたら、ユーザー名とパスワードを入力）できるように、ロックアイコンをクリックしてください。[詳細...]ボタン\n6をクリックします。すべての着信接続をブロックする]チェックボックス\n7をオフにします。下のリストでSonosを探し、着信接続を許可する\n8を選択します。システム環境設定…(ホーム フォルダ)";
 /* Localizers: the first instance of this string in the instructions string above will be turned into a link
  * that will launch the System Preferences application. */
     "<ConfigureFirewall_InstructionsLink>" = "システム環境設定…";
 
 /* Music Sharing Setup */
 
-    "<MusicPathHomeFolder>" = "(ホーム フォルダ)";
-    "<ShareMigrationAlertTitle>" = "ミュージック ライブラリ アップデート";
-    "<ShareMigrationAlertMessage>" = "ミュージック ライブラリからの再生を行うためには、Sonosが歌のインデックスをアップデートする必要があります。これには数分かかる事があります。";
+    "<MusicPathHomeFolder>" = "（ホームフォルダ）";
+    "<ShareMigrationAlertTitle>" = "Music library updateZXZ";
+    "<ShareMigrationAlertMessage>" = "音楽ライブラリからの再生を確実にするために、Sonosは曲のインデックスを更新する必要があります。これには数分かかる事があります。";
     "<ShareMigrationAlertNowButton>" = "今すぐアップデート";
     "<ShareMigrationAlertLaterButton>" = "後で通知する";
     "<AuthorizationFailed>" = "認証に失敗しました。";
@@ -229,7 +232,7 @@
     "<NowPlayingHeaderTitle>" = "再生中";
     "<NowPlayingLabel_Information>" = "情報 & オプション";
     "<NowPlayingTrackDefaultLabel>" = "曲[0/0]";
-    "<NowPlayingTrackDefaultString>" = "[音楽がありません]";
+    "<NowPlayingTrackDefaultString>" = "[選択された音楽はありません]";
     "<NowPlayingArtistDefaultLabel>" = "アーティスト";
     "<NowPlayingAlbumDefaultLabel>" = "アルバム";
 
@@ -254,7 +257,7 @@
 
     "<QueuePlaylistExistsWarningTitle>" = "Sonosプレイリストが存在します";
 // %1$@, the name of the pre-existing playlist
-    "<QueuePlaylistExistsWarningMessage_1>" = "“%1$@”という名前のSonosプレイリストがすでに存在します。 置き換えると現在のコンテンツが上書きされます。";
+    "<QueuePlaylistExistsWarningMessage_1>" = "“%1$@”という名前のSonosプレイリストがすでに存在します。置き換えると現在のコンテンツが上書きされます。";
     "<QueuePlaylistReplace>" = "置き換える";
 
 /* Search */
@@ -267,17 +270,17 @@
 /* Settings */
 
     "<SettingsWindowTitle>" = "設定";
-    "<SettingsBasicSettingsTitle>" = "ベーシック";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+    "<SettingsBasicSettingsTitle>" = "Sonosシステムには現在、%1$@がありません。";
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
-    "<SettingsNoDevice_2>" = "Sonosシステムには現在、%1$@がありません。\n\n%1$@を追加するには、メニュー バーから%2$@\nを選択します。";
-    "<SettingsNoPlayers_1>" = "Sonosシステムには現在、Sonosプレイヤーがありません。\n音楽を再生するには、少なくとも1台のSonosプレイヤーが必要です。\n\nSonosプレイヤーを追加するには、メニュー バーから[%1$@]を選択します。";
-    "<SettingsNoPlayerLink>" = "[管理] > [PlayerまたはSUBの追加]";
-    "<SettingsNoBoostLink>" = "[管理] > [BOOSTまたはBRIDGEの追加]";
+    "<SettingsNoDevice_2>" = "現在、あなたのSonosのシステムには%1$@を持っていません。 %1$@\n\n、を追加するには、メニューバーから%2$@\n選択します。";
+    "<SettingsNoPlayers_1>" = "\n音楽を再生するには、少なくとも1台のSonosプレイヤーが必要です。\n\nSonosプレイヤーを追加するには、メニュー バーから[%1$@]を選択します。";
+    "<SettingsNoPlayerLink>" = "管理>プレーヤーまたはサブを追加する";
+    "<SettingsNoBoostLink>" = "管理>ブーストまたはブリッジを追加する";
     "<SettingsNoAvailable_1>" = "%1$@を利用できません";
     "<SettingsComponentRoom>" = "部屋";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "ドック";
+    "<SettingsComponentBoost>" = "ブースト";
     "<SettingsEqBass>" = "低音";
     "<SettingsEqTreble>" = "高音";
     "<SettingsEqBalance>" = "バランス";
@@ -312,8 +315,8 @@
     "<SettingsExplicitFilteringNoServices>" = "お使いのSonosシステムでコンテンツ・フィルタリングの対象となる音楽サービスはありません。";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "詳細";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUBオン";
-    "<SettingsSubEqLevelAdjustment>" = "SUBレベル";
+    "<SettingsSubEqEnabled>" = "サブオン";
+    "<SettingsSubEqLevelAdjustment>" = "サブレベル";
     "<SettingsSubEqPlacementAdjustment>" = "配置の調節";
     "<SettingsSubEqSpeakerSize>" = "ｽﾋﾟｰｶｰ ｻｲｽﾞ (ｸﾛｽｵｰﾊﾞｰ)";
     "<SettingsTVDialogDelay>" = "オーディオ遅延 (リップシンク)";
@@ -386,8 +389,9 @@
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@設定…";
-    "<ZoneMenuSelectToUpdate>" = "選択してアップデートします…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "%1$sのセットアップの選択";
+    "<ZoneMenuSelectToUpdate>" = "選択して更新する";
+    "<ZoneMenuSelectToConfigure>" = "選択して設定する";
+    "<ZoneMenuSelectToRegister>" = "選択して登録する";
     "<ZoneMenuConfirmPauseAll>" = "すべての部屋で音楽を一時停止してもよろしいですか?";
     "<ZoneMenuPauseButton>" = "一時停止";
 
@@ -424,8 +428,8 @@
     "<MenuTitle_View>" = "表示";
 
     "<MenuTitle_Manage>" = "管理";
-    "<MenuTitle_AddPlayerOrSub>" = "PlayerまたはSUBの追加…";
-    "<MenuTitle_AddBoost>" = "BOOSTまたはBRIDGEの追加…";
+    "<MenuTitle_AddPlayerOrSub>" = "PlayerまたはSubを追加...";
+    "<MenuTitle_AddBoost>" = "ブーストまたはブリッジを追加...";
     "<MenuTitle_MusicLibrarySettings>" = "ミュージック ライブラリ設定…";
     "<MenuTitle_ServiceSettings>" = "サービス設定…";
     "<MenuTitle_AddRadioStation>" = "ラジオ ステーションを追加…";
@@ -532,20 +536,20 @@
     "<ShareWizardErrorTitle>" = "音楽フォルダを追加できませんでした";
 
     "<ShareWizard_SleepSet_Title>" = "スリープ設定を調整する";
-    "<ShareWizard_SleepSet_Body1>" = "コンピューターのスリープ設定を調整できませんでした。コンピューターに保存されている音楽を中断なしで再生できるようにするには、次の操作を実行します。";
-    "<ShareWizard_SleepSet_Steps>" = "1。Appleメニューの[システム環境設定]の省エネ アイコンをクリックします\n2。コンピューターをスリープ状態にする時間のスライダーを[なし]に設定します\n3。[システム環境設定]ウィンドウを閉じます\n4。下の[次へ]ボタンを押して続行します";
+    "<ShareWizard_SleepSet_Body1>" = "コンピューターのスリープ設定を調整できませんでした。お使いのコンピュータに音楽が途切れることなく再生されるように、以下の操作を行ってください。";
+    "<ShareWizard_SleepSet_Steps>" = "1。アップルメニュー\n→ 2から「システム環境設定」の「省エネルギー」アイコンをクリックします。コンピュータのスリープスライダを「しない」に\n設定します 3。システム環境設定が開いていますコンピューターのスリープ設定を変更できるようにするため、[システム環境設定]ウィンドウを閉じてください。";
 
-    "<ShareWizard_SystemPrefs_Title>" = "システム環境設定が開いています";
-    "<ShareWizard_SystemPrefs_Message>" = "コンピューターのスリープ設定を変更できるようにするため、[システム環境設定]ウィンドウを閉じてください。";
-    "<ShareWizard_InvalidPath_Empty>" = "パスが空です。";
-    "<ShareWizard_InvalidPath_NotAllowed>" = "パスが許可されていません。";
-    "<ShareWizard_InvalidPath_NotExist>" = "パスが存在しません。";
-    "<ShareWizard_InvalidPath_NotDirectory>" = "パスがフォルダではありません。";
-    "<ShareWizard_InvalidPath_TooManyNotes>" = "パスに含まれるファイルが多すぎます。";
-    "<ShareWizard_InvalidPath_Message>" = "音楽共有への有効なパスを入力してください。";
-    "<ShareWizard_NotLocalPath_Title>" = "ネットワーク パスが選択されました";
-    "<ShareWizard_NotLocalPath_Message>" = "共有フォルダとして、ネットワーク上のフォルダを選択できません。\n\nこのコンピューターにあるフォルダ、またはこのコンピューターに接続された外部ハードドライブにあるフォルダを選択してください。\n\nネットワークで共有されているフォルダを選択するには、ファイルブラウザで[キャンセル]をクリックし、次に[戻る]をクリックして、[ネットワーク上のネットワーク接続ストレージ(NAS)などのネットワーク機器]を選択します。";
-    "<ShareWizard_NotLocalPathBrowse_Message>" = "共有フォルダとして、ネットワーク上のフォルダを選択できません。\n\nこのコンピューターにあるフォルダ、またはこのコンピューターに接続された外部ハードドライブにあるフォルダを選択してください。\n\nネットワークで共有されているフォルダを選択するには、ファイルブラウザで[キャンセル]をクリックし、次に[戻る]をクリックして、[ネットワーク上のネットワーク接続ストレージ(NAS)などのネットワーク機器]を選択します。";
+    "<ShareWizard_SystemPrefs_Title>" = "パスが空です。";
+    "<ShareWizard_SystemPrefs_Message>" = "コンピュータのスリープ設定を変更できるように、システム環境設定ウィンドウを閉じてください";
+    "<ShareWizard_InvalidPath_Empty>" = "パスがフォルダではありません。";
+    "<ShareWizard_InvalidPath_NotAllowed>" = "パスに含まれるファイルが多すぎます。";
+    "<ShareWizard_InvalidPath_NotExist>" = "音楽共有への有効なパスを入力してください。";
+    "<ShareWizard_InvalidPath_NotDirectory>" = "ネットワーク パスが選択されました";
+    "<ShareWizard_InvalidPath_TooManyNotes>" = "共有フォルダとして、ネットワーク上のフォルダを選択できません。";
+    "<ShareWizard_InvalidPath_Message>" = "あなたの音楽共有に有効なパスを入力してください。";
+    "<ShareWizard_NotLocalPath_Title>" = "選択されたネットワークパス";
+    "<ShareWizard_NotLocalPath_Message>" = "共有するネットワーク上のフォルダは選択できません。 \n\nこのコンピュータ上にある、またはこのコンピュータに接続された外付けハードドライブ上のフォルダを選択してください。 \n\nネットワーク上で共有されているフォルダを選択するには、[戻る]をクリックして選択し、\\「ネットワークデバイス... \\に」。";
+    "<ShareWizard_NotLocalPathBrowse_Message>" = "\n\nこのコンピューターにあるフォルダ、またはこのコンピューターに接続された外部ハードドライブにあるフォルダを選択してください。\n\nネットワークで共有されているフォルダを選択するには、ファイルブラウザで[キャンセル]をクリックし、次に[戻る]をクリックして、[ネットワーク上のネットワーク接続ストレージ(NAS)などのネットワーク機器]を選択します。";
 
     "<ShareWizard_Complete_Title>" = "ミュージック ライブラリ設定";
 // %1$@, Label of the button on the wizard to continue with.
@@ -558,18 +562,18 @@
     "<Wizard_TextFieldLabel_Fmt_1>" = "%1$@:";
 
 /* Errors that can happen during share Adding */
-    "<NoLocalPathsCanBeAdded>" = "パスを共有として追加できませんでした";
+    "<NoLocalPathsCanBeAdded>" = "共有として追加できるパスはありません。";
 
-    "<ShareWizard_ShareFailedTitle>" = "共有フォルダが追加されていません";
-    "<ShareWizard_LionVolumeFormatError>" = "このドライブの共有フォルダは、サポートしていないファイルシステムでフォーマットされているため、追加できません。\n\nこのOS Xのバージョンでは、SonosはHFS+ファイルシステムでフォーマットされた外部ドライブ上のフォルダのみを共有できます。";
+    "<ShareWizard_ShareFailedTitle>" = "このドライブの共有フォルダは、サポートしていないファイルシステムでフォーマットされているため、追加できません。";
+    "<ShareWizard_LionVolumeFormatError>" = "\n\nこのOS Xのバージョンでは、SonosはHFS+ファイルシステムでフォーマットされた外部ドライブ上のフォルダのみを共有できます。";
     "<ShareWizard_FirewallConnectionBlocked>" = "あなたのコンピューターのファイアウォール オプションにより接続がブロックされました。";
 
-    "<ControllerUpdateWizard_Title>" = "アップデート進行度";
-    "<ControllerUpdateWizard_ErrorTitle>" = "アップデート失敗";
-    "<ControllerUpdateWizard_Downloading>" = "コントローラのアップデート：ダウンロード中";
-    "<ControllerUpdateWizard_Installing>" = "コントローラのアップデート：インストール中";
+    "<ControllerUpdateWizard_Title>" = "アップデートの進捗";
+    "<ControllerUpdateWizard_ErrorTitle>" = "コントローラのアップデート：";
+    "<ControllerUpdateWizard_Downloading>" = "コントローラーの更新：ダウンロードする";
+    "<ControllerUpdateWizard_Installing>" = "コントローラーの更新：インストールする";
 
-    "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Sonosコントローラー インストーラーは、ダウンロードに失敗しました。\n\nエラーコード%1$ld";
+    "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "\n\nエラーコード%1$ld";
     "<ControllerUpdateWizard_InstallFailed_Message>" = "Sonosコントローラのアップデートに失敗しました。\n\n予期せぬエラーが発生しました。もう一度お試しください。";
 
 
