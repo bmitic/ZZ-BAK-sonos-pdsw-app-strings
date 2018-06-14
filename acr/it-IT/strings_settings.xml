@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="settings_title">Impostazioni</string>
 <string name="room_settings">Impostazioni stanza</string>
 <string name="parental_controls">Controllo genitori</string>
+<string name="my_sonos_settings">Impostazioni Il mio Sonos</string>
 <string name="rename_zp_prompt">Nome stanza</string>
 <string name="toggle_button_on_text">ON</string>
 <string name="toggle_button_off_text">OFF</string>
@@ -17,9 +18,7 @@
 <string name="music_eq_balance_positive_value">D</string>
 <string name="music_eq_loudness_text">Loudness</string>
 <string name="music_eq_reset_all_text">Reimposta tutto</string>
-<string name="music_eq_on_text">ON</string>
-<string name="music_eq_off_text">OFF</string>
-<string name="tv_audio_delay_text">Ritardo audio (Lip Sync)</string>
+    <string name="tv_audio_delay_text">Ritardo audio (Lip Sync)</string>
 <string name="tv_audio_delay_min_value">Min</string>
 <string name="tv_audio_delay_max_value">Max</string>
 <string name="tv_dialog_reset_all_text">Reimposta tutto</string>
@@ -49,8 +48,7 @@
 <string name="music_shares_sharename">\\\\MioComputer\\Condivisione\\Musica</string>
 <string name="music_eq_not_supported">Le impostazioni di equalizzazione non sono disponibili mentre il livello di line-out di un lettore Sonos è su Fisso.</string>
 <string name="moreinfo_title">Ulteriori informazioni</string>
-<string name="unconfigured_spinner_header">Seleziona un Player</string>
-<string name="notifications_setting">Mostra notifiche</string>
+    <string name="notifications_setting">Mostra notifiche</string>
 <string name="lockscreen_setting">Mostra controlli schermata di blocco</string>
 <string name="lockscreen_volume_homescreen_setting">Consenti controlli volume nella schermata Home</string>
 <string name="lockscreen_setting_subtitle">Richiede notifiche</string>
@@ -58,10 +56,9 @@
 <string name="lockscreen_external_setting_subtitle">Richiede schermata di blocco</string>
 <string name="app_shortcuts_setting">Mostra scorciatoie app</string>
 <string name="app_shortcuts_setting_subtitle">Richiede notifiche</string>
-<string name="use_tablet_layout_setting">Usa layout tablet</string>
-<string name="debug_wizard">Procedura guidata di debug</string>
+    <string name="debug_wizard">Procedura guidata di debug</string>
 <string name="alarm_toggle">Commuta sveglia</string>
-<string name="time_picker_content">Scegli ora: %s</string>
+<string name="time_picker_content">Scegli ora:  %s</string>
 <string name="time_picker_label_hr">h</string>
 <string name="time_picker_label_min">min</string>
 </resources>
