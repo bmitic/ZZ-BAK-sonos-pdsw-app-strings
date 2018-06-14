@@ -1,7 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>&lt;localizationTest&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d giorno</string>
+			<key>other</key>
+			<string>%d giorni</string>
+		</dict>
+	</dict>
 	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
@@ -79,9 +95,9 @@
 			<key>zero</key>
 			<string>Vuota</string>
 			<key>one</key>
-			<string>.%d brano.</string>
+			<string>.%d canzone.</string>
 			<key>other</key>
-			<string>.%d brani.</string>
+			<string>.%d canzoni.</string>
 		</dict>
 	</dict>
 </dict>
