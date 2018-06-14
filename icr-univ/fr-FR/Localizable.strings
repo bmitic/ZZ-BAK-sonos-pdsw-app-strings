@@ -6,9 +6,13 @@
     "<Home>" = "Mon Sonos";
     "<Browse>" = "Parcourir";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Afficher des informations et des options sur ce qui est actuellement testé. \\" "
+    " <LocalziationTestICR2> " = "Une liste de lecture Sonos nommée" %1$@ "existe déjà. Le remplacer écrase son contenu. " 
 
-    "<Sonos>" = "SONOS";
+ / * Général * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Annuler";
     "<Done>" = "Terminé";
     "<Yes>" = "Oui";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Chapitre suivant";
     "<QUEUE>" = "Liste";
     "<NotInUse>" = "Non utilisé";
-    "<NowPlayingNoMusic>" = "Pas de musique";
+    "<NowPlayingNoMusic>" = "Aucune musique sélectionnée";
     "<NowPlayingDialogEnhacementLabel>" = "Réduction du bruit";
     "<NowPlayingNightModeLabel>" = "Mode son nocturne";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Appuyez deux fois pour ouvrir l'écran En lecture";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ et %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ et %3$d autres";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Lecture en cours de %@";
+    "<NowPlayingOpen>" = "Ouvrir maintenant Jouer";
     "<NowPlayingClose>" = "Fermer En lecture";
-    "<NowPlayingCloseHint>" = "Appuyer deux fois pour revenir au parcours de la musique";
 
 /* Info Menu */
 
@@ -177,12 +180,12 @@
     "<QueueSaveErrorGeneric>" = "Impossible d’enregistrer la liste.";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonos n’a pas assez d’espace libre pour enregistrer la file d’attente.\nEnlevez les anciennes listes de lecture ou files d’attente enregistrées dans d’autres pièces et réessayez.";
     "<QueueSaveErrorMobileTracksNotSaved>" = "Les morceaux de périphériques mobiles ne peuvent pas être stockés dans les listes de lecture Sonos et n'ont pas été enregistrés.";
-    "<QueueSaveErrorAllMobileTracks>" = "La file d'attente contient uniquement des morceaux de périphériques mobiles. Ces morceaux ne peuvent pas être enregistrés dans des listes de lecture Sonos.";
+    "<QueueSaveErrorAllMobileTracks>" = "La file d\'attente contient uniquement des morceaux de périphériques mobiles. Ces morceaux ne peuvent pas être enregistrés dans des listes de lecture Sonos.";
     "<QueuePlaylistExistsWarningTitle>" = "La liste de lecture Sonos existe déjà";
     // %1$@, the name of the pre-existing playlist
     "<QueuePlaylistExistsWarningMessage_1>" = "Une liste de lecture Sonos nommée « %1$@ » existe déjà. Son contenu actuel sera écrasé si elle est remplacée.";
     "<QueuePlaylistReplace>" = "Remplacer";
-    "<AddToPlaylistFolderHint>" = "Dossier Liste de lecture Appuyer deux fois pour ouvrir.";
+    "<AddToPlaylistFolderHint>" = "Dossier de la playlist Appuyez deux fois pour ouvrir.";
     "<AddToPlaylistDisabledHint>" = "Vous n'êtes pas autorisé à ajouter des morceaux à cette liste de lecture.";
 
 /* Queue Voice Over */
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d morceaux.";
+    "<QueueTrackLabel_1>" = ".%d chanson (s).";
     "<QueueShuffleButtonLabel>" = "Lecture aléatoire";
     "<QueueRepeatAllButtonLabel>" = "Répéter tout";
     "<QueueRepeatOneButtonLabel>" = "Répéter le morceau";
@@ -203,15 +206,16 @@
 /* Rooms */
 
     "<Rooms>" = "Pièces";
-    "<GroupRooms>" = "Regrouper les pièces";
-    "<Group>" = "Groupe";
+    "<GroupRooms>" = "Regrouper des pièces";
+    "<Group>" = "Tester";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
-    "<GroupRooms_Short>" = "Regrouper les pièces";
+    "<GroupRooms_Short>" = "Regrouper des pièces";
     "<PauseAll>" = "Suspendre tout";
     "<PauseAllConfirmation>" = "Voulez-vous vraiment suspendre la musique diffusée dans toutes les pièces ?";
-    "<ContinueSetUp>" = "Poursuivre l'installation";
-    "<SoftwareUpdateRequired>" = "Mise à jour logicielle requise";
+    "<SelectToUpdate>" = "Sélectionner pour mettre à jour";
+    "<SelectToConfigure>" = "Sélectionnez pour configurer";
+    "<SelectToRegister>" = "Sélectionnez pour vous enregistrer";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,7 +298,8 @@
     "<Settings>" = "Paramètres";
     "<RoomSettings>" = "Paramètres de la pièce";
     "<ParentalControls>" = "Contrôles parentaux";
-    "<MoreInformation>" = "Plus d'informations";
+    "<MySonosSettings>" = "Paramètres de Mon Sonos";
+    "<MoreInformation>" = "Plus d\'informations";
     "<Help>" = "Aide";
     "<Call>" = "Appeler";
 
@@ -387,7 +392,7 @@
 
     "<SUBOn>" = "SUB";
     "<SUBLevel>" = "Niveau de SUB";
-    "<PlacementAdjustment>" = "Ajustement du positionnement";
+    "<PlacementAdjustment>" = "Réglage de la position";
     "<SpeakerSize>" = "Taille haut-parleurs (recouvr.)";
 
 /* Surround Equalizer */
@@ -398,7 +403,7 @@
     "<SurroundMode>" = "Lecture de musique";
     "<SurroundAmbient>" = "Ambiance";
     "<SurroundFull>" = "Complet";
-    "<SurroundDescription>" = "Pendant la diffusion de la musique, les haut-parleurs surround peuvent compléter avec un son d'ambiance subtil ou un son pleine gamme plus fort.";
+    "<SurroundDescription>" = "Pendant la diffusion de la musique, les haut-parleurs surround peuvent compléter avec un son d\'ambiance subtil ou un son pleine gamme plus fort.";
     "<SurroundBalanceButtonLabel>" = "Équilibrer les haut-parleurs surround";
     "<SurroundBalanceDescription>" = "Équilibrer manuellement les niveaux de votre haut-parleur surround. Utiliser le réglage Trueplay pour régler automatiquement le son pour cette pièce.";
 
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ restantes";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ restant";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "%1$@ %2$@ restantes";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,14 +479,14 @@
     "<FavoritesIconTitle>" = "Mon Sonos";
     "<PlayIconPlainTitle>" = "Lecture";
     "<PlayIconPlainSubtitle>" = "Reprendre le dernier morceau lu";
-    "<PlayIconRoomTitle>" = "Lecture : %@";
+    "<PlayIconRoomTitle>" = "Jouer: %@";
     "<PauseIconPlainTitle>" = "Pause";
     "<PauseIconPlainSubtitle>" = "Suspendre la musique actuelle";
-    "<PauseIconRoomTitle>" = "Pause : %@";
+    "<PauseIconRoomTitle>" = "Pause: %@";
 
 /* Store mode */
 
-    "<GotIt>" = "C'est fait";
+    "<GotIt>" = "C\'est fait";
 
 /* In App Messages */
 
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Dernière lecture depuis";
     "<DirectControlLastPlayedFrom_1>" = "Dernière lecture depuis %1$@";
     "<DirectControlResumeFrom>" = "Reprendre depuis";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Reprendre de %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Lecture depuis %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -515,7 +522,7 @@
 
     "<DirectControlResume>" = "Reprendre";
     "<DirectControlDisconnect>" = "Terminer la session";
-    "<DirectControlUpNext>" = "Suivant : %@";
+    "<DirectControlUpNext>" = "Prochain: %@";
     "<DirectControlMoreInfo>" = "Afficher plus";
     "<DirectControlMoreInfoVOLabel>" = "Afficher les détails de %@";
     "<DirectControlLessInfo>" = "Masquer";
