@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="setup_wizard_next">Næste</string>
 <string name="setup_wizard_back">Tilbage</string>
@@ -7,24 +7,9 @@
 <string name="welcome_body_active_vpn_long">Du er forbundet til et virtuelt privat netværk (VPN), som kan forstyrre forbindelsen til Sonos. Deaktiver din VPN, og prøv igen.</string>
 <string name="welcome_setup_button_text">Konfigurer et nyt Sonos-system</string>
 <string name="welcome_join_button_text">Opret forbindelse til eksisterende system</string>
-<string name="welcome_body_or">- ELLER -</string>
 <string name="welcome_body">Har du endnu ikke Sonos?</string>
-<string name="welcome_signup_button_text">Hold dig informeret</string>
 <string name="welcome_viewdemo_button_text">Læs mere om Sonos</string>
-<string name="setup_try_again">Prøv igen</string>
-<string name="setup_zoneplayer_spinner_prompt">Vælg navn</string>
-<string name="setup_autoplay_spinner_select_text">Ingen</string>
-<string name="setup_autoplay_spinner_select_uri"></string>
-<string name="setup_autoplay_spinner_select_id"></string>
-<string name="setup_country_list_spinner_prompt">Vælg land</string>
-<string name="setup_sonos_registration_postalcode_error">Indtast et gyldigt postnummer.</string>
-<string name="setup_device_name_zoneplayer">Sonos-afspiller</string>
-<string name="setup_device_name_zonebridge">BRIDGE</string>
-<string name="setup_device_name_sonos_dock">DOCK</string>
-<string name="setup_device_name_unknown">Sonos-komponent</string>
 <string name="setup_device_name_really_unknown">Ukendt</string>
-<string name="welcome_learn_more_visible_url">www.sonos.com</string>
-<string name="welcome_learn_more_actual_url">http://www.sonos.com/acr_ref</string>
 <string name="demo_sonos_string">Få mere at vide</string>
 <string name="show_sonos_string">Vil du vise Sonos til nogen?</string>
 <string name="sub_level_minus3">-3</string>
@@ -34,9 +19,6 @@
 <string name="sub_level_plus1">+1</string>
 <string name="sub_level_plus2">+2</string>
 <string name="sub_level_plus3">+3</string>
-<string name="left_string">Venstre</string>
-<string name="right_string">Højre</string>
-<string name="playback_tips_next">Næste</string>
 <string name="playback_tips_previous">Forrige</string>
 <string name="playback_tips_done">Udført</string>
 <string name="show_string">Vis</string>
