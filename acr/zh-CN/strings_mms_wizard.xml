@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="mms_service_password_invalid">请输入有效的密码。</string>
 <string name="mms_service_login_password_invalid">请输入有效的登录信息和密码。</string>
