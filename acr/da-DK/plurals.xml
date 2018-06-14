@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+<plurals name="localization_test_plurals_acr">
+    <item quantity="one">Kør %1$d test</item>
+    <item quantity="other">Kør %1$d test</item>
+</plurals>
 <plurals name="accessibility_tab_badge_format">
     <item quantity="one">%1$s. %2$d genstand.</item>
     <item quantity="other">%1$s. %2$d genstande.</item>
@@ -9,3 +13,4 @@
     <item quantity="other">%d minutter</item>
 </plurals>
 </resources>
+1528994877
