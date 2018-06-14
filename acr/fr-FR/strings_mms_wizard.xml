@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="mms_service_password_invalid">Entrez un mot de passe valide.</string>
 <string name="mms_service_login_password_invalid">Entrez des informations de connexion et un mot de passe valides.</string>
