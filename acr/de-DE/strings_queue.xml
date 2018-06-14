@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Liste</string>
-<string name="queue_title_tab">Liste</string>
-<string name="edit_queue_title">Liste bearbeiten</string>
+    <string name="edit_queue_title">Liste bearbeiten</string>
 <string name="queue_subtitle_not_in_use">Nicht verwendet</string>
 <string name="clear_queue_title">Liste löschen</string>
 <string name="clear_queue_text">Möchtest du die Liste löschen?</string>
@@ -25,11 +24,10 @@
 <string name="direct_control_playing_from_accessibility">Wiedergabe von „%1$s“</string>
 <string name="direct_control_started_from">Gestartet von</string>
 <string name="direct_control_started_from_accessibility">Gestartet von %1$s</string>
-<string name="direct_control_resume_playing_from">Wiedergabe fortsetzen von</string>
-<string name="direct_control_last_played_from">Letzte Wiedergabe von</string>
+    <string name="direct_control_last_played_from">Letzte Wiedergabe von</string>
 <string name="direct_control_last_played_from_accessibility">Letzte Wiedergabe von „%1$s“</string>
 <string name="direct_control_last_played">Zuletzt in diesem Raum abgespielt</string>
-<string name="direct_control_next">Es folgt: %s</string>
+<string name="direct_control_next">Es folgt:  %s</string>
 <string name="direct_control_resume">Fortsetzen</string>
 <string name="direct_control_disconnect">Sitzung beenden</string>
 </resources>
