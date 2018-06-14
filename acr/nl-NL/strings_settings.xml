@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="settings_title">Instellingen</string>
 <string name="room_settings">Instellingen kamer</string>
 <string name="parental_controls">Ouderlijk toezicht</string>
+<string name="my_sonos_settings">Instellingen Mijn Sonos</string>
 <string name="rename_zp_prompt">Naam kamer</string>
 <string name="toggle_button_on_text">AAN</string>
 <string name="toggle_button_off_text">UIT</string>
@@ -17,9 +18,7 @@
 <string name="music_eq_balance_positive_value">R</string>
 <string name="music_eq_loudness_text">Loudness</string>
 <string name="music_eq_reset_all_text">Alles opnieuw instellen</string>
-<string name="music_eq_on_text">AAN</string>
-<string name="music_eq_off_text">UIT</string>
-<string name="tv_audio_delay_text">Audiovertraging ( lipsync)</string>
+    <string name="tv_audio_delay_text">Audiovertraging ( lipsync)</string>
 <string name="tv_audio_delay_min_value">Min</string>
 <string name="tv_audio_delay_max_value">Max</string>
 <string name="tv_dialog_reset_all_text">Alles opnieuw instellen</string>
@@ -49,8 +48,7 @@
 <string name="music_shares_sharename">\\\\MijnComputer\\Gedeelde\\Muziek</string>
 <string name="music_eq_not_supported">Instellingen equalizer zijn niet beschikbaar wanneer het uitgangsniveau van een Sonos-speler is ingesteld op Vast.</string>
 <string name="moreinfo_title">Meer informatie</string>
-<string name="unconfigured_spinner_header">Speler kiezen</string>
-<string name="notifications_setting">Meldingen tonen</string>
+    <string name="notifications_setting">Meldingen tonen</string>
 <string name="lockscreen_setting">Bediening vanaf het vergrendelingsscherm tonen</string>
 <string name="lockscreen_volume_homescreen_setting">Bediening van het volume toestaan vanaf het beginscherm</string>
 <string name="lockscreen_setting_subtitle">Meldingen vereist</string>
@@ -58,10 +56,9 @@
 <string name="lockscreen_external_setting_subtitle">Vergrendelingsscherm vereist.</string>
 <string name="app_shortcuts_setting">App-snelkoppelingen weergeven</string>
 <string name="app_shortcuts_setting_subtitle">Meldingen vereist</string>
-<string name="use_tablet_layout_setting">Tablet lay-out gebruiken</string>
-<string name="debug_wizard">Wizard voor het opsporen van fouten</string>
+    <string name="debug_wizard">Wizard voor het opsporen van fouten</string>
 <string name="alarm_toggle">Alarm schakelen</string>
-<string name="time_picker_content">Tijdkiezer: %s</string>
+<string name="time_picker_content">Tijdkiezer:  %s</string>
 <string name="time_picker_label_hr">Uur</string>
 <string name="time_picker_label_min">Min.</string>
 </resources>
