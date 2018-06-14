@@ -9,9 +9,12 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
-/* Common */
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "Lokalisation auch hier testen " 
 
-    "<OK>" = "OK";
+ / * Allgemein * /
+
+    " <OK> " = "OK";
     "<Cancel>" = "Abbrechen";
     "<Yes>" = "Ja";
     "<No>" = "Nein";
@@ -117,7 +120,7 @@
     "<AlarmHeaderWhere>" = "Wo";
     "<AlarmHeaderWhen>" = "Wann";
     "<AlarmHeaderOn>" = "EIN";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Aktuelle Uhrzeit: %1$@ - %2$@ %3$@";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Aktuelle Uhrzeit:  -  ";
     "<AlarmEditButtonTitle>" = "Bearbeiten";
     "<AlarmUnknownDevice>" = "Kein Raum ausgewählt";
 
@@ -142,7 +145,7 @@
     "<AlarmEditVolume>" = "Lautstärke";
     "<AlarmEditDuration>" = "Dauer";
     "<AlarmEditDurationNoLimit>" = "Unbegrenzt";
-    "<AlarmEditIncludeText>" = "Gruppierte Räume einbeziehen";
+    "<AlarmEditIncludeText>" = "Inkl. gruppierte Räume";
     "<AlarmEditShuffleMusic>" = "Zufällige Musikwiedergabe";
 
     "<AlarmMusicDialogTitle>" = "Weckmusik";
@@ -217,7 +220,7 @@
     "<MusicPathHomeFolder>" = "(Basisordner)";
     "<ShareMigrationAlertTitle>" = "Musikbibliothek aktualisieren";
     "<ShareMigrationAlertMessage>" = "Um die Wiedergabe deiner Musikbibliothek sicherzustellen, muss Sonos den Musikindex aktualisieren. Dies kann einige Minuten in Anspruch nehmen.";
-    "<ShareMigrationAlertNowButton>" = "Jetzt aktualisieren";
+    "<ShareMigrationAlertNowButton>" = "Update NowZXZ";
     "<ShareMigrationAlertLaterButton>" = "Später erinnern";
     "<AuthorizationFailed>" = "Autorisierung fehlgeschlagen.";
     "<AbleToAddMusicSharesFailed>" = "Sonos konnte den Musikbibliotheksserver nicht starten, weil die Player nicht kompatibel sind. Bitte prüfen, ob Updates verfügbar sind.";
@@ -229,7 +232,7 @@
     "<NowPlayingHeaderTitle>" = "AKTUELLER TITEL";
     "<NowPlayingLabel_Information>" = "Info & Optionen";
     "<NowPlayingTrackDefaultLabel>" = "Titel [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[keine Musikdatei]";
+    "<NowPlayingTrackDefaultString>" = "[Keine Musik ausgewählt]";
     "<NowPlayingArtistDefaultLabel>" = "Interpret";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -245,7 +248,7 @@
 // %1$d, Number of tracks to remove.
     "<QueueSaveWindowTitle>" = "Liste speichern";
     "<QueueSaveIntroText>" = "Die Liste wird als Sonos-Playliste gespeichert.";
-    "<QueuePlaylistNameText>" = "Neuen Playlistennamen eingeben:";
+    "<QueuePlaylistNameText>" = "Neuen Namen für die Playliste eingeben:";
     "<QueuePlaylistTableText>" = "Oder wähle eine vorhandene Sonos-Playliste zum Ersetzen aus:";
     "<QueueSaveErrorGeneric>" = "Liste kann nicht gespeichert werden.";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonos verfügt nicht über genügend Speicherplatz zum Speichern der Liste.\nEntferne alte gespeicherte Playlisten oder Listen in anderen Räumen und versuche es erneut.";
@@ -268,16 +271,16 @@
 
     "<SettingsWindowTitle>" = "Einstellungen";
     "<SettingsBasicSettingsTitle>" = "Basis";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "%1$@ derzeit nicht im Sonos-System vorhanden.\n\nZum Hinzufügen von %1$@ wähle \n„%2$@“ in der Menüleiste.";
     "<SettingsNoPlayers_1>" = "Dein Sonos-System enthält derzeit keine Sonos-Player.\nZur Musikwiedergabe benötigst du mindestens einen Sonos-Player.\n\nZum Hinzufügen eines Sonos-Players wähle „%1$@“ in der Menüleiste.";
-    "<SettingsNoPlayerLink>" = "Verwalten > Player oder SUB hinzufügen";
-    "<SettingsNoBoostLink>" = "Verwalten > BOOST oder BRIDGE hinzufügen";
+    "<SettingsNoPlayerLink>" = "Verwalten> Einen Player oder Sub hinzufügen";
+    "<SettingsNoBoostLink>" = "Verwalten> Hinzufügen eines Boosts oder einer Brücke";
     "<SettingsNoAvailable_1>" = "%1$@ nicht verfügbar";
     "<SettingsComponentRoom>" = "Raum";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bass";
     "<SettingsEqTreble>" = "Treble";
     "<SettingsEqBalance>" = "Balance";
@@ -312,8 +315,8 @@
     "<SettingsExplicitFilteringNoServices>" = "Es gibt keine Musikdienste auf deinem Sonos-System, die das Filtern von Inhalten unterstützen.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Weitere Infos";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB ein";
-    "<SettingsSubEqLevelAdjustment>" = "SUB-Pegel";
+    "<SettingsSubEqEnabled>" = "Sub Ein";
+    "<SettingsSubEqLevelAdjustment>" = "Unterebene";
     "<SettingsSubEqPlacementAdjustment>" = "Platzierungseinstellung";
     "<SettingsSubEqSpeakerSize>" = "Lautsprechergröße (Crossover)";
     "<SettingsTVDialogDelay>" = "Audioverzögerung (Lip-Sync)";
@@ -386,8 +389,9 @@
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@-Einstellungen…";
-    "<ZoneMenuSelectToUpdate>" = "Für Update auswählen…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "%1$s-Setup wählen";
+    "<ZoneMenuSelectToUpdate>" = "Wählen Sie, um zu aktualisieren";
+    "<ZoneMenuSelectToConfigure>" = "Wählen Sie, um einzurichten";
+    "<ZoneMenuSelectToRegister>" = "Wählen Sie, um sich zu registrieren";
     "<ZoneMenuConfirmPauseAll>" = "Möchtest du die Musikwiedergabe in all diesen Räumen anhalten?";
     "<ZoneMenuPauseButton>" = "Anhalten";
 
@@ -424,8 +428,8 @@
     "<MenuTitle_View>" = "Anzeigen";
 
     "<MenuTitle_Manage>" = "Verwalten";
-    "<MenuTitle_AddPlayerOrSub>" = "Player oder SUB hinzufügen…";
-    "<MenuTitle_AddBoost>" = "BOOST oder BRIDGE hinzufügen…";
+    "<MenuTitle_AddPlayerOrSub>" = "Fügen Sie einen Player oder Sub ... hinzu";
+    "<MenuTitle_AddBoost>" = "Fügen Sie einen Boost oder eine Brücke hinzu ...";
     "<MenuTitle_MusicLibrarySettings>" = "Einstellungen der Musikbibliothek…";
     "<MenuTitle_ServiceSettings>" = "Diensteinstellungen…";
     "<MenuTitle_AddRadioStation>" = "Radiosender hinzufügen…";
@@ -566,8 +570,8 @@
 
     "<ControllerUpdateWizard_Title>" = "Aktualisierungsverlauf";
     "<ControllerUpdateWizard_ErrorTitle>" = "Aktualisierung fehlgeschlagen";
-    "<ControllerUpdateWizard_Downloading>" = "Controller wird aktualisiert: Download läuft";
-    "<ControllerUpdateWizard_Installing>" = "Controller wird aktualisiert: Installation läuft";
+    "<ControllerUpdateWizard_Downloading>" = "Controller wird aktualisiert: wird heruntergeladen";
+    "<ControllerUpdateWizard_Installing>" = "Controller wird aktualisiert: installieren";
 
     "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Fehler beim Download des Sonos Controller-Installationsprogramms.\n\nFehlercode %1$ld";
     "<ControllerUpdateWizard_InstallFailed_Message>" = "Fehler beim Sonos Controller-Update.\n\nEs ist ein unerwarteter Fehler aufgetreten. Bitte versuche es erneut.";
