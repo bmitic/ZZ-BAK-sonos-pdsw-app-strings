@@ -1,580 +1,569 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<String Category="None" UniqueId="browse/searchboxspecialized.baml:SearchMusicLibrary_1:System.String.$Content">Sök i Musikbiblioteket</String>
-<String Category="Title" UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Väckningar</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Klar</String>
-<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_3:System.Windows.Documents.Run.Text">Hantera Sonos-väckningar</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">Var</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">När</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content">PÅ</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">Lägg till</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_2:System.Windows.Controls.ContentControl.Content">Redigera</String>
-<String Category="Button" UniqueId="alarms/alarmwindow.baml:Button_3:System.Windows.Controls.ContentControl.Content">Ta bort</String>
-<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_1:System.Windows.Documents.Run.Text">Klicka på Lägg till för att lägga till en ny väckning.</String>
-<String Category="Text" UniqueId="alarms/alarmwindow.baml:Run_2:System.Windows.Documents.Run.Text">Klicka på Ta bort för att ta bort den markerade väckningen.</String>
-<String Category="Title" UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Kortkommandon</String>
-<String Category="Button" UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Klar</String>
-<String Category="Text" UniqueId="main/keyboardshortcutwindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Följande kortkommandon stöds i ditt Sonos-system:</String>
-<String Category="Button" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Klar</String>
-<String Category="Button" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Avbryt</String>
-<String Category="Title" UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:System.Windows.Window.Title">Spara kö</String>
-<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Kön sparas som en Sonos-spellista.</String>
-<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text">Ange nytt namn på spellista:</String>
-<String Category="Text" UniqueId="browse/savequeuedialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Eller välj en befintlig Sonos-spellista att ersätta:</String>
-<String Category="Label" UniqueId="nowplaying/groupvolumepopover.baml:PART_GroupMuteVolume_Copy_1:Sonos.Controller.Desktop.NowPlaying.MuteVolumeControl.LabelText">Gruppvol.</String>
-<String Category="Button" UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">Namn</String>
-<String Category="Button" UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">Sökväg</String>
-<String Category="Button" UniqueId="utilities/messagewindow.baml:yesButton_1:System.Windows.Controls.ContentControl.Content">Ja</String>
-<String Category="Button" UniqueId="utilities/messagewindow.baml:noButton_1:System.Windows.Controls.ContentControl.Content">Nej</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_CURRENT_USES_PARMNUM_1:System.String.$Content">Parametern för resursen 'current uses' är ogiltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_REMOVE_RIGHT_1:System.String.$Content">Det går inte att ta bort %s för gästkonto.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_APPLY_PASSWORD_FAILED_1:System.String.$Content">Det går inte att tillämpa nytt lösenord</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_TYPE_PARMNUM_1:System.String.$Content">Parametern för resurstyp är ogiltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_NO_ADVAPIDLL_1:System.String.$Content">Det går inte att ladda advapi32.dll. LSA-inställningar är otillgängliga.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_FILE_SD_PARMNUM_1:System.String.$Content">Parametern för resurssäkerhetsbeskrivare är inte giltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_UNKNOWN_PARMNUM_1:System.String.$Content">En resursparameter är ogiltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SONOS_USER_FAILED_1:System.String.$Content">Det går inte att skapa Sonos-användare.
-Se till att du har administratörsbehörighet på den här datorn.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_PERMISSION_FAILED_1:System.String.$Content">Det går inte att lägga till resursen %s med korrekt behörighet</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_PARM_ERR_CREATE_SHARE_FAILED_1:System.String.$Content">Det går inte att lägga till resursen %s. %s</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content">Det går inte att lägga till resursen %s</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_NETWORK_PATH_1:System.String.$Content">
+  <!--DO NOT EDIT. This file was generated by BamlLocalization in ResourceXmlWriter.cs-->
+  <String UniqueId="localizationTest1/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content" Category="None">Kan inte lägga till testet ' %s '</String>
+  <String UniqueId="localizationTest2/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content" Category="None">Kan inte lägga till * testet *</String>
+  <String UniqueId="browse/searchboxspecialized.baml:SearchMusicLibrary_1:System.String.$Content" Category="None">Sök i Musikbiblioteket</String>
+  <String UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Väckningar</String>
+  <String UniqueId="alarms/alarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Klar</String>
+  <String UniqueId="alarms/alarmwindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Hantera Sonos-väckningar</String>
+  <String UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content" Category="Button">Var</String>
+  <String UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content" Category="Button">När</String>
+  <String UniqueId="alarms/alarmwindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content" Category="Button">PÅ</String>
+  <String UniqueId="alarms/alarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content" Category="Button">Lägg till</String>
+  <String UniqueId="alarms/alarmwindow.baml:Button_2:System.Windows.Controls.ContentControl.Content" Category="Button">Redigera</String>
+  <String UniqueId="alarms/alarmwindow.baml:Button_3:System.Windows.Controls.ContentControl.Content" Category="Button">Ta bort</String>
+  <String UniqueId="alarms/alarmwindow.baml:Run_1:System.Windows.Documents.Run.Text" Category="Text">Klicka på Lägg till för att lägga till en ny väckning.</String>
+  <String UniqueId="alarms/alarmwindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">Klicka på Ta bort för att ta bort den markerade väckningen.</String>
+  <String UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Kortkommandon</String>
+  <String UniqueId="main/keyboardshortcutwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Klar</String>
+  <String UniqueId="main/keyboardshortcutwindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Följande kortkommandon stöds i ditt Sonos-system:</String>
+  <String UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Klar</String>
+  <String UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Avbryt</String>
+  <String UniqueId="browse/savequeuedialog.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Spara kö</String>
+  <String UniqueId="browse/savequeuedialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Kön sparas som en Sonos-spellista.</String>
+  <String UniqueId="browse/savequeuedialog.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text" Category="Text">Ange nytt namn på spellista:</String>
+  <String UniqueId="browse/savequeuedialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Eller välj en befintlig Sonos-spellista att ersätta:</String>
+  <String UniqueId="nowplaying/groupvolumepopover.baml:PART_GroupMuteVolume_Copy_1:Sonos.Controller.Desktop.NowPlaying.MuteVolumeControl.LabelText" Category="Label">Gruppvol.</String>
+  <String UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content" Category="Button">Namn</String>
+  <String UniqueId="utilities/shareslistcontrol.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content" Category="Button">Sökväg</String>
+  <String UniqueId="utilities/messagewindow.baml:yesButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Ja</String>
+  <String UniqueId="utilities/messagewindow.baml:noButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Nej</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_CURRENT_USES_PARMNUM_1:System.String.$Content" Category="None">Parametern för resursen 'current uses' är ogiltig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_REMOVE_RIGHT_1:System.String.$Content" Category="None">Det går inte att ta bort %s för gästkonto.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_APPLY_PASSWORD_FAILED_1:System.String.$Content" Category="None">Det går inte att tillämpa nytt lösenord</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_TYPE_PARMNUM_1:System.String.$Content" Category="None">Parametern för resurstyp är ogiltig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_NO_ADVAPIDLL_1:System.String.$Content" Category="None">Det går inte att ladda advapi32.dll. LSA-inställningar är otillgängliga.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_FILE_SD_PARMNUM_1:System.String.$Content" Category="None">Parametern för resurssäkerhetsbeskrivare är inte giltig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_UNKNOWN_PARMNUM_1:System.String.$Content" Category="None">En resursparameter är ogiltig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SONOS_USER_FAILED_1:System.String.$Content" Category="None">Det går inte att skapa Sonos-användare. Se till att du har administratörsbehörighet på den här datorn.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_PERMISSION_FAILED_1:System.String.$Content" Category="None">Det går inte att lägga till resursen %s med korrekt behörighet</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_PARM_ERR_CREATE_SHARE_FAILED_1:System.String.$Content" Category="None">Det går inte att lägga till resursen %s. %s</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_1:System.String.$Content" Category="None">Det går inte att lägga till resursen %s</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_CREATE_SHARE_NETWORK_PATH_1:System.String.$Content" Category="None">
 
-Nätverkssökväg har valts.
-
-Du kan inte välja en mapp i nätverket som ska delas.
-
-Välj en mapp som finns på denna dator, eller på en extern hårddisk som är ansluten till denna dator.
-
-Om du vill välja en mapp som är delad i ditt nätverk, klicka på Bakåt och välj På en nätverksenhet.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_REMOVE_SHARE_1:System.String.$Content">Det går inte att ta bort resursen %s</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_FULLNAME_1:System.String.$Content">Sonos Wireless HiFi System</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_1:System.String.$Content">Sonos</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_MAX_USES_PARMNUM_1:System.String.$Content">Parametern för resursen 'max uses' är ogiltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PASSWD_PARMNUM_1:System.String.$Content">Parametern för resurslösenord är inte giltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PERMISSIONS_PARMNUM_1:System.String.$Content">Parametern för resursbehörigheter är ogiltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_NETNAME_PARMNUM_1:System.String.$Content">Resursnamnet %s är ogiltigt.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PATH_PARMNUM_1:System.String.$Content">Resurssökvägen: %s är ogiltig.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GET_SHARE_INFO_FAILED_1:System.String.$Content">Det går inte att dela information för %s på %s
+Nätverkssökväg har valts. Du kan inte välja en mapp i nätverket som ska delas. Välj en mapp som finns på denna dator, eller på en extern hårddisk som är ansluten till denna dator. Om du vill välja en mapp som är delad i ditt nätverk, klicka på Bakåt och välj På en nätverksenhet.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_REMOVE_SHARE_1:System.String.$Content" Category="None">Det går inte att ta bort resursen %s</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_FULLNAME_1:System.String.$Content" Category="None">Sonos Wireless HiFi System</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_1:System.String.$Content" Category="None">Sonos</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_MAX_USES_PARMNUM_1:System.String.$Content" Category="None">Parametern för resursen 'max uses' är ogiltig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PASSWD_PARMNUM_1:System.String.$Content" Category="None">Parametern för resurslösenord är inte giltig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PERMISSIONS_PARMNUM_1:System.String.$Content" Category="None">Parametern för resursbehörigheter är ogiltig.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_NETNAME_PARMNUM_1:System.String.$Content" Category="None">Resursnamnet %s är ogiltigt.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_PATH_PARMNUM_1:System.String.$Content" Category="None">Delväg: ' %s ' är ogiltigt.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GET_SHARE_INFO_FAILED_1:System.String.$Content" Category="None">Det går inte att dela information för %s på %s
 </String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_COMMENT_1:System.String.$Content">Konto används av Sonos för att nå musikmappar på denna dator</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_SHARE_PERMISSIONS_1:System.String.$Content">Det går inte att verifiera resursbehörigheter.
-UNC-sökvägen %s är inte en giltig UNC-sökväg eller inte en resurs på den här datorn.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_ADD_RIGHT_1:System.String.$Content">Det går inte att lägga till %s för gästkonto.</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SONOS_JOIN_GROUP_FAILED_1:System.String.$Content">Det går inte att lägga till Sonos-användare i gruppen %s</String>
-<String Category="None" UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_REMARK_PARMNUM_1:System.String.$Content">Parametern för resurskommentar är ogiltig.</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Crossfading är av</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Crossfading är på</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_7:System.Windows.Controls.ContentControl.Content">Musikutjämningsfunktion (EQ)</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Upprepa är av</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content">Upprepa alla</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_8:System.Windows.Controls.ContentControl.Content">Upprepa låt</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_5:System.Windows.Controls.ContentControl.Content">Blanda är av</String>
-<String Category="ToolTip" UniqueId="nowplaying/transport.baml:ToolTip_6:System.Windows.Controls.ContentControl.Content">Blanda är på</String>
-<String Category="Text" UniqueId="wizard/setupdatatemplates.baml:pageTitle_2:System.Windows.Controls.TextBlock.Text">Välj språk:</String>
-<String Category="Title" UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Fellogg för Sonos-systemet</String>
-<String Category="Button" UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Klar</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PLAY_FORMAT_1:System.String.$Content">_Spela upp {0}</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PAUSE_FORMAT_1:System.String.$Content">Pau_sa {0}</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_PLAY_STATE_STOP_FORMAT_1:System.String.$Content">_Stoppa {0}</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_MUTE_STATE_MUTE_FORMAT_1:System.String.$Content">_Ljud av för {0}</String>
-<String Category="None" UniqueId="zones/strings.baml:NEXT_MUTE_STATE_UNMUTE_FORMAT_1:System.String.$Content">_Ljud på för {0}</String>
-<String Category="None" UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content">{0} _EQ…</String>
-<String Category="None" UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content">In_ställningar för {0}…</String>
-<String Category="None" UniqueId="zones/strings.baml:GROUP_1:System.String.$Content">Grupp</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TITLE_1:System.String.$Content">Inga markerade rum</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TEXT_1:System.String.$Content">Vill du stoppa musiken i alla dessa rum?</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content">[ingen musik]</String>
-<String Category="None" UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content">Klicka på Klar för att välja musik</String>
-<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">Bekräfta</String>
-<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_PAUSE_1:System.String.$Content">Paus</String>
-<String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content">Vill du pausa musiken som spelas upp i alla rum?</String>
-<String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content">Visa {0} mer…</String>
-<String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content">Visa mer…</String>
-<String Category="None" UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content">Visa mindre…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">Klicka för att uppdatera…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_SUB_1:System.String.$Content">Välj för att konfigurera SUB</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_UNUSED_1:System.String.$Content">Välj för att konfigurera {0}</String>
-<String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content">Nuvarande rumsgrupp innehåller</String>
-<String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content">Använd piltangent upp och ner för att växla mellan rumsgrupper. Tryck på mellanslagstangenten för att öppna grupperingsdialogen.</String>
-<String Category="None" UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content">Använd piltangent upp och ner för att växla mellan rumsgrupper. Konfigurera den här enheten genom att trycka på mellanslagstangenten.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_NEXT_BUTTON_1:System.String.$Content">Skicka</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_FINISH_BUTTON_1:System.String.$Content">Slutför</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TRY_AGAIN_BUTTON_1:System.String.$Content">Försök igen</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TITLE_1:System.String.$Content">Skicka supportdiagnostik</String>
-<String Category="None" UniqueId="wizard/strings.baml:NormalWizardNextButtonLabel_1:System.String.$Content">Nästa</String>
-<String Category="None" UniqueId="wizard/strings.baml:NormalWizardDoneButtonLabel_1:System.String.$Content">Klar</String>
-<String Category="None" UniqueId="wizard/strings.baml:NormalWizardBackButtonLabel_1:System.String.$Content">Bakåt</String>
-<String Category="None" UniqueId="wizard/strings.baml:WizardTextFieldLabel_1:System.String.$Content">{0}:</String>
-<String Category="None" UniqueId="wizard/strings.baml:RegistrationEmailLabel_1:System.String.$Content">E-postadress:</String>
-<String Category="None" UniqueId="wizard/strings.baml:RegistrationEmailConfirmLabel_1:System.String.$Content">Bekräfta e-postadress:</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupLoginLabel_1:System.String.$Content">Inloggning</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupPasswordLabel_1:System.String.$Content">Lösenord</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupAddingTitle_1:System.String.$Content">Lägger till konto</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupCompleteTitle_1:System.String.$Content">Inställningen klar</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupAcceptTermsLabel_1:System.String.$Content">Jag har läst och accepterar bestämmelserna och villkoren.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ServiceSetupDeclineTermsLabel_1:System.String.$Content">Jag accepterar inte bestämmelserna och villkoren.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupTitle_1:System.String.$Content">Inställningar för Musikbiblioteket</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupText1_1:System.String.$Content">Inställningsassistenten kommer nu att hjälpa dig att lägga till din musik i Musikbiblioteket i ditt Sonos-system.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupText2_1:System.String.$Content">Du kan lägga till musik från mappar på den här datorn, eller mappar i ditt nätverk (exempelvis på en Apple Time Capsule eller NAS-disk) som redan konfigurerats för delning.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNowLabel_1:System.String.$Content">Konfigurera min musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupLaterLabel_1:System.String.$Content">Inte nu</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesTitle_1:System.String.$Content">Lägg till musik från iTunes</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesText1_1:System.String.$Content">Inställningsassistenten har hittat musik i din mapp med iTunes-media.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesText2_1:System.String.$Content">Vill du lägga till din iTunes-musik i ditt Sonos-system?</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesYesText_1:System.String.$Content">Ja</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryITunesNoText_1:System.String.$Content">Nej</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherTitle_1:System.String.$Content">Lägg till annan musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherText_1:System.String.$Content">Har du någon annan musik, förutom iTunes, som du vill lägga till i ditt Sonos-system?</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherYesText_1:System.String.$Content">Ja</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryOtherNoText_1:System.String.$Content">Nej</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectTitle_1:System.String.$Content">Lägg till musikmapp</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectText_1:System.String.$Content">Var finns den musik som du vill spela upp på Sonos?</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabel_1:System.String.$Content">Min mapp {0}</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabelSub_1:System.String.$Content">Mappen {0} är där som iTunes® vanligtvis lagrar musik.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryMusicFolderAlreadySharedSub_1:System.String.$Content">Mappen {0} har redan lagts till i Sonos.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalFolderLabel_1:System.String.$Content">Ytterligare en mapp eller disk som är ansluten till min dator</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkFolderLabel_1:System.String.$Content">Nätverksenhet (t.ex. NAS-enhet)</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsTitle_1:System.String.$Content">Användarnamn och lösenord</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsText_1:System.String.$Content">Ange eventuellt användarnamn och lösenord för nätverksdisken som innehåller din musik:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsUserNameLabel_1:System.String.$Content">Användarnamn:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content">Lösenord:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content">Justera fildelningsinställningar</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content">Innan ditt Sonos-system kan spela upp musik från den här datorn måste Inställningsassistenten justera följande Windows-inställningar:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Lägg till Windows Fil- och skrivardelning i Windows-listan Undantag för brandväggen. Utan dessa ändringar spelas inte musiken på den här datorn upp på ditt Sonos-system.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content">Ange att Windows-inställningar för strömsparläge ska vara Aldrig. Utan denna ändring spelas inte alltid musiken på den här datorn upp på ditt Sonos-system.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content">Inställningar för Musikbiblioteket</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content">Din musik läggs nu till i ditt Sonos-system. Detta kan fortsätta efter det att du startat Sonos Controller, och för stora musiksamlingar kan det ta flera minuter att slutföra.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText2_1:System.String.$Content">Du kan lägga till ytterligare musik i framtiden från Hantera Musikbiblioteket i Inställningar.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText3_1:System.String.$Content">Om du vill lägga till musik från en annan dator, installera Sonos Controller på den datorn.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredTitle_1:System.String.$Content">Ditt Sonos-system är redan registrerat.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredText1_1:System.String.$Content">Om du vill visa eller ändra dina registreringsinställningar loggar du in till ditt kundkonto på %1$s.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AlreadyRegisteredText2_1:System.String.$Content">Du måste ha ditt lösenord för Sonos-kontot för att kunna logga in. När du registrerade systemet skickades ditt ursprungliga lösenord till dig via e-post.</String>
-<String Category="None" UniqueId="wizard/strings.baml:LibraryAddingShareTitle_1:System.String.$Content">Lägger till musikmapp</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmCancelSetupMessage_1:System.String.$Content">Vill du verkligen lämna Inställningsassistenten?</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmCancelSetupTitle_1:System.String.$Content">Bekräfta</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareTitle_1:System.String.$Content">Fel vid tillägg av musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessage_1:System.String.$Content">Sonos kunde inte lägga till musikmappen</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content">Kontrollera att sökvägen till mappen och eventuellt användarnamn och lösenord är korrekta.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content">Orsak: {0}</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content">Okänt fel.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Error getting hostnameZXZ</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Could not write to share fileZXZ</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content">Bekräfta</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content">Vill du verkligen ta bort den markerade mappen?</String>
-<String Category="None" UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content">Inga</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicServiceMergeTrialYesText_1:System.String.$Content">Ja</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicServiceMergeTrialNoText_1:System.String.$Content">Nej</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardTitle_1:System.String.$Content">Sonos Inställningsassistent</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardNextButton_1:System.String.$Content">Nästa</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardNextIsRestartButton_1:System.String.$Content">Starta om</String>
-<String Category="None" UniqueId="wizard/strings.baml:LanguageWizardPreviousButton_1:System.String.$Content">Bakåt</String>
-<String Category="None" UniqueId="wizard/strings.baml:ContinueIsReset_1:System.String.$Content">Klicka på Starta om för att starta om Controller och fortsätta med konfigurationen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ExitButtonLabel_1:System.String.$Content">Avsluta</String>
-<String Category="None" UniqueId="wizard/strings.baml:CancelButtonLabel_1:System.String.$Content">Avbryt</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathTitle_1:System.String.$Content">Lägg till musik från din dator eller externa disk</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathText_1:System.String.$Content">Klicka på Bläddra för att välja en mapp som innehåller musik:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathTitle_1:System.String.$Content">Lägg till musik från din nätverksresurs</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathText_1:System.String.$Content">Skriv sökvägen till din nätverksresurs:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleTitle_1:System.String.$Content">Exempel:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText_1:System.String.$Content">\\\\MinAndraDator\\Delad\\Musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText2_1:System.String.$Content">\\\\MittLagringsutrymmeINätverket\\Delad\\Musik</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySelectPathBrowseButtonText_1:System.String.$Content">Bläddra</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicFolderLibrarySetupCompleteTitle_1:System.String.$Content">Inställningar för Musikbiblioteket</String>
-<String Category="None" UniqueId="wizard/strings.baml:FolderIsSetupText_1:System.String.$Content">{0} har nu konfigurerats i ditt Sonos-system.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicBeingAddedText_1:System.String.$Content">Din musik läggs nu till i ditt Sonos-system. Detta kan ta flera minuter att slutföra.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupCompleteTitle_1:System.String.$Content">Inställningar för Musikbiblioteket</String>
-<String Category="None" UniqueId="wizard/strings.baml:ManageMusicLibraryNoticeText_1:System.String.$Content">Du kan lägga till musik i Sonos i framtiden från Hantera Musikbiblioteket i Inställningar.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AddAnotherComputerNoticeText_1:System.String.$Content">Om du vill lägga till musik från en annan dator, installera Sonos Controller på den datorn.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdateProgress_1:System.String.$Content">Uppdateringsförlopp</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadingController_1:System.String.$Content">Uppdaterar Controller: Hämtar</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdatingController_1:System.String.$Content">Uppdaterar Controller: Sparar uppdatering</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateCautionText_1:System.String.$Content">Var försiktig: Avsluta inte Controllerprogrammet och stäng inte av strömmen under uppdateringen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateAfterCompleteText_1:System.String.$Content">När hämtningen är klar, uppdateras Controller av installationsprogrammet.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedTitle_1:System.String.$Content">Uppdatering misslyckades</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailed_1:System.String.$Content">Det gick inte att hämta installationsprogrammet för Sonos Controller.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalError_1:System.String.$Content">Det uppstod ett internt fel (\#10000).</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUrlParse_1:System.String.$Content">Det uppstod ett internt fel (\#10001).</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorNoUrl_1:System.String.$Content">Det uppstod ett internt fel (\#10002).</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedFileMissing_1:System.String.$Content">Installationsprogramsfilen hittades inte på förväntad plats eller så har Controllern inte behörigheter att nå den.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUnsafeExecutable_1:System.String.$Content">Din controller har inte uppdaterats. Försök uppdatera en gång till. Om detta meddelande visas igen, kontakta Sonos kundtjänst om hjälp.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateInstallFailed_1:System.String.$Content">Det gick inte att installera Sonos Controller. Resten av uppdateringen kan inte fortsätta.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceededTitle_1:System.String.$Content">Uppdateringsförlopp</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceeded_1:System.String.$Content">Sonos Controller stängs och uppdateras. Efter omstart uppdateras resten av ditt Sonos-system.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersTitle_1:System.String.$Content">Sonos körs för närvarande från ett annat konto</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine1_1:System.String.$Content">Sonos Controller körs för närvarande från ett annat användarkonto på din dator.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine2_1:System.String.$Content">Avsluta Sonos Controller från det andra kontot innan du installerar.</String>
-<String Category="None" UniqueId="wizard/strings.baml:SelfOnlineUpdateErrorCode_1:System.String.$Content">Felkod: {0}</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWindowMessage_1:System.String.$Content">Sonos justerar dina brandväggsinställningar. Du kan bli ombedd av Windows att tillåta denna ändring. Klicka på Ja i eventuell bekräftelsedialog som öppnas i Windows efter det att du klickat på OK nedan.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWindowTitle_1:System.String.$Content">Konfigurera brandvägg</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardPreLink_1:System.String.$Content">Din brandvägg måste kanske justeras.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardLink_1:System.String.$Content">Klicka här för att konfigurera din brandvägg</String>
-<String Category="None" UniqueId="wizard/strings.baml:ConfigureFirewallWizardPostLink_1:System.String.$Content">.</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionTitle_1:System.String.$Content">Resursnamn används</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionText_1:System.String.$Content">En annan mapp på den här datorn har redan lagts till i ditt musikbibliotek under namnet {0}. Ange ett annat namn så att Sonos kan skilja mellan dem. Detta ändrar inte mappens faktiska namn.</String>
-<String Category="None" UniqueId="wizard/strings.baml:AutomationShares_1:System.String.$Content">Resurser</String>
-<String Category="None" UniqueId="wizard/strings.baml:AutomationConnectImageString_1:System.String.$Content">Tryck på knapparna Ljud av och Höj volymen samtidigt eller tryck på knappen Anslut om din enhet inte har både knapparna Ljud av och Höj volymen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorFailedCreateWindowsShare_1:System.String.$Content">Det gick inte att skapa Windows-resurs: {0}</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorPathMissingWindowsShare_1:System.String.$Content">Sökvägen {0} finns inte, kan inte skapa resurs</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationTitle_1:System.String.$Content">Windows-brandvägg</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody_1:System.String.$Content">Din Windows-brandvägg måste konfigureras för användning med Sonos innan du kan garantera en lyckad installation.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody2_1:System.String.$Content">Välj Konfigurera Windows-brandväggen och följ instruktionerna för att låta Sonos göra ändringar i Windows-brandväggen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput1_1:System.String.$Content">Konfigurera Windows-brandväggen</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput2_1:System.String.$Content">Konfigurera inte Windows-brandväggen</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationSuccessfulBody_1:System.String.$Content">Din Windows-brandvägg har konfigurerats.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody1_1:System.String.$Content">Din Windows-brandvägg har inte konfigurerats. Klicka på {0} för att försöka igen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody2_1:System.String.$Content">Om du fortsätter utan att ha konfigurerat din Windows-brandvägg kan du få problem när du slutför Sonos-installationen.</String>
-<String Category="None" UniqueId="wizard/strings.baml:FirewallConfigurationSkippedBody_1:System.String.$Content">Du har valt att inte konfigurera din Windows-brandvägg. Om du fortsätter kan du få problem med att slutföra Sonos-installationen.</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content">{0}:{1:00}:{2:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_MINUTES_SECONDS_FORMAT_1:System.String.$Content">{0}:{1:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content">-{0}:{1:00}:{2:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_MINUTES_SECONDS_FORMAT_1:System.String.$Content">-{0}:{1:00}</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationMute_1:System.String.$Content">Ljud av</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationNext_1:System.String.$Content">Nästa låt</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationPrevious_1:System.String.$Content">Föregående låt</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationInfo_1:System.String.$Content">Information och alternativ</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationPlayPause_1:System.String.$Content">Spela upp/pausa</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationVolume_1:System.String.$Content">Volym</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationScrubber_1:System.String.$Content">Låt-scrub</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationRepeat_1:System.String.$Content">Upprepa</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationShuffle_1:System.String.$Content">Blanda</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationCrossfade_1:System.String.$Content">Crossfading</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationMusicEQ_1:System.String.$Content">Musikutjämning</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationSearch_1:System.String.$Content">Sökruta</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:NightSoundTooltip_1:System.String.$Content">Nattljud</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:SpeechEnhancementTooltip_1:System.String.$Content">Talförbättring</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationQuickSkipBackward_1:System.String.$Content">Gå bakåt 30 sekunder</String>
-<String Category="None" UniqueId="nowplaying/strings.baml:AutomationQuickSkipForward_1:System.String.$Content">Gå framåt 30 sekunder</String>
-<String Category="Button" UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Klar</String>
-<String Category="Button" UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Avbryt</String>
-<String Category="Text" UniqueId="zones/groupingmusicpicker.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Välj musik att spela upp i valt rum</String>
-<String Category="Title" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:System.Windows.Window.Title">Gruppera rum</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Klar</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Avbryt</String>
-<String Category="Text" UniqueId="zones/groupingdialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Valda rum spelar upp:</String>
-<String Category="Text" UniqueId="zones/groupingdialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Välj rum att gruppera:</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:unselectAllButton_1:System.Windows.Controls.ContentControl.Content">Avmarkera allt</String>
-<String Category="Button" UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content">Markera allt - Partyläge</String>
-<String Category="Title" UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title">Inställningar</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Rumsinställningar för</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">Du har för närvarande inga Sonos-spelare i ditt Sonos-system. Du behöver minst en Sonos-spelare för att kunna spela upp musik.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Lägg till en Sonos-spelare genom att välja Hantera &gt; Lägg till spelare eller SUB i menyraden.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">Inställningar för</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text">Du har för närvarande inga BOOST-enheter i ditt Sonos-system.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text">Lägg till en BOOST genom att välja Hantera &gt; Lägg till BOOST eller BRIDGE i menyraden.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text">DOCK-inställningar för</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text">Du har för närvarande inga DOCK-enheter i ditt Sonos-system.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text">Lägg till en DOCK genom att välja Hantera &gt; Lägg till spelare eller SUB från menyraden.</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header">Musikbiblioteket</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Inställningar för Musikbiblioteket</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header">Mappar</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_3:System.Windows.Controls.HeaderedContentControl.Header">Avancerat</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_4:System.Windows.Controls.HeaderedContentControl.Header">Tjänster</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text">Tjänstinställningar</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text">Mina tjänstkonton på Sonos</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Klicka på Lägg till för att lägga till en ny tjänst i ditt Sonos-system.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_4:System.Windows.Controls.TextBlock.Text">Klicka på Sonos Labs för att prova kommande tjänster i ditt Sonos-system.</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content">Tjänstnamn</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content">Namn</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content">Kontoinloggning</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">Lägg till</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_2:System.Windows.Controls.ContentControl.Content">Sonos Labs</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content">Ta bort</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content">Ersätt</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content">Auktorisera om</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header">Datum och tid</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text">Inställningar för datum och tid</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header">Avancerat</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text">Avancerade inställningar</String>
-<String Category="Title" UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title">Om</String>
-<String Category="None" UniqueId="about/aboutwindow.baml:SonosController_1:System.String.$Content">Sonos Controller för PC</String>
-<String Category="None" UniqueId="about/aboutwindow.baml:SonosControllerAlpha_1:System.String.$Content">Sonos Controller för PC (ALPHA)</String>
-<String Category="None" UniqueId="about/aboutwindow.baml:SonosControllerBeta_1:System.String.$Content">Sonos Controller för PC (BETA)</String>
-<String Category="Text" UniqueId="about/aboutwindow.baml:Run_2:System.Windows.Documents.Run.Text">Version:</String>
-<String Category="Text" UniqueId="about/aboutwindow.baml:Run_3:System.Windows.Documents.Run.Text">Build:</String>
-<String Category="Text" UniqueId="about/aboutwindow.baml:Run_4:System.Windows.Documents.Run.Text">Sonos-ID:</String>
-<String Category="Button" UniqueId="about/aboutwindow.baml:submitDiagnosticsButton_1:System.Windows.Controls.ContentControl.Content">Skicka diagnostik…</String>
-<String Category="Menu" Comments="This is the root of the File menu" UniqueId="main/mainmenu.baml:MenuItem_1:System.Windows.Controls.HeaderedItemsControl.Header">_Arkiv</String>
-<String Category="Menu" Comments="This item belongs to the File menu" UniqueId="main/mainmenu.baml:MenuItem_34:System.Windows.Controls.HeaderedItemsControl.Header">Visa _Mini-Controller</String>
-<String Category="Menu" Comments="This item belongs to the File menu" UniqueId="main/mainmenu.baml:MenuItem_2:System.Windows.Controls.HeaderedItemsControl.Header">A_vsluta</String>
-<String Category="Menu" Comments="This is the root of the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_23:System.Windows.Controls.HeaderedItemsControl.Header">_Redigera</String>
-<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_24:System.Windows.Controls.HeaderedItemsControl.Header">Klipp u_t</String>
-<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header">_Kopiera</String>
-<String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header">K_listra in</String>
-<String Category="Menu" Comments="This is the root of the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header">_Hantera</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header">_Lägg till spelare eller SUB…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header">Lägg till _BOOST eller BRIDGE…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header">Inställningar för Musik_biblioteket…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header">_Tjänstinställningar…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header">Lägg till _radiostation…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_29:System.Windows.Controls.HeaderedItemsControl.Header">Uppdatera _Musikbiblioteket nu</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_5:System.Windows.Controls.HeaderedItemsControl.Header">_Sök efter programuppdateringar…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header">Byt s_pråk…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header">_Inställningar…</String>
-<String Category="Menu" Comments="This is the root of the Help menu" UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header">H_jälp</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header">_Mitt Sonos-konto…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header">Shoppa Sonos-_produkter…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header">_Kortkommandon…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header">_Hjälp för Sonos-systemet…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_32:System.Windows.Controls.HeaderedItemsControl.Header">Webbplats för _teknisk support…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_15:System.Windows.Controls.HeaderedItemsControl.Header">F_ellogg…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_96:System.Windows.Controls.HeaderedItemsControl.Header">Skicka _Beta-feedback…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_9:System.Windows.Controls.HeaderedItemsControl.Header">Skicka _diagnostik…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_99:System.Windows.Controls.HeaderedItemsControl.Header">Glöm _nuvarande Sonos-system…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_10:System.Windows.Controls.HeaderedItemsControl.Header">Åte_rställ Controller…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_11:System.Windows.Controls.HeaderedItemsControl.Header">_Om mitt Sonos-system…</String>
-<String Category="Text" UniqueId="utilities/timepicker.baml:TextBox_1:System.Windows.Controls.TextBox.Text">1</String>
-<String Category="Text" UniqueId="utilities/timepicker.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">:</String>
-<String Category="Text" UniqueId="utilities/timepicker.baml:TextBox_2:System.Windows.Controls.TextBox.Text">01</String>
-<String Category="ComboBox" UniqueId="utilities/timepicker.baml:ComboBoxItem_1:System.Windows.Controls.ContentControl.Content">fm</String>
-<String Category="ComboBox" UniqueId="utilities/timepicker.baml:ComboBoxItem_2:System.Windows.Controls.ContentControl.Content">em</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderTitle_1:System.String.$Content">Mina musikmappar i Sonos</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderText1_1:System.String.$Content">Klicka på Lägg till för att lägga till en ny musikmapp i ditt Sonos-system.</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderText2_1:System.String.$Content">Klicka på Ta bort för att ta bort den markerade mappen.</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderAdd_1:System.String.$Content">Lägg till</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderEdit_1:System.String.$Content">Redigera</String>
-<String Category="None" UniqueId="utilities/strings.baml:MusicLibraryFolderRemove_1:System.String.$Content">Ta bort</String>
-<String Category="None" UniqueId="utilities/strings.baml:IndexingMessage_1:System.String.$Content">Uppdaterar Musikbiblioteket…</String>
-<String Category="None" UniqueId="utilities/strings.baml:IndexingMessageLine2_1:System.String.$Content">Vänta.</String>
-<String Category="None" UniqueId="utilities/strings.baml:KeyboardShortcutNameHeader_1:System.String.$Content">Funktion</String>
-<String Category="None" UniqueId="utilities/strings.baml:KeyboardShortcutRepresentationHeader_1:System.String.$Content">Kortkommando</String>
-<String Category="None" UniqueId="utilities/strings.baml:PlayPause_1:System.String.$Content">Spela upp/pausa</String>
-<String Category="None" UniqueId="utilities/strings.baml:PreviousTrack_1:System.String.$Content">Föregående låt</String>
-<String Category="None" UniqueId="utilities/strings.baml:NextTrack_1:System.String.$Content">Nästa låt</String>
-<String Category="None" UniqueId="utilities/strings.baml:QuickSkipBackward_1:System.String.$Content">Gå bakåt 30 sekunder</String>
-<String Category="None" UniqueId="utilities/strings.baml:QuickSkipForward_1:System.String.$Content">Gå framåt 30 sekunder</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleShuffle_1:System.String.$Content">Växla Blanda</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleRepeat_1:System.String.$Content">Växla Upprepa</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleCrossfade_1:System.String.$Content">Växla Crossfading</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleMute_1:System.String.$Content">Ljud av/ljud på för nuvarande rum/grupp</String>
-<String Category="None" UniqueId="utilities/strings.baml:MuteAll_1:System.String.$Content">Ljud av för alla</String>
-<String Category="None" UniqueId="utilities/strings.baml:VolumeUp_1:System.String.$Content">Höj volymen</String>
-<String Category="None" UniqueId="utilities/strings.baml:VolumeDown_1:System.String.$Content">Sänk volymen</String>
-<String Category="None" UniqueId="utilities/strings.baml:PlayNow_1:System.String.$Content">Spela upp markerad låt nu</String>
-<String Category="None" UniqueId="utilities/strings.baml:PlayNext_1:System.String.$Content">Spela upp markerad låt efteråt</String>
-<String Category="None" UniqueId="utilities/strings.baml:AddToQueue_1:System.String.$Content">Spela upp markeringen senare</String>
-<String Category="None" UniqueId="utilities/strings.baml:ReplaceQueue_1:System.String.$Content">Ersätt kö med markering</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleLargeArt_1:System.String.$Content">Växla visning av stora albumbilder</String>
-<String Category="None" UniqueId="utilities/strings.baml:Cut_1:System.String.$Content">Klipp ut</String>
-<String Category="None" UniqueId="utilities/strings.baml:Copy_1:System.String.$Content">Kopiera</String>
-<String Category="None" UniqueId="utilities/strings.baml:Paste_1:System.String.$Content">Klistra in</String>
-<String Category="None" UniqueId="utilities/strings.baml:ToggleMiniPlayer_1:System.String.$Content">Växla Mini-Controller</String>
-<String Category="None" UniqueId="utilities/strings.baml:ShowKeyboardShortcuts_1:System.String.$Content">Visa kortkommandolista</String>
-<String Category="None" UniqueId="utilities/strings.baml:DeleteTracks_1:System.String.$Content">Ta bort markerat/markerade låtar</String>
-<String Category="None" UniqueId="utilities/strings.baml:TopMusicMenu_1:System.String.$Content">Gå tillbaka till översta nivån i musikmenyn</String>
-<String Category="None" UniqueId="utilities/strings.baml:Favorites_1:System.String.$Content">Gå till Favoriter</String>
-<String Category="None" UniqueId="utilities/strings.baml:Search_1:System.String.$Content">Hoppa till sökrutan</String>
-<String Category="None" UniqueId="utilities/strings.baml:NextRoomGroup_1:System.String.$Content">Välj nästa rumsgrupp</String>
-<String Category="None" UniqueId="utilities/strings.baml:PreviousRoomGroup_1:System.String.$Content">Välj föregående rumsgrupp</String>
-<String Category="None" UniqueId="utilities/strings.baml:SelectCurrentTrack_1:System.String.$Content">Rulla till nuvarande låt i kö</String>
-<String Category="None" UniqueId="utilities/strings.baml:UpdateMusicLibrary_1:System.String.$Content">Uppdatera Musikbiblioteket nu</String>
-<String Category="None" UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content">Storleksändra kö</String>
-<String Category="None" UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content">Stäng aktivt fönster</String>
-<String Category="None" UniqueId="utilities/strings.baml:OK_1:System.String.$Content">OK</String>
-<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">CancelZXZ</String>
-<String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content">{0} alternativknapp. Välj med mellanslagstangenten.</String>
-<String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content">{0} alternativknapp, vald.</String>
-<String Category="Title" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Redigera väckning</String>
-<String Category="Button" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>
-<String Category="Button" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Avbryt</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_1:System.Windows.Controls.TextBlock.Text">Väckning</String>
-<String Category="RadioButton" UniqueId="alarms/editalarmwindow.baml:RadioButton_1:System.Windows.Controls.ContentControl.Content">På</String>
-<String Category="RadioButton" UniqueId="alarms/editalarmwindow.baml:RadioButton_2:System.Windows.Controls.ContentControl.Content">Av</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_2:System.Windows.Controls.TextBlock.Text">Tid</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_3:System.Windows.Controls.TextBlock.Text">Rum</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_4:System.Windows.Controls.TextBlock.Text">Musik</String>
-<String Category="Button" UniqueId="alarms/editalarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content">Välj…</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_5:System.Windows.Controls.TextBlock.Text">Schema</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_1:System.Windows.Controls.ContentControl.Content">Bara en gång</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_2:System.Windows.Controls.ContentControl.Content">måndag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_3:System.Windows.Controls.ContentControl.Content">tisdag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">onsdag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_5:System.Windows.Controls.ContentControl.Content">torsdag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_6:System.Windows.Controls.ContentControl.Content">fredag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_7:System.Windows.Controls.ContentControl.Content">lördag</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_8:System.Windows.Controls.ContentControl.Content">söndag</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_6:System.Windows.Controls.TextBlock.Text">Volym</String>
-<String Category="Text" UniqueId="alarms/editalarmwindow.baml:Label_7:System.Windows.Controls.TextBlock.Text">Längd</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_11:System.Windows.Controls.ContentControl.Content">Ingen gräns</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_9:System.Windows.Controls.ContentControl.Content">Inkludera grupperade rum</String>
-<String Category="CheckBox" UniqueId="alarms/editalarmwindow.baml:CheckBox_10:System.Windows.Controls.ContentControl.Content">Blanda musik</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:headerSource_1:System.Windows.Controls.TextBlock.Text">Välj musikkälla</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text">MUSIK</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_6:System.Windows.Controls.TextBlock.Text">Inga tillgängliga markeringar.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_18:System.Windows.Controls.TextBlock.Text">Indexering pågår. Musiken blir tillgänglig så snart indexeringen har slutförts.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_10:System.Windows.Controls.TextBlock.Text">Mer</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">Inga tillgängliga markeringar.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_19:System.Windows.Controls.TextBlock.Text">Indexering pågår. Musiken blir tillgänglig så snart indexeringen har slutförts.</String>
-<String Category="Text" UniqueId="browse/browsepanel.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text">Mer</String>
-<String Category="Button" UniqueId="browse/browsepanel.baml:alarmsButton_1:System.Windows.Controls.ContentControl.Content">Väckningar</String>
-<String Category="Button" UniqueId="utilities/multibuttonmessagewindow.baml:cancelButton_1:System.Windows.Controls.ContentControl.Content">Avbryt</String>
-<String Category="None" UniqueId="main/strings.baml:DefaultCancelUIMessage_1:System.String.$Content">Vänta…</String>
-<String Category="None" UniqueId="main/strings.baml:Confirm_1:System.String.$Content">Bekräfta</String>
-<String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content">Uppdatera Musikbiblioteket</String>
-<String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content">Detta uppdaterar Musikbiblioteket i ditt Sonos-system så att det matchar eventuella ändringar du gjort i iTunes eller andra delade musikmappar. Vill du uppdatera Musikbiblioteket i ditt Sonos-system nu?</String>
-<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content">För mer information, gå till {0}</String>
-<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">Innan du kan visa ett rum måste du fabriksåterställa Sonos-spelaren för det rummet. För mer information, gå till {0}</String>
-<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content">Nuvarande tid har inte ställts in</String>
-<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content">Innan du kan skapa ett larm måste du ha ställt in nuvarande tid.</String>
-<String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content">Ställ in nuvarande tid</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage1_1:System.String.$Content">Din dators brandväggsinställning har ändrats. Din Sonos Controller kan inte längre ansluta till ditt Sonos-system.</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage2_1:System.String.$Content">För mer information, gå till {0}</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallMessage3_1:System.String.$Content">Klicka på knappen Konfigurera brandvägg för att justera dina brandväggsinställningar.</String>
-<String Category="None" UniqueId="main/strings.baml:LCFirewallButton_1:System.String.$Content">Konfigurera brandvägg</String>
-<String Category="None" UniqueId="main/strings.baml:LCMoreOptionsButton_1:System.String.$Content">Fler alternativ…</String>
-<String Category="None" UniqueId="main/strings.baml:LCResetControllerItem_1:System.String.$Content">Återställ Controller</String>
-<String Category="None" UniqueId="main/strings.baml:LCAboutSonosItem_1:System.String.$Content">Om mitt Sonos-system</String>
-<String Category="None" UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content">Skicka diagnostik</String>
-<String Category="None" UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content">Det gick inte att öppna länken: {0}. Se till att du har angett standardwebbläsare.</String>
-<String Category="None" UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content">Fel när länken skulle öppnas</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Music library updateZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Update NowZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Remind Me LaterZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content">Användningsdata</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content">I syfte att hjälpa till att förbättra våra produkter och kundtjänst,  insamlar Sonos information om hur du använder ditt Sonos system.  För mer information, gå till</String>
-<String Category="CheckBox" UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">Ja, aktivera delning av användningsdata för att hjälpa Sonos att förbättra sina produkter.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">Utjämningsinställningar finns inte tillgängliga när en Sonos-spelares linjeutgångsnivå är inställd till Fast.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text">Ändra inställningen Linjeutgångsnivå på fliken Standard för att aktivera utjämningskontrollerna.</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content">Återställ</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content">Återställ</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content">Återställ</String>
-<String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content">Återställ</String>
-<String Category="Text" UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Grupp</String>
-<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Information och alternativ</String>
-<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Ljud av är av</String>
-<String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Ljud av är på</String>
-<String Category="Text" UniqueId="nowplaying/nowplayingpanel.baml:header_1:System.Windows.Controls.TextBlock.Text">SPELAR NU</String>
-<String Category="ToolTip" UniqueId="nowplaying/nowplayingpanel.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Information och alternativ</String>
-<String Category="None" UniqueId="alarms/strings.baml:SC_ALARM_UNKNOWN_1:System.String.$Content">Inget valt rum</String>
-<String Category="None" UniqueId="alarms/strings.baml:DateTimeFormatString_1:System.String.$Content">Aktuell tid: {0} - {1} {2}</String>
-<String Category="None" UniqueId="alarms/strings.baml:TitleFallback_1:System.String.$Content">Väckningsmusik</String>
-<String Category="None" UniqueId="alarms/strings.baml:AddTitle_1:System.String.$Content">Lägg till väckning</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_SLEEP_TIMER_HOURS_MINUTES_FORMAT_1:System.String.$Content">Timer för vila ({0}:{1:00})</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_SLEEP_TIMER_OFF_1:System.String.$Content">Timer för vila</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_TRACK_NUMBER_FORMAT_1:System.String.$Content">{0:00}</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">Bekräfta</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CLEAR_1:System.String.$Content">Rensa</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CANCEL_1:System.String.$Content">Avbryt</String>
-<String Category="None" UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content">Vill du rensa kön?</String>
-<String Category="None" UniqueId="browse/strings.baml:SearchEmptyString_1:System.String.$Content">Sökning returnerade inga resultat för {0} i {1}. Prova med en annan kategori eller en ny sökterm.</String>
-<String Category="None" UniqueId="browse/strings.baml:UnselectAllLabel_1:System.String.$Content">Avmarkera allt</String>
-<String Category="None" UniqueId="browse/strings.baml:NotEnoughRoom_1:System.String.$Content">Sonos har inte tillräckligt med ledigt utrymme för att spara kön. Ta bort gamla sparade spellistor eller köer i andra rum och försök igen.</String>
-<String Category="None" UniqueId="browse/strings.baml:UnableToSave_1:System.String.$Content">Det går inte att spara kön.</String>
-<String Category="None" UniqueId="browse/strings.baml:UnableToSaveMobileTracks_1:System.String.$Content">Det går inte att lagra låtar från mobilenheter i Sonos-spellistor och de sparades inte</String>
-<String Category="None" UniqueId="browse/strings.baml:UnableToSaveAllMobileTrack_1:System.String.$Content">Kön innehåller endast låtar från mobilenheter. Dessa låtar kan inte sparas till Sonos-spellistor.</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationBrowse_1:System.String.$Content">Bläddra</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationQueue_1:System.String.$Content">Kö</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationSearchbox_1:System.String.$Content">Sökruta</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationResizeQueue_1:System.String.$Content">Storleksändra kö</String>
-<String Category="None" UniqueId="browse/strings.baml:RecentSearches_1:System.String.$Content">Senaste sökningar</String>
-<String Category="None" UniqueId="browse/strings.baml:ClearRecentSearches_1:System.String.$Content">Rensa senaste sökningar</String>
-<String Category="None" UniqueId="browse/strings.baml:NoRecentSearches_1:System.String.$Content">Inga senaste sökningar</String>
-<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TITLE_1:System.String.$Content">Sonos-spellista finns</String>
-<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TEXT_FORMAT_1:System.String.$Content">Det finns redan en Sonos-spellista som heter {0}. Om du ersätter den skrivs dess nuvarande innehåll över.</String>
-<String Category="None" UniqueId="browse/strings.baml:PLAYLIST_EXISTS_OK_BUTTON_1:System.String.$Content">Ersätt</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationBackButton_1:System.String.$Content">Bakåt</String>
-<String Category="None" UniqueId="browse/strings.baml:AutomationDropdownButton_1:System.String.$Content">Nedrullningsbar lista</String>
-<String Category="None" UniqueId="browse/strings.baml:ExplicitBadgeString_1:System.String.$Content">{0} - Explicit</String>
-<String Category="None" UniqueId="browse/strings.baml:RestrictedString_1:System.String.$Content">{0} - Begränsat</String>
-<String Category="None" UniqueId="browse/strings.baml:RestrictedAndExplicitString_1:System.String.$Content">{0} - Begränsat och explicit</String>
-<String Category="Title" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Redigera väckning</String>
-<String Category="Button" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">Ange väckningsmusik</String>
-<String Category="Button" UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Avbryt</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsewindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Bläddra till väckningsmusik</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text">LÄNGST UPP</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text">Inga tillgängliga markeringar.</String>
-<String Category="Text" UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Inga tillgängliga markeringar.</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Ljud av är av</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Ljud av är på</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Ljud av är av</String>
-<String Category="ToolTip" UniqueId="nowplaying/mutevolume.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content">Ljud av är på</String>
-<String Category="Text" UniqueId="nowplaying/mutevolume.baml:fixedText_1:System.Windows.Controls.TextBlock.Text">Fast volym</String>
-<String Category="Text" UniqueId="nowplaying/mutevolume.baml:individualOnlyText_1:System.Windows.Controls.TextBlock.Text">Justera rumsvolymer</String>
-<String Category="Text" UniqueId="browse/queuepanel.baml:header_1:System.Windows.Controls.TextBlock.Text">KÖ</String>
-<String Category="Text" UniqueId="browse/queuepanel.baml:notInUse_1:System.Windows.Controls.TextBlock.Text">(Används inte)</String>
-<String Category="ToolTip" UniqueId="browse/queuepanel.baml:notInUseTooltip_1:System.Windows.Controls.ContentControl.Content">Används inte</String>
-<String Category="Text" UniqueId="browse/queuepanel.baml:queueEmpty_1:System.Windows.Controls.TextBlock.Text">Kön är tom.</String>
-<String Category="Button" UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content">Rensa kö</String>
-<String Category="Button" UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content">Spara kö</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content">Vit indikatorlampa</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">BRIDGE-namn</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">DOCK-namn</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content">Rumsnamn</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content">Standard</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content">Allmänt</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:MusicServersTabHeader_1:System.String.$Content">Musikkällor</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:UsageTabHeader_1:System.String.$Content">Användning</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LanguageTabHeader_1:System.String.$Content">Språk</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:Anonymous_1:System.String.$Content">&lt;Anonym&gt;</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingHeaderText_1:System.String.$Content">Behörigheter för Musikbiblioteket</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingLabelText_1:System.String.$Content">Fixa behörigheter för musikfiler så att Sonos alltid kan nå dem.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationMusicLibrary_1:System.String.$Content">Musikbiblioteket</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationServices_1:System.String.$Content">Tjänster</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationVolume_1:System.String.$Content">Volym</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBass_1:System.String.$Content">Bas</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTreble_1:System.String.$Content">Diskant</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBalance_1:System.String.$Content">Balans</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content">Justera SUB-nivå</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:EditButtonLabel_1:System.String.$Content">Redigera</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BassHeader_1:System.String.$Content">Bas</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:TrebleHeader_1:System.String.$Content">Diskant</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BalanceHeader_1:System.String.$Content">Balans</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LoudnessLabel_1:System.String.$Content">Loudness</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelMinus_1:System.String.$Content">-</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelPlus_1:System.String.$Content">+</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelMin_1:System.String.$Content">Min</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content">Max</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content">V</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content">H</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">SUB</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content">På</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">SUB-nivå</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content">Justera placering</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content">Dialogförbättring</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content">Ljudfördröjning (läppsynkronisering)</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityLabel_1:System.String.$Content">På</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SpeakerSizeHeader_1:System.String.$Content">Högtalarstorlek (crossover)</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ParentalControlsTitle_1:System.String.$Content">Föräldrakontroller</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnabledText_1:System.String.$Content">Filtrering av explicit innehåll är aktiverad. Klicka på nedanstående knapp för att göra det möjligt att spela upp explicit innehåll på ditt Sonos-system.
-
-Det är inte alla tjänster som har stöd för innehållsfiltrering.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisabledText_1:System.String.$Content">Filtrering av explicit innehåll är inaktiverad. Klicka på nedanstående knapp för att förhindra att explicit innehåll spelas upp på ditt Sonos-system.
-
-Det är inte alla tjänster som har stöd för innehållsfiltrering.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnableButtonTitle_1:System.String.$Content">Aktivera explicit filtrering</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisableButtonTitle_1:System.String.$Content">Inaktivera explicit filtrering</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringNoServices_1:System.String.$Content">Det finns inga musiktjänster i ditt Sonos-system som har stöd för innehållsfiltrering.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoButtonTitle_1:System.String.$Content">Mer information</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoUri_1:System.String.$Content">http://faq.sonos.com/parentalcontrols</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundLevelHeader_1:System.String.$Content">Tv-nivå</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:MusicSurroundLevelHeader_1:System.String.$Content">Musiknivå</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSurroundEnabledHeader_1:System.String.$Content">Surround</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSurroundEnabledLabel_1:System.String.$Content">På</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeHeader_1:System.String.$Content">Uppspelning av musik</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeAmbient_1:System.String.$Content">Stämningsskapande</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeFull_1:System.String.$Content">Full</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundModeDescription_1:System.String.$Content">Under musikuppspelning kan surroundhögtalarna utgöra ett tillägg med diskret, stämningsskapande ljud eller högre ljud som täcker hela intervallet.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceLabel_1:System.String.$Content">Balans</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceButtonLabel_1:System.String.$Content">Balansera surroundhögtalare</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SurroundBalanceDescription_1:System.String.$Content">Balansera manuellt dina surroundnivåer när Trueplay-justering är avstängt.</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationEQLabel_1:System.String.$Content">Musikutjämning</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSurroundLevel_1:System.String.$Content">Surround-tv-nivå</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationMusicSurroundLevel_1:System.String.$Content">Surround-musiknivå</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationAudioDelay_1:System.String.$Content">Ljudfördröjning</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubGain_1:System.String.$Content">SUB-förstärkning</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubEnabled_1:System.String.$Content">SUB aktiverad</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSubPolarity_1:System.String.$Content">Justera placering</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSurroundsEnabled_1:System.String.$Content">Surroundhögtalare aktiverade</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRSignalLight_1:System.String.$Content">IR-signallampa</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRRepeater_1:System.String.$Content">IR repeterare</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTVAutoplay_1:System.String.$Content">Spela upp tv automatiskt</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content">Avgruppera vid autouppspelning</String>
-<String Category="Text" UniqueId="zones/zonespanel.baml:header_1:System.Windows.Controls.TextBlock.Text">RUM</String>
-<String Category="Button" UniqueId="zones/zonespanel.baml:pauseAllButton_1:System.Windows.Controls.ContentControl.Content">Pausa alla</String>
-<String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>
-<String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Avbryt</String>
-<String Category="Button" UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>
-<String Category="Button" UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText">Avbryt</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_SONOS_ACCOUNT_COMMENT_1:System.String.$Content" Category="None">Konto används av Sonos för att nå musikmappar på denna dator</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SET_SHARE_PERMISSIONS_1:System.String.$Content" Category="None">Det går inte att verifiera resursbehörigheter. UNC-sökvägen %s är inte en giltig UNC-sökväg eller inte en resurs på den här datorn.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_GUEST_ACCOUNT_ADD_RIGHT_1:System.String.$Content" Category="None">Det går inte att lägga till %s för gästkonto.</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_NETSVC_ERR_SONOS_JOIN_GROUP_FAILED_1:System.String.$Content" Category="None">Det går inte att lägga till Sonos-användare i gruppen %s</String>
+  <String UniqueId="utilities/sonosadmstrings.baml:IDS_ERR_SHARE_REMARK_PARMNUM_1:System.String.$Content" Category="None">Parametern för resurskommentar är ogiltig.</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Crossfading är av</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Crossfading är på</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_7:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Musikutjämningsfunktion (EQ)</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Upprepa är av</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Upprepa alla</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_8:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Upprepa låt</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_5:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Blanda är av</String>
+  <String UniqueId="nowplaying/transport.baml:ToolTip_6:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Blanda är på</String>
+  <String UniqueId="wizard/setupdatatemplates.baml:pageTitle_2:System.Windows.Controls.TextBlock.Text" Category="Text">Välj språk:</String>
+  <String UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Fellogg för Sonos-systemet</String>
+  <String UniqueId="main/errorlogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Klar</String>
+  <String UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PLAY_FORMAT_1:System.String.$Content" Category="None">_Spela upp {0}</String>
+  <String UniqueId="zones/strings.baml:NEXT_PLAY_STATE_PAUSE_FORMAT_1:System.String.$Content" Category="None">Pau_sa {0}</String>
+  <String UniqueId="zones/strings.baml:NEXT_PLAY_STATE_STOP_FORMAT_1:System.String.$Content" Category="None">_Stoppa {0}</String>
+  <String UniqueId="zones/strings.baml:NEXT_MUTE_STATE_MUTE_FORMAT_1:System.String.$Content" Category="None">_Ljud av för {0}</String>
+  <String UniqueId="zones/strings.baml:NEXT_MUTE_STATE_UNMUTE_FORMAT_1:System.String.$Content" Category="None">_Ljud på för {0}</String>
+  <String UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content" Category="None">{0} _EQ…</String>
+  <String UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content" Category="None">In_ställningar för {0}…</String>
+  <String UniqueId="zones/strings.baml:GROUP_1:System.String.$Content" Category="None">Grupp</String>
+  <String UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content" Category="None">[ingen musik]</String>
+  <String UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content" Category="None">Klicka på Klar för att välja musik</String>
+  <String UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content" Category="None">Bekräfta</String>
+  <String UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_PAUSE_1:System.String.$Content" Category="None">Paus</String>
+  <String UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content" Category="None">Vill du pausa musiken som spelas upp i alla rum?</String>
+  <String UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content" Category="None">Visa {0} mer…</String>
+  <String UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content" Category="None">Visa mer…</String>
+  <String UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content" Category="None">Visa mindre…</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content" Category="None">Välj att uppdatera</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_1:System.String.$Content" Category="None">Välj för att ställa in</String>
+  <String UniqueId="zones/strings.baml:CLICK_TO_REGISTER_1:System.String.$Content" Category="None">Välj att registrera</String>
+  <String UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content" Category="None">Nuvarande rumsgrupp innehåller</String>
+  <String UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content" Category="None">Använd piltangent upp och ner för att växla mellan rumsgrupper. Tryck på mellanslagstangenten för att öppna grupperingsdialogen.</String>
+  <String UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content" Category="None">Använd piltangent upp och ner för att växla mellan rumsgrupper. Konfigurera den här enheten genom att trycka på mellanslagstangenten.</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_NEXT_BUTTON_1:System.String.$Content" Category="None">Skicka</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_FINISH_BUTTON_1:System.String.$Content" Category="None">Slutför</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TRY_AGAIN_BUTTON_1:System.String.$Content" Category="None">Försök igen</String>
+  <String UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TITLE_1:System.String.$Content" Category="None">Skicka supportdiagnostik</String>
+  <String UniqueId="wizard/strings.baml:NormalWizardNextButtonLabel_1:System.String.$Content" Category="None">Nästa</String>
+  <String UniqueId="wizard/strings.baml:NormalWizardDoneButtonLabel_1:System.String.$Content" Category="None">Klar</String>
+  <String UniqueId="wizard/strings.baml:NormalWizardBackButtonLabel_1:System.String.$Content" Category="None">Bakåt</String>
+  <String UniqueId="wizard/strings.baml:WizardTextFieldLabel_1:System.String.$Content" Category="None">{0}:</String>
+  <String UniqueId="wizard/strings.baml:RegistrationEmailLabel_1:System.String.$Content" Category="None">E-postadress:</String>
+  <String UniqueId="wizard/strings.baml:RegistrationEmailConfirmLabel_1:System.String.$Content" Category="None">Bekräfta e-postadress:</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupLoginLabel_1:System.String.$Content" Category="None">Inloggning</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupPasswordLabel_1:System.String.$Content" Category="None">Lösenord</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupAddingTitle_1:System.String.$Content" Category="None">Lägger till konto</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupCompleteTitle_1:System.String.$Content" Category="None">Inställningen klar</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupAcceptTermsLabel_1:System.String.$Content" Category="None">Jag har läst och accepterar bestämmelserna och villkoren.</String>
+  <String UniqueId="wizard/strings.baml:ServiceSetupDeclineTermsLabel_1:System.String.$Content" Category="None">Jag accepterar inte bestämmelserna och villkoren.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupTitle_1:System.String.$Content" Category="None">Inställningar för Musikbiblioteket</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupText1_1:System.String.$Content" Category="None">Inställningsassistenten kommer nu att hjälpa dig att lägga till din musik i Musikbiblioteket i ditt Sonos-system.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupText2_1:System.String.$Content" Category="None">Du kan lägga till musik från mappar på den här datorn, eller mappar i ditt nätverk (exempelvis på en Apple Time Capsule eller NAS-disk) som redan konfigurerats för delning.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupNowLabel_1:System.String.$Content" Category="None">Konfigurera min musik</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupLaterLabel_1:System.String.$Content" Category="None">Inte nu</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesTitle_1:System.String.$Content" Category="None">Lägg till musik från iTunes</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesText1_1:System.String.$Content" Category="None">Inställningsassistenten har hittat musik i din mapp med iTunes-media.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesText2_1:System.String.$Content" Category="None">Vill du lägga till din iTunes-musik i ditt Sonos-system?</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesYesText_1:System.String.$Content" Category="None">Ja</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryITunesNoText_1:System.String.$Content" Category="None">Nej</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherTitle_1:System.String.$Content" Category="None">Lägg till annan musik</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherText_1:System.String.$Content" Category="None">Har du någon annan musik, förutom iTunes, som du vill lägga till i ditt Sonos-system?</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherYesText_1:System.String.$Content" Category="None">Ja</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryOtherNoText_1:System.String.$Content" Category="None">Nej</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectTitle_1:System.String.$Content" Category="None">Lägg till musikmapp</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectText_1:System.String.$Content" Category="None">Var finns den musik som du vill spela upp på Sonos?</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabel_1:System.String.$Content" Category="None">Min mapp {0}</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectMusicFolderLabelSub_1:System.String.$Content" Category="None">Mappen {0} är där som iTunes® vanligtvis lagrar musik.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryMusicFolderAlreadySharedSub_1:System.String.$Content" Category="None">Mappen {0} har redan lagts till i Sonos.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectLocalFolderLabel_1:System.String.$Content" Category="None">Ytterligare en mapp eller disk som är ansluten till min dator</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkFolderLabel_1:System.String.$Content" Category="None">Nätverksenhet (t.ex. NAS-enhet)</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsTitle_1:System.String.$Content" Category="None">Användarnamn och lösenord</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsText_1:System.String.$Content" Category="None">Ange eventuellt användarnamn och lösenord för nätverksdisken som innehåller din musik:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsUserNameLabel_1:System.String.$Content" Category="None">Användarnamn:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content" Category="None">Lösenord:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content" Category="None">Justera fildelningsinställningar</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content" Category="None">Innan ditt Sonos-system kan spela upp musik från den här datorn måste Inställningsassistenten justera följande Windows-inställningar:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content" Category="None">Lägg till Windows Fil- och skrivardelning i Windows-listan Undantag för brandväggen. Utan dessa ändringar spelas inte musiken på den här datorn upp på ditt Sonos-system.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content" Category="None">Ange att Windows-inställningar för strömsparläge ska vara Aldrig. Utan denna ändring spelas inte alltid musiken på den här datorn upp på ditt Sonos-system.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content" Category="None">Inställningar för Musikbiblioteket</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content" Category="None">Din musik läggs nu till i ditt Sonos-system. Detta kan fortsätta efter det att du startat Sonos Controller, och för stora musiksamlingar kan det ta flera minuter att slutföra.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteText2_1:System.String.$Content" Category="None">Du kan lägga till ytterligare musik i framtiden från Hantera Musikbiblioteket i Inställningar.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibraryCompleteText3_1:System.String.$Content" Category="None">Om du vill lägga till musik från en annan dator, installera Sonos Controller på den datorn.</String>
+  <String UniqueId="wizard/strings.baml:AlreadyRegisteredTitle_1:System.String.$Content" Category="None">Ditt Sonos-system är redan registrerat.</String>
+  <String UniqueId="wizard/strings.baml:AlreadyRegisteredText1_1:System.String.$Content" Category="None">Om du vill visa eller ändra dina registreringsinställningar loggar du in till ditt kundkonto på %1$s.</String>
+  <String UniqueId="wizard/strings.baml:AlreadyRegisteredText2_1:System.String.$Content" Category="None">Du måste ha ditt lösenord för Sonos-kontot för att kunna logga in. När du registrerade systemet skickades ditt ursprungliga lösenord till dig via e-post.</String>
+  <String UniqueId="wizard/strings.baml:LibraryAddingShareTitle_1:System.String.$Content" Category="None">Lägger till musikmapp</String>
+  <String UniqueId="wizard/strings.baml:ConfirmCancelSetupMessage_1:System.String.$Content" Category="None">Vill du verkligen lämna Inställningsassistenten?</String>
+  <String UniqueId="wizard/strings.baml:ConfirmCancelSetupTitle_1:System.String.$Content" Category="None">Bekräfta</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareTitle_1:System.String.$Content" Category="None">Fel vid tillägg av musik</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareMessage_1:System.String.$Content" Category="None">Sonos kunde inte lägga till musikmappen</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content" Category="None">Kontrollera att sökvägen till mappen och eventuellt användarnamn och lösenord är korrekta.</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content" Category="None">Anledning: 0.</String>
+  <String UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content" Category="None">Okänt fel.</String>
+  <String UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content" Category="None">Error getting hostnameZXZ</String>
+  <String UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content" Category="None">Could not write to share fileZXZ</String>
+  <String UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content" Category="None">Bekräfta</String>
+  <String UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content" Category="None">Vill du verkligen ta bort den markerade mappen?</String>
+  <String UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content" Category="None">Inga</String>
+  <String UniqueId="wizard/strings.baml:MusicServiceMergeTrialYesText_1:System.String.$Content" Category="None">Ja</String>
+  <String UniqueId="wizard/strings.baml:MusicServiceMergeTrialNoText_1:System.String.$Content" Category="None">Nej</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardTitle_1:System.String.$Content" Category="None">Sonos Inställningsassistent</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardNextButton_1:System.String.$Content" Category="None">Nästa</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardNextIsRestartButton_1:System.String.$Content" Category="None">Starta om</String>
+  <String UniqueId="wizard/strings.baml:LanguageWizardPreviousButton_1:System.String.$Content" Category="None">Bakåt</String>
+  <String UniqueId="wizard/strings.baml:ContinueIsReset_1:System.String.$Content" Category="None">Klicka på Starta om för att starta om Controller och fortsätta med konfigurationen.</String>
+  <String UniqueId="wizard/strings.baml:ExitButtonLabel_1:System.String.$Content" Category="None">Avsluta</String>
+  <String UniqueId="wizard/strings.baml:CancelButtonLabel_1:System.String.$Content" Category="None">Avbryt</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathTitle_1:System.String.$Content" Category="None">Lägg till musik från din dator eller externa disk</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectLocalPathText_1:System.String.$Content" Category="None">Klicka på Bläddra för att välja en mapp som innehåller musik:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathTitle_1:System.String.$Content" Category="None">Lägg till musik från din nätverksresurs</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathText_1:System.String.$Content" Category="None">Skriv sökvägen till din nätverksresurs:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleTitle_1:System.String.$Content" Category="None">Exempel:</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText_1:System.String.$Content" Category="None">\\\\MinAndraDator\\Delad\\Musik</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectNetworkPathExampleText2_1:System.String.$Content" Category="None">\\\\MittLagringsutrymmeINätverket\\Delad\\Musik</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySelectPathBrowseButtonText_1:System.String.$Content" Category="None">Bläddra</String>
+  <String UniqueId="wizard/strings.baml:MusicFolderLibrarySetupCompleteTitle_1:System.String.$Content" Category="None">Inställningar för Musikbiblioteket</String>
+  <String UniqueId="wizard/strings.baml:FolderIsSetupText_1:System.String.$Content" Category="None">{0} har nu konfigurerats i ditt Sonos-system.</String>
+  <String UniqueId="wizard/strings.baml:MusicBeingAddedText_1:System.String.$Content" Category="None">Din musik läggs nu till i ditt Sonos-system. Detta kan ta flera minuter att slutföra.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupCompleteTitle_1:System.String.$Content" Category="None">Inställningar för Musikbiblioteket</String>
+  <String UniqueId="wizard/strings.baml:ManageMusicLibraryNoticeText_1:System.String.$Content" Category="None">Du kan lägga till musik i Sonos i framtiden från Hantera Musikbiblioteket i Inställningar.</String>
+  <String UniqueId="wizard/strings.baml:AddAnotherComputerNoticeText_1:System.String.$Content" Category="None">Om du vill lägga till musik från en annan dator, installera Sonos Controller på den datorn.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdateProgress_1:System.String.$Content" Category="None">Uppdateringsförlopp</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadingController_1:System.String.$Content" Category="None">Uppdatering controller: Hämtar</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateUpdatingController_1:System.String.$Content" Category="None">Uppdatering controller: Sparar uppdatering</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateCautionText_1:System.String.$Content" Category="None">Var försiktig: Avsluta inte Controllerprogrammet och stäng inte av strömmen under uppdateringen.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateAfterCompleteText_1:System.String.$Content" Category="None">När hämtningen är klar, uppdateras Controller av installationsprogrammet.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedTitle_1:System.String.$Content" Category="None">Uppdatering misslyckades</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailed_1:System.String.$Content" Category="None">Det gick inte att hämta installationsprogrammet för Sonos Controller.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalError_1:System.String.$Content" Category="None">Det uppstod ett internt fel (\#10000).</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUrlParse_1:System.String.$Content" Category="None">Det uppstod ett internt fel (\#10001).</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorNoUrl_1:System.String.$Content" Category="None">Det uppstod ett internt fel (\#10002).</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadFailedFileMissing_1:System.String.$Content" Category="None">Installationsprogramsfilen hittades inte på förväntad plats eller så har Controllern inte behörigheter att nå den.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInternalErrorUnsafeExecutable_1:System.String.$Content" Category="None">Din controller har inte uppdaterats. Försök uppdatera en gång till. Om detta meddelande visas igen, kontakta Sonos kundtjänst om hjälp.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateInstallFailed_1:System.String.$Content" Category="None">Det gick inte att installera Sonos Controller. Resten av uppdateringen kan inte fortsätta.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceededTitle_1:System.String.$Content" Category="None">Uppdateringsförlopp</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateDownloadSucceeded_1:System.String.$Content" Category="None">Sonos Controller stängs och uppdateras. Efter omstart uppdateras resten av ditt Sonos-system.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersTitle_1:System.String.$Content" Category="None">Sonos körs för närvarande från ett annat konto</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine1_1:System.String.$Content" Category="None">Sonos Controller körs för närvarande från ett annat användarkonto på din dator.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateRunningOnMultipleUsersLine2_1:System.String.$Content" Category="None">Avsluta Sonos Controller från det andra kontot innan du installerar.</String>
+  <String UniqueId="wizard/strings.baml:SelfOnlineUpdateErrorCode_1:System.String.$Content" Category="None">Felkod :  0.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWindowMessage_1:System.String.$Content" Category="None">Sonos anpassar dina brandväggsinställningar. Du kan bli uppmanad av Windows för att tillåta den här ändringen. Du kan bli ombedd av Windows att tillåta denna ändring.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWindowTitle_1:System.String.$Content" Category="None">Klicka på Ja i eventuell bekräftelsedialog som öppnas i Windows efter det att du klickat på OK nedan.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWizardPreLink_1:System.String.$Content" Category="None">Din brandvägg kan behöva justeras.</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWizardLink_1:System.String.$Content" Category="None">Klicka här för att konfigurera din brandvägg</String>
+  <String UniqueId="wizard/strings.baml:ConfigureFirewallWizardPostLink_1:System.String.$Content" Category="None">.</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionTitle_1:System.String.$Content" Category="None">Resursnamn används</String>
+  <String UniqueId="wizard/strings.baml:MusicLibrarySetupNameCollisionText_1:System.String.$Content" Category="None">En annan mapp på den här datorn har redan lagts till i ditt musikbibliotek under namnet {0}. Ange ett annat namn så att Sonos kan skilja mellan dem. Detta ändrar inte mappens faktiska namn.</String>
+  <String UniqueId="wizard/strings.baml:AutomationShares_1:System.String.$Content" Category="None">Resurser</String>
+  <String UniqueId="wizard/strings.baml:AutomationConnectImageString_1:System.String.$Content" Category="None">Tryck på knapparna Mute och Volume Up samtidigt, eller tryck på knappen Join om enheten inte har både Dämpa och Volym upp-knapparna.</String>
+  <String UniqueId="wizard/strings.baml:ErrorFailedCreateWindowsShare_1:System.String.$Content" Category="None">Misslyckades med att skapa Windows-dela: 0.</String>
+  <String UniqueId="wizard/strings.baml:ErrorPathMissingWindowsShare_1:System.String.$Content" Category="None">Vägen {0} existerar inte, kan inte skapa delning</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationTitle_1:System.String.$Content" Category="None">Det gick inte att skapa Windows-resurs: {0}</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody_1:System.String.$Content" Category="None">Windows-brandvägg</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredBody2_1:System.String.$Content" Category="None">Din Windows-brandvägg måste konfigureras för användning med Sonos innan du kan garantera en lyckad installation.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput1_1:System.String.$Content" Category="None">Välj Konfigurera Windows-brandväggen och följ instruktionerna för att låta Sonos göra ändringar i Windows-brandväggen.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationRequiredInput2_1:System.String.$Content" Category="None">Konfigurera Windows-brandväggen</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationSuccessfulBody_1:System.String.$Content" Category="None">Konfigurera inte Windows-brandväggen</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody1_1:System.String.$Content" Category="None">Din Windows-brandvägg har konfigurerats. Vänligen klicka på "{0}" för att försöka igen.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationUnsuccessfulBody2_1:System.String.$Content" Category="None">Din Windows-brandvägg har inte konfigurerats.</String>
+  <String UniqueId="wizard/strings.baml:FirewallConfigurationSkippedBody_1:System.String.$Content" Category="None">Om du fortsätter utan att ha konfigurerat din Windows-brandvägg kan du få problem när du slutför Sonos-installationen. Du har valt att inte konfigurera din Windows-brandvägg. Om du fortsätter kan du få problem med att slutföra Sonos-installationen.</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">{0}:{1:00}:{2:00}</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">{0}:{1:00}</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_HOURS_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">-{0}:{1:00}:{2:00}</String>
+  <String UniqueId="nowplaying/strings.baml:SC_NP_NEGATIVE_MINUTES_SECONDS_FORMAT_1:System.String.$Content" Category="None">-{0}:{1:00}</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationMute_1:System.String.$Content" Category="None">Ljud av</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationNext_1:System.String.$Content" Category="None">Nästa låt</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationPrevious_1:System.String.$Content" Category="None">Föregående låt</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationInfo_1:System.String.$Content" Category="None">Information och alternativ</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationPlayPause_1:System.String.$Content" Category="None">Spela upp/pausa</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationVolume_1:System.String.$Content" Category="None">Volym</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationScrubber_1:System.String.$Content" Category="None">Låt-scrub</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationRepeat_1:System.String.$Content" Category="None">Upprepa</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationShuffle_1:System.String.$Content" Category="None">Blanda</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationCrossfade_1:System.String.$Content" Category="None">Crossfading</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationMusicEQ_1:System.String.$Content" Category="None">Musikutjämning</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationSearch_1:System.String.$Content" Category="None">Sökruta</String>
+  <String UniqueId="nowplaying/strings.baml:NightSoundTooltip_1:System.String.$Content" Category="None">Nattljud</String>
+  <String UniqueId="nowplaying/strings.baml:SpeechEnhancementTooltip_1:System.String.$Content" Category="None">Talförbättring</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationQuickSkipBackward_1:System.String.$Content" Category="None">Gå bakåt 30 sekunder</String>
+  <String UniqueId="nowplaying/strings.baml:AutomationQuickSkipForward_1:System.String.$Content" Category="None">Gå framåt 30 sekunder</String>
+  <String UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Klar</String>
+  <String UniqueId="zones/groupingmusicpicker.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Avbryt</String>
+  <String UniqueId="zones/groupingmusicpicker.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text" Category="Text">Välj musik att spela upp i valt rum</String>
+  <String UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Gruppera rum</String>
+  <String UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Klar</String>
+  <String UniqueId="zones/groupingdialog.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Avbryt</String>
+  <String UniqueId="zones/groupingdialog.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Valda rum spelar upp:</String>
+  <String UniqueId="zones/groupingdialog.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Välj rum att gruppera:</String>
+  <String UniqueId="zones/groupingdialog.baml:unselectAllButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Avmarkera allt</String>
+  <String UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Markera allt - Partyläge</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title" Category="Title">Inställningar</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text" Category="Text">Rumsinställningar för</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text" Category="Text">Du har för närvarande inga Sonos-spelare i ditt Sonos-system. Du behöver minst en Sonos-spelare för att kunna spela upp musik.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">Lägg till en Sonos-spelare genom att välja Hantera &gt; Lägg till spelare eller SUB i menyraden.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text" Category="Text">Inställningar för</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Du har för närvarande inga BOOST-enheter i ditt Sonos-system.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text" Category="Text">Lägg till en BOOST genom att välja Hantera &gt; Lägg till BOOST eller BRIDGE i menyraden.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text" Category="Text">DOCK-inställningar för</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text" Category="Text">Du har för närvarande inga DOCK-enheter i ditt Sonos-system.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text" Category="Text">Lägg till en DOCK genom att välja Hantera &gt; Lägg till spelare eller SUB från menyraden.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Musikbiblioteket</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Inställningar för Musikbiblioteket</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Mappar</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_3:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Avancerat</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_4:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Tjänster</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_2:System.Windows.Controls.TextBlock.Text" Category="Text">Tjänstinställningar</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text" Category="Text">Mina tjänstkonton på Sonos</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Klicka på Lägg till för att lägga till en ny tjänst i ditt Sonos-system.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_4:System.Windows.Controls.TextBlock.Text" Category="Text">Klicka på Sonos Labs för att prova kommande tjänster i ditt Sonos-system.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_1:System.Windows.Controls.ContentControl.Content" Category="Button">Tjänstnamn</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_2:System.Windows.Controls.ContentControl.Content" Category="Button">Namn</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:GridViewColumnHeader_3:System.Windows.Controls.ContentControl.Content" Category="Button">Kontoinloggning</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_1:System.Windows.Controls.ContentControl.Content" Category="Button">Lägg till</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_2:System.Windows.Controls.ContentControl.Content" Category="Button">Sonos Labs</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content" Category="Button">Ta bort</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content" Category="Button">Ersätt</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content" Category="Button">Auktorisera om</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Datum och tid</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text" Category="Text">Inställningar för datum och tid</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Avancerat</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text" Category="Text">Avancerade inställningar</String>
+  <String UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title" Category="Title">Om</String>
+  <String UniqueId="about/aboutwindow.baml:SonosController_1:System.String.$Content" Category="None">Sonos Controller för PC</String>
+  <String UniqueId="about/aboutwindow.baml:SonosControllerAlpha_1:System.String.$Content" Category="None">Sonos Controller för PC (ALPHA)</String>
+  <String UniqueId="about/aboutwindow.baml:SonosControllerBeta_1:System.String.$Content" Category="None">Sonos Controller för PC (BETA)</String>
+  <String UniqueId="about/aboutwindow.baml:Run_2:System.Windows.Documents.Run.Text" Category="Text">Version:</String>
+  <String UniqueId="about/aboutwindow.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Build:</String>
+  <String UniqueId="about/aboutwindow.baml:Run_4:System.Windows.Documents.Run.Text" Category="Text">Sonos-ID:</String>
+  <String UniqueId="about/aboutwindow.baml:submitDiagnosticsButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Skicka diagnostik…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_1:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the File menu">_Arkiv</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_34:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the File menu">Visa _Mini-Controller</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_2:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the File menu">A_vsluta</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_23:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the Edit menu">_Redigera</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_24:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">Klipp u_t</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">_Kopiera</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Edit menu">K_listra in</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the Manage menu">_Hantera</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Lägg till spelare eller SUB…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Lägg till _BOOST eller BRIDGE…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Inställningar för Musik_biblioteket…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Tjänstinställningar…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Lägg till _radiostation…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_29:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Uppdatera _Musikbiblioteket nu</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_5:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Sök efter programuppdateringar…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">Byt s_pråk…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Manage menu">_Inställningar…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This is the root of the Help menu">H_jälp</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Mitt Sonos-konto…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Shoppa Sonos-_produkter…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Kortkommandon…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Hjälp för Sonos-systemet…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_32:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Webbplats för _teknisk support…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_15:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">F_ellogg…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_96:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Skicka _Beta-feedback…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_9:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Skicka _diagnostik…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_99:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Glöm _nuvarande Sonos-system…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_10:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">Åte_rställ Controller…</String>
+  <String UniqueId="main/mainmenu.baml:MenuItem_11:System.Windows.Controls.HeaderedItemsControl.Header" Category="Menu" Comments="This item belongs to the Help menu">_Om mitt Sonos-system…</String>
+  <String UniqueId="utilities/timepicker.baml:TextBox_1:System.Windows.Controls.TextBox.Text" Category="Text">1</String>
+  <String UniqueId="utilities/timepicker.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">:</String>
+  <String UniqueId="utilities/timepicker.baml:TextBox_2:System.Windows.Controls.TextBox.Text" Category="Text">01</String>
+  <String UniqueId="utilities/timepicker.baml:ComboBoxItem_1:System.Windows.Controls.ContentControl.Content" Category="ComboBox">fm</String>
+  <String UniqueId="utilities/timepicker.baml:ComboBoxItem_2:System.Windows.Controls.ContentControl.Content" Category="ComboBox">em</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderTitle_1:System.String.$Content" Category="None">Mina musikmappar i Sonos</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderText1_1:System.String.$Content" Category="None">Klicka på Lägg till för att lägga till en ny musikmapp i ditt Sonos-system.</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderText2_1:System.String.$Content" Category="None">Klicka på Ta bort för att ta bort den markerade mappen.</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderAdd_1:System.String.$Content" Category="None">Lägg till</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderEdit_1:System.String.$Content" Category="None">Redigera</String>
+  <String UniqueId="utilities/strings.baml:MusicLibraryFolderRemove_1:System.String.$Content" Category="None">Ta bort</String>
+  <String UniqueId="utilities/strings.baml:IndexingMessage_1:System.String.$Content" Category="None">Uppdaterar Musikbiblioteket…</String>
+  <String UniqueId="utilities/strings.baml:IndexingMessageLine2_1:System.String.$Content" Category="None">Vänta.</String>
+  <String UniqueId="utilities/strings.baml:KeyboardShortcutNameHeader_1:System.String.$Content" Category="None">Funktion</String>
+  <String UniqueId="utilities/strings.baml:KeyboardShortcutRepresentationHeader_1:System.String.$Content" Category="None">Kortkommando</String>
+  <String UniqueId="utilities/strings.baml:PlayPause_1:System.String.$Content" Category="None">Spela upp/pausa</String>
+  <String UniqueId="utilities/strings.baml:PreviousTrack_1:System.String.$Content" Category="None">Föregående låt</String>
+  <String UniqueId="utilities/strings.baml:NextTrack_1:System.String.$Content" Category="None">Nästa låt</String>
+  <String UniqueId="utilities/strings.baml:QuickSkipBackward_1:System.String.$Content" Category="None">Gå bakåt 30 sekunder</String>
+  <String UniqueId="utilities/strings.baml:QuickSkipForward_1:System.String.$Content" Category="None">Gå framåt 30 sekunder</String>
+  <String UniqueId="utilities/strings.baml:ToggleShuffle_1:System.String.$Content" Category="None">Växla Blanda</String>
+  <String UniqueId="utilities/strings.baml:ToggleRepeat_1:System.String.$Content" Category="None">Växla Upprepa</String>
+  <String UniqueId="utilities/strings.baml:ToggleCrossfade_1:System.String.$Content" Category="None">Växla Crossfading</String>
+  <String UniqueId="utilities/strings.baml:ToggleMute_1:System.String.$Content" Category="None">Ljud av/ljud på för nuvarande rum/grupp</String>
+  <String UniqueId="utilities/strings.baml:MuteAll_1:System.String.$Content" Category="None">Ljud av för alla</String>
+  <String UniqueId="utilities/strings.baml:VolumeUp_1:System.String.$Content" Category="None">Höj volymen</String>
+  <String UniqueId="utilities/strings.baml:VolumeDown_1:System.String.$Content" Category="None">Sänk volymen</String>
+  <String UniqueId="utilities/strings.baml:PlayNow_1:System.String.$Content" Category="None">Spela upp markerad låt nu</String>
+  <String UniqueId="utilities/strings.baml:PlayNext_1:System.String.$Content" Category="None">Spela upp markerad låt efteråt</String>
+  <String UniqueId="utilities/strings.baml:AddToQueue_1:System.String.$Content" Category="None">Spela upp markeringen senare</String>
+  <String UniqueId="utilities/strings.baml:ReplaceQueue_1:System.String.$Content" Category="None">Ersätt kö med markering</String>
+  <String UniqueId="utilities/strings.baml:ToggleLargeArt_1:System.String.$Content" Category="None">Växla visning av stora albumbilder</String>
+  <String UniqueId="utilities/strings.baml:Cut_1:System.String.$Content" Category="None">Klipp ut</String>
+  <String UniqueId="utilities/strings.baml:Copy_1:System.String.$Content" Category="None">Kopiera</String>
+  <String UniqueId="utilities/strings.baml:Paste_1:System.String.$Content" Category="None">Klistra in</String>
+  <String UniqueId="utilities/strings.baml:ToggleMiniPlayer_1:System.String.$Content" Category="None">Växla Mini-Controller</String>
+  <String UniqueId="utilities/strings.baml:ShowKeyboardShortcuts_1:System.String.$Content" Category="None">Visa kortkommandolista</String>
+  <String UniqueId="utilities/strings.baml:DeleteTracks_1:System.String.$Content" Category="None">Ta bort markerat/markerade låtar</String>
+  <String UniqueId="utilities/strings.baml:TopMusicMenu_1:System.String.$Content" Category="None">Gå tillbaka till översta nivån i musikmenyn</String>
+  <String UniqueId="utilities/strings.baml:Favorites_1:System.String.$Content" Category="None">Gå till Favoriter</String>
+  <String UniqueId="utilities/strings.baml:Search_1:System.String.$Content" Category="None">Hoppa till sökrutan</String>
+  <String UniqueId="utilities/strings.baml:NextRoomGroup_1:System.String.$Content" Category="None">Välj nästa rumsgrupp</String>
+  <String UniqueId="utilities/strings.baml:PreviousRoomGroup_1:System.String.$Content" Category="None">Välj föregående rumsgrupp</String>
+  <String UniqueId="utilities/strings.baml:SelectCurrentTrack_1:System.String.$Content" Category="None">Rulla till nuvarande låt i kö</String>
+  <String UniqueId="utilities/strings.baml:UpdateMusicLibrary_1:System.String.$Content" Category="None">Uppdatera Musikbiblioteket nu</String>
+  <String UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content" Category="None">Storleksändra kö</String>
+  <String UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content" Category="None">Stäng aktivt fönster</String>
+  <String UniqueId="utilities/strings.baml:OK_1:System.String.$Content" Category="None">OK</String>
+  <String UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content" Category="None">CancelZXZ</String>
+  <String UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content" Category="None">{0} alternativknapp. Välj med mellanslagstangenten.</String>
+  <String UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content" Category="None">{0} alternativknapp, vald.</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Redigera väckning</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">OK</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Avbryt</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_1:System.Windows.Controls.TextBlock.Text" Category="Text">Väckning</String>
+  <String UniqueId="alarms/editalarmwindow.baml:RadioButton_1:System.Windows.Controls.ContentControl.Content" Category="RadioButton">På</String>
+  <String UniqueId="alarms/editalarmwindow.baml:RadioButton_2:System.Windows.Controls.ContentControl.Content" Category="RadioButton">Av</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_2:System.Windows.Controls.TextBlock.Text" Category="Text">Tid</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_3:System.Windows.Controls.TextBlock.Text" Category="Text">Rum</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_4:System.Windows.Controls.TextBlock.Text" Category="Text">Musik</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Button_1:System.Windows.Controls.ContentControl.Content" Category="Button">Välj…</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_5:System.Windows.Controls.TextBlock.Text" Category="Text">Schema</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_1:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Bara en gång</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_2:System.Windows.Controls.ContentControl.Content" Category="CheckBox">måndag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_3:System.Windows.Controls.ContentControl.Content" Category="CheckBox">tisdag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content" Category="CheckBox">onsdag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_5:System.Windows.Controls.ContentControl.Content" Category="CheckBox">torsdag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_6:System.Windows.Controls.ContentControl.Content" Category="CheckBox">fredag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_7:System.Windows.Controls.ContentControl.Content" Category="CheckBox">lördag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_8:System.Windows.Controls.ContentControl.Content" Category="CheckBox">söndag</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_6:System.Windows.Controls.TextBlock.Text" Category="Text">Volym</String>
+  <String UniqueId="alarms/editalarmwindow.baml:Label_7:System.Windows.Controls.TextBlock.Text" Category="Text">Varaktighet</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_11:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Ingen gräns</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_9:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Inkludera grupperade rum</String>
+  <String UniqueId="alarms/editalarmwindow.baml:CheckBox_10:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Blanda musik</String>
+  <String UniqueId="browse/browsepanel.baml:headerSource_1:System.Windows.Controls.TextBlock.Text" Category="Text">Välj musikkälla</String>
+  <String UniqueId="browse/browsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text" Category="Text">MUSIK</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_6:System.Windows.Controls.TextBlock.Text" Category="Text">Inga tillgängliga markeringar.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_18:System.Windows.Controls.TextBlock.Text" Category="Text">Indexering pågår. Musiken blir tillgänglig så snart indexeringen har slutförts.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_10:System.Windows.Controls.TextBlock.Text" Category="Text">Mer</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text" Category="Text">Inga tillgängliga markeringar.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_19:System.Windows.Controls.TextBlock.Text" Category="Text">Indexering pågår. Musiken blir tillgänglig så snart indexeringen har slutförts.</String>
+  <String UniqueId="browse/browsepanel.baml:TextBlock_13:System.Windows.Controls.TextBlock.Text" Category="Text">Mer</String>
+  <String UniqueId="browse/browsepanel.baml:alarmsButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Väckningar</String>
+  <String UniqueId="utilities/multibuttonmessagewindow.baml:cancelButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Avbryt</String>
+  <String UniqueId="main/strings.baml:DefaultCancelUIMessage_1:System.String.$Content" Category="None">Vänta…</String>
+  <String UniqueId="main/strings.baml:Confirm_1:System.String.$Content" Category="None">Bekräfta</String>
+  <String UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content" Category="None">Uppdatera Musikbiblioteket</String>
+  <String UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content" Category="None">Detta uppdaterar Musikbiblioteket i ditt Sonos-system så att det matchar eventuella ändringar du gjort i iTunes eller andra delade musikmappar. Vill du uppdatera Musikbiblioteket i ditt Sonos-system nu?</String>
+  <String UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content" Category="None">För mer information, gå till {0}</String>
+  <String UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content" Category="None">Innan du kan visa ett rum måste du fabriksåterställa Sonos-spelaren för det rummet. För mer information, gå till {0}</String>
+  <String UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content" Category="None">Nuvarande tid har inte ställts in</String>
+  <String UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content" Category="None">Innan du kan skapa ett larm måste du ha ställt in nuvarande tid.</String>
+  <String UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content" Category="None">Ställ in nuvarande tid</String>
+  <String UniqueId="main/strings.baml:LCFirewallMessage1_1:System.String.$Content" Category="None">Din dators brandväggsinställning har ändrats. Din Sonos Controller kan inte längre ansluta till ditt Sonos-system.</String>
+  <String UniqueId="main/strings.baml:LCFirewallMessage2_1:System.String.$Content" Category="None">För mer information, gå till {0}</String>
+  <String UniqueId="main/strings.baml:LCFirewallMessage3_1:System.String.$Content" Category="None">Klicka på knappen Konfigurera brandvägg för att justera dina brandväggsinställningar.</String>
+  <String UniqueId="main/strings.baml:LCFirewallButton_1:System.String.$Content" Category="None">Konfigurera brandvägg</String>
+  <String UniqueId="main/strings.baml:LCMoreOptionsButton_1:System.String.$Content" Category="None">Fler alternativ…</String>
+  <String UniqueId="main/strings.baml:LCResetControllerItem_1:System.String.$Content" Category="None">Återställ Controller</String>
+  <String UniqueId="main/strings.baml:LCAboutSonosItem_1:System.String.$Content" Category="None">Om mitt Sonos-system</String>
+  <String UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content" Category="None">Skicka diagnostik</String>
+  <String UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content" Category="None">Kunde inte öppna länk: 0. Se till att du har angett standardwebbläsare.</String>
+  <String UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content" Category="None">Fel när länken skulle öppnas</String>
+  <String UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content" Category="None">Music library updateZXZ</String>
+  <String UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content" Category="None">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
+  <String UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content" Category="None">Uppdatera nu</String>
+  <String UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content" Category="None">Remind Me LaterZXZ</String>
+  <String UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content" Category="None">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content" Category="Text">Användningsdata</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content" Category="Text">I syfte att hjälpa till att förbättra våra produkter och kundtjänst, insamlar Sonos information om hur du använder ditt Sonos system. För mer information, gå till</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content" Category="CheckBox">Ja, aktivera delning av användningsdata för att hjälpa Sonos att förbättra sina produkter.</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text" Category="Text">Utjämningsinställningar finns inte tillgängliga när en Sonos-spelares linjeutgångsnivå är inställd till Fast.</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text" Category="Text">Ändra inställningen Linjeutgångsnivå på fliken Standard för att aktivera utjämningskontrollerna.</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Återställ</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Återställ</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Återställ</String>
+  <String UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content" Category="Button">Återställ</String>
+  <String UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Grupp</String>
+  <String UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Information och alternativ</String>
+  <String UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Ljud av är av</String>
+  <String UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Ljud av är på</String>
+  <String UniqueId="nowplaying/nowplayingpanel.baml:header_1:System.Windows.Controls.TextBlock.Text" Category="Text">SPELAR NU</String>
+  <String UniqueId="nowplaying/nowplayingpanel.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Information och alternativ</String>
+  <String UniqueId="alarms/strings.baml:SC_ALARM_UNKNOWN_1:System.String.$Content" Category="None">Inget valt rum</String>
+  <String UniqueId="alarms/strings.baml:DateTimeFormatString_1:System.String.$Content" Category="None">Aktuell tid: {0} - {1} {2}</String>
+  <String UniqueId="alarms/strings.baml:TitleFallback_1:System.String.$Content" Category="None">Väckningsmusik</String>
+  <String UniqueId="alarms/strings.baml:AddTitle_1:System.String.$Content" Category="None">Lägg till väckning</String>
+  <String UniqueId="browse/strings.baml:SC_SLEEP_TIMER_HOURS_MINUTES_FORMAT_1:System.String.$Content" Category="None">Timer för vila ({0}:{1:00})</String>
+  <String UniqueId="browse/strings.baml:SC_SLEEP_TIMER_OFF_1:System.String.$Content" Category="None">Timer för vila</String>
+  <String UniqueId="browse/strings.baml:SC_TRACK_NUMBER_FORMAT_1:System.String.$Content" Category="None">{0:00}</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content" Category="None">Bekräfta</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CLEAR_1:System.String.$Content" Category="None">Rensa</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_CANCEL_1:System.String.$Content" Category="None">Avbryt</String>
+  <String UniqueId="browse/strings.baml:SC_ARE_YOU_SURE_INSTRUCTIONS_1:System.String.$Content" Category="None">Vill du rensa kön?</String>
+  <String UniqueId="browse/strings.baml:SearchEmptyString_1:System.String.$Content" Category="None">Sökning returnerade inga resultat för {0} i {1}. Prova med en annan kategori eller en ny sökterm.</String>
+  <String UniqueId="browse/strings.baml:UnselectAllLabel_1:System.String.$Content" Category="None">Avmarkera allt</String>
+  <String UniqueId="browse/strings.baml:NotEnoughRoom_1:System.String.$Content" Category="None">Sonos har inte tillräckligt med ledigt utrymme för att spara kön. Ta bort gamla sparade spellistor eller köer i andra rum och försök igen.</String>
+  <String UniqueId="browse/strings.baml:UnableToSave_1:System.String.$Content" Category="None">Det går inte att spara kön.</String>
+  <String UniqueId="browse/strings.baml:UnableToSaveMobileTracks_1:System.String.$Content" Category="None">Det går inte att lagra låtar från mobilenheter i Sonos-spellistor och de sparades inte</String>
+  <String UniqueId="browse/strings.baml:UnableToSaveAllMobileTrack_1:System.String.$Content" Category="None">Kön innehåller endast låtar från mobilenheter. Dessa låtar kan inte sparas till Sonos-spellistor.</String>
+  <String UniqueId="browse/strings.baml:AutomationBrowse_1:System.String.$Content" Category="None">Bläddra</String>
+  <String UniqueId="browse/strings.baml:AutomationQueue_1:System.String.$Content" Category="None">Kö</String>
+  <String UniqueId="browse/strings.baml:AutomationSearchbox_1:System.String.$Content" Category="None">Sökruta</String>
+  <String UniqueId="browse/strings.baml:AutomationResizeQueue_1:System.String.$Content" Category="None">Storleksändra kö</String>
+  <String UniqueId="browse/strings.baml:RecentSearches_1:System.String.$Content" Category="None">Senaste sökningar</String>
+  <String UniqueId="browse/strings.baml:ClearRecentSearches_1:System.String.$Content" Category="None">Rensa senaste sökningar</String>
+  <String UniqueId="browse/strings.baml:NoRecentSearches_1:System.String.$Content" Category="None">Inga senaste sökningar</String>
+  <String UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TITLE_1:System.String.$Content" Category="None">Sonos-spellista finns</String>
+  <String UniqueId="browse/strings.baml:PLAYLIST_EXISTS_TEXT_FORMAT_1:System.String.$Content" Category="None">Det finns redan en Sonos-spellista som heter {0}. Om du ersätter den skrivs dess nuvarande innehåll över.</String>
+  <String UniqueId="browse/strings.baml:PLAYLIST_EXISTS_OK_BUTTON_1:System.String.$Content" Category="None">Ersätt</String>
+  <String UniqueId="browse/strings.baml:AutomationBackButton_1:System.String.$Content" Category="None">Bakåt</String>
+  <String UniqueId="browse/strings.baml:AutomationDropdownButton_1:System.String.$Content" Category="None">Nedrullningsbar lista</String>
+  <String UniqueId="browse/strings.baml:ExplicitBadgeString_1:System.String.$Content" Category="None">{0} - Explicit</String>
+  <String UniqueId="browse/strings.baml:RestrictedString_1:System.String.$Content" Category="None">{0} - Begränsat</String>
+  <String UniqueId="browse/strings.baml:RestrictedAndExplicitString_1:System.String.$Content" Category="None">{0} - Begränsat och explicit</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:System.Windows.Window.Title" Category="Title">Redigera väckning</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">Ange väckningsmusik</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Avbryt</String>
+  <String UniqueId="alarms/editalarmbrowsewindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text" Category="Text">Bläddra till väckningsmusik</String>
+  <String UniqueId="alarms/editalarmbrowsepanel.baml:Label_1:System.Windows.Controls.TextBlock.Text" Category="Text">LÄNGST UPP</String>
+  <String UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_3:System.Windows.Controls.TextBlock.Text" Category="Text">Inga tillgängliga markeringar.</String>
+  <String UniqueId="alarms/editalarmbrowsepanel.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text" Category="Text">Inga tillgängliga markeringar.</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Ljud av är av</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Ljud av är på</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Ljud av är av</String>
+  <String UniqueId="nowplaying/mutevolume.baml:ToolTip_4:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Ljud av är på</String>
+  <String UniqueId="nowplaying/mutevolume.baml:fixedText_1:System.Windows.Controls.TextBlock.Text" Category="Text">Fast volym</String>
+  <String UniqueId="nowplaying/mutevolume.baml:individualOnlyText_1:System.Windows.Controls.TextBlock.Text" Category="Text">Justera rumsvolymer</String>
+  <String UniqueId="browse/queuepanel.baml:header_1:System.Windows.Controls.TextBlock.Text" Category="Text">KÖ</String>
+  <String UniqueId="browse/queuepanel.baml:notInUse_1:System.Windows.Controls.TextBlock.Text" Category="Text">(Används inte)</String>
+  <String UniqueId="browse/queuepanel.baml:notInUseTooltip_1:System.Windows.Controls.ContentControl.Content" Category="ToolTip">Används inte</String>
+  <String UniqueId="browse/queuepanel.baml:queueEmpty_1:System.Windows.Controls.TextBlock.Text" Category="Text">Kön är tom.</String>
+  <String UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Rensa kö</String>
+  <String UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Spara kö</String>
+  <String UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content" Category="None">Vit indikatorlampa</String>
+  <String UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content" Category="None">BRIDGE-namn</String>
+  <String UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content" Category="None">DOCK-namn</String>
+  <String UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content" Category="None">Rumsnamn</String>
+  <String UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content" Category="None">Standard</String>
+  <String UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content" Category="None">Allmänt</String>
+  <String UniqueId="settingsmenu/strings.baml:MusicServersTabHeader_1:System.String.$Content" Category="None">Musikkällor</String>
+  <String UniqueId="settingsmenu/strings.baml:UsageTabHeader_1:System.String.$Content" Category="None">Användning</String>
+  <String UniqueId="settingsmenu/strings.baml:LanguageTabHeader_1:System.String.$Content" Category="None">Språk</String>
+  <String UniqueId="settingsmenu/strings.baml:Anonymous_1:System.String.$Content" Category="None">&lt;Anonym&gt;</String>
+  <String UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingHeaderText_1:System.String.$Content" Category="None">Behörigheter för Musikbiblioteket</String>
+  <String UniqueId="settingsmenu/strings.baml:FixSharePermissionsSettingLabelText_1:System.String.$Content" Category="None">Fixa behörigheter för musikfiler så att Sonos alltid kan nå dem.</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationMusicLibrary_1:System.String.$Content" Category="None">Musikbiblioteket</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationServices_1:System.String.$Content" Category="None">Tjänster</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationVolume_1:System.String.$Content" Category="None">Volym</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationBass_1:System.String.$Content" Category="None">Bas</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationTreble_1:System.String.$Content" Category="None">Diskant</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationBalance_1:System.String.$Content" Category="None">Balans</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content" Category="None">Justera SUB-nivå</String>
+  <String UniqueId="settingsmenu/strings.baml:EditButtonLabel_1:System.String.$Content" Category="None">Redigera</String>
+  <String UniqueId="settingsmenu/strings.baml:BassHeader_1:System.String.$Content" Category="None">Bas</String>
+  <String UniqueId="settingsmenu/strings.baml:TrebleHeader_1:System.String.$Content" Category="None">Diskant</String>
+  <String UniqueId="settingsmenu/strings.baml:BalanceHeader_1:System.String.$Content" Category="None">Balans</String>
+  <String UniqueId="settingsmenu/strings.baml:LoudnessLabel_1:System.String.$Content" Category="None">Loudness</String>
+  <String UniqueId="settingsmenu/strings.baml:LeftLabelMinus_1:System.String.$Content" Category="None">-</String>
+  <String UniqueId="settingsmenu/strings.baml:RightLabelPlus_1:System.String.$Content" Category="None">+</String>
+  <String UniqueId="settingsmenu/strings.baml:LeftLabelMin_1:System.String.$Content" Category="None">Min</String>
+  <String UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content" Category="None">Max</String>
+  <String UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content" Category="None">V</String>
+  <String UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content" Category="None">H</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content" Category="None">SUB</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content" Category="None">På</String>
+  <String UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content" Category="None">SUB-nivå</String>
+  <String UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content" Category="None">Justera placering</String>
+  <String UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content" Category="None">Dialogförbättring</String>
+  <String UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content" Category="None">Ljudfördröjning (läppsynkronisering)</String>
+  <String UniqueId="settingsmenu/strings.baml:SubPolarityLabel_1:System.String.$Content" Category="None">På</String>
+  <String UniqueId="settingsmenu/strings.baml:SpeakerSizeHeader_1:System.String.$Content" Category="None">Högtalarstorlek (crossover)</String>
+  <String UniqueId="settingsmenu/strings.baml:ParentalControlsTitle_1:System.String.$Content" Category="None">Föräldrakontroller</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnabledText_1:System.String.$Content" Category="None">Filtrering av explicit innehåll är aktiverad. Klicka på knappen nedan för att tillåta explicit innehåll att spela på ditt Sonos-system. Inte alla tjänster stöder innehållsfiltrering.</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisabledText_1:System.String.$Content" Category="None">Filtrering av explicit innehåll är inaktiverad. Klicka på knappen nedan för att förhindra att explicit innehåll spelas på ditt Sonos-system. Inte alla tjänster stöder innehållsfiltrering.</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringEnableButtonTitle_1:System.String.$Content" Category="None">Aktivera explicit filtrering</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringDisableButtonTitle_1:System.String.$Content" Category="None">Inaktivera explicit filtrering</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringNoServices_1:System.String.$Content" Category="None">Det finns inga musiktjänster i ditt Sonos-system som har stöd för innehållsfiltrering.</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoButtonTitle_1:System.String.$Content" Category="None">Mer information</String>
+  <String UniqueId="settingsmenu/strings.baml:ExplicitFilteringMoreInfoUri_1:System.String.$Content" Category="None">http://faq.sonos.com/parentalcontrols</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundLevelHeader_1:System.String.$Content" Category="None">Mer information</String>
+  <String UniqueId="settingsmenu/strings.baml:MusicSurroundLevelHeader_1:System.String.$Content" Category="None">Musiknivå</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSurroundEnabledHeader_1:System.String.$Content" Category="None">Omger</String>
+  <String UniqueId="settingsmenu/strings.baml:IsSurroundEnabledLabel_1:System.String.$Content" Category="None">På</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeHeader_1:System.String.$Content" Category="None">Uppspelning av musik</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeAmbient_1:System.String.$Content" Category="None">Stämningsskapande</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeFull_1:System.String.$Content" Category="None">Full</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundModeDescription_1:System.String.$Content" Category="None">Under musikuppspelning kan surroundhögtalarna utgöra ett tillägg med diskret, stämningsskapande ljud eller högre ljud som täcker hela intervallet.</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundBalanceLabel_1:System.String.$Content" Category="None">Balans</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundBalanceButtonLabel_1:System.String.$Content" Category="None">Balansera surroundhögtalare</String>
+  <String UniqueId="settingsmenu/strings.baml:SurroundBalanceDescription_1:System.String.$Content" Category="None">Balansera manuellt dina surroundnivåer när Trueplay-justering är avstängt.</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationEQLabel_1:System.String.$Content" Category="None">Musikutjämning</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSurroundLevel_1:System.String.$Content" Category="None">Surround-tv-nivå</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationMusicSurroundLevel_1:System.String.$Content" Category="None">Surround-musiknivå</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationAudioDelay_1:System.String.$Content" Category="None">Ljudfördröjning</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSubGain_1:System.String.$Content" Category="None">SUB-förstärkning</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSubEnabled_1:System.String.$Content" Category="None">SUB aktiverad</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSubPolarity_1:System.String.$Content" Category="None">Justera placering</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationSurroundsEnabled_1:System.String.$Content" Category="None">Surroundhögtalare aktiverade</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationIRSignalLight_1:System.String.$Content" Category="None">IR-signallampa</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationIRRepeater_1:System.String.$Content" Category="None">IR repeterare</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationTVAutoplay_1:System.String.$Content" Category="None">Spela upp tv automatiskt</String>
+  <String UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content" Category="None">Avgruppera vid autouppspelning</String>
+  <String UniqueId="zones/zonespanel.baml:header_1:System.Windows.Controls.TextBlock.Text" Category="Text">RUM</String>
+  <String UniqueId="zones/zonespanel.baml:pauseAllButton_1:System.Windows.Controls.ContentControl.Content" Category="Button">Pausa alla</String>
+  <String UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">OK</String>
+  <String UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Avbryt</String>
+  <String UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText" Category="Button">OK</String>
+  <String UniqueId="utilities/textinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.CancelButtonText" Category="Button">Avbryt</String>
 </Strings>
