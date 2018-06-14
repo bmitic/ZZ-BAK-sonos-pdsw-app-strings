@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="mms_service_password_invalid">有効なパスワードを入力してください。</string>
 <string name="mms_service_login_password_invalid">有効なログイン情報およびパスワードを入力してください。</string>
