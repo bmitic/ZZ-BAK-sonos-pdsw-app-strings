@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="zone_grouping_title">Agrupar salas</string>
-<string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead" name="zone_grouping_title_short">Grupo</string>
-<string name="zone_grouping_select_all_button_text">Selecionar Todos</string>
-<string name="zone_grouping_unselect_all_button_text">Desmarcar todos</string>
-<string name="zone_grouping_selected_will_play">As salas selecionadas tocarão:</string>
-<string name="zone_grouping_multi_selected_will_play">As salas que você selecionou estão tocando músicas diferentes</string>
-<string name="zone_grouping_no_music">Nenhuma música</string>
-<string name="zone_grouping_choose_music">Toque em Concluído para escolher a música</string>
-<string name="zone_grouping_picker_header">Escolha a música a ser tocada nas salas selecionadas</string>
-<string name="zone_grouping_play_to_the_following">Tocar o seguinte</string>
+    <string name="zone_grouping_title">Agrupar salas</string>
+    <string name="zone_grouping_no_music">Nenhuma música selecionada</string>
+    <string name="zone_grouping_choose_music">Toque em Concluído para escolher a música</string>
+    <string name="zone_grouping_picker_header">Escolha a música a ser tocada nas salas selecionadas</string>
+    <string name="zone_grouping_play_to_the_following">Tocar o seguinte</string>
 </resources>
