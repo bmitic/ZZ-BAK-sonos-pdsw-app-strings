@@ -1,7 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>&lt;localizationTest&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
 	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
@@ -13,9 +29,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Notifications répétées désactivées pour %d alarme dans la maison.</string>
+			<string>Snooze notifications désactivées pour %d alarme dans la maison.</string>
 			<key>other</key>
-			<string>Notifications répétées désactivées pour %d alarmes dans la maison.</string>
+			<string>Les notifications de %drépétition sont désactivées pour les alarmes in dans la maison.</string>
 		</dict>
 	</dict>
 	<key>&lt;VODurationNHours&gt;</key>
@@ -79,9 +95,9 @@
 			<key>zero</key>
 			<string>Vide</string>
 			<key>one</key>
-			<string>.%d morceau.</string>
+			<string>.%d chanson.</string>
 			<key>other</key>
-			<string>.%d morceaux.</string>
+			<string>.%d chansons.</string>
 		</dict>
 	</dict>
 </dict>
