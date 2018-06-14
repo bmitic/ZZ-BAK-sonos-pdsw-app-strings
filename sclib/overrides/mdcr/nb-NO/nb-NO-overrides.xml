@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Musikkbibliotek</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Tjenester</String>
@@ -26,25 +26,17 @@
 <String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Trykk «%2$s» for å prøve på nytt, eller klikk på «%1$s» for å registrere senere.</String>
 <String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Du kan endre preferansene dine når som helst ved å velge «Preferanser» fra Sonos-menyen, og velge Forbruk-kategorien under «Avanserte innstillinger».</String>
 <String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Hvis du ønsker å endre standardkontoen, høyreklikker du (Ctrl+klikk) på %1$s i Sonos-musikkmenyen og velger en annen konto.</String>
-<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$s har fullført.
-
-En Sonos-programvareoppdatering er nå nødvendig.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$s har fullført. En Sonos-programvareoppdatering er nå nødvendig.</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Etter at Sonos-controlleren starter, velg Sonos &gt; Sjekk etter oppdateringer…</String>
 <String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">Telefonnummer</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Tilbake</String>
 <String id="SCLIB_STR_Queue_Title">KØ</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">KØ (ikke i bruk)</String>
 <String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">Registrer</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">For å legge til Sonos Labs offentlige betatjenester må du dele bruksdata med Sonos.
-
-For å vise eller endre dine bruksdatainnstillinger, gå til Sonos &gt; Preferanser &gt; Avansert &gt; Forbedre Sonos.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">For å legge til Sonos Labs offentlige betatjenester må du dele bruksdata med Sonos. For å vise eller endre dine bruksdatainnstillinger, gå til Sonos &gt; Preferanser &gt; Avansert &gt; Forbedre Sonos.</String>
 <String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Gå til «Sonos» &gt; «Preferanser» &gt; «Avansert» og velg «Trådløst oppsett».</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Du kan forsøke å registrere senere i Hjelp &gt; Sonos-systemregistrering.</String>
-<String id="SCLIB_STR_MSS_CredError">%1$s-serveren gjenkjente ikke innloggingsinformasjonen din.
-
-Sørg for at påloggingsinformasjonen din (e-postadresse eller brukernavn) og passordet er korrekt, trykk på Tilbake-knappen, og prøv igjen.
-
-Om problemet vedvarer, kontakt %2$s for hjelp med kontoen din.</String>
+<String id="SCLIB_STR_MSS_CredError">%1$s-serveren gjenkjente ikke innloggingsinformasjonen din. Sørg for at påloggingsinformasjonen din (e-postadresse eller brukernavn) og passordet er korrekt, trykk på Tilbake-knappen, og prøv igjen. Om problemet vedvarer, kontakt %2$s for hjelp med kontoen din.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes® samlinger</String>
 <String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Albumartister</String>
 <String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Tilbakestill controller</String>
@@ -81,13 +73,10 @@ Om problemet vedvarer, kontakt %2$s for hjelp med kontoen din.</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">For å oppdatere velger du Sonos &gt; Sjekk etter oppdateringer…</String>
 <String id="SCLIB_STR_Forget_Title">Ønsker du å glemme Sonos-systemet du bruker for øyeblikket?
 </String>
-<String id="RHHSTR_SIE_ERROR">«%1$s» er ikke lenger tilgjengelig. Enheten der musikkfilene er lagret er kanskje ikke slått på, eller banen kan være endret.
-Gå til Administrer &gt; 
-Innstillinger for musikkbibliotek for å sjekke banenavnet.</String>
+<String id="RHHSTR_SIE_ERROR">«%1$s» er ikke lenger tilgjengelig. Enheten der musikkfilene er lagret er kanskje ikke slått på, eller banen kan være endret. Gå til Administrer &gt; Innstillinger for musikkbibliotek for å sjekke banenavnet.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Søker etter Sonos-systemet ditt…</String>
 <String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Gå til Systempreferanser &gt; Nettverk og skift til nettverket som Sonos bruker.</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Beklager, vi kan ikke koble til Sonos.
-Prøv dette:</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Beklager, vi kan ikke koble til Sonos. Prøv dette:</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Slå Wi-Fi av og på igjen.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Koble fra ruteren, og koble den til igjen.</String>
