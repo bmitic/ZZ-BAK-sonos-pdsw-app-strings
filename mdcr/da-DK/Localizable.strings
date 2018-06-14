@@ -9,9 +9,12 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
-/* Common */
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "Tester lokalisering her også " 
 
-    "<OK>" = "Ok";
+ / * Fælles * /
+
+    " <OK> " = "OK";
     "<Cancel>" = "Annuller";
     "<Yes>" = "Ja";
     "<No>" = "Nej";
@@ -117,7 +120,7 @@
     "<AlarmHeaderWhere>" = "Hvor";
     "<AlarmHeaderWhen>" = "Hvornår";
     "<AlarmHeaderOn>" = "TIL";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Aktuel tid: %1$@ - %2$@ %3$@";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Nuværende tid: %1$@ - %2$@ %3$@";
     "<AlarmEditButtonTitle>" = "Rediger";
     "<AlarmUnknownDevice>" = "Intet rum valgt";
 
@@ -229,7 +232,7 @@
     "<NowPlayingHeaderTitle>" = "SPILLER NU";
     "<NowPlayingLabel_Information>" = "Info og valgmuligheder";
     "<NowPlayingTrackDefaultLabel>" = "Sang [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[ingen musik]";
+    "<NowPlayingTrackDefaultString>" = "[Ingen musik valgt]";
     "<NowPlayingArtistDefaultLabel>" = "Kunstner";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -250,7 +253,7 @@
     "<QueueSaveErrorGeneric>" = "Ikke i stand til at gemme køen.";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonos har ikke tilstrækkelig plads til at gemme køen.\nFjern tidligere gemte playlister eller køer i andre rum, og prøv igen.";
     "<QueueSaveErrorMobileTracksNotSaved>" = "Sange fra mobile enheder kan ikke lagres på Sonos-playlister, og blev ikke gemt.";
-    "<QueueSaveErrorAllMobileTracks>" = "Køen indeholder kun sange fra mobile enheder. Disse sange kan ikke gemmes på Sonos-playlister.";
+    "<QueueSaveErrorAllMobileTracks>" = "Køen indeholder kun numre fra mobile enheder. Disse sange kan ikke gemmes på Sonos-playlister.";
 
     "<QueuePlaylistExistsWarningTitle>" = "Sonos-playliste findes";
 // %1$@, the name of the pre-existing playlist
@@ -268,16 +271,16 @@
 
     "<SettingsWindowTitle>" = "Indstillinger";
     "<SettingsBasicSettingsTitle>" = "Grundlæggende";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Du har for øjeblikket ingen %1$@ i dit Sonos-system.\nDu tilføjer en %1$@ ved at vælge %2$@\nfra menulinjen.";
     "<SettingsNoPlayers_1>" = "Du har i øjeblikket ingen Sonos-afspillere i dit Sonos-system.\nDu skal have mindst én Sonos-afspiller for at afspille musik.\n\nDu kan tilføje en Sonos-afspiller ved at vælge %1$@ fra menulinjen.";
-    "<SettingsNoPlayerLink>" = "Administrer > Tilføj en afspiller eller en SUB";
-    "<SettingsNoBoostLink>" = "Administrer > Tilføj en BOOST eller en BRIDGE";
+    "<SettingsNoPlayerLink>" = "Administrer> Tilføj en afspiller eller en del";
+    "<SettingsNoBoostLink>" = "Administrer> Tilføj en Boost eller Bridge";
     "<SettingsNoAvailable_1>" = "Ingen %1$@ tilgængelig";
     "<SettingsComponentRoom>" = "Rum";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dok";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bas";
     "<SettingsEqTreble>" = "Diskant";
     "<SettingsEqBalance>" = "Balance";
@@ -312,8 +315,8 @@
     "<SettingsExplicitFilteringNoServices>" = "Ingen musiktjenester på dit Sonos-system understøtter indholdsfiltrering.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Flere oplysninger";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB Til";
-    "<SettingsSubEqLevelAdjustment>" = "SUB-niveau";
+    "<SettingsSubEqEnabled>" = "Sub On";
+    "<SettingsSubEqLevelAdjustment>" = "Underniveau";
     "<SettingsSubEqPlacementAdjustment>" = "Justering af placering";
     "<SettingsSubEqSpeakerSize>" = "Højttalerstørrelse (afskæring)";
     "<SettingsTVDialogDelay>" = "Lydforsinkelse (synkronisering af lyd/billede)";
@@ -386,8 +389,9 @@
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@-indstillinger…";
-    "<ZoneMenuSelectToUpdate>" = "Vælg for at opdatere…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Vælg for at konfigurere %1$s";
+    "<ZoneMenuSelectToUpdate>" = "Vælg for at opdatere";
+    "<ZoneMenuSelectToConfigure>" = "Vælg for at konfigurere";
+    "<ZoneMenuSelectToRegister>" = "Vælg for at registrere";
     "<ZoneMenuConfirmPauseAll>" = "Er du sikker på, at du vil stoppe musikken midlertidigt i alle rum?";
     "<ZoneMenuPauseButton>" = "Stop";
 
@@ -424,8 +428,8 @@
     "<MenuTitle_View>" = "Vis";
 
     "<MenuTitle_Manage>" = "Administrer";
-    "<MenuTitle_AddPlayerOrSub>" = "Tilføj en afspiller eller en SUB…";
-    "<MenuTitle_AddBoost>" = "Tilføj en BOOST eller en BRIDGE…";
+    "<MenuTitle_AddPlayerOrSub>" = "Tilføj en afspiller eller en del ...";
+    "<MenuTitle_AddBoost>" = "Tilføj en Boost eller Bridge ...";
     "<MenuTitle_MusicLibrarySettings>" = "Indstillinger for musikbibliotek…";
     "<MenuTitle_ServiceSettings>" = "Indstillinger for tjenester…";
     "<MenuTitle_AddRadioStation>" = "Tilføj radiostation…";
@@ -566,8 +570,8 @@
 
     "<ControllerUpdateWizard_Title>" = "Opdateringsstatus";
     "<ControllerUpdateWizard_ErrorTitle>" = "Opdatering mislykkedes";
-    "<ControllerUpdateWizard_Downloading>" = "Opdaterer controller: Downloader";
-    "<ControllerUpdateWizard_Installing>" = "Opdaterer controller: Installerer";
+    "<ControllerUpdateWizard_Downloading>" = "Opdatering controller: downloading";
+    "<ControllerUpdateWizard_Installing>" = "Opdatering controller: installation";
 
     "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Installationsprogrammet til Sonos-controlleren kunne ikke downloades.\n\nFejlkode %1$ld";
     "<ControllerUpdateWizard_InstallFailed_Message>" = "Opdatering af Sonos-controlleren mislykkedes.\n\nDer opstod en uventet fejl. Prøv igen.";
