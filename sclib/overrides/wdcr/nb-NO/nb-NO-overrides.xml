@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Innstillinger for musikkbibliotek</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Tjenesteinnstillinger</String>
@@ -19,23 +19,18 @@
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Sjekk automatisk etter oppdat.</String>
 <String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Vis Windows-medieservere</String>
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Systemoppdateringer</String>
+    
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos-oppsettsassistent</String>
 <String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Klikk på «%2$s» for å legge til ett av disse produktene, eller klikk på «%1$s» for å gjøre dette senere.</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Trykk «%2$s» for å prøve på nytt, eller klikk på «%1$s» for å registrere senere.</String>
 <String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Du kan endre preferansene dine når som helst i «Administrer» &gt; «Innstillinger».</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Etter at Sonos-controlleren starter, velg Administrer &gt; Sjekk etter oppdateringer.</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Manage &gt; Settings &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
-<String id="SCLIB_STR_MSS_CredError">%1$s-serveren gjenkjente ikke innloggingsinformasjonen din.
-
-Sørg for at påloggingsinformasjonen din (e-postadresse eller brukernavn) og passordet er korrekt, trykk på Tilbake-knappen, og prøv igjen.
-
-Om problemet vedvarer, kontakt %2$s for hjelp med kontoen din.</String>
+<String id="SCLIB_STR_MSS_CredError">%1$s-serveren gjenkjente ikke innloggingsinformasjonen din. Sørg for at påloggingsinformasjonen din (e-postadresse eller brukernavn) og passordet er korrekt, trykk på Tilbake-knappen, og prøv igjen. Om problemet vedvarer, kontakt %2$s for hjelp med kontoen din.</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Tilbake</String>
 <String id="SCLIB_STR_Queue_Title">KØ</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">KØ (ikke i bruk)</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">For å legge til Sonos Labs offentlige betatjenester må du dele bruksdata med Sonos.
-
-For å vise eller endre dine bruksdatainnstillinger, gå til Administrer &gt; Innstillinger &gt; Avanserte innstillinger &gt; Forbedre Sonos.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">For å legge til Sonos Labs offentlige betatjenester må du dele bruksdata med Sonos. For å vise eller endre dine bruksdatainnstillinger, gå til Administrer &gt; Innstillinger &gt; Avanserte innstillinger &gt; Forbedre Sonos.</String>
 <String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Gå til «Administrer» &gt; «Innstillinger» &gt; «Avanserte innstillinger» og velg «Trådløst oppsett».</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Du kan forsøke å registrere senere i Hjelp &gt; Sonos-systemregistrering.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes® samlinger</String>
@@ -70,9 +65,7 @@ For å vise eller endre dine bruksdatainnstillinger, gå til Administrer &gt; In
 <String id="RHHSTR_E_FILE_ACCESS_DENIED">Tilgang til filen «%1$s» er avslått.</String>
 <String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Tilgang til den delte mappen «%1$s» er avslått.</String>
 <String id="RHHSTR_E_TOO_MANY_USERS">Den delte mappen «%1$s» har for mange aktive tilkoblinger.</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Det oppsto et problem da du skulle legge til den nye musikken i den delte mappen «%1$s» i Sonos. Se følgende kobling for mer informasjon:
-
-http://faq.sonos.com/serverstack</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Det oppsto et problem da du skulle legge til den nye musikken i den delte mappen «%1$s» i Sonos. Vennligst se følgende lenke for mer informasjon: http://faq.sonos.com/serverstack</String>
 <String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Kunne ikke legge den delte mappen «%1$s» til musikkbiblioteket ditt (%2$d).</String>
 <String id="RHHSTR_SHARE_NAME_TOO_LONG">Navnet på den delte mappen er for langt.</String>
 <String id="RHHSTR_USERNAME_TOO_LONG">Brukernavnet for den delte mappen er for langt.</String>
@@ -94,12 +87,9 @@ http://faq.sonos.com/serverstack</String>
 <String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Last ned den nyeste Sonos-controlleren fra Sonos' nettsted.</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">For å oppdatere velger du Administrer &gt; Se etter programvareoppdateringer…</String>
-<String id="RHHSTR_SIE_ERROR">«%1$s» er ikke lenger tilgjengelig. Enheten der musikkfilene er lagret er kanskje ikke slått på, eller banen kan være endret.
-Gå til Administrer &gt; 
-Innstillinger for musikkbibliotek for å sjekke banenavnet.</String>
+<String id="RHHSTR_SIE_ERROR">«%1$s» er ikke lenger tilgjengelig. Enheten der musikkfilene er lagret er kanskje ikke slått på, eller banen kan være endret. Gå til Administrer &gt; Innstillinger for musikkbibliotek for å sjekke banenavnet.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Søker etter Sonos-systemet ditt…</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Beklager, vi kan ikke koble til Sonos.
-Prøv dette:</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Beklager, vi kan ikke koble til Sonos. Prøv dette:</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Slå Wi-Fi av og på igjen.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Koble fra ruteren, og koble den til igjen.</String>
