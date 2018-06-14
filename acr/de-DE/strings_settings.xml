@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="settings_title">Einstellungen</string>
 <string name="room_settings">Raumeinstellungen</string>
 <string name="parental_controls">Jugendschutz</string>
+<string name="my_sonos_settings">Einstellungen für „Mein Sonos“</string>
 <string name="rename_zp_prompt">Raumname</string>
 <string name="toggle_button_on_text">EIN</string>
 <string name="toggle_button_off_text">AUS</string>
@@ -17,9 +18,7 @@
 <string name="music_eq_balance_positive_value">R</string>
 <string name="music_eq_loudness_text">Loudness</string>
 <string name="music_eq_reset_all_text">Alle zurücksetzen</string>
-<string name="music_eq_on_text">EIN</string>
-<string name="music_eq_off_text">AUS</string>
-<string name="tv_audio_delay_text">Audioverzögerung (Lip-Sync)</string>
+    <string name="tv_audio_delay_text">Audioverzögerung (Lip-Sync)</string>
 <string name="tv_audio_delay_min_value">Min.</string>
 <string name="tv_audio_delay_max_value">Max.</string>
 <string name="tv_dialog_reset_all_text">Alle zurücksetzen</string>
@@ -49,8 +48,7 @@
 <string name="music_shares_sharename">\\\\MeinComputer\\Freigabe\\Musik</string>
 <string name="music_eq_not_supported">Wenn der Ausgangspegel eines Sonos-Players auf „Festgelegt“ eingestellt ist, sind die Equalizer-Einstellungen nicht verfügbar.</string>
 <string name="moreinfo_title">Weitere Infos</string>
-<string name="unconfigured_spinner_header">Player wählen</string>
-<string name="notifications_setting">Benachrichtigungen zeigen</string>
+    <string name="notifications_setting">Benachrichtigungen zeigen</string>
 <string name="lockscreen_setting">Steuerelemente im Sperrbildschirm anzeigen</string>
 <string name="lockscreen_volume_homescreen_setting">Lautstärkeregelung im Startbildschirm zulassen</string>
 <string name="lockscreen_setting_subtitle">Erfordert Benachrichtigungen</string>
@@ -58,10 +56,9 @@
 <string name="lockscreen_external_setting_subtitle">Bildschirmsperre erforderlich</string>
 <string name="app_shortcuts_setting">App-Verknüpfungen anzeigen</string>
 <string name="app_shortcuts_setting_subtitle">Erfordert Benachrichtigungen</string>
-<string name="use_tablet_layout_setting">Tablet-Layout verwenden</string>
-<string name="debug_wizard">Fehlerdiagnose-Assistent</string>
+    <string name="debug_wizard">Fehlerdiagnose-Assistent</string>
 <string name="alarm_toggle">Wecker ein/aus</string>
-<string name="time_picker_content">Zeitauswahl: %s</string>
+<string name="time_picker_content">Zeitauswahl:  %s</string>
 <string name="time_picker_label_hr">Std.</string>
 <string name="time_picker_label_min">Min.</string>
 </resources>
