@@ -1,7 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>&lt;localizationTest&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d日</string>
+			<key>other</key>
+			<string>%d天</string>
+		</dict>
+	</dict>
 	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
@@ -12,8 +28,10 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>贪睡通知%d在家中警报关闭。</string>
 			<key>other</key>
-			<string>已关闭家中的 %d 次闹钟暂停通知。</string>
+			<string>%d在家中警报关闭暂停通知。</string>
 		</dict>
 	</dict>
 	<key>&lt;VODurationNHours&gt;</key>
@@ -26,6 +44,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d 小时</string>
 			<key>other</key>
 			<string>%d 小时</string>
 		</dict>
@@ -40,6 +60,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d 分钟</string>
 			<key>other</key>
 			<string>%d 分钟</string>
 		</dict>
@@ -54,6 +76,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d 秒</string>
 			<key>other</key>
 			<string>%d 秒</string>
 		</dict>
@@ -70,8 +94,10 @@
 			<string>d</string>
 			<key>zero</key>
 			<string>空</string>
+			<key>one</key>
+			<string>.%d歌曲。</string>
 			<key>other</key>
-			<string>.%d 首歌曲。</string>
+			<string>.%d歌曲。</string>
 		</dict>
 	</dict>
 </dict>
