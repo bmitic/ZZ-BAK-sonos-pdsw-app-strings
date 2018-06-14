@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="zones_pause_all">Alle anhalten</string>
 <string name="zones_pause_all_warning">Möchtest du die Musikwiedergabe in allen Räumen anhalten?</string>
 <string name="zone_group_button_text">Gruppe</string>
-<string name="zone_menu_select_to_update">Software-Update erforderlich</string>
-<string name="zone_menu_select_to_setup_sub">SUB einrichten</string>
-<string name="zone_menu_select_to_configure">Einrichtung fortsetzen</string>
+<string name="zone_menu_select_to_update">Wählen Sie, um zu aktualisieren</string>
+<string name="zone_menu_select_to_configure">Wählen Sie, um einzurichten</string>
+<string name="zone_menu_select_to_register">Wählen Sie, um sich zu registrieren</string>
 </resources>
