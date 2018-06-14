@@ -6,9 +6,13 @@
     "<Home>" = "Mein Sonos";
     "<Browse>" = "Durchsuchen";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = ""Informationen und Optionen zu dem anzeigen, was gerade getestet wird."
+    " <LocalziationTestICR2> " = "Eine Sonos-Playlist namens" %1$@ "existiert bereits. Durch das Ersetzen wird der Inhalt überschrieben. " 
 
-    "<Sonos>" = "SONOS";
+ / * Allgemein * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Abbrechen";
     "<Done>" = "Fertig";
     "<Yes>" = "Ja";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Nächstes Kapitel";
     "<QUEUE>" = "Liste";
     "<NotInUse>" = "Nicht verwendet";
-    "<NowPlayingNoMusic>" = "Keine Musik";
+    "<NowPlayingNoMusic>" = "Keine Musik ausgewählt";
     "<NowPlayingDialogEnhacementLabel>" = "Sprachverbesserung";
     "<NowPlayingNightModeLabel>" = "Nachtsound";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Doppelt tippen, um „Aktueller Titel“ zu öffnen";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ und %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ und %3$d weitere";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Es läuft %@";
+    "<NowPlayingOpen>" = "Jetzt spielen";
     "<NowPlayingClose>" = "„Aktueller Titel“ schließen";
-    "<NowPlayingCloseHint>" = "Doppelt tippen, um zum Musikmenü zurückzukehren.";
 
 /* Info Menu */
 
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%d Titel.";
+    "<QueueTrackLabel_1>" = ".%d Lied (e).";
     "<QueueShuffleButtonLabel>" = "Zufällige Wiedergabe";
     "<QueueRepeatAllButtonLabel>" = "Alle wiederholen";
     "<QueueRepeatOneButtonLabel>" = "Titel wiederholen";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "Räume";
     "<GroupRooms>" = "Räume gruppieren";
-    "<Group>" = "Gruppe";
+    "<Group>" = "Prüfung";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
-    "<GroupRooms_Short>" = "Gruppe";
+    "<GroupRooms_Short>" = "Räume gruppieren";
     "<PauseAll>" = "Alle anhalten";
     "<PauseAllConfirmation>" = "Möchtest du die Musikwiedergabe in all diesen Räumen anhalten?";
-    "<ContinueSetUp>" = "Einrichtung fortsetzen";
-    "<SoftwareUpdateRequired>" = "Software-Update erforderlich";
+    "<SelectToUpdate>" = "Wählen Sie, um zu aktualisieren";
+    "<SelectToConfigure>" = "Wählen Sie, um einzurichten";
+    "<SelectToRegister>" = "Wählen Sie, um sich zu registrieren";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "Einstellungen";
     "<RoomSettings>" = "Raumeinstellungen";
     "<ParentalControls>" = "Jugendschutz";
+    "<MySonosSettings>" = "Einstellungen für „Mein Sonos“";
     "<MoreInformation>" = "Weitere Infos";
     "<Help>" = "Hilfe";
     "<Call>" = "Anrufen";
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "Noch %1$@ %2$@ %3$@";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ verbleibend";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "Noch %1$@ %2$@";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,7 +479,7 @@
     "<FavoritesIconTitle>" = "Mein Sonos";
     "<PlayIconPlainTitle>" = "Wiedergabe";
     "<PlayIconPlainSubtitle>" = "Letzte fortsetzen";
-    "<PlayIconRoomTitle>" = "Wiedergabe: %@";
+    "<PlayIconRoomTitle>" = "Abspielen: %@";
     "<PauseIconPlainTitle>" = "Pause";
     "<PauseIconPlainSubtitle>" = "Aktuelle Musik anhalten";
     "<PauseIconRoomTitle>" = "Pause: %@";
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Letzte Wiedergabe von";
     "<DirectControlLastPlayedFrom_1>" = "Letzte Wiedergabe von %1$@";
     "<DirectControlResumeFrom>" = "Fortsetzen bei";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "%@Fortsetzen von %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Wiedergabe von „%1$@“";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -515,7 +522,7 @@
 
     "<DirectControlResume>" = "Fortsetzen";
     "<DirectControlDisconnect>" = "Sitzung beenden";
-    "<DirectControlUpNext>" = "Es folgt: %@";
+    "<DirectControlUpNext>" = "Nächster: %@";
     "<DirectControlMoreInfo>" = "Mehr anzeigen";
     "<DirectControlMoreInfoVOLabel>" = "Details zu %@ anzeigen";
     "<DirectControlLessInfo>" = "Ausblenden";
