@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="vol_adjust_zone_volumes">Régler le volume des pièces</string>
-<string name="accessibility_np_close_actions">Fermer des actions</string>
+
 </resources>
