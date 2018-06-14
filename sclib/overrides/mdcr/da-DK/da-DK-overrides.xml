@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Musikbibliotek</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Services</String>
@@ -22,29 +22,21 @@
 <String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Vis Windows-medieservere</String>
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Systemopdateringer</String>
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos' opsætningsassistent</String>
-<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Klik på &quot;%2$s&quot; for at tilføje et af disse produkter, eller klik på &quot;%1$s&quot; for at gøre dette senere.</String>
-<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Klik på &quot;%2$s&quot; for at prøve igen, eller klik på &quot;%1$s&quot; for at registrere dig senere.</String>
-<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Du kan altid ændre dine indstillinger senere ved at vælge &quot;Indstillinger&quot; fra Sonos-menuen og derefter vælge fanen &quot;Anvendelse&quot; under &quot;Avancerede indstillinger&quot;.</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Klik på "%2$s" for at tilføje et af disse produkter, eller klik på "%1$s" for at gøre dette senere.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Klik på "%2$s" for at prøve igen, eller klik på "%1$s" for at registrere dig senere.</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Du kan altid ændre dine indstillinger senere ved at vælge "Indstillinger" fra Sonos-menuen og derefter vælge fanen "Anvendelse" under "Avancerede indstillinger".</String>
 <String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Hvis du vil ændre standardkontoen, skal du højreklikke (Ctrl + klikke) på %1$s på Sonos-musikmenuen og vælge en anden konto.</String>
-<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$s er afsluttet.
-
-Der kræves en Sonos-softwareopdatering nu.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$s er afsluttet. Der kræves en Sonos-softwareopdatering nu.</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Når Sonos-controlleren er startet, skal du vælge Sonos &gt; Søg efter opdateringer…</String>
 <String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">Telefonnummer</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Tilbage</String>
 <String id="SCLIB_STR_Queue_Title">KØ</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">KØ (ikke i brug)</String>
 <String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">Registrer</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">For at tilføje Sonos Labs offentlige betatjenester, skal du dele dine brugsdata med Sonos.
-
-For at se eller ændre dine brugsdataindstillinger, skal du gå til Sonos &gt; Indstillinger &gt; Avancerede indstillinger &gt; Gør Sonos bedre.</String>
-<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Gå til &quot;Sonos&quot; &gt; &quot;Indstillinger&quot; &gt; &quot;Avancerede indstillinger&quot; og vælg &quot;Trådløs opsætning&quot;.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">For at tilføje Sonos Labs offentlige betatjenester, skal du dele dine brugsdata med Sonos. For at se eller ændre dine brugsdataindstillinger, skal du gå til Sonos &gt; Indstillinger &gt; Avancerede indstillinger &gt; Gør Sonos bedre.</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Gå til "Sonos" &gt; "Indstillinger" &gt; "Avancerede indstillinger" og vælg "Trådløs opsætning".</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Du kan forsøge at registrere senere via Hjælp &gt; Registrering af Sonos-system.</String>
-<String id="SCLIB_STR_MSS_CredError">%1$s-serveren kunne ikke genkende dine loginoplysninger.
-
-Kontrollér at dit login (e-mail-adresse eller brugernavn) og din adgangskode er korrekt, tryk på knappen Tilbage, og prøv igen.
-
-Hvis problemet fortsætter, skal du kontakte %2$s for at få hjælp med din konto.</String>
+<String id="SCLIB_STR_MSS_CredError">%1$s-serveren kunne ikke genkende dine loginoplysninger. Kontrollér at dit login (e-mail-adresse eller brugernavn) og din adgangskode er korrekt, tryk på knappen Tilbage, og prøv igen. Hvis problemet fortsætter, skal du kontakte %2$s for at få hjælp med din konto.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes®-opsamlingsalbum</String>
 <String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Albumkunstnere</String>
 <String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Nulstil controller</String>
@@ -54,7 +46,7 @@ Hvis problemet fortsætter, skal du kontakte %2$s for at få hjælp med din kont
 <String id="SCLIB_STR_OUWiz_RegRequired_Body_1">Du skal først registrere dit Sonos-system, før du kan modtage softwareopdateringer online.</String>
 <String id="SCLIB_STR_OUWiz_Checking_Body_1">Søger hos Sonos for tilgængelige opdateringer…</String>
 <String id="SCLIB_STR_OUWiz_Canceled_Body_1">Opdateringen er annulleret.</String>
-<String id="SCLIB_STR_OUWiz_Canceled_Body_2">Du kan prøve igen senere ved at gå til &quot;Sonos&quot; &gt; &quot;Søg efter opdateringer…&quot;.</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">Du kan prøve igen senere ved at gå til "Sonos" &gt; "Søg efter opdateringer…".</String>
 <String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">Indekset for dit musikbibliotek skal genopbygges.</String>
 <String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">Denne handling kan tage et stykke tid.</String>
 <String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">Mens der genindekseres, kan du fortsat anvende dit musikbibliotek.</String>
@@ -81,12 +73,10 @@ Hvis problemet fortsætter, skal du kontakte %2$s for at få hjælp med din kont
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Vælg Sonos &gt; Søg efter opdateringer… for at opdatere.</String>
 <String id="SCLIB_STR_Forget_Title">Vil du glemme det Sonos-system, du bruger i øjeblikket?
 </String>
-<String id="RHHSTR_SIE_ERROR">'%1$s' er ikke længere tilgængelig. Det er muligt, at der ikke er strøm på den enhed, hvor musikken er lagret, eller måske er stien blevet ændret.
-Gå ind under Administrer &gt; Indstillinger for musikbibliotek for at se stinavnet.</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' er ikke længere tilgængelig. Det er muligt, at der ikke er strøm på den enhed, hvor musikken er lagret, eller måske er stien blevet ændret. Gå ind under "Administrer" &gt; "Indstillinger for musikbibliotek" for at se stinavnet.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Søger efter dit Sonos-system …</String>
 <String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Gå til Systempræferencer &gt; netværk for at vælge et andet netværk til Sonos.</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Beklager, vi kunne ikke oprette forbindelse til Sonos.
-Lad os prøve at løse problemet:</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Beklager, vi kunne ikke oprette forbindelse til Sonos. Lad os prøve at løse problemet:</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Sluk for dit Wi-Fi, og tænd det så igen.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Træk stikket til din router ud, og sæt det så i igen.</String>
