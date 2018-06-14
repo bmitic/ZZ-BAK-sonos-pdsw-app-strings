@@ -6,9 +6,13 @@
     "<Home>" = "Mi Sonos";
     "<Browse>" = "Examinar";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Ver información y opciones sobre lo que se está probando actualmente. \\" "
+    " <LocalziationTestICR2> " = "Ya existe una lista de reproducción de Sonos llamada" %1$@ ". Reemplazarlo sobrescribirá su contenido. " 
 
-    "<Sonos>" = "SONOS";
+ / * General * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Cancelar";
     "<Done>" = "Listo";
     "<Yes>" = "Sí";
@@ -40,12 +44,12 @@
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "Apagar";
+    "<AlarmNotificationAction>" = "ID de Sonos:";
     // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "Alarma de %1$@ sonando";
+    "<AlarmNotificationAlert_1>" = "Apagar";
 
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
-    "<ExternalAlarmsNote_1>" = "Las alarmas ajustadas mediante comando de voz se administran por %1$@.";
+    "<ExternalAlarmsNote_1>" = "Alarma de %1$@ sonando";
     "<ExternalAlarmsAlexaApp>" = "la aplicación Alexa";
 
 /* App Delegate */
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Capítulo siguiente";
     "<QUEUE>" = "Cola";
     "<NotInUse>" = "No se utiliza";
-    "<NowPlayingNoMusic>" = "No hay música";
+    "<NowPlayingNoMusic>" = "No hay música seleccionada";
     "<NowPlayingDialogEnhacementLabel>" = "Mejora de voz";
     "<NowPlayingNightModeLabel>" = "Sonido nocturno";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Toca dos veces para abrir Ahora suena";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ y %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ y otros %3$d";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Reproduciendo %@ actualmente";
+    "<NowPlayingOpen>" = "Abierto ahora Jugar";
     "<NowPlayingClose>" = "Cerrar Ahora suena";
-    "<NowPlayingCloseHint>" = "Pulsa dos veces para regresar a examinar la música";
 
 /* Info Menu */
 
@@ -177,7 +180,7 @@
     "<QueueSaveErrorGeneric>" = "No se pudo guardar la cola.";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonos no cuenta con espacio libre suficiente en el disco para guardar la cola.\nElimina las listas de reproducción o las colas guardadas anteriormente en otras habitaciones, e inténtalo de nuevo.";
     "<QueueSaveErrorMobileTracksNotSaved>" = "No se pueden almacenar canciones de dispositivos móviles en las listas de reproducción de Sonos y no se guardaron.";
-    "<QueueSaveErrorAllMobileTracks>" = "La cola solo contiene canciones de dispositivos móviles. Estas canciones no se pueden guardar en las listas de reproducción de Sonos.";
+    "<QueueSaveErrorAllMobileTracks>" = "La cola solo contiene canciones de dispositivos móviles. Estas canciones no se pueden guardar en las Listas de reproducción de Sonos.";
     "<QueuePlaylistExistsWarningTitle>" = "La lista de reproducción de Sonos existe";
     // %1$@, the name of the pre-existing playlist
     "<QueuePlaylistExistsWarningMessage_1>" = "Ya existe una lista de reproducción de Sonos llamada «%1$@». Al sustituirla, se sobrescribirán sus contenidos actuales.";
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d canciones.";
+    "<QueueTrackLabel_1>" = ".%d canción (s).";
     "<QueueShuffleButtonLabel>" = "Aleatorio";
     "<QueueRepeatAllButtonLabel>" = "Repetir todos";
     "<QueueRepeatOneButtonLabel>" = "Repetir canción";
@@ -203,15 +206,16 @@
 /* Rooms */
 
     "<Rooms>" = "Habitaciones";
-    "<GroupRooms>" = "Agrupar habitaciones";
-    "<Group>" = "Grupo";
+    "<GroupRooms>" = "Grupo de habitaciones";
+    "<Group>" = "Prueba";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
-    "<GroupRooms_Short>" = "Grupo";
+    "<GroupRooms_Short>" = "Grupo de habitaciones";
     "<PauseAll>" = "Pausar todos";
     "<PauseAllConfirmation>" = "¿Estás seguro de que quieres detener la música en todas las habitaciones?";
-    "<ContinueSetUp>" = "Continuar con la configuración";
-    "<SoftwareUpdateRequired>" = "Se requiere actualización de software";
+    "<SelectToUpdate>" = "Seleccionar para actualizar";
+    "<SelectToConfigure>" = "Seleccionar para configurar";
+    "<SelectToRegister>" = "Seleccionar para registrarse";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "Ajustes";
     "<RoomSettings>" = "Ajustes de habitaciones";
     "<ParentalControls>" = "Controles parentales";
+    "<MySonosSettings>" = "Ajustes de Mi Sonos";
     "<MoreInformation>" = "Más información";
     "<Help>" = "Ayuda";
     "<Call>" = "Llamar";
@@ -400,7 +405,7 @@
     "<SurroundFull>" = "Completo";
     "<SurroundDescription>" = "Durante la reproducción de la música, los altavoces envolventes pueden complementar con la gama completa de sonido discreto, ambiental o de alto volumen.";
     "<SurroundBalanceButtonLabel>" = "Equilibrar altavoces de sonido envolvente";
-    "<SurroundBalanceDescription>" = "Equilibre manualmente los niveles de sus altavoces de sonido envolvente. Utilice la sintonización Trueplay para ajustar automáticamente el sonido para esta habitación.";
+    "<SurroundBalanceDescription>" = "Equilibra manualmente los niveles de tus altavoces de sonido envolvente. Utilice la sintonización Trueplay para ajustar automáticamente el sonido para esta habitación.";
 
 /* TV Equalizer */
 
@@ -474,10 +479,10 @@
     "<FavoritesIconTitle>" = "Mi Sonos";
     "<PlayIconPlainTitle>" = "Reproducir";
     "<PlayIconPlainSubtitle>" = "Reanudar la última reproducción";
-    "<PlayIconRoomTitle>" = "Reproducir: %@";
+    "<PlayIconRoomTitle>" = "Jugar: %@";
     "<PauseIconPlainTitle>" = "Pausar";
     "<PauseIconPlainSubtitle>" = "Pausar la música actual";
-    "<PauseIconRoomTitle>" = "Pausar: %@";
+    "<PauseIconRoomTitle>" = "Pausa: %@";
 
 /* Store mode */
 
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Última reproducción desde";
     "<DirectControlLastPlayedFrom_1>" = "Última reproducción desde %1$@";
     "<DirectControlResumeFrom>" = "Reanudar desde";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Currículum de %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Reproduciendo desde %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -535,9 +542,9 @@
     "<AlarmActionsAlertTitle>" = "Está sonando una alarma";
     "<AlarmActionsAlertBody>" = "Una alarma en el %@ ha estado sonando desde %@.";
     "<AlarmSnoozingAlertTitle>" = "El modo silenciado está activo";
-    "<AlarmSnoozingAlertBody>" = "Una alarma en el %@ está silenciada hasta %@. ¿Te gustaría cancelarla?";
-    "<AlarmSnoozingAlertActionLater>" = "Más tarde";
-    "<AlarmNotificationAuthorizationDeniedAlertTitle>" = "No hay permisos de notificaciones concedidos para Sonos";
+    "<AlarmSnoozingAlertBody>" = "Una alarma en el %@ está silenciada hasta %@. ¿Te gustaría cancelarla? Más tarde";
+    "<AlarmSnoozingAlertActionLater>" = "Luego";
+    "<AlarmNotificationAuthorizationDeniedAlertTitle>" = "Permiso de notificaciones no otorgado para Sonos";
     "<AlarmNotificationAuthorizationDeniedAlertBody>" = "Permite notificaciones para Sonos en la configuración de iOS para recibir notificaciones del modo silenciado";
     "<AlarmNotificationAuthorizationDeniedAlertOpenSettings>" = "Abrir configuración";
     "<AlarmErrorTitleHHNotFound>" = "No podemos conectar con Sonos";
