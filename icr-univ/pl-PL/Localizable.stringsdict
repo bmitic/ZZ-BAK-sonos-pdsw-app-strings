@@ -1,7 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>&lt;localizationTest&gt;</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d dzień</string>
+			<key>other</key>
+			<string>%d dni</string>
+		</dict>
+	</dict>
 	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
@@ -28,6 +44,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d godz</string>
 			<key>other</key>
 			<string>%d godz</string>
 		</dict>
@@ -42,6 +60,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d min</string>
 			<key>other</key>
 			<string>%d min</string>
 		</dict>
@@ -56,6 +76,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d sek</string>
 			<key>other</key>
 			<string>%d sek</string>
 		</dict>
@@ -73,9 +95,9 @@
 			<key>zero</key>
 			<string>Puste</string>
 			<key>one</key>
-			<string>.%d utwór.</string>
+			<string>.%d piosenka.</string>
 			<key>other</key>
-			<string>.%d utworów.</string>
+			<string>.%d utwory.</string>
 		</dict>
 	</dict>
 </dict>
