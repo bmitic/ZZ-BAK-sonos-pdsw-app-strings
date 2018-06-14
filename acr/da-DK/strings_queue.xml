@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Kø</string>
-<string name="queue_title_tab">Kø</string>
-<string name="edit_queue_title">Rediger kø</string>
+    <string name="edit_queue_title">Rediger kø</string>
 <string name="queue_subtitle_not_in_use">Ikke i brug</string>
 <string name="clear_queue_title">Ryd kø</string>
 <string name="clear_queue_text">Er du sikker på, at du vil rydde køen?</string>
@@ -12,7 +11,7 @@
 <string name="save_queue_prompt">Playlister</string>
 <string name="save_queue_alert_title">Sonos-playliste findes</string>
 <string name="save_queue_header">Gem kø</string>
-<string name="save_queue_already_exists_1">Der findes allerede en Sonos-playliste ved navn \&quot;%1$s\&quot;. Vil du erstatte dens indhold?</string>
+<string name="save_queue_already_exists_1">Der findes allerede en Sonos-playliste ved navn \"%1$s\". Vil du erstatte dens indhold?</string>
 <string name="replace_button_name">Erstat</string>
 <string name="save_queue_empty_name_alert_text">Indtast eller vælg et navn til denne Sonos-playliste.</string>
 <string name="save_queue_not_enough_space">Sonos har ikke tilstrækkelig plads til at gemme køen. Fjern tidligere playlister eller køer i andre rum, og prøv igen.</string>
@@ -25,11 +24,10 @@
 <string name="direct_control_playing_from_accessibility">Afspiller fra %1$s</string>
 <string name="direct_control_started_from">Startet fra</string>
 <string name="direct_control_started_from_accessibility">Startet fra %1$s</string>
-<string name="direct_control_resume_playing_from">Fortsæt afspilning fra</string>
-<string name="direct_control_last_played_from">Senest afspillet fra</string>
+    <string name="direct_control_last_played_from">Senest afspillet fra</string>
 <string name="direct_control_last_played_from_accessibility">Senest afspillet fra %1$s</string>
 <string name="direct_control_last_played">Senest afspillet i dette rum</string>
-<string name="direct_control_next">Næste: %s</string>
+<string name="direct_control_next">Næste:  %s</string>
 <string name="direct_control_resume">Fortsæt</string>
 <string name="direct_control_disconnect">Afslut session</string>
 </resources>
