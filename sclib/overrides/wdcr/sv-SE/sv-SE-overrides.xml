@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Inställningar för Musikbiblioteket</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Tjänstinställningar</String>
@@ -19,23 +19,18 @@
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Sök automatiskt efter uppdateringar</String>
 <String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Visa Windows Media Server</String>
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Systemuppdateringar</String>
+    
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos Inställningsassistent</String>
 <String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Klicka på %2$s för att lägga till en av dessa produkter, eller klicka på %1$s för att göra det senare.</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Klicka på %2$s för att försöka igen, eller klicka på %1$s för att registrera dig senare.</String>
 <String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Du kan ändra dina inställningar när som helst i Hantera &gt; Inställningar.</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">När Sonos Controller startats väljer du Hantera &gt; Sök efter uppdateringar.</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Manage &gt; Settings &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
-<String id="SCLIB_STR_MSS_CredError">Servern %1$s kände inte igen din inloggningsinformation.
-
-Se till att din inloggning (e-postadress eller användarnamn), och ditt lösenord är korrekta, tryck på knappen Bakåt och försök igen.
-
-Om problemet kvarstår, kontakta %2$s för hjälp med ditt konto.</String>
+<String id="SCLIB_STR_MSS_CredError">Servern %1$s kände inte igen din inloggningsinformation. Se till att din inloggning (e-postadress eller användarnamn), och ditt lösenord är korrekta, tryck på knappen Bakåt och försök igen. Om problemet kvarstår, kontakta %2$s för hjälp med ditt konto.</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Bakåt</String>
 <String id="SCLIB_STR_Queue_Title">KÖ</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">KÖ (används inte)</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">Innan du kan lägga till allmänna beta-tjänster för Sonos Labs måste du dela användningsdata med Sonos.
-
-Visa eller ändra din inställning för dataanvändning genom att gå till Hantera &gt; Inställningar &gt; Avancerade inställningar &gt; Förbättra Sonos.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Innan du kan lägga till allmänna beta-tjänster för Sonos Labs måste du dela användningsdata med Sonos. Visa eller ändra din inställning för dataanvändning genom att gå till Hantera &gt; Inställningar &gt; Avancerade inställningar &gt; Förbättra Sonos.</String>
 <String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Gå till Hantera &gt; Inställningar &gt; Avancerade inställningar och välj Trådlösa inställningar.</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Du kan försöka registrera det senare i Hjälp &gt; Registrera Sonos-systemet.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">Samlingar i iTunes®</String>
@@ -70,9 +65,7 @@ Visa eller ändra din inställning för dataanvändning genom att gå till Hante
 <String id="RHHSTR_E_FILE_ACCESS_DENIED">Åtkomst till filen %1$s nekades.</String>
 <String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Åtkomst till delad mapp %1$s nekades.</String>
 <String id="RHHSTR_E_TOO_MANY_USERS">Delad mapp %1$s har alltför många aktiva anslutningar.</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Det uppstod ett problem vid tillägget av den nya musiken i den delade mappen %1$s till Sonos. Se följande länk för mer information:
-
-http://faq.sonos.com/serverstack</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Det uppstod ett problem vid tillägget av den nya musiken i den delade mappen %1$s till Sonos. Vänligen se följande länk för mer information: http://faq.sonos.com/serverstack</String>
 <String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Det går inte att lägga till delad mapp %1$s i Musikbiblioteket (%2$d).</String>
 <String id="RHHSTR_SHARE_NAME_TOO_LONG">Namn på delad mapp är alltför långt.</String>
 <String id="RHHSTR_USERNAME_TOO_LONG">Användarnamn för delad mapp är alltför långt.</String>
@@ -94,11 +87,9 @@ http://faq.sonos.com/serverstack</String>
 <String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Hämta senaste Sonos Controller från Sonos webbplats.</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Uppdatera genom att välja Hantera &gt; Sök efter programuppdateringar…</String>
-<String id="RHHSTR_SIE_ERROR">%1$s är inte längre tillgänglig. Strömmen till enheten där musikfiler lagras kanske inte är på eller så kan sökvägen ha ändrats.
-Gå till Hantera &gt; Inställningar för musikbiblioteket för att kontrollera sökvägsnamnet.</String>
+<String id="RHHSTR_SIE_ERROR">%1$s är inte längre tillgänglig. Strömmen till enheten där musikfiler lagras kanske inte är på eller så kan sökvägen ha ändrats. Gå till Hantera &gt; Inställningar för musikbiblioteket för att kontrollera sökvägsnamnet.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Söker efter ditt Sonos-system…</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Vi kan inte ansluta till Sonos.
-Låt oss prova några saker:</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Vi kan inte ansluta till Sonos. Låt oss prova några saker:</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Stäng av din Wi-Fi och slå på den igen.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Koppla bort routern, koppla sedan in den igen.</String>
