@@ -9,9 +9,12 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
-/* Common */
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "Test de localisation ici aussi " 
 
-    "<OK>" = "OK";
+ / * Commun * /
+
+    " <OK> " = "OK";
     "<Cancel>" = "Annuler";
     "<Yes>" = "Oui";
     "<No>" = "Non";
@@ -116,8 +119,8 @@
     "<AlarmsTitle>" = "Gérer les alarmes Sonos";
     "<AlarmHeaderWhere>" = "Lieu";
     "<AlarmHeaderWhen>" = "Date";
-    "<AlarmHeaderOn>" = "ACTIVÉ";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Heure actuelle : %1$@ - %2$@ %3$@";
+    "<AlarmHeaderOn>" = "ACT.";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Heure actuelle: %1$@ - %2$@ %3$@";
     "<AlarmEditButtonTitle>" = "Modifier";
     "<AlarmUnknownDevice>" = "Pas de pièce sélectionnée";
 
@@ -167,7 +170,7 @@
 // %1$@ is what the user searched for. %2$@ is the search result category (Artist, Song, …)
     "<BrowseEmptySearchResults_2>" = "La recherche n'a donné aucun résultat pour « %1$@ » dans %2$@. Essayez une autre catégorie ou un autre terme de recherche.";
 // %1$@, Search result category (Artist, Song, …)
-    "<BrowseSearchResultsTitle_1>" = "Résultats : %1$@";
+    "<BrowseSearchResultsTitle_1>" = "Résultats: %1$@";
     "<BrowseEmptyLibrary_1>" = "Vous n'avez pas encore ajouté de dossiers musicaux à votre système Sonos.\nPour ajouter de la musique, sélectionnez %@ dans le menu Gérer.";
     "<BrowseEmptyLibraryIndexing>" = "Indexation en cours. La musique sera disponible dès que l'indexation sera terminée.";
     "<UnselectAll>" = "Désélectionner tout";
@@ -229,7 +232,7 @@
     "<NowPlayingHeaderTitle>" = "EN LECTURE";
     "<NowPlayingLabel_Information>" = "Infos & options";
     "<NowPlayingTrackDefaultLabel>" = "Morceau [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[pas de musique]";
+    "<NowPlayingTrackDefaultString>" = "[Aucune musique sélectionnée]";
     "<NowPlayingArtistDefaultLabel>" = "Artiste";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -250,7 +253,7 @@
     "<QueueSaveErrorGeneric>" = "Impossible d’enregistrer la liste.";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonos n’a pas assez d’espace libre pour enregistrer la file d’attente.\nEnlevez les anciennes listes de lecture ou files d’attente enregistrées dans d’autres pièces et réessayez.";
     "<QueueSaveErrorMobileTracksNotSaved>" = "Les morceaux de périphériques mobiles ne peuvent pas être stockés dans les listes de lecture Sonos et n'ont pas été enregistrés.";
-    "<QueueSaveErrorAllMobileTracks>" = "La file d'attente contient uniquement des morceaux de périphériques mobiles. Ces morceaux ne peuvent pas être enregistrés dans des listes de lecture Sonos.";
+    "<QueueSaveErrorAllMobileTracks>" = "La file d\'attente contient uniquement des morceaux de périphériques mobiles. Ces morceaux ne peuvent pas être enregistrés dans des listes de lecture Sonos.";
 
     "<QueuePlaylistExistsWarningTitle>" = "La liste de lecture Sonos existe déjà";
 // %1$@, the name of the pre-existing playlist
@@ -268,16 +271,16 @@
 
     "<SettingsWindowTitle>" = "Préférences";
     "<SettingsBasicSettingsTitle>" = "De base";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Votre système Sonos ne comporte actuellement aucun %1$@.\n\nPour ajouter un %1$@,\nsélectionnez %2$@ dans la barre de menus.";
     "<SettingsNoPlayers_1>" = "Votre système Sonos ne contient actuellement aucun lecteur Sonos.\nVous avez besoin d’au moins un lecteur Sonos pour écouter de la musique.\n\nPour ajouter un lecteur Sonos, sélectionnez %1$@ dans la barre de menus.";
-    "<SettingsNoPlayerLink>" = "Gérer > Ajouter un lecteur ou SUB";
-    "<SettingsNoBoostLink>" = "Gérer > Ajouter un BOOST ou un BRIDGE";
+    "<SettingsNoPlayerLink>" = "Gérer> Ajouter un joueur ou un sous-marin";
+    "<SettingsNoBoostLink>" = "Gérer> Ajouter un boost ou un pont";
     "<SettingsNoAvailable_1>" = "Aucun %1$@ disponible";
     "<SettingsComponentRoom>" = "Pièce";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Renforcer";
     "<SettingsEqBass>" = "Graves";
     "<SettingsEqTreble>" = "Aigus";
     "<SettingsEqBalance>" = "Balance";
@@ -312,9 +315,9 @@
     "<SettingsExplicitFilteringNoServices>" = "Il n'y a aucun service musical prenant en charge le filtrage de contenu sur votre système Sonos.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Plus d'informations";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB activé";
-    "<SettingsSubEqLevelAdjustment>" = "Niveau de SUB";
-    "<SettingsSubEqPlacementAdjustment>" = "Réglage de la position";
+    "<SettingsSubEqEnabled>" = "Sous On";
+    "<SettingsSubEqLevelAdjustment>" = "Sous-niveau";
+    "<SettingsSubEqPlacementAdjustment>" = "Ajustement du positionnement";
     "<SettingsSubEqSpeakerSize>" = "Taille haut-parleurs (recouvr.)";
     "<SettingsTVDialogDelay>" = "Décalage audio (Lip Sync)";
     "<SettingsSurroundEnabled>" = "Surrounds activés";
@@ -386,8 +389,9 @@
     "<ZoneMenuEq_1>" = "ÉG %1$@…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "Paramètres %1$@…";
-    "<ZoneMenuSelectToUpdate>" = "Sélectionner Mettre à jour…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Sélectionnez pour configurer %1$s";
+    "<ZoneMenuSelectToUpdate>" = "Sélectionner pour mettre à jour";
+    "<ZoneMenuSelectToConfigure>" = "Sélectionnez pour configurer";
+    "<ZoneMenuSelectToRegister>" = "Sélectionnez pour vous enregistrer";
     "<ZoneMenuConfirmPauseAll>" = "Voulez-vous vraiment suspendre la musique diffusée dans toutes les pièces ?";
     "<ZoneMenuPauseButton>" = "Suspendre";
 
@@ -424,8 +428,8 @@
     "<MenuTitle_View>" = "Afficher";
 
     "<MenuTitle_Manage>" = "Gérer";
-    "<MenuTitle_AddPlayerOrSub>" = "Ajouter un lecteur ou SUB…";
-    "<MenuTitle_AddBoost>" = "Ajouter un BOOST ou un BRIDGE…";
+    "<MenuTitle_AddPlayerOrSub>" = "Ajouter un joueur ou un sous-marin";
+    "<MenuTitle_AddBoost>" = "Ajoutez un Boost ou un Bridge ...";
     "<MenuTitle_MusicLibrarySettings>" = "Paramètres de la bibliothèque musicale…";
     "<MenuTitle_ServiceSettings>" = "Paramètres des services…";
     "<MenuTitle_AddRadioStation>" = "Ajouter une station de radio…";
@@ -498,7 +502,7 @@
     "<ShareWizard_MusicSelect_Body1>" = "Où se trouve la musique que vous voulez écouter sur Sonos ?";
     "<ShareWizard_MusicSelect_Input1>" = "Dossier Ma musique";
     "<ShareWizard_MusicSelect_Input2>" = "Un autre dossier ou un lecteur connecté à mon ordinateur";
-    "<ShareWizard_MusicSelect_Input3>" = "Périphérique réseau (par ex. lecteur NAS)";
+    "<ShareWizard_MusicSelect_Input3>" = "Périphérique en réseau (par exemple, lecteur NAS)";
 
     "<ShareWizard_MusicSelect_NAS_Title>" = "Ajouter de la musique à partir d'un partage en réseau";
     "<ShareWizard_MusicSelect_NAS_Body1>" = "Tapez le chemin vers votre partage en réseau :";
@@ -566,8 +570,8 @@
 
     "<ControllerUpdateWizard_Title>" = "Progression de la mise à jour";
     "<ControllerUpdateWizard_ErrorTitle>" = "Échec de la mise à jour";
-    "<ControllerUpdateWizard_Downloading>" = "Mise à jour du Controller : téléchargement en cours";
-    "<ControllerUpdateWizard_Installing>" = "Mise à jour du Controller : installation en cours";
+    "<ControllerUpdateWizard_Downloading>" = "Mise à jour du contrôleur: Téléchargement";
+    "<ControllerUpdateWizard_Installing>" = "Mise à jour du contrôleur: installation";
 
     "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Échec du téléchargement du programme d'installation du Sonos Controller.\n\nCode d'erreur %1$ld";
     "<ControllerUpdateWizard_InstallFailed_Message>" = "Échec de la mise à jour du Sonos Controller.\n\nUne erreur inattendue est survenue. Réessayez.";
@@ -673,7 +677,7 @@
 
 /* The download and preparing has finished and is ready to install */
     "<InstallerReadyStageTitle>" = "Prêt à installer";
-    "<InstallerReadyMoreInfo>" = "Cliquez sur Continuer pour poursuivre.";
+    "<InstallerReadyMoreInfo>" = "Cliquez sur Continuer pour continuer.";
 
 /* Error */
 
@@ -683,10 +687,10 @@
     "<InstallerOtherErrorText>" = "Le programme d'installation ne peut pas continuer";
 
 /* Text on the sheet when the user quits early and we need to do cleanup. */
-    "<PleaseWaitForInstallerToFinishText>" = "Veuillez patienter jusqu'à ce que le programme d'installation se ferme.";
+    "<PleaseWaitForInstallerToFinishText>" = "Veuillez patienter pendant que le programme d'installation se ferme.";
 
 /* While Quitting */
-    "<QuitingProgressText>" = "Arrêt en cours…";
+    "<QuitingProgressText>" = "Quitter";
     "<QuitButton>" = "Quitter";
 
 
