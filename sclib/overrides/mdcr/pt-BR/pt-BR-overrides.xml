@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Biblioteca de Músicas</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Serviços</String>
@@ -22,29 +22,21 @@
 <String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Mostrar Servidores de Mídia do Windows</String>
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Atualizações do Sistema</String>
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Assistente de Configuração do Sonos</String>
-<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Clique em &quot;%2$s&quot; para adicionar um destes produtos ou clique em &quot;%1$s&quot; para fazer isso mais tarde.</String>
-<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Clique em &quot;%2$s&quot; para tentar novamente ou em &quot;%1$s&quot; para se registrar mais tarde.</String>
-<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Você pode alterar suas preferências a qualquer momento escolhendo &quot;Preferências&quot; no menu Sonos e selecionando a guia &quot;Uso&quot; em &quot;Configurações Avançadas&quot;.</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Clique em "%2$s" para adicionar um destes produtos ou clique em "%1$s" para fazer isso mais tarde.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Clique em "%2$s" para tentar novamente ou em "%1$s" para se registrar mais tarde.</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Você pode alterar suas preferências a qualquer momento escolhendo "Preferências" no menu Sonos e selecionando a guia "Uso" em "Configurações Avançadas".</String>
 <String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Se você deseja alterar a conta padrão, clique com o botão direito (Ctrl+clique) em %1$s no menu de músicas do Sonos para selecionar uma conta diferente.</String>
-<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">O %1$s foi concluído.
-
-É necessária uma atualização do software Sonos.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">O %1$s foi concluído. É necessária uma atualização do software Sonos.</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Após o Sonos Controller ser iniciado, escolha Sonos &gt; Verificar se há Atualizações…</String>
 <String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">Número de telefone</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Voltar</String>
 <String id="SCLIB_STR_Queue_Title">LISTA</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">LISTA (não está em uso)</String>
 <String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">Registrar</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">Para adicionar serviços públicos beta da Sonos Labs, é necessário compartilhar dados de uso com a Sonos.
-
-Para exibir ou alterar sua configuração de dados de uso, acesse Sonos &gt; Preferências &gt; Avançado &gt; Aprimorar o Sonos.</String>
-<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Vá para &quot;Sonos&quot; &gt; &quot;Preferências&quot; &gt; &quot;Avançado&quot; e selecione &quot;Configuração Sem Fio&quot;.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Para adicionar serviços públicos beta da Sonos Labs, é necessário compartilhar dados de uso com a Sonos. Para exibir ou alterar sua configuração de dados de uso, acesse Sonos &gt; Preferências &gt; Avançado &gt; Aprimorar o Sonos.</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Vá para "Sonos" &gt; "Preferências" &gt; "Avançado" e selecione "Configuração Sem Fio".</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Tente se registrar mais tarde em Ajuda &gt; Registro do Sistema Sonos.</String>
-<String id="SCLIB_STR_MSS_CredError">O servidor %1$s não reconheceu suas informações de login.
-
-Verifique se o seu login (endereço de email ou nome do usuário) e sua senha estão corretos, pressione o botão Voltar e tente novamente.
-
-Se o problema persistir, contate %2$s para obter ajuda com sua conta.</String>
+<String id="SCLIB_STR_MSS_CredError">O servidor %1$s não reconheceu suas informações de login. Verifique se o seu login (endereço de email ou nome do usuário) e sua senha estão corretos, pressione o botão Voltar e tente novamente. Se o problema persistir, contate %2$s para obter ajuda com sua conta.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">Coletâneas iTunes®</String>
 <String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Artista de álbum</String>
 <String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Redefinir Controller</String>
@@ -54,22 +46,22 @@ Se o problema persistir, contate %2$s para obter ajuda com sua conta.</String>
 <String id="SCLIB_STR_OUWiz_RegRequired_Body_1">Primeiramente, você deve registrar o sistema Sonos para receber atualizações de software online.</String>
 <String id="SCLIB_STR_OUWiz_Checking_Body_1">Verificando Sonos para atualizações disponíveis…</String>
 <String id="SCLIB_STR_OUWiz_Canceled_Body_1">A atualização foi cancelada.</String>
-<String id="SCLIB_STR_OUWiz_Canceled_Body_2">Você pode tentar novamente a qualquer momento em &quot;Sonos&quot; &gt; &quot;Verificar se há Atualizações…&quot;.</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">Você pode tentar novamente a qualquer momento em "Sonos" &gt; "Verificar se há Atualizações…".</String>
 <String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">O Índice da Biblioteca de Músicas precisa ser recriado.</String>
 <String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">Essa operação pode levar algum tempo.</String>
 <String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">Enquanto a reindexação é feita, você ainda pode usar a Biblioteca de Músicas.</String>
 <String id="SCLIB_STR_SetupWiz_SubIntro_Body2">Para obter melhores resultados, configure o SUB usando um controller na mesma sala. Se este computador não puder ser usado na mesma sala que o SUB, é recomendável escolher “Agora não” e completar a configuração com outro controller.</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Sonos &gt; Preferences &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
-<String id="RHHSTR_E_TOO_MANY_MOUNTED">Não foi possível conectar o computador a &quot;%1$s&quot; - o Sonos só pode se conectar a %2$d computadores ao mesmo tempo.</String>
-<String id="RHHSTR_E_CANT_RESOLVE_NAME">Não foi possível encontrar o computador &quot;%1$s&quot;.</String>
-<String id="RHHSTR_E_HOST_NO_RESPONSE">O computador &quot;%1$s&quot; não está respondendo.</String>
-<String id="RHHSTR_E_CONNECT_REFUSED">O computador &quot;%1$s&quot; recusou-se a permitir que o Sonos se conectasse a ele.</String>
-<String id="RHHSTR_E_SHARE_ACCESS_DENIED">O acesso à pasta compartilhada &quot;%1$s&quot; foi negado - verifique o nome do usuário e/ou a senha.</String>
-<String id="RHHSTR_E_NO_SUCH_SHARE">Não há pasta compartilhada &quot;%1$s&quot; no computador &quot;%2$s&quot;.</String>
-<String id="RHHSTR_E_NO_SUCH_FILE">O arquivo &quot;%1$s&quot; não existe.</String>
-<String id="RHHSTR_E_FILE_ACCESS_DENIED">O acesso ao arquivo &quot;%1$s&quot; foi negado.</String>
-<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">O acesso à pasta compartilhada &quot;%1$s&quot; foi negado - talvez seja necessário especificar um nome do usuário e uma senha.</String>
-<String id="RHHSTR_E_TOO_MANY_USERS">A pasta compartilhada &quot;%1$s&quot; tem excesso de conexões ativas.</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">Não foi possível conectar o computador a "%1$s" - o Sonos só pode se conectar a %2$d computadores ao mesmo tempo.</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">Não foi possível encontrar o computador "%1$s".</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">O computador "%1$s" não está respondendo.</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">O computador "%1$s" recusou-se a permitir que o Sonos se conectasse a ele.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">O acesso à pasta compartilhada "%1$s" foi negado - verifique o nome do usuário e/ou a senha.</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">Não há pasta compartilhada "%1$s" no computador "%2$s".</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">O arquivo "%1$s" não existe.</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">O acesso ao arquivo "%1$s" foi negado.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">O acesso à pasta compartilhada "%1$s" foi negado - talvez seja necessário especificar um nome do usuário e uma senha.</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">A pasta compartilhada "%1$s" tem excesso de conexões ativas.</String>
 <String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Não é possível adicionar a pasta compartilhada “%1$s” à sua Biblioteca de Músicas (900)</String>
 <String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Não é possível adicionar a pasta compartilhada “%1$s” à sua Biblioteca de Músicas (%2$d).</String>
 <String id="RHHSTR_SHARE_NAME_TOO_LONG">O nome a pasta compartilhada é muito longo.</String>
@@ -81,12 +73,10 @@ Se o problema persistir, contate %2$s para obter ajuda com sua conta.</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Para atualizar, selecione Sonos &gt; Verificar se há Atualizações…</String>
 <String id="SCLIB_STR_Forget_Title">Deseja esquecer o sistema Sonos que você usa no momento?
 </String>
-<String id="RHHSTR_SIE_ERROR">'%1$s' não está mais disponível. O dispositivo onde os arquivos de música estão armazenados pode não estar ligado ou o caminho pode ter mudado.
-Entre em Gerenciar &gt; Configurações da Biblioteca de Músicas para verificar o nome do caminho.</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' não está mais disponível. O dispositivo onde os arquivos de música estão armazenados pode não estar ligado ou o caminho pode ter mudado. Entre em Gerenciar &gt; Configurações da Biblioteca de Músicas para verificar o nome do caminho.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Procurando seu sistema Sonos…</String>
 <String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Vá para Preferências do sistema e rede e mude para a rede que o Sonos está usando.</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Não é possível conectar ao Sonos.
-Vamos verificar algumas coisas:</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Não é possível conectar ao Sonos. Vamos verificar algumas coisas:</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Desligue o Wi-Fi e ligue-o novamente.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Desconecte o roteador e conecte-o novamente.</String>
