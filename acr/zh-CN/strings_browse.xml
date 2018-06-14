@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="menu_search">搜索</string>
 <string name="browse_artists_title">表演者</string>
@@ -9,8 +9,7 @@
 <string name="browse_playlists_title">播放列表</string>
 <string name="browse_podcasts_title">播客</string>
 <string name="browse_local_library_root">此移动设备上</string>
-<string name="browse_empty_favorites">在浏览或播放音乐时点击 %1$s 图标可向个人收藏中添加歌曲、电台或专辑。</string>
-<string name="browse_more_options">更多选项</string>
+    <string name="browse_more_options">更多选项</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s。不宜。</string>
 <string name="accessibility_item_badge_format">%1$s。新。</string>
 <string name="edit_title_1">编辑 %s</string>
