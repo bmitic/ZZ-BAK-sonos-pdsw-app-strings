@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="RHHSTR_SHARE_NAME_FMT">%1$s op %2$s</String>
 <String id="RHHSTR_PLAYMODE_NORMAL">Normaal</String>
@@ -112,161 +112,163 @@
 <String id="RHHSTR_CANCEL">Annuleren</String>
 <String id="RHHSTR_SONOS_UPDATES">Sonos-updates</String>
 <String id="RHHSTR_ALL">Alle</String>
-<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.ZXZ</String>
-<String id="RHHSTR_RTE_CANT_REACH_SERVER">Kan '%1$s' niet afspelen. Kan geen verbinding maken met %2$s.</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED">Kan '%1$s' niet afspelen. Toegang tot %3$s geweigerd.#END_OF_LOCALIZED_STRING %2$s</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">Kan '%1$s' niet afspelen. Toegang geweigerd.</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_FILE">Kan '%1$s' niet afspelen. Bestand %3$s niet gevonden.#END_OF_LOCALIZED_STRING %2$s</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_FILE_SANS_PATH">Kan '%1$s' niet afspelen. Bestand niet gevonden.</String>
-<String id="RHHSTR_RTE_LOST_CONNECTION">Kan '%1$s' niet afspelen. Verbinding met %2$s verbroken.</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_FORMAT">Kan '%1$s' niet afspelen. Bestand heeft niet-ondersteunde indeling.</String>
-<String id="RHHSTR_RTE_UNSUPPORTED_FREQ">Kan '%1$s' niet afspelen. Is gecodeerd met niet-ondersteunde samplerate %4$s Hz.#END_OF_LOCALIZED_STRING %2$s%3$s</String>
+<!--Note the order here matters and must correlate to the enum order in transporterror.h-->
+<String id="RHHSTR_RTE_ERROR_OCCURRED">%1$sKon ' %1$s ' niet spelen.</String>
+<String id="RHHSTR_RTE_CANT_REACH_SERVER">%1$sKon ' %1$s ' niet spelen - kan geen verbinding maken met %2$s .</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED">%1$sKon ' %1$s ' niet spelen - toegang tot %3$s geweigerd. # END_OF_LOCALIZED_STRING %2$s</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">%1$sKon ' %1$s ' niet spelen - toegang wordt geweigerd.</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_FILE">Kan ' %1$s ' niet afspelen - het bestand %3$s kan niet worden gevonden. # END_OF_LOCALIZED_STRING %2$s</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_FILE_SANS_PATH">Kan ' %1$s ' niet afspelen - het bestand kan niet worden gevonden.</String>
+<String id="RHHSTR_RTE_LOST_CONNECTION">%1$sKon ' %1$s ' niet spelen - de verbinding met %2$s was verloren.</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_FORMAT">%1$sKon ' %1$s ' niet afspelen - het bestand heeft een niet-ondersteunde indeling.</String>
+<String id="RHHSTR_RTE_UNSUPPORTED_FREQ">Is gecodeerd met niet-ondersteunde samplerate %4$s Hz.#END_OF_LOCALIZED_STRING %2$s%3$s</String>
 <String id="RHHSTR_RTE_UNSUPPORTED_DRM">Kan '%1$s' niet afspelen. Is gecodeerd met een niet-ondersteund systeem voor digitaal rechtenbeheer.</String>
-<String id="RHHSTR_RTE_CORRUPT_FILE">Kan '%1$s' niet afspelen. Het nummer is niet juist gecodeerd.</String>
-<String id="RHHSTR_RTE_SHARE_ACCESS_DENIED">Kan '%1$s' niet afspelen. Toegang tot %2$s geweigerd.</String>
-<String id="RHHSTR_RTE_TOO_MANY_MOUNTED">Kan geen verbinding maken met %2$s. Te veel actieve shares.#END_OF_LOCALIZED_STRING %1$s</String>
-<String id="RHHSTR_RTE_NO_RESOURCE_SHARE">Kan '%1$s' niet afspelen. Share %2$s bestaat niet.</String>
-<String id="RHHSTR_RTE_TOO_MANY_USERS">Kan '%1$s' niet afspelen. Er zijn te veel verbindingen met share %2$s.</String>
-<String id="RHHSTR_RTE_BAD_INET_RADIO">Kan '%1$s' niet afspelen. Station niet gevonden.</String>
-<String id="RHHSTR_RTE_BUFFERING">Kan '%1$s' niet afspelen. Snelheid netwerkverbinding onvoldoende om afspeelbuffer te onderhouden.</String>
-<String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Kan '%1$s' niet afspelen. Kan geen verbinding maken met %2$s omdat server niet is gevonden.</String>
-<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT">Kan '%1$s' niet afspelen. Met Rhapsody zijn niet meer dan 3 gelijktijdige audiostreams mogelijk.</String>
-<String id="RHHSTR_RTE_RHAP_UNAVAILABLE">Kan '%1$s' niet afspelen. Nummer is niet beschikbaar om via Rhapsody te streamen.</String>
-<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor Rhapsody zijn niet geldig.</String>
-<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. Proefperiode Rhapsody is verlopen.</String>
-<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde Rhapsody-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Rhapsody-account in.</String>
-<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT">Kan '%1$s' niet afspelen. Upgrade je account bij Rhapsody en word abonnee.</String>
-<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC">Kan '%1$s' niet afspelen. Audible-programma's moeten 'Format 4' (MP3) gebruiken.</String>
-<String id="RHHSTR_RTE_AUDIBLE_DRM">Audible wordt niet langer ondersteund op Sonos.</String>
-<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING">Kan '%1$s' niet afspelen. De voor Audible geactiveerde Sonos-speler is niet aanwezig.</String>
-<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Kan '%1$s' niet afspelen. Windows Media Sharing is niet ingeschakeld voor één of meer Sonos-spelers.</String>
+<String id="RHHSTR_RTE_CORRUPT_FILE">Kan geen verbinding maken met %2$s. Te veel actieve shares.#END_OF_LOCALIZED_STRING %1$s</String>
+<String id="RHHSTR_RTE_SHARE_ACCESS_DENIED">Kan '%1$s' niet afspelen. Er zijn te veel verbindingen met share %2$s.</String>
+<String id="RHHSTR_RTE_TOO_MANY_MOUNTED">Kan '%1$s' niet afspelen. Snelheid netwerkverbinding onvoldoende om afspeelbuffer te onderhouden.</String>
+<String id="RHHSTR_RTE_NO_RESOURCE_SHARE">Kan '%1$s' niet afspelen. Kan geen verbinding maken met %2$s omdat server niet is gevonden.</String>
+<String id="RHHSTR_RTE_TOO_MANY_USERS">Kan '%1$s' niet afspelen. Met Rhapsody zijn niet meer dan 3 gelijktijdige audiostreams mogelijk.</String>
+<String id="RHHSTR_RTE_BAD_INET_RADIO">Kan '%1$s' niet afspelen. Nummer is niet beschikbaar om via Rhapsody te streamen.</String>
+<String id="RHHSTR_RTE_BUFFERING">Kan '%1$s' niet afspelen - de gekoppelde Rhapsody-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Rhapsody-account in.</String>
+<String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Kan '%1$s' niet afspelen. Upgrade je account bij Rhapsody en word abonnee.</String>
+<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_RHAP_UNAVAILABLE"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_AUDIBLE_DRM">Audible-programma's moeten 'Format 4' (MP3) gebruiken.</String>
+<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Windows Media Sharing is niet ingeschakeld voor één of meer Sonos-spelers.</String>
 <String id="RHHSTR_RTE_WMP_NO_LICENSE">Kan '%1$s' niet afspelen. Kan geen geldige licentie verkrijgen.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT">Het SiriusXM-kanaal dat werd afgespeeld in de andere kamer, is gestopt. Met SiriusXM kan maar één kanaal tegelijk worden afgespeeld.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT">Kan '%1$s' niet afspelen. Je SiriusXM-account wordt gebruikt voor een andere computer of muziekspeler.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor SiriusXM zijn niet geldig.</String>
-<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. Proefperiode SiriusXM is verlopen.</String>
-<String id="RHHSTR_RTE_SIRIUS_INACTIVE">Kan '%1$s' niet afspelen - SiriusXM stopt automatisch met afspelen na een periode van inactiviteit.</String>
-<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde SiriusXM-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je SiriusXM account in.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL">Kan '%1$s' niet afspelen. Een speciaal abonnement op SiriusXM is vereist. Upgrade je abonnement op SiriusXM.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL">Kan '%1$s' niet afspelen. SiriusXM kan de aanmeldingsgegevens niet valideren. Probeer het later opnieuw.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE">Kan '%1$s' niet afspelen. Je SiriusXM-account is niet actief. Neem contact op met SiriusXM voor hulp.</String>
-<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor Pandora zijn niet geldig.</String>
-<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. Proefperiode Pandora is verlopen.</String>
-<String id="RHHSTR_RTE_PAND_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde Pandora-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Pandora-account in.</String>
-<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL">Kan '%1$s' niet afspelen. Abonnement op Pandora is vereist. Upgrade je account bij Pandora.</String>
-<String id="RHHSTR_RTE_PAND_READ_ONLY">Kan '%1$s' niet afspelen. Pandora is niet beschikbaar vanwege routineonderhoud.</String>
-<String id="RHHSTR_RTE_PAND_STATION_GONE">Kan '%1$s' niet afspelen. Dit station is verwijderd.</String>
-<String id="RHHSTR_RTE_PAND_SUSPENDED">Pandora kan je opdracht niet voltooien omdat je account buiten werking is gesteld. Neem contact op met de klantenondersteuning van Pandora op pandora-support@pandora.com.</String>
-<String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor de %2$s-account zijn niet geldig.</String>
-<String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde %2$s-account is niet gevonden in het Sonos-systeem.</String>
-<String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. De proefperiode voor %2$s is verstreken.
-
-Upgrade je account bij %2$s.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL">Kan '%1$s' niet afspelen. Voor deze functie is een betaald abonnement vereist. Upgrade je account op www.sonos.com/Last.fm/expired.</String>
-<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT">Het Last.fm-station dat werd afgespeeld in de andere kamer, is gestopt. Met Last.fm kan maar één station tegelijk worden afgespeeld.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde Last.fm-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Last.fm-account in.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_CONTENT">Kan '%1$s' niet afspelen. Er is onvoldoende inhoud om dit Last.fm-station af te spelen.</String>
-<String id="RHHSTR_RTE_DOCK_INTERRUPT">Afspelen muziek van '%1$s' is onderbroken.</String>
-<String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Afspelen van %2$s is gestopt omdat afspelen is gestart vanuit een andere kamer of vanaf een ander apparaat. %2$s beperkt het aantal gelijktijdige audiostreams waar je toegang toe hebt via de service.#END_OF_LOCALIZED_STRING %1$s</String>
-<String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Kan '%1$s' niet afspelen. Upgrade je account bij %2$s en word abonnee.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor Last.fm zijn niet geldig.</String>
-<String id="RHHSTR_RTE_MOBILE_CANT_REACH_SERVER">Kan het nummer '%1$s' niet afspelen omdat '%2$s' niet beschikbaar is. Start de Sonos-controller op '%2$s' om af te kunnen spelen.</String>
-<String id="RHHSTR_RTE_SONOS_TOKEN_EXPIRED">Kan '%1$s' niet afspelen omdat %2$s opnieuw moet worden geautoriseerd.</String>
-<String id="RHHSTR_RTE_SONOS_BAD_LOCATION">Kan '%1$sapos niet afspelen.%2$s is niet beschikbaar in jouw regio.</String>
-<String id="RHHSTR_RTE_SONOS_INACTIVE">Kan '%1$s' niet afspelen; - '%2$s' stopt automatisch met afspelen na lange periodes van inactiviteit.</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_ERROR">Kan '%4$s' niet afspelen. Er is een fout in de service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_ACCESS_DENIED">Kan '%4$s' niet afspelen. De toegang is geweigerd.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_STREAM_LIMIT">Afspelen van '%4$s' is gestopt omdat er is gestart met afspelen vanuit een andere kamer of vanaf een ander apparaat. '%4$s' beperkt het aantal gelijktijdig toegankelijke audiostreams via de service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_UNRESPONSIVE">Kan '%4$s' niet afspelen. De service reageert niet.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CLOUD_QUEUE_CANT_REACH_SERVER">Kan '%4$s' niet afspelen. Kan geen verbinding maken met de service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CERT_BLACKLISTED">Kan '%1$s' niet afspelen. Je speler werd toegang tot de content van %2$s niet toegestaan. Neem contact op met onze klantenservice om dit probleem op te lossen.</String>
-<String id="RHHSTR_RTE_CERT_NEEDED">Kan '%1$s' niet afspelen. Zorg voor een goede internetverbinding en probeer het opnieuw.</String>
-<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_EXPLICIT">Schakel Filteren van expliciete inhoud uit in Ouderlijk toezicht om dit nummer af te spelen.</String>
-<String id="RHHSTR_RTE_NO_CONTENT"></String>
-<String id="RHHSTR_RTE_FILE_NO_LONGER_AVAILABLE">'%1$s' is niet langer beschikbaar op %2$s</String>
-<String id="RHHSTR_INTERNETRADIO">Radio</String>
-<String id="RHHSTR_LOCALRADIO">Lokale radio (%1$s)</String>
-<String id="RHHSTR_LOCALRADIO_NOLOCDCR">Locatie niet ingesteld</String>
-<String id="RHHSTR_IR_FAVORITE">Favorieten</String>
-<String id="RHHSTR_INPUTTYPE_AUTO">Automatisch</String>
-<String id="RHHSTR_INPUTTYPE_UNCOMPRESSED">Ongecomprimeerd</String>
-<String id="RHHSTR_INPUTTYPE_COMPRESSED">Gecomprimeerd</String>
-<String id="RHHSTR_SIE_NOSPACE">Er is niet voldoende ruimte om de muziekbibliotheek bij te werken. Verwijder ongebruikte wachtrijen of opgeslagen afspeellijsten en probeer het opnieuw.</String>
-<String id="RHHSTR_SIE_ERROR">'%1$s' is niet meer beschikbaar. Het apparaat waarop de muziekbestanden zijn opgeslagen is mogelijk niet ingeschakeld of het pad kan zijn gewijzigd.</String>
-<String id="RHHSTR_SIE_LOCALERROR">De muziekbibliotheek kon niet worden bijgewerkt. Neem voor hulp contact op met de klantenservice van Sonos.</String>
-<String id="RHHSTR_SIE_ITPL_OUT_OF_SPACE">Onvoldoende ruimte om alle afspeellijsten te importeren. Verwijder een aantal afspeellijsten en werk de muziekindex bij.</String>
-<String id="RHHSTR_SIE_ITPL_GEN_FAILURE">Onverwachte fout bij importeren afspeellijsten.</String>
-<String id="RHHSTR_HOST_NOT_FOUND">'%1$s' niet gevonden. Kan geen verbinding maken.</String>
-<String id="RHHSTR_CONNECTING">Verbinden…</String>
-<String id="RHHSTR_BUFFERING">Starten…</String>
-<String id="RHHSTR_MEDIA_SERVER">Mediaserver</String>
-<String id="RHHSTR_SUPPORT_BANNER">Diagnostische gegevens voor ondersteuning verzenden naar Sonos, Inc.</String>
-<String id="RHHSTR_SUPPORT_SERIAL">Serienummer:</String>
-<String id="RHHSTR_SUPPORT_SUBMIT">Verzenden</String>
-<String id="RHHSTR_SCPATTR_ALBUMARTIST">Artiesten</String>
-<String id="RHHSTR_SCPATTR_ARTIST">Meespelende artiesten</String>
-<String id="RHHSTR_SCPATTR_ALBUM">Albums</String>
-<String id="RHHSTR_SCPATTR_COMPOSER">Componisten</String>
-<String id="RHHSTR_SCPATTR_GENRE">Genres</String>
-<String id="RHHSTR_SCPATTR_TRACKS">Nummers</String>
-<String id="RHHSTR_SCPATTR_PLAYLISTS">Afspeellijsten</String>
-<String id="RHHSTR_RDCPATTR_SEARCH">Zoeken</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_INACTIVE"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_PAND_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_PAND_READ_ONLY"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_PAND_STATION_GONE"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_PAND_SUSPENDED"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Het SiriusXM-kanaal dat werd afgespeeld in de andere kamer, is gestopt.</String>
+<String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">Kan ' %1$s ' niet afspelen - het bijbehorende %2$s- account is niet gevonden in uw Sonos-systeem.</String>
+<String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Je SiriusXM-account wordt gebruikt voor een andere computer of muziekspeler. Kan '%1$s' niet afspelen.</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_LASTFM_NO_CONTENT"></String> <!-- Obsolete. Leave empty. -->
+<String id="RHHSTR_RTE_DOCK_INTERRUPT">Het afspelen van muziek van ' %1$s ' werd onderbroken.</String>
+<String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Het afspelen vanaf %2$s is gestopt omdat het afspelen vanuit een andere ruimte of een ander apparaat is gestart. %2$s beperkt het aantal gelijktijdige audiostreams dat u vanuit de service kunt gebruiken. # END_OF_LOCALIZED_STRING %1$s</String>
+<String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde SiriusXM-account is niet gevonden in het Sonos-systeem.</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_ACCOUNT">%1$sKon ' %1$s ' niet spelen - uw Last.fm-inloggegevens zijn niet geldig.</String>
+<String id="RHHSTR_RTE_MOBILE_CANT_REACH_SERVER">Een speciaal abonnement op SiriusXM is vereist. Start de Sonos-controller op ' %2$s ' om afspelen in te schakelen.</String>
+<String id="RHHSTR_RTE_SONOS_TOKEN_EXPIRED">SiriusXM kan de aanmeldingsgegevens niet valideren.</String>
+<String id="RHHSTR_RTE_SONOS_BAD_LOCATION">Probeer het later opnieuw.</String>
+<String id="RHHSTR_RTE_SONOS_INACTIVE">Kan '%1$s' niet afspelen. Je SiriusXM-account is niet actief.</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_ERROR">Kan ' %4$s ' niet afspelen - servicefout. # END_OF_LOCALIZED_STRING %1$s %2$s %3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_ACCESS_DENIED">%4$sKon ' %4$s ' niet spelen - toegang is geweigerd. # END_OF_LOCALIZED_STRING %1$s %2$s %3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_STREAM_LIMIT">Het afspelen vanaf ' %4$s ' is gestopt omdat het afspelen vanuit een andere ruimte of een ander apparaat is gestart. ' %4$s ' beperkt het aantal gelijktijdige audiostreams dat u vanuit de service kunt gebruiken. # END_OF_LOCALIZED_STRING %1$s %2$s %3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_UNRESPONSIVE">Kan ' %4$s ' niet afspelen - service reageert niet. # END_OF_LOCALIZED_STRING %1$s %2$s %3$s</String>
+<String id="RHHSTR_RTE_CLOUD_QUEUE_CANT_REACH_SERVER">Abonnement op Pandora is vereist. Upgrade je account bij Pandora.</String>
+<String id="RHHSTR_RTE_CERT_BLACKLISTED">Kan '%1$s' niet afspelen. Het is uw speler verboden om toegang te krijgen tot inhoud van %2$s . Weet je zeker dat je het kanaal uit %1$s wilt verwijderen?</String>
+<String id="RHHSTR_RTE_CERT_NEEDED">%1$sKon ' %1$s ' niet spelen. Neem contact op met de klantenondersteuning van Pandora op pandora-support@pandora.com.</String>
+<String id="RHHSTR_RTE_FILE_ACCESS_DENIED_EXPLICIT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor de %2$s-account zijn niet geldig.</String>
+<String id="RHHSTR_RTE_NO_CONTENT"></String> <!-- The controller supresses this error. Leave empty to avoid an off by one error for enum values -->
+<String id="RHHSTR_RTE_FILE_NO_LONGER_AVAILABLE">Kan '%1$s' niet afspelen - de gekoppelde %2$s-account is niet gevonden in het Sonos-systeem.</String>
+<!--Note the order above matters and must correlate to the enum order in transporterror.h-->
+<String id="RHHSTR_INTERNETRADIO">Surround-speakers</String>
+<String id="RHHSTR_LOCALRADIO">Lokale radio ( %1$s )</String>
+<String id="RHHSTR_LOCALRADIO_NOLOCDCR">De proefperiode voor %2$s is verstreken.</String>
+<String id="RHHSTR_IR_FAVORITE">Upgrade je account bij %2$s.</String>
+<String id="RHHSTR_INPUTTYPE_AUTO">Kan '%1$s' niet afspelen.</String>
+<String id="RHHSTR_INPUTTYPE_UNCOMPRESSED">ongecomprimeerde</String>
+<String id="RHHSTR_INPUTTYPE_COMPRESSED">Compressed</String>
+<String id="RHHSTR_SIE_NOSPACE">Upgrade je account op www.sonos.com/Last.fm/expired. Het Last.fm-station dat werd afgespeeld in de andere kamer, is gestopt.</String>
+<String id="RHHSTR_SIE_ERROR">Met Last.fm kan maar één station tegelijk worden afgespeeld. Kan '%1$s' niet afspelen - de gekoppelde Last.fm-account is niet gevonden in het Sonos-systeem.</String>
+<String id="RHHSTR_SIE_LOCALERROR">Voer de gegevens van je Last.fm-account in. Neem voor assistentie contact op met de klantenservice van Sonos: http://www.sonos.com/contact</String>
+<String id="RHHSTR_SIE_ITPL_OUT_OF_SPACE">Er is niet genoeg ruimte om alle afspeellijsten te importeren. Verwijder enkele afspeellijsten en werk de muziekindex bij.</String>
+<String id="RHHSTR_SIE_ITPL_GEN_FAILURE">Kan '%1$s' niet afspelen. Upgrade je account bij %2$s en word abonnee.</String>
+<String id="RHHSTR_HOST_NOT_FOUND">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor Last.fm zijn niet geldig.</String>
+<String id="RHHSTR_CONNECTING">Kan het nummer '%1$s' niet afspelen omdat '%2$s' niet beschikbaar is.</String>
+<String id="RHHSTR_BUFFERING">Start de Sonos-controller op '%2$s' om af te kunnen spelen.</String>
+<String id="RHHSTR_MEDIA_SERVER">Kan '%1$s' niet afspelen omdat %2$s opnieuw moet worden geautoriseerd.</String>
+<String id="RHHSTR_SUPPORT_BANNER">Dien ondersteuningstests in bij Sonos, Inc.</String>
+<String id="RHHSTR_SUPPORT_SERIAL">Kan '%4$s' niet afspelen.</String>
+<String id="RHHSTR_SUPPORT_SUBMIT">Er is een fout in de service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_SCPATTR_ALBUMARTIST">Kan '%4$s' niet afspelen.</String>
+<String id="RHHSTR_SCPATTR_ARTIST">Deelnemende kunstenaars</String>
+<String id="RHHSTR_SCPATTR_ALBUM">Kan '%4$s' niet afspelen.</String>
+<String id="RHHSTR_SCPATTR_COMPOSER">De service reageert niet.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_SCPATTR_GENRE">Kan '%4$s' niet afspelen.</String>
+<String id="RHHSTR_SCPATTR_TRACKS">Kan geen verbinding maken met de service.#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
+<String id="RHHSTR_SCPATTR_PLAYLISTS">Kan '%1$s' niet afspelen.</String>
+<String id="RHHSTR_RDCPATTR_SEARCH">Je speler werd toegang tot de content van %2$s niet toegestaan.</String>
 <String id="RHHSTR_SEARCHTYPE_ARTISTS">Artiesten</String>
-<String id="RHHSTR_SEARCHTYPE_GENRES">Genres</String>
-<String id="RHHSTR_SEARCHTYPE_ALBUMS">Albums</String>
-<String id="RHHSTR_SEARCHTYPE_COMPOSERS">Componisten</String>
-<String id="RHHSTR_SEARCHTYPE_TRACKS">Nummers</String>
-<String id="RHHSTR_SEARCHTYPE_TAGS">Tags</String>
-<String id="RHHSTR_SEARCHTYPE_PODCASTS">Podcasts</String>
-<String id="RHHSTR_COMPILATIONS">(Verzamelingen)</String>
-<String id="RHHSTR_MONTH_JANUARY">Januari</String>
-<String id="RHHSTR_MONTH_FEBRUARY">Februari</String>
-<String id="RHHSTR_MONTH_MARCH">Maart</String>
-<String id="RHHSTR_MONTH_APRIL">April</String>
-<String id="RHHSTR_MONTH_MAY">Mei</String>
-<String id="RHHSTR_MONTH_JUNE">Juni</String>
-<String id="RHHSTR_MONTH_JULY">Juli</String>
-<String id="RHHSTR_MONTH_AUGUST">Augustus</String>
-<String id="RHHSTR_MONTH_SEPTEMBER">September</String>
-<String id="RHHSTR_MONTH_OCTOBER">Oktober</String>
-<String id="RHHSTR_MONTH_NOVEMBER">November</String>
-<String id="RHHSTR_MONTH_DECEMBER">December</String>
-<String id="RHHSTR_MONTHABBR_JANUARY">Jan</String>
-<String id="RHHSTR_MONTHABBR_FEBRUARY">Feb</String>
-<String id="RHHSTR_MONTHABBR_MARCH">Maa</String>
-<String id="RHHSTR_MONTHABBR_APRIL">Apr</String>
-<String id="RHHSTR_MONTHABBR_MAY">Mei</String>
-<String id="RHHSTR_MONTHABBR_JUNE">Jun</String>
-<String id="RHHSTR_MONTHABBR_JULY">Jul</String>
-<String id="RHHSTR_MONTHABBR_AUGUST">Aug</String>
-<String id="RHHSTR_MONTHABBR_SEPTEMBER">Sep</String>
-<String id="RHHSTR_MONTHABBR_OCTOBER">Okt</String>
-<String id="RHHSTR_MONTHABBR_NOVEMBER">Nov</String>
-<String id="RHHSTR_MONTHABBR_DECEMBER">Dec</String>
-<String id="RHHSTR_DAYABBR_SUNDAY">Zo</String>
-<String id="RHHSTR_DAYABBR_MONDAY">Ma</String>
-<String id="RHHSTR_DAYABBR_TUESDAY">Di</String>
-<String id="RHHSTR_DAYABBR_WEDNESDAY">Wo</String>
-<String id="RHHSTR_DAYABBR_THURSDAY">Do</String>
-<String id="RHHSTR_DAYABBR_FRIDAY">Vr</String>
-<String id="RHHSTR_DAYABBR_SATURDAY">Za</String>
-<String id="RHHSTR_DAYABBR_SHORT_SUNDAY">Zo</String>
-<String id="RHHSTR_DAYABBR_SHORT_MONDAY">Ma</String>
-<String id="RHHSTR_DAYABBR_SHORT_TUESDAY">Di</String>
-<String id="RHHSTR_DAYABBR_SHORT_WEDNESDAY">Wo</String>
-<String id="RHHSTR_DAYABBR_SHORT_THURSDAY">Do</String>
-<String id="RHHSTR_DAYABBR_SHORT_FRIDAY">Vr</String>
-<String id="RHHSTR_DAYABBR_SHORT_SATURDAY">Za</String>
-<String id="RHHSTR_DAY_SUNDAY">Zondag</String>
-<String id="RHHSTR_DAY_MONDAY">Maandag</String>
+<String id="RHHSTR_SEARCHTYPE_GENRES">Kan '%1$s' niet afspelen.</String>
+<String id="RHHSTR_SEARCHTYPE_ALBUMS">Zorg voor een goede internetverbinding en probeer het opnieuw.</String>
+<String id="RHHSTR_SEARCHTYPE_COMPOSERS">Schakel Filteren van expliciete inhoud uit in Ouderlijk toezicht om dit nummer af te spelen.</String>
+<String id="RHHSTR_SEARCHTYPE_TRACKS">'%1$s' is niet langer beschikbaar op %2$s</String>
+<String id="RHHSTR_SEARCHTYPE_TAGS">Radio</String>
+<String id="RHHSTR_SEARCHTYPE_PODCASTS">Lokale radio (%1$s)</String>
+<String id="RHHSTR_COMPILATIONS">Locatie niet ingesteld</String>
+<String id="RHHSTR_MONTH_JANUARY">Favorieten</String>
+<String id="RHHSTR_MONTH_FEBRUARY">Automatisch</String>
+<String id="RHHSTR_MONTH_MARCH">Ongecomprimeerd</String>
+<String id="RHHSTR_MONTH_APRIL">Gecomprimeerd</String>
+<String id="RHHSTR_MONTH_MAY">Er is niet voldoende ruimte om de muziekbibliotheek bij te werken.</String>
+<String id="RHHSTR_MONTH_JUNE">Verwijder ongebruikte wachtrijen of opgeslagen afspeellijsten en probeer het opnieuw.</String>
+<String id="RHHSTR_MONTH_JULY">'%1$s' is niet meer beschikbaar.</String>
+<String id="RHHSTR_MONTH_AUGUST">Het apparaat waarop de muziekbestanden zijn opgeslagen is mogelijk niet ingeschakeld of het pad kan zijn gewijzigd.</String>
+<String id="RHHSTR_MONTH_SEPTEMBER">De muziekbibliotheek kon niet worden bijgewerkt.</String>
+<String id="RHHSTR_MONTH_OCTOBER">Neem voor hulp contact op met de klantenservice van Sonos.</String>
+<String id="RHHSTR_MONTH_NOVEMBER">Onvoldoende ruimte om alle afspeellijsten te importeren.</String>
+<String id="RHHSTR_MONTH_DECEMBER">Verwijder een aantal afspeellijsten en werk de muziekindex bij.</String>
+<String id="RHHSTR_MONTHABBR_JANUARY">Onverwachte fout bij importeren afspeellijsten.</String>
+<String id="RHHSTR_MONTHABBR_FEBRUARY">'%1$s' niet gevonden.</String>
+<String id="RHHSTR_MONTHABBR_MARCH">Kan geen verbinding maken.</String>
+<String id="RHHSTR_MONTHABBR_APRIL">Verbinden…</String>
+<String id="RHHSTR_MONTHABBR_MAY">Starten…</String>
+<String id="RHHSTR_MONTHABBR_JUNE">Mediaserver</String>
+<String id="RHHSTR_MONTHABBR_JULY">Diagnostische gegevens voor ondersteuning verzenden naar Sonos, Inc.</String>
+<String id="RHHSTR_MONTHABBR_AUGUST">Serienummer:</String>
+<String id="RHHSTR_MONTHABBR_SEPTEMBER">Verzenden</String>
+<String id="RHHSTR_MONTHABBR_OCTOBER">Artiesten</String>
+<String id="RHHSTR_MONTHABBR_NOVEMBER">Meespelende artiesten</String>
+<String id="RHHSTR_MONTHABBR_DECEMBER">Albums</String>
+<!-- The SwfObjAlarm::getAlarmFrequencyUIString alarm clock code depends on the following day of week abbreviations being in order -->
+<String id="RHHSTR_DAYABBR_SUNDAY">Componisten</String>
+<String id="RHHSTR_DAYABBR_MONDAY">Genres</String>
+<String id="RHHSTR_DAYABBR_TUESDAY">Nummers</String>
+<String id="RHHSTR_DAYABBR_WEDNESDAY">Afspeellijsten</String>
+<String id="RHHSTR_DAYABBR_THURSDAY">Zoeken</String>
+<String id="RHHSTR_DAYABBR_FRIDAY">Artiesten</String>
+<String id="RHHSTR_DAYABBR_SATURDAY">Genres</String>
+<String id="RHHSTR_DAYABBR_SHORT_SUNDAY">Albums</String>
+<String id="RHHSTR_DAYABBR_SHORT_MONDAY">Componisten</String>
+<String id="RHHSTR_DAYABBR_SHORT_TUESDAY">Nummers</String>
+<String id="RHHSTR_DAYABBR_SHORT_WEDNESDAY">Tags</String>
+<String id="RHHSTR_DAYABBR_SHORT_THURSDAY">Podcasts</String>
+<String id="RHHSTR_DAYABBR_SHORT_FRIDAY">(Verzamelingen)</String>
+<String id="RHHSTR_DAYABBR_SHORT_SATURDAY">Januari</String>
+<String id="RHHSTR_DAY_SUNDAY">Februari</String>
+<String id="RHHSTR_DAY_MONDAY">Maart</String>
 <String id="RHHSTR_DAY_TUESDAY">Dinsdag</String>
 <String id="RHHSTR_DAY_WEDNESDAY">Woensdag</String>
 <String id="RHHSTR_DAY_THURSDAY">Donderdag</String>
 <String id="RHHSTR_DAY_FRIDAY">Vrijdag</String>
-<String id="RHHSTR_DAY_SATURDAY">Zaterdag</String>
-<String id="RHHSTR_TIME_AM">AM</String>
-<String id="RHHSTR_TIME_PM">PM</String>
-<String id="RHHSTR_DAY_RANGE">%1$s tot en met %2$s</String>
+<String id="RHHSTR_DAY_SATURDAY">September</String>
+<String id="RHHSTR_TIME_AM">Oktober</String>
+<String id="RHHSTR_TIME_PM">November</String>
+<!-- RHHSTR_DAY_RANGE is used for alarm frequencies such as "Monday through Thursday" -->
+<String id="RHHSTR_DAY_RANGE">December</String>
 <String comment="Has special translation" id="RHHSTR_TIME_FMT_12HR">%1$u:%2$02u %3$s</String>
 <String comment="Has special translation" id="RHHSTR_TIME_FMT_24HR">%1$02u:%2$02u</String>
 <String comment="Has special translation" id="RHHSTR_AC_FMT_MDY_LONG">%2$s %3$d, %1$d</String>
@@ -281,486 +283,193 @@ Upgrade je account bij %2$s.</String>
 <String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT">%1$d %2$s %3$d</String>
 <String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_SHORT_DOW">%1$d %2$s %3$d, %4$s</String>
 <String comment="Has special translation" id="RHHSTR_AC_FMT_YMD_LONG_DOW">%1$d %2$s %3$d, %4$s</String>
-<String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes®-verzamelingen gebruiken</String>
-<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Albumartiesten gebruiken</String>
-<String id="RHHSTR_ARTISTVIEW_SIMPLE">Verzamelingen niet groeperen</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACK">Kan nummer niet verwijderen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACKS">Kan nummers niet verwijderen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_ALBUM">Kan album niet verwijderen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_ARTIST">Kan artiest niet verwijderen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_PLAYLIST">Kan afspeellijst niet verwijderen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_REMOVEFAIL_STATION">Kan station niet verwijderen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_TRACK">Kan nummer niet toevoegen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_POSTED_TRACK">Bericht is gepost.</String>
-<String id="RHHSTR_LIBRARY_POSTING_TRACK">Posten…</String>
-<String id="RHHSTR_LIBRARY_POSTFAIL_TRACK">Kan bericht niet posten. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_AUTOMIXFAIL_TRACK">Kan nummer niet automatisch mixen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_TRACKS">Kan nummers niet toevoegen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_ALBUM">Kan album niet toevoegen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_ARTIST">Kan artiest niet toevoegen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_PLAYLIST">Kan afspeellijst niet toevoegen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_ADDFAIL_STATION">Kan station niet toevoegen. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACK">Nummer wordt aan Mijn %1$s-bibliotheek toegevoegd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACKS">Nummers worden aan Mijn %1$s-bibliotheek toegevoegd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_ALBUM">Album wordt toegevoegd aan Mijn %1$s-bibliotheek…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_ARTIST">Artiest wordt toegevoegd aan Mijn %1$s-bibliotheek…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_PLAYLIST">Afspeellijst wordt toegevoegd aan Mijn %1$s-bibliotheek…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDING_STATION">Kanaal wordt toegevoegd aan Mijn %1$s-bibliotheek…</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACK">Nummer aan Mijn %1$s-bibliotheek toegevoegd</String>
-<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXING_TRACK">%1$s-nummer wordt automatisch gemixt</String>
-<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXED_TRACK">%1$s-nummers automatisch gemixt</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACKS">Nummers aan Mijn %1$s-bibliotheek toegevoegd</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_ALBUM">Album aan Mijn %1$s-bibliotheek toegevoegd</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_ARTIST">Artiest aan Mijn %1$s-bibliotheek toegevoegd</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_PLAYLIST">Afspeellijst aan Mijn %1$s-bibliotheek toegevoegd</String>
-<String id="RHHSTR_LIBRARY_SONOS_ADDED_STATION">Kanaal aan Mijn %1$s-bibliotheek toegevoegd</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACK">Weet je zeker dat je het nummer uit %1$s wilt verwijderen?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACKS">Weet je zeker dat je de nummers uit %1$s wilt verwijderen?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ALBUM">Weet je zeker dat je het album wilt verwijderen uit %1$s?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ARTIST">Weet je zeker dat je de artiest uit %1$s wilt verwijderen?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_PLAYLIST">Weet je zeker dat je de afspeellijst uit %1$s wilt verwijderen?</String>
-<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_STATION">Weet je zeker dat je het kanaal uit %1$s wilt verwijderen?</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACK">Nummer wordt uit %1$s verwijderd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACKS">Nummers worden uit %1$s verwijderd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ALBUM">Album wordt uit %1$s verwijderd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ARTIST">Artiest wordt uit %1$s verwijderd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_PLAYLIST">Afspeellijst wordt uit %1$s verwijderd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVING_STATION">Kanaal wordt uit %1$s verwijderd…</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACK">Nummer uit %1$s verwijderd</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACKS">Nummers uit %1$s verwijderd</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ALBUM">Album uit %1$s verwijderd</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ARTIST">Artiest uit %1$s verwijderd</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_PLAYLIST">Afspeellijst uit %1$s verwijderd</String>
-<String id="RHHSTR_LIBRARY_SONOS_REMOVED_STATION">Kanaal uit %1$s verwijderd</String>
-<String id="RHHSTR_RATE_OP_FAILED">Bewerking mislukt</String>
-<String id="RHHSTR_RATE_OP_SUCCEEDED">Beoordelen gelukt</String>
-<String id="RHHSTR_SONOS_TRIAL_UNKNOWNDAYS">Proef %1$s</String>
-<String id="RHHSTR_SONOS_TRIAL_1DAY">Proef %1$s (1 dag)</String>
-<String id="RHHSTR_SONOS_TRIAL_NDAYS">Proef %2$s (%1$s dagen)</String>
-<String id="RHHSTR_SONOS_TRIAL_EXPIRED">Proef %1$s (verlopen)</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">Di</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Wo</String>
+<String id="RHHSTR_ARTISTVIEW_SIMPLE">Do</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACK">Vr Za</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_TRACKS">Zo Ma</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_ALBUM">Di Wo</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_ARTIST">Do Vr</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_PLAYLIST">Za Zondag</String>
+<String id="RHHSTR_LIBRARY_REMOVEFAIL_STATION">Maandag Dinsdag</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_TRACK">Woensdag Donderdag</String>
+<String id="RHHSTR_LIBRARY_POSTED_TRACK">Vrijdag</String>
+<String id="RHHSTR_LIBRARY_POSTING_TRACK">Zaterdag</String>
+<String id="RHHSTR_LIBRARY_POSTFAIL_TRACK">AM PM</String>
+<String id="RHHSTR_LIBRARY_AUTOMIXFAIL_TRACK">%1$s tot en met %2$s %1$u:%2$02u %3$s</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_TRACKS">%1$02u:%2$02u %2$s %3$d, %1$d</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_ALBUM">%2$s %3$d, %1$d %4$s, %2$s %3$d, %1$d</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_ARTIST">%4$s, %2$s %3$d, %1$d %3$d %2$s %1$d</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_PLAYLIST">%3$d %2$s %1$d %4$s, %3$d %2$s %1$d</String>
+<String id="RHHSTR_LIBRARY_ADDFAIL_STATION">%4$s, %3$d %2$s %1$d %1$d %2$s %3$d</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACK">%1$d %2$s %3$d</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_TRACKS">%1$d %2$s %3$d, %4$s</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_ALBUM">%1$d %2$s %3$d, %4$s</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_ARTIST">iTunes®-verzamelingen gebruiken</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_PLAYLIST">Albumartiesten gebruiken</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDING_STATION">Verzamelingen niet groeperen</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACK">Kan nummer niet verwijderen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXING_TRACK">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_AUTOMIXED_TRACK">Kan nummers niet verwijderen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_TRACKS">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_ALBUM">Kan album niet verwijderen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_ARTIST">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_PLAYLIST">Kan artiest niet verwijderen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_ADDED_STATION">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACK">Kan afspeellijst niet verwijderen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_TRACKS">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ALBUM">Kan station niet verwijderen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_ARTIST">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_PLAYLIST">Kan nummer niet toevoegen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_CONFREMOVE_STATION">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACK">Bericht is gepost.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_TRACKS">Posten…</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ALBUM">Kan bericht niet posten.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_ARTIST">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_PLAYLIST">Kan nummer niet automatisch mixen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVING_STATION">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACK">Kan nummers niet toevoegen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_TRACKS">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ALBUM">Kan album niet toevoegen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_ARTIST">Probeer het later opnieuw.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_PLAYLIST">Kan artiest niet toevoegen.</String>
+<String id="RHHSTR_LIBRARY_SONOS_REMOVED_STATION">Probeer het later opnieuw.</String>
+<String id="RHHSTR_RATE_OP_FAILED">Kan afspeellijst niet toevoegen.</String>
+<String id="RHHSTR_RATE_OP_SUCCEEDED">Probeer het later opnieuw.</String>
+<String id="RHHSTR_SONOS_TRIAL_UNKNOWNDAYS"> Trial</String>
+<String id="RHHSTR_SONOS_TRIAL_1DAY">%1$s Trial (1 dag)</String>
+<String id="RHHSTR_SONOS_TRIAL_NDAYS">Probeer het later opnieuw.</String>
+<String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s Trial (verlopen)</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
+<!-- short names for Woodstock Music -->
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
-<String id="RHHSTR_BROWSE_UPNP_ERROR">Kan niet door muziek bladeren</String>
-<String id="RHHSTR_SEARCH_UPNP_ERROR">Probleem bij zoeken. Probeer het opnieuw.</String>
-<String id="RHHSTR_BROWSE_SVC_BAD_ACCOUNT_SONOS">Kan niet door muziek bladeren. De aanmeldingsgegevens voor %1$s zijn niet geldig.</String>
-<String id="RHHSTR_BROWSE_SVC_BAD_LOCATION_SONOS">Kan niet door muziek bladeren. %1$s is niet beschikbaar in jouw regio.</String>
-<String id="RHHSTR_BROWSE_SVC_TRIAL_EXPIRED_SONOS">Kan niet door muziek bladeren. Proefperiode %1$s is verlopen.</String>
-<String id="RHHSTR_BROWSE_SVC_NEED_FULL_ACCT_SONOS">Kan niet door muziek bladeren. Je account bij %1$s is niet omgezet naar een abonnement.</String>
-<String id="RHHSTR_BROWSE_SVC_MAX_LOGINS_SONOS">Kan niet door muziek bladeren. Met %1$s kun je een beperkt aantal keren per dag toegang krijgen tot je account. Probeer het morgen opnieuw.</String>
-<String id="RHHSTR_BROWSE_SVC_CANT_CONNECT_SONOS">Kan niet door muziek bladeren. Probleem bij verbinden met %1$s.</String>
-<String id="RHHSTR_AVT_ERR_LINE_IN">Kan de bron op de audio-ingang niet afspelen.</String>
-<String id="RHHSTR_AVT_ERR_IR">Kan radiostation niet afspelen.</String>
-<String id="RHHSTR_AVT_ERR_ALREADYPLAYING">Dit Pandora-station wordt momenteel afgespeeld.</String>
-<String id="RHHSTR_AVT_ERR_GENERIC">Kan geselecteerde item niet afspelen.</String>
-<String id="RHHSTR_AVT_ERR_CANT_CONNECT">Kan geen verbinding maken met de Sonos-speler.</String>
-<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">Je speler werd toegang tot de content van deze service niet toegestaan. Neem contact op met de klantenservice van Sonos om dit probleem op te lossen</String>
-<String id="RHHSTR_AVT_ERR_CERT_NEEDED">Kan het geselecteerde item niet afspelen. Zorg voor een goede internetverbinding en probeer het opnieuw.</String>
-<String id="RHHSTR_LFM_CANT_CONNECT">Probleem bij verbinden met Last.fm. Probeer het later opnieuw.</String>
-<String id="RHHSTR_LFM_BAD_ACCOUNT">De aanmeldingsgegevens voor Last.fm zijn niet meer geldig. Als je je wachtwoord hebt gewijzigd op Last.fm, moet je het bijwerken in je Sonos-systeem.</String>
-<String id="RHHSTR_LFM_NO_ACCOUNT">De aan dit station gekoppelde Last.fm-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Last.fm-account in.</String>
-<String id="RHHSTR_LFM_GENERIC">Probleem bij communicatie met Last.fm. Probeer het later opnieuw.</String>
-<String id="RHHSTR_FAVSTATIONS">Mijn radiostations</String>
-<String id="RHHSTR_FAVSHOWS">Mijn radioprogramma's</String>
-<String id="RHHSTR_TrialLearnMore_Sonos">Meer over de proefperiode voor %2$s is te vinden op:
-
-%1$s.sonos.com/%3$s</String>
-<String id="RHHSTR_TrialPromo_Sonos">Selecteer uit de volgende opties:</String>
-<String id="RHHSTR_Promo_LastFM">Last.fm is een service die muziek aanbeveelt, zodat je nieuwe muziek kunt delen en ontdekken. Aan de hand van de muziekkeuzes worden moeiteloos aanbevelingen gedaan die op je persoonlijke smaak zijn afgestemd.</String>
-<String id="RHHSTR_PleaseSignup_Sonos">Maak om %1$s met Sonos te gebruiken een account aan door op onderstaande knop te drukken.
-
-%2$s
+<!-- end of short names -->
+<String id="RHHSTR_BROWSE_UPNP_ERROR">Kan niet door muziek bladeren.</String>
+<String id="RHHSTR_SEARCH_UPNP_ERROR">Album wordt toegevoegd aan Mijn %1$s-bibliotheek… Artiest wordt toegevoegd aan Mijn %1$s-bibliotheek…</String>
+<String id="RHHSTR_BROWSE_SVC_BAD_ACCOUNT_SONOS">Afspeellijst wordt toegevoegd aan Mijn %1$s-bibliotheek…</String>
+<String id="RHHSTR_BROWSE_SVC_BAD_LOCATION_SONOS">Kanaal wordt toegevoegd aan Mijn %1$s-bibliotheek…</String>
+<String id="RHHSTR_BROWSE_SVC_TRIAL_EXPIRED_SONOS">Nummer aan Mijn %1$s-bibliotheek toegevoegd</String>
+<String id="RHHSTR_BROWSE_SVC_NEED_FULL_ACCT_SONOS">Kan niet door muziek bladeren - uw %1$s -account is niet geüpgraded naar een abonnementsaccount.</String>
+<String id="RHHSTR_BROWSE_SVC_MAX_LOGINS_SONOS">Kan niet door muziek bladeren - %1$s beperkt het aantal keren dat u elke dag toegang tot uw account heeft. Artiest aan Mijn %1$s-bibliotheek toegevoegd</String>
+<String id="RHHSTR_BROWSE_SVC_CANT_CONNECT_SONOS">Afspeellijst aan Mijn %1$s-bibliotheek toegevoegd</String>
+<String id="RHHSTR_AVT_ERR_LINE_IN">Kanaal aan Mijn %1$s-bibliotheek toegevoegd</String>
+<String id="RHHSTR_AVT_ERR_IR">Weet je zeker dat je het nummer uit %1$s wilt verwijderen?</String>
+<String id="RHHSTR_AVT_ERR_ALREADYPLAYING">Weet je zeker dat je de nummers uit %1$s wilt verwijderen?</String>
+<String id="RHHSTR_AVT_ERR_GENERIC">Weet je zeker dat je het album wilt verwijderen uit %1$s?</String>
+<String id="RHHSTR_AVT_ERR_CANT_CONNECT">Weet je zeker dat je de artiest uit %1$s wilt verwijderen?</String>
+<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">Weet je zeker dat je de afspeellijst uit %1$s wilt verwijderen? Weet je zeker dat je het kanaal uit %1$s wilt verwijderen?</String>
+<String id="RHHSTR_AVT_ERR_CERT_NEEDED">Nummer wordt uit %1$s verwijderd… Nummers worden uit %1$s verwijderd…</String>
+<String id="RHHSTR_LFM_CANT_CONNECT">Album wordt uit %1$s verwijderd… Artiest wordt uit %1$s verwijderd…</String>
+<String id="RHHSTR_LFM_BAD_ACCOUNT">Afspeellijst wordt uit %1$s verwijderd… Als je je wachtwoord op Last.fm hebt gewijzigd, update je dit op je Sonos-systeem.</String>
+<String id="RHHSTR_LFM_NO_ACCOUNT">Het gekoppelde Last.fm-account is niet gevonden in uw Sonos-systeem. Voer uw Last.fm-accountgegevens in.</String>
+<String id="RHHSTR_LFM_GENERIC">Er was een probleem met de communicatie met Last.fm. Beoordelen gelukt</String>
+<String id="RHHSTR_FAVSTATIONS">Proef %1$s</String>
+<String id="RHHSTR_FAVSHOWS">Proef %1$s (1 dag)</String>
+<String id="RHHSTR_TrialLearnMore_Sonos">U kunt meer informatie over de %2$s proef krijgen bij: %1$s .sonos.com / %3$s</String>
+<String id="RHHSTR_TrialPromo_Sonos">Selecteer een van de volgende keuzes:</String>
+<String id="RHHSTR_Promo_LastFM">Probleem bij zoeken. Probeer het opnieuw. Kan niet door muziek bladeren. De aanmeldingsgegevens voor %1$s zijn niet geldig.</String>
+<String id="RHHSTR_PleaseSignup_Sonos">Als u %1$s met Sonos wilt gebruiken, maakt u een account door op de onderstaande knop te drukken. %2$s
 </String>
-<String comment="Do not translate" id="RHHSTR_PleaseSignupUri_Sonos">http://%1$s.sonos.com/%2$s/subscribe</String>
-<String id="RHHSTR_CONNECTING_TITLE">Een ogenblik geduld…</String>
-<String id="RHHSTR_APPLINK_CONNECTION_QUIT">Niet nu</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s niet geïnstalleerd. Installeer de app en probeer het opnieuw.</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install AppZXZ</String>
-<String id="RHHSTR_SN_POST_SUCCESS">Bericht met succes verzonden.</String>
-<String id="RHHSTR_SN_POST_FAIL">Verzenden bericht mislukt.</String>
-<String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Bericht werd verzonden naar %1$s (%2$s), maar niet naar %3$s (%4$s).</String>
-<String id="RHHSTR_SN_POST_NUM_SUCCEES_NUM_FAIL_FMT">Bericht werd verzonden naar %1$d services, maar niet naar %2$d services.</String>
-<String id="RHHSTR_SN_POST_SINGLE_FAIL_FMT">Bericht werd niet verzonden naar %1$s (%2$s), maar wel naar de overige services.</String>
-<String id="RHHSTR_SN_POST_SINGLE_SUCCESS_FMT">Bericht werd verzonden naar %1$s (%2$s), maar niet naar de overige services.</String>
-<String id="RHHSTR_SN_POST_PASSWORD_ERROR">Voor een of meer accounts zijn ongeldige aanmeldingsgegevens opgegeven.</String>
-<String id="RHHSTR_ZONEEXTENDERMENU_ON">Extender</String>
-<String id="RHHSTR_ZONEEXTENDERMENU_OFF">Normaal</String>
-<String id="RHHSTR_SONOS_CHIME">Sonos-signaal</String>
-<String id="STR_Setting_AlarmFreq_Once">Eénmalig</String>
+<String id="RHHSTR_PleaseSignupUri_Sonos" comment="Do not translate">Proefperiode %1$s is verlopen.</String>
+<String id="RHHSTR_CONNECTING_TITLE">Kan niet door muziek bladeren.</String>
+<String id="RHHSTR_APPLINK_CONNECTION_QUIT">Je account bij %1$s is niet omgezet naar een abonnement.</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG">Kan niet door muziek bladeren. Met %1$s kun je een beperkt aantal keren per dag toegang krijgen tot je account.</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Probeer het morgen opnieuw.</String>
+<String id="RHHSTR_SN_POST_SUCCESS">Kan niet door muziek bladeren.</String>
+<String id="RHHSTR_SN_POST_FAIL">Probleem bij verbinden met %1$s.</String>
+<String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Kan de bron op de audio-ingang niet afspelen.</String>
+<String id="RHHSTR_SN_POST_NUM_SUCCEES_NUM_FAIL_FMT">Bericht verzonden naar %1$d services, maar niet verzonden naar %2$d services.</String>
+<String id="RHHSTR_SN_POST_SINGLE_FAIL_FMT">Bericht kan niet naar %1$s ( %2$s ) worden verzonden, maar is geslaagd voor de andere services.</String>
+<String id="RHHSTR_SN_POST_SINGLE_SUCCESS_FMT">Je speler werd toegang tot de content van deze service niet toegestaan.</String>
+<String id="RHHSTR_SN_POST_PASSWORD_ERROR">Een of meer accounts hadden een ongeldige inloginformatie.</String>
+<String id="RHHSTR_ZONEEXTENDERMENU_ON">Zorg voor een goede internetverbinding en probeer het opnieuw.</String>
+<String id="RHHSTR_ZONEEXTENDERMENU_OFF">Probleem bij verbinden met Last.fm.</String>
+<String id="RHHSTR_SONOS_CHIME">Probeer het later opnieuw.</String>
+<String id="STR_Setting_AlarmFreq_Once">De aanmeldingsgegevens voor Last.fm zijn niet meer geldig.</String>
 <String id="STR_Setting_AlarmFreq_Sunday">Elke zondag</String>
 <String id="STR_Setting_AlarmFreq_Monday">Elke maandag</String>
 <String id="STR_Setting_AlarmFreq_Tuesday">Elke dinsdag</String>
 <String id="STR_Setting_AlarmFreq_Wednesday">Elke woensdag</String>
 <String id="STR_Setting_AlarmFreq_Thursday">Elke donderdag</String>
 <String id="STR_Setting_AlarmFreq_Friday">Elke vrijdag</String>
-<String id="STR_Setting_AlarmFreq_Saturday">Elke zaterdag</String>
-<String id="RHHSTR_Setting_AlarmFreq_EveryDay">Dagelijks</String>
-<String id="RHHSTR_FreeTrialAccountName">Sonos</String>
-<String id="RHHSTR_TrialDescription_Sonos">Bij Sonos krijg je een gratis proefperiode voor %1$s.</String>
-<String id="RHHSTR_TrialAgreement_Sonos">Als je gebruik maakt van deze gratis proefperiode, geef je aan akkoord te gaan met de voorwaarden en bepalingen van %2$s, te vinden op:
-
-%1$s.sonos.com/%3$s/terms</String>
-<String id="RHHSTR_AcctNeedTrial_Sonos">Met de aanmeldingsgegevens voor %1$s kun je %1$s tijdens de proefperiode op je Sonos-systeem gebruiken.
-
-Als je na afloop van de proefperiode wilt blijven luisteren, moet je de account bij %1$s upgraden door abonnee te worden.</String>
-<String id="RHHSTR_AcctExpiredSuccess_Sonos">De proefperiode voor %1$s is voorbij op dit Sonos-systeem.
-
-Als je wilt blijven luisteren, moet je de account bij %1$s upgraden door abonnee te worden.
-
-Druk op OK om door te gaan.</String>
-<String id="RHHSTR_RegUpgrade_Sonos">Als je na afloop van de proefperiode wilt blijven luisteren, ga je naar de volgende website om je account bij %2$s te upgraden door abonnee te worden.
-
-%1$s.sonos.com/%3$s/subscribe
-
-%4$s</String>
-<String id="RHHSTR_TrialUpgrade_Sonos">Als je na de proefperiode wilt blijven luisteren, ga je naar de volgende website om een abonnement op %2$s te nemen:
-
-%1$s.sonos.com//%3$s/subscribe 
-
-%4$s</String>
-<String id="STR_AnonymousNewUser">%1$s instellen</String>
-<String id="RHHSTR_TrialNewUser_Sonos">Ik ben onbekend met %1$s</String>
-<String id="RHHSTR_TrialNewUser_LastFM">Ik ben onbekend met Last.fm</String>
-<String id="RHHSTR_TrialHaveAcct">Ik heb al een account</String>
-<String id="RHHSTR_AcctBadLocation_Sonos">Kan account niet maken.
-%1$s is niet beschikbaar in jouw regio.</String>
-<String id="RHHSTR_AddMusicServiceType_Sonos">%1$s-account toevoegen</String>
-<String id="RHHSTR_AddMusicServiceType_LastFM">Last.fm-account toevoegen</String>
-<String id="RHHSTR_AcctNeedFullAccount_Sonos">Het lijkt erop dat je geen upgrade van je %1$s-account naar een abonnement hebt uitgevoerd.
-
-Controleer de account bij %1$s en druk op Terug om het opnieuw te proberen.
-
-Druk op OK om dat later te doen.</String>
-<String id="RHHSTR_InsufficientAcctType_Sonos">Probleem bij toevoegen account.
-
-Als je deze account wilt gebruiken met Sonos, moet je eerst abonnee van %1$s worden.</String>
-<String id="RHHSTR_AcctSuspended_Sonos">%1$s kan de opdracht niet voltooien omdat de account buiten werking is gesteld.</String>
-<String id="RHHSTR_MenuOptsTempUnavail">Sommige menuopties zijn tijdelijk niet beschikbaar. Probeer het later opnieuw.</String>
-<String id="RHHSTR_InfoView_NoInfo">Geen informatie beschikbaar.</String>
-<String comment="ROBTODO" id="RHHSTR_EventDetails">Details gebeurtenis</String>
-<String id="RHHSTR_UnsupportedTerritoryErr_Sonos">Probleem bij toevoegen proefperiode. %1$s is niet beschikbaar in jouw regio.</String>
-<String id="RHHSTR_TooManyAccounts">Je hebt het maximum aantal muziekservices-accounts bereikt dat aan het Sonos-systeem kan worden toegevoegd. Verwijder een bestaande account vóór je een nieuwe toevoegt.</String>
-<String id="RHHSTR_COUNTRY_NAMES">Verenigde Staten:US
-Afghanistan:AF
-Albanië:AL
-Amerikaans-Samoa:AS
-Andorra:AD
-Angola:AO
-Anguilla:AI
-Antigua:AG
-Argentinië:AR
-Armenië:AM
-Aruba:AW
-Australië:AU
-Oostenrijk:AT
-Azerbeidzjan:AZ
-Bahama's:BS
-Bahrein:BH
-Bangladesh:BD
-Barbados:BB
-Wit-Rusland:BY
-België:BE
-Belize:BZ
-Benin:BJ
-Bermuda:BM
-Bhutan:BT
-Bolivia:BO
-Bosnië-Herzegovina:BA
-Botswana:BW
-Brazilië:BR
-Britse Maagdeneilanden.:VG
-Brunei:BN
-Bulgarije:BG
-Burkina Faso:BF
-Burundi:BI
-Cambodja:KH
-Canada:CA
-Kaapverdië:CV
-Kaaimaneilanden:KY
-Tsjaad:TD
-Chili:CL
-China:CN
-Colombia:CO
-Congo:CG
-Congo, Democratische Republiek:CD
-Cookeilanden:CK
-Costa Rica:CR
-Kroatië:HR
-Cyprus:CY
-Tsjechische Republiek:CZ
-Denemarken:DK
-Djibouti:DJ
-Dominica:DM
-Dominicaanse Republiek:DO
-Ecuador:EC
-Egypte:EG
-El Salvador:SV
-Equatoriaal-Guinea:GQ
-Eritrea:ER
-Estland:EE
-Ethiopië:ET
-Faeröer:FO
-Fiji:FJ
-Finland:FI
-Frankrijk:FR
-Frans-Guyana:GF
-Frans-Polynesië:PF
-Gabon:GA
-Gambia:GM
-Georgië:GE
-Duitsland:DE
-Ghana:GH
-Gibraltar:GI
-Griekenland:GR
-Groenland:GL
-Grenada:GD
-Guadeloupe:GP
-Guam:GU
-Guatemala:GT
-Guinee:GN
-Guyana:GY
-Haïti:HT
-Honduras:HN
-Hong Kong:HK
-Hongarije:HU
-IJsland:IS
-India:IN
-Indonesië:ID
-Irak:IQ
-Ierland:IE
-Israël:IL
-Italië:IT
-Jamaica:JM
-Japan:JP
-Jordanië:JO
-Kazachstan:KZ
-Kenia:KE
-Koeweit:KW
-Kirgizië:KG
-Laos:LA
-Letland:LV
-Libanon:LB
-Lesotho:LS
-Liberia:LR
-Liechtenstein:LI
-Litouwen:LT
-Luxemburg:LU
-Macau:MO
-Macedonië:MK
-Madagascar:MG
-Malawi:MW
-Maleisië:MY
-Maldiven:MV
-Mali:ML
-Malta:MT
-Marshalleilanden:MH
-Martinique:MQ
-Mauritanië:MR
-Mauritius:MU
-Mexico:MX
-Micronesia:FM
-Moldavië:MD
-Monaco:MC
-Mongolië:MN
-Montenegro:ME
-Montserrat:MS
-Marokko:MA
-Mozambique:MZ
-Namibië:NA
-Nepal:NP
-Nederland:NL
-Nederlandse Antillen:AN
-Nieuw-Caledonië:NC
-Nieuw-Zeeland:NZ
-Nicaragua:NI
-Niger:NE
-Nigeria:NG
-Noorwegen:NO
-Oman:OM
-Pakistan:PK
-Palau:PW
-Palestijnse Autonome Gebieden:PS
-Panama:PA
-Papoea-Nieuw-Guinea:PG
-Paraguay:PY
-Peru:PE
-Filipijnen:PH
-Polen:PL
-Portugal:PT
-Puerto Rico:PR
-Qatar:QA
-Réunion:RE
-Roemenië:RO
-Russische Federatie:RU
-Rwanda:RW
-Saoedi-Arabië:SA
-Senegal:SN
-Servië:RS
-Seychellen:SC
-Singapore:SG
-Slowakije:SK
-Slovenië:SI
-Zuid-Afrika:ZA
-Zuid-Korea:KR
-Spanje:ES
-Sri Lanka:LK
-Saint Kitts/Nevis:KN
-Saint Lucia:LC
-Saint Vincent:VC
-Suriname:SR
-Swaziland:SZ
-Zweden:SE
-Zwitserland:CH
-Syrië:SY
-Taiwan:TW
-Tanzania:TZ
-Thailand:TH
-Togo:TG
-Trinidad/Tobago:TT
-Tunesië:TN
-Turkije:TR
-Turkmenistan:TM
-Turks &amp; Caicos:TC
-V.A.E.:AE
-Amerikaanse Maagdeneilanden:VI
-Oeganda:UG
-Oekraïne:UA
-Verenigd Koninkrijk:GB
-Uruguay:UY
-Oezbekistan:UZ
-Vanuatu:VU
-Venezuela:VE
-Vietnam:VN
-Wallis &amp; Futuna:WF
-Jemen:YE
-Zambia:ZM
-Zimbabwe:ZW</String>
-<String id="RHHSTR_TIME_ZONES">(GMT-12:00) Internationale datumgrens west
-(GMT-11:00) Midway Island, Samoa
-(GMT-10:00) Hawaii
-(GMT-09:00) Alaska
-(GMT-08:00) Westkust VS en Canada
-(GMT-07:00) Arizona
-(GMT-07:00) Chihuahua, La Paz, Mazatlan
-(GMT-07:00) Bergen VS en Canada
-(GMT-06:00) Midden-Amerika
-(GMT-06:00) Midden-VS en Canada
-(GMT-06:00) Guadalajara, Mexico City, Monterrey
-(GMT-06:00) Saskatchewan
-(GMT-05:00) Bogota, Lima, Quito
-(GMT-05:00) Oostkust VS en Canada
-(GMT-05:00) Indiana (Oost)
-(GMT-04:00) Atlantische tijdzone (Canada)
-(GMT-04:00) Caracas, La Paz
-(GMT-04:00) Santiago
-(GMT-03:30) Newfoundland
-(GMT-03:00) Brasilia
-(GMT-03:00) Buenos Aires, Georgetown
-(GMT-03:00) Groenland
-(GMT-02:00) Atlantische Oceaan
-(GMT-01:00) Azoren
-(GMT-01:00) Kaapverdië
-(GMT) Casablanca, Monrovia
-(GMT) Greenwich Mean Time: Dublin, Londen
-(GMT+01:00) Amsterdam, Berlijn, Bern, Rome
-(GMT+01:00) Belgrado, Bratislava, Boedapest
-(GMT+01:00) Brussel, Kopenhagen, Madrid, Parijs
-(GMT+01:00) Sarajevo, Skopje, Warschau, Zagreb
-(GMT+01:00) Centraal-Afrika
-(GMT+02:00) Athene, Istanboel, Minsk
-(GMT+02:00) Boekarest
-(GMT+02:00) Caïro
-(GMT+02:00) Harare, Pretoria
-(GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn
-(GMT+02:00) Jeruzalem
-(GMT+03:00) Baghdad
-(GMT+03:00) Koewait, Riyadh
-(GMT+03:00) Moskou, St. Petersburg, Wolgograd
-(GMT+03:00) Naïrobi
-(GMT+03:30) Teheran
-(GMT+04:00) Abu Dhabi, Muscat
-(GMT+04:00) Baku, Tbilisi, Jerevan
-(GMT+04:30) Kabul
-(GMT+05:00) Jekaterinenburg
-(GMT+05:00) Islamabad, Karachi, Tashkent
-(GMT+05:30) Madras, Calcutta, Mumbai
-(GMT+05:45) Kathmandu
-(GMT+06:00) Almaty, Novosibirsk
-(GMT+06:00) Astana, Dhaka
-(GMT+06:00) Sri Jayawardenepura
-(GMT+06:30) Rangoon
-(GMT+07:00) Bangkok, Hanoi, Jakarta
-(GMT+07:00) Krasnoyarsk
-(GMT+08:00) Peking, Chongqing, Hongkong
-(GMT+08:00) Irkoetsk, Ulaanbataar
-(GMT+08:00) Kuala Lumpur, Singapore
-(GMT+08:00) Perth
-(GMT+08:00) Taipei
-(GMT+09:00) Osaka, Sapporo, Tokio
-(GMT+09:00) Seoul
-(GMT+09:00) Jakoetsk
-(GMT+09:30) Adelaide
-(GMT+09:30) Darwin
-(GMT+10:00) Brisbane
-(GMT+10:00) Canberra, Melbourne, Sydney
-(GMT+10:00) Guam, Port Moresby
-(GMT+10:00) Hobart
-(GMT+10:00) Vladivostok
-(GMT+11:00) Magadan, Salomonseilanden, Nieuw-Caledonië
-(GMT+12:00) Auckland, Wellington
-(GMT+12:00) Fiji, Kamtsjatka, Marshalleilanden
-(GMT+13:00) Nuku'alofa</String>
-<String comment="uses STR_ prefix for Actionscript access" id="STR_JoinHouseholdError">Deze controller kan geen verbinding maken met een Sonos-component. Probeer het opnieuw. (%1$d)</String>
-<String id="STR_Setting_fixedOutputLevel">Uitgangsniveau (%1$s)</String>
-<String id="STR_Setting_fixedOutputLevel_Fixed">Vast</String>
-<String id="STR_Setting_fixedOutputLevel_Variable">Variabel</String>
-<String id="STR_Setting_fixedOutputLevel_Msg">Je kunt het uitgangsniveau van de Sonos-speler instellen op Variabel of Vast.</String>
-<String id="STR_GeneralSettings">Systeeminstellingen</String>
-<String id="STR_Setting_ZoneExtender">Spelermodus (%1$s)</String>
-<String id="STR_Setting_ZoneExtenderWarn">Wanneer een Sonos-speler in de modus Extender staat, verschijnt deze niet in het menu Kamers. Selecteer een modus voor deze Sonos-speler.</String>
-<String id="STR_ChooseZonePlayerAudioInputName">Naam kiezen voor de bron</String>
-<String id="STR_NoBrowseSelections">Geen selecties beschikbaar.</String>
-<String id="STR_NoBrowseSettings">Geen instellingen beschikbaar.</String>
-<String id="STR_NowPlayingHdr">Je hoort nu</String>
-<String id="STR_Setting_Bass">Bas</String>
+<String id="STR_Setting_AlarmFreq_Saturday">Mijn radioprogramma's</String>
+<String id="RHHSTR_Setting_AlarmFreq_EveryDay">Meer over de proefperiode voor %2$s is te vinden op: %1$s.sonos.com/%3$s</String>
+<String id="RHHSTR_FreeTrialAccountName">Selecteer uit de volgende opties:</String>
+<String id="RHHSTR_TrialDescription_Sonos">Last.fm is een service die muziek aanbeveelt, zodat je nieuwe muziek kunt delen en ontdekken.</String>
+<String id="RHHSTR_TrialAgreement_Sonos">Door gebruik te maken van deze gratis, vrijblijvende proef, gaat u akkoord met de %2$s bepalingen en voorwaarden op: %1$s .sonos.com / %3$s / terms</String>
+<String id="RHHSTR_AcctNeedTrial_Sonos">Met uw %1$s -inloggegevens kunt u de %1$s proef op uw Sonos-systeem gebruiken. %1$s niet geïnstalleerd. Installeer de app en probeer het opnieuw.</String>
+<String id="RHHSTR_AcctExpiredSuccess_Sonos">Install AppZXZ Om door te gaan met luisteren, upgrade uw account met %1$s om een ​​abonnee te worden. Bericht werd verzonden naar %1$s (%2$s), maar niet naar %3$s (%4$s).</String>
+<String id="RHHSTR_RegUpgrade_Sonos">Om door te gaan met luisteren nadat de proefperiode is afgelopen, gaat u naar de volgende website om uw account bij te %2$swerken met %2$s en een abonnee te worden. %1$s .sonos.com / %3$s / aanmelden %4$s</String>
+<String id="RHHSTR_TrialUpgrade_Sonos">Om te luisteren blijven na de proefperiode is afgelopen, gaat u naar de volgende website om een %2$s abonnee te worden: %1$s .sonos.com / %3$s / aanmelden %4$s</String>
+<String id="STR_AnonymousNewUser">%1$s installeren</String>
+<String id="RHHSTR_TrialNewUser_Sonos">Ik ben nieuw voor %1$s</String>
+<String id="RHHSTR_TrialNewUser_LastFM">Ik ben nieuw bij Last.fm</String>
+<String id="RHHSTR_TrialHaveAcct">ik heb al een account</String>
+<String id="RHHSTR_AcctBadLocation_Sonos">Kan account niet maken. %1$s is niet beschikbaar in uw regio.</String>
+<String id="RHHSTR_AddMusicServiceType_Sonos">Voeg een %1$s Account toe</String>
+<String id="RHHSTR_AddMusicServiceType_LastFM">Voeg een Last.fm-account toe</String>
+<String id="RHHSTR_AcctNeedFullAccount_Sonos">Als je gebruik maakt van deze gratis proefperiode, geef je aan akkoord te gaan met de voorwaarden en bepalingen van %2$s, te vinden op: %1$s.sonos.com/%3$s/terms Met de aanmeldingsgegevens voor %1$s kun je %1$s tijdens de proefperiode op je Sonos-systeem gebruiken. Als je na afloop van de proefperiode wilt blijven luisteren, moet je de account bij %1$s upgraden door abonnee te worden.</String>
+<String id="RHHSTR_InsufficientAcctType_Sonos">De proefperiode voor %1$s is voorbij op dit Sonos-systeem. Als je wilt blijven luisteren, moet je de account bij %1$s upgraden door abonnee te worden. Druk op OK om door te gaan.</String>
+<String id="RHHSTR_AcctSuspended_Sonos">Als je na afloop van de proefperiode wilt blijven luisteren, ga je naar de volgende website om je account bij %2$s te upgraden door abonnee te worden. %1$s.sonos.com/%3$s/subscribe %4$s</String>
+<String id="RHHSTR_MenuOptsTempUnavail">Als je na de proefperiode wilt blijven luisteren, ga je naar de volgende website om een abonnement op %2$s te nemen: %1$s.sonos.com//%3$s/subscribe %4$s Probeer het later opnieuw.</String>
+<String id="RHHSTR_InfoView_NoInfo">Ik ben onbekend met Last.fm</String>
+<String id="RHHSTR_EventDetails" comment="ROBTODO">Ik heb al een account</String>
+<String id="RHHSTR_UnsupportedTerritoryErr_Sonos">Er is een probleem opgetreden bij het toevoegen van de proef. %1$s is niet beschikbaar op uw locatie.</String>
+<String id="RHHSTR_TooManyAccounts">U hebt het maximale aantal muziekserviceaccounts bereikt dat aan uw Sonos-systeem kan worden toegevoegd. Controleer de account bij %1$s en druk op Terug om het opnieuw te proberen.</String>
+<String id="RHHSTR_COUNTRY_NAMES">Verenigde Staten: VS Afghanistan: AF Albanië: AL Amerikaans Samoa: AS Andorra: AD Angola: AO Anguilla: AI Antigua: AG Argentinië: AR Armenië: AM Aruba: AW Australië: AU Oostenrijk: AT Azerbeidzjan: AZ Bahama's: BS Bahrein: BH Bangladesh: BD Barbados: BB Belarus: BY België: BE Belize: BZ Benin: BJ Bermuda: BM Bhutan: BT Bolivia: BO Bosnië-Herzegovina: BA Botswana: BW Brazilië: BR British Virgin Is.:VG Brunei: BN Bulgaria: BG Burkina Faso: BF Burundi: BI Cambodja: KH Canada: CA Kaapverdië: CV Kaaimaneilanden: KY Tsjaad: TD Chili: CL China: CN Colombia: CO Congo: CG Congo, Democratische Republiek: CD Cook Islands: CK Costa Rica: CR Kroatië: HR Cyprus: CY Tsjechië: CZ Denemarken: DK Djibouti: DJ Dominica: DM Dominicaanse Republiek: DO Ecuador: EG Egypte: EG El Salvador: SV Equatoriaal Guinea: GQ Eritrea: ER Estland: EE Ethiopië: ET Faeröer: FO Fiji: FJ Finland: FI Frankrijk: FR Frans Guyana: GF Frans-Polynesië: PF Gabon: GA Gambia: GM Georgia: GE Duitsland: DE Ghana: GH Gibraltar: GI Griekenland: GR Groenland: GL Grenada: GD Guadeloupe: GP Guam: GU Guatemala: GT Guinea: GN Guyana: GY Ha iti: HT Honduras: HN Hong Kong: HK Hungary: HU IJsland: IS India: IN Indonesia: ID Iraq: IQ Ireland: IE Israel: IL Italy: IT Jamaica: JM Japan: JP Jordan: JO Kazakhstan: KZ Kenya: KE Koeweit : KW Kirgizië: KG Laos: LA Letland: LV Libanon: LB Lesotho: LS Liberia: LR Liechtenstein: LI Litouwen: LT Luxemburg: LU Macau: MO Macedonië: MK Madagaskar: MG Malawi: MW Maleisië: MIJN Maldiven: MV Mali: ML Malta: MT Marshall Eilanden: MH Martinique: MQ Mauritanië: MR Mauritius: MU Mexico: MX Micronesië: FM Moldavië: MD Monaco: MC Mongolië: MN Montenegro: ME Montserrat: MS Marokko: MA Mozambique: MZ Namibië: NA Nepal: NP Nederland : NL Nederlandse Antillen: AN Nieuw-Caledonië: NC Nieuw-Zeeland: NZ Nicaragua: NI Niger: NE Nigeria: NG Noorwegen: NO Oman: OM Pakistan: PK Palau: PW Palestine Autonoom: PS Panama: PA Papoea-Nieuw-Guinea: PG Paraguay: PY Peru: PE Filippijnen: PH Polen: PL Portugal: PT Puerto Rico: PR Qatar: QA Reunion: RE Roemenië: RO Russische Federatie: RU Rwanda: RW Saoedi-Arabië: SA Senegal: SN Servië: RS Seychellen: SC Singapore: SG Slowakije : SK Slovenië: SI South Afr ica: ZA Zuid-Korea: KR Spanje: ES Sri Lanka: LK St Kitts / Nevis: KN St Lucia: LC St Vincent: VC Suriname: SR Swaziland: SZ Zweden: SE Zwitserland: CH Syrië: SY Taiwan: TW Tanzania: TZ Thailand : TH Togo: TG Trinidad / Tobago: TT Tunesië: TN Turkije: TR Turkmenistan: TM Turks &amp; Caicos: TC VAE: AE Amerikaanse Maagdeneilanden: VI Oeganda: UG Oekraïne: UA Verenigd Koninkrijk: GB Uruguay: UY Oezbekistan: UZ Vanuatu: VU Venezuela: VE Vietnam: VN Wallis &amp; Futuna: WF Yemen: YE Zambia: ZM Zimbabwe: ZW</String>
+<String id="RHHSTR_TIME_ZONES">(GMT-12: 00) International Date Line West (GMT-11: 00) Midway Island, Samoa (GMT-10: 00) Hawaii (GMT-09: 00) Alaska (GMT-08: 00) Pacific Time (VS en Canada) (GMT-07: 00) Arizona (GMT-07: 00) Chihuahua, La Paz, Mazatlan (GMT-07: 00) Mountain Time (VS en Canada) (GMT-06: 00) Midden-Amerika (GMT-06 : 00) Central Time (VS en Canada) (GMT-06: 00) Guadalajara, Mexico-Stad, Monterrey (GMT-06: 00) Saskatchewan (GMT-05: 00) Bogota, Lima, Quito (GMT-05: 00) Eastern Time (VS en Canada) (GMT-05: 00) Indiana (Oost) (GMT-04: 00) Atlantic Time (Canada) (GMT-04: 00) Caracas, La Paz (GMT-04: 00) Santiago ( GMT-03: 30) Newfoundland (GMT-03: 00) Brasilia (GMT-03: 00) Buenos Aires, Georgetown (GMT-03: 00) Groenland (GMT-02: 00) Mid-Atlantische Oceaan (GMT-01: 00 ) Azoren (GMT-01: 00) Kaapverdië is. Als je deze account wilt gebruiken met Sonos, moet je eerst abonnee van %1$s worden. %1$s kan de opdracht niet voltooien omdat de account buiten werking is gesteld. (GMT + 13: 00) Nuku'alofa</String>
+<String id="STR_JoinHouseholdError" comment="uses STR_ prefix for Actionscript access">Deze controller kan geen verbinding maken met een Sonos-component. Geen informatie beschikbaar.</String>
+<String id="STR_Setting_fixedOutputLevel">Details gebeurtenis</String>
+<String id="STR_Setting_fixedOutputLevel_Fixed">Probleem bij toevoegen proefperiode. %1$s is niet beschikbaar in jouw regio.</String>
+<String id="STR_Setting_fixedOutputLevel_Variable">veranderlijk</String>
+<String id="STR_Setting_fixedOutputLevel_Msg">U kunt het Line-outniveau van de Sonos-speler instellen op Variabel of Vast.</String>
+<String id="STR_GeneralSettings">Systeem instellingen</String>
+<String id="STR_Setting_ZoneExtender">Dublin, Londen (GMT+01:00) Amsterdam, Berlijn, Bern, Rome (GMT+01:00) Belgrado, Bratislava, Boedapest (GMT+01:00) Brussel, Kopenhagen, Madrid, Parijs (GMT+01:00) Sarajevo, Skopje, Warschau, Zagreb (GMT+01:00) Centraal-Afrika (GMT+02:00) Athene, Istanboel, Minsk (GMT+02:00) Boekarest (GMT+02:00) Caïro (GMT+02:00) Harare, Pretoria (GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn (GMT+02:00) Jeruzalem (GMT+03:00) Baghdad (GMT+03:00) Koewait, Riyadh (GMT+03:00) Moskou, St. Petersburg, Wolgograd (GMT+03:00) Naïrobi (GMT+03:30) Teheran (GMT+04:00) Abu Dhabi, Muscat (GMT+04:00) Baku, Tbilisi, Jerevan (GMT+04:30) Kabul (GMT+05:00) Jekaterinenburg (GMT+05:00) Islamabad, Karachi, Tashkent (GMT+05:30) Madras, Calcutta, Mumbai (GMT+05:45) Kathmandu (GMT+06:00) Almaty, Novosibirsk (GMT+06:00) Astana, Dhaka (GMT+06:00) Sri Jayawardenepura (GMT+06:30) Rangoon (GMT+07:00) Bangkok, Hanoi, Jakarta (GMT+07:00) Krasnoyarsk (GMT+08:00) Peking, Chongqing, Hongkong (GMT+08:00) Irkoetsk, Ulaanbataar (GMT+08:00) Kuala Lumpur, Singapore (GMT+08:00) Perth (GMT+08:00) Taipei (GMT+09:00) Osaka, Sapporo, Tokio (GMT+09:00) Seoul (GMT+09:00) Jakoetsk (GMT+09:30) Adelaide (GMT+09:30) Darwin (GMT+10:00) Brisbane (GMT+10:00) Canberra, Melbourne, Sydney (GMT+10:00) Guam, Port Moresby (GMT+10:00) Hobart (GMT+10:00) Vladivostok (GMT+11:00) Magadan, Salomonseilanden, Nieuw-Caledonië (GMT+12:00) Auckland, Wellington (GMT+12:00) Fiji, Kamtsjatka, Marshalleilanden (GMT+13:00) Nuku'alofa</String>
+<String id="STR_Setting_ZoneExtenderWarn">Deze controller kan geen verbinding maken met een Sonos-component. Probeer het opnieuw. (%1$d) Selecteer een modus voor deze Sonos-speler.</String>
+<String id="STR_ChooseZonePlayerAudioInputName">Kies een naam voor de Line-In-bron</String>
+<String id="STR_NoBrowseSelections">Systeeminstellingen</String>
+<String id="STR_NoBrowseSettings">Er zijn geen instellingen beschikbaar.</String>
+<String id="STR_NowPlayingHdr">Selecteer een modus voor deze Sonos-speler.</String>
+<String id="STR_Setting_Bass">Naam kiezen voor de bron</String>
 <String id="STR_Setting_Treble">Treble</String>
-<String id="STR_Setting_Balance">Balans</String>
+<String id="STR_Setting_Balance">Geen instellingen beschikbaar.</String>
 <String id="STR_Setting_Balance_Left">L</String>
-<String id="STR_Setting_Balance_Right">R</String>
-<String id="STR_Setting_Delay">Audiovertraging (lipsync)</String>
-<String id="STR_Setting_SurroundEnabled">Surround-speakers</String>
-<String id="STR_Setting_SurroundLevel">Volume van de tv aanpassen</String>
-<String id="STR_Setting_SurroundMode">Muziek afspelen</String>
-<String id="STR_InternetRadioHdr">Radio</String>
-<String id="STR_Setting_SleepTimer_Off">Uit</String>
-<String id="STR_Setting_SleepTimer_15Mins">15 minuten</String>
-<String id="STR_Setting_SleepTimer_30Mins">30 minuten</String>
-<String id="STR_Setting_SleepTimer_45Mins">45 minuten</String>
-<String id="STR_Setting_SleepTimer_60Mins">1 uur</String>
-<String id="STR_Setting_SleepTimer_120Mins">2 uur</String>
-<String id="STR_Setting_AlarmBuzzer">Sonos-signaal</String>
-<String id="STR_Setting_Alarm">Alarm</String>
-<String id="STR_Setting_Alarms">Alarmen</String>
-<String id="STR_Setting_Alarm_Advanced">Geavanceerd</String>
-<String id="STR_Setting_Alarm_Enable">Alarm (%1$s)</String>
-<String id="STR_Setting_Alarm_Music">Muziek (%1$s)</String>
-<String id="STR_Setting_Alarm_Music_NoTitle">Muziek</String>
-<String id="STR_Setting_Alarm_Volume">Volume</String>
-<String id="STR_Setting_Alarm_ZoneReqd">Selecteer een Sonos-speler voordat je het alarmvolume instelt.</String>
-<String id="STR_Setting_Alarm_FixedOutputVolume">Volume-instellingen zijn niet beschikbaar als uitgangsniveau van Sonos-speler is ingesteld op Vast.</String>
+<String id="STR_Setting_Balance_Right">Bas</String>
+<String id="STR_Setting_Delay">Treble</String>
+<String id="STR_Setting_SurroundEnabled">Balans</String>
+<String id="STR_Setting_SurroundLevel">TV-niveau aanpassen</String>
+<String id="STR_Setting_SurroundMode">Audiovertraging (lipsync)</String>
+<String id="STR_InternetRadioHdr">Surround-speakers</String>
+<String id="STR_Setting_SleepTimer_Off">Volume van de tv aanpassen</String>
+<String id="STR_Setting_SleepTimer_15Mins">Muziek afspelen</String>
+<String id="STR_Setting_SleepTimer_30Mins">Radio</String>
+<String id="STR_Setting_SleepTimer_45Mins">Uit</String>
+<String id="STR_Setting_SleepTimer_60Mins">15 minuten</String>
+<String id="STR_Setting_SleepTimer_120Mins">30 minuten</String>
+<String id="STR_Setting_AlarmBuzzer">45 minuten</String>
+<String id="STR_Setting_Alarm">1 uur</String>
+<String id="STR_Setting_Alarms">2 uur</String>
+<String id="STR_Setting_Alarm_Advanced">Sonos-signaal</String>
+<String id="STR_Setting_Alarm_Enable">Alarm ( %1$s )</String>
+<String id="STR_Setting_Alarm_Music">Geavanceerd</String>
+<String id="STR_Setting_Alarm_Music_NoTitle">Alarm (%1$s)</String>
+<String id="STR_Setting_Alarm_Volume">Muziek (%1$s)</String>
+<String id="STR_Setting_Alarm_ZoneReqd">U moet een Sonos-speler selecteren voordat u het alarmvolume instelt.</String>
+<String id="STR_Setting_Alarm_FixedOutputVolume">Volume-instellingen zijn niet beschikbaar als het Line-Out-niveau van een Sonos-speler op Vast is ingesteld.</String>
 <String id="STR_Setting_Alarm_12H">12 uur</String>
 <String id="STR_Setting_Alarm_24H">24 uur</String>
-<String id="STR_Setting_Alarm_AM">AM</String>
-<String id="STR_Setting_Alarm_PM">PM</String>
-<String id="STR_Setting_Alarm_MDY">Maand Dag Jaar</String>
+<String id="STR_Setting_Alarm_AM">24 uur</String>
+<String id="STR_Setting_Alarm_PM">AM</String>
+<String id="STR_Setting_Alarm_MDY">PM</String>
 <String id="STR_Setting_Alarm_DMY">Dag Maand Jaar</String>
-<String id="STR_Setting_Alarm_YMD">Jaar Maand Dag</String>
-<String id="STR_Setting_Alarm_HrFmt">%1$d uur</String>
+<String id="STR_Setting_Alarm_YMD">Dag Maand Jaar</String>
+<String id="STR_Setting_Alarm_HrFmt">Jaar Maand Dag</String>
 <String id="STR_Setting_Alarm_HrsFmt">%1$d uur</String>
 <String id="STR_Setting_Alarm_MinFmt">%1$d min</String>
 <String id="STR_Setting_AlarmLength_15Mins">15 minuten</String>
-<String id="STR_Setting_AlarmLength_30Mins">30 minuten</String>
-<String id="STR_Setting_AlarmLength_45Mins">45 minuten</String>
-<String id="STR_Setting_AlarmLength_60Mins">1 uur</String>
+<String id="STR_Setting_AlarmLength_30Mins">Radio</String>
+<String id="STR_Setting_AlarmLength_45Mins">Uit</String>
+<String id="STR_Setting_AlarmLength_60Mins">15 minuten</String>
 <String id="STR_Setting_AlarmLength_120Mins">2 uur</String>
 <String id="STR_Setting_AlarmLength_NoLimit">Geen limiet</String>
 <String id="STR_Setting_Alarm_AskShowClock">Wil je dat de klok wordt getoond op DEZE Controller als het alarm klinkt?</String>
@@ -770,45 +479,40 @@ Zimbabwe:ZW</String>
 <String id="STR_ConfirmDeleteAlarm">Weet je zeker dat je dit alarm wilt verwijderen?</String>
 <String id="STR_Setting_Alarm_Create_Error_Unknown">Kan alarm niet opslaan. Probeer het later opnieuw.</String>
 <String id="STR_Setting_Alarm_ConflictAlarm_Error">Kan alarm niet opslaan. Er is al een alarm voor deze kamer op de opgegeven tijd.</String>
-<String id="STR_Setting_Alarm_MaxAlarms_Error">Je kunt geen alarmen meer maken. Verwijder een bestaand alarm voordat je een nieuw alarm toevoegt.</String>
+<String id="STR_Setting_Alarm_MaxAlarms_Error">Er kunnen geen alarmen meer worden gemaakt. Verwijder een bestaand alarm voordat je een nieuw alarm toevoegt.</String>
 <String id="STR_Setting_Alarm_Delete_Error">Kan alarm niet verwijderen. Probeer het later opnieuw.</String>
 <String id="STR_Setting_Alarm_Set_From_Internet">Je systeem haalt de datum en tijd op van het internet.</String>
 <String id="STR_Setting_Alarms_EmptyMessage">Druk op Nieuw alarm om een alarmsignaal in te stellen.</String>
 <String id="STR_Setting_ArtistView_Warn">Selecteer hoe je verzamelalbums wilt groeperen.</String>
-<String id="STR_Scrobbling_Prompt">Scrobblen houdt in dat wanneer je via Sonos luistert naar een nummer, de naam wordt toegevoegd aan je Last.fm-muziekprofiel. Met behulp van deze gegevens kan Last.fm muziek aanbevelen, radiostations maken op basis van je muzikale smaak en nog veel meer.
-
-Selecteer een optie voor scrobblen:</String>
+<String id="STR_Scrobbling_Prompt">Scrobblen houdt in dat wanneer je via Sonos luistert naar een nummer, de naam wordt toegevoegd aan je Last.fm-muziekprofiel. Met behulp van deze gegevens kan Last.fm muziek aanbevelen, radiostations maken op basis van je muzikale smaak en nog veel meer. Selecteer een optie voor scrobblen:</String>
 <String id="STR_NPNoInfoAvailable">[Geen info beschikbaar]</String>
-<String comment="used for now playing" id="STR_NoMusic">[Geen muziek]</String>
+<String id="STR_NoMusic" comment="used for now playing">[Geen muziek geselecteerd]</String>
 <String id="STR_SourceDeviceHdr">Bronapparaat</String>
-<String comment="softkey label" id="STR_AddToQueue">Naar einde wachtrij</String>
+<String id="STR_AddToQueue" comment="softkey label">Naar einde wachtrij</String>
 <String id="STR_PlayNow">Nu afspelen</String>
 <String id="STR_AddNextInQueue">Als volgende afspelen</String>
 <String id="STR_PlayMenu_InfoView_ItemTitle">Info &amp; Opties</String>
 <String id="STR_NoSonosID">&lt;niet geregistreerd&gt;</String>
 <String id="STR_AboutBoxZPhdr">
----------------------------------
-%1$s: %2$s
+--------------------------------- %1$s : %2$s
 </String>
-<String id="STR_AboutBoxZPsn">Serienummer: %1$s
+<String id="STR_AboutBoxZPsn">Kan '%4$s' niet afspelen. %1$s
 </String>
-<String id="STR_AboutBoxZPswv">Versie: %1$s (build %2$s)
+<String id="STR_AboutBoxZPswv">Versie: %1$s (bouwen %2$s )
 </String>
-<String id="STR_AboutBoxZPhwv">Hardwareversie: %1$s
+<String id="STR_AboutBoxZPhwv">Hardwareversie:  %1$s
 </String>
-<String id="STR_AboutBoxZPserID">Serie-ID: %1$s
+<String id="STR_AboutBoxZPserID">Serie-ID:  %1$s
 </String>
-<String id="STR_AboutBoxZPip">IP-adres: %1$s</String>
+<String id="STR_AboutBoxZPip"> IP-adres: %1$s</String>
 <String id="STR_AboutBoxZPHT">
-Audio-ingang: %1$s</String>
+Audio-ingang:  %1$s</String>
 <String id="STR_AboutBoxZPxi">
 %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
-Waarschuwing: het draadloze netwerk ondersteunt het gebruik van een SUB of surroundspeakers met de %1$s niet.</String>
+WAARSCHUWING: Uw draadloze netwerk ondersteunt het gebruik van een SUB of surrounds niet met uw %1$s .</String>
 <String id="STR_Setting_ZPHidden">%1$s (verborgen)</String>
-<String id="STR_Setting_UnassociatedSub">%1$s (niet gebruikt)</String>
-<String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
-<String comment="top-level sub-title" id="STR_MusicCollection">Muziek</String>
+<String id="STR_MusicCollection" comment="top-level sub-title">Muziek</String>
 <String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes®-verzamelingen</String>
 <String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Albumartiesten</String>
 <String id="STR_ARTISTVIEW_SIMPLE_CONTRACTION">Niet groeperen</String>
@@ -820,10 +524,8 @@ Waarschuwing: het draadloze netwerk ondersteunt het gebruik van een SUB of surro
 <String id="STR_SonosAPIErrorNoRadioRW">Terugspoelen is niet beschikbaar voor dit nummer van %1$s.</String>
 <String id="STR_SonosAPIErrorNoRadioNext">Vooruitspringen en Vooruitspoelen zijn niet beschikbaar voor dit nummer van %1$s.</String>
 <String id="STR_SonosAPIErrorNoRadioSkip">Terugspringen en Terugspoelen zijn niet beschikbaar voor dit nummer van %1$s.</String>
-<String id="STR_SonosAPIErrorNextLimit">Kan niet vooruitspringen. %1$s beperkt het aantal nummers dat je per uur kunt overslaan.</String>
-<String id="STR_MSS_LearnMore">Meer informatie over %1$s is te vinden op:
-
-%2$s.sonos.com/%3$s</String>
+<String id="STR_SonosAPIErrorNextLimit">Kan niet overslaan. %1$s beperkt het aantal nummers dat u per uur kunt overslaan.</String>
+<String id="STR_MSS_LearnMore">U kunt meer informatie vinden over %1$s op: %2$s .sonos.com / %3$s</String>
 <String id="STR_MSS_SECONDARY_DESC_SONOS">Aanmelden bij %1$s</String>
 <String id="STR_MSS_SECONDARY_DESC_TRIAL">Gratis proefversie</String>
 <String id="STR_MSS_SECONDARY_DESC">Gratis basisservice</String>
@@ -837,9 +539,9 @@ Waarschuwing: het draadloze netwerk ondersteunt het gebruik van een SUB of surro
 <String id="STR_Disabled">Uitgeschakeld</String>
 <String id="STR_Enable">Inschakelen</String>
 <String id="STR_Disable">Uitschakelen</String>
-<String comment="ROBTODO" id="STR_LastFMArtistsTitle">Artiesten:</String>
-<String comment="ROBTODO" id="STR_LastFMVenueTitle">Zaal:</String>
-<String comment="ROBTODO" id="STR_LastFMDescriptionTitle">Beschrijving:</String>
+<String id="STR_LastFMArtistsTitle" comment="ROBTODO">Artiesten:</String>
+<String id="STR_LastFMVenueTitle" comment="ROBTODO">Zaal:</String>
+<String id="STR_LastFMDescriptionTitle" comment="ROBTODO">Beschrijving:</String>
 <String id="STR_InfoViewHeaderLabelTrack">Nummer</String>
 <String id="STR_InfoViewHeaderLabelAlbum">Album</String>
 <String id="STR_InfoViewHeaderLabelArtist">Artiest</String>
@@ -859,8 +561,8 @@ Waarschuwing: het draadloze netwerk ondersteunt het gebruik van een SUB of surro
 <String id="STR_FavShowExistsMessage">Programma staat al in Mijn radioprogramma's.</String>
 <String id="STR_FavStationFailedGeneric">Kan station niet toevoegen aan mijn radiostations.</String>
 <String id="STR_FavShowFailedGeneric">Kan programma niet toevoegen aan Mijn radioprogramma's.</String>
-<String id="STR_ConfirmDeleteFavoriteWithLinebreaks">Weet je zeker dat je '%1$s'  uit Mijn radiostations wilt verwijderen?</String>
-<String id="STR_ConfirmDeleteFavShowWithLinebreaks">Weet je zeker dat je '%1$s' uit Mijn radioprogramma's wilt verwijderen?</String>
+<String id="STR_ConfirmDeleteFavoriteWithLinebreaks">U hebt ervoor gekozen om " %1$s " te verwijderen uit Mijn radiostations. Weet je het zeker?</String>
+<String id="STR_ConfirmDeleteFavShowWithLinebreaks">U hebt ervoor gekozen om " %1$s " van Mijn %1$sradioshows te verwijderen. Weet je het zeker?</String>
 <String id="STR_FavoriteDeleted">Station uit Mijn radiostations verwijderd.</String>
 <String id="STR_FavShowDeleted">Programma uit Mijn radioprogramma's verwijderd.</String>
 <String id="STR_DelRadioStationFavFailed">Kan station niet uit Mijn radiostations verwijderen</String>
@@ -910,9 +612,7 @@ Waarschuwing: het draadloze netwerk ondersteunt het gebruik van een SUB of surro
 <String id="STR_AlbumInfo">Info over album</String>
 <String id="STR_AutomixTrack">Nummer automatisch mixen</String>
 <String id="STR_AutomixAlbum">Album automatisch mixen</String>
-<String id="STR_NoSharesAvailable">Geen gedeelde mappen beschikbaar.
-
-Gebruik de Sonos-installatiesoftware op de computer om muziekmappen in te stellen voor delen.</String>
+<String id="STR_NoSharesAvailable">Geen gedeelde mappen beschikbaar. Gebruik de Sonos-installatiesoftware op de computer om muziekmappen in te stellen voor delen.</String>
 <String id="STR_ReplaceQueuePrompt">Wil je de wachtrij vervangen?</String>
 <String id="STR_SaveQueueErrorMobileTracksNotSaved">Nummers van mobiele apparaten kunnen niet worden opgenomen in Sonos-afspeellijsten en zijn niet opgeslagen.</String>
 <String id="STR_SaveQueueErrorAllMobileTracks">De wachtrij bevat alleen nummers van mobiele apparaten. Deze nummers kunnen niet in Sonos-afspeellijsten worden opgeslagen.</String>
@@ -948,8 +648,7 @@ Gebruik de Sonos-installatiesoftware op de computer om muziekmappen in te stelle
 <String id="STR_Setting_StereoPair_ErrorSeparating">Er is een probleem opgetreden bij het scheiden van de stereoset. Probeer het opnieuw.</String>
 <String id="STR_ThirdPartyStreaming">App wordt uitgevoerd op iPod</String>
 <String id="STR_DockediPods">iPods in dock</String>
-<String id="STR_BrowseiPodConfirm">Weet je zeker dat je  in %1$s wilt bladeren?
-Het geluid dat op dit moment wordt afgespeeld, kan worden onderbroken.</String>
+<String id="STR_BrowseiPodConfirm">Weet je zeker dat je in %1$s wilt bladeren? Het geluid dat op dit moment wordt afgespeeld, kan worden onderbroken.</String>
 <String id="STR_BrowseiPod">Bladeren</String>
 <String id="STR_InDock">iPod in dock</String>
 <String id="STR_ContentFrom">Inhoud van</String>
@@ -977,20 +676,8 @@ Het geluid dat op dit moment wordt afgespeeld, kan worden onderbroken.</String>
 <String id="STR_MoreMusic_Alt">Muziekservices toevoegen</String>
 <String id="STR_Queue_Full">Kan nummers niet aan de wachtrij toevoegen.</String>
 <String id="STR_Guest_Account">Gastaccount</String>
-<String id="STR_AddToQueueNotAuthorized">Kan nummer(s) niet aan de wachtrij toevoegen.
-
-Voor één of meer Sonos-spelers is Windows Media Sharing niet ingeschakeld. 
-
-Ga voor hulp naar http://%1$s.sonos.com/wmpsharing.
-
-Druk op de knop OK om door te gaan.</String>
-<String id="STR_BrowseNotAuthorized">Kan niet door muziek bladeren.
-
-Windows Media Sharing is niet ingeschakeld voor één of meer Sonos-spelers. 
-
-Ga naar http://%1$s.sonos.com/wmpsharing voor hulp. 
-
-Druk op de knop OK om door te gaan.</String>
+<String id="STR_AddToQueueNotAuthorized">Kan nummer(s) niet aan de wachtrij toevoegen. Voor één of meer Sonos-spelers is Windows Media Sharing niet ingeschakeld. Ga voor hulp naar http://%1$s.sonos.com/wmpsharing. Druk op de knop OK om door te gaan.</String>
+<String id="STR_BrowseNotAuthorized">Kan niet door muziek bladeren. Windows Media Sharing is niet ingeschakeld voor één of meer Sonos-spelers. Ga voor hulp naar http://%1$s.sonos.com/wmpsharing. Druk op de knop OK om door te gaan.</String>
 <String id="STR_MiscAddToQueueErr">Er is een fout opgetreden bij het toevoegen van nummers aan de wachtrij (%1$d)</String>
 <String id="STR_TracksNotStreamable">Deze nummers zijn niet beschikbaar om vanaf %1$s te streamen</String>
 <String id="STR_AddingTracksToQueue">Nummers worden aan wachtrij toegevoegd…</String>
@@ -1011,16 +698,7 @@ Druk op de knop OK om door te gaan.</String>
 <String id="STR_Rename">Naam wijzigen</String>
 <String id="STR_Scrobbling">Scrobblen</String>
 <String id="STR_OK">OK</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">Om openbare bètaservices van de Sonos Labs toe te voegen, moet je gebruiksgegevens delen met Sonos.
-
-Je kunt de instellingen voor de gebruiksgegevens bekijken of wijzigen via Instellingen &gt; Geavanceerde instellingen &gt; Gegevens over gebruik.</String>
-<String id="STR_TwoButtonDevices">PLAY
-CONNECT:AMP
-CONNECT</String>
-<String id="STR_OneButtonDevicesInitial">BRIDGE</String>
-<String id="STR_OneButtonDevicesWithPlayer">BRIDGE
-SUB
-DOCK</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Om openbare bètaservices van de Sonos Labs toe te voegen, moet je gebruiksgegevens delen met Sonos. Je kunt de instellingen voor de gebruiksgegevens bekijken of wijzigen via Instellingen &gt; Geavanceerde instellingen &gt; Gegevens over gebruik.</String>
 <String id="STR_HTAudioHdr">Tv</String>
 <String id="STR_SUBXOver0">1. Compact</String>
 <String id="STR_SUBXOver1">2.</String>
@@ -1031,19 +709,11 @@ DOCK</String>
 <String id="STR_SUBXOver6">7.</String>
 <String id="STR_StereoPair_Error_SUB_Fmt">Deze %1$s speaker is aangesloten op een SUB. Om een stereopaar te maken met deze speaker, moet je nog een %2$s-speaker beschikbaar hebben die nog geen deel uitmaakt van een ander stereopaar.</String>
 <String id="STR_AddToFavoritesAdded">'%1$s' aan Sonos-favorieten toegevoegd.</String>
-<String id="STR_AddToFavoritesAddedWithRemaining">'%1$s' aan Sonos-favorieten toegevoegd.
-
-Er is nog plaats voor %2$d favorieten.</String>
-<String id="STR_AddToFavoritesAddedOneRemaining">'%1$s' aan Sonos-favorieten toegevoegd.
-
-Er is nog plaats voor 1 favoriet.</String>
-<String id="STR_AddToFavoritesAddedNoneRemaining">'%1$s' aan Sonos-favorieten toegevoegd.
-
-Er is geen ruimte meer voor favorieten.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">'%1$s' aan Sonos-favorieten toegevoegd. Er is nog plaats voor %2$d favorieten.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">'%1$s' aan Sonos-favorieten toegevoegd. Er is nog plaats voor 1 favoriet.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">'%1$s' aan Sonos-favorieten toegevoegd. Er is geen ruimte meer voor favorieten.</String>
 <String id="STR_AddToFavoritesAlreadyAddedError">'%1$s' bestaat al als Sonos-favoriet en wordt niet opnieuw toegevoegd.</String>
-<String id="STR_AddToFavoritesFullError">Kan favoriet niet toevoegen. Er is geen ruimte meer voor favorieten.
-
-Je kunt bestaande Sonos-favorieten verwijderen om ruimte vrij te maken voor nieuwe.</String>
+<String id="STR_AddToFavoritesFullError">Kan favoriet niet toevoegen. Er is geen ruimte meer voor favorieten. Je kunt bestaande Sonos-favorieten verwijderen om ruimte vrij te maken voor nieuwe.</String>
 <String id="STR_AddToFavoritesError">Kan '%1$s' niet aan Sonos-favorieten toevoegen.</String>
 <String id="STR_AddToFavoritesErrorOutOfSpace">Kan favoriet niet toevoegen. Om extra ruimte voor Sonos-favorieten vrij te maken, kun je bestaande favorieten of items uit Mijn radiostations of Mijn radioprogramma's verwijderen.</String>
 <String id="STR_FavoritesDescriptionByArtist">Door %1$s</String>
@@ -1055,7 +725,10 @@ Je kunt bestaande Sonos-favorieten verwijderen om ruimte vrij te maken voor nieu
 <String id="STR_FavoritesDescriptionFromService">Van %1$s</String>
 <String id="STR_FavoritesDescriptionComposer">Componist</String>
 <String id="STR_FavoritesDescriptionGenre">Genre</String>
-<String comment="Do not localize" id="STR_FavoritesDescriptionArtistsStation">%1$s — %2$s</String>
+<!-- This is a composite of two string <Artist> and <Station|Playlist>. This will create a  -->
+<!-- string such as "Florence + The Machine" "Top Tracks" -->
+<String id="STR_FavoritesDescriptionArtistsStation" comment="Do not localize">%1$s — %2$s</String>
+
 <String id="STR_AddFavorite">Aan Sonos-favorieten toevoegen</String>
 <String id="STR_AddFavoriteStation">Station toevoegen aan Sonos-favorieten</String>
 <String id="STR_AddFavoriteTrack">Nummer aan Sonos-favorieten toevoegen</String>
@@ -1071,6 +744,7 @@ Je kunt bestaande Sonos-favorieten verwijderen om ruimte vrij te maken voor nieu
 <String id="STR_LocalMusicGrantPermission">Toestemming verlenen</String>
 <String id="STR_SearchAllMusicButton">Overal zoeken proberen</String>
 <String id="STR_StoreModeNotAvailable">Deze functie is niet beschikbaar in winkelmodus</String>
+<!--Do not put any new strings below comment. Certain methods use generated index numbers to determine what strings to use-->
 <String id="STR_NP_STREAMINFO_UNSUPPORTED">Geluid van tv niet ondersteund</String>
 <String id="RHHSTR_TITLESIE_NOSPACE_TITLE">Kan Muziekbibliotheek niet bijwerken</String>
 <String id="RHHSTR_TITLESIE_ERROR_TITLE">Muziekbestanden niet beschikbaar</String>
