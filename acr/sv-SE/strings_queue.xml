@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Kö</string>
-<string name="queue_title_tab">Kö</string>
-<string name="edit_queue_title">Redigera kö</string>
+    <string name="edit_queue_title">Redigera kö</string>
 <string name="queue_subtitle_not_in_use">Används inte</string>
 <string name="clear_queue_title">Rensa kö</string>
 <string name="clear_queue_text">Vill du verkligen rensa kön?</string>
@@ -25,11 +24,10 @@
 <string name="direct_control_playing_from_accessibility">Spelar upp från %1$s</string>
 <string name="direct_control_started_from">Startades från</string>
 <string name="direct_control_started_from_accessibility">Började från %1$s</string>
-<string name="direct_control_resume_playing_from">Återuppta uppspelning från</string>
-<string name="direct_control_last_played_from">Spelades senast upp från</string>
+    <string name="direct_control_last_played_from">Spelades senast upp från</string>
 <string name="direct_control_last_played_from_accessibility">Spelades senast upp från %1$s</string>
 <string name="direct_control_last_played">Spelades senast upp i detta rum</string>
-<string name="direct_control_next">Nästa: %s</string>
+<string name="direct_control_next">Nästa:  %s</string>
 <string name="direct_control_resume">Återuppta</string>
 <string name="direct_control_disconnect">Avsluta session</string>
 </resources>
