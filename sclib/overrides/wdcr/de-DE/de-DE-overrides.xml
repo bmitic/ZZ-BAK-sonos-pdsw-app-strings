@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Einstellungen der Musikbibliothek</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Diensteinstellungen</String>
@@ -19,23 +19,18 @@
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Automatisch auf Updates prüfen</String>
 <String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Windows-Medienserver anzeigen</String>
 <String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">System-Updates</String>
+    
 <String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos Setup-Assistent</String>
 <String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Klicke auf „%2$s“, um eines dieser Produkte hinzuzufügen, oder klicke auf „%1$s“, wenn du dies später tun möchtest.</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Klicke auf „%2$s“, um es erneut zu versuchen, bzw. auf „%1$s“, um dich später zu registrieren.</String>
 <String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Diese Einstellungen kannst du jederzeit unter „Verwalten“ &gt; „Einstellungen“ ändern.</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Wähle „Verwalten“ &gt; „Auf Updates prüfen“, nachdem der Sonos Controller gestartet wurde.</String>
 <String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Manage &gt; Settings &gt; Room Settings &gt; %1$s &gt; TV &gt; TV SetupZXZ</String>
-<String id="SCLIB_STR_MSS_CredError">Der %1$s-Server hat deine Anmeldeinformationen nicht erkannt.
-
-Stelle sicher, dass dein Anmeldename (E-Mail-Adresse oder Benutzername) und dein Kennwort korrekt sind, und drücke auf „Zurück“.
-
-Wenn das Problem weiterhin auftritt, wende dich bitte an %2$s.</String>
+<String id="SCLIB_STR_MSS_CredError">Der %1$s-Server hat deine Anmeldeinformationen nicht erkannt. Stelle sicher, dass dein Anmeldename (E-Mail-Adresse oder Benutzername) und dein Kennwort korrekt sind, und drücke auf „Zurück“. Wenn das Problem weiterhin auftritt, wende dich bitte an %2$s.</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Zurück</String>
 <String id="SCLIB_STR_Queue_Title">LISTE</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">LISTE (nicht verwendet)</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">Zum Hinzufügen öffentlicher Sonos Labs-Betadienste musst du Sonos deine Nutzungsdaten mitteilen.
-
-Zum Anzeigen oder Ändern der Nutzungsdaten-Einstellung wähle „Verwalten“ &gt; „Einstellungen“ &gt; „Erweiterte Einstellungen“ &gt; „Sonos verbessern“.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Zum Hinzufügen öffentlicher Sonos Labs-Betadienste musst du Sonos deine Nutzungsdaten mitteilen. Zum Anzeigen oder Ändern der Nutzungsdaten-Einstellung wähle „Verwalten“ &gt; „Einstellungen“ &gt; „Erweiterte Einstellungen“ &gt; „Sonos verbessern“.</String>
 <String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Wähle „Verwalten“ &gt; „Einstellungen“ &gt; „Erweiterte Einstellungen“ und anschließend „Wireless-Einrichtung“.</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Du kannst versuchen, sich später unter „Hilfe“ &gt; „Sonos-Systemregistrierung“ anzumelden.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes®-Compilations</String>
@@ -70,9 +65,7 @@ Zum Anzeigen oder Ändern der Nutzungsdaten-Einstellung wähle „Verwalten“ &
 <String id="RHHSTR_E_FILE_ACCESS_DENIED">Zugriff auf Datei „%1$s“ wurde verweigert.</String>
 <String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Zugriff auf Ordnerfreigabe „%1$s“ wurde verweigert.</String>
 <String id="RHHSTR_E_TOO_MANY_USERS">Zu viele aktive Verbindungen mit Ordnerfreigabe „%1$s“.</String>
-<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Beim Hinzufügen der neuen Musik im freigegebenen Ordner „%1$s“ zu Sonos ist ein Problem aufgetreten. Weitere Informationen hierzu findest du unter 
-
-http://faq.sonos.com/serverstack</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Beim Hinzufügen der neuen Musik im freigegebenen Ordner „%1$s“ zu Sonos ist ein Problem aufgetreten. Weitere Informationen finden Sie unter folgendem Link: http://faq.sonos.com/serverstack</String>
 <String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Hinzufügen der Ordnerfreigabe „%1$s“ zur Musikbibliothek nicht möglich (%2$d).</String>
 <String id="RHHSTR_SHARE_NAME_TOO_LONG">Name der Ordnerfreigabe zu lang.</String>
 <String id="RHHSTR_USERNAME_TOO_LONG">Benutzername für die Ordnerfreigabe zu lang.</String>
@@ -94,11 +87,9 @@ http://faq.sonos.com/serverstack</String>
 <String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Bitte lade den neuesten Sonos Controller von der Sonos-Website herunter.</String>
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Wähle zum Aktualisieren „Verwalten“ &gt; „Auf Software-Updates prüfen“.</String>
-<String id="RHHSTR_SIE_ERROR">„%1$s“ ist nicht länger verfügbar. Das Gerät, auf dem die Musikdateien gespeichert sind, ist eventuell nicht eingeschaltet, oder der Pfad hat sich vielleicht geändert.
-Wechsele zu „Verwalten“ &gt; „Einstellungen der Musikbibliothek“, um den Pfadnamen zu prüfen.</String>
+<String id="RHHSTR_SIE_ERROR">„%1$s“ ist nicht länger verfügbar. Das Gerät, auf dem die Musikdateien gespeichert sind, ist eventuell nicht eingeschaltet, oder der Pfad hat sich vielleicht geändert. Wechsele zu „Verwalten“ &gt; „Einstellungen der Musikbibliothek“, um den Pfadnamen zu prüfen.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Sonos-System wird gesucht…</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Verbinden mit Sonos nicht möglich.
-Probieren wir ein paar Dinge aus:</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Verbinden mit Sonos nicht möglich. Probieren wir ein paar Dinge aus:</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Schalte das WLAN aus und wieder ein.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Trenne den Router von der Stromversorgung, und verbinde ihn dann wieder.</String>
