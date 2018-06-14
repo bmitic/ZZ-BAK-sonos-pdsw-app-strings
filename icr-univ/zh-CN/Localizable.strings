@@ -6,9 +6,13 @@
     "<Home>" = "我的 Sonos";
     "<Browse>" = "浏览";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\“查看当前正在测试的内容的信息和选项。”“
+    “ <LocalziationTestICR2> ”=“名为” %1$@ “的Sonos播放列表已经存在。替换它会覆盖其内容。“ 
 
-    "<Sonos>" = "SONOS";
+ / *一般* /
+
+    “ <Sonos> ”=“SONOS";
     "<Cancel>" = "取消";
     "<Done>" = "完成";
     "<Yes>" = "是";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "下一章";
     "<QUEUE>" = "队列";
     "<NotInUse>" = "未使用";
-    "<NowPlayingNoMusic>" = "无音乐";
+    "<NowPlayingNoMusic>" = "没有选择音乐";
     "<NowPlayingDialogEnhacementLabel>" = "语音增强";
     "<NowPlayingNightModeLabel>" = "夜间音质";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "连按打开正在播放";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ 和 %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@、%2$@ 和 %3$d 等";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "当前正在播放 %@";
+    "<NowPlayingOpen>" = "打开正在播放";
     "<NowPlayingClose>" = "关闭“现在播放”";
-    "<NowPlayingCloseHint>" = "双击以返回音乐浏览";
 
 /* Info Menu */
 
@@ -183,14 +186,14 @@
     "<QueuePlaylistExistsWarningMessage_1>" = "名为“%1$@”的 Sonos 播放列表已存在。替换它将覆盖当前内容。";
     "<QueuePlaylistReplace>" = "替换";
     "<AddToPlaylistFolderHint>" = "播放列表文件夹。连按打开。";
-    "<AddToPlaylistDisabledHint>" = "您没有权限向此播放列表中添加歌曲。";
+    "<AddToPlaylistDisabledHint>" = "您无权将歌曲添加到此播放列表。";
 
 /* Queue Voice Over */
 
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d 首歌曲。";
+    "<QueueTrackLabel_1>" = ".%d歌曲（S）。";
     "<QueueShuffleButtonLabel>" = "随机播放";
     "<QueueRepeatAllButtonLabel>" = "重复全部";
     "<QueueRepeatOneButtonLabel>" = "重复歌曲";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "房间";
     "<GroupRooms>" = "为房间分组";
-    "<Group>" = "同步";
+    "<Group>" = "测试";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "为房间分组";
     "<PauseAll>" = "全部暂停";
     "<PauseAllConfirmation>" = "是否确实要暂停在所有房间中播放音乐？";
-    "<ContinueSetUp>" = "继续设置";
-    "<SoftwareUpdateRequired>" = "软件需要更新";
+    "<SelectToUpdate>" = "选择更新";
+    "<SelectToConfigure>" = "选择设置";
+    "<SelectToRegister>" = "选择注册";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "设置";
     "<RoomSettings>" = "房间设置";
     "<ParentalControls>" = "家长控制";
+    "<MySonosSettings>" = "我的 Sonos 设置";
     "<MoreInformation>" = "更多信息";
     "<Help>" = "帮助";
     "<Call>" = "呼叫";
@@ -332,11 +337,11 @@
     "<Wireless_OpenReady_Body_3>" = "按“下一步”查看说明。";
 
     "<Wireless_Instructions_Title>" = "无线设置";
-    "<Wireless_Instructions_Body_1_iPod>" = "1.打开 iPod Touch 设置并点击“Wi-Fi”";
-    "<Wireless_Instructions_Body_1_iPad>" = "1.打开 iPad 设置并点击“Wi-Fi”";
-    "<Wireless_Instructions_Body_1_iPhone>" = "1.打开 iPhone 设置并点击“Wi-Fi”";
-    "<Wireless_Instructions_Body_2>" = "2.点击网络列表中的“%1$@”";
-    "<Wireless_Instructions_Body_3>" = "3.返回 Sonos 应用程序并按“下一步”继续";
+    "<Wireless_Instructions_Body_1_iPod>" = "请手动调整以下防火墙设置:1.打开 iPod Touch 设置并点击“Wi-Fi”";
+    "<Wireless_Instructions_Body_1_iPad>" = "请手动调整以下防火墙设置:1.打开 iPad 设置并点击“Wi-Fi”";
+    "<Wireless_Instructions_Body_1_iPhone>" = "请手动调整以下防火墙设置:1.打开 iPhone 设置并点击“Wi-Fi”";
+    "<Wireless_Instructions_Body_2>" = "2.点击网络列表中的\\“ %1$@ \\”";
+    "<Wireless_Instructions_Body_3>" = "3.3.返回 Sonos 应用程序并按“下一步”继续";
 
     "<Wireless_NotSonosAP_Title>" = "未连接到播放器";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "您未连接到“%1$@”网络。在此 iPod 的 Wi-Fi 设置中，您需要从可用网络中选择“%1$@”。";
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "剩余 %1$@ %2$@ %3$@";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@其余";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "剩余 %1$@ %2$@";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,7 +479,7 @@
     "<FavoritesIconTitle>" = "我的 Sonos";
     "<PlayIconPlainTitle>" = "播放";
     "<PlayIconPlainSubtitle>" = "恢复上次播放";
-    "<PlayIconRoomTitle>" = "播放：%@";
+    "<PlayIconRoomTitle>" = "玩：%@";
     "<PauseIconPlainTitle>" = "暂停";
     "<PauseIconPlainSubtitle>" = "暂停当前音乐";
     "<PauseIconRoomTitle>" = "暂停：%@";
@@ -506,8 +511,10 @@
     "<DirectControlLastPlayedFrom>" = "上次播放位置";
     "<DirectControlLastPlayedFrom_1>" = "上次从 %1$@ 播放";
     "<DirectControlResumeFrom>" = "恢复";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "从%@Res继续";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
-    "<VoiceOverPlayingFrom_1>" = "正在从 %1$@ 播放";
+    "<VoiceOverPlayingFrom_1>" = "播放位置 %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
     "<VoiceOverCurrentlyPlayingFrom_1>" = "当前正从 %1$@ 播放";
     // VoiceOver label: "Currently Playing." - used when playback is in progress but service name is unknown
@@ -515,7 +522,7 @@
 
     "<DirectControlResume>" = "继续";
     "<DirectControlDisconnect>" = "结束会话";
-    "<DirectControlUpNext>" = "下一步：%@";
+    "<DirectControlUpNext>" = "下一个：%@";
     "<DirectControlMoreInfo>" = "显示更多";
     "<DirectControlMoreInfoVOLabel>" = "显示 %@ 详细信息";
     "<DirectControlLessInfo>" = "隐藏";
