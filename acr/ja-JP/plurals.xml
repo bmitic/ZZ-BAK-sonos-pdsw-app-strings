@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+<plurals name="localization_test_plurals_acr">
+    <item quantity="one">ラン%1$dテスト</item>
+    <item quantity="other">実行%1$dテストを</item>
+</plurals>
 <plurals name="accessibility_tab_badge_format">
-    <item quantity="other">%1$s. %2$d アイテム。</item>
+    <item quantity="one">%1$s。%2$dアイテム。</item>
+    <item quantity="other">%1$s。%2$dアイテム。</item>
 </plurals>
 <plurals name="alarm_snoozed_duration_minutes">
+    <item quantity="one">%d分</item>
     <item quantity="other">%d分</item>
 </plurals>
 </resources>
