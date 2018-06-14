@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
 <String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Biblioteka Muzyczna</String>
 <String id="SCLIB_STR_SETTINGS_SERVICES">Serwisy</String>
@@ -26,25 +26,17 @@
 <String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Kliknij „%2$s”, aby spróbować ponownie, lub kliknij „%1$s”, aby dokonać rejestracji później.</String>
 <String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Możesz zmienić swoje ustawienia w dowolnym momencie, wybierając „Preferencje” w menu Sonos, a następnie zakładkę „Użytkowanie” w ustawieniach zaawansowanych</String>
 <String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Jeżeli chcesz zmienić konto domyślne, kliknij prawym przyciskiem myszy (Ctrl + kliknięcie) „%1$s” w menu muzycznym Sonos, aby wybrać inne konto.</String>
-<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">Zakończono %1$s.
-
-Należy teraz przeprowadzić aktualizację oprogramowania Sonos.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">Zakończono %1$s. Należy teraz przeprowadzić aktualizację oprogramowania Sonos.</String>
 <String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Po uruchomieniu aplikacji sterującej Sonos wybierz Sonos &gt; Wyszukaj aktualizacje…</String>
 <String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">Numer telefonu</String>
 <String id="SCLIB_STR_CancelOrBackIfSeparate">Wstecz</String>
 <String id="SCLIB_STR_Queue_Title">KOLEJKA</String>
 <String id="SCLIB_STR_Queue_NotInUse_Title">KOLEJKA (nieużywana)</String>
 <String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">Zarejestruj</String>
-<String id="RHHSTR_OptInRequiredForSoundLab">Aby dodać publiczne usługi beta Sonos Labs, musisz udostępnić firmie Sonos daje dotyczące użytkowania.
-
-Aby wyświetlić lub zmienić ustawienia danych dotyczących użytkowania, przejdź do Sonos &gt; Preferencje &gt; Zaawansowane &gt; Usprawnij Sonos.</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Aby dodać publiczne usługi beta Sonos Labs, musisz udostępnić firmie Sonos daje dotyczące użytkowania. Aby wyświetlić lub zmienić ustawienia danych dotyczących użytkowania, przejdź do Sonos &gt; Preferencje &gt; Zaawansowane &gt; Usprawnij Sonos.</String>
 <String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Przejdź do „Sonos” &gt; „Preferencje” &gt; „Zaawansowane” i wybierz „Konfiguracja łączności bezprzewodowej”</String>
 <String id="SCLIB_STR_SetupWiz_RegError_Body_2">Możesz spróbować dokonać rejestracji później, korzystając z menu Pomoc &gt; Rejestracja systemu Sonos.</String>
-<String id="SCLIB_STR_MSS_CredError">Serwer %1$s nie rozpoznał Twoich danych logowania.
-
-Upewnij się, że Twój login (adres e-mail lub nazwa użytkownika) i hasło są poprawne, naciśnij przycisk „Wstecz” i spróbuj ponownie.
-
-Jeżeli problem nie ustąpił, skontaktuj się z %2$s, aby uzyskać pomoc w zakresie posiadanego konta.</String>
+<String id="SCLIB_STR_MSS_CredError">Serwer %1$s nie rozpoznał Twoich danych logowania. Upewnij się, że Twój login (adres e-mail lub nazwa użytkownika) i hasło są poprawne, naciśnij przycisk „Wstecz” i spróbuj ponownie. Jeżeli problem nie ustąpił, skontaktuj się z %2$s, aby uzyskać pomoc w zakresie posiadanego konta.</String>
 <String id="RHHSTR_ARTISTVIEW_ITUNES">Kompilacje iTunes®</String>
 <String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Artyści albumowi</String>
 <String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Zresetuj aplikację sterującą</String>
@@ -81,12 +73,10 @@ Jeżeli problem nie ustąpił, skontaktuj się z %2$s, aby uzyskać pomoc w zakr
 <String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">W celu aktualizacji wybierz Sonos &gt; Wyszukaj aktualizacje…</String>
 <String id="SCLIB_STR_Forget_Title">Czy chcesz usunąć obecnie używany system Sonos z pamięci?
 </String>
-<String id="RHHSTR_SIE_ERROR">Urządzenie „%1$s” nie jest już dostępne. Urządzenie, na którym zapisane są pliki muzyczne, może nie być włączone lub nastąpiła zmiana ścieżki dostępu.
-Aby sprawdzić nazwę ścieżki dostępu, przejdź do Zarządzaj &gt; Ustawienia Biblioteki Muzycznej.</String>
+<String id="RHHSTR_SIE_ERROR">Urządzenie „%1$s” nie jest już dostępne. Urządzenie, na którym zapisane są pliki muzyczne, może nie być włączone lub nastąpiła zmiana ścieżki dostępu. Aby sprawdzić nazwę ścieżki dostępu, przejdź do Zarządzaj &gt; Ustawienia Biblioteki Muzycznej.</String>
 <String id="SCLIB_STR_LC_SearchingForPlayers">Wyszukiwanie systemu Sonos…</String>
 <String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Przejdź do Ustawienia systemu &gt; Sieć i wybierz sieć, do której połączony jest Sonos.</String>
-<String id="SCLIB_STR_LC_NoComponents_String_1">Przepraszamy, nie można nawiązać połączenia z systemem Sonos.
-Spróbujmy kilka rzeczy:</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Przepraszamy, nie można nawiązać połączenia z systemem Sonos. Spróbujmy kilka rzeczy:</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option1">• Wyłącz swoją sieć bezprzewodową i włącz ją ponownie.</String>
 <String id="SCLIB_STR_LC_NoComponents_List_Option2">• Odłącz router od zasilania i podłącz go ponownie.</String>
