@@ -1,25 +1,25 @@
-{
+﻿{
   "strings": {
     "1": {
       "computerLibraryDescription": "No aplicativo Sonos no seu computador, vá para <b>Gerenciar &#10132; Configurações da Biblioteca de Músicas</b> e adicione a pasta na qual a sua música está guardada. (Normalmente está na pasta <b>Música</b> do seu computador.)", 
       "computerLibraryInstruction": "Depois que a sincronização for concluída, escolha <b>Biblioteca de Músicas</b> no Menu para navegar e tocar sua coleção.", 
-      "computerLibraryNote": "<b>Observação:</b> se sua coleção for grande, a sincronização com seu aplicativo poderá levar até 15 minutos.", 
-      "deviceLibraryBullet1": "Vá para <b>Procurar &#10132; ${1}</b>.", 
+      "computerLibraryNote": "<b>Observação:</b> se sua coleção for grande, a sincronização com seu aplicativo poderá levar até 15 minutos. Se sua coleção for grande, a sincronização com seu aplicativo pode levar até 15 minutos.", 
+      "deviceLibraryBullet1": "Vá para <b> Navegar &#10132; $ {1} </b> .", 
       "deviceLibraryBullet2": "Escolha sua música.", 
       "deviceLibraryButtonText": "Vamos testar", 
       "musicServicesBullet1": "Vá para <b>Mais &#10132; Adicionar Serv. de Música</b>.", 
       "musicServicesBullet2": "Escolha qualquer serviço que você deseja adicionar ou testar.", 
       "musicServicesButtonText": "Adicionar Serviço de Música", 
       "musicServicesDescription": "Adicione suas próprias ou tente algo novo.", 
-      "section1Title": "Serviços de Música", 
-      "section2Title": "TuneIn Radio", 
       "section3Title": "Música no seu dispositivo móvel", 
       "section4Title": "Música no seu computador", 
       "title": "Adicionar sua música", 
       "tuneInBullet1": "Vá para <b>Procurar &#10132; Rádio da TuneIn</b>.", 
       "tuneInBullet2": "Comece a explorar.", 
       "tuneInButtonText": "Vamos testar", 
-      "tuneInDescription": "Explore mais de 100.000 estações e podcasts online gratuitos."
+      "tuneInDescription": "Explore mais de 100.000 estações e podcasts online gratuitos.",
+      "testForLocalization1": "Testando outro tipo de arquivo",
+      "testForLocalization2": "Vá para <b> Testar &#10132; Localização </b> ."
     }, 
     "10": {
       "description": "Quando o novo software estiver disponível, você verá <b>Atualizar Agora</b> na guia <b>Mais</b>.", 
@@ -38,14 +38,14 @@
     }, 
     "1013": {
       "adjustSettings": "Ajustar configurações", 
-      "chooseRoomSurround": "Escolha a sala onde o PLAYBAR/PLAYBASE e os surrounds estão localizados.", 
+      "chooseRoomSurround": "Escolha a sala onde o PLAYBAR/PLAYBASE e os surrounds estão localizados.",
       "learnMoreHomeTheater": "Saiba mais sobre as configurações do home theater Sonos no nosso site", 
       "navToRoomSettings": "Vá para <b>Mais &#10132; Configurações &#10132; Configurações da Sala</b>.", 
       "navToSurroundSettings": "Toque em <b>Áudio Avançado &#10132; Configurações de Surround</b>.", 
       "nightSound": "Aumenta os sons de TV mais silenciosos e reduz os sons altos.", 
       "sectionTitle1": "Configurações especiais do home theater", 
       "sectionTitle2": "Ajustar as configurações de surround para TV e música", 
-      "selectRoom": "Selecione a sala em que o PLAYBAR ou PLAYBASE está colocado.", 
+      "selectRoom": "Selecione a sala em que o PLAYBAR ou PLAYBASE está colocado.",
       "setLevels": "Defina os níveis de TV e Música de acordo com a sua preferência.", 
       "speechEnhancement": "Facilita a compreensão do diálogo da TV.", 
       "tapIcon": "Toque no ícone na tela <b>Tocando Agora</b>.", 
@@ -71,18 +71,18 @@
       "playPause": "Toque uma vez para iniciar a música. Toque novamente para pausar.\nToque duas vezes para pular para a música seguinte. E três vezes para voltar uma música. Pressione e segure para adicionar a música que está tocando em outra sala.", 
       "pressAndHold": "Toque uma vez para tocar ou pausar. Pressione e segure para adicionar música tocando em outra sala.", 
       "sectionTitle1": "Sonos One", 
-      "sectionTitle2": "PLAY:1", 
-      "sectionTitle3": "PLAY:3", 
-      "sectionTitle4": "PLAY:5 (gen 1)", 
-      "sectionTitle5": "PLAY:5 (gen 2)", 
-      "sectionTitle6": "PLAYBAR", 
-      "sectionTitle7": "PLAYBASE", 
-      "sectionTitle8": "CONNECT", 
-      "sectionTitle9": "CONNECT:AMP", 
-      "sigdetailVolume": "(: :) Controle de Volume: Toque na esquerda para baixar o volume e na direita para aumentar o volume.", 
-      "sigdetailVolumePlay5": "(: :) Controle de Volume: Toque na esquerda para baixar o volume e na direita para aumentar o volume. Se o PLAY:5 for colocado verticalmente, toque acima do logotipo da Sonos para aumentar o volume e toque abaixo do logotipo para baixá-lo.", 
+      "sectionTitle2": "PLAY:1",
+      "sectionTitle3": "PLAY:3",
+      "sectionTitle4": "PLAY:5 (gen 1)",
+      "sectionTitle5": "PLAY:5 (gen 2)",
+      "sectionTitle6": "PLAYBAR",
+      "sectionTitle7": "PLAYBASE",
+      "sectionTitle8": "CONNECT",
+      "sectionTitle9": "CONNECT:AMP",
+      "sigdetailVolume": "(: :) Controle de Volume: Toque para a esquerda para diminuir o volume e toque para a direita para aumentá-lo.", 
+      "sigdetailVolumePlay5": "(: :) Controle de Volume: Toque para a esquerda para diminuir o volume e toque para a direita para aumentá-lo. Se o PLAY:5 for colocado verticalmente, toque acima do logotipo da Sonos para aumentar o volume e toque abaixo do logotipo para baixá-lo.",
       "swipe": "Deslize para a direita para ouvir a próxima música e para a esquerda para ouvir a música anterior.", 
-      "swipePlay5": "Deslize para a direita para ouvir a próxima música e para a esquerda para ouvir a música anterior. Se o PLAY:5 for colocado verticalmente, deslize para cima para ouvir a próxima música e para baixo para ouvir a música anterior.", 
+      "swipePlay5": "Deslize para a direita para ouvir a próxima música e para a esquerda para ouvir a música anterior. Se o PLAY:5 for colocado verticalmente, deslize para cima para ouvir a próxima música e para baixo para ouvir a música anterior.",
       "tapVolumeDown": "Toque para diminuir o volume.", 
       "tapVolumeUp": "Toque para aumentar o volume.", 
       "title": "Usar controles de toque", 
@@ -91,7 +91,7 @@
     "13": {
       "adjustBalance": "Ajuste e equilibre a sua configuração para o melhor som possível.", 
       "adjustSettings": "Ajustar configurações", 
-      "chooseRoomSurround": "Escolha a sala onde o PLAYBAR/PLAYBASE e os surrounds estão localizados.", 
+      "chooseRoomSurround": "Escolha a sala onde o PLAYBAR/PLAYBASE e os surrounds estão localizados.",
       "goToCustomTuneTip": "Vá para a nossa dica \"Personalizar ajuste de um alto-falante\" para saber mais.", 
       "learnMoreHomeTheater": "Saiba mais sobre as configurações do home theater Sonos no nosso site", 
       "navToRoomSettings": "Vá para <b>Mais &#10132; Configurações &#10132; Configurações da Sala</b>.", 
@@ -100,7 +100,7 @@
       "sectionTitle1": "Configurações especiais do home theater", 
       "sectionTitle2": "Ajustar as configurações de surround para TV e música", 
       "sectionTitle3": "Ajuste Trueplay do seu home theater Sonos", 
-      "selectRoom": "Selecione a sala em que o PLAYBAR ou PLAYBASE está colocado.", 
+      "selectRoom": "Selecione a sala em que o PLAYBAR ou PLAYBASE está colocado.",
       "setLevels": "Defina os níveis de TV e Música de acordo com a sua preferência.", 
       "speechEnhancement": "Facilita a compreensão do diálogo da TV.", 
       "tapIcon": "Toque no ícone na tela <b>Tocando Agora</b>.", 
@@ -116,14 +116,14 @@
     }, 
     "15": {
       "buttonTitle": "Criar par estéreo", 
-      "intro": "Gire dois alto-falantes Sonos One, PLAY:1, PLAY:3 ou PLAY:5 em canais separados à esquerda e à direita.", 
+      "intro": "Gire dois alto-falantes PLAY:1, PLAY:3 ou PLAY:5 em canais separados à esquerda e à direita.",
       "learnMore": "Saiba mais sobre pares estéreos no nosso site", 
       "navToRoomSettings": "Vá para <b>Mais &#10132; Configurações &#10132; Configurações da Sala</b>.", 
       "selectSpeaker": "Selecione um alto-falante e toque em <b>Criar Par Estéreo</b>.", 
       "title": "Criar um par estéreo"
     }, 
     "16": {
-      "connectToLineIn": "Conecte a saída de áudio da plataforma giratória a uma porta de entrada PLAY:5 ou às tomadas de entrada de áudio em CONNECT ou CONNECT:AMP.", 
+      "connectToLineIn": "Conecte a saída de áudio da plataforma giratória a uma porta de entrada PLAY:5 ou às tomadas de entrada de áudio em CONNECT ou CONNECT:AMP.",
       "intro": "Envie som de uma plataforma giratória pré-amplificada para um alto-falante Sonos.", 
       "learnMore": "Saiba mais sobre entrada no nosso site", 
       "learnMoreLink": "https://faq.sonos.com/HelpLineIn", 
@@ -199,7 +199,7 @@
       "title": "Tocar diretamente do Pandora"
     }, 
     "24": {
-      "bullet1": "Alexa, toque Blondie na cozinha.", 
+      "bullet1": "Alexa, toque ____ na cozinha.", 
       "bullet2": "Alexa, o que está tocando?", 
       "bullet3": "Alexa, pule para a música seguinte.", 
       "bulletTitle": "<b>Opções que você pode testar com o Alexa…</b>", 
@@ -216,7 +216,7 @@
       "buttonTitle": "Configurar agora", 
       "disclaimerText": "Ver se Amazon Alexa está disponível no seu país no nosso site.", 
       "introText": "<b>Certifique-se de ter o aplicativo Alexa antes de começar</b>.", 
-      "makeChanges": "Você fará algumas alterações nos aplicativos Sonos e Alexa durante a configuração. Nós o guiaremos através dele.", 
+      "makeChanges": "Você fará algumas alterações nos aplicativos Sonos e Alexa durante a configuração.", 
       "number1": "Configure seu Sonos One.", 
       "number2": "Vá para <b>Mais &#10132; Serviços de Voz</b> e siga as instruções.", 
       "title": "Configurar o controle de voz no seu Sonos One"
@@ -253,28 +253,28 @@
       "title": "Opções para testar com o Alexa"
     }, 
     "28": {
-      "bullet1Text": "Agrupe e desagrupe os alto-falantes Sonos compatíveis com o AirPlay diretamente do menu do AirPlay. (Os alto-falantes compatíveis com o AirPlay incluem Sonos One, Play:5 e Playbase.)", 
-      "bullet2Text": "Use o aplicativo Sonos para adicionar os outros alto-falantes Sonos ao grupo e eles também transmitirão o AirPlay. Você pode manter estes alto-falantes agrupados com os alto-falantes Sonos compatíveis com o AirPlay.", 
-      "bullet3Text": "Mantenha o botão Tocar pressionado em qualquer alto-falante Sonos para adicionar a música que está sendo reproduzida em outra sala.", 
-      "introText": "Aproveite seus aplicativos favoritos em voz alta. Reproduza o som dos seus dispositivos Apple diretamente para o Sonos com o AirPlay. Ouça o Apple Music no Sonos One. Assista a vídeos do YouTube ou da Netflix e aproveite o som no Sonos.", 
-      "learnMoreText": "Saiba mais sobre como usar o AirPlay com o Sonos no nosso site.", 
-      "title": "Usar o AirPlay com o Sonos"
+      "bullet1Text": "Group and ungroup AirPlay-compatible Sonos speakers right from the AirPlay menu. (AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.)ZXZ", 
+      "bullet2Text": "Use the Sonos app to add your other Sonos speakers to the group and they’ll stream AirPlay too. You can keep these speakers grouped with your AirPlay-compatible Sonos speakers.ZXZ", 
+      "bullet3Text": "Press and hold the Play button on any Sonos speaker to add the music that’s playing in another room.ZXZ", 
+      "introText": "Enjoy your favorite apps out loud. Play sound from your Apple devices straight to Sonos with AirPlay. Listen to Apple Music on your Sonos One. Watch a YouTube or Netflix video and enjoy the sound on Sonos.ZXZ", 
+      "learnMoreText": "Learn more about using AirPlay with Sonos on our website.ZXZ", 
+      "title": "Use AirPlay with SonosZXZ"
     }, 
     "29": {
-      "bullet1Text": "Abra o aplicativo Casa e toque em + ou Adicionar Acessório.", 
-      "bullet2Text": "Escolha \"Não tenho um código ou não consigo examinar?\"", 
-      "bullet3Text": "Toque no alto-falante que você deseja adicionar.", 
-      "bullet4Text": "Escolha o mesmo nome de sala usado no aplicativo Sonos.", 
-      "footnoteText": "*Os alto-falantes Sonos compatíveis com o AirPlay incluem Sonos One, Play:5 e Playbase.", 
-      "introText": "Basta adicionar os alto-falantes Sonos compatíveis* com o AirPlay ao aplicativo Casa da Apple e usar um dispositivo móvel da Apple para solicitar que a Siri reproduza música (atualmente limitado ao Apple Music).", 
-      "learnMoreText": "Saiba mais sobre como usar a Siri com o Sonos no nosso site.", 
-      "title": "Usar a Siri para controlar o Apple Music"
+      "bullet1Text": "Open the Home app and tap + or Add Accessory.ZXZ", 
+      "bullet2Text": "Choose \"Don’t Have a Code or Can’t Scan?\"ZXZ", 
+      "bullet3Text": "Tap the speaker you want to add.ZXZ", 
+      "bullet4Text": "Pick the same room name that’s used in the Sonos app.ZXZ", 
+      "footnoteText": "*AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.ZXZ", 
+      "introText": "Just add your AirPlay-compatible* Sonos speakers to the Apple Home app and then use an Apple mobile device to ask Siri to play music (currently limited to Apple Music).ZXZ", 
+      "learnMoreText": "Learn more about using Siri with Sonos on our website.ZXZ", 
+      "title": "Use Siri to control Apple MusicZXZ"
     }, 
     "3": {
       "bullet1Text": "Toque em <b>Pesquisar</b> para encontrar uma música que você gosta.", 
-      "bullet2Text": "Toque em <b>Mais Opções (&#8943;)</b> &#10132; <b>Adicionar à Lista de Reprodução Sonos</b>.", 
-      "bullet3Text": "Selecione uma lista de reprodução ou toque em <b>Mais Opções (&#8943;)</b> &#10132; <b>Nova Lista de Reprodução</b> para iniciar uma nova lista.", 
-      "fromNowPlayingText": "Se você estiver na tela Tocando Agora, será ainda mais fácil. Adicione a música que está tocando em <b>Info e Opções (&#8943;)</b> &#10132; <b>Adicionar Música à Lista de Reprodução Sonos</b>.", 
+      "bullet2Text": "Toque em (<b>&#8943;</b>) &#10132; <b>Adicionar à Lista de Reprodução Sonos</b>.", 
+      "bullet3Text": "Selecione uma lista de reprodução ou toque em (&#8943;) &#10132; <b>Nova Lista de Reprodução</b> para iniciar uma nova lista.", 
+      "fromNowPlayingText": "Se você estiver na tela Tocando Agora, vai ser ainda mais fácil. Adicione a música que está tocando em (<b>&#8943;</b>) &#10132; <b>Adicionar música à Lista de reprod. Sonos</b>.", 
       "title": "Compilar e salvar listas de reprodução"
     }, 
     "4": {
@@ -286,7 +286,7 @@
       "title": "A fila de músicas"
     }, 
     "5": {
-      "intro": "Para transições super suaves entre as músicas, toque em <b>Info e Opções (&#8943;)</b> na tela Tocando Agora e ative <b>Fading cruzado</b>.", 
+      "intro": "Para transições super suaves entre as músicas, toque em (<b>&#8943;</b>) na tela Tocando Agora e ative <b>Fading cruzado</b>.", 
       "intro2": "Na parte superior da tela da fila:", 
       "repeat": "Toque para repetir toda a fila. Toque novamente para repetir a música atual. Toque mais uma vez para desligar a repetição.", 
       "shuffle": "Toque para ajustar aleatoriamente a ordem das músicas. Toque novamente e você estará de volta ao fluxo original.", 
@@ -294,7 +294,7 @@
     }, 
     "6": {
       "introText": "Se você é um usuário Premium do Spotify, será possível enviar o que você está ouvindo no Spotify direto para qualquer alto-falante Sonos. Com apenas um toque.", 
-      "secureRegistration": "Você precisará de uma conta Sonos para usar esse recurso. Vá para <b>Mais &#10132; Configurações &#10132; Conta Sonos</b> para configurar uma. (Se não aparecer <b>Conta Sonos</b>, seu sistema Sonos precisará ser atualizado.)", 
+      "secureRegistration": "Você precisará de uma conta Sonos para usar esse recurso. Vá para <b>Mais &#10132; Configurações &#10132; Minha Conta Sonos</b> para configurar uma. (Se não aparecer <b>Minha Conta Sonos</b>, seu sistema Sonos precisará ser atualizado.)", 
       "spotifyInstruction": "Quando você tem uma música tocando no aplicativo Spotify, basta escolher DISPOSITIVOS DISPONÍVEIS para enviá-la para o Sonos.", 
       "title": "Tocar diretamente do Spotify"
     }, 
@@ -306,26 +306,26 @@
       "catchSomeMoreDescription": "Ligue os alertas de Soneca ao configurar um alarme.", 
       "catchSomeMoreText": "Quer dormir mais um pouco?", 
       "directionText": "Escolha <b>Mais</b> &#10132; <b>Alarmes</b> &#10132; <b>Novo Alarme</b> para começar.", 
-      "sleepToMusicDescription": "O Sonos pode desligar automaticamente. Toque em <b>Info e Opções (&#8943;)</b> na tela Tocando Agora para definir o Timer de Hibernação.", 
+      "sleepToMusicDescription": "O Sonos pode desligar automaticamente. Toque (<b>&#8943;</b>) na tela Tocando Agora para configurar o Timer de Hibernação.", 
       "sleepToMusicText": "Gosta de dormir ouvindo música?", 
       "title": "Definir um alarme musical"
     }, 
     "8": {
       "addFavoritesToMySonos": "<b>Adicionar favoritos ao Meu Sonos:</b>", 
-      "addFromNowPlaying": "<b>Nota:</b> você também pode marcar uma música ou uma estação como favorito diretamente da tela Tocando Agora em <b>Info e Opções (&#8943;)</b> &#10132; <b>Adicionar ao Meu Sonos</b>. (Músicas no seu dispositivo móvel não podem ser salvas como favoritas.)", 
+      "addFromNowPlaying": "<b>Observação:</b> se sua coleção for grande, a sincronização com seu aplicativo poderá levar até 15 minutos. <b>Observação:</b> você também pode escolher uma música ou estação diretamente da tela Tocando Agora tocando em (&#8943;) &#10132; <b>Adicionar ao Meu Sonos</b>. (As músicas no seu dispositivo móvel não podem ser salvas como favoritos.)", 
       "buttonTitle": "Ir para Meu Sonos", 
-      "editInstructions": "Vá para <b>Meu Sonos</b> e toque em <b>Editar</b>. Você também pode editar o conteúdo de uma categoria em Meu Sonos (como Álbuns, Listas de Reprodução ou Músicas) tocando em <b>Ver Tudo</b> e, em seguida, em <b>Mais Opções (&#8943;)</b> na parte superior da tela.", 
+      "editInstructions": "Vá para <b>Meu Sonos</b> e toque em <b>Editar</b>. Você também pode editar o conteúdo de uma categoria em Meu Sonos (como Álbuns, Listas de Reprodução ou Músicas) tocando em <b>Ver Tudo</b> e, em seguida, em (&#8943;) na parte superior da tela.", 
       "editYourFavorites": "<b>Edite seus favoritos:</b>", 
       "goToMySonos": "Vá para <b>Meu Sonos</b>.", 
-      "introText": "Salve músicas, estações ou coleções favoritas como \"Novos Lançamentos\" no <b>Meu Sonos</b> e você nunca terá que procurá-las novamente.", 
+      "introText": "Salve suas músicas, estações ou coleções favoritas como \"Novos Lançamentos\" em <b>Meu Sonos</b> e você nunca mais terá que procurá-las novamente.", 
       "seeYourFavorites": "<b>Veja seus favoritos:</b>", 
-      "tapWhenBrowsing": "Toque em <b>Mais Opções (&#8943;)</b> quando estiver procurando ou navegando por músicas.", 
+      "tapWhenBrowsing": "Toque em (&#8943;) quando estiver procurando ou navegando por músicas.", 
       "title": "Salvar seus favoritos em Meu Sonos"
     }, 
     "9": {
-      "createAccount": "Se não aparecer <b>Conta Sonos</b>, seu sistema Sonos precisará ser atualizado.", 
-      "intro": "Uma conta permite adicionar mais alto-falantes, obter novos recursos e integrar com segurança aos seus aplicativos de streaming.",
-      "navInstructions": "Acesse sua conta a qualquer momento selecionando <b>Mais &#10132; Configurações &#10132; Conta Sonos</b>.",
+      "createAccount": "Se não aparecer <b>Minha Conta Sonos</b>, seu sistema Sonos precisará ser atualizado.", 
+      "intro": "An account lets you add more speakers, get new features, and safely and securely integrate with your streaming apps.ZXZ",
+      "navInstructions": "Você pode acessar sua conta a qualquer momento selecionando <b>Mais &#10132; Configurações &#10132; Conta Sonos</b>.",
       "title": "Sua conta Sonos"
     }, 
     "index": {
@@ -336,7 +336,7 @@
       "category1": "Usando o aplicativo", 
       "category2": "Usando os alto-falantes", 
       "category3": "Usando o controle de voz", 
-      "category4": "Usando outros aplicativos", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Controlar o Sonos com o Amazon Alexa", 
       "createAStereoPair": "Criar um par estéreo", 
       "crossfadeShuffleRepeat": "Fading cruzado, ajustar, repetir", 
@@ -370,7 +370,7 @@
       "category1": "Usando o aplicativo", 
       "category2": "Usando os alto-falantes", 
       "category3": "Usando o controle de voz", 
-      "category4": "Usando outros aplicativos", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Controlar o Sonos com o Amazon Alexa", 
       "createAStereoPair": "Criar um par estéreo", 
       "crossfadeShuffleRepeat": "Fading cruzado, ajustar, repetir", 
