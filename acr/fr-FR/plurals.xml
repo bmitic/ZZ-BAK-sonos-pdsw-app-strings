@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+<plurals name="localization_test_plurals_acr">
+    <item quantity="one">Exécuter %1$d essai</item>
+    <item quantity="other">Exécuter les tests %1$d</item>
+</plurals>
 <plurals name="accessibility_tab_badge_format">
     <item quantity="one">%1$s. %2$d élément.</item>
     <item quantity="other">%1$s. %2$d éléments.</item>
