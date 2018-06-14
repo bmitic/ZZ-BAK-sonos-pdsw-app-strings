@@ -6,9 +6,13 @@
     "<Home>" = "Mój Sonos";
     "<Browse>" = "Przeglądaj";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "Wyświetl informacje i opcje na temat tego, co jest obecnie testowane."
+    " <LocalziationTestICR2> " = "Lista odtwarzania Sonos o nazwie" %1$@ "już istnieje. Wymiana będzie zastąpić jego 
 
-    "<Sonos>" = "SONOS";
+zawartość.” / * Ogólne * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "Anuluj";
     "<Done>" = "Gotowe";
     "<Yes>" = "Tak";
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "Kolejny rozdział";
     "<QUEUE>" = "Kolejka";
     "<NotInUse>" = "Nieużywane";
-    "<NowPlayingNoMusic>" = "Brak muzyki";
+    "<NowPlayingNoMusic>" = "Nie wybrano muzyki";
     "<NowPlayingDialogEnhacementLabel>" = "Wzmacniacz mowy";
     "<NowPlayingNightModeLabel>" = "Tryb dźwięku nocnego";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Stuknij dwukrotnie, aby otworzyć teraz odtwarzane";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ i %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@, i %3$d innych";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Teraz odtwarzane %@";
+    "<NowPlayingOpen>" = "Otwórz teraz gra";
     "<NowPlayingClose>" = "Zamknij teraz odtwarzane";
-    "<NowPlayingCloseHint>" = "Stuknij dwukrotnie, aby powrócić do przeglądania muzyki";
 
 /* Info Menu */
 
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d utworów.";
+    "<QueueTrackLabel_1>" = ".%d utwór (y).";
     "<QueueShuffleButtonLabel>" = "Tryb losowy";
     "<QueueRepeatAllButtonLabel>" = "Powtórz wszystkie";
     "<QueueRepeatOneButtonLabel>" = "Powtórz utwór";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "Pomieszczenia";
     "<GroupRooms>" = "Grupuj pomieszczenia";
-    "<Group>" = "Grupuj";
+    "<Group>" = "Test";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Grupuj pomieszczenia";
     "<PauseAll>" = "Wstrzymaj wszystkie";
     "<PauseAllConfirmation>" = "Czy na pewno chcesz wstrzymać odtwarzanie muzyki we wszystkich pomieszczeniach?";
-    "<ContinueSetUp>" = "Kontynuuj konfigurację";
-    "<SoftwareUpdateRequired>" = "Wymagana aktualizacja oprogramowania";
+    "<SelectToUpdate>" = "Wybierz, aby zaktualizować";
+    "<SelectToConfigure>" = "Wybierz, aby skonfigurować";
+    "<SelectToRegister>" = "Wybierz, aby się zarejestrować";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "Ustawienia";
     "<RoomSettings>" = "Ustawienia pomieszczenia";
     "<ParentalControls>" = "Kontrola rodzicielska";
+    "<MySonosSettings>" = "Ustawienia systemu Mój Sonos";
     "<MoreInformation>" = "Więcej informacji";
     "<Help>" = "Pomoc";
     "<Call>" = "Zadzwoń";
@@ -342,7 +347,7 @@
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Nie połączono z siecią „%1$@”. W ustawieniach sieci Wi-Fi dla tego iPoda musisz wybrać ”%1$@” z listy dostępnych sieci.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Nie połączono z siecią „%1$@”. W ustawieniach sieci Wi-Fi dla tego iPada musisz wybrać ”%1$@” z listy dostępnych sieci.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Nie połączono z siecią „%1$@”. W ustawieniach sieci Wi-Fi dla tego iPhone’a musisz wybrać ”%1$@” z listy dostępnych sieci.";
-    "<Wireless_NotSonosAP_Body_2>" = "Wybierz „Spróbuj ponownie”, aby powtórzyć proces konfiguracji. Jeżeli nadal występują problemy, naciśnij „Alternatywna konfiguracja.”";
+    "<Wireless_NotSonosAP_Body_2>" = "Wybierz „Spróbuj ponownie”, aby powtórzyć proces konfiguracji.  Jeżeli nadal występują problemy, naciśnij „Alternatywna konfiguracja.”";
     "<Wireless_NotSonosAP_TryAgain>" = "Spróbuj ponownie";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Alternatywna konfiguracja";
 
@@ -457,7 +462,7 @@
     // TODO: Need UX feedback on remaining vs left
 // These are similar to above, but referring to remaining time
     // VO String %1$@ - hour string, %2$@ - minute string, %3$@ - second string (Example "3 hours 13 minutes 27 seconds remaining")
-    "<VODurationOrderHMSNeg>" = "Pozostało %1$@ %2$@ %3$@";
+    "<VODurationOrderHMSNeg>" = "%1$@ %2$@ %3$@ pozostały";
     // VO String %1$@ - minute string, %2$@ - second string (Example "13 minutes 27 seconds remaining")
     "<VODurationOrderMSNeg>" = "Pozostało %1$@ %2$@";
     // VO String %1$@ - second string (Example "27 seconds remaining")
@@ -474,10 +479,10 @@
     "<FavoritesIconTitle>" = "Mój Sonos";
     "<PlayIconPlainTitle>" = "Odtwórz";
     "<PlayIconPlainSubtitle>" = "Wznów odtwarzanie ostatnio wybranego utworu";
-    "<PlayIconRoomTitle>" = "Odtwórz: %@";
+    "<PlayIconRoomTitle>" = "Grać: %@";
     "<PauseIconPlainTitle>" = "Wstrzymaj";
     "<PauseIconPlainSubtitle>" = "Wstrzymaj odtwarzanie obecnego utworu";
-    "<PauseIconRoomTitle>" = "Wstrzymaj: %@";
+    "<PauseIconRoomTitle>" = "Pauza: %@";
 
 /* Store mode */
 
@@ -506,6 +511,8 @@
     "<DirectControlLastPlayedFrom>" = "Ostatnio odtwarzany utwór z";
     "<DirectControlLastPlayedFrom_1>" = "Ostatnio odtwarzany utwór z %1$@";
     "<DirectControlResumeFrom>" = "Wznów od";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Wznów z %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Odtwarzanie z %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -515,7 +522,7 @@
 
     "<DirectControlResume>" = "Wznów";
     "<DirectControlDisconnect>" = "Zakończ sesję";
-    "<DirectControlUpNext>" = "Dalej: %@";
+    "<DirectControlUpNext>" = "Kolejny: %@";
     "<DirectControlMoreInfo>" = "Pokaż więcej";
     "<DirectControlMoreInfoVOLabel>" = "Pokaż szczegóły %@";
     "<DirectControlLessInfo>" = "Ukryj";
