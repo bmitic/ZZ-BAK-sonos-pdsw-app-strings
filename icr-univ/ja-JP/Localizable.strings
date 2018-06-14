@@ -6,9 +6,13 @@
     "<Home>" = "マイSonos";
     "<Browse>" = "参照";
 
-/* General */
+/* Localization Tests */
+    "<LocalziationTestICR1>" = "\\ "現在テスト中のものに関する情報とオプションを表示\\" "
+    " <LocalziationTestICR2> " = "Sonosプレイリスト" %1$@ "は既に存在します。それを置き換えるとその内容が上書きされます」 
 
-    "<Sonos>" = "SONOS";
+ / * General * /
+
+    " <Sonos> " = "SONOS";
     "<Cancel>" = "キャンセル";
     "<Done>" = "完了";
     "<Yes>" = "はい";
@@ -57,37 +61,37 @@
 
 /* Beta Feedback */
 
-    "<CollectingDiagsMessage>" = "フィードバックのために診断を収集中。 この処理には数分かかる場合があります。";
+    "<CollectingDiagsMessage>" = "フィードバックのために診断を収集中。この処理には数分かかる場合があります。";
 
 /* Limited Connectivity */
 
     "<LimitedConnTrySearchingAgain>" = "もう一度検索してください";
     "<LimitedConnConnecting>" = "ご利用のWi-FiでSonosを検索しています";
-    "<LimitedConnStillSearching>" = "お待ちくださいただいま検索中です…";
+    "<LimitedConnStillSearching>" = "お待ちくださいただいま検索中です…新しいSonosシステムの設定";
 
-    "<WelcomeSetupButton>" = "新しいSonosシステムの設定";
-    "<WelcomeJoinButton>" = "既存のシステムへの接続";
-    "<WelcomeLearnMoreButton>" = "Sonos についての詳細";
+    "<WelcomeSetupButton>" = "既存のシステムへの接続";
+    "<WelcomeJoinButton>" = "Sonos についての詳細";
+    "<WelcomeLearnMoreButton>" = "Sonosを未入手ですか?";
 
 // These next two are possibly deprecated.
-    "<WelcomeStayInformedMessage>" = "Sonosを未入手ですか?";
-    "<WelcomeViewDemoButton>" = "もっと詳しく";
+    "<WelcomeStayInformedMessage>" = "もっと詳しく";
+    "<WelcomeViewDemoButton>" = "音楽を開く";
 
 /* iPod Library */
 
-    "<iPodLibraryOpenMusicApp>" = "音楽を開く";
+    "<iPodLibraryOpenMusicApp>" = "この%@で";
     // %@ = iPhone, iPod or iPad (localized) (Example: "On this iPhone")
-    "<iPodLibrary>" = "この%@で";
-    "<PlayAllGeneric>" = "すべての曲";
-    "<iPodPlaylists>" = "プレイリスト";
-    "<iPodArtists>" = "アーティスト";
-    "<iPodAlbums>" = "アルバム";
-    "<iPodGenres>" = "ジャンル";
-    "<iPodTracks>" = "曲";
-    "<iPodCompilations>" = "コンピレーション";
-    "<iPodComposers>" = "作曲者";
+    "<iPodLibrary>" = "すべての曲";
+    "<PlayAllGeneric>" = "プレイリスト";
+    "<iPodPlaylists>" = "アーティスト";
+    "<iPodArtists>" = "アルバム";
+    "<iPodAlbums>" = "ジャンル";
+    "<iPodGenres>" = "曲";
+    "<iPodTracks>" = "コンピレーション";
+    "<iPodCompilations>" = "作曲者";
+    "<iPodComposers>" = "ポッドキャスト";
     "<iPodPodcasts>" = "ポッドキャスト";
-    "<iPodLibraryUnplayableTitle>" = "再生不可能な曲";
+    "<iPodLibraryUnplayableTitle>" = "再生できない曲";
     // %@ = iPhone (localized) (Example: "On this iPhone")
     "<iPodLibraryUnplayableiCloudTrackError_iPhone_1>" = "Sonosは、この%1$@にダウンロードされていないiTunesのコンテンツを再生できません。\n\n音楽アプリを開いて、この曲をオフラインで利用可能にしてください。";
     // %@ = iPhone (localized) (Example: "On this iPod touch")
@@ -108,7 +112,7 @@
     "<NextButtonBook>" = "次の章";
     "<QUEUE>" = "予約リスト";
     "<NotInUse>" = "未使用";
-    "<NowPlayingNoMusic>" = "音楽がありません";
+    "<NowPlayingNoMusic>" = "選択した曲がありません";
     "<NowPlayingDialogEnhacementLabel>" = "スピーチ強化";
     "<NowPlayingNightModeLabel>" = "ナイト サウンド";
 
@@ -138,7 +142,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "[現在再生中]を開くにはダブルタップします";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@および%2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +150,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@、%2$@、%3$d、その他";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "現在、%@を再生中";
+    "<NowPlayingOpen>" = "今すぐプレーする";
     "<NowPlayingClose>" = "再生中画面を閉じる";
-    "<NowPlayingCloseHint>" = "ダブルタップして音楽のブラウズに戻る";
 
 /* Info Menu */
 
@@ -176,11 +179,11 @@
     "<QueueSaveErrorTitle>" = "Sonosプレイリストの\n保存エラー";
     "<QueueSaveErrorGeneric>" = "予約リストを保存できません。";
     "<QueueSaveErrorNotEnoughRoom>" = "Sonosには予約リストを保存するのに十分な容量がありません。\nその他の部屋で保存した古いプレイリストまたは予約リストを削除してから、もう一度お試しください。";
-    "<QueueSaveErrorMobileTracksNotSaved>" = "モバイル デバイスからの曲は、Sonosプレイリストに保存することができず、保存されませんでした。";
-    "<QueueSaveErrorAllMobileTracks>" = "この予約リストには、モバイル デバイスにある曲しか含まれていません。これらのトラックは、Sonosプレイリストに保存できません。";
-    "<QueuePlaylistExistsWarningTitle>" = "Sonosプレイリストが\n存在します";
+    "<QueueSaveErrorMobileTracksNotSaved>" = "モバイル デバイスからの曲は、Sonosプレイリストに保存することができなくて、保存されていませんでした。";
+    "<QueueSaveErrorAllMobileTracks>" = "この予約リストには、モバイル デバイスにある曲しか含まれていません。これらの曲は、Sonosプレイリストに保存できません。";
+    "<QueuePlaylistExistsWarningTitle>" = "Sonosプレイリストが存在します";
     // %1$@, the name of the pre-existing playlist
-    "<QueuePlaylistExistsWarningMessage_1>" = "“%1$@”という名前のSonosプレイリストがすでに存在します。 置き換えると現在のコンテンツが上書きされます。";
+    "<QueuePlaylistExistsWarningMessage_1>" = "“%1$@”という名前のSonosプレイリストがすでに存在します。置き換えると現在のコンテンツが上書きされます。";
     "<QueuePlaylistReplace>" = "置き換える";
     "<AddToPlaylistFolderHint>" = "プレイリスト フォルダ。ダブル タップして開きます。";
     "<AddToPlaylistDisabledHint>" = "このプレイリストに曲を追加する権限がありません。";
@@ -190,7 +193,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d曲。";
+    "<QueueTrackLabel_1>" = ".%d曲。";
     "<QueueShuffleButtonLabel>" = "シャッフル";
     "<QueueRepeatAllButtonLabel>" = "全てを繰り返す";
     "<QueueRepeatOneButtonLabel>" = "曲を繰り返す";
@@ -204,14 +207,15 @@
 
     "<Rooms>" = "部屋";
     "<GroupRooms>" = "グループ部屋";
-    "<Group>" = "グループ";
+    "<Group>" = "テスト";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
-    "<GroupRooms_Short>" = "グループ";
+    "<GroupRooms_Short>" = "グループ部屋";
     "<PauseAll>" = "すべて一時停止";
     "<PauseAllConfirmation>" = "すべての部屋で音楽を一時停止してもよろしいですか?";
-    "<ContinueSetUp>" = "設定を続ける";
-    "<SoftwareUpdateRequired>" = "ソフトウェアアップデートが必要です";
+    "<SelectToUpdate>" = "選択して更新する";
+    "<SelectToConfigure>" = "選択して設定する";
+    "<SelectToRegister>" = "選択して登録する";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
@@ -294,6 +298,7 @@
     "<Settings>" = "設定";
     "<RoomSettings>" = "部屋の設定";
     "<ParentalControls>" = "ペアレンタルコントロール";
+    "<MySonosSettings>" = "マイSonos設定";
     "<MoreInformation>" = "詳細";
     "<Help>" = "ヘルプ";
     "<Call>" = "コール";
@@ -332,11 +337,11 @@
     "<Wireless_OpenReady_Body_3>" = "[次へ]を押して、指示を確認します。";
 
     "<Wireless_Instructions_Title>" = "ワイヤレスの設定";
-    "<Wireless_Instructions_Body_1_iPod>" = "1。iPod Touchの設定を開いて、[Wi-Fi]をタップします。";
-    "<Wireless_Instructions_Body_1_iPad>" = "1。iPadの設定を開いて、[Wi-Fi]をタップします。";
-    "<Wireless_Instructions_Body_1_iPhone>" = "1。iPhoneの設定を開いて、[Wi-Fi]をタップします。";
-    "<Wireless_Instructions_Body_2>" = "2。ネットワークのリストにある[%1$@]をタップします。";
-    "<Wireless_Instructions_Body_3>" = "3。Sonosアプリに戻って、[次へ]を押して続行します。";
+    "<Wireless_Instructions_Body_1_iPod>" = "1。1。iPod Touchの設定を開いて、[Wi-Fi]をタップします。";
+    "<Wireless_Instructions_Body_1_iPad>" = "1。iPadの設定を開き、\\ "Wi-Fi \\"をタップします。";
+    "<Wireless_Instructions_Body_1_iPhone>" = "1。iPhoneの設定を開き、\\ "Wi-Fi \\"をタップします。";
+    "<Wireless_Instructions_Body_2>" = "2。ネットワークのリストで\\ " %1$@ \\"をタップする";
+    "<Wireless_Instructions_Body_3>" = "3。Sonosアプリに戻り、続行するには「次へ」を押してください";
 
     "<Wireless_NotSonosAP_Title>" = "プレイヤーに接続していません";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "「%1$@」ネットワークに接続していません。このiPodのWi-Fi設定で、利用可能なネットワークの一覧から「%1$@」を選択する必要があります。";
@@ -474,14 +479,14 @@
     "<FavoritesIconTitle>" = "マイSonos";
     "<PlayIconPlainTitle>" = "再生";
     "<PlayIconPlainSubtitle>" = "最後に再生したものを再開";
-    "<PlayIconRoomTitle>" = "再生：%@";
+    "<PlayIconRoomTitle>" = "遊びます：%@";
     "<PauseIconPlainTitle>" = "一時停止";
     "<PauseIconPlainSubtitle>" = "現在の音楽の一時停止";
     "<PauseIconRoomTitle>" = "一時停止：%@";
 
 /* Store mode */
 
-    "<GotIt>" = "理解しました";
+    "<GotIt>" = "理解しました。";
 
 /* In App Messages */
 
@@ -506,8 +511,10 @@
     "<DirectControlLastPlayedFrom>" = "から最後に再生";
     "<DirectControlLastPlayedFrom_1>" = "%1$@から最後に再生";
     "<DirectControlResumeFrom>" = "ここから再生";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "fromから%@再開";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
-    "<VoiceOverPlayingFrom_1>" = "%1$@ からプレイ";
+    "<VoiceOverPlayingFrom_1>" = "%1$@から再生します";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
     "<VoiceOverCurrentlyPlayingFrom_1>" = "%1$@から再生中";
     // VoiceOver label: "Currently Playing." - used when playback is in progress but service name is unknown
@@ -515,7 +522,7 @@
 
     "<DirectControlResume>" = "続ける";
     "<DirectControlDisconnect>" = "セッションの終了";
-    "<DirectControlUpNext>" = "次へ：%@";
+    "<DirectControlUpNext>" = "次：%@";
     "<DirectControlMoreInfo>" = "さらに表示";
     "<DirectControlMoreInfoVOLabel>" = "%@の詳細を表示";
     "<DirectControlLessInfo>" = "隠す";
