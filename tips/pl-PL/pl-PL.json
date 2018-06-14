@@ -1,4 +1,4 @@
-{
+﻿{
   "strings": {
     "1": {
       "computerLibraryDescription": "Otwórz aplikację Sonos na swoim komputerze, a następnie przejdź do <b>Zarządzaj &#10132; Ustawienia Biblioteki Muzycznej</b> i dodaj folder, w którym przechowywana jest muzyka. (Zazwyczaj jest to folder <b>Muzyka</b> na Twoim komputerze.)", 
@@ -11,15 +11,15 @@
       "musicServicesBullet2": "Wybierz serwis, który chcesz dodać lub wypróbować.", 
       "musicServicesButtonText": "Dodaj serwis muzyczny", 
       "musicServicesDescription": "Dodaj własne lub wypróbuj nowe.", 
-      "section1Title": "Serwisy muzyczne", 
-      "section2Title": "Radio TuneIn", 
       "section3Title": "Muzyka na Twoim urządzeniu mobilnym", 
       "section4Title": "Muzyka na Twoim komputerze", 
       "title": "Dodaj swoją muzykę", 
       "tuneInBullet1": "Przejdź do <b>Przeglądaj &#10132; Radio z TuneIn</b>.", 
       "tuneInBullet2": "Rozpocznij przeglądanie.", 
       "tuneInButtonText": "Spróbujmy", 
-      "tuneInDescription": "Przeglądaj ponad 100 000 darmowych stacji i podcastów online."
+      "tuneInDescription": "Przeglądaj ponad 100 000 darmowych stacji i podcastów online.",
+      "testForLocalization1": "Testowanie innego typu pliku",
+      "testForLocalization2": "Przejdź do <b> Test &#10132; Lokalizacja </b> ."
     }, 
     "10": {
       "description": "Gdy pojawi się nowe dostępne oprogramowanie, zobaczysz komunikat <b>Zaktualizuj teraz</b> w zakładce <b>Więcej</b>.", 
@@ -38,14 +38,14 @@
     }, 
     "1013": {
       "adjustSettings": "Dostosuj ustawienia", 
-      "chooseRoomSurround": "Wybierz pomieszczenie, w którym znajdują się urządzenia PLAYBAR/PLAYBASE i głośniki dźwięku przestrzennego.", 
+      "chooseRoomSurround": "Wybierz pomieszczenie, w którym znajdują się urządzenia PLAYBAR/PLAYBASE i głośniki dźwięku przestrzennego.",
       "learnMoreHomeTheater": "Odwiedź naszą stronę internetową i dowiedz się więcej na temat konfiguracji kina domowego Sonos", 
       "navToRoomSettings": "Przejdź do <b>Więcej &#10132; Ustawienia &#10132; Ustawienia pomieszczenia</b>.", 
       "navToSurroundSettings": "Stuknij <b>Dźwięki zaawansowane &#10132; Ustawienia dźwięku przestrzennego</b>.", 
       "nightSound": "Wzmacnia ciche dźwięki telewizyjne i przycisza te głośniejsze.", 
       "sectionTitle1": "Specjalne ustawienia kina domowego", 
       "sectionTitle2": "Dostosuj ustawienia dźwięku przestrzennego dla telewizora i odtwarzania muzyki", 
-      "selectRoom": "Wybierz pomieszczenie, w którym znajduje się urządzenie PLAYBAR lub PLAYBASE.", 
+      "selectRoom": "Wybierz pomieszczenie, w którym znajduje się urządzenie PLAYBAR lub PLAYBASE.",
       "setLevels": "Ustaw poziomy dźwięku telewizyjnego i odtwarzanej muzyki według upodobań.", 
       "speechEnhancement": "Umożliwia to łatwiejsze zrozumienie dialogów telewizyjnych.", 
       "tapIcon": "Stuknij ikonę na ekranie <b>Teraz odtwarzane</b>.", 
@@ -71,18 +71,18 @@
       "playPause": "Stuknij raz, aby rozpocząć odtwarzanie muzyki. Stuknij ponownie, aby wstrzymać odtwarzanie.\nStuknij dwukrotnie, aby przejść do następnego utworu. Stuknij trzykrotnie, aby przeskoczyć o jeden utwór wstecz. Naciśnij i przytrzymaj, aby dodać muzykę odtwarzaną w innym pomieszczeniu.", 
       "pressAndHold": "Stuknij raz, aby odtworzyć lub wstrzymać odtwarzanie. Naciśnij i przytrzymaj, aby dodać muzykę odtwarzaną w innym pomieszczeniu.", 
       "sectionTitle1": "Sonos One", 
-      "sectionTitle2": "PLAY:1", 
-      "sectionTitle3": "PLAY:3", 
-      "sectionTitle4": "PLAY:5 (gen 1)", 
-      "sectionTitle5": "PLAY:5 (gen 2)", 
-      "sectionTitle6": "PLAYBAR", 
-      "sectionTitle7": "PLAYBASE", 
-      "sectionTitle8": "CONNECT", 
-      "sectionTitle9": "CONNECT:AMP", 
-      "sigdetailVolume": "(: :) Regulacja głośności: Stuknij po lewej, aby zmniejszyć, lub po prawej, aby zwiększyć poziom głośności.", 
-      "sigdetailVolumePlay5": "(: :) Regulacja głośności: Stuknij po lewej, aby zmniejszyć, lub po prawej, aby zwiększyć poziom głośności. Jeżeli urządzenie PLAY:5 jest ustawione w pionie, stuknij powyżej logo Sonos, aby zwiększyć głośność; stuknij poniżej logo Sonos, aby zmniejszyć głośność.", 
+      "sectionTitle2": "PLAY:1",
+      "sectionTitle3": "PLAY:3",
+      "sectionTitle4": "PLAY:5 (gen 1)",
+      "sectionTitle5": "PLAY:5 (gen 2)",
+      "sectionTitle6": "PLAYBAR",
+      "sectionTitle7": "PLAYBASE",
+      "sectionTitle8": "CONNECT",
+      "sectionTitle9": "CONNECT:AMP",
+      "sigdetailVolume": "(: :) Regulacja głośności: Dotknij w lewo, aby zmniejszyć głośność, dotknij w prawo, aby ją włączyć.", 
+      "sigdetailVolumePlay5": "(: :) Regulacja głośności: Dotknij w lewo, aby zmniejszyć głośność, dotknij w prawo, aby ją włączyć. Jeżeli urządzenie PLAY:5 jest ustawione w pionie, stuknij powyżej logo Sonos, aby zwiększyć głośność; stuknij poniżej logo Sonos, aby zmniejszyć głośność.",
       "swipe": "Przesuń palcem w prawo, aby usłyszeć kolejny utwór; przesuń palcem w lewo, aby usłyszeć poprzedni.", 
-      "swipePlay5": "Przesuń palcem w prawo, aby usłyszeć kolejny utwór; przesuń palcem w lewo, aby usłyszeć poprzedni. Jeżeli urządzenie PLAY:5 jest ustawione w pionie, przesuń palcem w górę, aby usłyszeć kolejny utwór; przesuń palcem w dół, aby usłyszeć poprzedni.", 
+      "swipePlay5": "Przesuń palcem w prawo, aby usłyszeć kolejny utwór; przesuń palcem w lewo, aby usłyszeć poprzedni. Jeżeli urządzenie PLAY:5 jest ustawione w pionie, przesuń palcem w górę, aby usłyszeć kolejny utwór; przesuń palcem w dół, aby usłyszeć poprzedni.",
       "tapVolumeDown": "Stuknij, aby zmniejszyć głośność.", 
       "tapVolumeUp": "Stuknij, aby zwiększyć głośność.", 
       "title": "Wykorzystaj sterowanie dotykowe", 
@@ -91,7 +91,7 @@
     "13": {
       "adjustBalance": "Dostosuj i wyrównaj ustawienia, aby uzyskać najlepszą możliwą jakość dźwięku.", 
       "adjustSettings": "Dostosuj ustawienia", 
-      "chooseRoomSurround": "Wybierz pomieszczenie, w którym znajdują się urządzenia PLAYBAR/PLAYBASE i głośniki dźwięku przestrzennego.", 
+      "chooseRoomSurround": "Wybierz pomieszczenie, w którym znajdują się urządzenia PLAYBAR/PLAYBASE i głośniki dźwięku przestrzennego.",
       "goToCustomTuneTip": "Przejdź do porady „Indywidualna regulacja głośnika”, aby dowiedzieć się więcej.", 
       "learnMoreHomeTheater": "Odwiedź naszą stronę internetową i dowiedz się więcej na temat konfiguracji kina domowego Sonos", 
       "navToRoomSettings": "Przejdź do <b>Więcej &#10132; Ustawienia &#10132; Ustawienia pomieszczenia</b>.", 
@@ -100,7 +100,7 @@
       "sectionTitle1": "Specjalne ustawienia kina domowego", 
       "sectionTitle2": "Dostosuj ustawienia dźwięku przestrzennego dla telewizora i odtwarzania muzyki", 
       "sectionTitle3": "Regulacja Trueplay dla kina domowego Sonos", 
-      "selectRoom": "Wybierz pomieszczenie, w którym znajduje się urządzenie PLAYBAR lub PLAYBASE.", 
+      "selectRoom": "Wybierz pomieszczenie, w którym znajduje się urządzenie PLAYBAR lub PLAYBASE.",
       "setLevels": "Ustaw poziomy dźwięku telewizyjnego i odtwarzanej muzyki według upodobań.", 
       "speechEnhancement": "Umożliwia to łatwiejsze zrozumienie dialogów telewizyjnych.", 
       "tapIcon": "Stuknij ikonę na ekranie <b>Teraz odtwarzane</b>.", 
@@ -116,14 +116,14 @@
     }, 
     "15": {
       "buttonTitle": "Stwórz parę stereofoniczną", 
-      "intro": "Zmień dwa głośniki Sonos One, PLAY:1, PLAY:3 lub PLAY:5 w oddzielne kanały: lewy i prawy.", 
+      "intro": "Zmień dwa głośniki PLAY:1, PLAY:3 lub PLAY:5 w oddzielne kanały: lewy i prawy.",
       "learnMore": "Odwiedź naszą stronę internetową i dowiedz się więcej na temat par stereofonicznych", 
       "navToRoomSettings": "Przejdź do <b>Więcej &#10132; Ustawienia &#10132; Ustawienia pomieszczenia</b>.", 
       "selectSpeaker": "Wybierz głośnik i stuknij <b>Stwórz parę stereofoniczną</b>.", 
       "title": "Stwórz parę stereofoniczną"
     }, 
     "16": {
-      "connectToLineIn": "Połącz wyjście audio gramofonu z gniazdem wejścia liniowego urządzenia PLAY:5 lub do złącza wejścia audio urządzeń CONNECT lub CONNECT:AMP.", 
+      "connectToLineIn": "Połącz wyjście audio gramofonu z gniazdem wejścia liniowego urządzenia PLAY:5 lub do złącza wejścia audio urządzeń CONNECT lub CONNECT:AMP.",
       "intro": "Przesyłaj dźwięk z gramofonu wyposażonego w przedwzmacniacz do głośnika Sonos.", 
       "learnMore": "Odwiedź naszą stronę internetową i dowiedz się więcej na temat wejścia liniowego", 
       "learnMoreLink": "https://faq.sonos.com/HelpLineIn", 
@@ -199,7 +199,7 @@
       "title": "Odtwarzaj bezpośrednio z aplikacji Pandora"
     }, 
     "24": {
-      "bullet1": "Alexa, odtwarzaj Blondie w kuchni.", 
+      "bullet1": "Alexa, odtwórz ____ w kuchni.", 
       "bullet2": "Alexa, co jest teraz odtwarzane?", 
       "bullet3": "Alexa, przejdź do kolejnego utworu.", 
       "bulletTitle": "<b>Co możesz wypróbować z Alexą…</b>", 
@@ -253,28 +253,28 @@
       "title": "Czego możesz spróbować z Alexą"
     }, 
     "28": {
-      "bullet1Text": "Grupuj i rozdzielaj głośniki Sonos kompatybilne z AirPlay, korzystając bezpośrednio z menu AirPlay. (Głośniki Sonos kompatybilne z AirPlay to Sonos One, Play:5 i Playbase.)", 
-      "bullet2Text": "Wykorzystaj aplikację Sonos do dodania innych głośników Sonos do grupy, a one również będą strumieniowo odtwarzać dźwięk przesłany za pomocą AirPlay. Możesz pozostawić te głośniki zgrupowane z głośnikami Sonos kompatybilnymi z AirPlay.", 
-      "bullet3Text": "Naciśnij i przytrzymaj przycisk odtwarzania na dowolnym głośniku Sonos, aby dodać muzykę odtwarzaną w innym pomieszczeniu.", 
-      "introText": "Ciesz się dźwiękiem płynącym z ulubionych aplikacji. Odtwarzaj dźwięk ze swoich urządzeń Apple bezpośrednio w systemie Sonos, korzystając z funkcji AirPlay. Słuchaj utworów z aplikacji Apple Music w Sonos One. Oglądaj filmy z serwisu YouTube czy Netflix i ciesz się ich dźwiękiem w systemie Sonos.", 
-      "learnMoreText": "Więcej informacji na temat korzystania z funkcji AirPlay w ramach systemu Sonos znajdziesz na naszej stronie internetowej.", 
-      "title": "Korzystaj z funkcji AirPlay w systemie Sonos"
+      "bullet1Text": "Group and ungroup AirPlay-compatible Sonos speakers right from the AirPlay menu. (AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.)ZXZ", 
+      "bullet2Text": "Use the Sonos app to add your other Sonos speakers to the group and they’ll stream AirPlay too. You can keep these speakers grouped with your AirPlay-compatible Sonos speakers.ZXZ", 
+      "bullet3Text": "Press and hold the Play button on any Sonos speaker to add the music that’s playing in another room.ZXZ", 
+      "introText": "Enjoy your favorite apps out loud. Play sound from your Apple devices straight to Sonos with AirPlay. Listen to Apple Music on your Sonos One. Watch a YouTube or Netflix video and enjoy the sound on Sonos.ZXZ", 
+      "learnMoreText": "Learn more about using AirPlay with Sonos on our website.ZXZ", 
+      "title": "Use AirPlay with SonosZXZ"
     }, 
     "29": {
-      "bullet1Text": "Otwórz aplikację Start i stuknij + lub Dodaj akcesoria.", 
-      "bullet2Text": "Wybierz „Brak kodu lub możliwości zeskanowania?”", 
-      "bullet3Text": "Stuknij głośnik, który chcesz dodać.", 
-      "bullet4Text": "Wybierz nazwę pomieszczenia wykorzystywaną w aplikacji Sonos.", 
-      "footnoteText": "*Głośniki Sonos kompatybilne z AirPlay to Sonos One, Play:5 i Playbase.", 
-      "introText": "Wystarczy dodać swoje głośniki Sonos kompatybilne z AirPlay* do aplikacji Apple Home, a następnie skorzystać z dowolnego urządzenia mobilnego Apple, aby polecić Siri odtwarzanie muzyki (funkcja ograniczona obecnie do Apple Music).", 
-      "learnMoreText": "Więcej informacji na temat korzystania z Siri w ramach systemu Sonos znajdziesz na naszej stronie internetowej.", 
-      "title": "Używaj Siri do sterowania aplikacją Apple Music"
+      "bullet1Text": "Open the Home app and tap + or Add Accessory.ZXZ", 
+      "bullet2Text": "Choose \"Don’t Have a Code or Can’t Scan?\"ZXZ", 
+      "bullet3Text": "Tap the speaker you want to add.ZXZ", 
+      "bullet4Text": "Pick the same room name that’s used in the Sonos app.ZXZ", 
+      "footnoteText": "*AirPlay-compatible Sonos speakers include Sonos One, Play:5, and Playbase.ZXZ", 
+      "introText": "Just add your AirPlay-compatible* Sonos speakers to the Apple Home app and then use an Apple mobile device to ask Siri to play music (currently limited to Apple Music).ZXZ", 
+      "learnMoreText": "Learn more about using Siri with Sonos on our website.ZXZ", 
+      "title": "Use Siri to control Apple MusicZXZ"
     }, 
     "3": {
       "bullet1Text": "Stuknij <b>Wyszukaj</b>, aby odnaleźć ulubiony utwór.", 
-      "bullet2Text": "Dotknij <b>Więcej opcji (&#8943;)</b> &#10132; <b>Dodaj do playlisty Sonos</b>.", 
-      "bullet3Text": "Wybierz istniejącą playlistę lub stuknij <b>Więcej opcji (&#8943;)</b> &#10132; <b>Nowa playlista</b>, aby rozpocząć tworzenie nowej.", 
-      "fromNowPlayingText": "Jest to jeszcze łatwiejsze z poziomu ekranu Teraz odtwarzane. Aby dodać odtwarzany utwór, stuknij <b>Więcej informacji (&#8943;)</b> &#10132; <b>Dodaj utwór do playlisty Sonos</b>.", 
+      "bullet2Text": "Dotknij (<b>&#8943;</b>) &#10132; <b>Dodaj do playlisty Sonos</b>.", 
+      "bullet3Text": "Wybierz istniejącą playlistę lub stuknij (&#8943;) &#10132; <b>Nowa playlista</b>, aby rozpocząć tworzenie nowej.", 
+      "fromNowPlayingText": "Jest to jeszcze łatwiejsze z poziomu ekranu Teraz odtwarzane. Aby dodać odtwarzany utwór, stuknij (<b>&#8943;</b>) &#10132; <b>Dodaj utwór do playlisty Sonos</b>.", 
       "title": "Twórz i zapisuj playlisty"
     }, 
     "4": {
@@ -286,7 +286,7 @@
       "title": "Kolejka utworów"
     }, 
     "5": {
-      "intro": "Aby zapewnić nienagannie płynne przejście między utworami, stuknij <b>Więcej informacji (&#8943;)</b> na ekranie Teraz odtwarzane i włącz funkcję <b>Płynne przejście</b>.", 
+      "intro": "Aby zapewnić nienagannie płynne przejście między utworami, stuknij (<b>&#8943;</b>) na ekranie Teraz odtwarzane i włącz funkcję <b>Płynne przejście</b>.", 
       "intro2": "U góry ekranu kolejki:", 
       "repeat": "Stuknij, aby powtórzyć odtwarzanie całej kolejki. Stuknij ponownie, aby powtórzyć odtwarzanie bieżącego utworu. Stuknij jeszcze raz, aby wyłączyć powtarzanie.", 
       "shuffle": "Stuknij, aby uruchomić tryb losowego uporządkowania utworów. Stuknij ponownie, aby powrócić do pierwotnego układu.", 
@@ -306,25 +306,25 @@
       "catchSomeMoreDescription": "Włącz powiadomienia drzemki przy konfiguracji alarmu.", 
       "catchSomeMoreText": "Chcesz trochę dłużej pospać?", 
       "directionText": "Wybierz <b>Więcej</b> &#10132; <b>Alarmy</b> &#10132; <b>Nowy Alarm</b>, aby rozpocząć.", 
-      "sleepToMusicDescription": "System Sonos może wyłączyć się automatycznie. Stuknij <b>Więcej informacji (&#8943;)</b> na ekranie Teraz odtwarzane, aby skonfigurować usypiacz.", 
+      "sleepToMusicDescription": "System Sonos może wyłączyć się automatycznie. Stuknij (<b>&#8943;</b>) na ekranie Teraz odtwarzane, aby skonfigurować usypiacz.", 
       "sleepToMusicText": "Uwielbiasz zasypiać przy muzyce?", 
       "title": "Ustaw alarm muzyczny"
     }, 
     "8": {
       "addFavoritesToMySonos": "<b>Dodaj ulubione do systemu Mój Sonos:</b>", 
-      "addFromNowPlaying": "<b>Uwaga:</b> Możesz także oznaczyć utwór lub stację jako ulubione bezpośrednio na ekranie Teraz odtwarzane; wystarczy stuknąć <b>Więcej informacji (&#8943;)</b> &#10132; <b>Dodaj do systemu Mój Sonos</b>. (Utworów zapisanych na Twoim urządzeniu mobilnym nie można zachować jako ulubione.)", 
+      "addFromNowPlaying": "<b>Uwaga:</b> Możesz także oznaczyć utwór lub stację jako ulubione bezpośrednio na ekranie Teraz odtwarzane; wystarczy stuknąć (&#8943;) &#10132; <b>Dodaj do systemu Mój Sonos</b>. (Utworów zapisanych na Twoim urządzeniu mobilnym nie można zachować jako ulubione.)", 
       "buttonTitle": "Przejdź do systemu Mój Sonos", 
-      "editInstructions": "Przejdź do <b>Mój Sonos</b> i stuknij <b>Edytuj</b>. Możesz również edytować zawartość kategorii w systemie Mój Sonos (albumy, playlisty lub utwory); wystarczy stuknąć <b>Zobacz wszystkie</b>, a następnie <b>Więcej opcji (&#8943;)</b> w górnej części ekranu.", 
+      "editInstructions": "Przejdź do <b>Mój Sonos</b> i stuknij <b>Edytuj</b>. Możesz również edytować zawartość kategorii w systemie Mój Sonos (albumy, playlisty lub utwory); wystarczy stuknąć <b>Zobacz wszystkie</b>, a następnie (&#8943;) w górnej części ekranu.", 
       "editYourFavorites": "<b>Edytuj ulubione:</b>", 
       "goToMySonos": "Przejdź do <b>Mój Sonos</b>.", 
-      "introText": "Zapisz ulubione utwory, stacje lub kolekcje, np. „Premiery” w systemie <b>Mój Sonos</b>, a ich ponowne wyszukiwanie nigdy nie będzie już konieczne.", 
+      "introText": "„Premiery” w systemie <b>Mój Sonos</b>, a ich ponowne wyszukiwanie nigdy nie będzie już konieczne.", 
       "seeYourFavorites": "<b>Zobacz ulubione:</b>", 
-      "tapWhenBrowsing": "Stuknij <b>Więcej opcji (&#8943;)</b> podczas wyszukiwania lub przeglądania muzyki.", 
+      "tapWhenBrowsing": "Stuknij (&#8943;) podczas wyszukiwania lub przeglądania muzyki.", 
       "title": "Zapisz ulubione w systemie Mój Sonos"
     }, 
     "9": {
       "createAccount": "Jeżeli nie widzisz opcji <b>Konto Sonos</b>, Twój system Sonos wymaga aktualizacji.", 
-      "intro": "Konto umożliwia dodawanie większej liczby głośników, uzyskiwanie nowych funkcji oraz bezpieczną integrację z aplikacjami wykorzystywanymi do strumieniowego odtwarzania dźwięku.",
+      "intro": "An account lets you add more speakers, get new features, and safely and securely integrate with your streaming apps.ZXZ",
       "navInstructions": "Możesz otworzyć swoje konto w dowolnym momencie; wystarczy wybrać <b>Więcej &#10132; Ustawienia &#10132; Konto Sonos</b>.",
       "title": "Twoje konto Sonos"
     }, 
@@ -336,7 +336,7 @@
       "category1": "Używanie aplikacji", 
       "category2": "Używanie głośników", 
       "category3": "Używanie sterowania głosowego", 
-      "category4": "Korzystanie z innych aplikacji", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Steruj systemem Sonos za pomocą Amazon Alexa", 
       "createAStereoPair": "Stwórz parę stereofoniczną", 
       "crossfadeShuffleRepeat": "Płynne przejście, tryb losowy, powtórz", 
@@ -370,7 +370,7 @@
       "category1": "Używanie aplikacji", 
       "category2": "Używanie głośników", 
       "category3": "Używanie sterowania głosowego", 
-      "category4": "Korzystanie z innych aplikacji", 
+      "category4": "Using other appsZXZ", 
       "controlSonosUsingAmazonAlexa": "Steruj systemem Sonos za pomocą Amazon Alexa", 
       "createAStereoPair": "Stwórz parę stereofoniczną", 
       "crossfadeShuffleRepeat": "Płynne przejście, tryb losowy, powtórz", 
