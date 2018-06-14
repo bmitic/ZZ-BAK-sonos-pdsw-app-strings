@@ -9,9 +9,12 @@
 // provide a desciption/example of the format arguments so they can be localized correctly.
 
 
-/* Common */
+/* Localization Tests */
+    "<LocalizationTestMDCR>" = "Tutaj także testuję lokalizację " 
 
-    "<OK>" = "OK";
+ / * Często * /
+
+    " <OK> " = "OK";
     "<Cancel>" = "Anuluj";
     "<Yes>" = "Tak";
     "<No>" = "Nie";
@@ -117,7 +120,7 @@
     "<AlarmHeaderWhere>" = "Gdzie";
     "<AlarmHeaderWhen>" = "Kiedy";
     "<AlarmHeaderOn>" = "WŁĄCZONY";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Bieżąca godzina: %1$@ - %2$@ %3$@";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Obecny czas:  -  ";
     "<AlarmEditButtonTitle>" = "Edytuj";
     "<AlarmUnknownDevice>" = "Nie wybrano pomieszczenia";
 
@@ -207,15 +210,15 @@
     "<ConfigureFirewall_WindowTitle>" = "Konfiguruj zaporę sieciową";
     "<ConfigureFirewall_Title>" = "Dostosuj ustawienia zapory sieciowej";
     "<ConfigureFirewall_Info>" = "Systemowi Sonos nie udało się automatycznie dostosować ustawień Twojej zapory sieciowej. Dokonaj następujących zmian ustawień zapory sieciowej ręcznie:";
-    "<ConfigureFirewall_Instructions>" = "1. Kliknij menu Apple i wybierz Preferencje systemowe…\n2. Kliknij ikonę Bezpieczeństwo w oknie Preferencje systemowe\n3. Kliknij zakładkę Zapora sieciowa\n4. W razie konieczności kliknij ikonę kłódki, aby zezwolić na dokonanie zmian (kiedy pojawi się stosowny komunikat, wpisz nazwę użytkownika i hasło)\n5. Kliknij przycisk Zaawansowane…\n6. Odznacz pole Blokuj wszystkie połączenia przychodzące\n7. Znajdź Sonos na poniższej liście i wybierz Zezwól na połączenia przychodzące\n8 Kliknij OK\n9. Zamknij okno Preferencje systemowe";
+    "<ConfigureFirewall_Instructions>" = "1. Kliknij menu Apple i wybierz Preferencje systemowe…\n2. Kliknij ikonę Bezpieczeństwo w oknie Preferencje systemowe\n3. Kliknij zakładkę Zapora sieciowa\n4. W razie konieczności kliknij ikonę kłódki, aby zezwolić na dokonanie zmian (kiedy pojawi się stosowny komunikat, wpisz nazwę użytkownika i hasło)\n5. Kliknij przycisk Zaawansowane…\n6. Odznacz pole Blokuj wszystkie połączenia przychodzące\n7. Znajdź Sonos na poniższej liście i wybierz Zezwól na połączenia przychodzące\n8 Kliknij OK\n9. Zamknij okno Preferencje systemowe Preferencje systemowe…";
 /* Localizers: the first instance of this string in the instructions string above will be turned into a link
  * that will launch the System Preferences application. */
-    "<ConfigureFirewall_InstructionsLink>" = "Preferencje systemowe…";
+    "<ConfigureFirewall_InstructionsLink>" = "(folder główny)";
 
 /* Music Sharing Setup */
 
-    "<MusicPathHomeFolder>" = "(folder główny)";
-    "<ShareMigrationAlertTitle>" = "Aktualizacja biblioteki muzycznej";
+    "<MusicPathHomeFolder>" = "(folder domowy)";
+    "<ShareMigrationAlertTitle>" = "Music library updateZXZ";
     "<ShareMigrationAlertMessage>" = "Aby umożliwić odtwarzanie utworów z Twojej biblioteki muzycznej, system Sonos musi zaktualizować spis utworów. Może to potrwać kilka minut.";
     "<ShareMigrationAlertNowButton>" = "Aktualizuj teraz";
     "<ShareMigrationAlertLaterButton>" = "Przypomnij mi później";
@@ -229,7 +232,7 @@
     "<NowPlayingHeaderTitle>" = "TERAZ ODTWARZANE";
     "<NowPlayingLabel_Information>" = "Więcej informacji";
     "<NowPlayingTrackDefaultLabel>" = "Utwór [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[brak muzyki]";
+    "<NowPlayingTrackDefaultString>" = "[Nie wybrano muzyki]";
     "<NowPlayingArtistDefaultLabel>" = "Artysta";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -268,16 +271,16 @@
 
     "<SettingsWindowTitle>" = "Preferencje";
     "<SettingsBasicSettingsTitle>" = "Podstawowe";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Obecnie w Twoim systemie Sonos nie ma żadnych %1$@.\n\nAby dodać %1$@, wybierz %2$@\n na pasku menu.";
     "<SettingsNoPlayers_1>" = "Obecnie w Twoim systemie Sonos nie ma żadnego odtwarzacza Sonos.\nAby odtwarzać muzykę, potrzebujesz przynajmniej jednego odtwarzacza Sonos.\n\nAby dodać odtwarzacz Sonos, wybierz %1$@ na pasku menu.";
-    "<SettingsNoPlayerLink>" = "Zarządzaj > Dodaj odtwarzacz lub SUB";
-    "<SettingsNoBoostLink>" = "Zarządzaj > Dodaj BOOST lub BRIDGE";
+    "<SettingsNoPlayerLink>" = "Zarządzaj> Dodaj gracza lub subadres";
+    "<SettingsNoBoostLink>" = "Zarządzaj> Dodaj wzmocnienie lub most";
     "<SettingsNoAvailable_1>" = "Brak dostępnych %1$@";
     "<SettingsComponentRoom>" = "Pomieszczenie";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dok";
+    "<SettingsComponentBoost>" = "Podnieść";
     "<SettingsEqBass>" = "Bas";
     "<SettingsEqTreble>" = "Tony wysokie";
     "<SettingsEqBalance>" = "Balans";
@@ -312,8 +315,8 @@
     "<SettingsExplicitFilteringNoServices>" = "W Twoim systemie Sonos brak serwisów muzycznych obsługujących filtrowanie konkretnej zawartości.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Więcej informacji";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB włączony";
-    "<SettingsSubEqLevelAdjustment>" = "Poziom SUB";
+    "<SettingsSubEqEnabled>" = "Sub On";
+    "<SettingsSubEqLevelAdjustment>" = "Poziom podrzędny";
     "<SettingsSubEqPlacementAdjustment>" = "Dostosowanie położenia";
     "<SettingsSubEqSpeakerSize>" = "Rozmiar głośnika (Crossover)";
     "<SettingsTVDialogDelay>" = "Opóźnienie audio (synchronizacja obrazu z dźwiękiem)";
@@ -386,8 +389,9 @@
     "<ZoneMenuEq_1>" = "Korekcja %1$@…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "Ustawienia %1$@…";
-    "<ZoneMenuSelectToUpdate>" = "Wybierz, aby zaktualizować…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Wybierz, aby skonfigurować %1$s";
+    "<ZoneMenuSelectToUpdate>" = "Wybierz, aby zaktualizować";
+    "<ZoneMenuSelectToConfigure>" = "Wybierz, aby skonfigurować";
+    "<ZoneMenuSelectToRegister>" = "Wybierz, aby się zarejestrować";
     "<ZoneMenuConfirmPauseAll>" = "Czy na pewno chcesz wstrzymać odtwarzanie muzyki we wszystkich pomieszczeniach?";
     "<ZoneMenuPauseButton>" = "Wstrzymaj";
 
@@ -424,8 +428,8 @@
     "<MenuTitle_View>" = "Wyświetl";
 
     "<MenuTitle_Manage>" = "Zarządzaj";
-    "<MenuTitle_AddPlayerOrSub>" = "Dodaj odtwarzacz lub SUB…";
-    "<MenuTitle_AddBoost>" = "Dodaj BOOST lub BRIDGE…";
+    "<MenuTitle_AddPlayerOrSub>" = "Dodaj gracza lub sub ...";
+    "<MenuTitle_AddBoost>" = "Dodaj zwiększenie lub pomost ...";
     "<MenuTitle_MusicLibrarySettings>" = "Ustawienia biblioteki muzycznej…";
     "<MenuTitle_ServiceSettings>" = "Ustawienia serwisów…";
     "<MenuTitle_AddRadioStation>" = "Dodaj stację radiową…";
@@ -497,8 +501,8 @@
     "<ShareWizard_MusicSelect_Title>" = "Dodaj folder muzyczny";
     "<ShareWizard_MusicSelect_Body1>" = "Gdzie znajduje się muzyka, którą chcesz odtwarzać w systemie Sonos?";
     "<ShareWizard_MusicSelect_Input1>" = "Mój folder muzyczny";
-    "<ShareWizard_MusicSelect_Input2>" = "Inny folder lub dysk połączony z moim komputerem";
-    "<ShareWizard_MusicSelect_Input3>" = "Urządzenie sieciowe (np. dysk NAS)";
+    "<ShareWizard_MusicSelect_Input2>" = "Inny folder lub dysk podłączony do mojego komputera";
+    "<ShareWizard_MusicSelect_Input3>" = "Urządzenie sieciowe (np. Napęd NAS)";
 
     "<ShareWizard_MusicSelect_NAS_Title>" = "Dodawanie muzyki z zasobów udostępnionych w sieci";
     "<ShareWizard_MusicSelect_NAS_Body1>" = "Wpisz ścieżkę dostępu do zasobów udostępnionych w sieci:";
@@ -533,9 +537,9 @@
 
     "<ShareWizard_SleepSet_Title>" = "Dostosuj ustawienia usypiacza";
     "<ShareWizard_SleepSet_Body1>" = "Systemowi Sonos nie udało się dostosować ustawień usypiacza dla Twojego komputera. Aby zapewnić niezakłócone odtwarzanie muzyki zapisanej na Twoim komputerze, wykonaj poniższe czynności:";
-    "<ShareWizard_SleepSet_Steps>" = "1. Kliknij ikonę trybu oszczędzania energii w ”Preferencje systemowe” w menu Apple\n2. Ustaw suwak usypiacza komputera w pozycji ”Nigdy”\n3. Zamknij okno Preferencje systemowe\n4. Naciśnij poniższy przycisk „Dalej”, aby kontynuować.";
+    "<ShareWizard_SleepSet_Steps>" = "1. Kliknij ikonę trybu oszczędzania energii w ”Preferencje systemowe” w menu Apple\n2. Zamknij okno Preferencje systemowe\n4. Naciśnij poniższy przycisk „Dalej”, aby kontynuować. Otwórz Preferencje systemowe Kliknij przycisk \\ "Dalej \\" poniżej, aby kontynuować.";
 
-    "<ShareWizard_SystemPrefs_Title>" = "Otwórz Preferencje systemowe";
+    "<ShareWizard_SystemPrefs_Title>" = "Preferencje systemowe są otwarte";
     "<ShareWizard_SystemPrefs_Message>" = "Zamknij okno Preferencje systemowe, aby dokonano zmian ustawień usypiacza komputera";
     "<ShareWizard_InvalidPath_Empty>" = "Ścieżka jest pusta.";
     "<ShareWizard_InvalidPath_NotAllowed>" = "Brak uprawnień dostępu do ścieżki.";
@@ -566,8 +570,8 @@
 
     "<ControllerUpdateWizard_Title>" = "Postęp aktualizacji";
     "<ControllerUpdateWizard_ErrorTitle>" = "Aktualizacja nieudana";
-    "<ControllerUpdateWizard_Downloading>" = "Aktualizacja aplikacji sterującej: pobieranie";
-    "<ControllerUpdateWizard_Installing>" = "Aktualizacja aplikacji sterującej: instalowanie";
+    "<ControllerUpdateWizard_Downloading>" = "Aktualizowanie kontrolera: ściąganie";
+    "<ControllerUpdateWizard_Installing>" = "Aktualizowanie kontrolera: instalacja";
 
     "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Nie udało się pobrać pliku instalacyjnego aplikacji sterującej Sonos.\n\nKod błędu %1$ld";
     "<ControllerUpdateWizard_InstallFailed_Message>" = "Nie udało się dokonać aktualizacji aplikacji sterującej Sonos.\n\nWystąpił nieoczekiwany błąd. Spróbuj ponownie.";
