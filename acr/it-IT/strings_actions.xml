@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="alarm_frequency_once">Una volta</string>
 <string name="alarm_frequency_sunday">Ogni domenica</string>
