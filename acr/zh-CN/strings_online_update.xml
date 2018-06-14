@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="online_update_check_for_updates_subheader">正在检查更新…</string>
 <string name="online_update_devices_upgrade_in_progress_subheader">更新进度</string>
