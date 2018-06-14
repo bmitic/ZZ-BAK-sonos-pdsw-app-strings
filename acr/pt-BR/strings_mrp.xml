@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="mrp_play_to_player">SONOS</string>
-<string name="mrp_play_to_group">SONOS</string>
-<string name="mrp_error_code">Erro %1$d</string>
-<string name="mrp_unsupported_intent_category">Sonos não é compatível com este tipo de mídia.</string>
-<string name="mrp_group_not_found_for_route">Não é possível conectar ao grupo de Sonos \'%1$s\'.</string>
-<string name="mrp_invalid_session_id">Sessão inválida. Reconecte-se ao grupo de Sonos para continuar a reprodução.</string>
-<string name="mrp_cannot_play_to_sonos">Não é possível converter a Sonos.</string>
-<string name="mrp_no_item_specified_in_remove_action">Esta música não pode ser eliminada da lista porque não pode ser encontrada.</string>
-<string name="mrp_cannot_seek_in_item">Não é possível buscar porque a música não está sendo tocada.</string>
+    <string name="mrp_play_to_player">SONOS</string>
+    <string name="mrp_play_to_group">SONOS</string>
+    <string name="mrp_error_code">Erro %1$d</string>
+    <string name="mrp_unsupported_intent_category">Sonos não é compatível com este tipo de mídia.</string>
+    <string name="mrp_group_not_found_for_route">Não é possível conectar ao grupo de Sonos \'%1$s\'.</string>
+    <string name="mrp_invalid_session_id">Sessão inválida. Reconecte-se ao grupo de Sonos para continuar a reprodução.</string>
+    <string name="mrp_cannot_play_to_sonos">Não é possível converter a Sonos.</string>
+    <string name="mrp_no_item_specified_in_remove_action">Esta música não pode ser eliminada da lista porque não pode ser encontrada.</string>
+    <string name="mrp_cannot_seek_in_item">Não é possível buscar porque a música não está sendo tocada.</string>
 </resources>
