@@ -26,5 +26,13 @@
   {
     "locale" : "fr-FR",
     "readableString" : "French"
+  },
+  {
+    "locale" : "ja-JP",
+    "readableString" : "Japanese"
+  },
+  {
+    "locale" : "uz-uz",
+    "readableString" : "This is a test string"
   }
 ]
