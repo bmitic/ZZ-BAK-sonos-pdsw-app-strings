@@ -1,0 +1,699 @@
+//
+//  Localizable.strings
+//  SonosMDCR
+//
+//  Copyright 2011 Sonos, Inc. All rights reserved.
+//
+
+// Notes: These strings will be sent to localizers without much context. For *all* format strings
+// provide a desciption/example of the format arguments so they can be localized correctly.
+
+
+/* Common */
+
+    "<OK>" = "好";
+    "<Cancel>" = "取消";
+    "<Yes>" = "是";
+    "<No>" = "否";
+    "<Crossfade>" = "渐入渐出";
+    "<Mute>" = "静音";
+    "<MuteAll>" = "全部静音";
+    "<Next>" = "下一步";
+    "<Back>" = "上一步";
+    "<Pause>" = "暂停";
+    "<Play>" = "播放";
+    "<Previous>" = "上一个";
+    "<RepeatOff>" = "重复播放关闭";
+    "<RepeatOne>" = "重复歌曲";
+    "<RepeatAll>" = "重复全部";
+    "<Shuffle>" = "随机播放";
+    "<Stop>" = "停止";
+    "<Unmute>" = "取消静音";
+    "<UnmuteAll>" = "取消全部静音";
+    "<Done>" = "完成";
+    "<On>" = "打开";
+    "<Off>" = "关闭";
+
+/*******************************************************************************
+ Code strings
+ ******************************************************************************/
+
+/* General */
+
+    "<BusyUIPleaseWait>" = "请稍候…";
+    "<GeneralConfirmTitle>" = "确认";
+    "<GeneralErrorTitle>" = "错误";
+
+
+/* About Window */
+
+    "<AboutSonosWindowTitle>" = "关于 Sonos";
+    "<AboutControllerName_1>" = "Sonos Mac 专用控制器 %1$@";
+    "<AboutVersion>" = "版本：";
+    "<AboutBuild>" = "内部版本：";
+    "<AboutSonosID>" = "Sonos ID：";
+    "<AboutSubmitDiagnostics>" = "提交诊断信息";
+
+
+/* Error Log Window */
+
+    "<ErrorWindowTitle>" = "Sonos 系统错误日志";
+
+
+/* Keyboard shortcuts window */
+
+    "<KeyboardWindowTitle>" = "键盘快捷方式";
+    "<KeyboardWindowHeading>" = "Sonos 系统支持的键盘快捷方式:";
+    "<KeyboardWindowFunction>" = "功能";
+    "<KeyboardWindowShortcut>" = "快捷方式";
+
+    "<ShortcutPlay>" = "播放/暂停";
+    "<ShortcutPrevTrack>" = "上一歌曲";
+    "<ShortcutNextTrack>" = "下一歌曲";
+    "<ShortcutShuffle>" = "切换随机播放";
+    "<ShortcutRepeat>" = "切换重复播放";
+    "<ShortcutCrossfade>" = "切换渐入渐出";
+    "<ShortcutMute>" = "对当前房间/组启用/禁用静音";
+    "<ShortcutMuteAll>" = "全部静音";
+    "<ShortcutVolUp>" = "增大音量";
+    "<ShortcutVolDown>" = "减小音量";
+    "<ShortcutPlayNow>" = "立即播放选定的歌曲";
+    "<ShortcutPlayNext>" = "下一首播放选定的歌曲";
+    "<ShortcutAdd>" = "稍后播放选好的曲目";
+    "<ShortcutReplace>" = "使用选定的曲目替换队列";
+    "<ShortcutDelete>" = "从队列中移除所选歌曲";
+    "<ShortcutTop>" = "跳转到浏览的顶级窗格";
+    "<ShortcutFavorites>" = "转到个人收藏";
+    "<ShortcutBrowse>" = "将焦点跳转到浏览";
+    "<ShortcutRooms>" = "将焦点跳转到房间";
+    "<ShortcutNowPlaying>" = "将焦点跳转到正在播放";
+    "<ShortcutQueue>" = "将焦点跳转到队列";
+    "<ShortcutNextZone>" = "选择下一个房间组";
+    "<ShortcutPrevZone>" = "选择上一个房间组";
+    "<ShortcutScroll>" = "在队列中显示当前歌曲";
+    "<ShortcutResizeQueue>" = "调整队列大小";
+    "<ShortcutContext>" = "显示歌曲菜单";
+    "<ShortcutKeyboard>" = "键盘快捷方式";
+/*
+ Localizers:
+ When running under OS X Lion, look at the string translations for "Enter Full Screen"
+ and "Exit Full Screen" in the View menu. Use those 2 strings to create the
+ <ShortcutToggleFullScreen> string below:
+*/
+    "<ShortcutToggleFullScreen>" = "进入/退出全屏";
+    "<ShortcutShowPreferences>" = "显示偏好设置";
+    "<ShortcutShowSonosController>" = "显示 Sonos 控制器";
+    "<ShortcutShowMiniController>" = "显示迷你控制器";
+    "<ShortcutToggleMiniController>" = "切换迷你控制器";
+
+/* Alarms */
+
+    "<AlarmAlarms>" = "闹钟";
+    "<AlarmsNoTimeTitle>" = "未设置当前时间";
+    "<AlarmsNoTimeText>" = "必须先设置好当前时间，才能创建闹钟。";
+    "<AlarmsNoTimeButton>" = "设置当前时间";
+    "<AlarmsDialogTitle>" = "闹钟";
+    "<AlarmsTitle>" = "管理 Sonos 闹钟";
+    "<AlarmHeaderWhere>" = "地点";
+    "<AlarmHeaderWhen>" = "时间";
+    "<AlarmHeaderOn>" = "开";
+    "<AlarmDialogCurrentTimeFormat_3>" = "当前时间: %1$@ - %2$@ %3$@";
+    "<AlarmEditButtonTitle>" = "编辑";
+    "<AlarmUnknownDevice>" = "未选择房间";
+
+/* Alarm Edit */
+
+    "<AlarmEditDialogTitle>" = "编辑闹钟";
+    "<AlarmAddDialogTitle>" = "添加闹钟";
+    "<AlarmEditAlarm>" = "闹钟";
+    "<AlarmEditTime>" = "时间";
+    "<AlarmEditZone>" = "房间";
+    "<AlarmEditMusic>" = "音乐";
+    "<AlarmSelectMusicButton>" = "选择…";
+    "<AlarmEditSchedule>" = "预定";
+    "<AlarmEditScheduleOnceOnly>" = "仅一次";
+    "<AlarmEditScheduleMonday>" = "星期一";
+    "<AlarmEditScheduleTuesday>" = "星期二";
+    "<AlarmEditScheduleWednesday>" = "星期三";
+    "<AlarmEditScheduleThursday>" = "星期四";
+    "<AlarmEditScheduleFriday>" = "星期五";
+    "<AlarmEditScheduleSaturday>" = "星期六";
+    "<AlarmEditScheduleSunday>" = "星期日";
+    "<AlarmEditVolume>" = "音量";
+    "<AlarmEditDuration>" = "持续时间";
+    "<AlarmEditDurationNoLimit>" = "无限制";
+    "<AlarmEditIncludeText>" = "包括分组房间";
+    "<AlarmEditShuffleMusic>" = "随机播放音乐";
+
+    "<AlarmMusicDialogTitle>" = "闹钟音乐";
+    "<AlarmBrowseTitle>" = "浏览到闹钟音乐";
+    "<AlarmSetMusicButton>" = "设定闹钟音乐";
+    "<AlarmBrowseTopButtonTitle>" = "最受欢迎";
+    "<AlarmSaveErrorSameTime>" = "无法保存闹钟。此房间已设置了指定时间的闹钟。";
+    "<AlarmSaveErrorTooManyAlarms>" = "不能创建更多闹钟。请先删除现有闹钟，再添加新闹钟。";
+    "<AlarmSaveErrorOther>" = "无法保存闹钟。请稍后重试。";
+
+
+/* Authorization */
+
+    "<EnterAdministratorAccountAndPassword>" = "输入管理员帐户和密码";
+
+
+/* Browse Panel */
+
+    "<BrowseHeaderTitle>" = "选择一个音乐源";
+    "<BrowseMusicButton>" = "音乐";
+    "<BrowseMoreButtonTitle>" = "更多";
+// %1$@ is what the user searched for. %2$@ is the search result category (Artist, Song, …)
+    "<BrowseEmptySearchResults_2>" = "在 %2$@ 中搜索“%1$@”未返回结果。请尝试搜索其他类别或使用新的搜索术语。";
+// %1$@, Search result category (Artist, Song, …)
+    "<BrowseSearchResultsTitle_1>" = "结果： %1$@";
+    "<BrowseEmptyLibrary_1>" = "您尚未向 Sonos 系统中添加任何音乐文件夹。\n要向 Sonos 中添加音乐，请从“管理”菜单中选择 %@。";
+    "<BrowseEmptyLibraryIndexing>" = "当前正在编制索引。编制索引完成后，即可播放音乐。";
+    "<UnselectAll>" = "取消全部选择";
+
+/* Dock Menu */
+
+    "<DockShowSonosController>" = "Sonos 控制器";
+    "<DockNoZonesFound>" = "未发现房间";
+    "<DockSwitchToZone>" = "切换房间组";
+// %1$@, Sonos device name
+    "<DockNowPlayingOn_1>" = "正在 %1$@ 上播放：";
+    "<DockRateThisTrack>" = "对该歌曲评级";
+
+
+/* Indexing */
+
+    "<IndexingFinishedSuccessMessage>" = "现已成功完成音乐集索引编制。";
+    "<IndexingInProgressMessage>" = "正在编制您的音乐集索引…";
+// %1$@, Reason why indexing the user's music collection failed.
+    "<IndexingFinishedError_1>" = "无法完成音乐集索引编制。\n\n%1$@";
+    "<IndexingUpdateMusicLibraryTitle>" = "更新音乐库";
+    "<IndexingUpdateMusicLibraryMessage>" = "这将更新您的 Sonos 系统的音乐库，以便与您在 iTunes 或其他共享音乐文件夹中进行的更改保持一致。\n\n是否要立即更新您的 Sonos 系统音乐库？";
+
+
+/* Limited Connectivity */
+
+    "<LimitedConnectivityBlockedByFirewall_1>" = "您的电脑防火墙设置已经更改。您的 Sonos 控制器无法再连接到您的 Sonos 系统。\n请进入 %1$@ 寻找更多信息。\n点按“配置防火墙”按钮调整您的防火墙设置。";
+    "<LimitedConnectivityReset>" = "您的 Sonos 控制器已重设。\n它即将重新启动…";
+    "<LimitedConnectivityAboutMySonosSystem>" = "关于 Sonos 系统";
+    "<LimitedConnectivityFirewallConfigure>" = "配置防火墙";
+    "<LimitedConnectivityMoreOptions>" = "更多选项…";
+    "<LimitedConnectivityResetController>" = "重设控制器";
+    "<LimitedConnectivitySubmitDiagnostics>" = "提交诊断信息";
+
+
+/* Configure firewall */
+    "<ConfigureFirewall_WindowTitle>" = "配置防火墙";
+    "<ConfigureFirewall_Title>" = "调整防火墙设置";
+    "<ConfigureFirewall_Info>" = "Sonos 无法自动调整您的防火墙设置。请手动调整以下防火墙设置:";
+    "<ConfigureFirewall_Instructions>" = "1。点按“Apple”菜单并选择“系统偏好设置…”\n2。在“系统偏好设置”窗口中点按安全性图标\n3。点按“防火墙”标签\n4。如有必要，点按锁定图标来允许更改（在提示时键入您的用户名和密码）\n5。点按“高级…”按钮\n6。取消选中“阻止所有传入连接”复选框\n7。在下面的列表中查找 Sonos，然后选择“允许传入连接”\n8。点按“好”\n9。关闭“系统偏好设置”窗口";
+/* Localizers: the first instance of this string in the instructions string above will be turned into a link
+ * that will launch the System Preferences application. */
+    "<ConfigureFirewall_InstructionsLink>" = "系统偏好设置…";
+
+/* Music Sharing Setup */
+
+    "<MusicPathHomeFolder>" = "（个人文件夹）";
+    "<ShareMigrationAlertTitle>" = "音乐库更新";
+    "<ShareMigrationAlertMessage>" = "为确保音乐库中的音乐能正常播放，Sonos 需要更新曲目索引。这可能会花几分钟的时间。";
+    "<ShareMigrationAlertNowButton>" = "立即更新";
+    "<ShareMigrationAlertLaterButton>" = "稍后提醒我";
+    "<AuthorizationFailed>" = "授权失败。";
+    "<AbleToAddMusicSharesFailed>" = "由于您的播放器不兼容，Sonos 无法启动音乐库服务器。请检查获取更新版本。";
+    "<LocalHostNameFailed>" = "由于无法读取计算机名称，Sonos 无法启动音乐库服务器。";
+
+
+/* Now Playing Panel */
+
+    "<NowPlayingHeaderTitle>" = "正在播放";
+    "<NowPlayingLabel_Information>" = "信息和选项";
+    "<NowPlayingTrackDefaultLabel>" = "歌曲 [0/0]";
+    "<NowPlayingTrackDefaultString>" = "[未选择音乐]";
+    "<NowPlayingArtistDefaultLabel>" = "表演者";
+    "<NowPlayingAlbumDefaultLabel>" = "专辑";
+
+
+/* Queue Panel */
+
+    "<QueueHeaderTitle>" = "队列";
+    "<QueueHeaderTitleNotInUse>" = "（未使用）";
+    "<QueueEmpty>" = "队列为空。";
+    "<QueueClear>" = "清除队列";
+    "<QueueSave>" = "保存队列";
+    "<QueueConfirmClearText>" = "是否确实要清除此队列？";
+// %1$d, Number of tracks to remove.
+    "<QueueSaveWindowTitle>" = "保存队列";
+    "<QueueSaveIntroText>" = "该队列将另存为 Sonos 播放列表。";
+    "<QueuePlaylistNameText>" = "输入新播放列表名称：";
+    "<QueuePlaylistTableText>" = "或选择现有 Sonos 播放列表进行替换：";
+    "<QueueSaveErrorGeneric>" = "无法存储队列。";
+    "<QueueSaveErrorNotEnoughRoom>" = "Sonos 没有足够的剩余空间来保存该队列。\n请移除其他房间保存的旧播放列表或队列，然后重试。";
+    "<QueueSaveErrorMobileTracksNotSaved>" = "无法在 Sonos 播放列表中存储移动设备中的歌曲，因此未保存歌曲。";
+    "<QueueSaveErrorAllMobileTracks>" = "队列中仅包含来自移动设备的歌曲。无法将这些歌曲保存到 Sonos 播放列表。";
+
+    "<QueuePlaylistExistsWarningTitle>" = "Sonos 播放列表已存在";
+// %1$@, the name of the pre-existing playlist
+    "<QueuePlaylistExistsWarningMessage_1>" = "名为“%1$@”的 Sonos 播放列表已存在。替换它将覆盖当前内容。";
+    "<QueuePlaylistReplace>" = "替换";
+
+/* Search */
+
+    "<SearchRecentSearches>" = "最近的搜索";
+    "<SearchEmptyRecentSearches>" = "无最近的搜索";
+    "<SearchClearRecentSearches>" = "清除最近的搜索";
+
+
+/* Settings */
+
+    "<SettingsWindowTitle>" = "偏好设置";
+    "<SettingsBasicSettingsTitle>" = "基本";
+// %1$@, Type of Sonos component (Bridge, Dock, …)
+// $2$@, Text of hyperlink to the wizard
+    "<SettingsNoDevice_2>" = "您当前的 Sonos 系统中没有 %1$@。\n\n要添加 %1$@，请从菜单栏中\n选择 %2$@。";
+    "<SettingsNoPlayers_1>" = "您当前的 Sonos 系统中没有 Sonos 播放器。\n您至少需要一个 Sonos 播放器才能播放音乐。\n\n要添加 Sonos 播放器，请从菜单栏中选择 %1$@。";
+    "<SettingsNoPlayerLink>" = "管理 > 添加播放器或 SUB";
+    "<SettingsNoBoostLink>" = "管理 > 添加 BOOST 或 BRIDGE";
+    "<SettingsNoAvailable_1>" = "没有可用的 %1$@";
+    "<SettingsComponentRoom>" = "房间";
+    "<SettingsComponentDock>" = "DOCK";
+    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsEqBass>" = "低音";
+    "<SettingsEqTreble>" = "高音";
+    "<SettingsEqBalance>" = "声道平衡";
+    "<SettingsEqPlus>" = "+";
+    "<SettingsEqMinus>" = "-";
+    "<SettingsEqLeft>" = "左";
+    "<SettingsEqRight>" = "右";
+    "<SettingsEqMin>" = "最小";
+    "<SettingsEqMax>" = "最大";
+    "<SettingsEqLoudness>" = "响度";
+    "<SettingsEqReset>" = "重设";
+    "<SettingsEqFixed>" = "当 Sonos 播放器的“线路输出等级”设定为“固定”时，均衡设置不可用。\n\n在“基本”选项卡中更改“线路输出等级”设置可启用 EQ 控件。";
+    "<SettingsAdvSettings>" = "高级设置";
+    "<SettingsGeneral>" = "常规";
+    "<SettingsUsage>" = "改善 Sonos";
+    "<SettingsServers>" = "音乐源";
+    "<SettingsDateTime>" = "日期和时间设置";
+    "<SettingsMusicLibrary>" = "音乐库设置";
+    "<SettingsMusicService>" = "音乐服务设置";
+    "<SettingsServiceTitle>" = "我在 Sonos 上的服务帐户";
+    "<SettingsServiceAnonymous>" = "<匿名>";
+    "<SettingsServiceLabs>" = "访问 Sonos Labs";
+    "<SettingsServiceAddTooltip>" = "将新服务添加到您的 Sonos 系统";
+    "<SettingsServiceRemoveTooltip>" = "移除突出显示的服务";
+    "<SettingsServiceEditTooltip>" = "编辑突出显示的服务";
+    "<SettingsServiceLabsTooltip>" = "访问 Sonos Labs 可试用 Sonos 系统上即将发布的服务。";
+    "<SettingsParentalControlsTitle>" = "家长控制";
+    "<SettingsExplicitFilteringEnabledText>" = "启用不宜内容过滤。点击以下按钮，允许 Sonos 系统播放不宜内容。\n\n并非所有服务都支持内容过滤。";
+    "<SettingsExplicitFilteringDisabledText>" = "禁用不宜内容过滤。点击以下按钮，阻止 Sonos 系统播放不宜内容。\n\n并非所有服务都支持内容过滤。";
+    "<SettingsExplicitFilteringEnableButtonTitle>" = "打开不宜内容过滤";
+    "<SettingsExplicitFilteringDisableButtonTitle>" = "关闭不宜内容过滤";
+    "<SettingsExplicitFilteringNoServices>" = "您的 Sonos 系统没有支持内容过滤的音乐服务。";
+    "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "更多信息";
+    "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
+    "<SettingsSubEqEnabled>" = "SUB 已开启";
+    "<SettingsSubEqLevelAdjustment>" = "SUB 级别";
+    "<SettingsSubEqPlacementAdjustment>" = "放置调整";
+    "<SettingsSubEqSpeakerSize>" = "扬声器尺寸（分频器）";
+    "<SettingsTVDialogDelay>" = "音频延迟（影音同步）";
+    "<SettingsSurroundEnabled>" = "环绕声打开";
+    "<SettingsSurroundLevel>" = "电视级别";
+    "<SettingsMusicSurroundLevel>" = "音乐级别";
+    "<SettingsFolders>" = "文件夹";
+    "<SettingsAdvanced>" = "高级";
+    "<SettingsLibraryAddTooltip>" = "将新文件夹添加到您的 Sonos 系统";
+    "<SettingsLibraryRemoveTooltip>" = "移除突出显示的文件夹";
+    "<SettingsDeviceTitle_1>" = "%1$@ 选项";
+    "<SettingsFor>" = "设置";
+    "<SettingsMusicPlayback>" = "音乐播放";
+    "<SettingsAmbient>" = "氛围音乐";
+    "<SettingsFull>" = "全频";
+    "<SettingsMusicPlaybackDescription>" = "在音乐播放期间，环绕声音响可使用轻柔的氛围音乐或响亮的全频音乐增强播放效果。";
+    "<SettingsSurroundBalanceLabel>" = "声道平衡";
+    "<SettingsSurroundBalanceButtonLabel>" = "平衡环绕声音响";
+    "<SettingsSurroundBalanceDescription>" = "Trueplay 调音关闭时，手动对您的环绕声级别进行平衡。";
+
+
+/* Transport Bar */
+    "<TransportOnState_1>" = "%1$@ 已打开";
+    "<TransportOffState_1>" = "%1$@ 已关闭";
+    "<TransportMusicEq>" = "音乐 EQ";
+
+
+/* Volume */
+
+    "<VolumeAdjustRoomVolumes>" = "调整房间音量";
+    "<VolumeFixedVolume>" = "固定音量";
+    "<VolumeGroupVolume>" = "组音量";
+
+
+/* Zone/Rooms Grouping */
+
+    "<ZoneGroupingWindowTitle>" = "将房间分组";
+    "<ZoneGroupingNoZonesSelected>" = "未选择房间";
+    "<ZoneGroupingUnselectAllDevices>" = "取消全部选择";
+    "<ZoneGroupingSelectAllDevices>" = "全选 - 派对模式";
+    "<ZoneGroupingSelectZonesToGroup>" = "选择要分组的房间:";
+    "<ZoneGroupingSelectedZonesWillPlay>" = "所选房间将播放:";
+    "<MultiMusicMessage>" = "单击“完成”来选择音乐";
+    "<MusicGroupingInstructions>" = "选择要在选定的房间中播放的音乐";
+
+/* Zone/Rooms Panel */
+
+    "<ZoneMenuHeaderTitle>" = "房间";
+    "<ZoneMenuGroupZones>" = "同步";
+    "<ZoneMenuShowLess>" = "显示更少…";
+// %1$d, Number of extra (non-visible devices)
+    "<ZoneMenuShowMore_1>" = "再显示 %1$d 个…";
+    "<ZoneMenuPauseAll>" = "全部暂停";
+    "<ZoneMenuPlayGroup>" = "播放组";
+// %1$@, Sonos device name.
+    "<ZoneMenuPlay_1>" = "播放 %1$@";
+    "<ZoneMenuPauseGroup>" = "暂停组";
+// %1$@, Sonos device name.
+    "<ZoneMenuPause_1>" = "暂停 %1$@";
+    "<ZoneMenuStopGroup>" = "停止组";
+// %1$@, Sonos device name.
+    "<ZoneMenuStop_1>" = "停止 %1$@";
+// %1$@, Sonos device name.
+    "<ZoneMenuMuteDevice_1>" = "对 %1$@ 启用静音";
+// %1$@, Sonos device name.
+    "<ZoneMenuUnmuteDevice_1>" = "对 %1$@ 禁用静音";
+    "<ZoneMenuMuteGroup>" = "对组静音";
+    "<ZoneMenuUnmuteGroup>" = "不对组静音";
+// %1$@, Sonos device name.
+    "<ZoneMenuEq_1>" = "%1$@ EQ…";
+// %1$@, Sonos device name.
+    "<ZoneMenuSettings_1>" = "%1$@ 设置…";
+    "<ZoneMenuSelectToUpdate>" = "选择更新…";
+    "<ZoneMenuSelectToConfigure>" = "Set up this speakerZXZ";
+    "<ZoneMenuSelectToRegister>" = "Register this speakerZXZ";
+    "<ZoneMenuConfirmPauseAll>" = "是否确实要暂停在所有房间中播放音乐？";
+    "<ZoneMenuPauseButton>" = "暂停";
+
+
+
+
+/*******************************************************************************
+ XIB strings
+ ******************************************************************************/
+
+/* MainMenu.xib */
+
+    "<MainWindowTitle>" = "Sonos";
+
+    "<MenuTitle_Sonos>" = "Sonos";
+    "<MenuTitle_AboutSonos>" = "关于 Sonos";
+    "<MenuTitle_Preferences>" = "偏好设置…";
+    "<MenuTitle_CheckForUpdates>" = "检查更新…";
+    "<MenuTitle_Uninstall>" = "卸载…";
+    "<MenuTitle_Services>" = "我的音乐服务";
+    "<MenuTitle_HideSonos>" = "隐藏 Sonos";
+    "<MenuTitle_HideOthers>" = "隐藏其他";
+    "<MenuTitle_ShowAll>" = "全部显示";
+    "<MenuTitle_Quit>" = "退出 Sonos";
+
+    "<MenuTitle_Edit>" = "编辑";
+    "<MenuTitle_Cut>" = "剪切";
+    "<MenuTitle_Copy>" = "拷贝";
+    "<MenuTitle_Paste>" = "粘贴";
+    "<MenuTitle_Delete>" = "删除";
+    "<MenuTitle_SelectAll>" = "全选";
+    "<MenuTitle_Search>" = "搜索";
+
+    "<MenuTitle_View>" = "查看";
+
+    "<MenuTitle_Manage>" = "管理";
+    "<MenuTitle_AddPlayerOrSub>" = "添加播放器或 SUB…";
+    "<MenuTitle_AddBoost>" = "添加 BOOST 或 BRIDGE…";
+    "<MenuTitle_MusicLibrarySettings>" = "音乐库设置…";
+    "<MenuTitle_ServiceSettings>" = "音乐服务设置…";
+    "<MenuTitle_AddRadioStation>" = "添加电台…";
+    "<MenuTitle_UpdateMusicLibraryNow>" = "刷新本地共享音乐";
+    "<MenuTitle_UpdatePlaylistsNow>" = "立即更新 iTunes 播放列表";
+    "<MenuTitle_UpdateAlbumArtNow>" = "立即更新专辑封面";
+
+    "<MenuTitle_Window>" = "窗口";
+    "<MenuTitle_Close>" = "关闭";
+    "<MenuTitle_Minimize>" = "最小化";
+    "<MenuTitle_Zoom>" = "缩放";
+    "<MenuTitle_MainWindowName>" = "Sonos 控制器";
+    "<MenuTitle_MiniWindowName>" = "迷你控制器";
+    "<MenuTitle_BringAllToFront>" = "全部置顶";
+
+    "<MenuTitle_Account>" = "我的 Sonos 账号";
+    "<MenuTitle_Help>" = "帮助";
+    "<MenuTitle_Shop>" = "Sonos 产品商店";
+    "<MenuTitle_KeyboardShortcuts>" = "键盘快捷方式";
+    "<MenuTitle_SonosSystemHelp>" = "Sonos 系统帮助";
+    "<MenuTitle_FirewallHelp>" = "配置防火墙帮助";
+    "<MenuTitle_TechSupportWebsite>" = "技术支持网站";
+    "<MenuTitle_ErrorLog>" = "错误日志";
+    "<MenuTitle_BetaFeedback>" = "提交测试版反馈";
+    "<MenuTitle_SubmitDiagnostics>" = "提交诊断信息";
+    "<MenuTitle_Reset>" = "重置控制器";
+    "<MenuTitle_ForgetHousehold>" = "忘记当前 Sonos 系统";
+
+    "<MenuTitle_CopyLinkAddress>" = "拷贝链接";
+
+/* SMNowPlayingFSViewController.xib */
+
+    "<BackButton>" = "上一步";
+
+
+/****************************************************************/
+/* Music Library/Share Setup Wizard                             */
+/****************************************************************/
+
+    "<Browse>" = "浏览";
+    "<Username>" = "用户名：";
+    "<Password>" = "密码：";
+    "<Remove>" = "删除";
+
+    "<Music_Folder>" = "文件夹";
+    "<Music_Path>" = "路径";
+
+/* Open Panel (runs from the Browse… button) */
+/* title of the Open Panel */
+    "<OpenPanelTitle>" = "添加音乐文件夹";
+/* title for the OK button */
+    "<OpenPanelButton>" = "选取";
+
+/* message to show in the Open Panel (may not appear in running app yet) */
+    "<OpenPanelText>" = "选取含有音乐的文件夹";
+
+    "<Service_Name>" = "服务名称";
+    "<Service_Login>" = "帐户登录";
+    "<Service_Nickname>" = "名称";
+
+    "<Shares_Indexing>" = "正在更新音乐库…\n请稍候。";
+
+    "<ShareWizard_MusicStart_Title>" = "音乐库设置";
+    "<ShareWizard_MusicStart_Body1>" = "设置助理将帮助您将音乐添加到 Sonos 系统音乐库。";
+    "<ShareWizard_MusicStart_Body2>" = "您可以从该电脑或已配置为共享的网络（如 Apple Time Capsule 或 NAS驱动器）中的文件夹添加音乐。";
+    "<ShareWizard_MusicStart_Yes_Option>" = "设置我的音乐";
+    "<ShareWizard_MusicStart_No_Option>" = "现在不用";
+
+    "<ShareWizard_MusicSelect_Title>" = "添加音乐文件夹";
+    "<ShareWizard_MusicSelect_Body1>" = "您想在 Sonos 播放的音乐位于以下哪个位置？";
+    "<ShareWizard_MusicSelect_Input1>" = "“我的音乐”文件夹";
+    "<ShareWizard_MusicSelect_Input2>" = "另一个与我电脑连接的文件夹或驱动器";
+    "<ShareWizard_MusicSelect_Input3>" = "联网的设备（外部NAS 驱动）";
+
+    "<ShareWizard_MusicSelect_NAS_Title>" = "从您的联网共享添加音乐";
+    "<ShareWizard_MusicSelect_NAS_Body1>" = "键入联网共享的路径：";
+    "<ShareWizard_MusicSelect_NAS_Body2>" = "例如：\n\\\\我的其他电脑\\共享\\音乐\n\\\\共享我的联网存储\\共享\\音乐";
+    "<ShareWizard_MusicSelect_External_Title>" = "从您的电脑或外部驱动器添加音乐";
+    "<ShareWizard_MusicSelect_External_Body1>" = "点按“浏览”可选择含有音乐的文件夹：";
+
+    "<ShareWizard_AdjustSharing_Title>" = "调整文件共享设置";
+    "<ShareWizard_AdjustSharing_Body1>" = "为了让 Sonos 系统从该电脑播放音乐，您需要调整文件共享设置。";
+
+    "<ShareWizard_AdminPassword_Body2>" = "要进行此项操作，您需要先输入该电脑的管理员名称和密码。";
+    "<ShareWizard_AdminPassword_Button>" = "点按锁可输入管理员信息。";
+    "<ShareWizard_AdminPassword_Button_Alt>" = "正在鉴定…";
+    "<ShareWizard_AdminPassword_PasswordPrompt>" = "请输入该电脑的管理员名称和密码：";
+
+    "<ShareWizard_SleepSetAsk_Title>" = "调整节能器设置";
+    "<ShareWizard_SleepSetAsk_Body1>" = "为了让 Sonos 系统从该电脑不间断地播放音乐，您需要调整节能器设置。";
+    "<ShareWizard_SleepSetAsk_Body2>" = "如果不进行这些更改，Sonos 系统播放该电脑中的音乐时可能出现中断的情况。";
+    "<ShareWizard_SleepSetAsk_Input>" = "调整设定";
+    "<ShareWizard_SleepSetAsk_Not_Now>" = "现在不用";
+
+    "<ShareWizard_NasPassword_Title>" = "用户名和密码";
+    "<ShareWizard_NasPassword_Body1>" = "请为包含您的音乐的网络驱动器输入用户名和密码：";
+
+    "<ShareWizard_Adding_Body1>" = "正在向 Sonos 系统添加共享信息。";
+
+    "<ShareWizard_MusicList_Title>" = "Sonos 上的“我的音乐”文件夹";
+
+    "<ShareWizard_RemoveCheck_Body1>" = "是否确实要删除选定的文件夹？";
+
+    "<ShareWizardErrorTitle>" = "Sonos 无法添加音乐文件夹";
+
+    "<ShareWizard_SleepSet_Title>" = "调整睡眠设置";
+    "<ShareWizard_SleepSet_Body1>" = "Sonos 无法调整电脑的睡眠设置。为确保连续播放存储在电脑上的音乐，请执行以下操作：";
+    "<ShareWizard_SleepSet_Steps>" = "1. 从 Apple 菜单中点按“系统偏好”中的节能器图标\n2.将电脑的睡眠滑块设置为“从不”\n3.关闭“系统偏好”窗口\n4.点按下面的“下一步”按钮继续";
+
+    "<ShareWizard_SystemPrefs_Title>" = "系统偏好打开";
+    "<ShareWizard_SystemPrefs_Message>" = "请关闭“系统偏好”窗口，以便更改您电脑的睡眠设置";
+    "<ShareWizard_InvalidPath_Empty>" = "路径为空。";
+    "<ShareWizard_InvalidPath_NotAllowed>" = "路径不被允许。";
+    "<ShareWizard_InvalidPath_NotExist>" = "路径不存在。";
+    "<ShareWizard_InvalidPath_NotDirectory>" = "路径不是文件夹。";
+    "<ShareWizard_InvalidPath_TooManyNotes>" = "路径下包含的文件过多。";
+    "<ShareWizard_InvalidPath_Message>" = "请为您的音乐共享键入一个有效的路径。";
+    "<ShareWizard_NotLocalPath_Title>" = "网络路径已选定";
+    "<ShareWizard_NotLocalPath_Message>" = "不能选择要共享的网络上的文件夹。\n\n请选择此电脑上的文件夹，或连接到此电脑的外部硬盘驱动器上的文件夹。\n\n要选择网络上的共享文件夹，请点按“上一步”并选择“在联网设备上…”。";
+    "<ShareWizard_NotLocalPathBrowse_Message>" = "不能选择要共享的网络上的文件夹。\n\n请选择此电脑上的文件夹，或连接到此电脑的外部硬盘驱动器上的文件夹。\n\n要选择网络上的共享文件夹，请点按文件浏览器上的“取消”，然后点按“上一步”并选择“在联网设备上…”。";
+
+    "<ShareWizard_Complete_Title>" = "音乐库设置";
+// %1$@, Label of the button on the wizard to continue with.
+    "<ShareWizard_Complete_Body1_Fmt_1>" = "“%1$@” 已在 Sonos 系统上设置。";
+    "<ShareWizard_Complete_Body2>" = "正在向您的 Sonos 系统中添加音乐。完成此操作可能需要几分钟时间。";
+
+    "<ShareWizard_SleepSettingsError_Title>" = "尚未更改睡眠设置。";
+    "<ShareWizard_SleepSettingsError_Body>" = "如果不做这些更改，此电脑上的音乐可能无法始终在 Sonos 系统中播放。\n\n您确定不进行这些更改并继续吗？";
+
+    "<Wizard_TextFieldLabel_Fmt_1>" = "%1$@：";
+
+/* Errors that can happen during share Adding */
+    "<NoLocalPathsCanBeAdded>" = "无法添加共享路径。";
+
+    "<ShareWizard_ShareFailedTitle>" = "未添加共享文件夹";
+    "<ShareWizard_LionVolumeFormatError>" = "无法添加此驱动器上的共享文件夹，原因是该驱动器已使用不受支持的文件系统格式化。\n\n在此版本 OS X 中，Sonos 只能共享使用 HFS+ 文件系统格式化的外部驱动器上的文件夹。";
+    "<ShareWizard_FirewallConnectionBlocked>" = "连接被您计算机的防火墙选项阻止。";
+
+    "<ControllerUpdateWizard_Title>" = "更新进度";
+    "<ControllerUpdateWizard_ErrorTitle>" = "更新失败";
+    "<ControllerUpdateWizard_Downloading>" = "正在更新控制器：正在下载";
+    "<ControllerUpdateWizard_Installing>" = "正在更新控制器： 正在安装";
+
+    "<ControllerUpdateWizard_DownloadFailed_Message_Fmt_1>" = "Sonos 控制器安装程序下载失败。\n\n错误代码 %1$ld";
+    "<ControllerUpdateWizard_InstallFailed_Message>" = "Sonos 控制器更新失败。\n\n发生意外错误。请重试。";
+
+
+/****************************************************************/
+/* Wireless Authentication Setup Wizard                         */
+/****************************************************************/
+
+    "<AuthorizationWizard_Title>" = "正在配置播放器";
+    "<AuthorizationWizard_Body>" = "要优化设置, Sonos 将在电脑与您的新 Sonos 播放器之间设置一个直接无线连接。因此，请输入该电脑的管理员名称和密码。\n\n注意：如果您没有这些信息，就需要将播放器临时接到路由器以完成设置。";
+    "<AuthorizationWizard_Button>" = "我没有这些信息";
+
+/****************************************************************/
+/* SELF_INSTALLER                                               */
+/****************************************************************/
+
+// Initial message
+    "<InstallerInstallSonosSubtitle>" = "安装 Sonos";
+    "<InstallerInstallSonosBody>" = "正在安装控制器";
+// Uninstall message
+    "<InstallerUninstallSonosSubtitle>" = "卸载 Sonos";
+    "<InstallerUninstallSonosBody>" = "正在卸载控制器";
+// %1$@, Application's directory name
+    "<InstallerInstallMessage_1>" = "Sonos 将把自身拷贝到 %1$@ 文件夹（或您选择的其他文件夹），并从该位置启动。";
+    "<InstallerChooseLocationTitle>" = "选择 Sonos 的安装位置";
+
+// Error message
+    "<InstallerNewerVersionSubtitle>" = "已安装更新的版本";
+// %1$@, Sonos application directory
+    "<InstallerNewerVersionMessage_1>" = "%1$@ 中已安装更新版本的 Sonos 控制器。\n\n是否要用旧版本替换该版本？";
+    "<InstallerSameVersionSubtitle>" = "已安装相同的版本";
+// %1$@, Sonos application directory 
+    "<InstallerSameVersionMessage_1>" = "%1$@ 中已安装此版 Sonos 控制器。\n\n是否仍要安装？";
+    "<InstallerBadPermissionSubtitle>" = "无权安装 Sonos";
+// %1$@, Sonos application directory
+    "<InstallerBadPermissionMessage_1>" = "无法完成安装，原因是您无权在 %1$@ 中安装 Sonos 控制器。\n\n请检查您的权限或选择其他文件夹。";
+    "<InstallerUnexpectedErrorSubtitle>" = "Sonos 更新失败";
+    "<InstallerUnexpectedErrorMessage>" = "发生意外错误。请重试。";
+    "<UninstallerSubtitle>" = "卸载 Sonos";
+    "<UninstallerMessage>" = "如果卸载 Sonos 控制器，此电脑上已与 Sonos 共享的所有音乐都将无法再供 Sonos 系统访问。\n\n是否要继续卸载？";
+
+// Buttons
+    "<InstallerChooseFolderButton>" = "选择文件夹…";
+// %1$@, Application's directory name
+    "<InstallerCopyToApplicatonButton_1>" = "拷贝到 %1$@";
+    "<InstallerInstallButton>" = "安装";
+    "<InstallerReplaceButton>" = "替换";
+
+// Unused (will be used)
+// %1$@, Sonos application name
+    "<InstallerSonosRunningSubtitle_1>" = "更新 %1$@ 控制器时出现问题";
+    "<InstallerSonosRunningMessage>" = "请尝试重新启动控制器并再次检查更新。";
+// %1$@, Sonos application name
+    "<InstallerSonosRunningAnotherUserSubtitle_1>" = "%1$@ 当前正在其他帐户下运行";
+    "<InstallerSonosRunningAnotherUserMessage>" = "在您的电脑上，Sonos 控制器当前正在另一个用户帐户下运行。\n\n请先从其他帐户中退出 Sonos 控制器，再进行安装。";
+    "<InstallerUnableToUninstallSubtitle>" = "无法卸载旧版程序";
+// %1$@, Sonos application name
+    "<InstallerUnableToUninstallMessage_1>" = "安装程序无法将旧版 %1$@ 移动到废纸篓。\n\n请将旧版 %1$@ 移动到废纸篓。";
+    "<InstallerUnableToVerifySubtitle>" = "更新时出现问题";
+    "<InstallerUnableToVerifyMessage>" = "更新 Sonos 控制器时出现问题。\n\n请尝试重新下载更新。";
+
+/****************************************************************/
+/* UnINSTALLER                                                    */
+/****************************************************************/
+    "<UninstallOtherAppTitle>" = "Sonos";
+    "<UninstallOtherAppMessage>" = "还有其他 Sonos 控制器正在运行。请先将其退出再卸载。";
+
+/****************************************************************/
+/* INSTALLER                                                    */
+/****************************************************************/
+
+/* Installer App Delegate */
+
+/* Error dialog when the user quits before the install has finished */
+    "<InstallerNotFinishedErrorTitle>" = "安装尚未完成。";
+    "<InstallerNotFinishedErrorContinueButton>" = "返回到安装";
+    "<InstallerNotFinishedErrorText>" = "Sonos 控制器安装未完成。如果现在退出，Sonos 控制器将不可以使用。";
+
+/* Error dialog when the DCR is currently running */
+    "<InstallerDCRRunningErrorTitle>" = "Sonos 控制器当前正在运行。";
+    "<InstallerDCRRunningErrorContinueButton>" = "继续";
+    "<InstallerDCRRunningErrorCancelButton>" = "取消安装";
+    "<InstallerDCRRunningErrorText>" = "当 Sonos 控制器正在运行时，无法继续安装。请退出 Sonos 控制器，然后按“继续”。";
+
+/* Download Pane, Stage Titles and More Info */
+
+/* Pane title */
+    "<InstallerDownloadPaneTitle>" = "下载";
+
+/* Checking for latest vesrion */
+    "<InstallerCheckingStageTitle>" = "正在检查最新版本…";
+
+/* Downloading */
+    "<InstallerDownloadingStageTitle>" = "正在下载…";
+
+/* Preparing */
+    "<InstallerPreparingStageTitle>" = "正在准备…";
+
+/* When the user already has a current version intalled */
+    "<InstallerNotNecessaryStageTitle>" = "不需要安装";
+    "<InstallerNotNecessaryMoreInfo_1>" = "您已经在以下位置安装了最新版本：\n%1$@";
+
+/* The download and preparing has finished and is ready to install */
+    "<InstallerReadyStageTitle>" = "准备安装";
+    "<InstallerReadyMoreInfo>" = "点按“继续”以继续操作。";
+
+/* Error */
+
+/* Generic Error */
+    "<InstallerOtherErrorTitle>" = "安装错误";
+    "<InstallerOtherErrorQuitButton>" = "退出";
+    "<InstallerOtherErrorText>" = "安装器无法继续执行";
+
+/* Text on the sheet when the user quits early and we need to do cleanup. */
+    "<PleaseWaitForInstallerToFinishText>" = "安装器正在退出，请稍候。";
+
+/* While Quitting */
+    "<QuitingProgressText>" = "正在退出…";
+    "<QuitButton>" = "退出";
+
+
+/*******************************************************************************
+ Growl
+ ******************************************************************************/
+
+    "<NotificationCenterCurrentZoneGroupNowPlaying>" = "当前正在播放的组";
+    "<NotificationCenterMusicIndexing>" = "音乐索引编制";

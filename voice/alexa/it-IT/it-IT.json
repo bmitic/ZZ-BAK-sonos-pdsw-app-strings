@@ -1,0 +1,30 @@
+[
+  {
+    "locale" : "en-US",
+    "readableString" : "Inglese (US)",
+    "VOString" : "Inglese (Stati Uniti)"
+  },
+  {
+    "locale" : "en-GB",
+    "readableString" : "Inglese (UK)",
+    "VOString" : "Inglese (Regno Unito)"
+  },
+  {
+    "locale" : "en-CA",
+    "readableString" : "Inglese (CA)",
+    "VOString" : "Inglese (Canada)"
+  },
+  {
+    "locale" : "en-AU",
+    "readableString" : "Inglese (AU)",
+    "VOString" : "Inglese (Australia)"
+  },
+  {
+    "locale" : "de-DE",
+    "readableString" : "Tedesco"
+  },
+  {
+    "locale" : "fr-FR",
+    "readableString" : "Francese"
+  }
+]
