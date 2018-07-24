@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1">Êtes-vous sûr de vouloir effacer « %1$s » ?</String>
-<string id="localizationTestSCLIB2" plurality="one">Test complet %1$dde </String>
-<string id="localizationTestSCLIB2" plurality="other">Terminer les tests %1$d</String>
+<String id="localizationTestSCLIB1">Êtes-vous sûr de vouloir effacer « %1$s » ?</String>
+<String id="localizationTestSCLIB2" plurality="one">Test complet %1$dde </String>
+<String id="localizationTestSCLIB2" plurality="other">Terminer les tests %1$d</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">Vous pouvez combiner votre haut-parleur " %1$s " %2$swith avec un autre %2$s pour faire les haut-parleurs gauche et droit d'une paire stéréo pour tester les purpus.</String>
 <String id="STR_MusicRoot">Choix d'une source musicale</String>
 <String id="STR_MusicLibraryIndexing">Bibliothèque musicale - Indexation…</String>

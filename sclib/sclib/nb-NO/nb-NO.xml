@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1">Er du sikker på at du ønsker å slette «%1$s»?</String>
-<string id="localizationTestSCLIB2" plurality="one">Komplett %1$d test</String>
-<string id="localizationTestSCLIB2" plurality="other">Komplett %1$d tester</String>
+<String id="localizationTestSCLIB1">Er du sikker på at du ønsker å slette «%1$s»?</String>
+<String id="localizationTestSCLIB2" plurality="one">Komplett %1$d test</String>
+<String id="localizationTestSCLIB2" plurality="other">Komplett %1$d tester</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">Du kan kombinere din " %1$s " %2$s høyttaler med en annen %2$s for å lage venstre og høyre høyttalere til et stereopar for å teste purpuses.</String>
 <String id="STR_MusicRoot">Velge en musikkilde</String>
 <String id="STR_MusicLibraryIndexing">Musikkbibliotek - indekserer…</String>

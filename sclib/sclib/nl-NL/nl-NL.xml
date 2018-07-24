@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1">Weet je zeker dat je “%1$s wilt verwijderen?</String>
-<string id="localizationTestSCLIB2" plurality="one">Voltooi %1$d test</String>
-<string id="localizationTestSCLIB2" plurality="other">Voltooi %1$d tests</String>
+<String id="localizationTestSCLIB1">Weet je zeker dat je “%1$s wilt verwijderen?</String>
+<String id="localizationTestSCLIB2" plurality="one">Voltooi %1$d test</String>
+<String id="localizationTestSCLIB2" plurality="other">Voltooi %1$d tests</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">U kunt uw " %1$s " %2$s %1$s-luidspreker combineren met een andere %2$s om de linker- en rechterluidsprekers van een stereopaar te maken voor het testen van purpuses.</String>
 <String id="STR_MusicRoot">Een muziekbron selecteren</String>
 <String id="STR_MusicLibraryIndexing">Muziekbibliotheek - Indexeren…</String>
