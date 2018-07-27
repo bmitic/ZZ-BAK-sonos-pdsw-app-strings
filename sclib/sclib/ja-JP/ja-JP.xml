@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1">本当に「%1$s」を削除してもよろしいですか?</String>
-<string id="localizationTestSCLIB2" plurality="one">完全な%1$dテスト</String>
-<string id="localizationTestSCLIB2" plurality="other">完全な%1$dテスト</String>
+<String id="localizationTestSCLIB1">本当に「%1$s」を削除してもよろしいですか?</String>
+<String id="localizationTestSCLIB2" plurality="one">完全な%1$dテスト</String>
+<String id="localizationTestSCLIB2" plurality="other">完全な%1$dテスト</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">" %1$s " %2$sスピーカーと別の%2$swithを組み合わせて、ステレオペアの左右のスピーカーをテストして、テスト用のパルパーにすることができます。</String>
 <String id="STR_MusicRoot">音楽ソースを選択</String>
 <String id="STR_MusicLibraryIndexing">ミュージック ライブラリ - インデックス化しています…</String>

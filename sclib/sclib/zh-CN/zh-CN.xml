@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1">是否确实要删除“%1$s”？</String>
-<string id="localizationTestSCLIB2" plurality="one">完成%1$d测试</String>
-<string id="localizationTestSCLIB2" plurality="other">完成%1$d测试</String>
+<String id="localizationTestSCLIB1">是否确实要删除“%1$s”？</String>
+<String id="localizationTestSCLIB2" plurality="one">完成%1$d测试</String>
+<String id="localizationTestSCLIB2" plurality="other">完成%1$d测试</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">您可以将您的“ %1$s ” %2$s扬声器与另一个%2$scombine配合使用 ，制作一对立体声扬声器的左右扬声器，用于测试pur音。</String>
 <String id="STR_MusicRoot">选择一个音乐源</String>
 <String id="STR_MusicLibraryIndexing">音乐库 - 正在编制索引…</String>

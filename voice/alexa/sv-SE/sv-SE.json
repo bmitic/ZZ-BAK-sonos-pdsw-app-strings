@@ -26,5 +26,9 @@
   {
     "locale" : "fr-FR",
     "readableString" : "Franska"
+  },
+  {
+    "locale" : "ja-JP",
+    "readableString" : "Japanese"
   }
 ]

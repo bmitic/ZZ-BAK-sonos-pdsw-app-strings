@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1">Eliminare “%1$s”?</String>
-<string id="localizationTestSCLIB2" plurality="one">Completa %1$d test</String>
-<string id="localizationTestSCLIB2" plurality="other">Completa %1$d test</String>
+<String id="localizationTestSCLIB1">Eliminare “%1$s”?</String>
+<String id="localizationTestSCLIB2" plurality="one">Completa %1$d test</String>
+<String id="localizationTestSCLIB2" plurality="other">Completa %1$d test</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">Puoi combinare il tuo %1$saltoparlante " %1$s " %2$swith con un altro %2$s per creare altoparlanti sinistro e destro di una coppia stereo per testare i caratteri.</String>
 <String id="STR_MusicRoot">Selezione di una sorgente musicale</String>
 <String id="STR_MusicLibraryIndexing">Libreria musicale - Creazione indice…</String>

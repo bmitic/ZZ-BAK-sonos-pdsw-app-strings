@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings>
-<string id="localizationTestSCLIB1">Czy na pewno chcesz usunąć „%1$s”?</String>
-<string id="localizationTestSCLIB2" plurality="one">Ukończ %1$d test</String>
-<string id="localizationTestSCLIB2" plurality="other">Wykonaj %1$d testy</String>
+<String id="localizationTestSCLIB1">Czy na pewno chcesz usunąć „%1$s”?</String>
+<String id="localizationTestSCLIB2" plurality="one">Ukończ %1$d test</String>
+<String id="localizationTestSCLIB2" plurality="other">Wykonaj %1$d testy</String>
 <String id="localizationTestSCLIB3" gender="no-gender" comment="Substitution 2: Sonos Player">Możesz łączyć %1$sgłośnik " %1$s " %2$swith z innym %2$s, aby utworzyć lewy i prawy głośnik pary stereo do testowania ustawień.</String>
 <String id="STR_MusicRoot">Wybór źródła muzyki</String>
 <String id="STR_MusicLibraryIndexing">Biblioteka Muzyczna – indeksowanie…</String>
