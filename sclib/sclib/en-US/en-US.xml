@@ -1678,7 +1678,7 @@ Go to http://faq.sonos.com/wmpsharing for assistance.</String>
 <String id="SCLIB_STR_LC_Guest_String_1">Sonos needs to be updated before you can use it.</String>
 <String id="SCLIB_STR_LC_Guest_String_2">Please ask the Sonos owner to make sure everything is set up correctly.</String>
 <String id="SCLIB_STR_LC_ResetController">Reset Controller</String>
-<String id="SCLIB_STR_LC_UpdateSonos">Check for Updates</String>
+<String id="SCLIB_STR_LC_UpdateSonos">Check for Updates Testing Localization</String>
 <String id="SCLIB_STR_LC_ConfigurePlayer">Configure Player</String>
 <String id="SCLIB_STR_LC_RoomSettings">Room Settings</String>
 <String id="SCLIB_STR_LC_AddComponent">Add a Player</String>
