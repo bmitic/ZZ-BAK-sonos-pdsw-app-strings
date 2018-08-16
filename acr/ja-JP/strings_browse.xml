@@ -9,7 +9,6 @@
 <string name="browse_playlists_title">プレイリスト</string>
 <string name="browse_podcasts_title">ポッドキャスト</string>
 <string name="browse_local_library_root">このモバイルデバイス</string>
-<string name="browse_empty_favorites">音楽を閲覧または再生中に%1$sアイコンをタップして、曲、ステーション、またはアルバムをお気に入りに追加します。</string>
 <string name="browse_more_options">その他のオプション</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s。露骨な内容。</string>
 <string name="accessibility_item_badge_format">%1$s。 新規。</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Queue</string>
-    <string name="edit_queue_title">Edit Queue</string>
+<string name="edit_queue_title">Edit Queue</string>
 <string name="queue_subtitle_not_in_use">Not in Use</string>
 <string name="clear_queue_title">Clear Queue</string>
 <string name="clear_queue_text">Are you sure you want to clear the Queue?</string>
@@ -20,13 +20,13 @@
 <string name="save_queue_unexpected_error">An unexpected error occurred while saving the Queue.</string>
 <string name="accessibility_delete">Delete</string>
 <string name="accessibility_reorder">Reorder</string>
-<string name="direct_control_playing_from">Playing From</string>
+<string name="direct_control_playing_from">Playing from</string>
 <string name="direct_control_playing_from_accessibility">Playing from %1$s</string>
-<string name="direct_control_started_from">Started From</string>
+<string name="direct_control_started_from">Started from</string>
 <string name="direct_control_started_from_accessibility">Started from %1$s</string>
-    <string name="direct_control_last_played_from">Last Played From</string>
+<string name="direct_control_last_played_from">Last played from</string>
 <string name="direct_control_last_played_from_accessibility">Last played from %1$s</string>
-<string name="direct_control_last_played">Last Played in This Room</string>
+<string name="direct_control_last_played">Last played in this room</string>
 <string name="direct_control_next">Next: %s</string>
 <string name="direct_control_resume">Resume</string>
 <string name="direct_control_disconnect">End Session</string>

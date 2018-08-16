@@ -82,8 +82,6 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content">{0}EQ(_E)…</String>
 <String Category="None" UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content">{0}設定(_S)…</String>
 <String Category="None" UniqueId="zones/strings.baml:GROUP_1:System.String.$Content">グループ</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TITLE_1:System.String.$Content">部屋が選択されていません</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TEXT_1:System.String.$Content">これらの部屋すべてで音楽を停止してもよろしいですか?</String>
 <String Category="None" UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content">[音楽がありません]</String>
 <String Category="None" UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content">[完了]をクリックして音楽を選択</String>
 <String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">確認</String>
@@ -92,15 +90,15 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content">{0}部屋をさらに表示…</String>
 <String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content">さらに表示…</String>
 <String Category="None" UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content">少なく表示…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">アップデートするにはクリック…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_SUB_1:System.String.$Content">SUBのセットアップの選択</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_UNUSED_1:System.String.$Content">{0}のセットアップの選択</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">選択してアップデートします</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_1:System.String.$Content">セットアップの選択</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_REGISTER_1:System.String.$Content">登録の選択</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content">現在の部屋グループには、次が含まれます：</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content">部屋グループを切り替えるには、上下矢印のキーを使用します。グループ化のダイアログを開くには、スペースキーを押します。</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content">上/下矢印キーを使って、部屋グループを切り替えます。スペースバーを使ってこのデバイスを設定します。</String>
 <String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_NEXT_BUTTON_1:System.String.$Content">送信</String>
 <String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_FINISH_BUTTON_1:System.String.$Content">終了</String>
-<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TRY_AGAIN_BUTTON_1:System.String.$Content">もう一度</String>
+<String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TRY_AGAIN_BUTTON_1:System.String.$Content">再試行</String>
 <String Category="None" UniqueId="wizard/strings.baml:SUBMIT_DIAGNOSTICS_WIZARD_TITLE_1:System.String.$Content">サポート診断の送信</String>
 <String Category="None" UniqueId="wizard/strings.baml:NormalWizardNextButtonLabel_1:System.String.$Content">次へ</String>
 <String Category="None" UniqueId="wizard/strings.baml:NormalWizardDoneButtonLabel_1:System.String.$Content">完了</String>
@@ -141,7 +139,7 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content">パスワード:</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content">ファイル共有設定を調整</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content">このコンピューターの音楽をSonosシステムで再生するには、セットアップ アシスタントが以下のWindows設定を調整する必要があります。</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Windowsファイルとプリントの共有サービスをファイアウォール例外リストに追加します。このように変更しないと、このコンピューター上の音楽がSonosシステムで再生されません。</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Sonos Library ServiceをWindowsファイアウォール例外リストに追加します。これらを変更しないと、このコンピューターの音楽をSonosシステムで再生できません。</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content">Windowsスリープ設定を[スリープなし]に設定します。このように変更しないと、このコンピューター上の音楽がSonosシステムで常に再生されません。</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content">ミュージック ライブラリ設定</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content">音楽をSonosシステムに追加しています。Sonosコントローラの起動後もこの処理が続く場合もあり、音楽コレクションが大きいと完了までに数分かかることがあります。</String>
@@ -158,8 +156,8 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content">フォルダへのパスを確認し、必要な場合はユーザー名とパスワードが正しいことを確認してください。</String>
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content">理由： {0}</String>
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content">不明なエラー。</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Error getting hostnameZXZ</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Could not write to share fileZXZ</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">ホスト名の取得中にエラーが発生しました</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">ファイルを共有するよう書き込むことができませんでした</String>
 <String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content">確認</String>
 <String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content">選択したフォルダを削除してのよろしいですか?</String>
 <String Category="None" UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content">なし</String>
@@ -257,14 +255,8 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="Button" UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content">すべてを選択 - パーティー モード</String>
 <String Category="Title" UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title">設定</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">部屋設定</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">現在、SonosシステムにSonosプレイヤーがありません。音楽を再生するには、少なくとも1台のSonosプレイヤーが必要です。</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Sonosプレイヤーを追加するには、メニュー バーから[管理] &gt; [PlayerまたはSUBの追加]を選択します。</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">セッティングの対象</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text">現在、SonosシステムにBOOSTは一つもありません。</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text">BOOSTを追加するには、メニュー バーから[管理] &gt; [BOOSTまたはBRIDGEの追加]を選択します。</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text">DOCK設定</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text">SonosシステムにはDOCKがありません。</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text">DOCKを追加するには、メニュー バーから[管理] &gt; [PlayerまたはSUBの追加]を選択します。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">現在、SonosシステムにSonosスピーカーがありません。音楽を再生するには、少なくとも1台のSonosスピーカーが必要です。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Sonosスピーカーを追加するには、メニュー バーから[管理] &gt; [スピーカーまたはSubの追加]を選択します。</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header">ミュージック ライブラリ</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">ミュージック ライブラリ設定</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header">フォルダ</String>
@@ -282,8 +274,6 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content">削除</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content">置き換える</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content">再認証</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header">日付と時刻</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text">日付と時刻設定</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header">詳細</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text">詳細設定</String>
 <String Category="Title" UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title">この製品について</String>
@@ -302,8 +292,6 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header">コピー(_C)</String>
 <String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header">貼り付け(_P)</String>
 <String Category="Menu" Comments="This is the root of the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header">管理(_M)</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header">PlayerまたはSUBの追加…(_A)</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header">_BOOSTまたはBRIDGEの追加…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header">ミュージック ライブラリ設定(_L)…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header">サービス設定(_V)…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header">ラジオステーションの追加(_R)…</String>
@@ -312,7 +300,6 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header">言語の変更(_G)…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header">設定(_S)…</String>
 <String Category="Menu" Comments="This is the root of the Help menu" UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header">ヘルプ(_H)</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header">Sonosアカウント(_M)…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header">Sonos製品ショップ(_P)…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header">キーボード ショートカット(_K)…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header">Sonosシステム ヘルプ(_H)…</String>
@@ -320,7 +307,7 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_15:System.Windows.Controls.HeaderedItemsControl.Header">エラー ログ(_E)…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_96:System.Windows.Controls.HeaderedItemsControl.Header">ベータ版のフィードバックを送信(_B)…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_9:System.Windows.Controls.HeaderedItemsControl.Header">診断を送信(_D)…</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_99:System.Windows.Controls.HeaderedItemsControl.Header">現在のSonosシステムが不明(_F)…</String>
+<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_99:System.Windows.Controls.HeaderedItemsControl.Header">現在のSonosシステムを削除(_F)…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_10:System.Windows.Controls.HeaderedItemsControl.Header">コントローラのリセット(_R)…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_11:System.Windows.Controls.HeaderedItemsControl.Header">マイSonosシステムについて(_A)…</String>
 <String Category="Text" UniqueId="utilities/timepicker.baml:TextBox_1:System.Windows.Controls.TextBox.Text">1</String>
@@ -371,7 +358,7 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content">リサイズ予約リスト</String>
 <String Category="None" UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content">アクティブなウィンドウを閉じる</String>
 <String Category="None" UniqueId="utilities/strings.baml:OK_1:System.String.$Content">OK</String>
-<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">CancelZXZ</String>
+<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">キャンセル</String>
 <String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content">{0} RadioButton。スペースバーを押すと、選択できます。</String>
 <String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content">{0} RadioButton、選択済み。</String>
 <String Category="Title" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">アラームを編集</String>
@@ -413,7 +400,7 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content">ミュージック ライブラリをアップデート</String>
 <String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content">Sonosシステムのミュージック ライブラリがアップデートされて、iTunesまたはその他の共有音楽フォルダでの変更が反映されます。Sonosシステムのミュージック ライブラリを今すぐアップデートしますか?</String>
 <String Category="None" UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content">詳細については、{0} を参照してください。</String>
-<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">部屋を表示させるには、その部屋のSonosプレイヤーを工場出荷状態に戻す必要があります。詳細については、{0} を参照してください。</String>
+<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">部屋を表示するには、その部屋のSonosスピーカーを工場出荷状態に戻す必要があります。詳細については、{0} を参照してください。</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content">現在時刻が設定されていません</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content">アラームを作成する前に、現在時刻を設定する必要があります。</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content">現在時刻の設定</String>
@@ -427,21 +414,20 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content">診断を送信</String>
 <String Category="None" UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content">リンクをオープンできませんでした：{0}。デフォルトのインターネット ブラウザ セットを持っていることを確認してください。</String>
 <String Category="None" UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content">エラー オープニング リンク</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Music library updateZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Update NowZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Remind Me LaterZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">ミュージック ライブラリ アップデート</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">ミュージック ライブラリからの再生を行うためには、Sonosが歌のインデックスをアップデートする必要があります。これには数分かかる事があります。</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">今すぐアップデート</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">後で通知する</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">曲のインデックスのアップデート中にエラーが発生しました。[管理]&gt;[ミュージック ライブラリ設定]に音楽を再度追加してください</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content">使用状況データ</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content">Sonosは当社の製品および顧客サービスを改善するために、お客様のSonosシステムの使用方法に関する情報を収集します。 詳細は、次を参照してください</String>
 <String Category="CheckBox" UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">はい、共有した使用状況データを製品の向上のために役立てます。</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">Sonosプレイヤーのラインアウト レベルを[固定]に設定している間は、イコライゼーションの設定は使用できません。</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">Sonosスピーカーのラインアウト レベルを[固定]に設定している間は、イコライゼーションの設定は使用できません。</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text">EQコントロールを有効にするには、[Basic]タブのラインアウト レベルの設定を変更します。</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content">リセット</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content">リセット</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content">リセット</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content">リセット</String>
-<String Category="Text" UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">グループ</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">情報 &amp; オプション</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">ミュートがオフ</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">ミュートがオン</String>
@@ -499,8 +485,8 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="Button" UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content">予約リストをクリア</String>
 <String Category="Button" UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content">予約リスト保存</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content">白のインジケーター ライト</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">BRIDGE名</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">DOCK名</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">Bridge名</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">Dock名</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content">部屋の名前</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content">ベーシック</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content">一般</String>
@@ -516,7 +502,7 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBass_1:System.String.$Content">低音</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTreble_1:System.String.$Content">高音</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBalance_1:System.String.$Content">バランス</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content">SUB レベルの調節</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content">Sub レベルの調節</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:EditButtonLabel_1:System.String.$Content">編集</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:BassHeader_1:System.String.$Content">低音</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:TrebleHeader_1:System.String.$Content">高音</String>
@@ -528,9 +514,9 @@ uncパス%sは有効なuncパスではありません。またはこのコンピ
 <String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content">最大</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content">左</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content">右</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">SUB</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">Sub</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content">オン</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">SUBレベル</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">Subレベル</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content">配置の調節</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content">ダイアログ強化</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content">オーディオ遅延 (リップシンク)</String>

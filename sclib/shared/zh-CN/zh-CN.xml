@@ -60,18 +60,18 @@
 <String id="STR_ROOMNAME_PORTABLE">便携式</String>
 <String id="STR_ROOMNAME_TVROOM">影音室</String>
 <String id="STR_ROOMNAME_UNNAMED">未命名</String>
-<String id="STR_ROOMNAME_VIPER">BRIDGE</String>
-<String id="STR_ROOMNAME_BOOST">BOOST</String>
+<String id="STR_ROOMNAME_VIPER">Bridge</String>
+<String id="STR_ROOMNAME_BOOST">Boost</String>
 <String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos 扩展器</String>
-<String id="STR_ROOMNAME_DOCK">DOCK</String>
-<String id="STR_ROOMNAME_ANVIL">SUB</String>
+<String id="STR_ROOMNAME_DOCK">Dock</String>
+<String id="STR_ROOMNAME_ANVIL">Sub</String>
 <String id="STR_ROOMNAME_LOUNGE">休闲</String>
 <String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos 播放列表</String>
 <String id="RHHSTR_E_MALFORMED_PATH">%1$s 不是有效的共享路径。共享路径的形式应该是 \\Computer\Folder 或 \\Computer\Shared\Folder</String>
-<String id="RHHSTR_E_TOO_MANY_MOUNTED">无法连接到 %1$s – Sonos 播放器一次只能与 %2$d 台电脑连接</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">无法连接到 %1$s – Sonos 扬声器一次只能与 %2$d 台电脑连接</String>
 <String id="RHHSTR_E_CANT_RESOLVE_NAME">无法找到计算机 %1$s</String>
 <String id="RHHSTR_E_HOST_NO_RESPONSE">计算机 %1$s 没有响应</String>
-<String id="RHHSTR_E_CONNECT_REFUSED">电脑 %1$s 拒绝 Sonos 播放器与其连接</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">电脑 %1$s 拒绝 Sonos 扬声器与其连接</String>
 <String id="RHHSTR_E_SHARE_ACCESS_DENIED">对共享 %1$s 的访问被拒绝 - 检查用户名和/或密码</String>
 <String id="RHHSTR_E_NO_SUCH_SHARE">计算机 %2$s 上没有共享 %1$s</String>
 <String id="RHHSTR_E_NO_SUCH_FILE">文件 %1$s 不存在</String>
@@ -98,6 +98,7 @@
 <String id="RHHSTR_INPUTNAME_Receiver">接收器</String>
 <String id="RHHSTR_INPUTNAME_Satellite">卫星接收器</String>
 <String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay 设备</String>
+<String id="RHHSTR_INPUTNAME_Turntable">转盘</String>
 <String id="RHHSTR_INPUTVOL_VOL0">级别 1（低）</String>
 <String id="RHHSTR_INPUTVOL_VOL1">级别 2（A/V 组件）</String>
 <String id="RHHSTR_INPUTVOL_VOL2">级别 3</String>
@@ -112,7 +113,7 @@
 <String id="RHHSTR_CANCEL">取消</String>
 <String id="RHHSTR_SONOS_UPDATES">Sonos 更新</String>
 <String id="RHHSTR_ALL">全部</String>
-<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.ZXZ</String>
+<String id="RHHSTR_RTE_ERROR_OCCURRED">无法播放“%1$s”。</String>
 <String id="RHHSTR_RTE_CANT_REACH_SERVER">无法播放“%1$s” - 无法连接到 %2$s。</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED">无法播放“%1$s” – 访问 %3$s 被拒绝。#END_OF_LOCALIZED_STRING %2$s</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">无法播放“%1$s” - 访问被拒绝。</String>
@@ -130,42 +131,42 @@
 <String id="RHHSTR_RTE_BAD_INET_RADIO">无法播放“%1$s” - 找不到电台。</String>
 <String id="RHHSTR_RTE_BUFFERING">无法播放“%1$s” - 网络连接速度不足以保持播放缓冲。</String>
 <String id="RHHSTR_RTE_CANT_RESOLVE_NAME">无法播放“%1$s” - 无法连接到 %2$s，因为找不到服务器。</String>
-<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT">无法播放“%1$s” - Rhapsody 不得超过 3 个同步音频流。</String>
-<String id="RHHSTR_RTE_RHAP_UNAVAILABLE">无法播放“%1$s” - 此歌曲不可用作 Rhapsody 的流媒体。</String>
-<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT">无法播放“%1$s” － 您的 Rhapsody 登录信息无效。</String>
-<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED">无法播放“%1$s” - 您的 Rhapsody 试用帐户已过期。</String>
-<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到关联的 Rhapsody 帐户。请输入您的 Rhapsody 帐户信息。</String>
-<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT">无法播放“%1$s” - 请升级您的 Rhapsody 帐户以成为正式订户。</String>
-<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC">无法播放“%1$s” - Audible 节目必须使用“格式 4”(MP3)。</String>
+<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_RHAP_UNAVAILABLE"></String>
+<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT"></String>
+<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC"></String>
 <String id="RHHSTR_RTE_AUDIBLE_DRM">Sonos 不再支持音乐内容服务。</String>
-<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING">无法播放“%1$s” – 为 Audible 激活的 Sonos 播放器不存在。</String>
-<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">无法播放“%1$s” – 一个或多个 Sonos 播放器没有打开 Windows Media 共享功能。</String>
+<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING"></String>
+<String id="RHHSTR_RTE_WMP_ACCESS_DENIED">无法播放“%1$s” – 一个或多个 Sonos 扬声器没有打开 Windows Media 共享功能。</String>
 <String id="RHHSTR_RTE_WMP_NO_LICENSE">无法播放“%1$s” - 无法获取有效许可证。</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT">在另一个房间播放的 SiriusXM 频道已停止。SiriusXM 每次只允许播放一个频道。</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT">无法播放“%1$s” - 您的 SiriusXM 帐户正被另一台计算机或音乐播放器使用。</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT">无法播放“%1$s” － 您的 SiriusXM 登录信息无效。</String>
-<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED">无法播放“%1$s” - 您的 SiriusXM 试用帐户已过期。</String>
-<String id="RHHSTR_RTE_SIRIUS_INACTIVE">无法播放“%1$s”- SiriusXM 在长时间静止后会自动停止播放。</String>
-<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到与此工作站关联的 Sirius XM 帐户。请输入您的 SiriusXM 帐户信息。</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL">无法播放“%1$s” － 需要订阅高级 SiriusXM 服务。请升级您订阅的 SiriusXM 服务。</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL">无法播放“%1$s” － SiriusXM 无法验证您的登录信息。请稍后重试。</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE">无法播放“%1$s” - 您的 SiriusXM 帐户处于非活动状态。 请联系 SiriusXM 以获取帮助。</String>
-<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT">无法播放“%1$s” － 您的 Pandora 登录信息无效。</String>
-<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED">无法播放“%1$s” - 您的 Pandora 试用帐户已过期。</String>
-<String id="RHHSTR_RTE_PAND_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到与此工作站关联的 Pandora 帐户。请输入您的 Pandora 帐户信息。</String>
-<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL">无法播放“%1$s” - 需要订阅 Pandora。 请升级您的 Pandora 帐户。</String>
-<String id="RHHSTR_RTE_PAND_READ_ONLY">无法播放“%1$s” - Pandora 因日常维护暂不可用。</String>
-<String id="RHHSTR_RTE_PAND_STATION_GONE">无法播放“%1$s” - 此电台已被删除。</String>
-<String id="RHHSTR_RTE_PAND_SUSPENDED">由于您的帐户已被停用，因此 Pandora 无法完成您的请求。请发送电子邮件至 pandora-support@pandora.com 联系 Pandora 客户支持。</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_SIRIUS_INACTIVE"></String>
+<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE"></String>
+<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_PAND_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_PAND_READ_ONLY"></String>
+<String id="RHHSTR_RTE_PAND_STATION_GONE"></String>
+<String id="RHHSTR_RTE_PAND_SUSPENDED"></String>
 <String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">无法播放“%1$s” － 您的 %2$s 帐户登录信息无效。</String>
 <String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到关联的 %2$s 帐户。</String>
 <String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">无法播放“%1$s” - 您的 %2$s 试用帐户已过期。
 
 请升级您的 %2$s 帐户。</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL">无法播放“%1$s”- 此功能需要付费订阅。请在转到 www.sonos.com/Last.fm/expired 升级您的帐户。</String>
-<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT">在您另一个房间播放的 Last.fm 电台已停止。Last.fm 每次只允许播放一个电台。</String>
-<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT">不能播放 '%1$s' - Sonos 系统中找不到关联的 Last.fm 帐户。请输入您的 Last.fm 帐户信息。</String>
-<String id="RHHSTR_RTE_LASTFM_NO_CONTENT">无法播放“%1$s” - 此 Last.fm 电台无可播放的内容。</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_CONTENT"></String>
 <String id="RHHSTR_RTE_DOCK_INTERRUPT">从“%1$s”的音乐播放被打断。</String>
 <String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">%2$s 的播放已停止，因为另一个房间或设备已开始播放。%2$s 限制您可以通过其服务访问的同步音频流的数量。#END_OF_LOCALIZED_STRING %1$s</String>
 <String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">无法播放“%1$s” - 请升级您的 %2$s 帐户以成为正式订户。</String>
@@ -179,7 +180,7 @@
 <String id="RHHSTR_RTE_CLOUD_QUEUE_STREAM_LIMIT">'%4$s' 的播放已停止，因为另一个房间或设备已开始播放。'%4$s' 限制您可以通过其服务访问的同步音频流的数量。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
 <String id="RHHSTR_RTE_CLOUD_QUEUE_SERVICE_UNRESPONSIVE">无法播放 '%4$s' - 服务无响应。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
 <String id="RHHSTR_RTE_CLOUD_QUEUE_CANT_REACH_SERVER">无法播放 '%4$s' - 无法连接到服务。#END_OF_LOCALIZED_STRING %1$s%2$s%3$s</String>
-<String id="RHHSTR_RTE_CERT_BLACKLISTED">无法播放 '%1$s'。您的播放器已被禁止访问来自 %2$s 的内容。请联系 Sonos 客户支持中心解决此问题。</String>
+<String id="RHHSTR_RTE_CERT_BLACKLISTED">无法播放 '%1$s'。您的扬声器已被禁止访问来自 %2$s 的内容。请联系 Sonos 客户支持中心解决此问题。</String>
 <String id="RHHSTR_RTE_CERT_NEEDED">无法播放 '%1$s'。请确保您的 Internet 连接没有问题，然后重试。</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED_EXPLICIT">在家长控制中关闭不宜内容过滤，即可播放该歌曲。</String>
 <String id="RHHSTR_RTE_NO_CONTENT"></String>
@@ -339,6 +340,7 @@
 <String id="RHHSTR_SONOS_TRIAL_NDAYS">%2$s 试用帐户（%1$s 天）</String>
 <String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s 试用帐户（已过期）</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
+<String id="RHHSTR_RECENTLY_PLAYED">最近播放</String>
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
 <String id="RHHSTR_BROWSE_UPNP_ERROR">无法浏览音乐</String>
 <String id="RHHSTR_SEARCH_UPNP_ERROR">搜索时出现问题。 请重试。</String>
@@ -352,8 +354,8 @@
 <String id="RHHSTR_AVT_ERR_IR">无法播放电台。</String>
 <String id="RHHSTR_AVT_ERR_ALREADYPLAYING">该 Pandora 站正在播放。</String>
 <String id="RHHSTR_AVT_ERR_GENERIC">无法播放选定的曲目。</String>
-<String id="RHHSTR_AVT_ERR_CANT_CONNECT">无法连接到 Sonos 播放器。</String>
-<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">您的播放器已被禁止访问此服务的内容。请联系 Sonos 客户支持中心解决此问题。</String>
+<String id="RHHSTR_AVT_ERR_CANT_CONNECT">无法连接到 Sonos 扬声器。</String>
+<String id="RHHSTR_AVT_ERR_CERT_BLACKLISTED">您的扬声器已被禁止访问此服务的内容。请联系 Sonos 客户支持中心解决此问题。</String>
 <String id="RHHSTR_AVT_ERR_CERT_NEEDED">无法播放选定的曲目。请确保您的 Internet 连接没有问题，然后重试。</String>
 <String id="RHHSTR_LFM_CANT_CONNECT">连接 Last.fm 时出现问题。请稍后重试。</String>
 <String id="RHHSTR_LFM_BAD_ACCOUNT">您的 Last.fm 登录信息不再有效。如果您在 Last.fm 上更改了密码，请在您的 Sonos 系统中更新密码。</String>
@@ -374,7 +376,7 @@
 <String id="RHHSTR_CONNECTING_TITLE">请稍候…</String>
 <String id="RHHSTR_APPLINK_CONNECTION_QUIT">现在不用</String>
 <String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s 未安装。请安装应用程序然后重试。</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install AppZXZ</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">安装应用程序</String>
 <String id="RHHSTR_SN_POST_SUCCESS">消息发送成功。</String>
 <String id="RHHSTR_SN_POST_FAIL">消息发送失败。</String>
 <String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">消息已发送到 %1$s (%2$s)，但未发送到 %3$s (%4$s)。</String>
@@ -666,13 +668,13 @@
 (GMT+01:00) 布鲁塞尔，哥本哈根，马德里，巴黎
 (GMT+01:00) 萨拉热窝，斯科普里，华沙，萨格勒布
 (GMT+01:00) 中非西部
-(GMT+02:00) 雅典，伊斯坦布尔，明斯克
+(GMT+02:00) 雅典
 (GMT+02:00) 布加勒斯特
 (GMT+02:00) 开罗
 (GMT+02:00) 哈拉雷，比勒陀利亚
 (GMT+02:00) 赫尔辛基，基辅，里加，索非亚，塔林
 (GMT+02:00) 耶路撒冷
-(GMT+03:00) 巴格达
+(GMT+03:00) 巴格达，伊斯坦布尔，明斯克
 (GMT+03:00) 科威特，利雅得
 (GMT+03:00) 莫斯科，圣彼得堡，伏尔加格勒
 (GMT+03:00) 内罗毕
@@ -713,10 +715,11 @@
 <String id="STR_Setting_fixedOutputLevel">线路输出等级 (%1$s)</String>
 <String id="STR_Setting_fixedOutputLevel_Fixed">固定</String>
 <String id="STR_Setting_fixedOutputLevel_Variable">可变</String>
+<String id="STR_Setting_fixedOutputLevel_PassThrough">Pass-ThroughZXZ</String>
 <String id="STR_Setting_fixedOutputLevel_Msg">可以将 Sonos 播放器的线路输出等级设定为“可变”或“固定”。</String>
 <String id="STR_GeneralSettings">系统设置</String>
-<String id="STR_Setting_ZoneExtender">播放器模式 (%1$s)</String>
-<String id="STR_Setting_ZoneExtenderWarn">当 Sonos 播放器设定为“扩展”模式时，就不会显示在“房间”菜单中。为此 Sonos 播放器选择模式。</String>
+<String id="STR_Setting_ZoneExtender">扬声器模式 (%1$s)</String>
+<String id="STR_Setting_ZoneExtenderWarn">当 Sonos 扬声器设定为“扩展”模式时，就不会显示在“房间”菜单中。为此 Sonos 扬声器选择模式。</String>
 <String id="STR_ChooseZonePlayerAudioInputName">为线路输入源选择名称</String>
 <String id="STR_NoBrowseSelections">没有选择可用。</String>
 <String id="STR_NoBrowseSettings">没有设置可用。</String>
@@ -728,7 +731,7 @@
 <String id="STR_Setting_Balance_Right">右</String>
 <String id="STR_Setting_Delay">音频延迟（影音同步）</String>
 <String id="STR_Setting_SurroundEnabled">环绕声</String>
-<String id="STR_Setting_SurroundLevel">TV 级别调整</String>
+<String id="STR_Setting_SurroundLevel">电视级别调整</String>
 <String id="STR_Setting_SurroundMode">音乐播放</String>
 <String id="STR_InternetRadioHdr">电台</String>
 <String id="STR_Setting_SleepTimer_Off">关</String>
@@ -745,8 +748,8 @@
 <String id="STR_Setting_Alarm_Music">音乐 (%1$s)</String>
 <String id="STR_Setting_Alarm_Music_NoTitle">音乐</String>
 <String id="STR_Setting_Alarm_Volume">音量</String>
-<String id="STR_Setting_Alarm_ZoneReqd">在设定闹钟音量前，必须先选择一个 Sonos 播放器。</String>
-<String id="STR_Setting_Alarm_FixedOutputVolume">当 Sonos 播放器的线路输出等级设定为“固定”时，音量设置不可用。</String>
+<String id="STR_Setting_Alarm_ZoneReqd">在设定闹钟音量前，必须先选择一个 Sonos 扬声器。</String>
+<String id="STR_Setting_Alarm_FixedOutputVolume">当 Sonos 扬声器的线路输出等级设定为“固定”时，音量设置不可用。</String>
 <String id="STR_Setting_Alarm_12H">12 小时制</String>
 <String id="STR_Setting_Alarm_24H">24 小时制</String>
 <String id="STR_Setting_Alarm_AM">上午</String>
@@ -779,7 +782,7 @@
 
 请选择歌曲记录选项：</String>
 <String id="STR_NPNoInfoAvailable">[无可用信息]</String>
-<String comment="used for now playing" id="STR_NoMusic">[无音乐]</String>
+<String comment="used for now playing" id="STR_NoMusic">[未选择音乐]</String>
 <String id="STR_SourceDeviceHdr">线路输入源设备</String>
 <String comment="softkey label" id="STR_AddToQueue">添加到队列的末尾</String>
 <String id="STR_PlayNow">立即播放</String>
@@ -806,8 +809,6 @@
 <String id="STR_AboutBoxZPEvilExtender">
 警告：您的无线网络不支持您的 %1$s 使用低音炮或环绕声。</String>
 <String id="STR_Setting_ZPHidden">%1$s（隐藏）</String>
-<String id="STR_Setting_UnassociatedSub">%1$s （未使用）</String>
-<String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
 <String comment="top-level sub-title" id="STR_MusicCollection">音乐</String>
 <String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes® 合辑</String>
 <String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">专辑表演者</String>
@@ -942,7 +943,7 @@
 <String id="STR_ZPNameFmtBondTwo">%1$s (%2$s+%3$s)</String>
 <String id="STR_ZPNameChannelLeft">左</String>
 <String id="STR_ZPNameChannelRight">右</String>
-<String id="STR_ZPNameChannelSub">SUB</String>
+<String id="STR_ZPNameChannelSub">Sub</String>
 <String id="STR_ZPNameChannelLeftSatellite">左环绕声</String>
 <String id="STR_ZPNameChannelRightSatellite">右环绕声</String>
 <String id="STR_ZPNameChannelLeftAndRightSatellite">左+右</String>
@@ -983,14 +984,14 @@
 <String id="STR_Guest_Account">Guest 账户</String>
 <String id="STR_AddToQueueNotAuthorized">无法将歌曲添加到队列中。
 
-一个或多个 Sonos 播放器没有打开 Windows Media 共享功能。
+一个或多个 Sonos 扬声器没有打开 Windows Media 共享功能。
 
 请转至 http://%1$s.sonos.com/wmpsharing 获取帮助。
 
 按“确定”按钮继续。</String>
 <String id="STR_BrowseNotAuthorized">无法浏览音乐。
 
-一个或多个 Sonos 播放器没有打开 Windows Media 共享功能。
+一个或多个 Sonos 扬声器没有打开 Windows Media 共享功能。
 
 请转至 http://%1$s.sonos.com/wmpsharing 获取帮助。
 
@@ -1018,14 +1019,7 @@
 <String id="RHHSTR_OptInRequiredForSoundLab">要添加 Sonos Labs 公共测试版服务，需要与 Sonos 分享您的使用情况数据。
 
 要查看或更改您的使用情况数据设置，请转至“设置”&gt;“高级设置”&gt;“使用情况数据”。</String>
-<String id="STR_TwoButtonDevices">PLAY
-CONNECT:AMP
-CONNECT</String>
-<String id="STR_OneButtonDevicesInitial">BRIDGE</String>
-<String id="STR_OneButtonDevicesWithPlayer">BRIDGE
-SUB
-DOCK</String>
-<String id="STR_HTAudioHdr">TV</String>
+<String id="STR_HTAudioHdr">电视</String>
 <String id="STR_SUBXOver0">1. 紧凑式</String>
 <String id="STR_SUBXOver1">2.</String>
 <String id="STR_SUBXOver2">3.</String>
@@ -1033,7 +1027,7 @@ DOCK</String>
 <String id="STR_SUBXOver4">5.</String>
 <String id="STR_SUBXOver5">6. 落地式</String>
 <String id="STR_SUBXOver6">7.</String>
-<String id="STR_StereoPair_Error_SUB_Fmt">此 %1$s 扬声器设置了 SUB。要与此扬声器创建一个立体声对，需要另一个未设置 SUB，并且独立于其他立体声对的 %2$s 扬声器。</String>
+<String id="STR_StereoPair_Error_SUB_Fmt">此 %1$s 扬声器设置了 Sub。要与此扬声器创建一个立体声对，需要另一个未设置 Sub，并且独立于其他立体声对的 %2$s 扬声器。</String>
 <String id="STR_AddToFavoritesAdded">已将“%1$s”添加到 Sonos 收藏夹。</String>
 <String id="STR_AddToFavoritesAddedWithRemaining">已将“%1$s”添加到 Sonos 收藏夹。
 
@@ -1081,4 +1075,5 @@ DOCK</String>
 <String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">音乐库问题</String>
 <String id="RHHSTR_SAVEDQUEUES_NOSPACE">您的 Sonos 播放列表已满。您可以从播放列表中删除歌曲，或者删除播放列表，然后重试。</String>
 <String id="RHHSTR_SECURE_REG_PROMPT">使用 %1$s App 来控制 Sonos</String>
+<String id="RHHSTR_EMPTY_HISTORY">您播放的音乐将在此处显示</String>
 </Strings>

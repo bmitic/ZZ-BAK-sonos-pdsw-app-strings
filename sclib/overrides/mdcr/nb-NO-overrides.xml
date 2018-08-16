@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_SETTINGS_ZONEPLAYER">EQ SettingsZXZ</String>
+<String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Musikkbibliotek</String>
+<String id="SCLIB_STR_SETTINGS_SERVICES">Tjenester</String>
+<String id="SCLIB_STR_SETTINGS_DATEANDTIME">Dato og tid</String>
+<String id="SCLIB_STR_SETTINGS_ADVANCED">Avansert</String>
+<String id="SCLIB_STR_SETTINGS_WHITELED">Hvitt statuslys på</String>
+<String id="SCLIB_STR_SETTINGS_TVDialog">Dialog på TV</String>
+<String id="SCLIB_STR_SETTINGS_Surround">Surround</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">Oppdaterer musikkbiblioteket…</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">Grupper album med</String>
+<String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">Vis medvirkende artister i musikkbiblioteket. Denne preferansen påvirker bare denne controlleren.</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE">Oppdater innhold hver dag kl.:</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE_Group">Bibliotekoppdateringer</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME"></String>
+<String id="SCLIB_STR_DATETIMESETTINGS_INTERNETTIME">Still inn dato og tid fra Internett</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_DAYLIGHTSAVINGS">Juster for sommertid</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_SOUNDBAR">EQ</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">Sub</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Sjekk automatisk etter oppdat.</String>
+<String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Vis Windows-medieservere</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Systemoppdateringer</String>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos-oppsettsassistent</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Klikk på «%2$s» for å legge til ett av disse produktene, eller klikk på «%1$s» for å gjøre dette senere.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Trykk «%2$s» for å prøve på nytt, eller klikk på «%1$s» for å registrere senere.</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Du kan endre preferansene dine når som helst ved å velge «Preferanser» fra Sonos-menyen, og velge Forbruk-kategorien under «Avanserte innstillinger».</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Hvis du ønsker å endre standardkontoen, høyreklikker du (Ctrl+klikk) på %1$s i Sonos-musikkmenyen og velger en annen konto.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$s har fullført.
+
+En Sonos-programvareoppdatering er nå nødvendig.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Etter at Sonos-controlleren starter, velg Sonos &gt; Sjekk etter oppdateringer…</String>
+<String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">Telefonnummer</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">Tilbake</String>
+<String id="SCLIB_STR_Queue_Title">KØ</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">KØ (ikke i bruk)</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">Registrer</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">For å legge til Sonos Labs offentlige betatjenester må du dele bruksdata med Sonos.
+
+For å vise eller endre dine bruksdatainnstillinger, gå til Sonos &gt; Preferanser &gt; Avansert &gt; Forbedre Sonos.</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Gå til «Sonos» &gt; «Preferanser» &gt; «Avansert» og velg «Trådløst oppsett».</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Body_2">Du kan forsøke å registrere senere i Hjelp &gt; Sonos-systemregistrering.</String>
+<String id="SCLIB_STR_MSS_CredError">%1$s-serveren gjenkjente ikke innloggingsinformasjonen din.
+
+Sørg for at påloggingsinformasjonen din (e-postadresse eller brukernavn) og passordet er korrekt, trykk på Tilbake-knappen, og prøv igjen.
+
+Om problemet vedvarer, kontakt %2$s for hjelp med kontoen din.</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes® samlinger</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Albumartister</String>
+<String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Tilbakestill controller</String>
+<String id="SCLIB_STR_RESETCONTROLLER_INSTRUCTIONS">Nullstilling av controlleren vil koble den fra Sonos-systemet ditt. Når controlleren starter på nytt, kan du koble den til igjen, eller koble den til et annet Sonos-system.</String>
+<String id="STR_StereoPair_BodyText_Creating"></String>
+<String id="SCLIB_STR_OUWiz_Finished_Title">Oppdatering fullført</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Body_1">Du må først registrere Sonos-systemet ditt for å motta online programvareoppdateringer.</String>
+<String id="SCLIB_STR_OUWiz_Checking_Body_1">Sjekker Sonos for tilgjengelige oppdateringer…</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_1">Oppdateringen har blitt avbrutt.</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">Du kan når som helst prøve igjen ved å gå til «Sonos» &gt; «Sjekk etter oppdateringer…».</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">Indeksen for musikkbiblioteket må bygges på nytt.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">Denne operasjonen kan ta noe tid.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">Mens bygging av indeksen skjer, kan du fremdeles bruke musikkbiblioteket ditt.</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body2">For best resultat, setter du opp Sub-en med en kontroller i samme rom. Hvis denne datamaskinen ikke kan brukes i samme rom som Sub-en, anbefales det at du velger «Ikke nå» og fullfører oppsettet med en annen kontroller.</String>
+<String comment="Substitution: Sonos Player" gender="neuter" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Obs! Forsikre deg om at %1$s er koblet til HDMI-ARC-porten på TV-en.</String>
+<String comment="Substitution: Sonos Player" gender="masculine" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Obs! Forsikre deg om at %1$s er koblet til HDMI-ARC-porten på TV-en.</String>
+<String comment="Substitution: Sonos Player" gender="masculine-vowel" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Obs! Forsikre deg om at %1$s er koblet til HDMI-ARC-porten på TV-en.</String>
+<String comment="Substitution: Sonos Player" gender="masculine-special" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Obs! Forsikre deg om at %1$s er koblet til HDMI-ARC-porten på TV-en.</String>
+<String comment="Substitution: Sonos Player" gender="feminine" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Obs! Forsikre deg om at %1$s er koblet til HDMI-ARC-porten på TV-en.</String>
+<String comment="Substitution: Sonos Player" gender="feminine-vowel" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Obs! Forsikre deg om at %1$s er koblet til HDMI-ARC-porten på TV-en.</String>
+<String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Sonos &gt; Preferanser &gt; Rominnstillinger &gt; %1$s &gt; TV &gt; TV-oppsett</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">Kunne ikke koble til datamaskinen «%1$s» - Sonos kan kun koble til %2$d datamaskiner på samme tid.</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">Datamaskinen «%1$s» kan ikke finnes.</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">Datamaskinen «%1$s» svarer ikke.</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">Datamaskinen «%1$s» avslo å la Sonos koble til den.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Tilgang til den delte mappen «%1$s» er avslått - sjekk brukernavn og/eller passord.</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">Det er ingen delt mappe «%1$s» på datamaskinen «%2$s».</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">Filen «%1$s» finnes ikke.</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">Tilgang til filen «%1$s» er avslått.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Tilgang til den delte mappen «%1$s» er avslått - du kan måtte spesifisere et brukernavn og passord.</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">Den delte mappen «%1$s» har for mange aktive tilkoblinger.</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Kan ikke legge den delte mappen «%1$s» til i musikkbiblioteket ditt (900).</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Kunne ikke legge den delte mappen «%1$s» til musikkbiblioteket ditt (%2$d).</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">Navnet på den delte mappen er for langt.</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">Brukernavnet for den delte mappen er for langt.</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">Passordet for den delte mappen er for langt.</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Kunne ikke fjerne den delte musikkressursen %1$s fra musikkbiblioteket ditt (%2$d).</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Last ned den nyeste Sonos-controlleren fra Sonos' nettsted.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">For å oppdatere velger du Sonos &gt; Sjekk etter oppdateringer…</String>
+<String id="SCLIB_STR_Forget_Title">Ønsker du å glemme Sonos-systemet du bruker for øyeblikket?
+</String>
+<String id="RHHSTR_SIE_ERROR">«%1$s» er ikke lenger tilgjengelig. Enheten der musikkfilene er lagret er kanskje ikke slått på, eller banen kan være endret.
+Gå til Administrer &gt; 
+Innstillinger for musikkbibliotek for å sjekke banenavnet.</String>
+<String id="SCLIB_STR_LC_SearchingForPlayers">Søker etter Sonos-systemet ditt…</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Gå til Systempreferanser &gt; Nettverk og skift til nettverket som Sonos bruker.</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Beklager, vi kan ikke koble til Sonos.
+Prøv dette:</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option1">• Slå Wi-Fi av og på igjen.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option2">• Koble fra ruteren, og koble den til igjen.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option3">• Sjekk strømforsyningen til høyttalerne dine.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option4">• Start datamaskinen på nytt og prøv igjen.</String>
+<String id="SCLIB_STR_LC_Contact">Dette fungerer ikke</String>
+</Strings>

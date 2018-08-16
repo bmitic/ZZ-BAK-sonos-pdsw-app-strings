@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION">高音と低音を好みに合わせて調整してください。</String>
+<String id="SCLIB_STR_ZPSETTINGS_SONAR_DESCRIPTION">部屋に合った音が出るようにスピーカーを調整してください。</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">ワイヤレス ネットワーク上で起動させるためにSonosを設定してください。</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">事前設定のワイヤレス チャンネルの変更は、別のチャンネルを選択してください。</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">ラインインおよびDockの事前設定の上書きには、新しい設定を選択してください。</String>
+<String id="STR_MusicLibraryIndexing">ミュージック ライブラリ - インデックス化しています…</String>
+<String id="STR_SonosPlaylists">Sonosプレイリスト</String>
+<String id="STR_NoMusic">音楽が選択されていません</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_SetupWiz_PreInstructions_Body_2_Fmt">このAndroid™ 機器を設定済みのシステムに接続したり、新しいシステムに設定するには、下の[次へ]ボタンを押してください。</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/acr</String>
+<String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_System">Sonosシステムに接続</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdating_Fmt">Sonosシステムのアップデート中にエラーが発生しました(ID=%1$d)。</String>
+<String id="SCLIB_STR_OUWiz_ErrorCheckingForUpdate_Fmt">アップデートの確認で問題がありました(ID=%1$d)。
+
+インターネットに正しく接続していることを確認してから、再試行してください。</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdatingDevice_Fmt">Sonosシステムのアップデート中にエラーが発生しました:
+
+現在のデバイスは%1$sです (ID=%2$d)。</String>
+<String id="SCLIB_STR_OUWiz_UnknownError_Fmt">Sonosソフトウェアのアップデートを完了できません (ID=%1$d)。
+
+しばらくしてから、もう一度お試しください。</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_1">Sonos製品を追加できませんでした。
+コントローラのアップデートが必要です。
+
+登録の完了後に、このコントローラをアップデートしてから、新しい製品を追加してください。
+
+[次へ]を押して、登録を続行してください。</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_2"></String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_3"></String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_1">新しいSonos製品を追加できませんでした。
+コントローラのアップデートが必要です。
+
+このコントローラをアップデートしてから、新しい製品を追加してください。</String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_2"></String>
+<String comment="Abbreviated in some translations" id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME">インデックスアップデート</String>
+<String id="SCLIB_STR_MSWiz_Intro_Anon_Body1_Fmt">[%1$sを設定]を押し、%1$sをSonosシステムに追加します。</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_1_Fmt">Sonosでは複数の%1$sアカウントを利用できます。追加したばかりのアカウントが、このモバイル デバイスで使用されます。</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">他のアカウントに切り替える場合は、[詳細] &gt; [設定] &gt; [マイミュージック・サービス]に移動し、目的のアカウント名を選択してください。</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">調節が完了したら、下の[次へ]を押します。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">最新版のSonosコントローラをインストールしてください。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">最新版のSonosコントローラをインストールしてください。</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutMinutes_Fmt">%1$d分以内に行ってください…</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutSeconds_Fmt">%1$d秒以内に行ってください…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Title">お待ちください…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Body_1"></String>
+<String id="SCLIB_STR_LC_Reset_String1">ホーム ボタンを押して、リセットを完了してから、Sonosコントローラを再度開いてください。</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="STR_ArtistInfo">アーティストを参照</String>
+<String id="STR_AuthorInfo">著者を参照</String>
+<String id="STR_AllAlbumsArtist">アーティストを参照</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">プレイリストの名前変更</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">新しいプレイリスト</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">局、プレイリスト、アルバム、アーティストを追加するには、Webブラウズ中または音楽の再生中か参照中に[⋯]をタップし、*マイSonosに追加*を選択します。</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">[マイSonos]から「%1$s」を削除しました</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">[マイSonos]から「%1$s」を削除できませんでした</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">[Sonos プレイリスト]を作成するには、上記の[⋯]をタップします。</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">曲をこのプレイリストに追加するには、音楽の再生中か参照中に[⋯]をタップし、*Sonosプレイリストに追加*を選択します。</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1曲</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2曲</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d曲</String>
+<String id="RHHSTR_SIE_ERROR">「%1$s」は、利用不可になりました。音楽ファイルが保存されているデバイスの電源をONにできない、あるいは、パスが変更されている可能性があります。設定 &gt; ミュージック ライブラリの管理 &gt; ミュージックライブラリ設定から、パス名を確認してください。</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">アプリ設定</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Body">これにより、周辺のスピーカーを検出する権限が与えられます。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Title">ロケーションアクセスを許可</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_1">1.[デバイス設定]をタップし、[権限]を選択してください。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_2">2.[位置情報]をオンにします。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_3">3.Sonosアプリに戻ります。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Button">デバイス設定</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Title">ロケーションアクセスを許可しませんか?</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Body">ロケーションアクセスがオフの場合は、セットアップを完了するためにEthernetケーブルが必要となります。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Allow_Button">ロケーションアクセスを許可</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_GoBack_Button">戻る</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Skip_Button">ロケーションアクセスを使用せずに続行する</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Title">位置情報サービスをオンにする</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Body">位置情報サービス設定がオフです。スピーカーを検出するには、その設定をオンにする必要があります。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Title">位置情報サービスをオンにしませんか?</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Body">位置情報サービスがオフの場合、設定を完了するためにEthernetケーブルが必要となります。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Enable_Button">位置情報をオンにする</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Skip_Button">位置情報を使用せずに続行する</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Title">Sonosへ戻る</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Message">これでSonosアプリへ戻ります。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Body">オンにしましょう。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Enable_Button">Bluetoothをオンにする</String>
+<String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title">ロケーションアクセスを許可</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">アップデートを確認</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">マイSonosシステムについて</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Wi-Fi設定に移動する。</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">設定
+スピーカー</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">*%1$s* ワイヤレスネットワーク上で、Sonosを検出しました。</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">*%1$s* ワイヤレスネットワーク上で、新しいSonosスピーカーを検出しました。</String>
+<String id="STR_AddFavorite">マイSonosに追加</String>
+<String id="SCLIB_STR_DeleteFavorite">[マイSonos]から削除</String>
+<String id="STR_AddToFavoritesAdded">&quot;%1$s&quot;がマイSonosに追加されました。</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot;がマイSonosに追加されました。
+
+マイSonosに無料スロットが%2$d残っています。</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">&quot;%1$s&quot;がマイSonosに追加されました。
+
+マイSonosに無料スロットが１つだけ残っています。</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">&quot;%1$s&quot;がマイSonosに追加されました。
+
+マイSonosで利用可能のスロットは全て使用されています。</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">&quot;%1$s&quot;はマイSonosにすでに追加されているため再度追加されません。</String>
+<String id="STR_AddToFavoritesFullError">マイSonosに追加できません。空きスロットが残っていません。
+
+新しいアイテム用のスペースを空けるために、マイSonosから既存のアイテムを削除できます。</String>
+<String id="STR_AddToFavoritesError">マイSonosに&quot;%1$s&quot;を追加できません。</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">マイSonosに追加できません。新しいアイテム用のスペースを空けるには、既存アイテムを削除したり、マイ ラジオ ステーションやマイ ラジオ番組からアイテムを削除することを考慮してください。</String>
+<String id="SCLIB_STR_RenameFavorite">アイテムの名前を変更する</String>
+<String id="STR_AddFavoriteStation">マイSonosにステーションを追加</String>
+<String id="STR_AddFavoriteTrack">マイSonosに曲を追加</String>
+<String id="STR_AddFavoriteAlbum">マイSonosにアルバムを追加</String>
+<String id="STR_AddFavoriteArtist">マイSonosにアーティストを追加</String>
+<String id="STR_AddFavoritePlaylist">マイSonosにプレイリストを追加</String>
+<String id="STR_AddFavoriteShow">マイSonosに番組を追加</String>
+<String id="STR_AddFavoriteBook">マイSonosに本を追加</String>
+<String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_CONFIRM_PROMPT_ENABLE_BODY">By enabling this feature, you understand we’ll collect some Activity Information as outlined in our &lt;a href=&quot;https://www.sonos.com/legal/privacy&quot;&gt;Sonos Privacy Statement.&lt;/a&gt;ZXZ</String>
+</Strings>

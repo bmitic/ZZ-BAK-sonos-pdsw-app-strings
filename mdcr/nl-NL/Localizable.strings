@@ -12,7 +12,7 @@
 /* Common */
 
     "<OK>" = "OK";
-    "<Cancel>" = "Annuleer";
+    "<Cancel>" = "Annuleren";
     "<Yes>" = "Ja";
     "<No>" = "Nee";
     "<Crossfade>" = "Crossfaden";
@@ -118,13 +118,13 @@
     "<AlarmHeaderWhen>" = "Wanneer";
     "<AlarmHeaderOn>" = "AAN";
     "<AlarmDialogCurrentTimeFormat_3>" = "Huidige tijd: %1$@ - %2$@ %3$@";
-    "<AlarmEditButtonTitle>" = "Bewerk";
+    "<AlarmEditButtonTitle>" = "Bewerken";
     "<AlarmUnknownDevice>" = "Geen kamer geselecteerd";
 
 /* Alarm Edit */
 
-    "<AlarmEditDialogTitle>" = "Wijzig alarm";
-    "<AlarmAddDialogTitle>" = "Voeg alarm toe";
+    "<AlarmEditDialogTitle>" = "Alarm bewerken";
+    "<AlarmAddDialogTitle>" = "Alarm toevoegen";
     "<AlarmEditAlarm>" = "Alarm";
     "<AlarmEditTime>" = "Tijd";
     "<AlarmEditZone>" = "Kamer";
@@ -220,7 +220,7 @@
     "<ShareMigrationAlertNowButton>" = "Nu bijwerken";
     "<ShareMigrationAlertLaterButton>" = "Herinner mij hier later aan";
     "<AuthorizationFailed>" = "Autorisatie mislukt.";
-    "<AbleToAddMusicSharesFailed>" = "Sonos kon de server van de muziekbibliotheek niet opstarten omdat de spelers niet compatibel zijn. Controleer op updates.";
+    "<AbleToAddMusicSharesFailed>" = "Sonos kon de server van de muziekbibliotheek niet opstarten omdat de speakers niet compatibel zijn. Controleer op updates.";
     "<LocalHostNameFailed>" = "Sonos kon de server van de muziekbibliotheek niet opstarten omdat de computernaam niet kan worden gelezen.";
 
 
@@ -229,7 +229,7 @@
     "<NowPlayingHeaderTitle>" = "JE HOORT";
     "<NowPlayingLabel_Information>" = "Info & Opties";
     "<NowPlayingTrackDefaultLabel>" = "Nummer [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[geen muziek]";
+    "<NowPlayingTrackDefaultString>" = "[Geen muziek geselecteerd]";
     "<NowPlayingArtistDefaultLabel>" = "Artiest";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -239,11 +239,11 @@
     "<QueueHeaderTitle>" = "WACHTRIJ";
     "<QueueHeaderTitleNotInUse>" = "(Niet in gebruik)";
     "<QueueEmpty>" = "Wachtrij is leeg.";
-    "<QueueClear>" = "Wis wachtrij";
-    "<QueueSave>" = "Bewaar wachtrij";
+    "<QueueClear>" = "Wachtrij wissen";
+    "<QueueSave>" = "Wachtrij opslaan";
     "<QueueConfirmClearText>" = "Weet je zeker dat je alle items wilt verwijderen uit de wachtrij?";
 // %1$d, Number of tracks to remove.
-    "<QueueSaveWindowTitle>" = "Bewaar wachtrij";
+    "<QueueSaveWindowTitle>" = "Wachtrij opslaan";
     "<QueueSaveIntroText>" = "Wachtrij wordt opgeslagen als Sonos-afspeellijst.";
     "<QueuePlaylistNameText>" = "Voer een nieuwe naam in voor de afspeellijst:";
     "<QueuePlaylistTableText>" = "Of selecteer een bestaande Sonos-afspeellijst om te vervangen:";
@@ -268,16 +268,15 @@
 
     "<SettingsWindowTitle>" = "Voorkeuren";
     "<SettingsBasicSettingsTitle>" = "Basis";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Je hebt momenteel geen %1$@ in je Sonos-systeem.\n\nOm een %1$@ toe te voegen, selecteer je %2$@\nin de menubalk.";
-    "<SettingsNoPlayers_1>" = "Je hebt op dit moment geen Sonos-spelers in je Sonos-systeem.\nJe hebt ten minste één Sonos-speler nodig om muziek af te kunnen spelen.\n\nOm een Sonos-speler toe te voegen, selecteer je %1$@ in de menubalk.";
-    "<SettingsNoPlayerLink>" = "Beheren > Speler of SUB toevoegen";
-    "<SettingsNoBoostLink>" = "Beheren > BOOST of BRIDGE toevoegen";
+    "<SettingsNoPlayers_1>" = "Je hebt op dit moment geen Sonos-speakers in je Sonos-systeem.\nJe hebt ten minste één Sonos-speaker nodig om muziek af te kunnen spelen.\n\nOm een Sonos-speaker toe te voegen, selecteer je %1$@ in de menubalk.";
+    "<SettingsNoPlayerLink>" = "Beheren > Speaker of Sub toevoegen";
+    "<SettingsNoBoostLink>" = "Beheren > Boost of Bridge toevoegen";
     "<SettingsNoAvailable_1>" = "Geen %1$@ beschikbaar";
-    "<SettingsComponentRoom>" = "Kamer";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bas";
     "<SettingsEqTreble>" = "Treble";
     "<SettingsEqBalance>" = "Balans";
@@ -289,11 +288,12 @@
     "<SettingsEqMax>" = "Max";
     "<SettingsEqLoudness>" = "Loudness";
     "<SettingsEqReset>" = "Opnieuw";
-    "<SettingsEqFixed>" = "Equalizer-instellingen zijn niet beschikbaar als het uitgangsniveau van een Sonos-speler is ingesteld op Vast.\n\nWijzig de instelling van het uitgangsniveau op het tabblad Basis om de EQ-instellingen in te schakelen.";
+    "<SettingsEqFixed>" = "Equalizer-instellingen zijn niet beschikbaar als het uitgangsniveau van een Sonos-speaker is ingesteld op Vast.\n\nWijzig de instelling van het uitgangsniveau op het tabblad Basis om de EQ-instellingen in te schakelen.";
+    "<SettingsUsageData>" = "Usage Data SettingsZXZ";
     "<SettingsAdvSettings>" = "Geavanceerde instellingen";
     "<SettingsGeneral>" = "Algemeen";
-    "<SettingsUsage>" = "Sonos verbeteren";
     "<SettingsServers>" = "Muziekbronnen";
+    "<SettingsUsage>" = "Sonos verbeteren";
     "<SettingsDateTime>" = "Datum- en tijdinstellingen";
     "<SettingsMusicLibrary>" = "Instellingen muziekbibliotheek";
     "<SettingsMusicService>" = "Instellingen service";
@@ -312,8 +312,8 @@
     "<SettingsExplicitFilteringNoServices>" = "Er zijn geen muziekservices op je Sonos-systeem die het filteren van inhoud ondersteunen.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Meer informatie";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB aan";
-    "<SettingsSubEqLevelAdjustment>" = "SUB-niveau";
+    "<SettingsSubEqEnabled>" = "Sub aan";
+    "<SettingsSubEqLevelAdjustment>" = "Sub-niveau";
     "<SettingsSubEqPlacementAdjustment>" = "Positieaanpassing";
     "<SettingsSubEqSpeakerSize>" = "Speakergrootte (crossover)";
     "<SettingsTVDialogDelay>" = "Audiovertraging (Lipsync)";
@@ -362,7 +362,6 @@
 /* Zone/Rooms Panel */
 
     "<ZoneMenuHeaderTitle>" = "KAMERS";
-    "<ZoneMenuGroupZones>" = "Groep";
     "<ZoneMenuShowLess>" = "Toon minder…";
 // %1$d, Number of extra (non-visible devices)
     "<ZoneMenuShowMore_1>" = "Toon %1$d meer…";
@@ -386,8 +385,9 @@
     "<ZoneMenuEq_1>" = "EQ %1$@…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "Instellingen %1$@…";
-    "<ZoneMenuSelectToUpdate>" = "Selecteer om bij te werken…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Selecteren om %1$s te configureren";
+    "<ZoneMenuSelectToUpdate>" = "Selecteer om bij te werken";
+    "<ZoneMenuSelectToConfigure>" = "Selecteren om te configureren";
+    "<ZoneMenuSelectToRegister>" = "Selecteren om te registreren";
     "<ZoneMenuConfirmPauseAll>" = "Weet je zeker dat je de muziek in alle kamers wilt pauzeren?";
     "<ZoneMenuPauseButton>" = "Pauze";
 
@@ -406,26 +406,24 @@
     "<MenuTitle_AboutSonos>" = "Info over Sonos";
     "<MenuTitle_Preferences>" = "Voorkeuren…";
     "<MenuTitle_CheckForUpdates>" = "Zoek naar nieuwe versies…";
-    "<MenuTitle_Uninstall>" = "Verwijder…";
+    "<MenuTitle_Uninstall>" = "Verwijderen…";
     "<MenuTitle_Services>" = "Services";
     "<MenuTitle_HideSonos>" = "Verberg Sonos";
     "<MenuTitle_HideOthers>" = "Verberg overige";
     "<MenuTitle_ShowAll>" = "Toon alles";
     "<MenuTitle_Quit>" = "Stop Sonos";
 
-    "<MenuTitle_Edit>" = "Bewerk";
-    "<MenuTitle_Cut>" = "Knip";
-    "<MenuTitle_Copy>" = "Kopieer";
-    "<MenuTitle_Paste>" = "Plak";
-    "<MenuTitle_Delete>" = "Verwijder";
+    "<MenuTitle_Edit>" = "Bewerken";
+    "<MenuTitle_Cut>" = "Knippen";
+    "<MenuTitle_Copy>" = "Kopiëren";
+    "<MenuTitle_Paste>" = "Plakken";
+    "<MenuTitle_Delete>" = "Verwijderen";
     "<MenuTitle_SelectAll>" = "Selecteer alles";
-    "<MenuTitle_Search>" = "Zoek";
+    "<MenuTitle_Search>" = "Zoeken";
 
-    "<MenuTitle_View>" = "Bekijk";
+    "<MenuTitle_View>" = "Bekijken";
 
     "<MenuTitle_Manage>" = "Beheren";
-    "<MenuTitle_AddPlayerOrSub>" = "Speler of SUB toevoegen…";
-    "<MenuTitle_AddBoost>" = "BOOST of BRIDGE toevoegen…";
     "<MenuTitle_MusicLibrarySettings>" = "Instellingen muziekbibliotheek…";
     "<MenuTitle_ServiceSettings>" = "Instellingen service…";
     "<MenuTitle_AddRadioStation>" = "Voeg radiostation toe…";
@@ -441,7 +439,6 @@
     "<MenuTitle_MiniWindowName>" = "Minicontroller";
     "<MenuTitle_BringAllToFront>" = "Alles naar voren";
 
-    "<MenuTitle_Account>" = "Mijn Sonos-account";
     "<MenuTitle_Help>" = "Help";
     "<MenuTitle_Shop>" = "Sonos-producten kopen";
     "<MenuTitle_KeyboardShortcuts>" = "Toetscombinaties";
@@ -456,10 +453,6 @@
 
     "<MenuTitle_CopyLinkAddress>" = "Kopieer koppeling";
 
-/* SMNowPlayingFSViewController.xib */
-
-    "<BackButton>" = "Terug";
-
 
 /****************************************************************/
 /* Music Library/Share Setup Wizard                             */
@@ -468,7 +461,7 @@
     "<Browse>" = "Bladeren";
     "<Username>" = "Gebruikersnaam:";
     "<Password>" = "Wachtwoord:";
-    "<Remove>" = "Verwijder";
+    "<Remove>" = "Verwijderen";
 
     "<Music_Folder>" = "Map";
     "<Music_Path>" = "Pad";
@@ -577,8 +570,8 @@
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "Speler configureren";
-    "<AuthorizationWizard_Body>" = "Sonos brengt een draadloze verbinding tot stand tussen deze computer en de nieuwe Sonos-speler voor een optimale installatie. Voer hiervoor de naam en het wachtwoord van de beheerder van deze computer in.\n\nOPMERKING: Als je deze gegevens niet hebt, moet je de speler tijdelijk aansluiten op de router om de installatie te voltooien.";
+    "<AuthorizationWizard_Title>" = "Speaker configureren";
+    "<AuthorizationWizard_Body>" = "Sonos brengt een draadloze verbinding tot stand tussen deze computer en de nieuwe Sonos-speaker voor een optimale installatie. Voer hiervoor de naam en het wachtwoord van de beheerder van deze computer in.\n\nOPMERKING: Als je deze gegevens niet hebt, moet je de speaker tijdelijk aansluiten op de router om de installatie te voltooien.";
     "<AuthorizationWizard_Button>" = "Ik heb deze gegevens niet";
 
 /****************************************************************/

@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
+	<key>&lt;AlarmAwayModeNotificationBodyNAlarms></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@alarms@</string>
@@ -12,11 +12,13 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>在家中关闭 %d 个闹钟的暂停通知。</string>
 			<key>other</key>
 			<string>已关闭家中的 %d 次闹钟暂停通知。</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNHours&gt;</key>
+	<key>&lt;VODurationNHours></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@hours@</string>
@@ -26,11 +28,13 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d 小时</string>
 			<key>other</key>
 			<string>%d 小时</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNMinutes&gt;</key>
+	<key>&lt;VODurationNMinutes></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@minutes@</string>
@@ -40,11 +44,13 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d 分钟</string>
 			<key>other</key>
 			<string>%d 分钟</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNSeconds&gt;</key>
+	<key>&lt;VODurationNSeconds></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@seconds@</string>
@@ -54,11 +60,13 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d 秒</string>
 			<key>other</key>
 			<string>%d 秒</string>
 		</dict>
 	</dict>
-	<key>&lt;QueueTrackLabel_1&gt;</key>
+	<key>&lt;QueueTrackLabel_1></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@songs@</string>
@@ -70,6 +78,8 @@
 			<string>d</string>
 			<key>zero</key>
 			<string>空</string>
+			<key>one</key>
+			<string>.%d 首歌曲。</string>
 			<key>other</key>
 			<string>.%d 首歌曲。</string>
 		</dict>

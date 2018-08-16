@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION">按照您的喜好调整高音和低音。</String>
+<String id="SCLIB_STR_ZPSETTINGS_SONAR_DESCRIPTION">对您的扬声器进行调音使其与房间相适应。</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">配置 Sonos 在您的无线网络中运行。</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">要覆盖预设的无线频道，请选择一个不同的频道。</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">选择一个新设置来覆盖预设的线路输入和 Dock 设置。</String>
+<String id="STR_MusicLibraryIndexing">音乐库 - 正在编制索引…</String>
+<String id="STR_SonosPlaylists">Sonos 播放列表</String>
+<String id="STR_NoMusic">未选择音乐</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_SetupWiz_PreInstructions_Body_2_Fmt">要将已设置的 Android™ 设备连接到系统，或使用它来设置新系统，请按下面的“下一步”按钮。</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/acr</String>
+<String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_System">已连接到 Sonos 系统</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdating_Fmt">尝试更新 Sonos 系统时发生错误 (ID=%1$d)。</String>
+<String id="SCLIB_STR_OUWiz_ErrorCheckingForUpdate_Fmt">检查更新时出现问题 (ID=%1$d)。
+
+请检查互联网连接或稍后重试。</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdatingDevice_Fmt">尝试更新 Sonos 系统时发生错误：
+
+当前设备为 %1$s (ID=%2$d)。</String>
+<String id="SCLIB_STR_OUWiz_UnknownError_Fmt">无法完成 Sonos 软件更新 (ID=%1$d)。
+
+请稍后重试。</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_1">无法添加您的 Sonos 产品。
+需要更新控制器。
+
+注册成功后，请更新控制器，然后添加新产品。
+
+按“下一步”可继续注册。</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_2"></String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_3"></String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_1">无法添加您的新 Sonos 产品。
+需要更新控制器。
+
+请更新此控制器，然后添加新产品。</String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_2"></String>
+<String comment="Abbreviated in some translations" id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME">音乐索引更新时间</String>
+<String id="SCLIB_STR_MSWiz_Intro_Anon_Body1_Fmt">按“设置 %1$s”可将 %1$s 添加到您的 Sonos 系统。</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_1_Fmt">您可以配合 Sonos 使用多个 %1$s 帐户。您刚才添加的帐户将用于此移动设备。</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">要切换到不同的帐户，请前往“更多 &gt; 设置 &gt; 我的音乐服务”并选择其他帐户。</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">完成调整后，按下面的“下一步”。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">请安装最新版本的 Sonos 控制器。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">请安装最新版本的 Sonos 控制器。</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutMinutes_Fmt">请在 %1$d 分钟内执行此操作…</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutSeconds_Fmt">请在 %1$d 秒内执行此操作…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Title">请稍候…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Body_1"></String>
+<String id="SCLIB_STR_LC_Reset_String1">请按主页按钮完成重置，然后重新打开 Sonos 控制器。</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="STR_ArtistInfo">浏览此表演者</String>
+<String id="STR_AuthorInfo">浏览作者</String>
+<String id="STR_AllAlbumsArtist">浏览此表演者</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">重命名播放列表</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">新建播放列表</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">要将电台、播放列表、专辑或艺术家添加到 Sonos 收藏夹中，请在浏览或播放音乐时点击⋯，然后选择 *添加到我的 Sonos*。</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">已从“我的 Sonos”移除&quot;%1$s&quot;</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">未能从“我的 Sonos”移除“%1$s”</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">要创建 Sonos 播放列表，点击上方的 ⋯。</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">要将歌曲添加到播放列表中，请在浏览或播放音乐时点击 ⋯，然后选择 *添加到 Sonos 播放列表*。</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 首歌曲</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 首歌曲</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d 首歌曲</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' 不再可用。存储音乐文件的设备可能没有接通电源， 或者文件路径发生了变化。
+请转至“设置” &gt; “管理音乐库” &gt; “音乐库设置”检查路径名称。</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">应用设置</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Body">这样就能查找您附近的扬声器。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Title">允许位置访问</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_1">1.点击“设备设置”，然后选择“权限”。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_2">2.打开“位置”。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_3">3.返回 Sonos 应用程序。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Button">设备设置</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Title">您确定不希望允许位置访问吗？</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Body">如果位置访问已关闭，您需要以太网电缆才能完成设置。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Allow_Button">允许位置访问</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_GoBack_Button">返回</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Skip_Button">继续在没有位置访问的情况下操作</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Title">打开位置服务</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Body">您的位置服务设置已关闭。您需要将其打开，这样才能查找您的扬声器。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Title">您确定不打开位置服务吗？</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Body">如果位置服务已关闭，您需要以太网电缆才能完成设置。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Enable_Button">打开位置</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Skip_Button">继续在没有位置的情况下操作</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Title">返回 Sonos</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Message">现在返回 Sonos 应用程序。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Body">请将它打开。</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Enable_Button">打开蓝牙</String>
+<String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title">允许位置访问</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">检查更新</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">关于 Sonos 系统</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">转到 Wi-Fi 设置</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">配置
+扬声器</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">在 *%1$s* 无线网络中发现了 Sonos。</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">我们在 *%1$s* 无线网络中发现了一个新的 Sonos 音响。</String>
+<String id="STR_AddFavorite">添加到我的 Sonos</String>
+<String id="SCLIB_STR_DeleteFavorite">从“我的 Sonos”移除</String>
+<String id="STR_AddToFavoritesAdded">&quot;%1$s&quot; 已经添加到我的 Sonos 中。</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot; 已经添加到我的 Sonos 中。
+
+我的 Sonos 中还剩 %2$d 个位置可用。</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">&quot;%1$s&quot; 已经添加到我的 Sonos 中。
+
+我的 Sonos 中还剩 1 个位置可用。</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">&quot;%1$s&quot; 已经添加到我的 Sonos 中。
+
+我的 Sonos 所有位置已使用。</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">&quot;%1$s&quot; 已添加到我的 Sonos 中，无法再次添加。</String>
+<String id="STR_AddToFavoritesFullError">无法添加到我的 Sonos 中。可用位置已满。
+
+可以从我的 Sonos 移除已有的曲目，释放空间以保存新的曲目。</String>
+<String id="STR_AddToFavoritesError">无法添加 &quot;%1$s&quot; 到我的 Sonos 中。</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">无法添加到我的 Sonos 中。要为新的曲目腾出空间，可以移除已有曲目，也可以从“我的电台”或“我的电台节目”中删除相关内容。</String>
+<String id="SCLIB_STR_RenameFavorite">为项目重命名</String>
+<String id="STR_AddFavoriteStation">将电台添加到我的 Sonos</String>
+<String id="STR_AddFavoriteTrack">将歌曲添加到我的 Sonos</String>
+<String id="STR_AddFavoriteAlbum">将专辑添加到我的 Sonos</String>
+<String id="STR_AddFavoriteArtist">将艺术家添加到我的 Sonos</String>
+<String id="STR_AddFavoritePlaylist">将播放列表添加到我的 Sonos</String>
+<String id="STR_AddFavoriteShow">将节目添加到我的 Sonos</String>
+<String id="STR_AddFavoriteBook">将书添加到我的 Sonos</String>
+<String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_CONFIRM_PROMPT_ENABLE_BODY">By enabling this feature, you understand we’ll collect some Activity Information as outlined in our &lt;a href=&quot;https://www.sonos.com/legal/privacy&quot;&gt;Sonos Privacy Statement.&lt;/a&gt;ZXZ</String>
+</Strings>

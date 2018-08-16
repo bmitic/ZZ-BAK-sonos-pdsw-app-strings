@@ -220,7 +220,7 @@
     "<ShareMigrationAlertNowButton>" = "Oppdater nå";
     "<ShareMigrationAlertLaterButton>" = "Påminn meg senere";
     "<AuthorizationFailed>" = "Godkjenning mislyktes.";
-    "<AbleToAddMusicSharesFailed>" = "Sonos kunne ikke starte serveren for musikkbibliotek, fordi spillerne dine er inkompatible. Sjekk etter oppdateringer.";
+    "<AbleToAddMusicSharesFailed>" = "Sonos kunne ikke starte serveren for musikkbibliotek, fordi høyttalerne dine er inkompatible. Sjekk etter oppdateringer.";
     "<LocalHostNameFailed>" = "Sonos kunne ikke starte serveren for musikkbibliotek, da datamaskinnavnet ditt ikke kan leses.";
 
 
@@ -229,7 +229,7 @@
     "<NowPlayingHeaderTitle>" = "SPILLER NÅ";
     "<NowPlayingLabel_Information>" = "Info & alternativer";
     "<NowPlayingTrackDefaultLabel>" = "Låt [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[ingen musikk]";
+    "<NowPlayingTrackDefaultString>" = "[Ingen musikk valgt]";
     "<NowPlayingArtistDefaultLabel>" = "Artist";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -268,16 +268,15 @@
 
     "<SettingsWindowTitle>" = "Preferanser";
     "<SettingsBasicSettingsTitle>" = "Grunnleggende";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Du har for øyeblikket ingen %1$@ i Sonos-systemet ditt.\n\nFor å legge til en %1$@, velg %2$@\nfra menylinjen.";
-    "<SettingsNoPlayers_1>" = "Du har for øyeblikket ingen Sonos-spillere i Sonos-systemet ditt.\nDu trenger minst én Sonos-spiller for å spille musikk\n\nFor å legge til en Sonos-spiller, velg %1$@ fra menylinjen.";
-    "<SettingsNoPlayerLink>" = "Administrer > Legg til en spiller eller SUB";
-    "<SettingsNoBoostLink>" = "Administrer > Legg til en BOOST eller BRIDGE";
+    "<SettingsNoPlayers_1>" = "Du har for øyeblikket ingen Sonos-høyttalere i Sonos-systemet ditt.\nDu trenger minst én Sonos-høyttaler for å spille musikk\n\nFor å legge til en Sonos-høyttaler, velg %1$@ fra menylinjen.";
+    "<SettingsNoPlayerLink>" = "Administrer > Legg til en høyttaler eller Sub";
+    "<SettingsNoBoostLink>" = "Administrer > Legg til en Boost eller Bridge";
     "<SettingsNoAvailable_1>" = "Ingen %1$@ tilgjengelig";
-    "<SettingsComponentRoom>" = "Rom";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bass";
     "<SettingsEqTreble>" = "Diskant";
     "<SettingsEqBalance>" = "Balanse";
@@ -289,11 +288,12 @@
     "<SettingsEqMax>" = "Max";
     "<SettingsEqLoudness>" = "Loudness";
     "<SettingsEqReset>" = "Tilbakestill";
-    "<SettingsEqFixed>" = "Equalizerinnstillinger er ikke tilgjengelige mens en Sonos-spillers utgangsnivå er satt til Fast.\n\nEndre utgangsnivåinnstillingen på Grunnleggende-kategorien for å aktivere EQ-kontrollene.";
+    "<SettingsEqFixed>" = "Equalizerinnstillinger er ikke tilgjengelige mens en Sonos-høyttalers utgangsnivå er satt til Fast.\n\nEndre utgangsnivåinnstillingen på Grunnleggende-kategorien for å aktivere EQ-kontrollene.";
+    "<SettingsUsageData>" = "Usage Data SettingsZXZ";
     "<SettingsAdvSettings>" = "Avanserte innstillinger";
     "<SettingsGeneral>" = "Generelt";
-    "<SettingsUsage>" = "Forbedre Sonos";
     "<SettingsServers>" = "Musikkilder";
+    "<SettingsUsage>" = "Forbedre Sonos";
     "<SettingsDateTime>" = "Dato- og tidsinnstillinger";
     "<SettingsMusicLibrary>" = "Innstillinger for musikkbibliotek";
     "<SettingsMusicService>" = "Tjenesteinnstillinger";
@@ -312,8 +312,8 @@
     "<SettingsExplicitFilteringNoServices>" = "Du har ingen musikktjenester på Sonos-systemet som støtter innholdsfiltrering.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Mer informasjon";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB på";
-    "<SettingsSubEqLevelAdjustment>" = "SUB-nivå";
+    "<SettingsSubEqEnabled>" = "Sub på";
+    "<SettingsSubEqLevelAdjustment>" = "Sub-nivå";
     "<SettingsSubEqPlacementAdjustment>" = "Justering av plassering";
     "<SettingsSubEqSpeakerSize>" = "Høyttalerstørrelse (kryssover)";
     "<SettingsTVDialogDelay>" = "Lydforsinkelse (leppesynkronisering)";
@@ -362,7 +362,6 @@
 /* Zone/Rooms Panel */
 
     "<ZoneMenuHeaderTitle>" = "ROM";
-    "<ZoneMenuGroupZones>" = "Gruppe";
     "<ZoneMenuShowLess>" = "Vis mindre…";
 // %1$d, Number of extra (non-visible devices)
     "<ZoneMenuShowMore_1>" = "Vis %1$d mer…";
@@ -386,8 +385,9 @@
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@ Innstillinger…";
-    "<ZoneMenuSelectToUpdate>" = "Velg å oppdatere…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Velg for å sette opp %1$s";
+    "<ZoneMenuSelectToUpdate>" = "Velg å oppdatere";
+    "<ZoneMenuSelectToConfigure>" = "Velg for å konfigurere";
+    "<ZoneMenuSelectToRegister>" = "Velg for å registrere";
     "<ZoneMenuConfirmPauseAll>" = "Er du sikker på at du ønsker å pause musikken som spiller i alle rom?";
     "<ZoneMenuPauseButton>" = "Pause";
 
@@ -424,8 +424,6 @@
     "<MenuTitle_View>" = "Vis";
 
     "<MenuTitle_Manage>" = "Administrer";
-    "<MenuTitle_AddPlayerOrSub>" = "Legg til en spiller eller SUB…";
-    "<MenuTitle_AddBoost>" = "Legg til en BOOST eller BRIDGE…";
     "<MenuTitle_MusicLibrarySettings>" = "Innstillinger for musikkbibliotek…";
     "<MenuTitle_ServiceSettings>" = "Tjenesteinnstillinger…";
     "<MenuTitle_AddRadioStation>" = "Legg til radiostasjon…";
@@ -441,7 +439,6 @@
     "<MenuTitle_MiniWindowName>" = "Mini-controller";
     "<MenuTitle_BringAllToFront>" = "Før alle til fronten";
 
-    "<MenuTitle_Account>" = "Min Sonos-konto";
     "<MenuTitle_Help>" = "Hjelp";
     "<MenuTitle_Shop>" = "Kjøp Sonos-produkter";
     "<MenuTitle_KeyboardShortcuts>" = "Tastatursnarveier";
@@ -455,10 +452,6 @@
     "<MenuTitle_ForgetHousehold>" = "Glem gjeldende Sonos-system";
 
     "<MenuTitle_CopyLinkAddress>" = "Kopier link";
-
-/* SMNowPlayingFSViewController.xib */
-
-    "<BackButton>" = "Tilbake";
 
 
 /****************************************************************/
@@ -577,8 +570,8 @@
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "Konfigurerer spiller";
-    "<AuthorizationWizard_Body>" = "For å optimere oppsettet, må Sonos opprette en direkte trådløs tilkobling mellom denne datamaskinen og den nye Sonos-spilleren. Dette gjør du ved å skrive inn administratorens navn og passord for denne datamaskinen.\n\nMERK: Hvis du ikke har denne informasjonen, må du koble spilleren til ruteren midlertidig for å fullføre oppsettet.";
+    "<AuthorizationWizard_Title>" = "Konfigurerer høyttaler";
+    "<AuthorizationWizard_Body>" = "For å optimere oppsettet, må Sonos opprette en direkte trådløs tilkobling mellom denne datamaskinen og den nye Sonos-høyttaleren. Dette gjør du ved å skrive inn administratorens navn og passord for denne datamaskinen.\n\nMERK: Hvis du ikke har denne informasjonen, må du koble høyttaleren til ruteren midlertidig for å fullføre oppsettet.";
     "<AuthorizationWizard_Button>" = "Jeg har ikke denne informasjonen";
 
 /****************************************************************/

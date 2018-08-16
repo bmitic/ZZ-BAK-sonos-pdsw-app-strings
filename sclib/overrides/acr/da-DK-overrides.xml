@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION">Justér diskant og bas efter behag.</String>
+<String id="SCLIB_STR_ZPSETTINGS_SONAR_DESCRIPTION">Indstil dine højttalere, så de lyder rigtigt i dit rum.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Konfigurer Sonos til at køre på dit trådløse netværk.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Du kan ændre den forhåndsindstillede trådløse kanal ved at vælge en anden kanal.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Vælg en ny indstilling for at omgå forhåndsindstillingen af den eksterne kilde og Dock.</String>
+<String id="STR_MusicLibraryIndexing">Musikbibliotek - indekserer…</String>
+<String id="STR_SonosPlaylists">Sonos-playlister</String>
+<String id="STR_NoMusic">Ingen musik valgt</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_SetupWiz_PreInstructions_Body_2_Fmt">For at slutte denne Android™-enhed til et system, der allerede er konfigureret, eller for at konfigurere et nyt system, skal du trykke på knappen Næste herunder.</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/acr</String>
+<String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_System">Forbundet til dit Sonos-system</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdating_Fmt">Der opstod en fejl ved opdatering af dit Sonos-system (ID=%1$d).</String>
+<String id="SCLIB_STR_OUWiz_ErrorCheckingForUpdate_Fmt">Der opstod et problem ved søgning efter opdateringer (ID=%1$d).
+
+Kontrollér din internetforbindelse, eller prøv igen senere.</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdatingDevice_Fmt">Der opstod en fejl ved opdatering af dit Sonos-system:
+
+Aktuel enhed er %1$s (ID=%2$d).</String>
+<String id="SCLIB_STR_OUWiz_UnknownError_Fmt">Kunne ikke gennemføre Sonos-softwareopdateringen (ID=%1$d).
+
+Prøv igen senere.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_1">Dit Sonos-produkt kunne ikke tilføjes.
+Der kræves en controller-opdatering.
+
+Når du har fuldført registrering, skal du opdatere denne controller, og derefter tilføje dine nye produkter.
+
+Tryk på &quot;Næste&quot; for at fortsætte med registrering.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_2"></String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_3"></String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_1">Dit nye Sonos-produkt kunne ikke tilføjes.
+Der kræves en controller-opdatering.
+
+Opdater denne controller, og tilføj derefter dit nye produkt.</String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_2"></String>
+<String comment="Abbreviated in some translations" id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME">Opdateringstidspunkt for musikindeks</String>
+<String id="SCLIB_STR_MSWiz_Intro_Anon_Body1_Fmt">Tryk på 'Konfigurer %1$s' for at føje %1$s til dit Sonos-system.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_1_Fmt">Du kan bruge mere end én %1$s-konto med Sonos. Kontoen, som du lige tilføjede, bliver brugt på denne mobilenhed.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">For at skifte til en anden, skal du gå til Mere &gt; Indstillinger &gt; Mine musiktjenester og vælge en anden konto.</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">Når du har foretaget justeringen, skal du trykke på 'Næste' herunder.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Installer den nyeste version af Sonos-controlleren.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Installer den nyeste version af Sonos-controlleren.</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutMinutes_Fmt">Gør dette inden for %1$d minutter…</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutSeconds_Fmt">Gør dette inden for %1$d sekunder…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Title">Vent et øjeblik…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Body_1"></String>
+<String id="SCLIB_STR_LC_Reset_String1">Tryk på knappen Hjem for at fuldføre nulstilling, og åbn derefter Sonos-controlleren igen.</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="STR_ArtistInfo">Gennemse denne kunstner</String>
+<String id="STR_AuthorInfo">Vis mere fra forfatteren</String>
+<String id="STR_AllAlbumsArtist">Gennemse denne kunstner</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">Omdøb playliste</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">Ny playliste</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">Du kan tilføje stationer, playlister, album eller kunstnere til Sonos-favoritter ved at trykke på ⋯, mens du gennemser eller afspiller musik, og herefter vælge *Føj til Mit Sonos*.</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">Fjernede &quot;%1$s&quot; fra Mit Sonos</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">Kunne ikke fjerne &quot;%1$s&quot; fra Mit Sonos</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">Tryk på ⋯ herover for at oprette en Sonos-playliste.</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">Tryk på ⋯, mens du gennemser eller afspiller musik, for at føje en sang til denne playliste, og vælg derefter *Føj til Sonos-playliste*.</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 sang</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 sange</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d sange</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' er ikke længere tilgængelig. Det er muligt, at der ikke er strøm på den enhed, hvor musikken er lagret, eller måske er stien blevet ændret.
+Gå ind under &quot;Indstillinger&quot; &gt; &quot;Administrer musikbibliotek&quot; &gt; &quot;Opsætning af musikbibliotek&quot; for at se stinavnet.</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">App-indstillinger</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Body">Dette giver os tilladelse til at søge efter dine højttalere i nærheden.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Title">Tillad placeringsadgang</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_1">1. Tryk på &quot;Enhedsindstillinger&quot; og vælg &quot;Tilladelser.&quot;</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_2">2. Tænd &quot;Placering.&quot;</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_3">3. Vend tilbage til Sonos-appen.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Button">Enhedsindstillinger</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Title">Er du sikker på, at du ikke ønsker at slå placeringstjenester til?</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Body">Hvis placeringstjenester er slået fra, har du brug for et Ethernet-kabel for at afslutte konfigurationen.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Allow_Button">Tillad placeringsadgang</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_GoBack_Button">Gå tilbage</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Skip_Button">Fortsæt uden placeringsadgang</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Title">Slå placeringstjenester til</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Body">Dine placeringstjenester er slået fra. De skal være slået til, så vi kan finde dine højttalere.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Title">Er du sikker på, at du ikke ønsker at slå placeringstjenester til?</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Body">Hvis placeringstjenester er slået fra, har du brug for et Ethernet-kabel for at afslutte konfigurationen.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Enable_Button">Slå placering til</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Skip_Button">Fortsæt uden placering</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Title">Vend tilbage til Sonos</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Message">Gå tilbage til Sonos-appen.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Body">Lad os slå det til</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Enable_Button">Slå Bluetooth til</String>
+<String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title">Tillad placeringsadgang</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">Søg efter opdateringer</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">Om mit Sonos-system</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Gå til Wi-Fi-indstillinger</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">Konfigurer højttaler</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">Vi fandt Sonos på det trådløse netværk *%1$s*.</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">Vi fandt en ny Sonos-højttaler på det trådløse netværk *%1$s*.</String>
+<String id="STR_AddFavorite">Tilføj til Mit Sonos</String>
+<String id="SCLIB_STR_DeleteFavorite">Fjern fra Mit Sonos</String>
+<String id="STR_AddToFavoritesAdded">&quot;%1$s&quot; føjet til Mit Sonos.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot; føjet til Mit Sonos.
+
+Der er %2$d ledige pladser i Mit Sonos.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">&quot;%1$s&quot; føjet til Mit Sonos.
+
+Der er én ledig plads i Mit Sonos.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">&quot;%1$s&quot; føjet til Mit Sonos.
+
+Alle tilgængelige pladser til Mit Sonos er blevet anvendt.</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">&quot;%1$s&quot; er allerede føjet til Mit Sonos og vil ikke blive tilføjet igen.</String>
+<String id="STR_AddToFavoritesFullError">Kunne ikke føje til Mit Sonos. Der er ikke flere ledige pladser.
+
+Du kan fjerne eksisterende elementer fra Mit Sonos for at gøre plads til nye.</String>
+<String id="STR_AddToFavoritesError">Kunne ikke føje &quot;%1$s&quot; til Mit Sonos.</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">Kunne ikke føje til Mit Sonos. For at gøre plads til nye elementer kan du overveje at fjerne eksisterende elementer eller fjerne elementer fra Mine radiostationer eller Mine radioudsendelser.</String>
+<String id="SCLIB_STR_RenameFavorite">Omdøb genstand</String>
+<String id="STR_AddFavoriteStation">Føj station til Mit Sonos</String>
+<String id="STR_AddFavoriteTrack">Føj sang til Mit Sonos</String>
+<String id="STR_AddFavoriteAlbum">Føj album til Mit Sonos</String>
+<String id="STR_AddFavoriteArtist">Føj kunstner til Mit Sonos</String>
+<String id="STR_AddFavoritePlaylist">Føj playliste til Mit Sonos</String>
+<String id="STR_AddFavoriteShow">Føj udsendelse til Mit Sonos</String>
+<String id="STR_AddFavoriteBook">Føj bog til Mit Sonos</String>
+<String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_CONFIRM_PROMPT_ENABLE_BODY">By enabling this feature, you understand we’ll collect some Activity Information as outlined in our &lt;a href=&quot;https://www.sonos.com/legal/privacy&quot;&gt;Sonos Privacy Statement.&lt;/a&gt;ZXZ</String>
+</Strings>

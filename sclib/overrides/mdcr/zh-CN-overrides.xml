@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_SETTINGS_ZONEPLAYER">EQ SettingsZXZ</String>
+<String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">音乐库</String>
+<String id="SCLIB_STR_SETTINGS_SERVICES">服务</String>
+<String id="SCLIB_STR_SETTINGS_DATEANDTIME">日期和时间</String>
+<String id="SCLIB_STR_SETTINGS_ADVANCED">高级</String>
+<String id="SCLIB_STR_SETTINGS_WHITELED">打开白色指示灯</String>
+<String id="SCLIB_STR_SETTINGS_TVDialog">电视对话</String>
+<String id="SCLIB_STR_SETTINGS_Surround">环绕声</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">正在更新音乐库…</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">专辑分组方式</String>
+<String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">在音乐库中显示特约表演者。此偏好设置只会影响该控制器。</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE">在每天的特定时间更新内容：</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE_Group">音乐库更新</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME"></String>
+<String id="SCLIB_STR_DATETIMESETTINGS_INTERNETTIME">通过互联网设置日期和时间</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_DAYLIGHTSAVINGS">进行调整以适应夏令时</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">均衡</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_SOUNDBAR">均衡</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">Sub</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">自动检查更新</String>
+<String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">显示 Windows 媒体服务器</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">系统更新</String>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Sonos 设置助理</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">单击“%2$s”添加这些产品之一，或单击“%1$s”稍后执行此操作。</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">单击“%2$s”重试，或单击“%1$s”稍后注册。</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">通过在“Sonos”菜单中选择“偏好设置”，然后选择“高级设置”中的“使用情况”标签，您可以随时更改您的偏好设置。</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">如果您想要更改默认帐户，右键单击（Ctrl+单击）Sonos 音乐菜单中的 %1$s，选择另一个帐户。</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">%1$s 已完成。
+
+现在需要更新 Sonos 软件。</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Sonos 控制器启动后，请选择“Sonos”&gt;“检查更新…”</String>
+<String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">请输入您的11位手机号码</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">上一步</String>
+<String id="SCLIB_STR_Queue_Title">队列</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">队列（未使用）</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">注册</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">要添加 Sound Labs 公共测试版服务，需要与 Sonos 分享您的使用情况数据。
+
+要查看或更改您的使用情况数据设置，请转至“Sonos”&gt;“偏好”&gt;“高级”&gt;“改善 Sonos”。</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2.请选择“Sonos”&gt;“偏好设置”&gt;“高级”，然后选择“无线设置”。</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Body_2">您可在稍后通过“帮助”&gt;“Sonos 系统注册”尝试注册。</String>
+<String id="SCLIB_STR_MSS_CredError">%1$s 服务器无法识别您的登录信息。
+
+请确保您输入的登录信息（电子邮件地址或用户名）和密码正确无误，然后按“上一步”按钮并重试。
+
+如果问题仍然存在，请联系 %2$s 以获取帐户方面的帮助。</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">iTunes® 合辑</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">专辑表演者</String>
+<String id="SCLIB_STR_RESETCONTROLLER_PROMPT">重置控制器</String>
+<String id="SCLIB_STR_RESETCONTROLLER_INSTRUCTIONS">重置控制器的操作将使该控制器从您的 Sonos 系统断开。控制器重新启动后，您即可重新连接该控制器，或将其连接到其他 Sonos 系统。</String>
+<String id="STR_StereoPair_BodyText_Creating"></String>
+<String id="SCLIB_STR_OUWiz_Finished_Title">更新完成</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Body_1">您必须先注册您的 Sonos 系统，才可以进行在线软件更新。</String>
+<String id="SCLIB_STR_OUWiz_Checking_Body_1">正在检查 Sonos 以获取可用更新…</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_1">更新已取消。</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">您可以随时转到“Sonos”&gt;“检查更新”再试。</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">您的音乐库索引需要重新编制。</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">该操作可能需要一段时间。</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">在重新编制索引的过程中，您可以继续使用音乐库。</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body2">为了达到最佳效果，请使用控制器在同一房间内设置低音炮。如果该计算机无法与低音炮在同一房间内使用，建议您选择“现在不用”并使用其他控制器完成设置。</String>
+<String comment="Substitution: Sonos Player" gender="neuter" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">注意：确保 %1$s 已插入电视的 HDMI ARC 端口。</String>
+<String comment="Substitution: Sonos Player" gender="masculine" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">注意：确保 %1$s 已插入电视的 HDMI ARC 端口。</String>
+<String comment="Substitution: Sonos Player" gender="masculine-vowel" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">注意：确保 %1$s 已插入电视的 HDMI ARC 端口。</String>
+<String comment="Substitution: Sonos Player" gender="masculine-special" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">注意：确保 %1$s 已插入电视的 HDMI ARC 端口。</String>
+<String comment="Substitution: Sonos Player" gender="feminine" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">注意：确保 %1$s 已插入电视的 HDMI ARC 端口。</String>
+<String comment="Substitution: Sonos Player" gender="feminine-vowel" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">注意：确保 %1$s 已插入电视的 HDMI ARC 端口。</String>
+<String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Sonos &gt; 偏好设置 &gt; 房间设置 &gt; %1$s &gt; 电视 &gt; 电视设置</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">无法连接到计算机“%1$s” - Sonos 一次只能与 %2$d 台计算机连接。</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">无法找到计算机“%1$s”。</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">计算机“%1$s”没有响应。</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">计算机“%1$s”拒绝 Sonos 与其连接。</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">对共享文件夹“%1$s”的访问被拒绝 - 检查用户名和/或密码。</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">计算机“%2$s”上没有共享文件夹“%1$s”。</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">文件“%1$s”不存在。</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">对文件“%1$s”的访问被拒绝。</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">对共享文件夹“%1$s”的访问被拒绝 - 可能需要指定用户名和密码</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">共享文件夹“%1$s”有太多活动连接。</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">无法将共享文件夹“%1$s”添加到您的音乐库 (900)。</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">无法将共享文件夹“%1$s”添加到您的音乐库 (%2$d)。</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">共享文件夹名称太长。</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">共享文件夹的用户名太长。</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">共享文件夹的密码太长。</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">无法将音乐共享 %1$s 从您的音乐库移除 (%2$d)。</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">请从 Sonos 网站下载最新的 Sonos 控制器。</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">要进行更新，请依次选择“Sonos”&gt;“检查软件更新…”</String>
+<String id="SCLIB_STR_Forget_Title">确实要忘记当前使用的 Sonos 系统吗？
+</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' 不再可用。存储音乐文件的设备可能没有接通电源， 或者文件路径发生了变化。
+请转至“管理” &gt; “音乐库设置”检查路径名称。</String>
+<String id="SCLIB_STR_LC_SearchingForPlayers">正在搜索您的 Sonos 系统…</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">转至“系统偏好” &gt; “网络”，然后更改到 Sonos 所在的网络。</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">抱歉，我们无法连接到 Sonos。
+请尝试以下操作：</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option1">• 关上 Wi-Fi 然后重新打开。</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option2">• 拔下路由器。然后将路由器重新插回。</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option3">• 检查扬声器电源是否打开。</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option4">• 重启电脑并重试。</String>
+<String id="SCLIB_STR_LC_Contact">这个方法不起作用</String>
+</Strings>

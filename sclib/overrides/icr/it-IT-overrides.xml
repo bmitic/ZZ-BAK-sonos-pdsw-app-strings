@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Configurare Sonos per la propria rete wireless.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Sonos preimposta il miglior canale wireless. Per ignorare, scegliere un nuovo canale.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonos preimposta la migliore compressione audio per Line-In del diffusore e Sonos Dock. Per ignorare, scegliere una nuova impostazione.</String>
+<String id="STR_MusicLibraryIndexing">Libreria musicale - Creazione indice…</String>
+<String id="STR_SonosPlaylists">Playlist Sonos</String>
+<String id="STR_NoMusic">Nessun brano selezionato</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_MSWiz_Password_Body_1_Fmt">Immettere la nuova password</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_1_Fmt">Puoi utilizzare più di %1$s account con Sonos. L’account appena aggiunto verrà utilizzato su questo dispositivo mobile.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Per passare a un dispositivo diverso, vai su Altro &gt; Impostazioni &gt; I miei servizi musicali e scegli un altro account.</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/icr</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Body_1">Toccare il pulsante sottostante per andare ad App Store e scaricare l'ultimo aggiornamento di Sonos Controller.</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Body_1_TestFlight">È possibile scaricare una nuova versione del controller da TestFlight.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Scaricare il Sonos Controller più recente da App Store.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Scaricare il Sonos Controller più recente da App Store.</String>
+<String id="SCLIB_STR_OUWiz_ControlUpdate_Title">La app Sonos deve essere aggiornata</String>
+<String id="SCLIB_STR_LC_Reset_String1">Chiudi l’app e riaprila.</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="SCLIB_STR_Queue_Title">Coda</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">Coda (Non in uso)</String>
+<String id="STR_ArtistInfo">Cerca artista</String>
+<String id="STR_AuthorInfo">Sfoglia per autore</String>
+<String id="STR_AllAlbumsArtist">Cerca artista</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 brano</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 brani</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d brani</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">Rinomina Playlist</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">Nuova Playlist</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">Per aggiungere un brano a questa playlist, toccare ⋯ mentre si sfoglia o esegue la musica e scegliere *Aggiungi alla Playlist Sonos*.</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_NewPlaylist" id="SCLIB_STR_EmptyPlaylistContainerMessage_AddToPlaylist">Per creare una Playlist Sonos toccare *Nuova Playlist* sotto.</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">Per creare una Playlist Sonos toccare ⋯ sopra.</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">Per aggiungere stazioni, playlist, album o artisti a Il mio Sonos, toccare ⋯ mentre si sfoglia o riproduce la musica e scegliere *Aggiungi a Il mio Sonos*.</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">&quot;%1$s&quot; è stato rimosso da il mio Sonos</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">Impossibile rimuovere &quot;%1$s&quot; da Il mio Sonos</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' non è più disponibile. Il dispositivo in cui sono memorizzati i file musicali potrebbe non essere acceso o il percorso potrebbe essere cambiato.
+Andare a Impostazioni &gt; Gestisci Libreria musicale &gt; Impostazione Libreria musicale per verificare il nome del percorso.</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">Impostazioni app</String>
+<String id="SCLIB_STR_LC_NoNetwork_String_No_Button">Aprire Impostazioni &gt; Wi-Fi sul dispositivo.</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Aprire Impostazioni &gt; Wi-Fi e passare alla rete in cui è presente Sonos.</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">Ricerca aggiornamenti</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">Info sul sistema Sonos</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Vai a Impostazioni Wi-Fi</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">Configura diffusore</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">Abbiamo trovato Sonos sulla rete wireless *%1$s*.</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">Abbiamo trovato un nuovo diffusore Sonos sulla rete wireless *%1$s*.</String>
+<String id="STR_AddFavorite">Aggiungi a Il mio Sonos</String>
+<String id="SCLIB_STR_DeleteFavorite">Rimuovi da Il mio Sonos</String>
+<String id="STR_AddToFavoritesAdded">&quot;%1$s&quot; aggiunto a Il mio Sonos.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot; aggiunto a Il mio Sonos.
+
+Sono ancora disponibili %2$d posizioni in Il mio Sonos.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">&quot;%1$s&quot; aggiunto a Il mio Sonos.
+
+È ancora disponibile 1 posizione in Il mio Sonos.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">&quot;%1$s&quot; aggiunto a Il mio Sonos.
+
+Sono state utilizzate tutte le posizioni disponibili.</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">&quot;%1$s&quot; è già stato aggiunto a Il mio Sonos e non sarà aggiunto di nuovo.</String>
+<String id="STR_AddToFavoritesFullError">Impossibile aggiungere a Il mio Sonos. Non rimangono posizioni libere.
+
+È possibile rimuovere da Il mio Sonos gli elementi esistenti per far spazio per quelli nuovi.</String>
+<String id="STR_AddToFavoritesError">Impossibile aggiungere &quot;%1$s&quot; a Il mio Sonos.</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">Impossibile aggiungere a Il mio Sonos. Per liberare spazio per nuovi elementi, può essere opportuno rimuovere quelli già esistenti o quelli presenti in Le mie stazioni radio o I miei programmi radio.</String>
+<String id="SCLIB_STR_RenameFavorite">Rinomina elemento</String>
+<String id="STR_AddFavoriteStation">Aggiungi stazione a Il mio Sonos</String>
+<String id="STR_AddFavoriteTrack">Aggiungi brano a Il mio Sonos</String>
+<String id="STR_AddFavoriteAlbum">Aggiungi album a Il mio Sonos</String>
+<String id="STR_AddFavoriteArtist">Aggiungi artista a Il mio Sonos</String>
+<String id="STR_AddFavoritePlaylist">Aggiungi playlist a Il mio Sonos</String>
+<String id="STR_AddFavoriteShow">Aggiungi programma a Il mio Sonos</String>
+<String id="STR_AddFavoriteBook">Aggiungi libro a Il mio Sonos</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Back_Button">Torna indietro</String>
+<String id="SCLIB_STR_SetupWiz_RegEmailOpts_Input_2_CheckboxVO">Accetti l'utilizzo delle informazioni personali secondo quanto descritto nell'informativa sulla privacy. Tocca due volte per navigare</String>
+<String id="SCLIB_STR_Wiz_Sec_Reg_Account_NewAccount_PrivacyStatement_Input_CheckboxVO">Accetto l'informativa Sonos sulla privacy. Tocca due volte per navigare.</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt">Scorri in alto dal fondo dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt">Scorri in alto dal fondo dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt">Scorri in alto dal fondo dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt">Scorri in alto dal fondo dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt">Scorri in alto dal fondo dello schermo sulla tua %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeUp_Body_Fmt">Scorri in alto dal fondo dello schermo sulla tua %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt">Scorri in basso dall’angolo in alto a destra dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt">Scorri in basso dall’angolo in alto a destra dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt">Scorri in basso dall’angolo in alto a destra dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt">Scorri in basso dall’angolo in alto a destra dello schermo sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt">Scorri in basso dall’angolo in alto a destra dello schermo sulla tua %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_SwipeDown_Body_Fmt">Scorri in basso dall’angolo in alto a destra dello schermo sulla tua %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="neuter" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt">Fai doppio clic sul pulsante Home sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt">Fai doppio clic sul pulsante Home sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine-vowel" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt">Fai doppio clic sul pulsante Home sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="masculine-special" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt">Fai doppio clic sul pulsante Home sul tuo %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="feminine" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt">Fai doppio clic sul pulsante Home sulla tua %1$s e attiva l’impostazione Bluetooth.</String>
+<String comment="Substitution: user device" gender="feminine-vowel" id="SCLIB_STR_Setup_Prereqs_Bluetooth_IOS_DoubleClick_Body_Fmt">Fai doppio clic sul pulsante Home sulla tua %1$s e attiva l’impostazione Bluetooth.</String>
+</Strings>

@@ -9,7 +9,6 @@
 <string name="browse_playlists_title">Spillelister</string>
 <string name="browse_podcasts_title">Podcaster</string>
 <string name="browse_local_library_root">På denne mobilenheten</string>
-<string name="browse_empty_favorites">Berør %1$s-ikonet når du surfer eller spiller av musikk for å legge til låter, stasjoner eller album i Favoritter.</string>
 <string name="browse_more_options">Flere alternativer</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s. Upassende.</string>
 <string name="accessibility_item_badge_format">%1$s. Nytt.</string>

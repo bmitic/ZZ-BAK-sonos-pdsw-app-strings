@@ -9,7 +9,6 @@
 <string name="browse_playlists_title">Playlist</string>
 <string name="browse_podcasts_title">Podcast</string>
 <string name="browse_local_library_root">In questo dispositivo mobile</string>
-<string name="browse_empty_favorites">Toccare l\'icona %1$s quando si sfoglia o si esegue la musica per aggiungere brani, stazioni o album ai Preferiti.</string>
 <string name="browse_more_options">Altre opzioni</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s. Contenuti espliciti.</string>
 <string name="accessibility_item_badge_format">%1$s. Novità.</string>

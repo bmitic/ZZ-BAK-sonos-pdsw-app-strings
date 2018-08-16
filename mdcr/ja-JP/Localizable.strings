@@ -220,7 +220,7 @@
     "<ShareMigrationAlertNowButton>" = "今すぐアップデート";
     "<ShareMigrationAlertLaterButton>" = "後で通知する";
     "<AuthorizationFailed>" = "認証に失敗しました。";
-    "<AbleToAddMusicSharesFailed>" = "プレイヤーの互換性がないため、Sonosは音楽ライブラリを開始できません。アップデートを確認してください。";
+    "<AbleToAddMusicSharesFailed>" = "スピーカーの互換性がないため、Sonosは音楽ライブラリを開始できません。アップデートを確認してください。";
     "<LocalHostNameFailed>" = "コンピューターの名前が読み込めないため、Sonosは音楽ライブラリを開始できません。";
 
 
@@ -229,7 +229,7 @@
     "<NowPlayingHeaderTitle>" = "再生中";
     "<NowPlayingLabel_Information>" = "情報 & オプション";
     "<NowPlayingTrackDefaultLabel>" = "曲[0/0]";
-    "<NowPlayingTrackDefaultString>" = "[音楽がありません]";
+    "<NowPlayingTrackDefaultString>" = "[音楽が選択されていません]";
     "<NowPlayingArtistDefaultLabel>" = "アーティスト";
     "<NowPlayingAlbumDefaultLabel>" = "アルバム";
 
@@ -268,16 +268,15 @@
 
     "<SettingsWindowTitle>" = "設定";
     "<SettingsBasicSettingsTitle>" = "ベーシック";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Sonosシステムには現在、%1$@がありません。\n\n%1$@を追加するには、メニュー バーから%2$@\nを選択します。";
-    "<SettingsNoPlayers_1>" = "Sonosシステムには現在、Sonosプレイヤーがありません。\n音楽を再生するには、少なくとも1台のSonosプレイヤーが必要です。\n\nSonosプレイヤーを追加するには、メニュー バーから[%1$@]を選択します。";
-    "<SettingsNoPlayerLink>" = "[管理] > [PlayerまたはSUBの追加]";
-    "<SettingsNoBoostLink>" = "[管理] > [BOOSTまたはBRIDGEの追加]";
+    "<SettingsNoPlayers_1>" = "Sonosシステムには現在、Sonosスピーカーがありません。\n音楽を再生するには、少なくとも1台のSonosスピーカーが必要です。\n\nSonosスピーカーを追加するには、メニュー バーから[%1$@]を選択します。";
+    "<SettingsNoPlayerLink>" = "[管理] > [スピーカーまたはSubの追加]";
+    "<SettingsNoBoostLink>" = "[管理] > [BoostまたはBridgeの追加]";
     "<SettingsNoAvailable_1>" = "%1$@を利用できません";
-    "<SettingsComponentRoom>" = "部屋";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "低音";
     "<SettingsEqTreble>" = "高音";
     "<SettingsEqBalance>" = "バランス";
@@ -289,11 +288,12 @@
     "<SettingsEqMax>" = "最大";
     "<SettingsEqLoudness>" = "ラウドネス";
     "<SettingsEqReset>" = "リセット";
-    "<SettingsEqFixed>" = "Sonosプレイヤーのラインアウト レベルを[固定]に設定している間は、イコライゼーションの設定は使用できません。\n\nEQコントロールを有効にするには、[ベーシック]タブのラインアウト レベルを変更します。";
+    "<SettingsEqFixed>" = "Sonosスピーカーのラインアウト レベルを[固定]に設定している間は、イコライゼーションの設定は使用できません。\n\nEQコントロールを有効にするには、[ベーシック]タブのラインアウト レベルを変更します。";
+    "<SettingsUsageData>" = "Usage Data SettingsZXZ";
     "<SettingsAdvSettings>" = "詳細設定";
     "<SettingsGeneral>" = "一般";
-    "<SettingsUsage>" = "Sonos製品品質の向上";
     "<SettingsServers>" = "音楽ソース";
+    "<SettingsUsage>" = "Sonos製品品質の向上";
     "<SettingsDateTime>" = "日付と時刻設定";
     "<SettingsMusicLibrary>" = "ミュージック ライブラリ設定";
     "<SettingsMusicService>" = "サービス設定";
@@ -312,8 +312,8 @@
     "<SettingsExplicitFilteringNoServices>" = "お使いのSonosシステムでコンテンツ・フィルタリングの対象となる音楽サービスはありません。";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "詳細";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUBオン";
-    "<SettingsSubEqLevelAdjustment>" = "SUBレベル";
+    "<SettingsSubEqEnabled>" = "Subオン";
+    "<SettingsSubEqLevelAdjustment>" = "Subレベル";
     "<SettingsSubEqPlacementAdjustment>" = "配置の調節";
     "<SettingsSubEqSpeakerSize>" = "ｽﾋﾟｰｶｰ ｻｲｽﾞ (ｸﾛｽｵｰﾊﾞｰ)";
     "<SettingsTVDialogDelay>" = "オーディオ遅延 (リップシンク)";
@@ -362,7 +362,6 @@
 /* Zone/Rooms Panel */
 
     "<ZoneMenuHeaderTitle>" = "部屋";
-    "<ZoneMenuGroupZones>" = "グループ";
     "<ZoneMenuShowLess>" = "少なく表示…";
 // %1$d, Number of extra (non-visible devices)
     "<ZoneMenuShowMore_1>" = "%1$d部屋をさらに表示…";
@@ -386,8 +385,9 @@
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@設定…";
-    "<ZoneMenuSelectToUpdate>" = "選択してアップデートします…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "%1$sのセットアップの選択";
+    "<ZoneMenuSelectToUpdate>" = "選択してアップデートします";
+    "<ZoneMenuSelectToConfigure>" = "セットアップの選択";
+    "<ZoneMenuSelectToRegister>" = "登録の選択";
     "<ZoneMenuConfirmPauseAll>" = "すべての部屋で音楽を一時停止してもよろしいですか?";
     "<ZoneMenuPauseButton>" = "一時停止";
 
@@ -424,8 +424,6 @@
     "<MenuTitle_View>" = "表示";
 
     "<MenuTitle_Manage>" = "管理";
-    "<MenuTitle_AddPlayerOrSub>" = "PlayerまたはSUBの追加…";
-    "<MenuTitle_AddBoost>" = "BOOSTまたはBRIDGEの追加…";
     "<MenuTitle_MusicLibrarySettings>" = "ミュージック ライブラリ設定…";
     "<MenuTitle_ServiceSettings>" = "サービス設定…";
     "<MenuTitle_AddRadioStation>" = "ラジオ ステーションを追加…";
@@ -441,7 +439,6 @@
     "<MenuTitle_MiniWindowName>" = "ミニ コントローラ";
     "<MenuTitle_BringAllToFront>" = "すべてをフロントに";
 
-    "<MenuTitle_Account>" = "Sonosアカウント";
     "<MenuTitle_Help>" = "ヘルプ";
     "<MenuTitle_Shop>" = "Sonos製品ショップ";
     "<MenuTitle_KeyboardShortcuts>" = "キーボード ショートカット";
@@ -452,13 +449,9 @@
     "<MenuTitle_BetaFeedback>" = "ベータ版のフィードバックを送信";
     "<MenuTitle_SubmitDiagnostics>" = "診断を送信";
     "<MenuTitle_Reset>" = "コントローラをリセット";
-    "<MenuTitle_ForgetHousehold>" = "現在のSonosシステムが不明";
+    "<MenuTitle_ForgetHousehold>" = "現在のSonosシステムを削除";
 
     "<MenuTitle_CopyLinkAddress>" = "リンクをコピー";
-
-/* SMNowPlayingFSViewController.xib */
-
-    "<BackButton>" = "戻る";
 
 
 /****************************************************************/
@@ -577,8 +570,8 @@
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "プレイヤーの構成";
-    "<AuthorizationWizard_Body>" = "設定を最適化するため、Sonosにより、このコンピューターと新しいSonosプレイヤーが直接ワイヤレスで接続されます。接続を許可するため、このコンピューターの管理者のユーザー名とパスワードを入力してください。\n\n注:この情報がない場合は、プレイヤーを一時的にルーターに有線接続して、設定を完了する必要があります。";
+    "<AuthorizationWizard_Title>" = "スピーカーの構成";
+    "<AuthorizationWizard_Body>" = "設定を最適化するため、Sonosにより、このコンピューターと新しいSonosスピーカーが直接ワイヤレスで接続されます。接続を許可するため、このコンピューターの管理者のユーザー名とパスワードを入力してください。\n\n注:この情報がない場合は、スピーカーを一時的にルーターに有線接続して、設定を完了する必要があります。";
     "<AuthorizationWizard_Button>" = "この情報がありません";
 
 /****************************************************************/

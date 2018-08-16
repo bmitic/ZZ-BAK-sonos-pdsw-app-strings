@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <plurals name="accessibility_tab_badge_format">
-    <item quantity="other">%1$s. %2$d 项。</item>
+    <item quantity="one">%1$s。 %2$d 首曲目。</item>
+    <item quantity="other">%1$s。 %2$d 首曲目。</item>
 </plurals>
 <plurals name="alarm_snoozed_duration_minutes">
+    <item quantity="one">%d 分钟</item>
     <item quantity="other">%d 分钟</item>
 </plurals>
 </resources>

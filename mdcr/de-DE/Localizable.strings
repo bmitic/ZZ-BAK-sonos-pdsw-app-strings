@@ -220,7 +220,7 @@
     "<ShareMigrationAlertNowButton>" = "Jetzt aktualisieren";
     "<ShareMigrationAlertLaterButton>" = "Später erinnern";
     "<AuthorizationFailed>" = "Autorisierung fehlgeschlagen.";
-    "<AbleToAddMusicSharesFailed>" = "Sonos konnte den Musikbibliotheksserver nicht starten, weil die Player nicht kompatibel sind. Bitte prüfen, ob Updates verfügbar sind.";
+    "<AbleToAddMusicSharesFailed>" = "Sonos konnte den Musikbibliotheksserver nicht starten, weil die Speaker nicht kompatibel sind. Bitte prüfen, ob Updates verfügbar sind.";
     "<LocalHostNameFailed>" = "Sonos konnte den Musikbibliotheksserver nicht starten, weil der Computername nicht gelesen werden kann.";
 
 
@@ -229,7 +229,7 @@
     "<NowPlayingHeaderTitle>" = "AKTUELLER TITEL";
     "<NowPlayingLabel_Information>" = "Info & Optionen";
     "<NowPlayingTrackDefaultLabel>" = "Titel [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[keine Musikdatei]";
+    "<NowPlayingTrackDefaultString>" = "[Keine Musik ausgewählt]";
     "<NowPlayingArtistDefaultLabel>" = "Interpret";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -268,16 +268,15 @@
 
     "<SettingsWindowTitle>" = "Einstellungen";
     "<SettingsBasicSettingsTitle>" = "Basis";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "%1$@ derzeit nicht im Sonos-System vorhanden.\n\nZum Hinzufügen von %1$@ wähle \n„%2$@“ in der Menüleiste.";
-    "<SettingsNoPlayers_1>" = "Dein Sonos-System enthält derzeit keine Sonos-Player.\nZur Musikwiedergabe benötigst du mindestens einen Sonos-Player.\n\nZum Hinzufügen eines Sonos-Players wähle „%1$@“ in der Menüleiste.";
-    "<SettingsNoPlayerLink>" = "Verwalten > Player oder SUB hinzufügen";
-    "<SettingsNoBoostLink>" = "Verwalten > BOOST oder BRIDGE hinzufügen";
+    "<SettingsNoPlayers_1>" = "Dein Sonos-System enthält derzeit keine Sonos-Speaker.\nZur Musikwiedergabe benötigst du mindestens einen Sonos-Speaker.\n\nZum Hinzufügen eines Sonos-Speakers wähle „%1$@“ in der Menüleiste.";
+    "<SettingsNoPlayerLink>" = "Verwalten > Speaker oder Sub hinzufügen";
+    "<SettingsNoBoostLink>" = "Verwalten > Boost oder Bridge hinzufügen";
     "<SettingsNoAvailable_1>" = "%1$@ nicht verfügbar";
-    "<SettingsComponentRoom>" = "Raum";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bass";
     "<SettingsEqTreble>" = "Treble";
     "<SettingsEqBalance>" = "Balance";
@@ -289,11 +288,12 @@
     "<SettingsEqMax>" = "Max.";
     "<SettingsEqLoudness>" = "Loudness";
     "<SettingsEqReset>" = "Zurücksetzen";
-    "<SettingsEqFixed>" = "Wenn der Ausgangspegel eines Sonos-Players auf „Festgelegt“ eingestellt ist, sind die Equalizer-Einstellungen nicht verfügbar.\n\nÄndere die Ausgangspegel-Einstellung auf der Registerkarte „Basis“, um die Equalizer-Bedienelemente zu aktivieren.";
+    "<SettingsEqFixed>" = "Wenn der Ausgangspegel eines Sonos-Speakers auf „Festgelegt“ eingestellt ist, sind die Equalizer-Einstellungen nicht verfügbar.\n\nÄndere die Ausgangspegel-Einstellung auf der Registerkarte „Basis“, um die Equalizer-Bedienelemente zu aktivieren.";
+    "<SettingsUsageData>" = "Usage Data SettingsZXZ";
     "<SettingsAdvSettings>" = "Erweiterte Einstellungen";
     "<SettingsGeneral>" = "Allgemein";
-    "<SettingsUsage>" = "Sonos verbessern";
     "<SettingsServers>" = "Musikquellen";
+    "<SettingsUsage>" = "Sonos verbessern";
     "<SettingsDateTime>" = "Datum und Uhrzeit einstellen";
     "<SettingsMusicLibrary>" = "Einstellungen der Musikbibliothek";
     "<SettingsMusicService>" = "Diensteinstellungen";
@@ -312,12 +312,12 @@
     "<SettingsExplicitFilteringNoServices>" = "Es gibt keine Musikdienste auf deinem Sonos-System, die das Filtern von Inhalten unterstützen.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Weitere Infos";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB ein";
-    "<SettingsSubEqLevelAdjustment>" = "SUB-Pegel";
+    "<SettingsSubEqEnabled>" = "Sub ein";
+    "<SettingsSubEqLevelAdjustment>" = "Sub-Pegel";
     "<SettingsSubEqPlacementAdjustment>" = "Platzierungseinstellung";
-    "<SettingsSubEqSpeakerSize>" = "Lautsprechergröße (Crossover)";
+    "<SettingsSubEqSpeakerSize>" = "Speakergröße (Crossover)";
     "<SettingsTVDialogDelay>" = "Audioverzögerung (Lip-Sync)";
-    "<SettingsSurroundEnabled>" = "Surround-Lautsprecher Ein";
+    "<SettingsSurroundEnabled>" = "Surround-Speaker Ein";
     "<SettingsSurroundLevel>" = "TV-Pegel";
     "<SettingsMusicSurroundLevel>" = "Musikpegel";
     "<SettingsFolders>" = "Ordner";
@@ -329,9 +329,9 @@
     "<SettingsMusicPlayback>" = "Musikwiedergabe";
     "<SettingsAmbient>" = "Hintergrund";
     "<SettingsFull>" = "Voll";
-    "<SettingsMusicPlaybackDescription>" = "Während der Musikwiedergabe dienen die Surround-Lautsprecher als Ergänzung durch subtilen Hintergrundsound oder lauteren, vollen Sound.";
+    "<SettingsMusicPlaybackDescription>" = "Während der Musikwiedergabe dienen die Surround-Speaker als Ergänzung durch subtilen Hintergrundsound oder lauteren, vollen Sound.";
     "<SettingsSurroundBalanceLabel>" = "Balance";
-    "<SettingsSurroundBalanceButtonLabel>" = "Balance für Surround-Lautsprecher";
+    "<SettingsSurroundBalanceButtonLabel>" = "Balance für Surround-Speaker";
     "<SettingsSurroundBalanceDescription>" = "Lege die Surround-Balance manuell fest, wenn Trueplay deaktiviert ist.";
 
 
@@ -362,7 +362,6 @@
 /* Zone/Rooms Panel */
 
     "<ZoneMenuHeaderTitle>" = "RÄUME";
-    "<ZoneMenuGroupZones>" = "Gruppe";
     "<ZoneMenuShowLess>" = "Weniger anzeigen…";
 // %1$d, Number of extra (non-visible devices)
     "<ZoneMenuShowMore_1>" = "Weitere %1$d anzeigen…";
@@ -386,8 +385,9 @@
     "<ZoneMenuEq_1>" = "%1$@ EQ…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "%1$@-Einstellungen…";
-    "<ZoneMenuSelectToUpdate>" = "Für Update auswählen…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "%1$s-Setup wählen";
+    "<ZoneMenuSelectToUpdate>" = "Für Update auswählen";
+    "<ZoneMenuSelectToConfigure>" = "Auswählen zum Einrichten";
+    "<ZoneMenuSelectToRegister>" = "Auswählen zum Registrieren";
     "<ZoneMenuConfirmPauseAll>" = "Möchtest du die Musikwiedergabe in all diesen Räumen anhalten?";
     "<ZoneMenuPauseButton>" = "Anhalten";
 
@@ -424,8 +424,6 @@
     "<MenuTitle_View>" = "Anzeigen";
 
     "<MenuTitle_Manage>" = "Verwalten";
-    "<MenuTitle_AddPlayerOrSub>" = "Player oder SUB hinzufügen…";
-    "<MenuTitle_AddBoost>" = "BOOST oder BRIDGE hinzufügen…";
     "<MenuTitle_MusicLibrarySettings>" = "Einstellungen der Musikbibliothek…";
     "<MenuTitle_ServiceSettings>" = "Diensteinstellungen…";
     "<MenuTitle_AddRadioStation>" = "Radiosender hinzufügen…";
@@ -441,7 +439,6 @@
     "<MenuTitle_MiniWindowName>" = "Mini-Controller";
     "<MenuTitle_BringAllToFront>" = "Alles in den Vordergrund";
 
-    "<MenuTitle_Account>" = "Mein Sonos-Konto";
     "<MenuTitle_Help>" = "Hilfe";
     "<MenuTitle_Shop>" = "Sonos-Produktshop";
     "<MenuTitle_KeyboardShortcuts>" = "Tastaturzugriffstasten";
@@ -455,10 +452,6 @@
     "<MenuTitle_ForgetHousehold>" = "Aktuelles System ignorieren";
 
     "<MenuTitle_CopyLinkAddress>" = "Link kopieren";
-
-/* SMNowPlayingFSViewController.xib */
-
-    "<BackButton>" = "Zurück";
 
 
 /****************************************************************/
@@ -577,8 +570,8 @@
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "Player konfigurieren";
-    "<AuthorizationWizard_Body>" = "Für eine optimale Einrichtung stellt Sonos eine direkte Wireless-Verbindung zwischen diesem Computer und deinem neuen Sonos-Player her. Bitte gib dafür den Administratornamen und das Kennwort für diesen Computer ein.\n\nHINWEIS: Wenn dir diese Informationen nicht zur Verfügung stehen, musst du deinen Player vorübergehend mit dem Router verbinden, um die Einrichtung abzuschließen.";
+    "<AuthorizationWizard_Title>" = "Speaker konfigurieren";
+    "<AuthorizationWizard_Body>" = "Für eine optimale Einrichtung stellt Sonos eine direkte Wireless-Verbindung zwischen diesem Computer und deinem neuen Sonos-Speaker her. Bitte gib dafür den Administratornamen und das Kennwort für diesen Computer ein.\n\nHINWEIS: Wenn dir diese Informationen nicht zur Verfügung stehen, musst du deinen Speaker vorübergehend mit dem Router verbinden, um die Einrichtung abzuschließen.";
     "<AuthorizationWizard_Button>" = "Ich kenne diese Informationen nicht";
 
 /****************************************************************/

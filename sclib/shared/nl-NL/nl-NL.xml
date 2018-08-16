@@ -60,11 +60,11 @@
 <String id="STR_ROOMNAME_PORTABLE">Draagbaar</String>
 <String id="STR_ROOMNAME_TVROOM">Tv-kamer</String>
 <String id="STR_ROOMNAME_UNNAMED">Zonder naam</String>
-<String id="STR_ROOMNAME_VIPER">BRIDGE</String>
-<String id="STR_ROOMNAME_BOOST">BOOST</String>
+<String id="STR_ROOMNAME_VIPER">Bridge</String>
+<String id="STR_ROOMNAME_BOOST">Boost</String>
 <String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos Extender</String>
-<String id="STR_ROOMNAME_DOCK">DOCK</String>
-<String id="STR_ROOMNAME_ANVIL">SUB</String>
+<String id="STR_ROOMNAME_DOCK">Dock</String>
+<String id="STR_ROOMNAME_ANVIL">Sub</String>
 <String id="STR_ROOMNAME_LOUNGE">Lounge</String>
 <String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos-lijst</String>
 <String id="RHHSTR_E_MALFORMED_PATH">%1$s is geen geldig pad voor share. Het zou eruit moeten zien als \\Computer\Mappen of \\Computer\Gedeelde\Mappen</String>
@@ -98,6 +98,7 @@
 <String id="RHHSTR_INPUTNAME_Receiver">Receiver</String>
 <String id="RHHSTR_INPUTNAME_Satellite">Satellietontvanger</String>
 <String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay-apparaat</String>
+<String id="RHHSTR_INPUTNAME_Turntable">Draaitafel</String>
 <String id="RHHSTR_INPUTVOL_VOL0">Niveau 1 (laag)</String>
 <String id="RHHSTR_INPUTVOL_VOL1">Niveau 2 (A/V-component)</String>
 <String id="RHHSTR_INPUTVOL_VOL2">Niveau 3</String>
@@ -112,7 +113,7 @@
 <String id="RHHSTR_CANCEL">Annuleren</String>
 <String id="RHHSTR_SONOS_UPDATES">Sonos-updates</String>
 <String id="RHHSTR_ALL">Alle</String>
-<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.ZXZ</String>
+<String id="RHHSTR_RTE_ERROR_OCCURRED">Kan '%1$s' niet afspelen.</String>
 <String id="RHHSTR_RTE_CANT_REACH_SERVER">Kan '%1$s' niet afspelen. Kan geen verbinding maken met %2$s.</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED">Kan '%1$s' niet afspelen. Toegang tot %3$s geweigerd.#END_OF_LOCALIZED_STRING %2$s</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">Kan '%1$s' niet afspelen. Toegang geweigerd.</String>
@@ -130,42 +131,42 @@
 <String id="RHHSTR_RTE_BAD_INET_RADIO">Kan '%1$s' niet afspelen. Station niet gevonden.</String>
 <String id="RHHSTR_RTE_BUFFERING">Kan '%1$s' niet afspelen. Snelheid netwerkverbinding onvoldoende om afspeelbuffer te onderhouden.</String>
 <String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Kan '%1$s' niet afspelen. Kan geen verbinding maken met %2$s omdat server niet is gevonden.</String>
-<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT">Kan '%1$s' niet afspelen. Met Rhapsody zijn niet meer dan 3 gelijktijdige audiostreams mogelijk.</String>
-<String id="RHHSTR_RTE_RHAP_UNAVAILABLE">Kan '%1$s' niet afspelen. Nummer is niet beschikbaar om via Rhapsody te streamen.</String>
-<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor Rhapsody zijn niet geldig.</String>
-<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. Proefperiode Rhapsody is verlopen.</String>
-<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde Rhapsody-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Rhapsody-account in.</String>
-<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT">Kan '%1$s' niet afspelen. Upgrade je account bij Rhapsody en word abonnee.</String>
-<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC">Kan '%1$s' niet afspelen. Audible-programma's moeten 'Format 4' (MP3) gebruiken.</String>
+<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_RHAP_UNAVAILABLE"></String>
+<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT"></String>
+<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC"></String>
 <String id="RHHSTR_RTE_AUDIBLE_DRM">Audible wordt niet langer ondersteund op Sonos.</String>
-<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING">Kan '%1$s' niet afspelen. De voor Audible geactiveerde Sonos-speler is niet aanwezig.</String>
+<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING"></String>
 <String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Kan '%1$s' niet afspelen. Windows Media Sharing is niet ingeschakeld voor één of meer Sonos-spelers.</String>
 <String id="RHHSTR_RTE_WMP_NO_LICENSE">Kan '%1$s' niet afspelen. Kan geen geldige licentie verkrijgen.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT">Het SiriusXM-kanaal dat werd afgespeeld in de andere kamer, is gestopt. Met SiriusXM kan maar één kanaal tegelijk worden afgespeeld.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT">Kan '%1$s' niet afspelen. Je SiriusXM-account wordt gebruikt voor een andere computer of muziekspeler.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor SiriusXM zijn niet geldig.</String>
-<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. Proefperiode SiriusXM is verlopen.</String>
-<String id="RHHSTR_RTE_SIRIUS_INACTIVE">Kan '%1$s' niet afspelen - SiriusXM stopt automatisch met afspelen na een periode van inactiviteit.</String>
-<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde SiriusXM-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je SiriusXM account in.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL">Kan '%1$s' niet afspelen. Een speciaal abonnement op SiriusXM is vereist. Upgrade je abonnement op SiriusXM.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL">Kan '%1$s' niet afspelen. SiriusXM kan de aanmeldingsgegevens niet valideren. Probeer het later opnieuw.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE">Kan '%1$s' niet afspelen. Je SiriusXM-account is niet actief. Neem contact op met SiriusXM voor hulp.</String>
-<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor Pandora zijn niet geldig.</String>
-<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. Proefperiode Pandora is verlopen.</String>
-<String id="RHHSTR_RTE_PAND_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde Pandora-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Pandora-account in.</String>
-<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL">Kan '%1$s' niet afspelen. Abonnement op Pandora is vereist. Upgrade je account bij Pandora.</String>
-<String id="RHHSTR_RTE_PAND_READ_ONLY">Kan '%1$s' niet afspelen. Pandora is niet beschikbaar vanwege routineonderhoud.</String>
-<String id="RHHSTR_RTE_PAND_STATION_GONE">Kan '%1$s' niet afspelen. Dit station is verwijderd.</String>
-<String id="RHHSTR_RTE_PAND_SUSPENDED">Pandora kan je opdracht niet voltooien omdat je account buiten werking is gesteld. Neem contact op met de klantenondersteuning van Pandora op pandora-support@pandora.com.</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_SIRIUS_INACTIVE"></String>
+<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE"></String>
+<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_PAND_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_PAND_READ_ONLY"></String>
+<String id="RHHSTR_RTE_PAND_STATION_GONE"></String>
+<String id="RHHSTR_RTE_PAND_SUSPENDED"></String>
 <String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Kan '%1$s' niet afspelen. De aanmeldingsgegevens voor de %2$s-account zijn niet geldig.</String>
 <String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde %2$s-account is niet gevonden in het Sonos-systeem.</String>
 <String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Kan '%1$s' niet afspelen. De proefperiode voor %2$s is verstreken.
 
 Upgrade je account bij %2$s.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL">Kan '%1$s' niet afspelen. Voor deze functie is een betaald abonnement vereist. Upgrade je account op www.sonos.com/Last.fm/expired.</String>
-<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT">Het Last.fm-station dat werd afgespeeld in de andere kamer, is gestopt. Met Last.fm kan maar één station tegelijk worden afgespeeld.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT">Kan '%1$s' niet afspelen - de gekoppelde Last.fm-account is niet gevonden in het Sonos-systeem. Voer de gegevens van je Last.fm-account in.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_CONTENT">Kan '%1$s' niet afspelen. Er is onvoldoende inhoud om dit Last.fm-station af te spelen.</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_CONTENT"></String>
 <String id="RHHSTR_RTE_DOCK_INTERRUPT">Afspelen muziek van '%1$s' is onderbroken.</String>
 <String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Afspelen van %2$s is gestopt omdat afspelen is gestart vanuit een andere kamer of vanaf een ander apparaat. %2$s beperkt het aantal gelijktijdige audiostreams waar je toegang toe hebt via de service.#END_OF_LOCALIZED_STRING %1$s</String>
 <String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Kan '%1$s' niet afspelen. Upgrade je account bij %2$s en word abonnee.</String>
@@ -339,6 +340,7 @@ Upgrade je account bij %2$s.</String>
 <String id="RHHSTR_SONOS_TRIAL_NDAYS">Proef %2$s (%1$s dagen)</String>
 <String id="RHHSTR_SONOS_TRIAL_EXPIRED">Proef %1$s (verlopen)</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
+<String id="RHHSTR_RECENTLY_PLAYED">Recent afgespeeld</String>
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
 <String id="RHHSTR_BROWSE_UPNP_ERROR">Kan niet door muziek bladeren</String>
 <String id="RHHSTR_SEARCH_UPNP_ERROR">Probleem bij zoeken. Probeer het opnieuw.</String>
@@ -374,7 +376,7 @@ Upgrade je account bij %2$s.</String>
 <String id="RHHSTR_CONNECTING_TITLE">Een ogenblik geduld…</String>
 <String id="RHHSTR_APPLINK_CONNECTION_QUIT">Niet nu</String>
 <String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s niet geïnstalleerd. Installeer de app en probeer het opnieuw.</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install AppZXZ</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">App installeren</String>
 <String id="RHHSTR_SN_POST_SUCCESS">Bericht met succes verzonden.</String>
 <String id="RHHSTR_SN_POST_FAIL">Verzenden bericht mislukt.</String>
 <String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Bericht werd verzonden naar %1$s (%2$s), maar niet naar %3$s (%4$s).</String>
@@ -666,13 +668,13 @@ Zimbabwe:ZW</String>
 (GMT+01:00) Brussel, Kopenhagen, Madrid, Parijs
 (GMT+01:00) Sarajevo, Skopje, Warschau, Zagreb
 (GMT+01:00) Centraal-Afrika
-(GMT+02:00) Athene, Istanboel, Minsk
+(GMT+02:00) Athene
 (GMT+02:00) Boekarest
 (GMT+02:00) Caïro
 (GMT+02:00) Harare, Pretoria
 (GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn
 (GMT+02:00) Jeruzalem
-(GMT+03:00) Baghdad
+(GMT+03:00) Baghdad, Istanboel, Minsk
 (GMT+03:00) Koewait, Riyadh
 (GMT+03:00) Moskou, St. Petersburg, Wolgograd
 (GMT+03:00) Naïrobi
@@ -713,6 +715,7 @@ Zimbabwe:ZW</String>
 <String id="STR_Setting_fixedOutputLevel">Uitgangsniveau (%1$s)</String>
 <String id="STR_Setting_fixedOutputLevel_Fixed">Vast</String>
 <String id="STR_Setting_fixedOutputLevel_Variable">Variabel</String>
+<String id="STR_Setting_fixedOutputLevel_PassThrough">Pass-ThroughZXZ</String>
 <String id="STR_Setting_fixedOutputLevel_Msg">Je kunt het uitgangsniveau van de Sonos-speler instellen op Variabel of Vast.</String>
 <String id="STR_GeneralSettings">Systeeminstellingen</String>
 <String id="STR_Setting_ZoneExtender">Spelermodus (%1$s)</String>
@@ -779,7 +782,7 @@ Zimbabwe:ZW</String>
 
 Selecteer een optie voor scrobblen:</String>
 <String id="STR_NPNoInfoAvailable">[Geen info beschikbaar]</String>
-<String comment="used for now playing" id="STR_NoMusic">[Geen muziek]</String>
+<String comment="used for now playing" id="STR_NoMusic">[Geen muziek geselecteerd]</String>
 <String id="STR_SourceDeviceHdr">Bronapparaat</String>
 <String comment="softkey label" id="STR_AddToQueue">Naar einde wachtrij</String>
 <String id="STR_PlayNow">Nu afspelen</String>
@@ -804,10 +807,8 @@ Audio-ingang: %1$s</String>
 <String id="STR_AboutBoxZPxi">
 %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
-Waarschuwing: het draadloze netwerk ondersteunt het gebruik van een SUB of surroundspeakers met de %1$s niet.</String>
+Waarschuwing: het draadloze netwerk ondersteunt het gebruik van een Sub of surroundspeakers met de %1$s niet.</String>
 <String id="STR_Setting_ZPHidden">%1$s (verborgen)</String>
-<String id="STR_Setting_UnassociatedSub">%1$s (niet gebruikt)</String>
-<String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
 <String comment="top-level sub-title" id="STR_MusicCollection">Muziek</String>
 <String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes®-verzamelingen</String>
 <String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Albumartiesten</String>
@@ -938,7 +939,7 @@ Gebruik de Sonos-installatiesoftware op de computer om muziekmappen in te stelle
 <String id="STR_ZPNameFmtBondTwo">%1$s (%2$s+%3$s)</String>
 <String id="STR_ZPNameChannelLeft">L</String>
 <String id="STR_ZPNameChannelRight">R</String>
-<String id="STR_ZPNameChannelSub">SUB</String>
+<String id="STR_ZPNameChannelSub">Sub</String>
 <String id="STR_ZPNameChannelLeftSatellite">LS</String>
 <String id="STR_ZPNameChannelRightSatellite">RS</String>
 <String id="STR_ZPNameChannelLeftAndRightSatellite">LS+RS</String>
@@ -1014,13 +1015,6 @@ Druk op de knop OK om door te gaan.</String>
 <String id="RHHSTR_OptInRequiredForSoundLab">Om openbare bètaservices van de Sonos Labs toe te voegen, moet je gebruiksgegevens delen met Sonos.
 
 Je kunt de instellingen voor de gebruiksgegevens bekijken of wijzigen via Instellingen &gt; Geavanceerde instellingen &gt; Gegevens over gebruik.</String>
-<String id="STR_TwoButtonDevices">PLAY
-CONNECT:AMP
-CONNECT</String>
-<String id="STR_OneButtonDevicesInitial">BRIDGE</String>
-<String id="STR_OneButtonDevicesWithPlayer">BRIDGE
-SUB
-DOCK</String>
 <String id="STR_HTAudioHdr">Tv</String>
 <String id="STR_SUBXOver0">1. Compact</String>
 <String id="STR_SUBXOver1">2.</String>
@@ -1029,7 +1023,7 @@ DOCK</String>
 <String id="STR_SUBXOver4">5.</String>
 <String id="STR_SUBXOver5">6. Vloer</String>
 <String id="STR_SUBXOver6">7.</String>
-<String id="STR_StereoPair_Error_SUB_Fmt">Deze %1$s speaker is aangesloten op een SUB. Om een stereopaar te maken met deze speaker, moet je nog een %2$s-speaker beschikbaar hebben die nog geen deel uitmaakt van een ander stereopaar.</String>
+<String id="STR_StereoPair_Error_SUB_Fmt">Deze %1$s speaker is aangesloten op een Sub. Om een stereopaar te maken met deze speaker, moet je nog een %2$s-speaker beschikbaar hebben die nog geen deel uitmaakt van een ander stereopaar.</String>
 <String id="STR_AddToFavoritesAdded">'%1$s' aan Sonos-favorieten toegevoegd.</String>
 <String id="STR_AddToFavoritesAddedWithRemaining">'%1$s' aan Sonos-favorieten toegevoegd.
 
@@ -1077,4 +1071,5 @@ Je kunt bestaande Sonos-favorieten verwijderen om ruimte vrij te maken voor nieu
 <String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">Probleem met muziekbibliotheek</String>
 <String id="RHHSTR_SAVEDQUEUES_NOSPACE">Je Sonos-afspeellijsten is vol. Je kunt nummers uit afspeellijsten verwijderen of ongebruikte afspeellijsten wissen en het opnieuw proberen.</String>
 <String id="RHHSTR_SECURE_REG_PROMPT">Gebruik de %1$s-app om Sonos te bedienen</String>
+<String id="RHHSTR_EMPTY_HISTORY">Afgespeelde muziek wordt hier weergegeven</String>
 </Strings>

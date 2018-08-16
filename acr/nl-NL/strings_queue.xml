@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Wachtrij</string>
-<string name="queue_title_tab">Wachtrij</string>
 <string name="edit_queue_title">Wachtrij bewerken</string>
 <string name="queue_subtitle_not_in_use">Niet in gebruik</string>
 <string name="clear_queue_title">Wachtrij wissen</string>
@@ -25,7 +24,6 @@
 <string name="direct_control_playing_from_accessibility">Afspelen vanaf %1$s</string>
 <string name="direct_control_started_from">Gestart vanaf</string>
 <string name="direct_control_started_from_accessibility">Begonnen vanaf %1$s</string>
-<string name="direct_control_resume_playing_from">Afspelen vanaf hervatten</string>
 <string name="direct_control_last_played_from">Laatst afgespeeld vanaf</string>
 <string name="direct_control_last_played_from_accessibility">Laatst afgespeeld vanaf %1$s</string>
 <string name="direct_control_last_played">Laatst afgespeeld in deze kamer</string>

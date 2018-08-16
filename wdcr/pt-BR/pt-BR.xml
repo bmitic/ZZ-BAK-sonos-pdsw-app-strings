@@ -82,8 +82,6 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content">{0} _EQ…</String>
 <String Category="None" UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content">_Configurações de {0}…</String>
 <String Category="None" UniqueId="zones/strings.baml:GROUP_1:System.String.$Content">Grupo</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TITLE_1:System.String.$Content">Nenhuma Sala Selecionada</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TEXT_1:System.String.$Content">Tem certeza de que deseja parar a música em todas essas salas?</String>
 <String Category="None" UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content">[sem música]</String>
 <String Category="None" UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content">Clique em Concluído para escolher a música</String>
 <String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">Confirmar</String>
@@ -92,9 +90,9 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content">Mostrar Mais {0}…</String>
 <String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content">Mostrar Mais…</String>
 <String Category="None" UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content">Mostrar Menos…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">Clique para atualizar…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_SUB_1:System.String.$Content">Selecione para configurar SUB</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_UNUSED_1:System.String.$Content">Selecione para configurar {0}</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">Selecionar para atualizar</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_1:System.String.$Content">Selecione para configurar</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_REGISTER_1:System.String.$Content">Selecione para registrar</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content">O grupo de salas atual contém</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content">Use as setas para cima e para baixo para alternar entre grupos de salas. Pressione a barra de espaços para abrir a caixa de diálogo de agrupamento.</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content">Use as setas para cima e para baixo para alternar entre os grupos de salas. Pressione a barra de espaço para configurar este dispositivo.</String>
@@ -141,7 +139,7 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content">Senha:</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content">Ajustar Configurações de Compartilhamento de Arquivos</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content">Para que o sistema Sonos toque músicas desse computador, o Assistente de Configuração precisa ajustar as seguintes configurações do Windows:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Adicionar o Compartilhamento de Arquivos e Impressoras do Windows à lista de Exceções do Firewall do Windows. Sem essas alterações, as músicas deste computador não tocarão no sistema Sonos.</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Adicione o Serviço de Biblioteca Sonos à lista de exceções do Firewall do Windows. Sem essas alterações, as músicas deste computador não tocarão no sistema Sonos.</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content">Definir a hibernação do Windows como Nunca. Sem essa alteração, pode ser que nem sempre as músicas deste computador toquem no sistema Sonos.</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content">Configuração da Biblioteca de Músicas</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content">Suas músicas estão sendo adicionadas ao sistema Sonos. Isso pode continuar depois que você iniciar o Sonos Controller e, para grandes coleções de músicas, pode levar vários minutos para terminar.</String>
@@ -158,8 +156,8 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content">Verifique se o caminho para a pasta e o nome de usuário e a senha, se necessários, estão corretos.</String>
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content">Motivo: {0}</String>
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content">Erro desconhecido.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Error getting hostnameZXZ</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Could not write to share fileZXZ</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Erro ao obter o nome do host</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Não foi possível gravar o arquivo de compartilhamento</String>
 <String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content">Confirmar</String>
 <String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content">Deseja realmente excluir a pasta selecionada?</String>
 <String Category="None" UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content">Nenhuma</String>
@@ -257,14 +255,8 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="Button" UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content">Selecionar Tudo - Modo Festa</String>
 <String Category="Title" UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title">Configurações</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Configurações da Sala para</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">Atualmente não há players Sonos no seu sistema Sonos. Você precisa de pelo menos um player Sonos para tocar música.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Para adicionar um player Sonos, selecione Gerenciar &gt; Adicionar um Player ou SUB na barra de menus.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">Configurações para</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text">No momento, você não tem BOOSTs no seu sistema Sonos.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text">Para adicionar um BOOST, selecione Gerenciar &gt; Adicionar um BOOST ou BRIDGE na barra de menus.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text">Configurações de DOCK para</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text">Atualmente não há DOCKs no seu sistema Sonos.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text">Para adicionar um DOCK, selecione Gerenciar &gt; Adicionar um Player ou SUB na barra de menus.</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">Atualmente não há alto-falantes Sonos no seu sistema Sonos. Você precisa de pelo menos um alto-falante Sonos para tocar música.</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Para adicionar um alto-falante Sonos, selecione Gerenciar &gt; Adicionar um Alto-falante ou Sub na barra de menus.</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header">Biblioteca de Músicas</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Configurações da Biblioteca de Músicas</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header">Pastas</String>
@@ -282,8 +274,6 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content">Remover</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content">Substituir</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content">Reautorizar</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header">Data e Hora</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text">Configurações de Data e Hora</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header">Avançado</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text">Configurações Avançadas</String>
 <String Category="Title" UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title">Sobre</String>
@@ -302,8 +292,6 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header">_Copiar</String>
 <String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header">C_olar</String>
 <String Category="Menu" Comments="This is the root of the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header">_Gerenciar</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header">_Adicionar um Player ou SUB…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header">Adicionar um _BOOST ou BRIDGE…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header">Configurações da _Biblioteca de Músicas…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header">Configurações de Ser_viço…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header">Adicionar _Estação de Rádio…</String>
@@ -312,7 +300,6 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header">Alterar _Idioma…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header">C_onfigurações…</String>
 <String Category="Menu" Comments="This is the root of the Help menu" UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header">Aj_uda</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header">Minha _Conta Sonos…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header">Comprar _Produtos Sonos…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header">Atalhos de _Teclado…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header">Aj_uda do Sistema Sonos…</String>
@@ -371,7 +358,7 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content">Redimensionar Lista</String>
 <String Category="None" UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content">Fechar Janela Ativa</String>
 <String Category="None" UniqueId="utilities/strings.baml:OK_1:System.String.$Content">OK</String>
-<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">CancelZXZ</String>
+<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">Cancelar</String>
 <String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content">Botão de rádio {0}. Para selecionar, pressione a barra de espaços.</String>
 <String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content">Botão de rádio {0}, selecionado.</String>
 <String Category="Title" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Editar Alarme</String>
@@ -413,7 +400,7 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content">Atualizar Biblioteca de Músicas</String>
 <String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content">Isso atualizará a Biblioteca de Músicas do Sistema Sonos para que corresponda a todas as alterações que você tiver feito no iTunes ou em outras pastas de músicas compartilhadas. Deseja atualizar a Biblioteca de Músicas do sistema Sonos agora?</String>
 <String Category="None" UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content">Para mais informações, acesse {0}</String>
-<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">Para reexibir uma sala, redefina o player Sonos da sala ao padrões de fábrica. Para mais informações, acesse {0}</String>
+<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">Para reexibir uma sala, redefina o alto-falante Sonos da sala ao padrões de fábrica. Para mais informações, acesse {0}</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content">A Hora Atual não Está Definida</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content">Antes de você poder criar um alarme, a hora atual deve ser definida.</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content">Definir Hora Atual</String>
@@ -427,21 +414,20 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content">Enviar Diagnóstico</String>
 <String Category="None" UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content">Não é possível abrir o link: {0}. Certifique-se de ter definido o navegador padrão de Internet.</String>
 <String Category="None" UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content">Erro ao abrir link</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Music library updateZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Update NowZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Remind Me LaterZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Atualizar biblioteca de músicas</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">Para garantir a reprodução da Biblioteca de Músicas, o Sonos precisa atualizar o índice de músicas. Isso pode levar alguns minutos.</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Atualizar Agora</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Me lembre mais tarde</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">Ocorreu um erro ao atualizar o índice de músicas. Adicione novamente sua música em 'Gerenciar &gt; Configurações da Biblioteca de Músicas…'</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content">Dados de Uso</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content">Para ajudar a melhorar nossos produtos e o atendimento ao cliente, a Sonos coleta informações sobre como você usa seu sistema Sonos. Para saber mais, consulte</String>
 <String Category="CheckBox" UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">Sim, usar o compartilhamento de dados de uso para ajudar a Sonos a melhorar seus produtos.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">As configurações de equalização não estarão disponíveis enquanto o nível de saída de um player Sonos estiver definido como Fixo</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">As configurações de equalização não estarão disponíveis enquanto o nível de saída de um alto-falante Sonos estiver definido como Fixo</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text">Altere a configuração Nível de Saída na guia Básico para habilitar os controles de equalização.</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content">Redefinir</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content">Redefinir</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content">Redefinir</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content">Redefinir</String>
-<String Category="Text" UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Grupo</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Info &amp; Opções</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Mudo está desativado</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Mudo está ativado</String>
@@ -499,8 +485,8 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="Button" UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content">Limpar Lista</String>
 <String Category="Button" UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content">Salvar Lista</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content">Luz Indicadora Branca</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">Nome do BRIDGE</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">Nome do DOCK</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">Nome do Bridge</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">Nome do Dock</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content">Nome da Sala</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content">Básico</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content">Geral</String>
@@ -528,9 +514,9 @@ O caminho unc %s não é um caminho unc válido ou não é um compartilhamento d
 <String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content">Máx</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content">E</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content">D</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">SUB</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">Sub</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content">Ligado</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">Nível SUB</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">Nível Sub</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content">Ajuste de Posicionamento</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content">Aperfeiçoamento de Diálogo</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content">Atraso de Áudio (Sincronização Labial)</String>
@@ -570,7 +556,7 @@ Nem todos os serviços são compatíveis com o filtro de conteúdo.</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRSignalLight_1:System.String.$Content">Luz de sinal de infravermelho</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRRepeater_1:System.String.$Content">Repetidor de infravermelho</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTVAutoplay_1:System.String.$Content">Reprodução automática da TV</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content">Desagrupar na Reprodução Automática</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content">Desagrupar na Reprodução Auto</String>
 <String Category="Text" UniqueId="zones/zonespanel.baml:header_1:System.Windows.Controls.TextBlock.Text">SALAS</String>
 <String Category="Button" UniqueId="zones/zonespanel.baml:pauseAllButton_1:System.Windows.Controls.ContentControl.Content">Pausar Tudo</String>
 <String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="zone_grouping_title">Kamers groeperen</string>
-<string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead" name="zone_grouping_title_short">Groep</string>
-<string name="zone_grouping_select_all_button_text">Selecteer alles</string>
-<string name="zone_grouping_unselect_all_button_text">Alles deselecteren</string>
-<string name="zone_grouping_selected_will_play">In geselecteerde kamers speelt:</string>
-<string name="zone_grouping_multi_selected_will_play">In de kamers die je hebt geselecteerd wordt verschillende muziek afgespeeld</string>
-<string name="zone_grouping_no_music">Geen muziek</string>
+<string name="zone_grouping_no_music">Geen muziek geselecteerd</string>
 <string name="zone_grouping_choose_music">Klik op Klaar om muziek te kiezen</string>
 <string name="zone_grouping_picker_header">Kies muziek om in de geselecteerde kamers af te spelen</string>
 <string name="zone_grouping_play_to_the_following">Op volgende afspelen</string>

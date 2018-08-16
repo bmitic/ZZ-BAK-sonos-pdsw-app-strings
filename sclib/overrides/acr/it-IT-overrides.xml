@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_DESCRIPTION">Regolare alti e bassi a piacere.</String>
+<String id="SCLIB_STR_ZPSETTINGS_SONAR_DESCRIPTION">Ottimizzare i diffusori per ottenere il suono giusto in base alla stanza.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Configurare Sonos per la propria rete wireless.</String>
+<String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Per modificare il canale wireless preimpostato, scegliere un altro canale.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Scegliere una nuova impostazione per ignorare Line-In e Dock predefiniti.</String>
+<String id="STR_MusicLibraryIndexing">Libreria musicale - Creazione indice…</String>
+<String id="STR_SonosPlaylists">Playlist Sonos</String>
+<String id="STR_NoMusic">Nessun brano selezionato</String>
+<String id="SCLIB_STR_CompoundMetadata_Station">%1$s • %2$s</String>
+<String id="SCLIB_STR_CompoundMetadata_AlbumArtist">%1$s • %2$s</String>
+<String id="SCLIB_STR_SetupWiz_PreInstructions_Body_2_Fmt">Per connettere questo dispositivo Android™ a un sistema già installato oppure per utilizzarlo per installare un nuovo sistema, premere il pulsante Avanti.</String>
+<String id="SCLIB_STR_LIBRARY_SETUP_URL">http://faq.sonos.com/acr</String>
+<String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_System">Connesso al sistema Sonos</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdating_Fmt">Errore durante l’aggiornamento del sistema Sonos (ID=%1$d).</String>
+<String id="SCLIB_STR_OUWiz_ErrorCheckingForUpdate_Fmt">Si è verificato un problema durante la ricerca degli aggiornamenti (ID=%1$d).
+
+Controllare la connessione a Internet o riprovare più tardi.</String>
+<String id="SCLIB_STR_OUWiz_ErrorUpdatingDevice_Fmt">Errore durante l’aggiornamento del sistema Sonos:
+
+il dispositivo attuale è %1$s (ID=%2$d).</String>
+<String id="SCLIB_STR_OUWiz_UnknownError_Fmt">Impossibile completare l'aggiornamento del software Sonos (ID=%1$d).
+
+Riprovare più tardi.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_1">Impossibile aggiungere il prodotto Sonos.
+È richiesto un aggiornamento del controller.
+
+Dopo aver completato la registrazione, aggiornare il controller, quindi aggiungere i nuovi prodotti.
+
+Premere &quot;Avanti&quot; per continuare la registrazione.</String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_2"></String>
+<String id="SCLIB_STR_SetupWiz_InitialCRNeedsUpdate_Body_3"></String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_1">Impossibile aggiungere il nuovo prodotto Sonos.
+È richiesto un aggiornamento del controller.
+
+Aggiornare il controller, quindi aggiungere il nuovo prodotto.</String>
+<String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_2"></String>
+<String comment="Abbreviated in some translations" id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME">Ora aggiorn. indice</String>
+<String id="SCLIB_STR_MSWiz_Intro_Anon_Body1_Fmt">Premere 'Imposta %1$s' per aggiungere %1$s al sistema Sonos.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_1_Fmt">Puoi utilizzare più di %1$s account con Sonos. L’account appena aggiunto verrà utilizzato su questo dispositivo mobile.</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Per passare a un dispositivo diverso, vai su Altro &gt; Impostazioni &gt; I miei servizi musicali e scegli un altro account.</String>
+<String id="SCLIB_STR_SubCalLevel_Inst">Effettuata la regolazione, premere 'Avanti'.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">Installare l'ultima versione di Sonos Controller.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Installare l'ultima versione di Sonos Controller.</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutMinutes_Fmt">Eseguire l'operazione entro %1$d minuti…</String>
+<String id="SCLIB_STR_SetupWiz_Waiting_Body_2_TimeoutSeconds_Fmt">Eseguire l'operazione entro %1$d secondi…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Title">Attendere prego…</String>
+<String id="SCLIB_STR_SetupWiz_DeterminingLocation_Body_1"></String>
+<String id="SCLIB_STR_LC_Reset_String1">Premere il pulsante Home per completare il reset, quindi riaprire Sonos Controller.</String>
+<String id="SCLIB_STR_LC_Reset_String2"></String>
+<String id="STR_ArtistInfo">Cerca artista</String>
+<String id="STR_AuthorInfo">Sfoglia per autore</String>
+<String id="STR_AllAlbumsArtist">Cerca artista</String>
+<String id="SCLIB_STR_NewPlaylistInstructions"></String>
+<String id="SCLIB_STR_RenameFavoriteInstructions"></String>
+<String id="SCLIB_STR_RenameSavedPlaylistInputTitle">Rinomina Playlist</String>
+<String id="SCLIB_STR_NewPlaylistInputTitle">Nuova Playlist</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match STR_AddFavorite" id="SCLIB_STR_EmptyFavoritesMessage">Per aggiungere stazioni, playlist, album o artisti a Il mio Sonos, toccare ⋯ mentre si sfoglia o riproduce la musica e scegliere *Aggiungi a Il mio Sonos*.</String>
+<String id="SCLIB_STR_DeleteFavorite_Success_Format">&quot;%1$s&quot; è stato rimosso da il mio Sonos</String>
+<String id="SCLIB_STR_DeleteFavorite_Failure_Format">Impossibile rimuovere &quot;%1$s&quot; da Il mio Sonos</String>
+<String id="SCLIB_STR_EmptyPlaylistContainerMessage">Per creare una Playlist Sonos toccare ⋯ sopra.</String>
+<String comment="Please leave the asterisks in localized versions as well. The text in between the asterisks should exactly match SCLIB_STR_AddToSonosPlaylist" id="SCLIB_STR_EmptyPlaylistMessage">Per aggiungere un brano a questa playlist, toccare ⋯ mentre si sfoglia o esegue la musica e scegliere *Aggiungi alla Playlist Sonos*.</String>
+<String id="SCLIB_STR_Queue_TrackCountZero"></String>
+<String id="SCLIB_STR_Queue_TrackCountOne">1 brano</String>
+<String id="SCLIB_STR_Queue_TrackCountTwo">2 brani</String>
+<String id="SCLIB_STR_Queue_TrackCountManyFormat">%1$d brani</String>
+<String id="RHHSTR_SIE_ERROR">'%1$s' non è più disponibile. Il dispositivo in cui sono memorizzati i file musicali potrebbe non essere acceso o il percorso potrebbe essere cambiato.
+Andare a Impostazioni &gt; Gestisci Libreria musicale &gt; Impostazione Libreria musicale per verificare il nome del percorso.</String>
+<String id="SCLIB_STR_SETTINGS_CONTROLLER">Impostazioni app</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Body">Ciò ci fornisce l’autorizzazione di ricercare eventuali diffusori vicini.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_Title">Consenti accesso alla posizione</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_1">1. Tocca &quot;Impostazioni dispositivo&quot; e scegli &quot;Autorizzazioni.&quot;</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_2">2. Attiva la &quot;Posizione.&quot;</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Body_3">3. Torna all’app Sonos.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Request_CantAsk_Button">Impostazioni dispositivo</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Title">Sei sicuro di non voler consentire l’accesso alla posizione?</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Denied_Body">Se l’accesso alla posizione è spento, avrai bisogno di un cavo Ethernet per completare l’impostazione.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Allow_Button">Consenti accesso alla posizione</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_GoBack_Button">Torna indietro</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Perms_Skip_Button">Prosegui senza accesso alla posizione</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Title">Attiva i servizi di posizione</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Request_Body">L’impostazione dei tuoi servizi di posizione è disattivata. Deve essere attivata per permetterci di rilevare i tuoi diffusori.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Title">Sei sicuro di non voler attivare i servizi di posizione?</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Denied_Body">Se i servizi di posizione sono spenti, avrai bisogno di un cavo Ethernet per completare l’impostazione.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Enable_Button">Attiva la posizione</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Skip_Button">Prosegui senza posizione</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Title">Torna a Sonos</String>
+<String id="SCLIB_STR_Setup_Prereqs_Loc_Serv_Notification_Message">Ora torna all' Sonos.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Request_Body">Attiviamolo.</String>
+<String id="SCLIB_STR_Setup_Prereqs_Bluetooth_Enable_Button">Accendi il Bluetooth</String>
+<String id="SCLIB_STR_SetupWiz_AndroidSetupPermissions_Title">Consenti accesso alla posizione</String>
+<String comment="New Line is required for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_UpdateSonos">Ricerca aggiornamenti</String>
+<String comment="Non-breaking space for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_AboutSonos">Info sul sistema Sonos</String>
+<String comment="Non-breaking hyphen and new line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_Wifi_Settings">Vai a Impostazioni Wi-Fi</String>
+<String comment="New Line for English only. Use previous translation for all other langauges" id="SCLIB_STR_LC_ConfigurePlayer">Configura diffusore</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredHH_String_1_Fmt">Abbiamo trovato Sonos sulla rete wireless *%1$s*.</String>
+<String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_1_Fmt">Abbiamo trovato un nuovo diffusore Sonos sulla rete wireless *%1$s*.</String>
+<String id="STR_AddFavorite">Aggiungi a Il mio Sonos</String>
+<String id="SCLIB_STR_DeleteFavorite">Rimuovi da Il mio Sonos</String>
+<String id="STR_AddToFavoritesAdded">&quot;%1$s&quot; aggiunto a Il mio Sonos.</String>
+<String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot; aggiunto a Il mio Sonos.
+
+Sono ancora disponibili %2$d posizioni in Il mio Sonos.</String>
+<String id="STR_AddToFavoritesAddedOneRemaining">&quot;%1$s&quot; aggiunto a Il mio Sonos.
+
+È ancora disponibile 1 posizione in Il mio Sonos.</String>
+<String id="STR_AddToFavoritesAddedNoneRemaining">&quot;%1$s&quot; aggiunto a Il mio Sonos.
+
+Sono state utilizzate tutte le posizioni disponibili per Il mio Sonos.</String>
+<String id="STR_AddToFavoritesAlreadyAddedError">&quot;%1$s&quot; è già stato aggiunto a Il mio Sonos e non sarà aggiunto di nuovo.</String>
+<String id="STR_AddToFavoritesFullError">Impossibile aggiungere a Il mio Sonos. Non rimangono posizioni libere.
+
+È possibile rimuovere da Il mio Sonos gli elementi esistenti per far spazio per quelli nuovi.</String>
+<String id="STR_AddToFavoritesError">Impossibile aggiungere &quot;%1$s&quot; a Il mio Sonos.</String>
+<String id="STR_AddToFavoritesErrorOutOfSpace">Impossibile aggiungere a Il mio Sonos. Per liberare spazio per nuovi elementi, può essere opportuno rimuovere quelli già esistenti o quelli presenti in Le mie stazioni radio o I miei programmi radio.</String>
+<String id="SCLIB_STR_RenameFavorite">Rinomina elemento</String>
+<String id="STR_AddFavoriteStation">Aggiungi stazione a Il mio Sonos</String>
+<String id="STR_AddFavoriteTrack">Aggiungi brano a Il mio Sonos</String>
+<String id="STR_AddFavoriteAlbum">Aggiungi album a Il mio Sonos</String>
+<String id="STR_AddFavoriteArtist">Aggiungi artista a Il mio Sonos</String>
+<String id="STR_AddFavoritePlaylist">Aggiungi playlist a Il mio Sonos</String>
+<String id="STR_AddFavoriteShow">Aggiungi programma a Il mio Sonos</String>
+<String id="STR_AddFavoriteBook">Aggiungi libro a Il mio Sonos</String>
+<String id="SCLIB_STR_MYSONOS_RECENTLYPLAYED_CONFIRM_PROMPT_ENABLE_BODY">By enabling this feature, you understand we’ll collect some Activity Information as outlined in our &lt;a href=&quot;https://www.sonos.com/legal/privacy&quot;&gt;Sonos Privacy Statement.&lt;/a&gt;ZXZ</String>
+</Strings>

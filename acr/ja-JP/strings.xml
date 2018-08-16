@@ -8,7 +8,6 @@
 <string name="clear_button_name">クリア</string>
 <string name="open_button_name">開く</string>
 <string name="cancel_button_name">キャンセル</string>
-<string name="cancel_button_name_2ndgen">キャンセル</string>
 <string name="global_yes">はい</string>
 <string name="global_no">いいえ</string>
 <string name="global_ok">OK</string>
@@ -20,41 +19,33 @@
 <string name="menu_share_subject">Sonosで再生中!</string>
 <string name="menu_share_chooser_title">曲を共有</string>
 <string name="menu_share_chooser_station_title">以下とステーションを共有します</string>
-<string name="alarm_voice_command_text">ボイスコマンドによって設定されたアラームは%1$sによって管理されます。</string>
+<string name="alarm_voice_command_text">音声コマンドによって設定されたアラームは%1$sによって管理されます。</string>
 <string name="alarm_alexa_text">Alexaアプリ</string>
 <string name="volume_fixed_volume">音量固定</string>
 <string name="searching_wifi">ワイヤレス ネットワークに接続しています…</string>
 <string name="music_settings_add_share_title">新しい共有を追加</string>
-<string name="music_settings_add_share_scan_title">ネットワークをスキャン</string>
-<string name="music_settings_add_share_scan_message">以下の共有フォルダがネットワーク上に見つかりました</string>
-<string name="music_settings_add_share_scanning_text">スキャン中…</string>
 <string name="music_settings_add_share_connecting_text">接続しています…</string>
-<string name="music_settings_add_share_scan_no_shares_found">共有フォルダが見つかりません。</string>
 <string name="wifi_not_avil_title">Wi-Fiを利用できません</string>
 <string name="wifi_not_avil_message">Wi-Fiを利用できません。Wi-Fiをオンにしますか?</string>
 <string name="widget_configure_notsetup_title">Sonosウィジェットを追加</string>
 <string name="widget_configure_notsetup">このウィジェットを使用するには、Sonosアプリケーションを最初に起動してシステムに接続します。</string>
 <string name="widget_message_not_connected_resizable">Sonosに接続されていません。\n詳細については、タップしてください。</string>
-<string name="widget_message_not_connected">Sonosに接続していません。</string>
 <string name="widget_message_room_not_found">あなたの部屋が見つかりませんでした。</string>
 <string name="widget_button_choose_room">新しい部屋を選択してください</string>
 <string name="widget_configure_title">このウィジェットの部屋を選択</string>
 <string name="wifi_not_in_range_title">Wi-Fi が範囲内に存在しません</string>
 <string name="wifi_not_in_range">ワイヤレス ネットワークの範囲内に移動するか、ネットワーク設定を確認してください。</string>
-<string name="view_demo_internet_required">Sonosデモを表示するにはインターネット アクセスが必要です。\n\nネットワーク設定を確認してください。</string>
 <string name="notification_music_service_title">Sonos</string>
 <string name="notification_music_service">サービスを停止した場合、このデバイスでの音楽ストリーミングが中断される可能性があります</string>
 <string name="notification_music_service_stop">サービスを停止</string>
 <string name="search_all_services">すべてを検索</string>
-<string name="search_everywhere">すべての場所を検索</string>
 <string name="search_searching_everywhere">%1$s全体を検索中…</string>
 <string name="search_searching_service">%2$sで%1$sを検索中…</string>
 <string name="accessibility_album_artwork">アルバム アートワーク</string>
-<string name="accessibility_seek_bar">検索バー</string>
 <string name="action_list_more">詳細…</string>
 <string name="accessibility_more">詳細</string>
-<string name="accessibility_info">情報とオプション</string>
-<string name="accessibility_infoButton">情報とオプションボタン</string>
+<string name="accessibility_info">その他のオプション</string>
+<string name="accessibility_infoButton">その他のオプションボタン</string>
 <string name="accessibility_night_mode">夜モード</string>
 <string name="accessibility_speech_enhancement">スピーチ強化</string>
 <string name="accessibility_repeat">リピート</string>
@@ -66,8 +57,6 @@
 <string name="accessibility_previous_song">前の曲</string>
 <string name="accessibility_play">再生</string>
 <string name="accessibility_pause">一時停止</string>
-<string name="accessibility_playButton">[再生] ボタン</string>
-<string name="accessibility_pauseButton">[一時停止] ボタン</string>
 <string name="accessibility_stop">停止</string>
 <string name="accessibility_next_song">次の曲</string>
 <string name="accessibility_queue">予約リストを切り替え</string>
@@ -81,16 +70,12 @@
 <string name="accessibility_clear_search">検索をクリア</string>
 <string name="accessibility_show_browse">[現在再生中]を非表示にする</string>
 <string name="accessibility_show_now_playing">再生中を表示</string>
-<string name="accessibility_show_sonos">Sonosメニューを表示</string>
 <string name="accessibility_search_hint">検索欄</string>
-<string name="accessibility_settings_button">設定</string>
 <string name="accessibility_all">すべて</string>
 <string name="accessibility_one">1つ</string>
 <string name="accessibility_currently_playing">現在プレイ中</string>
 <string name="accesssibility_in_one_room">%1$s 内</string>
 <string name="accesssibility_in_multiple_rooms">%1$s と %2$s 内</string>
-<string name="accessibility_add_room_hint">ダブルタップしてルームを追加</string>
-<string name="accessibility_remove_room_hint">ダブルタップしてルームを削除</string>
 <string name="accessibility_Quick_Skip_Backward">高速巻き戻し</string>
 <string name="accessibility_Quick_Skip_Forward">高速早送り</string>
 <string name="accessibility_button">ボタン</string>
@@ -98,7 +83,6 @@
 <string name="accessibility_backButton">[戻る] ボタン</string>
 <string name="accessibility_page_numbers">%2$s中%1$sページ調整可能</string>
 <string name="accessibility_inProgress">処理中</string>
-<string name="accessibility_carousel">アイテム </string>
 <string name="accessibility_hide_details">%1$sの詳細を隠す</string>
 <string name="accessibility_show_details">%1$sの詳細を表示</string>
 <string name="accessibility_drag_start">位置%1$sのアイテムを移動</string>
@@ -108,12 +92,7 @@
 <string name="accessibility_help_and_tips_item">%3$d の %1$s。アイテム %2$d</string>
 <string name="accessibility_help_and_tips_new_item">%1$s。新規%3$d のアイテム %2$d</string>
 <string name="feedback_submit">AndroidコントローラフィードバックをSonosに送信しますか?</string>
-<string name="feedback_unavailable_diagtext">使用できない</string>
 <string name="preparingFeedback">フィードバックのために診断を収集中。 この処理には数分かかる場合があります。</string>
-<string name="feedbackHeader">%1$s Androidアプリ フィードバック</string>
-<string name="feedbackBody">診断番号:%1$s\nデバイス モデル:%2$s\nOSバージョン:%3$s\n追加のフィードバック: </string>
-<string name="sleepTimerMinutesFormat">%1$sm</string>
-<string name="sleepTimerSecondsFormat">%1$ss</string>
 <string name="wifi_enable">Wi-FiをONにする</string>
 <string name="wifi_enabling">Wi-Fiを有効化しています…</string>
 <string name="vpn_disable">VPNの設定に移動する</string>
@@ -122,30 +101,14 @@
 <string name="ule_arm_failure">Sonosをロードできませんでした。アプリケーションをアンインストールして再インストールしてください。</string>
 <string name="ule_nonarm_failure">Sonosをロードできなかったか、ご使用のデバイスがサポートされていない可能性があります。アプリケーションをアンインストールして再インストールしてください。</string>
 <string name="moremusicmenu_viewloading">読込み中…</string>
-<string name="browse_musicmenu_hint">ブラウズ時に
-音楽メニューに
-戻る</string>
-<string name="rooms_hint">部屋の管理</string>
-<string name="queue_hint">音楽予約リストの
-表示</string>
-<string name="nowplaying_musicmenu_hint">音楽の選択</string>
-<string name="search_hint">すべての音楽
-ソースからの
-検索</string>
-<string name="now_playing_hint">タップして再生の管理</string>
-<string name="hints_dismissal">理解しました。</string>
 <string name="account_picker_title">%1$s アカウントの切替え</string>
 <string name="show_queue">予約リストを表示</string>
 <string name="show_details">さらに表示</string>
 <string name="hide_details">隠す</string>
 <string name="hide_queue">予約リストを隠す</string>
-<string name="xcallbackurl_no_system_error_message">システムが見つかりません</string>
 <string name="xcallbackurl_timeout_error_message">家庭用タイムアウト サーチング</string>
 <string name="xcallbackurl_disabled_wifi_error_message">Wi-Fiが有効になっていません</string>
 <string name="xcallbackurl_active_vpn_error_message">VPNがアクティブです</string>
-<string name="hint_text_rooms">音楽を再生する部屋の変更には、ここをタップします。</string>
-<string name="hint_text_music">音楽を選択するか、好きなアーティストを探します。</string>
-<string name="hint_text_group_rooms">部屋をグループ化し同じ音楽を再生するには、ここをタップします。</string>
 <string name="message_default_title">特別オファー</string>
 <string name="message_close_button">通知を閉じる</string>
 <string name="message_remove_message">このメッセージを削除</string>
@@ -172,7 +135,6 @@
 <string name="swimlane_item_new_attribute">新規</string>
 <string name="swimlane_show_all_button">すべてを表示</string>
 <string name="swimlane_invalid_message">このコンテンツは使用できなくなりました。マイSonosから削除するには、[編集]をタップします。</string>
-<string name="help_and_tips">ヘルプとヒント</string>
 <string name="feature_unavailable">申し訳ありませんが、この機能は現在利用できません。</string>
 <string name="hide_notification">お知らせを非表示</string>
 <string name="adjust_volume">音量を調整</string>
@@ -202,7 +164,8 @@
 <string name="message_center_mark_message_read">既読にする</string>
 <string name="message_center_select_all">すべて選択</string>
 <string name="message_center_unselect_all">すべて選択解除</string>
-<string name="status_level_error">errorZXZ</string>
-<string name="status_level_content_description">%s notificationZXZ</string>
-<string name="dismiss_button_content_description">dismissZXZ</string>
+<string name="status_level_error">エラー</string>
+<string name="status_level_content_description">%s通知</string>
+<string name="dismiss_button_content_description">閉じる</string>
+<string name="new_session_button_title">新しいセッション</string>
 </resources>

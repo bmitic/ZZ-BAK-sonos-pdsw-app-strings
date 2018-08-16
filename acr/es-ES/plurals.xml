@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <plurals name="accessibility_tab_badge_format">
-    <item quantity="one">%1$s. %2$d Artículo.</item>
-    <item quantity="other">%1$s. %2$d Artículos.</item>
+    <item quantity="one">%1$s. %2$d elemento.</item>
+    <item quantity="other">%1$s. %2$d elementos.</item>
 </plurals>
 <plurals name="alarm_snoozed_duration_minutes">
     <item quantity="one">%d minuto</item>

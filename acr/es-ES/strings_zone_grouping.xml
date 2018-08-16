@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="zone_grouping_title">Grupo de habitaciones</string>
-<string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead" name="zone_grouping_title_short">Grupo</string>
-<string name="zone_grouping_select_all_button_text">Seleccionar todos</string>
-<string name="zone_grouping_unselect_all_button_text">Anular selección</string>
-<string name="zone_grouping_selected_will_play">En las habitaciones seleccionadas se reproducirá:</string>
-<string name="zone_grouping_multi_selected_will_play">Las habitaciones seleccionadas reproducen música diferente</string>
-<string name="zone_grouping_no_music">No hay música</string>
+<string name="zone_grouping_no_music">No hay música seleccionada</string>
 <string name="zone_grouping_choose_music">Haga clic en Listo para elegir la música</string>
 <string name="zone_grouping_picker_header">Elige la música que deseas reproducir en las habitaciones seleccionadas</string>
 <string name="zone_grouping_play_to_the_following">Reproducir a lo siguiente</string>

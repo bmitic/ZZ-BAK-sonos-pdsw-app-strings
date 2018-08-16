@@ -40,10 +40,6 @@
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "Desligar";
-    // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "som do alarme de %1$@";
-
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
     "<ExternalAlarmsNote_1>" = "Os alarmes definidos pelo comando de voz são gerenciados por %1$@.";
     "<ExternalAlarmsAlexaApp>" = "o aplicativo Alexa";
@@ -108,12 +104,10 @@
     "<NextButtonBook>" = "Próximo capítulo";
     "<QUEUE>" = "Lista";
     "<NotInUse>" = "Não está em uso";
-    "<NowPlayingNoMusic>" = "Nenhuma música";
+    "<NowPlayingNoMusic>" = "Nenhuma música selecionada";
     "<NowPlayingDialogEnhacementLabel>" = "Aperfeiçoamento de falas";
     "<NowPlayingNightModeLabel>" = "Som noturno";
 
-    "<NowPlayingInfoButtonLabel>" = "Info e Opções";
-    "<NowPlayingInfoButtonHint>" = "Visualizar informações e opções sobre o que está tocando agora.";
     "<NowPlayingOn>" = "—"; //in non-english languages, please translate to —
     "<NowPlayingOnAccessibilityLabel>" = "em %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
     "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ em %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
@@ -138,7 +132,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Toque duas vezes para abrir Tocando Agora";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ e %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +140,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ e %3$d outros";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Tocando %@";
+    "<NowPlayingOpen>" = "Abrir Tocando agora";
     "<NowPlayingClose>" = "Fechar Tocando agora";
-    "<NowPlayingCloseHint>" = "Toque duas vezes para voltar a procurar músicas";
 
 /* Info Menu */
 
@@ -190,7 +183,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d músicas.";
+    "<QueueTrackLabel_1>" = ".%d música(s).";
     "<QueueShuffleButtonLabel>" = "Aleatório";
     "<QueueRepeatAllButtonLabel>" = "Repetir tudo";
     "<QueueRepeatOneButtonLabel>" = "Repetir música";
@@ -205,18 +198,22 @@
     "<Rooms>" = "Salas";
     "<GroupRooms>" = "Agrupar Salas";
     "<Group>" = "Grupo";
+    "<Available>" = "Disponível";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Agrupar Salas";
     "<PauseAll>" = "Pausar Tudo";
     "<PauseAllConfirmation>" = "Tem certeza de que deseja pausar a música em todas essas salas?";
-    "<ContinueSetUp>" = "Continuar Configuração";
-    "<SoftwareUpdateRequired>" = "Atualização do Software Necessária";
+    "<SelectToUpdate>" = "Selecionar para atualizar";
+    "<SelectToConfigure>" = "Selecione para configurar";
+    "<SelectToRegister>" = "Selecione para registrar";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
     // an appropriate pause when being read by VoiceOver.
     "<MultipleRoomNames_2>" = "%1$@ e %2$@";
+    "<NewSession>" = "Nova Sessão";
+    "<NewSessionAccessibilityLabel>" = "Nova Sessão. Botão";
 
 /* Rooms Voiceover */
     "<SelectRooms>" = "Selecionar salas";
@@ -294,6 +291,7 @@
     "<Settings>" = "Configurações";
     "<RoomSettings>" = "Configurações da Sala";
     "<ParentalControls>" = "Controles dos pais";
+    "<MySonosSettings>" = "Configurações da conta";
     "<MoreInformation>" = "Mais informações";
     "<Help>" = "Ajuda";
     "<Call>" = "Chamar";
@@ -308,8 +306,8 @@
     "<AddingShareInstructions>" = "Seu novo compartilhamento será adicionado ao sistema Sonos.\n\nPrimeiro, o Sonos precisa criar um índice de suas músicas. Depois disso, a música será exibida na sua biblioteca.\n\nPressione o botão OK para concluir.";
 
 /* Wireless Setup Custom Wizard */
-    "<Wireless_CheckOpenAP_Title>" = "Configuração do Player";
-    "<Wireless_CheckOpenAP_Body1>" = "Espere alguns segundos, até ver uma luz laranja piscando em seu player Sonos.";
+    "<Wireless_CheckOpenAP_Title>" = "Configuração do Alto-falante";
+    "<Wireless_CheckOpenAP_Body1>" = "Espere alguns segundos, até ver uma luz laranja piscando em seu alto-falante Sonos.";
     "<Wireless_CheckOpenAP_Button1>" = "Vejo uma luz laranja";
     "<Wireless_CheckOpenAP_Button2>" = "Não vejo uma luz laranja";
 
@@ -319,13 +317,13 @@
     "<Wireless_CheckOpenAP_NoLight_Button1>" = "Tentar novamente";
     "<Wireless_CheckOpenAP_NoLight_Button2>" = "Configuração Alternativa";
 
-    "<Wireless_Waiting_Title>" = "Configurando player";
+    "<Wireless_Waiting_Title>" = "Configurando alto-falante";
     "<Wireless_Waiting_Body>" = "Aguarde…";
 
     "<Wireless_OpenReady_Title>" = "Configuração Sem Fio";
-    "<Wireless_OpenReady_Body_1_iPod>" = "Você conectará este iPod a uma rede sem fio temporária criada pelo player Sonos.";
-    "<Wireless_OpenReady_Body_1_iPad>" = "Você conectará este iPad a uma rede sem fio temporária criada pelo player Sonos.";
-    "<Wireless_OpenReady_Body_1_iPhone>" = "Você conectará este iPhone a uma rede sem fio temporária criada pelo player Sonos.";
+    "<Wireless_OpenReady_Body_1_iPod>" = "Você conectará este iPod a uma rede sem fio temporária criada pelo alto-falante Sonos.";
+    "<Wireless_OpenReady_Body_1_iPad>" = "Você conectará este iPad a uma rede sem fio temporária criada pelo alto-falante Sonos.";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "Você conectará este iPhone a uma rede sem fio temporária criada pelo alto-falante Sonos.";
     "<Wireless_OpenReady_Body_2_iPod>" = "Essa rede sem fio, chamada de ‘%1$@’, está disponível na seção Wi-Fi das configurações do iPod.";
     "<Wireless_OpenReady_Body_2_iPad>" = "Essa rede sem fio, chamada de ‘%1$@’, está disponível na seção Wi-Fi das configurações do iPad.";
     "<Wireless_OpenReady_Body_2_iPhone>" = "Essa rede sem fio, chamada de ‘%1$@’, está disponível na seção Wi-Fi das configurações do iPhone.";
@@ -338,7 +336,7 @@
     "<Wireless_Instructions_Body_2>" = "2. Toque em \"%1$@\" na lista de redes";
     "<Wireless_Instructions_Body_3>" = "3. Volte ao aplicativo Sonos e pressione \"Próximo\" para continuar";
 
-    "<Wireless_NotSonosAP_Title>" = "Não conectado ao player";
+    "<Wireless_NotSonosAP_Title>" = "Não conectado ao alto-falante";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Você não está conectado à rede \"%1$@\". Nas Configurações de Wi-Fi para o iPod, é necessário selecionar \"%1$@\" na lista de redes disponíveis.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Você não está conectado à rede \"%1$@\". Nas Configurações de Wi-Fi para o iPad, é necessário selecionar \"%1$@\" na lista de redes disponíveis.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Você não está conectado à rede \"%1$@\". Nas Configurações de Wi-Fi para o iPhone, é necessário selecionar \"%1$@\" na lista de redes disponíveis.";
@@ -346,8 +344,8 @@
     "<Wireless_NotSonosAP_TryAgain>" = "Tentar Novamente";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Configuração Alternativa";
 
-    "<Wireless_CheckLight_Title>" = "Verificar Luz no Player";
-    "<Wireless_CheckLight_Body>" = "Você vê uma luz fixa laranja no seu player Sonos?";
+    "<Wireless_CheckLight_Title>" = "Verificar Luz no Alto-falante";
+    "<Wireless_CheckLight_Body>" = "Você vê uma luz fixa laranja no seu alto-falante Sonos?";
     "<Wireless_CheckLight_SeeLight>" = "Vejo uma luz laranja";
     "<Wireless_CheckLight_DontSeeLight>" = "Não vejo uma luz laranja";
 
@@ -358,10 +356,10 @@
 /* WAC Setup Custom Wizard */
 
     "<WAC_Wizard_Title>" = "Configuração Sem Fio";
-    "<WAC_Prep_Body_1>" = "Para adicionar o seu novo player, você será orientado através das etapas de Configuração do Acessório iOS para configurá-lo em sua rede sem fio normal.";
+    "<WAC_Prep_Body_1>" = "Para adicionar o seu novo alto-falante, você será orientado através das etapas de Configuração do Acessório iOS para configurá-lo em sua rede sem fio normal.";
     "<WAC_Prep_Input_1>" = "Ir para Configuração do Acessório";
-    "<WAC_Error_Title>" = "Não Conectado ao Player";
-    "<WAC_Error_Body_1>" = "Seu novo player não está conectado à sua rede sem fio.";
+    "<WAC_Error_Title>" = "Não Conectado ao Alto-falante";
+    "<WAC_Error_Body_1>" = "Seu novo alto-falante não está conectado à sua rede sem fio.";
     "<WAC_Error_Body_2>" = "Selecione \"Tentar Novamente\" para repetir as etapas de configuração. Se você ainda tiver problemas nesse processo, selecione \"Configuração Alternativa\".";
 
     "<WAC_Wizard_Waiting_Title>" = "Conectando";
@@ -385,10 +383,15 @@
 
 /* SUB Equalizer */
 
-    "<SUBOn>" = "SUB";
-    "<SUBLevel>" = "Nível SUB";
-    "<PlacementAdjustment>" = "Ajuste de Posicionamento";
-    "<SpeakerSize>" = "Tamanho Alto-Falante (Crossover)";
+    "<SubEnabled>" = "Sub EnabledZXZ";
+    "<SubLevel>" = "Sub LevelZXZ";
+    "<SubPhase>" = "Phase ControlZXZ";
+    "<SubPhase0>" = "0°ZXZ";
+    "<SubPhase180>" = "180°ZXZ";
+    "<SubCrossover>" = "Crossover FrequencyZXZ";
+    // %1$d: frequency 50-110
+    "<SubCrossoverHerz_1>" = "%1$d HzZXZ";
+    "<SubCrossoverDescription>" = "Lower end is best for large floor speakers, highest end is best for compact speakers.ZXZ";
 
 /* Surround Equalizer */
 
@@ -467,6 +470,7 @@
 
     "<ControlCenterDisconnected>" = "Conectando…";
     "<ControlCenterSearching>" = "Procurando o Sonos…";
+    "<LockscreenDisabledByAirPlay>" = "Os controles do aplicativo Sonos não aparecem mais na sua tela de bloqueio.";
 
 /* 3d touch home icon */
 
@@ -506,6 +510,8 @@
     "<DirectControlLastPlayedFrom>" = "Última reprodução de";
     "<DirectControlLastPlayedFrom_1>" = "Última reprodução de %1$@";
     "<DirectControlResumeFrom>" = "Continuar de";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Continuar de %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Tocando de %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -549,10 +555,9 @@
     "<AlarmAwayModeAlertUnmute>" = "Ligar";
     "<AlarmAwayModeNotificationTitle>" = "Os alertas de soneca estão desligados";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<AlarmAwayModeNotificationBodyNAlarms>" = "As notificações de soneca foram desligadas para %d alarmes na casa.";
+    "<AlarmAwayModeNotificationBodyNAlarms>" = "As notificações de soneca foram desligadas para %d alarme(s) na casa.";
 
 /* System Status */
-    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
-    "<SystemStatusSeverityError>" = "ErrorZXZ";
-
+    "<SystemStatusSeverityVOLabel_1>" = "%@ notificação";
+    "<SystemStatusSeverityError>" = "Erro";
 

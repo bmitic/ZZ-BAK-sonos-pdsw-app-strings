@@ -3,6 +3,7 @@
 <string name="settings_title">Innstillinger</string>
 <string name="room_settings">Rominnstillinger</string>
 <string name="parental_controls">Foreldrekontroll</string>
+<string name="my_sonos_settings">Kontoinnstillinger</string>
 <string name="rename_zp_prompt">Romnavn</string>
 <string name="toggle_button_on_text">PÅ</string>
 <string name="toggle_button_off_text">AV</string>
@@ -17,16 +18,14 @@
 <string name="music_eq_balance_positive_value">H</string>
 <string name="music_eq_loudness_text">Loudness</string>
 <string name="music_eq_reset_all_text">Tilbakestill alle</string>
-<string name="music_eq_on_text">PÅ</string>
-<string name="music_eq_off_text">AV</string>
 <string name="tv_audio_delay_text">Lydforsinkelse (leppesynkronisering)</string>
 <string name="tv_audio_delay_min_value">Min</string>
 <string name="tv_audio_delay_max_value">Max</string>
 <string name="tv_dialog_reset_all_text">Tilbakestill alle</string>
 <string name="tv_dialog_settings_title">Innstillinger for dialog på TV</string>
-<string name="sub_eq_title">SUB-innstillinger</string>
-<string name="sub_eq_gain_text">SUB-nivå</string>
-<string name="sub_eq_enabled_text">SUB</string>
+<string name="sub_eq_title">Sub-innstillinger</string>
+<string name="sub_eq_gain_text">Sub-nivå</string>
+<string name="sub_eq_enabled_text">Sub</string>
 <string name="sub_eq_polarity_text">Justering av plassering</string>
 <string name="sub_eq_speakersize_label">Høyttalerstørrelse (kryssover)</string>
 <string name="surround_eq_title">Surroundinnstillinger</string>
@@ -49,7 +48,6 @@
 <string name="music_shares_sharename">\\\\MinDatamaskin\\Delt\\Musikk</string>
 <string name="music_eq_not_supported">Equalizerinnstillinger er ikke tilgjengelige mens en Sonos-spillers utgangsnivå er satt til Fast.</string>
 <string name="moreinfo_title">Mer informasjon</string>
-<string name="unconfigured_spinner_header">Velg spiller</string>
 <string name="notifications_setting">Vis varslinger</string>
 <string name="lockscreen_setting">Vis låseskjermkontroller</string>
 <string name="lockscreen_volume_homescreen_setting">Tillat volumkontroll i startskjermbildet</string>
@@ -58,7 +56,6 @@
 <string name="lockscreen_external_setting_subtitle">Krever låseskjerm</string>
 <string name="app_shortcuts_setting">Vis appsnarveier</string>
 <string name="app_shortcuts_setting_subtitle">Krever varslinger</string>
-<string name="use_tablet_layout_setting">Bruk lesebrett-oppsett</string>
 <string name="debug_wizard">Feilsøkingsveiviser</string>
 <string name="alarm_toggle">Alarm av/på</string>
 <string name="time_picker_content">Tidspunkt: %s</string>

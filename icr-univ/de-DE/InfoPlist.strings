@@ -5,4 +5,4 @@ NSLocationAlwaysUsageDescription = "Wir verwenden deinen Standort, um die Einric
 NSLocationWhenInUseUsageDescription = "Wir verwenden deinen Standort, um die Einrichtung zu vereinfachen und besseren Support anzubieten.";
 NSAppleMusicUsageDescription = "Sonos kann heruntergeladene Songs und Podcasts abspielen.";
 NSMicrophoneUsageDescription = "Sonos verwendet dein Mikrofon zur Trueplay-Einstellung.";
-NSBluetoothPeripheralUsageDescription = "Sonos verwendet Bluetooth zum Auffinden nahe gelegener Lautsprecher.";
+NSBluetoothPeripheralUsageDescription = "Sonos verwendet Bluetooth zum Auffinden nahe gelegener Speaker.";
