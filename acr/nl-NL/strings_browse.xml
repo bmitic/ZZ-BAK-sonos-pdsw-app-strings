@@ -9,7 +9,6 @@
 <string name="browse_playlists_title">Afspeellijsten</string>
 <string name="browse_podcasts_title">Podcasts</string>
 <string name="browse_local_library_root">Op dit mobiele apparaat</string>
-<string name="browse_empty_favorites">Tik tijdens het bladeren door of afspelen van muziek op het %1$s-pictogram om nummers, stations of albums aan je favorieten toe te voegen.</string>
 <string name="browse_more_options">Meer opties</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s. Expliciet.</string>
 <string name="accessibility_item_badge_format">%1$s. Nieuw.</string>

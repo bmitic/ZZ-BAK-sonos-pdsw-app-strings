@@ -40,10 +40,6 @@
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "关闭";
-    // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "%1$@ 闹钟响起";
-
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
     "<ExternalAlarmsNote_1>" = "语音命令设置的闹钟由 %1$@ 管理。";
     "<ExternalAlarmsAlexaApp>" = "Alexa 应用程序";
@@ -108,12 +104,10 @@
     "<NextButtonBook>" = "下一章";
     "<QUEUE>" = "队列";
     "<NotInUse>" = "未使用";
-    "<NowPlayingNoMusic>" = "无音乐";
+    "<NowPlayingNoMusic>" = "未选择音乐";
     "<NowPlayingDialogEnhacementLabel>" = "语音增强";
     "<NowPlayingNightModeLabel>" = "夜间音质";
 
-    "<NowPlayingInfoButtonLabel>" = "信息和选项";
-    "<NowPlayingInfoButtonHint>" = "查看有关当前正在播放内容的信息和选项。";
     "<NowPlayingOn>" = "—"; //in non-english languages, please translate to —
     "<NowPlayingOnAccessibilityLabel>" = "打开 %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
     "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ 打开 %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
@@ -138,7 +132,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "连按打开正在播放";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ 和 %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +140,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@、%2$@ 和 %3$d 等";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "当前正在播放 %@";
+    "<NowPlayingOpen>" = "打开正在播放";
     "<NowPlayingClose>" = "关闭“现在播放”";
-    "<NowPlayingCloseHint>" = "双击以返回音乐浏览";
 
 /* Info Menu */
 
@@ -190,7 +183,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d 首歌曲。";
+    "<QueueTrackLabel_1>" = ".%d 首歌曲。";
     "<QueueShuffleButtonLabel>" = "随机播放";
     "<QueueRepeatAllButtonLabel>" = "重复全部";
     "<QueueRepeatOneButtonLabel>" = "重复歌曲";
@@ -205,18 +198,22 @@
     "<Rooms>" = "房间";
     "<GroupRooms>" = "为房间分组";
     "<Group>" = "同步";
+    "<Available>" = "可用";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "为房间分组";
     "<PauseAll>" = "全部暂停";
     "<PauseAllConfirmation>" = "是否确实要暂停在所有房间中播放音乐？";
-    "<ContinueSetUp>" = "继续设置";
-    "<SoftwareUpdateRequired>" = "软件需要更新";
+    "<SelectToUpdate>" = "选择更新";
+    "<SelectToConfigure>" = "选择设置";
+    "<SelectToRegister>" = "选择注册";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
     // an appropriate pause when being read by VoiceOver.
     "<MultipleRoomNames_2>" = "%1$@ 和 %2$@";
+    "<NewSession>" = "新的会话";
+    "<NewSessionAccessibilityLabel>" = "新的会话。按钮";
 
 /* Rooms Voiceover */
     "<SelectRooms>" = "选择房间";
@@ -294,12 +291,13 @@
     "<Settings>" = "设置";
     "<RoomSettings>" = "房间设置";
     "<ParentalControls>" = "家长控制";
+    "<MySonosSettings>" = "帐户设置";
     "<MoreInformation>" = "更多信息";
     "<Help>" = "帮助";
     "<Call>" = "呼叫";
 
 /* Shares */
-    "<SharesNowInUseExplanation>" = "您的 Sonos 播放器访问下列共享文件夹中的音乐:";
+    "<SharesNowInUseExplanation>" = "您的 Sonos 扬声器访问下列共享文件夹中的音乐:";
     "<EnterShareInfoTitle>" = "输入共享信息";
     "<SharePathPlaceholder>" = "路径 \\\\\\\\computer\\\\sharename";
     "<ShareUsernamePlaceholder>" = "用户名（如果需要）";
@@ -308,24 +306,24 @@
     "<AddingShareInstructions>" = "您的新共享将添加到您的 Sonos 系统。\n\nSonos 首先需要为您的音乐创建索引。此操作完成后，音乐将显示在您的音乐库中。\n\n按“完成”按钮以结束操作。";
 
 /* Wireless Setup Custom Wizard */
-    "<Wireless_CheckOpenAP_Title>" = "播放器设置";
-    "<Wireless_CheckOpenAP_Body1>" = "等待几秒钟，直至您看到 Sonos 播放器闪烁橙色指示灯。";
+    "<Wireless_CheckOpenAP_Title>" = "扬声器设置";
+    "<Wireless_CheckOpenAP_Body1>" = "等待几秒钟，直至您看到 Sonos 扬声器闪烁橙色指示灯。";
     "<Wireless_CheckOpenAP_Button1>" = "我看到一个橙色指示灯";
     "<Wireless_CheckOpenAP_Button2>" = "我没有看到橙色指示灯";
 
     "<Wireless_CheckOpenAP_NoLight_Title>" = "重复按动按钮";
-    "<Wireless_CheckOpenAP_NoLight_Body1>" = "您需要重新按下按钮。\n请按下“重试”。";
+    "<Wireless_CheckOpenAP_NoLight_Body1>" = "您需要重新按下按钮。\n请按下“再试一次”。";
     "<Wireless_CheckOpenAP_NoLight_Body2>" = "注意：如果一直存在问题，请选择“备选设置”。";
     "<Wireless_CheckOpenAP_NoLight_Button1>" = "再试一次";
     "<Wireless_CheckOpenAP_NoLight_Button2>" = "备选设置";
 
-    "<Wireless_Waiting_Title>" = "正在配置播放器";
+    "<Wireless_Waiting_Title>" = "正在配置扬声器";
     "<Wireless_Waiting_Body>" = "请稍候…";
 
     "<Wireless_OpenReady_Title>" = "无线设置";
-    "<Wireless_OpenReady_Body_1_iPod>" = "现在，您要将此 iPod 连接到由 Sonos 播放器创建的临时无线网络。";
-    "<Wireless_OpenReady_Body_1_iPad>" = "现在，您要将此 iPad 连接到由 Sonos 播放器创建的临时无线网络。";
-    "<Wireless_OpenReady_Body_1_iPhone>" = "现在，您要将此 iPhone 连接到由 Sonos 播放器创建的临时无线网络。";
+    "<Wireless_OpenReady_Body_1_iPod>" = "现在，您要将此 iPod 连接到由 Sonos 扬声器创建的临时无线网络。";
+    "<Wireless_OpenReady_Body_1_iPad>" = "现在，您要将此 iPad 连接到由 Sonos 扬声器创建的临时无线网络。";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "现在，您要将此 iPhone 连接到由 Sonos 扬声器创建的临时无线网络。";
     "<Wireless_OpenReady_Body_2_iPod>" = "该无线网络名为“%1$@”，显示在 iPod 设置的 Wi-Fi 部分中。";
     "<Wireless_OpenReady_Body_2_iPad>" = "该无线网络名为“%1$@”，显示在 iPad 设置的 Wi-Fi 部分中。";
     "<Wireless_OpenReady_Body_2_iPhone>" = "该无线网络名为“%1$@”，显示在 iPhone 设置的 Wi-Fi 部分中。";
@@ -338,16 +336,16 @@
     "<Wireless_Instructions_Body_2>" = "2.点击网络列表中的“%1$@”";
     "<Wireless_Instructions_Body_3>" = "3.返回 Sonos 应用程序并按“下一步”继续";
 
-    "<Wireless_NotSonosAP_Title>" = "未连接到播放器";
+    "<Wireless_NotSonosAP_Title>" = "未连接到扬声器";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "您未连接到“%1$@”网络。在此 iPod 的 Wi-Fi 设置中，您需要从可用网络中选择“%1$@”。";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "您未连接到“%1$@”网络。在此 iPad 的 Wi-Fi 设置中，您需要从可用网络中选择“%1$@”。";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "您未连接到“%1$@”网络。在此 iPhone 的 Wi-Fi 设置中，您需要从可用网络中选择“%1$@”。";
-    "<Wireless_NotSonosAP_Body_2>" = "按“重试”以重新设置。如果一直存在问题，请按“备选设置”。";
+    "<Wireless_NotSonosAP_Body_2>" = "按“再试一次”以重新设置。如果一直存在问题，请按“备选设置”。";
     "<Wireless_NotSonosAP_TryAgain>" = "再试一次";
     "<Wireless_NotSonosAP_DontTryAgain>" = "备选设置";
 
-    "<Wireless_CheckLight_Title>" = "检查播放器指示灯";
-    "<Wireless_CheckLight_Body>" = "是否能在 Sonos 播放器上看到常亮的橙色指示灯？";
+    "<Wireless_CheckLight_Title>" = "检查扬声器指示灯";
+    "<Wireless_CheckLight_Body>" = "是否能在 Sonos 扬声器上看到常亮的橙色指示灯？";
     "<Wireless_CheckLight_SeeLight>" = "我看到一个橙色指示灯";
     "<Wireless_CheckLight_DontSeeLight>" = "我没看到橙色指示灯";
 
@@ -358,11 +356,11 @@
 /* WAC Setup Custom Wizard */
 
     "<WAC_Wizard_Title>" = "无线设置";
-    "<WAC_Prep_Body_1>" = "要添加新播放器，您可以遵照指导使用 iOS 附件设置步骤在您的无线网络内对其进行配置。";
+    "<WAC_Prep_Body_1>" = "要添加新扬声器，您可以遵照指导使用 iOS 附件设置步骤在您的无线网络内对其进行配置。";
     "<WAC_Prep_Input_1>" = "转到附件设置";
-    "<WAC_Error_Title>" = "未连接到播放器";
-    "<WAC_Error_Body_1>" = "您的新播放器没有连接到无线网络。";
-    "<WAC_Error_Body_2>" = "选择“重试”重复设置步骤。如果一直存在问题，请选择“备选设置”。";
+    "<WAC_Error_Title>" = "未连接到扬声器";
+    "<WAC_Error_Body_1>" = "您的新扬声器没有连接到无线网络。";
+    "<WAC_Error_Body_2>" = "选择“再试一次”重复设置步骤。如果一直存在问题，请选择“备选设置”。";
 
     "<WAC_Wizard_Waiting_Title>" = "正在连接";
     "<WAC_Wizard_Waiting_Body_1>" = "连接完成中，请稍候…";
@@ -380,20 +378,25 @@
     "<Balance>" = "声道平衡";
     "<Loudness>" = "响度";
     "<Reset>" = "重置";
-    "<EQNotAvailable>" = "当 Sonos 播放器的线路输出等级设置为“固定”时，均衡设置不可用";
+    "<EQNotAvailable>" = "当 Sonos 扬声器的线路输出等级设置为“固定”时，均衡设置不可用";
 
 
 /* SUB Equalizer */
 
-    "<SUBOn>" = "SUB";
-    "<SUBLevel>" = "SUB 级别";
-    "<PlacementAdjustment>" = "放置调整";
-    "<SpeakerSize>" = "扬声器尺寸（分频器）";
+    "<SubEnabled>" = "Sub EnabledZXZ";
+    "<SubLevel>" = "Sub LevelZXZ";
+    "<SubPhase>" = "Phase ControlZXZ";
+    "<SubPhase0>" = "0°ZXZ";
+    "<SubPhase180>" = "180°ZXZ";
+    "<SubCrossover>" = "Crossover FrequencyZXZ";
+    // %1$d: frequency 50-110
+    "<SubCrossoverHerz_1>" = "%1$d HzZXZ";
+    "<SubCrossoverDescription>" = "Lower end is best for large floor speakers, highest end is best for compact speakers.ZXZ";
 
 /* Surround Equalizer */
 
     "<SurroundEnabled>" = "环绕声";
-    "<SurroundLevel>" = "TV 级别";
+    "<SurroundLevel>" = "电视级别";
     "<MusicSurroundLevel>" = "音乐级别";
     "<SurroundMode>" = "音乐播放";
     "<SurroundAmbient>" = "氛围音乐";
@@ -467,6 +470,7 @@
 
     "<ControlCenterDisconnected>" = "正在连接…";
     "<ControlCenterSearching>" = "正在搜索 Sonos…";
+    "<LockscreenDisabledByAirPlay>" = "Sonos 应用程序控制不再出现在锁定屏幕上。";
 
 /* 3d touch home icon */
 
@@ -506,6 +510,8 @@
     "<DirectControlLastPlayedFrom>" = "上次播放位置";
     "<DirectControlLastPlayedFrom_1>" = "上次从 %1$@ 播放";
     "<DirectControlResumeFrom>" = "恢复";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "从 %@ 恢复";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "正在从 %1$@ 播放";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -549,10 +555,9 @@
     "<AlarmAwayModeAlertUnmute>" = "开启";
     "<AlarmAwayModeNotificationTitle>" = "暂停响铃已关闭";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<AlarmAwayModeNotificationBodyNAlarms>" = "已关闭家中的 %d 次闹钟暂停通知。";
+    "<AlarmAwayModeNotificationBodyNAlarms>" = "在家中关闭 %d 个闹钟的暂停通知。";
 
 /* System Status */
-    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
-    "<SystemStatusSeverityError>" = "ErrorZXZ";
-
+    "<SystemStatusSeverityVOLabel_1>" = "%@ 通知";
+    "<SystemStatusSeverityError>" = "错误";
 

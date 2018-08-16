@@ -60,11 +60,11 @@
 <String id="STR_ROOMNAME_PORTABLE">Bærbar</String>
 <String id="STR_ROOMNAME_TVROOM">Tv-værelse</String>
 <String id="STR_ROOMNAME_UNNAMED">Unavngivet</String>
-<String id="STR_ROOMNAME_VIPER">BRIDGE</String>
-<String id="STR_ROOMNAME_BOOST">BOOST</String>
+<String id="STR_ROOMNAME_VIPER">Bridge</String>
+<String id="STR_ROOMNAME_BOOST">Boost</String>
 <String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos-udvidelsestilstand</String>
-<String id="STR_ROOMNAME_DOCK">DOCK</String>
-<String id="STR_ROOMNAME_ANVIL">SUB</String>
+<String id="STR_ROOMNAME_DOCK">Dock</String>
+<String id="STR_ROOMNAME_ANVIL">Sub</String>
 <String id="STR_ROOMNAME_LOUNGE">Lounge</String>
 <String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos-playliste</String>
 <String id="RHHSTR_E_MALFORMED_PATH">%1$s er ikke en gyldig delt mappe. Den skal se sådan ud: \\Computer\Mappe eller \\Computer\Delt\Mappe</String>
@@ -98,6 +98,7 @@
 <String id="RHHSTR_INPUTNAME_Receiver">Modtager</String>
 <String id="RHHSTR_INPUTNAME_Satellite">Satellitmodtager</String>
 <String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay-enhed</String>
+<String id="RHHSTR_INPUTNAME_Turntable">Grammofon</String>
 <String id="RHHSTR_INPUTVOL_VOL0">Niveau 1 (Lav)</String>
 <String id="RHHSTR_INPUTVOL_VOL1">Niveau 2 (A/V-komponent)</String>
 <String id="RHHSTR_INPUTVOL_VOL2">Niveau 3</String>
@@ -112,7 +113,7 @@
 <String id="RHHSTR_CANCEL">Annuller</String>
 <String id="RHHSTR_SONOS_UPDATES">Sonos-opdateringer</String>
 <String id="RHHSTR_ALL">Alle</String>
-<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.ZXZ</String>
+<String id="RHHSTR_RTE_ERROR_OCCURRED">Kunne ikke afspille '%1$s'.</String>
 <String id="RHHSTR_RTE_CANT_REACH_SERVER">Kunne ikke afspille '%1$s' - kunne ikke oprette forbindelse til %2$s.</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED">Kunne ikke afspille '%1$s' - adgang til %3$s blev nægtet.#END_OF_LOCALIZED_STRING %2$s</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">Kunne ikke afspille '%1$s' - adgang nægtet.</String>
@@ -130,42 +131,42 @@
 <String id="RHHSTR_RTE_BAD_INET_RADIO">Kunne ikke afspille '%1$s' - station ikke fundet.</String>
 <String id="RHHSTR_RTE_BUFFERING">Kunne ikke afspille '%1$s' - netværksforbindelsens hastighed er ikke tilstrækkelig til at opretholde afspilningsbuffer.</String>
 <String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Kunne ikke afspille '%1$s' - kan ikke oprette forbindelse til %2$s, fordi serveren ikke kan lokaliseres.</String>
-<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT">Kunne ikke afspille '%1$s' - Rhapsody er begrænset til maksimalt 3 samtidige lydstreams.</String>
-<String id="RHHSTR_RTE_RHAP_UNAVAILABLE">Kunne ikke afspille '%1$s' - sangen er ikke tilgængeligt for streaming fra Rhapsody.</String>
-<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT">Kunne ikke afspille '%1$s' - din logininformation til Rhapsody er ikke gyldig.</String>
-<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED">Kunne ikke afspille '%1$s' - din prøveperiode på Rhapsody er udløbet.</String>
-<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT">'%1$s' kunne ikke afspilles – den tilknyttede Rhapsody-konto blev ikke fundet i dit Sonos-system. Indtast dine kontooplysninger for Rhapsody.</String>
-<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT">Kunne ikke afspille '%1$s' - opgrader din konto hos Rhapsody for at blive en fuldgyldig abonnent.</String>
-<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC">Kunne ikke afspille '%1$s' - Audible-programmer skal anvende 'Format 4' (MP3).</String>
+<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_RHAP_UNAVAILABLE"></String>
+<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT"></String>
+<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC"></String>
 <String id="RHHSTR_RTE_AUDIBLE_DRM">Audible understøttes ikke længere på Sonos.</String>
-<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING">Kunne ikke afspille '%1$s' - den aktiverede Sonos-afspiller til Audible, er ikke til stede.</String>
+<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING"></String>
 <String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Kunne ikke afspille '%1$s' - Windows Media Sharing er ikke aktiveret på en eller flere Sonos-afspillere.</String>
 <String id="RHHSTR_RTE_WMP_NO_LICENSE">Kunne ikke afspille '%1$s' - der kunne ikke opnås en gyldig licens.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT">Den SiriusXM-kanal, der spiller i dit andet rum, blev afbrudt. SiriusXM tillader kun afspilning af en kanal ad gangen.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT">Kunne ikke afspille '%1$s' - din SiriusXM-konto er i brug på en anden computer eller musikafspiller.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT">Kunne ikke afspille '%1$s' - din logininformation til SiriusXM er ikke gyldig.</String>
-<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED">Kunne ikke afspille '%1$s' - din prøveperiode på SiriusXM er udløbet.</String>
-<String id="RHHSTR_RTE_SIRIUS_INACTIVE">'%1$s' kunne ikke afspilles – SiriusXM stopper automatisk afspilning efter længere tids inaktivitet.</String>
-<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT">'%1$s' kunne ikke afspilles – SiriusXM-kontoen knyttet til denne station blev ikke fundet i dit Sonos-system. Indtast dine kontooplysninger for SiriusXM.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL">Kunne ikke afspille '%1$s' - et premiumabonnement hos SiriusXM er påkrævet. Opgrader dit abonnement hos SiriusXM.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL">Kunne ikke afspille '%1$s' - SiriusXM kunne ikke godkende din logininformation. Prøv igen senere.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE">Kunne ikke afspille '%1$s' - din SiriusXM-konto er inaktiv. Kontakt SiriusXM for hjælp.</String>
-<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT">Kunne ikke afspille '%1$s' - din logininformation til Pandora er ikke gyldig.</String>
-<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED">Kunne ikke afspille '%1$s' - din prøveperiode på Pandora er udløbet.</String>
-<String id="RHHSTR_RTE_PAND_NO_ACCOUNT">'%1$s' kunne ikke afspilles – Pandora-kontoen knyttet til denne station blev ikke fundet i dit Sonos-system. Indtast dine kontooplysninger for Pandora.</String>
-<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL">Kunne ikke afspille '%1$s' - et abonnement hos Pandora er påkrævet. Opgrader din konto Pandora.</String>
-<String id="RHHSTR_RTE_PAND_READ_ONLY">Kunne ikke afspille '%1$s' - Pandora er ikke tilgængelig på grund af rutinemæssig vedligeholdelse.</String>
-<String id="RHHSTR_RTE_PAND_STATION_GONE">Kunne ikke afspille '%1$s' - denne station er blevet slettet.</String>
-<String id="RHHSTR_RTE_PAND_SUSPENDED">Pandora kunne ikke gennemføre din anmodning, fordi din konto er blevet suspenderet. Kontakt Pandoras kundesupport på pandora-support@pandora.com.</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_SIRIUS_INACTIVE"></String>
+<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE"></String>
+<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_PAND_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_PAND_READ_ONLY"></String>
+<String id="RHHSTR_RTE_PAND_STATION_GONE"></String>
+<String id="RHHSTR_RTE_PAND_SUSPENDED"></String>
 <String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Kunne ikke afspille '%1$s' - din logininformation til %2$s er ikke gyldig.</String>
 <String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">'%1$s' kunne ikke afspilles – den tilknyttede %2$s-konto blev ikke fundet i dit Sonos-system.</String>
 <String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Kunne ikke afspille '%1$s' - din prøveperiode på %2$s er udløbet.
 
 Opgrader din konto hos %2$s.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL">Kunne ikke afspille '%1$s' - Denne funktion kræver et betalt abonnement. Opgrader din konto på www.sonos.com/Last.fm/expired.</String>
-<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT">Den Last.fm-station, der spiller i dit andet rum, blev afbrudt. Last.fm tillader kun afspilning af en station ad gangen.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT">'%1$s' kunne ikke afspilles – den tilknyttede Last.fm-konto blev ikke fundet i dit Sonos-system. Indtast dine kontooplysninger for Last.fm.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_CONTENT">Kunne ikke afspille '%1$s' - der er ikke nok indhold til at afspille denne Last.fm-station.</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_CONTENT"></String>
 <String id="RHHSTR_RTE_DOCK_INTERRUPT">Afspilning af musik fra '%1$s' blev afbrudt.</String>
 <String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Afspilning fra %2$s blev stoppet, fordi afspilning blev startet fra et andet rum eller en anden enhed. %2$s begrænser antallet af samtidige audiostreams, som du har adgang til fra dens tjeneste.#END_OF_LOCALIZED_STRING %1$s</String>
 <String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Kunne ikke afspille '%1$s' - opgrader din konto hos %2$s for at blive en fuldgyldig abonnent.</String>
@@ -339,6 +340,7 @@ Opgrader din konto hos %2$s.</String>
 <String id="RHHSTR_SONOS_TRIAL_NDAYS">Prøveperiode på %2$s (%1$s dage)</String>
 <String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s Prøveperiode (Udløbet)</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
+<String id="RHHSTR_RECENTLY_PLAYED">Senest afspillet</String>
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
 <String id="RHHSTR_BROWSE_UPNP_ERROR">Kunne ikke gennemse musik</String>
 <String id="RHHSTR_SEARCH_UPNP_ERROR">Der opstod et problem ved gennemsøgning. Prøv igen.</String>
@@ -374,7 +376,7 @@ Opgrader din konto hos %2$s.</String>
 <String id="RHHSTR_CONNECTING_TITLE">Vent et øjeblik…</String>
 <String id="RHHSTR_APPLINK_CONNECTION_QUIT">Ikke nu</String>
 <String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s ikke installeret. Installer app'en , og prøv igen.</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install AppZXZ</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Installer app</String>
 <String id="RHHSTR_SN_POST_SUCCESS">Beskeden blev sendt.</String>
 <String id="RHHSTR_SN_POST_FAIL">Beskeden blev ikke sendt.</String>
 <String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Beskeden blev sendt til %1$s (%2$s), men blev ikke sendt til %3$s (%4$s).</String>
@@ -666,13 +668,13 @@ Zimbabwe:ZW</String>
 (GMT+01:00) Bruxelles, København, Madrid, Paris
 (GMT+01:00) Sarajevo, Skopje, Warszawa, Zagreb
 (GMT+01:00) Vestcentralafrika
-(GMT+02:00) Athen, Istanbul, Minsk
+(GMT+02:00) Athen
 (GMT+02:00) Bucharest
 (GMT+02:00) Kairo
 (GMT+02:00) Harare, Pretoria
 (GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn
 (GMT+02:00) Jerusalem
-(GMT+03:00) Baghdad
+(GMT+03:00) Baghdad, Istanbul, Minsk
 (GMT+03:00) Kuwait, Riyadh
 (GMT+03:00) Moskva, St. Petersborg, Volgograd
 (GMT+03:00) Nairobi
@@ -713,6 +715,7 @@ Zimbabwe:ZW</String>
 <String id="STR_Setting_fixedOutputLevel">Niveau for ekstern udgang (%1$s)</String>
 <String id="STR_Setting_fixedOutputLevel_Fixed">Fast</String>
 <String id="STR_Setting_fixedOutputLevel_Variable">Variabel</String>
+<String id="STR_Setting_fixedOutputLevel_PassThrough">Pass-ThroughZXZ</String>
 <String id="STR_Setting_fixedOutputLevel_Msg">Du kan indstille niveauet for Sonos-afspillerens eksterne udgang til variabel eller fast.</String>
 <String id="STR_GeneralSettings">Systemindstillinger</String>
 <String id="STR_Setting_ZoneExtender">Afspillertilstand (%1$s)</String>
@@ -779,7 +782,7 @@ Zimbabwe:ZW</String>
 
 Vælg en scrobbling-valgmulighed:</String>
 <String id="STR_NPNoInfoAvailable">[Ingen information tilgængelig]</String>
-<String comment="used for now playing" id="STR_NoMusic">[ingen musik]</String>
+<String comment="used for now playing" id="STR_NoMusic">[Ingen musik valgt]</String>
 <String id="STR_SourceDeviceHdr">Kildeenhed</String>
 <String comment="softkey label" id="STR_AddToQueue">Føj til sidst i køen</String>
 <String id="STR_PlayNow">Afspil nu</String>
@@ -804,10 +807,8 @@ Lydindgang: %1$s</String>
 <String id="STR_AboutBoxZPxi">
 %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
-Advarsel: Dit trådløse netværk understøtter ikke brugen af en SUB eller surround-højttalere med %1$s.</String>
+Advarsel: Dit trådløse netværk understøtter ikke brugen af en Sub eller surround-højttalere med %1$s.</String>
 <String id="STR_Setting_ZPHidden">%1$s (Skjult)</String>
-<String id="STR_Setting_UnassociatedSub">%1$s (ikke anvendt)</String>
-<String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
 <String comment="top-level sub-title" id="STR_MusicCollection">Musik</String>
 <String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes®-opsamlingsalbum</String>
 <String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Albumkunstnere</String>
@@ -942,7 +943,7 @@ Brug Sonos opsætningssoftware på din computer til at indstille musikmapper til
 <String id="STR_ZPNameFmtBondTwo">%1$s (%2$s+%3$s)</String>
 <String id="STR_ZPNameChannelLeft">V</String>
 <String id="STR_ZPNameChannelRight">H</String>
-<String id="STR_ZPNameChannelSub">SUB</String>
+<String id="STR_ZPNameChannelSub">Sub</String>
 <String id="STR_ZPNameChannelLeftSatellite">VH</String>
 <String id="STR_ZPNameChannelRightSatellite">HH</String>
 <String id="STR_ZPNameChannelLeftAndRightSatellite">VH+HH</String>
@@ -1018,13 +1019,6 @@ Tryk på knappen OK for at fortsætte.</String>
 <String id="RHHSTR_OptInRequiredForSoundLab">For at tilføje Sonos Labs offentlige betatjenester, skal du dele dine brugsdata med Sonos.
 
 For at se eller ændre dine brugsdataindstillinger, skal du gå til Indstillinger &gt; Avancerede Indstillinger &gt; Brugsdata.</String>
-<String id="STR_TwoButtonDevices">PLAY
-CONNECT:AMP
-CONNECT</String>
-<String id="STR_OneButtonDevicesInitial">BRIDGE</String>
-<String id="STR_OneButtonDevicesWithPlayer">BRIDGE
-SUB
-DOCK</String>
 <String id="STR_HTAudioHdr">TV</String>
 <String id="STR_SUBXOver0">1. Kompakt</String>
 <String id="STR_SUBXOver1">2.</String>
@@ -1033,7 +1027,7 @@ DOCK</String>
 <String id="STR_SUBXOver4">5.</String>
 <String id="STR_SUBXOver5">6. Gulv</String>
 <String id="STR_SUBXOver6">7.</String>
-<String id="STR_StereoPair_Error_SUB_Fmt">Denne %1$s-højttaler er indstillet med en SUB. Du skal have en anden %2$s-højttaler, der ikke er indstillet med en SUB, og som ikke allerede er en del af et stereopar for at kunne danne et stereopar med denne højttaler.</String>
+<String id="STR_StereoPair_Error_SUB_Fmt">Denne %1$s-højttaler er indstillet med en Sub. Du skal have en anden %2$s-højttaler, der ikke er indstillet med en Sub, og som ikke allerede er en del af et stereopar for at kunne danne et stereopar med denne højttaler.</String>
 <String id="STR_AddToFavoritesAdded">&quot;%1$s&quot; føjet til Sonos-favoritter.</String>
 <String id="STR_AddToFavoritesAddedWithRemaining">&quot;%1$s&quot; føjet til Sonos-favoritter.
 
@@ -1081,4 +1075,5 @@ Du kan fjerne eksisterende Sonos-favoritter for at lave plads til nye.</String>
 <String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">Problem med musikbibliotek</String>
 <String id="RHHSTR_SAVEDQUEUES_NOSPACE">Dine Sonos-playlister er fyldte. Du kan fjerne sange fra playlister eller slette playlister, du ikke anvender, og prøve igen.</String>
 <String id="RHHSTR_SECURE_REG_PROMPT">Styr Sonos med %1$s-appen</String>
+<String id="RHHSTR_EMPTY_HISTORY">Musik, som du afspiller, vises her</String>
 </Strings>

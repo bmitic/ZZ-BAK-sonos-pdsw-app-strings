@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="zone_grouping_title">Grupper rum</string>
-<string comment="(LOC-257)Title for Handheld devices in Danish, German, Spanish, French, Italian, Japanese, Dutch, and Portuguese should be localized as Group instead" name="zone_grouping_title_short">Gruppe</string>
-<string name="zone_grouping_select_all_button_text">Vælg alle</string>
-<string name="zone_grouping_unselect_all_button_text">Fravælg alle</string>
-<string name="zone_grouping_selected_will_play">Valgte rum, hvori der vil afspilles:</string>
-<string name="zone_grouping_multi_selected_will_play">Der afspilles forskellig musik i de rum, du har valgt.</string>
-<string name="zone_grouping_no_music">Ingen musik</string>
+<string name="zone_grouping_no_music">Ingen musik valgt</string>
 <string name="zone_grouping_choose_music">Tryk på Afslut for at vælge musik.</string>
 <string name="zone_grouping_picker_header">Vælg musik, der skal afspilles i udvalgte rum</string>
 <string name="zone_grouping_play_to_the_following">Afspil følgende</string>

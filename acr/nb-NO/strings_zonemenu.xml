@@ -3,7 +3,7 @@
 <string name="zones_pause_all">Pause alle</string>
 <string name="zones_pause_all_warning">Ønsker du å pause musikken i alle rom?</string>
 <string name="zone_group_button_text">Gruppe</string>
-<string name="zone_menu_select_to_update">Programvareoppdatering er nødvendig</string>
-<string name="zone_menu_select_to_setup_sub">Konfigurer SUB</string>
-<string name="zone_menu_select_to_configure">Fortsett installasjonen</string>
+<string name="zone_menu_select_to_update">Velg å oppdatere</string>
+<string name="zone_menu_select_to_configure">Velg for å konfigurere</string>
+<string name="zone_menu_select_to_register">Velg for å registrere</string>
 </resources>

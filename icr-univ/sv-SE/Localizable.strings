@@ -40,10 +40,6 @@
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "Stäng av";
-    // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "%1$@s väckning hörs";
-
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
     "<ExternalAlarmsNote_1>" = "Väckningar som anges med röstkommando hanteras av %1$@.";
     "<ExternalAlarmsAlexaApp>" = "Alexa-appen";
@@ -108,12 +104,10 @@
     "<NextButtonBook>" = "Nästa kapitel";
     "<QUEUE>" = "Kö";
     "<NotInUse>" = "Används inte";
-    "<NowPlayingNoMusic>" = "Ingen musik";
+    "<NowPlayingNoMusic>" = "Ingen vald musik";
     "<NowPlayingDialogEnhacementLabel>" = "Talförbättring";
     "<NowPlayingNightModeLabel>" = "Nattljud";
 
-    "<NowPlayingInfoButtonLabel>" = "Information och alternativ";
-    "<NowPlayingInfoButtonHint>" = "Visa information och alternativ för vad som spelas upp för närvarande.";
     "<NowPlayingOn>" = "—"; //in non-english languages, please translate to —
     "<NowPlayingOnAccessibilityLabel>" = "på %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
     "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ på %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
@@ -138,7 +132,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Dubbeltryck för att öppna Spelar nu";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ och %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +140,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ och %3$d andra";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Spelar för närvarande upp %@";
+    "<NowPlayingOpen>" = "Öppna Spelar nu";
     "<NowPlayingClose>" = "Stäng Spelar nu";
-    "<NowPlayingCloseHint>" = "Dubbeltryck för att gå tillbaka till musikbläddring";
 
 /* Info Menu */
 
@@ -190,7 +183,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d låtar.";
+    "<QueueTrackLabel_1>" = ".%d låt/låtar.";
     "<QueueShuffleButtonLabel>" = "Blanda";
     "<QueueRepeatAllButtonLabel>" = "Upprepa alla";
     "<QueueRepeatOneButtonLabel>" = "Upprepa låt";
@@ -205,18 +198,22 @@
     "<Rooms>" = "Rum";
     "<GroupRooms>" = "Gruppera rum";
     "<Group>" = "Grupp";
+    "<Available>" = "Tillgänglig";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Gruppera rum";
     "<PauseAll>" = "Pausa alla";
     "<PauseAllConfirmation>" = "Vill du pausa musiken som spelas upp i alla rum?";
-    "<ContinueSetUp>" = "Fortsätt installationen";
-    "<SoftwareUpdateRequired>" = "Programuppdatering krävs";
+    "<SelectToUpdate>" = "Markera för att uppdatera";
+    "<SelectToConfigure>" = "Välj för att konfigurera";
+    "<SelectToRegister>" = "Välj för att registrera";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
     // an appropriate pause when being read by VoiceOver.
     "<MultipleRoomNames_2>" = "%1$@ och %2$@";
+    "<NewSession>" = "Ny session";
+    "<NewSessionAccessibilityLabel>" = "Ny session. Knapp";
 
 /* Rooms Voiceover */
     "<SelectRooms>" = "Välj rum";
@@ -294,6 +291,7 @@
     "<Settings>" = "Inställningar";
     "<RoomSettings>" = "Rumsinställningar";
     "<ParentalControls>" = "Föräldrakontroller";
+    "<MySonosSettings>" = "Kontoinställningar";
     "<MoreInformation>" = "Mer information";
     "<Help>" = "Hjälp";
     "<Call>" = "Ring";
@@ -308,8 +306,8 @@
     "<AddingShareInstructions>" = "Din nya resurs läggs till i ditt Sonos-system.\n\nSonos måste först skapa ett index av din musik. När detta är klart visas musiken i ditt bibliotek.\n\nSlutför genom att trycka på knappen Klar.";
 
 /* Wireless Setup Custom Wizard */
-    "<Wireless_CheckOpenAP_Title>" = "Spelarinstallation";
-    "<Wireless_CheckOpenAP_Body1>" = "Vänta ett par sekunder tills du ser ett blinkande orange ljus på din Sonos-spelare.";
+    "<Wireless_CheckOpenAP_Title>" = "Högtalarinstallation";
+    "<Wireless_CheckOpenAP_Body1>" = "Vänta ett par sekunder tills du ser ett blinkande orange ljus på din Sonos-högtalare.";
     "<Wireless_CheckOpenAP_Button1>" = "Jag ser ett orange ljus";
     "<Wireless_CheckOpenAP_Button2>" = "Jag ser inte ett orange ljus";
 
@@ -319,13 +317,13 @@
     "<Wireless_CheckOpenAP_NoLight_Button1>" = "Försök igen";
     "<Wireless_CheckOpenAP_NoLight_Button2>" = "Alternativ installation";
 
-    "<Wireless_Waiting_Title>" = "Konfigurerar spelare";
+    "<Wireless_Waiting_Title>" = "Konfigurerar högtalare";
     "<Wireless_Waiting_Body>" = "Vänta…";
 
     "<Wireless_OpenReady_Title>" = "Trådlösa inställningar";
-    "<Wireless_OpenReady_Body_1_iPod>" = "Du kommer nu att ansluta denna iPod till ett temporärt trådlöst nätverk som skapats av din Sonos-spelare.";
-    "<Wireless_OpenReady_Body_1_iPad>" = "Du kommer nu att ansluta denna iPad till ett temporärt trådlöst nätverk som skapats av din Sonos-spelare.";
-    "<Wireless_OpenReady_Body_1_iPhone>" = "Du kommer nu att ansluta denna iPhone till ett temporärt trådlöst nätverk som skapats av din Sonos-spelare.";
+    "<Wireless_OpenReady_Body_1_iPod>" = "Du kommer nu att ansluta denna iPod till ett temporärt trådlöst nätverk som skapats av din Sonos-högtalare.";
+    "<Wireless_OpenReady_Body_1_iPad>" = "Du kommer nu att ansluta denna iPad till ett temporärt trådlöst nätverk som skapats av din Sonos-högtalare.";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "Du kommer nu att ansluta denna iPhone till ett temporärt trådlöst nätverk som skapats av din Sonos-högtalare.";
     "<Wireless_OpenReady_Body_2_iPod>" = "Detta trådlösa nätverk, som heter %1$@, finns tillgängligt i avsnittet Wi-Fi i iPod-inställningarna.";
     "<Wireless_OpenReady_Body_2_iPad>" = "Detta trådlösa nätverk, som heter %1$@, finns tillgängligt i avsnittet Wi-Fi i iPad-inställningarna.";
     "<Wireless_OpenReady_Body_2_iPhone>" = "Detta trådlösa nätverk, som heter %1$@, finns tillgängligt i avsnittet Wi-Fi i iPhone-inställningarna.";
@@ -338,7 +336,7 @@
     "<Wireless_Instructions_Body_2>" = "2. Tryck på %1$@ i listan med nätverk.";
     "<Wireless_Instructions_Body_3>" = "3. Gå tillbaka till Sonos-appen och fortsätt genom att trycka på Nästa";
 
-    "<Wireless_NotSonosAP_Title>" = "Inte ansluten till spelare";
+    "<Wireless_NotSonosAP_Title>" = "Inte ansluten till högtalare";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Du är inte ansluten till nätverket %1$@. I Wi-Fi-inställningarna för denna iPod måste du välja %1$@ i listan med tillgängliga nätverk.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Du är inte ansluten till nätverket %1$@. I Wi-Fi-inställningarna för denna iPad måste du välja %1$@ i listan med tillgängliga nätverk.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Du är inte ansluten till nätverket %1$@. I Wi-Fi-inställningarna för denna iPhone måste du välja %1$@ i listan med tillgängliga nätverk.";
@@ -346,8 +344,8 @@
     "<Wireless_NotSonosAP_TryAgain>" = "Försök igen";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Alternativ installation";
 
-    "<Wireless_CheckLight_Title>" = "Kontrollera lampan på spelaren";
-    "<Wireless_CheckLight_Body>" = "Ser du ett orange ljus som lyser hela tiden på din Sonos-spelare?";
+    "<Wireless_CheckLight_Title>" = "Kontrollera lampan på högtalaren";
+    "<Wireless_CheckLight_Body>" = "Ser du ett orange ljus som lyser hela tiden på din Sonos-högtalare?";
     "<Wireless_CheckLight_SeeLight>" = "Jag ser ett orange ljus";
     "<Wireless_CheckLight_DontSeeLight>" = "Jag ser inte ett orange ljus";
 
@@ -358,10 +356,10 @@
 /* WAC Setup Custom Wizard */
 
     "<WAC_Wizard_Title>" = "Trådlösa inställningar";
-    "<WAC_Prep_Body_1>" = "När du ska lägga till din nya spelare kommer du att guidas genom stegen för iOS-tillbehörsinstallation för att konfigurera den i ditt normala trådlösa nätverk.";
+    "<WAC_Prep_Body_1>" = "När du ska lägga till din nya högtalare kommer du att guidas genom stegen för iOS-tillbehörsinstallation för att konfigurera den i ditt normala trådlösa nätverk.";
     "<WAC_Prep_Input_1>" = "Gå till tillbehörsinstallation";
-    "<WAC_Error_Title>" = "Inte ansluten till spelare";
-    "<WAC_Error_Body_1>" = "Din nya spelare är inte ansluten till ditt trådlösa nätverk.";
+    "<WAC_Error_Title>" = "Inte ansluten till högtalare";
+    "<WAC_Error_Body_1>" = "Din nya högtalare är inte ansluten till ditt trådlösa nätverk.";
     "<WAC_Error_Body_2>" = "Välj Försök igen för att upprepa installationsstegen. Om du fortsätter att ha problem, välj Alternativ installation.";
 
     "<WAC_Wizard_Waiting_Title>" = "Ansluter";
@@ -385,10 +383,15 @@
 
 /* SUB Equalizer */
 
-    "<SUBOn>" = "SUB";
-    "<SUBLevel>" = "SUB-nivå";
-    "<PlacementAdjustment>" = "Justera placering";
-    "<SpeakerSize>" = "Högtalarstorlek (crossover)";
+    "<SubEnabled>" = "Sub EnabledZXZ";
+    "<SubLevel>" = "Sub LevelZXZ";
+    "<SubPhase>" = "Phase ControlZXZ";
+    "<SubPhase0>" = "0°ZXZ";
+    "<SubPhase180>" = "180°ZXZ";
+    "<SubCrossover>" = "Crossover FrequencyZXZ";
+    // %1$d: frequency 50-110
+    "<SubCrossoverHerz_1>" = "%1$d HzZXZ";
+    "<SubCrossoverDescription>" = "Lower end is best for large floor speakers, highest end is best for compact speakers.ZXZ";
 
 /* Surround Equalizer */
 
@@ -439,11 +442,11 @@
 
 /* Duration Voice Over Strings */
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNHours>" = "%d timmar";
+    "<VODurationNHours>" = "%d timme/timmar";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNMinutes>" = "%d minuter";
+    "<VODurationNMinutes>" = "%d minut/minuter";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNSeconds>" = "%d sekunder";
+    "<VODurationNSeconds>" = "%d sekund/sekunder";
 
 // The following provide native orderings for hours, minutes, and seconds
 // They use the formatted strings from earlier in this section
@@ -467,6 +470,7 @@
 
     "<ControlCenterDisconnected>" = "Ansluter…";
     "<ControlCenterSearching>" = "Söker efter Sonos…";
+    "<LockscreenDisabledByAirPlay>" = "Sonos-programmets kontroller visas inte längre på din låsskärm.";
 
 /* 3d touch home icon */
 
@@ -506,6 +510,8 @@
     "<DirectControlLastPlayedFrom>" = "Spelades senast upp från";
     "<DirectControlLastPlayedFrom_1>" = "Spelades senast upp från %1$@";
     "<DirectControlResumeFrom>" = "Återuppta från";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Återuppta från %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Spelar upp från %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -549,10 +555,9 @@
     "<AlarmAwayModeAlertUnmute>" = "Aktivera";
     "<AlarmAwayModeNotificationTitle>" = "Vilolägesaviseringar är avstängda";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<AlarmAwayModeNotificationBodyNAlarms>" = "Vilolägesnotiser avstängda för %d väckningar i huset.";
+    "<AlarmAwayModeNotificationBodyNAlarms>" = "Vilolägesnotiser avstängda för %d väckning eller väckningar i huset";
 
 /* System Status */
-    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
-    "<SystemStatusSeverityError>" = "ErrorZXZ";
-
+    "<SystemStatusSeverityVOLabel_1>" = "%@ notis";
+    "<SystemStatusSeverityError>" = "Fel";
 

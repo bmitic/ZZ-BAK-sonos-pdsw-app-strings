@@ -40,10 +40,6 @@
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "Ausschalten";
-    // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "Wecker aktiv in %1$@";
-
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
     "<ExternalAlarmsNote_1>" = "Über den Sprachbefehl festgelegte Weckeinstellungen werden von %1$@ verwaltet.";
     "<ExternalAlarmsAlexaApp>" = "der Alexa-App";
@@ -108,12 +104,10 @@
     "<NextButtonBook>" = "Nächstes Kapitel";
     "<QUEUE>" = "Liste";
     "<NotInUse>" = "Nicht verwendet";
-    "<NowPlayingNoMusic>" = "Keine Musik";
+    "<NowPlayingNoMusic>" = "Keine Musik ausgewählt";
     "<NowPlayingDialogEnhacementLabel>" = "Sprachverbesserung";
     "<NowPlayingNightModeLabel>" = "Nachtsound";
 
-    "<NowPlayingInfoButtonLabel>" = "Info und Optionen";
-    "<NowPlayingInfoButtonHint>" = "Informationen und Optionen zur aktuellen Wiedergabe anzeigen.";
     "<NowPlayingOn>" = "—"; //in non-english languages, please translate to —
     "<NowPlayingOnAccessibilityLabel>" = "auf %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
     "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ auf %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
@@ -138,7 +132,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Doppelt tippen, um „Aktueller Titel“ zu öffnen";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ und %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +140,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ und %3$d weitere";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Es läuft %@";
+    "<NowPlayingOpen>" = "„Aktueller Titel“ öffnen";
     "<NowPlayingClose>" = "„Aktueller Titel“ schließen";
-    "<NowPlayingCloseHint>" = "Doppelt tippen, um zum Musikmenü zurückzukehren.";
 
 /* Info Menu */
 
@@ -205,18 +198,22 @@
     "<Rooms>" = "Räume";
     "<GroupRooms>" = "Räume gruppieren";
     "<Group>" = "Gruppe";
+    "<Available>" = "Verfügbar";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Gruppe";
     "<PauseAll>" = "Alle anhalten";
     "<PauseAllConfirmation>" = "Möchtest du die Musikwiedergabe in all diesen Räumen anhalten?";
-    "<ContinueSetUp>" = "Einrichtung fortsetzen";
-    "<SoftwareUpdateRequired>" = "Software-Update erforderlich";
+    "<SelectToUpdate>" = "Für Update auswählen";
+    "<SelectToConfigure>" = "Auswählen zum Einrichten";
+    "<SelectToRegister>" = "Auswählen zum Registrieren";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
     // an appropriate pause when being read by VoiceOver.
     "<MultipleRoomNames_2>" = "%1$@ und %2$@";
+    "<NewSession>" = "Neue Sitzung";
+    "<NewSessionAccessibilityLabel>" = "Neue Sitzung. Schaltfläche";
 
 /* Rooms Voiceover */
     "<SelectRooms>" = "Räume auswählen";
@@ -233,7 +230,7 @@
     "<EditRoomsMultiMusic>" = "In den ausgewählten Räumen wird unterschiedliche Musik abgespielt";
     "<MultiMusicMessage>" = "Zur Musikauswahl auf „Fertig“ tippen";
     "<MusicGroupingInstructions>" = "Musik zur Wiedergabe in ausgewählten Räumen auswählen";
-    "<PlayToTheFollowing>" = "Auf folgendem Lautsprecher abspielen";
+    "<PlayToTheFollowing>" = "Auf folgendem Speaker abspielen";
 
 /* Edit Rooms Voice Over */
 
@@ -294,6 +291,7 @@
     "<Settings>" = "Einstellungen";
     "<RoomSettings>" = "Raumeinstellungen";
     "<ParentalControls>" = "Jugendschutz";
+    "<MySonosSettings>" = "Kontoeinstellungen";
     "<MoreInformation>" = "Weitere Infos";
     "<Help>" = "Hilfe";
     "<Call>" = "Anrufen";
@@ -308,8 +306,8 @@
     "<AddingShareInstructions>" = "Deine neue Freigabe wird deinem Sonos-System hinzugefügt.\n\nSonos muss zunächst einen Index deiner Musik erstellen. Anschließend wird die Musik in der Bibliothek angezeigt.\n\nDrücke „Fertig“, um den Vorgang abzuschließen.";
 
 /* Wireless Setup Custom Wizard */
-    "<Wireless_CheckOpenAP_Title>" = "Player-Einrichtung";
-    "<Wireless_CheckOpenAP_Body1>" = "Warte einige Sekunden, bis ein orangefarbenes Licht an deinem Sonos-Player blinkt.";
+    "<Wireless_CheckOpenAP_Title>" = "Speaker-Einrichtung";
+    "<Wireless_CheckOpenAP_Body1>" = "Warte einige Sekunden, bis ein orangefarbenes Licht an deinem Sonos-Speaker blinkt.";
     "<Wireless_CheckOpenAP_Button1>" = "Ich sehe ein orangefarbenes Licht";
     "<Wireless_CheckOpenAP_Button2>" = "Ich sehe kein orangefarbenes Licht";
 
@@ -319,13 +317,13 @@
     "<Wireless_CheckOpenAP_NoLight_Button1>" = "Erneut versuchen";
     "<Wireless_CheckOpenAP_NoLight_Button2>" = "Alternative Einrichtung";
 
-    "<Wireless_Waiting_Title>" = "Player konfigurieren";
+    "<Wireless_Waiting_Title>" = "Speaker konfigurieren";
     "<Wireless_Waiting_Body>" = "Bitte warten…";
 
     "<Wireless_OpenReady_Title>" = "Wireless-Einrichtung";
-    "<Wireless_OpenReady_Body_1_iPod>" = "Du wirst diesen iPod jetzt mit einem temporären WLAN verbinden, das von deinem Sonos-Player eingerichtet wurde.";
-    "<Wireless_OpenReady_Body_1_iPad>" = "Du wirst dieses iPad jetzt mit einem temporären WLAN verbinden, das von deinem Sonos-Player eingerichtet wurde.";
-    "<Wireless_OpenReady_Body_1_iPhone>" = "Du wirst dieses iPhone jetzt mit einem temporären WLAN verbinden, das von deinem Sonos-Player eingerichtet wurde.";
+    "<Wireless_OpenReady_Body_1_iPod>" = "Du wirst diesen iPod jetzt mit einem temporären WLAN verbinden, das von deinem Sonos-Speaker eingerichtet wurde.";
+    "<Wireless_OpenReady_Body_1_iPad>" = "Du wirst dieses iPad jetzt mit einem temporären WLAN verbinden, das von deinem Sonos-Speaker eingerichtet wurde.";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "Du wirst dieses iPhone jetzt mit einem temporären WLAN verbinden, das von deinem Sonos-Speaker eingerichtet wurde.";
     "<Wireless_OpenReady_Body_2_iPod>" = "Dieses WLAN namens „%1$@“ steht im WLAN-Bereich der iPod-Einstellungen zur Verfügung.";
     "<Wireless_OpenReady_Body_2_iPad>" = "Dieses WLAN namens „%1$@“ steht im WLAN-Bereich der iPad-Einstellungen zur Verfügung.";
     "<Wireless_OpenReady_Body_2_iPhone>" = "Dieses WLAN namens „%1$@“ steht im WLAN-Bereich der iPhone-Einstellungen zur Verfügung.";
@@ -338,7 +336,7 @@
     "<Wireless_Instructions_Body_2>" = "2. Tippe in der Liste der Netzwerke auf „%1$@“.";
     "<Wireless_Instructions_Body_3>" = "3. Kehre zur Sonos-App zurück und wähle zum Fortfahren „Weiter“.";
 
-    "<Wireless_NotSonosAP_Title>" = "Nicht mit Player verbunden";
+    "<Wireless_NotSonosAP_Title>" = "Nicht mit Speaker verbunden";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Du bist nicht mit dem Netzwerk „%1$@“ verbunden. Du musst in den WLAN-Einstellungen für diesen iPod „%1$@“ in der Liste verfügbarer Netzwerke auswählen.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Du bist nicht mit dem Netzwerk „%1$@“ verbunden. Du musst in den WLAN-Einstellungen für diesen iPad „%1$@“ in der Liste verfügbarer Netzwerke auswählen.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Du bist nicht mit dem Netzwerk „%1$@“ verbunden. Du musst in den WLAN-Einstellungen für dieses iPhone „%1$@“ in der Liste verfügbarer Netzwerke auswählen.";
@@ -346,8 +344,8 @@
     "<Wireless_NotSonosAP_TryAgain>" = "Erneut versuchen";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Alternative Einrichtung";
 
-    "<Wireless_CheckLight_Title>" = "Leuchte am Player prüfen";
-    "<Wireless_CheckLight_Body>" = "Leuchtet die Statusanzeige an deinem Sonos-Player konstant orange?";
+    "<Wireless_CheckLight_Title>" = "Leuchte am Speaker prüfen";
+    "<Wireless_CheckLight_Body>" = "Leuchtet die Statusanzeige an deinem Sonos-Speaker konstant orange?";
     "<Wireless_CheckLight_SeeLight>" = "Ich sehe ein orangefarbenes Licht";
     "<Wireless_CheckLight_DontSeeLight>" = "Ich sehe kein orangefarbenes Licht";
 
@@ -358,10 +356,10 @@
 /* WAC Setup Custom Wizard */
 
     "<WAC_Wizard_Title>" = "Wireless-Einrichtung";
-    "<WAC_Prep_Body_1>" = "Beim Hinzufügen eines neuen Players wirst du durch die Schritte zur iOS-Zubehörkonfiguration geführt, um den Player in deinem normalen WLAN zu konfigurieren.";
+    "<WAC_Prep_Body_1>" = "Beim Hinzufügen eines neuen Speakers wirst du durch die Schritte zur iOS-Zubehörkonfiguration geführt, um den Speaker in deinem normalen WLAN zu konfigurieren.";
     "<WAC_Prep_Input_1>" = "Zubehörkonfiguration aufrufen";
-    "<WAC_Error_Title>" = "Nicht mit Player verbunden";
-    "<WAC_Error_Body_1>" = "Dein neuer Player ist nicht mit deinem WLAN verbunden.";
+    "<WAC_Error_Title>" = "Nicht mit Speaker verbunden";
+    "<WAC_Error_Body_1>" = "Dein neuer Speaker ist nicht mit deinem WLAN verbunden.";
     "<WAC_Error_Body_2>" = "Wähle „Erneut versuchen“, um die Schritte zur Einrichtung zu wiederholen. Wenn weiterhin Probleme auftreten, wähle „Alternative Einrichtung“.";
 
     "<WAC_Wizard_Waiting_Title>" = "Verbindung wird hergestellt";
@@ -385,22 +383,27 @@
 
 /* SUB Equalizer */
 
-    "<SUBOn>" = "SUB";
-    "<SUBLevel>" = "SUB-Pegel";
-    "<PlacementAdjustment>" = "Platzierungseinstellung";
-    "<SpeakerSize>" = "Lautsprechergröße (Crossover)";
+    "<SubEnabled>" = "Sub EnabledZXZ";
+    "<SubLevel>" = "Sub LevelZXZ";
+    "<SubPhase>" = "Phase ControlZXZ";
+    "<SubPhase0>" = "0°ZXZ";
+    "<SubPhase180>" = "180°ZXZ";
+    "<SubCrossover>" = "Crossover FrequencyZXZ";
+    // %1$d: frequency 50-110
+    "<SubCrossoverHerz_1>" = "%1$d HzZXZ";
+    "<SubCrossoverDescription>" = "Lower end is best for large floor speakers, highest end is best for compact speakers.ZXZ";
 
 /* Surround Equalizer */
 
-    "<SurroundEnabled>" = "Surround-Lautsprecher";
+    "<SurroundEnabled>" = "Surround-Speaker";
     "<SurroundLevel>" = "TV-Pegel";
     "<MusicSurroundLevel>" = "Musikpegel";
     "<SurroundMode>" = "Musikwiedergabe";
     "<SurroundAmbient>" = "Hintergrund";
     "<SurroundFull>" = "Voll";
-    "<SurroundDescription>" = "Während der Musikwiedergabe dienen die Surround-Lautsprecher als Ergänzung durch subtilen Hintergrundsound oder lauteren, vollen Sound.";
-    "<SurroundBalanceButtonLabel>" = "Balance für Surround-Lautsprecher";
-    "<SurroundBalanceDescription>" = "Stelle die Balance für deine Surround-Lautsprecherpegel manuell ein. Verwende die Trueplay-Einstellung, um den Sound für diesen Raum automatisch anzupassen.";
+    "<SurroundDescription>" = "Während der Musikwiedergabe dienen die Surround-Speaker als Ergänzung durch subtilen Hintergrundsound oder lauteren, vollen Sound.";
+    "<SurroundBalanceButtonLabel>" = "Balance für Surround-Speaker";
+    "<SurroundBalanceDescription>" = "Stelle die Balance für deine Surround-Speakerpegel manuell ein. Verwende die Trueplay-Einstellung, um den Sound für diesen Raum automatisch anzupassen.";
 
 /* TV Equalizer */
 
@@ -467,6 +470,7 @@
 
     "<ControlCenterDisconnected>" = "Verbindung herstellen…";
     "<ControlCenterSearching>" = "Suche nach Sonos…";
+    "<LockscreenDisabledByAirPlay>" = "Die Steuerelemente der Sonos-App werden auf dem Sperrbildschirm nicht mehr angezeigt.";
 
 /* 3d touch home icon */
 
@@ -506,6 +510,8 @@
     "<DirectControlLastPlayedFrom>" = "Letzte Wiedergabe von";
     "<DirectControlLastPlayedFrom_1>" = "Letzte Wiedergabe von %1$@";
     "<DirectControlResumeFrom>" = "Fortsetzen bei";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Fortsetzen bei %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Wiedergabe von „%1$@“";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -541,7 +547,7 @@
     "<AlarmNotificationAuthorizationDeniedAlertBody>" = "Lasse in den iOS-Einstellungen Benachrichtigungen für Sonos zu, um Schlummerbenachrichtigungen zu erhalten.";
     "<AlarmNotificationAuthorizationDeniedAlertOpenSettings>" = "Einstellungen öffnen";
     "<AlarmErrorTitleHHNotFound>" = "Keine Verbindung mit Sonos";
-    "<AlarmErrorTitleZPNotFound>" = "Verbinden mit dem Lautsprecher nicht möglich";
+    "<AlarmErrorTitleZPNotFound>" = "Verbinden mit dem Speaker nicht möglich";
     "<AlarmErrorTitleAlarmNotRunning>" = "Es wird kein Wecker abgespielt";
     "<AlarmErrorBodyAwayMode>" = "Wenn du nicht zu Hause bist, kannst du Schlummerbenachrichtigungen deaktivieren.";
     "<AlarmAwayModeAlertTitle>" = "Schlummerbenachrichtigungen sind deaktiviert";
@@ -552,7 +558,6 @@
     "<AlarmAwayModeNotificationBodyNAlarms>" = "Schlummerbenachrichtigungen sind für %d Wecker im Haus deaktiviert.";
 
 /* System Status */
-    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
-    "<SystemStatusSeverityError>" = "ErrorZXZ";
-
+    "<SystemStatusSeverityVOLabel_1>" = "%@-Benachrichtigung";
+    "<SystemStatusSeverityError>" = "Fehler";
 

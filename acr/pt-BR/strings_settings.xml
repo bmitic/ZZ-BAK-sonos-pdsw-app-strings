@@ -3,6 +3,7 @@
 <string name="settings_title">Configurações</string>
 <string name="room_settings">Configurações da Sala</string>
 <string name="parental_controls">Controles dos pais</string>
+<string name="my_sonos_settings">Configurações da conta</string>
 <string name="rename_zp_prompt">Nome da Sala</string>
 <string name="toggle_button_on_text">LIG</string>
 <string name="toggle_button_off_text">DESL</string>
@@ -17,16 +18,14 @@
 <string name="music_eq_balance_positive_value">D</string>
 <string name="music_eq_loudness_text">Loudness</string>
 <string name="music_eq_reset_all_text">Redefinir Tudo</string>
-<string name="music_eq_on_text">LIG</string>
-<string name="music_eq_off_text">DESL</string>
 <string name="tv_audio_delay_text">Atraso de Áudio (Sincronização Labial)</string>
 <string name="tv_audio_delay_min_value">Mín</string>
 <string name="tv_audio_delay_max_value">Máx</string>
 <string name="tv_dialog_reset_all_text">Redefinir Tudo</string>
 <string name="tv_dialog_settings_title">Configurações de Diálogo da TV</string>
-<string name="sub_eq_title">Configurações de SUB</string>
-<string name="sub_eq_gain_text">Nível SUB</string>
-<string name="sub_eq_enabled_text">SUB</string>
+<string name="sub_eq_title">Configurações de Sub</string>
+<string name="sub_eq_gain_text">Nível Sub</string>
+<string name="sub_eq_enabled_text">Sub</string>
 <string name="sub_eq_polarity_text">Ajuste de Posicionamento</string>
 <string name="sub_eq_speakersize_label">Tamanho Alto-Falante (Crossover)</string>
 <string name="surround_eq_title">Configurações de Surround</string>
@@ -49,7 +48,6 @@
 <string name="music_shares_sharename">\\\\MeuComputador\\Shared\\Music</string>
 <string name="music_eq_not_supported">As configurações de equalização não estarão disponíveis enquanto o nível de saída do player Sonos estiver definido como Fixo.</string>
 <string name="moreinfo_title">Mais informações</string>
-<string name="unconfigured_spinner_header">Escolher Player</string>
 <string name="notifications_setting">Mostrar notificações</string>
 <string name="lockscreen_setting">Mostrar controles da tela de bloqueio</string>
 <string name="lockscreen_volume_homescreen_setting">Permitir controle de volume na tela inicial</string>
@@ -58,7 +56,6 @@
 <string name="lockscreen_external_setting_subtitle">Exige tela bloqueada</string>
 <string name="app_shortcuts_setting">Mostrar atalhos do aplicativo</string>
 <string name="app_shortcuts_setting_subtitle">Exige notificações</string>
-<string name="use_tablet_layout_setting">Usar layout para Tablet</string>
 <string name="debug_wizard">Assistente de Depuração</string>
 <string name="alarm_toggle">Alternância do alarme</string>
 <string name="time_picker_content">Seletor de hora %s</string>

@@ -3,6 +3,7 @@
 <string name="settings_title">Paramètres</string>
 <string name="room_settings">Paramètres de la pièce</string>
 <string name="parental_controls">Contrôles parentaux</string>
+<string name="my_sonos_settings">Paramètres du compte</string>
 <string name="rename_zp_prompt">Nom de la pièce</string>
 <string name="toggle_button_on_text">ACT.</string>
 <string name="toggle_button_off_text">DÉS.</string>
@@ -17,16 +18,14 @@
 <string name="music_eq_balance_positive_value">D</string>
 <string name="music_eq_loudness_text">Loudness</string>
 <string name="music_eq_reset_all_text">Réinitialiser tout</string>
-<string name="music_eq_on_text">ACTIVÉ</string>
-<string name="music_eq_off_text">DÉS.</string>
 <string name="tv_audio_delay_text">Décalage audio (Lip Sync)</string>
 <string name="tv_audio_delay_min_value">Min</string>
 <string name="tv_audio_delay_max_value">Max</string>
 <string name="tv_dialog_reset_all_text">Réinitialiser tout</string>
 <string name="tv_dialog_settings_title">Paramètres dialogue TV</string>
-<string name="sub_eq_title">Paramètres SUB</string>
-<string name="sub_eq_gain_text">Niveau de SUB</string>
-<string name="sub_eq_enabled_text">SUB</string>
+<string name="sub_eq_title">Paramètres Sub</string>
+<string name="sub_eq_gain_text">Niveau de Sub</string>
+<string name="sub_eq_enabled_text">Sub</string>
 <string name="sub_eq_polarity_text">Ajustement du positionnement</string>
 <string name="sub_eq_speakersize_label">Taille haut-parleurs (recouvr.)</string>
 <string name="surround_eq_title">Paramètres de surround</string>
@@ -49,7 +48,6 @@
 <string name="music_shares_sharename">\\\\MonOrdinateur\\Musique_partagée</string>
 <string name="music_eq_not_supported">Les paramètres d\'égalisation ne sont pas disponibles tant qu\'un niveau de sortie source locale de lecteur Sonos est défini sur Fixe.</string>
 <string name="moreinfo_title">Plus d\'informations</string>
-<string name="unconfigured_spinner_header">Choisir un lecteur</string>
 <string name="notifications_setting">Afficher les notifications</string>
 <string name="lockscreen_setting">Afficher les commandes de l\'écran de verrouillage</string>
 <string name="lockscreen_volume_homescreen_setting">Permettre le réglage du volume sur l\'écran d\'accueil</string>
@@ -58,7 +56,6 @@
 <string name="lockscreen_external_setting_subtitle">Écran de verrouillage requis</string>
 <string name="app_shortcuts_setting">Afficher les raccourcis de l\'application</string>
 <string name="app_shortcuts_setting_subtitle">Requiert un centre de notifications</string>
-<string name="use_tablet_layout_setting">Utiliser la configuration tablette</string>
 <string name="debug_wizard">Assistant de débogage</string>
 <string name="alarm_toggle">Bascule d\'alarme</string>
 <string name="time_picker_content">Sélecteur d\'alarme : %s</string>

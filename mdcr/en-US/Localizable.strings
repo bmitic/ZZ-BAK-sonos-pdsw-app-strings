@@ -162,7 +162,7 @@
 /* Browse Panel */
 
     "<BrowseHeaderTitle>" = "Select a Music Source";
-    "<BrowseMusicButton>" = "MUSIC";
+    "<BrowseMusicButton>" = "Music";
     "<BrowseMoreButtonTitle>" = "More";
 // %1$@ is what the user searched for. %2$@ is the search result category (Artist, Song, …)
     "<BrowseEmptySearchResults_2>" = "Search returned no results for ‘%1$@’ in %2$@. Please try a different category or a new search term.";
@@ -220,13 +220,13 @@
     "<ShareMigrationAlertNowButton>" = "Update Now";
     "<ShareMigrationAlertLaterButton>" = "Remind Me Later";
     "<AuthorizationFailed>" = "Authorization failed.";
-    "<AbleToAddMusicSharesFailed>" = "Sonos was not able to start the music library server because your players are not compatible. Please check for updates.";
+    "<AbleToAddMusicSharesFailed>" = "Sonos was not able to start the music library server because your speakers are not compatible. Please check for updates.";
     "<LocalHostNameFailed>" = "Sonos was not able to start the music library server because the computer name can't be read.";
 
 
 /* Now Playing Panel */
 
-    "<NowPlayingHeaderTitle>" = "NOW PLAYING";
+    "<NowPlayingHeaderTitle>" = "Now Playing";
     "<NowPlayingLabel_Information>" = "Info & Options";
     "<NowPlayingTrackDefaultLabel>" = "Song [0/0]";
     "<NowPlayingTrackDefaultString>" = "[No music selected]";
@@ -236,7 +236,7 @@
 
 /* Queue Panel */
 
-    "<QueueHeaderTitle>" = "QUEUE";
+    "<QueueHeaderTitle>" = "Queue";
     "<QueueHeaderTitleNotInUse>" = "(Not in Use)";
     "<QueueEmpty>" = "The Queue is empty";
     "<QueueClear>" = "Clear Queue";
@@ -271,11 +271,10 @@
 // %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "You currently have no %1$@ in your Sonos system.\n\nTo add a %1$@, select %2$@\nfrom the menu bar.";
-    "<SettingsNoPlayers_1>" = "You currently have no Sonos Players in your Sonos system.\nYou need at least one Sonos player to play music.\n\nTo add a Sonos player, select %1$@ from the menu bar.";
-    "<SettingsNoPlayerLink>" = "Manage > Add a Player or Sub";
+    "<SettingsNoPlayers_1>" = "You currently have no Sonos Speakers in your Sonos system.\nYou need at least one Sonos speaker to play music.\n\nTo add a Sonos speaker, select %1$@ from the menu bar.";
+    "<SettingsNoPlayerLink>" = "Manage > Add a Speaker or Sub";
     "<SettingsNoBoostLink>" = "Manage > Add a Boost or Bridge";
     "<SettingsNoAvailable_1>" = "No %1$@ Available";
-    "<SettingsComponentRoom>" = "Room";
     "<SettingsComponentDock>" = "Dock";
     "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bass";
@@ -289,11 +288,12 @@
     "<SettingsEqMax>" = "Max";
     "<SettingsEqLoudness>" = "Loudness";
     "<SettingsEqReset>" = "Reset";
-    "<SettingsEqFixed>" = "Equalization settings are not available while a Sonos player’s Line-Out level is set to Fixed.\n\nChange the Line-Out level setting on the Basic tab to enable the EQ controls.";
-    "<SettingsAdvSettings>" = "Advanced Settings";
+    "<SettingsEqFixed>" = "Equalization settings are not available while a Sonos speaker’s Line-Out level is set to Fixed.\n\nChange the Line-Out level setting on the Basic tab to enable the EQ controls.";
+    "<SettingsUsageData>" = "Usage Data Settings";
+    "<SettingsAdvSettings>" = "Advanced";
     "<SettingsGeneral>" = "General";
+    "<SettingsServers>" = "Servers";
     "<SettingsUsage>" = "Improve Sonos";
-    "<SettingsServers>" = "Music Sources";
     "<SettingsDateTime>" = "Date and Time Settings";
     "<SettingsMusicLibrary>" = "Music Library Settings";
     "<SettingsMusicService>" = "Service Settings";
@@ -361,8 +361,7 @@
 
 /* Zone/Rooms Panel */
 
-    "<ZoneMenuHeaderTitle>" = "ROOMS";
-    "<ZoneMenuGroupZones>" = "Group";
+    "<ZoneMenuHeaderTitle>" = "Rooms";
     "<ZoneMenuShowLess>" = "Show Less…";
 // %1$d, Number of extra (non-visible devices)
     "<ZoneMenuShowMore_1>" = "Show %1$d More…";
@@ -425,8 +424,6 @@
     "<MenuTitle_View>" = "View";
 
     "<MenuTitle_Manage>" = "Manage";
-    "<MenuTitle_AddPlayerOrSub>" = "Add a Player or Sub…";
-    "<MenuTitle_AddBoost>" = "Add a Boost or Bridge…";
     "<MenuTitle_MusicLibrarySettings>" = "Music Library Settings…";
     "<MenuTitle_ServiceSettings>" = "Service Settings…";
     "<MenuTitle_AddRadioStation>" = "Add Radio Station…";
@@ -442,7 +439,6 @@
     "<MenuTitle_MiniWindowName>" = "Mini Controller";
     "<MenuTitle_BringAllToFront>" = "Bring All to Front";
 
-    "<MenuTitle_Account>" = "My Sonos Account";
     "<MenuTitle_Help>" = "Help";
     "<MenuTitle_Shop>" = "Shop for Sonos Products";
     "<MenuTitle_KeyboardShortcuts>" = "Keyboard Shortcuts";
@@ -456,10 +452,6 @@
     "<MenuTitle_ForgetHousehold>" = "Forget Current Sonos System";
 
     "<MenuTitle_CopyLinkAddress>" = "Copy Link";
-
-/* SMNowPlayingFSViewController.xib */
-
-    "<BackButton>" = "Back";
 
 
 /****************************************************************/
@@ -578,8 +570,8 @@
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "Configuring player";
-    "<AuthorizationWizard_Body>" = "To optimize setup, Sonos will establish a direct wireless connection between this computer and your new Sonos player. To allow this, please enter the administrator’s name and password for this computer.\n\nNOTE: If you don’t have this information, you will need to temporarily wire your player to your router to complete setup.";
+    "<AuthorizationWizard_Title>" = "Configuring speaker";
+    "<AuthorizationWizard_Body>" = "To optimize setup, Sonos will establish a direct wireless connection between this computer and your new Sonos speaker. To allow this, please enter the administrator’s name and password for this computer.\n\nNOTE: If you don’t have this information, you will need to temporarily wire your speaker to your router to complete setup.";
     "<AuthorizationWizard_Button>" = "I don't have this information";
 
 /****************************************************************/

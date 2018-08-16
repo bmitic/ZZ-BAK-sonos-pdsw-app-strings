@@ -1,0 +1,34 @@
+[
+  {
+    "locale" : "en-US",
+    "readableString" : "Engels (VS)",
+    "VOString" : "Engels (Verenigde Staten)"
+  },
+  {
+    "locale" : "en-GB",
+    "readableString" : "Engels (VK)",
+    "VOString" : "Engels (Verenigd Koninkrijk)"
+  },
+  {
+    "locale" : "en-CA",
+    "readableString" : "Engels (CA)",
+    "VOString" : "Engels (Canada)"
+  },
+  {
+    "locale" : "en-AU",
+    "readableString" : "Engels (AU)",
+    "VOString" : "Engels (Australië)"
+  },
+  {
+    "locale" : "de-DE",
+    "readableString" : "Tysk"
+  },
+  {
+    "locale" : "fr-FR",
+    "readableString" : "Frans"
+  },
+  {
+    "locale" : "ja-JP",
+    "readableString" : "Japanse"
+  }
+]

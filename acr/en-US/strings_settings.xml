@@ -3,7 +3,7 @@
 <string name="settings_title">Settings</string>
 <string name="room_settings">Room Settings</string>
 <string name="parental_controls">Parental Controls</string>
-<string name="my_sonos_settings">My Sonos Settings</string>
+<string name="my_sonos_settings">Account Settings</string>
 <string name="rename_zp_prompt">Room Name</string>
 <string name="toggle_button_on_text">ON</string>
 <string name="toggle_button_off_text">OFF</string>
@@ -23,11 +23,12 @@
 <string name="tv_audio_delay_max_value">Max</string>
 <string name="tv_dialog_reset_all_text">Reset All</string>
 <string name="tv_dialog_settings_title">TV Dialog Settings</string>
-<string name="sub_eq_title">SUB Settings</string>
-<string name="sub_eq_gain_text">SUB Level</string>
-<string name="sub_eq_enabled_text">SUB</string>
-<string name="sub_eq_polarity_text">Placement Adjustment</string>
-<string name="sub_eq_speakersize_label">Speaker Size (Crossover)</string>
+<string name="sub_eq_title">Sub Settings</string>
+<string name="sub_eq_gain_text">Sub Level</string>
+<string name="sub_eq_enabled_text">Sub</string>
+<string name="sub_eq_polarity_text">Phase Control</string>
+<string name="sub_eq_speakersize_label">Crossover Frequency</string>
+<string name="sub_eq_speakersize_description">Lower end is best for large floor speakers, highest end is best for compact speakers.</string>
 <string name="surround_eq_title">Surround Settings</string>
 <string name="surround_eq_enabled_text">Surrounds</string>
 <string name="surround_eq_level_text">TV Level</string>

@@ -9,7 +9,6 @@
 <string name="browse_playlists_title">Spellistor</string>
 <string name="browse_podcasts_title">Poddsändningar</string>
 <string name="browse_local_library_root">På denna mobilenhet</string>
-<string name="browse_empty_favorites">Tryck på ikonen %1$s när du bläddrar eller spelar upp musik för att lägga till låtar, stationer eller album i Favoriter.</string>
 <string name="browse_more_options">Fler alternativ</string>
 <string name="accessibility_browse_explicit_badge_format">%1$s. Explicit.</string>
 <string name="accessibility_item_badge_format">%1$s. Ny(tt).</string>

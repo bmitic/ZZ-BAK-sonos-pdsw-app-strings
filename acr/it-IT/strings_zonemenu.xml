@@ -3,7 +3,7 @@
 <string name="zones_pause_all">Tutto in pausa</string>
 <string name="zones_pause_all_warning">Mettere in pausa la musica in tutte le stanze?</string>
 <string name="zone_group_button_text">Gruppo</string>
-<string name="zone_menu_select_to_update">Aggiornamento software richiesto</string>
-<string name="zone_menu_select_to_setup_sub">Installa SUB</string>
-<string name="zone_menu_select_to_configure">Continua installazione</string>
+<string name="zone_menu_select_to_update">Seleziona per aggiornare</string>
+<string name="zone_menu_select_to_configure">Seleziona per impostare</string>
+<string name="zone_menu_select_to_register">Seleziona per registrare</string>
 </resources>

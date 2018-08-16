@@ -98,6 +98,7 @@
 <String id="RHHSTR_INPUTNAME_Receiver">Receiver</String>
 <String id="RHHSTR_INPUTNAME_Satellite">Satellite Receiver</String>
 <String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay Device</String>
+<String id="RHHSTR_INPUTNAME_Turntable">Turntable</String>
 <String id="RHHSTR_INPUTVOL_VOL0">Level 1 (Low)</String>
 <String id="RHHSTR_INPUTVOL_VOL1">Level 2 (A/V Component)</String>
 <String id="RHHSTR_INPUTVOL_VOL2">Level 3</String>
@@ -343,6 +344,7 @@ Please upgrade your account with %2$s.</String>
 <String id="RHHSTR_SONOS_TRIAL_NDAYS">%2$s Trial (%1$s days)</String>
 <String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s Trial (Expired)</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
+<String id="RHHSTR_RECENTLY_PLAYED">Recently Played</String>
 <!-- short names for Woodstock Music -->
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
 <!-- end of short names -->
@@ -719,7 +721,8 @@ Zimbabwe:ZW</String>
 <String id="STR_Setting_fixedOutputLevel">Line-Out Level (%1$s)</String>
 <String id="STR_Setting_fixedOutputLevel_Fixed">Fixed</String>
 <String id="STR_Setting_fixedOutputLevel_Variable">Variable</String>
-<String id="STR_Setting_fixedOutputLevel_Msg">You can set the Sonos player's Line-Out level to Variable or Fixed.</String>
+<String id="STR_Setting_fixedOutputLevel_PassThrough">Pass-Through</String>
+<String id="STR_Setting_fixedOutputLevel_Msg">Use Pass-Through only if you control volume with an external amplifier and third-party control system.</String>
 <String id="STR_GeneralSettings">System Settings</String>
 <String id="STR_Setting_ZoneExtender">Player Mode (%1$s)</String>
 <String id="STR_Setting_ZoneExtenderWarn">When a Sonos player is set to Extender mode it will not appear in the Rooms menu. Select a mode for this Sonos player.</String>
@@ -810,7 +813,7 @@ Audio In: %1$s</String>
 <String id="STR_AboutBoxZPxi">
 %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
-Warning: Your wireless network will not support the use of a SUB or surrounds with your %1$s.</String>
+Warning: Your wireless network will not support the use of a Sub or surrounds with your %1$s.</String>
 <String id="STR_Setting_ZPHidden">%1$s (Hidden)</String>
 <String id="STR_MusicCollection" comment="top-level sub-title">Music</String>
 <String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">iTunes® Compilations</String>
@@ -946,7 +949,7 @@ Please use the Sonos Setup software on your computer to set up music folders for
 <String id="STR_ZPNameFmtBondTwo">%1$s (%2$s+%3$s)</String>
 <String id="STR_ZPNameChannelLeft">L</String>
 <String id="STR_ZPNameChannelRight">R</String>
-<String id="STR_ZPNameChannelSub">SUB</String>
+<String id="STR_ZPNameChannelSub">Sub</String>
 <String id="STR_ZPNameChannelLeftSatellite">LS</String>
 <String id="STR_ZPNameChannelRightSatellite">RS</String>
 <String id="STR_ZPNameChannelLeftAndRightSatellite">LS+RS</String>
@@ -1030,8 +1033,8 @@ To view or change your usage data setting, go to Settings &gt; Advanced Settings
 <String id="STR_SUBXOver4">5.</String>
 <String id="STR_SUBXOver5">6. Floor</String>
 <String id="STR_SUBXOver6">7.</String>
-<String id="STR_StereoPair_Error_SUB_Fmt">This %1$s speaker is set up with a SUB. To create a stereo pair with this speaker, you need to have another %2$s speaker available that is not set up with a SUB and is not already part of a different stereo pair.</String>
-<String id="STR_AddToFavoritesAdded">"%1$s" added to Sonos Favorites.</String>
+<String id="STR_StereoPair_Error_SUB_Fmt">This %1$s speaker is set up with a Sub. To create a stereo pair with this speaker, you need to have another %2$s speaker available that is not set up with a Sub and is not already part of a different stereo pair.</String>
+<String id="STR_AddToFavoritesAdded">"%1$s" added to Sonos Favorites</String>
 <String id="STR_AddToFavoritesAddedWithRemaining">"%1$s" added to Sonos Favorites.
 
 There are %2$d free remaining favorite slots.</String>
@@ -1045,7 +1048,7 @@ All available slots for favorites have been used.</String>
 <String id="STR_AddToFavoritesFullError">Unable to add favorite. There are no empty favorites remaining.
 
 You can remove existing Sonos Favorites to make room for new ones.</String>
-<String id="STR_AddToFavoritesError">Unable to add "%1$s" to Sonos Favorites.</String>
+<String id="STR_AddToFavoritesError">Unable to add "%1$s" to Sonos Favorites</String>
 <String id="STR_AddToFavoritesErrorOutOfSpace">Unable to add favorite. To make additional room for new Sonos Favorites, consider removing existing favorites, or remove items from My Radio Stations or My Radio Shows.</String>
 <String id="STR_FavoritesDescriptionByArtist">By %1$s</String>
 <String id="STR_FavoritesDescriptionStation">%1$s Station</String>
@@ -1082,4 +1085,6 @@ You can remove existing Sonos Favorites to make room for new ones.</String>
 <String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">Music Library Problem</String>
 <String id="RHHSTR_SAVEDQUEUES_NOSPACE">Your Sonos Playlists is full. You can remove songs from playlists or delete unused playlists and try again.</String>
 <String id="RHHSTR_SECURE_REG_PROMPT">Use %1$s App to Control Sonos</String>
+<String id="RHHSTR_EMPTY_HISTORY">Music that you play will show up here</String>
 </Strings>
+

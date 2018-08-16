@@ -60,11 +60,11 @@
 <String id="STR_ROOMNAME_PORTABLE">Bärbar</String>
 <String id="STR_ROOMNAME_TVROOM">TV-rum</String>
 <String id="STR_ROOMNAME_UNNAMED">Namnlös</String>
-<String id="STR_ROOMNAME_VIPER">BRIDGE</String>
-<String id="STR_ROOMNAME_BOOST">BOOST</String>
+<String id="STR_ROOMNAME_VIPER">Bridge</String>
+<String id="STR_ROOMNAME_BOOST">Boost</String>
 <String id="STR_ROOMNAME_ZONE_EXTENDER">Sonos Extender</String>
-<String id="STR_ROOMNAME_DOCK">DOCK</String>
-<String id="STR_ROOMNAME_ANVIL">SUB</String>
+<String id="STR_ROOMNAME_DOCK">Dock</String>
+<String id="STR_ROOMNAME_ANVIL">Sub</String>
 <String id="STR_ROOMNAME_LOUNGE">Sällskapsrum</String>
 <String id="RHHSTR_RINCON_PLAYLIST_NAME_PFX">Sonos-spellista</String>
 <String id="RHHSTR_E_MALFORMED_PATH">%1$s är inte en giltig resurssökväg. Den bör se ut som \\Dator\Mapp eller \\Dator\Delad\Mapp</String>
@@ -98,6 +98,7 @@
 <String id="RHHSTR_INPUTNAME_Receiver">Mottagare</String>
 <String id="RHHSTR_INPUTNAME_Satellite">Satellitmottagare</String>
 <String id="RHHSTR_INPUTNAME_AirPlayDevice">AirPlay-enhet</String>
+<String id="RHHSTR_INPUTNAME_Turntable">Grammofon</String>
 <String id="RHHSTR_INPUTVOL_VOL0">Nivå 1 (låg)</String>
 <String id="RHHSTR_INPUTVOL_VOL1">Nivå 2 (A/V-komponent)</String>
 <String id="RHHSTR_INPUTVOL_VOL2">Nivå 3</String>
@@ -112,7 +113,7 @@
 <String id="RHHSTR_CANCEL">Avbryt</String>
 <String id="RHHSTR_SONOS_UPDATES">Sonos-uppdateringar</String>
 <String id="RHHSTR_ALL">Alla</String>
-<String id="RHHSTR_RTE_ERROR_OCCURRED">Unable to play '%1$s'.ZXZ</String>
+<String id="RHHSTR_RTE_ERROR_OCCURRED">Kan inte spela %1$s.</String>
 <String id="RHHSTR_RTE_CANT_REACH_SERVER">Kan inte spela upp %1$s - kan inte ansluta till %2$s.</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED">Kan inte spela upp %1$s - nekad åtkomst till %3$s.#END_OF_LOCALIZED_STRING %2$s</String>
 <String id="RHHSTR_RTE_FILE_ACCESS_DENIED_SANS_PATH">Kan inte spela upp %1$s - åtkomst nekad.</String>
@@ -130,42 +131,42 @@
 <String id="RHHSTR_RTE_BAD_INET_RADIO">Kan inte spela upp %1$s - hittade inte station.</String>
 <String id="RHHSTR_RTE_BUFFERING">Kan inte spela upp %1$s - nätverksanslutningshastigheten räcker inte till för att upprätthålla uppspelningsbuffert.</String>
 <String id="RHHSTR_RTE_CANT_RESOLVE_NAME">Kan inte spela upp %1$s - kan inte ansluta till %2$s eftersom det inte går att hitta servern.</String>
-<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT">Kan inte spela upp %1$s - Rhapsody är begränsat till inte mer än tre samtidiga ljudströmmar.</String>
-<String id="RHHSTR_RTE_RHAP_UNAVAILABLE">Kan inte spela upp %1$s - låten är otillgänglig för direktuppspelning från Rhapsody.</String>
-<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT">Kan inte spela upp %1$s - din inloggningsinformation för Rhapsody är ogiltig.</String>
-<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED">Kan inte spela upp %1$s - ditt Rhapsody-provmedlemskap har utgått.</String>
-<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT">Det går inte att spela upp %1$s - associerat Rhapsody-konto hittades inte i ditt Sonos-system. Ange din kontoinformation för Rhapsody.</String>
-<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT">Kan inte spela upp %1$s - uppgradera ditt Rhapsody-konto för att bli fullständig prenumerant.</String>
-<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC">Kan inte spela upp %1$s - Audible-program måste använda Format 4 (MP3).</String>
+<String id="RHHSTR_RTE_RHAP_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_RHAP_UNAVAILABLE"></String>
+<String id="RHHSTR_RTE_RHAP_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_RHAP_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_RHAP_UNSUPP_ACCOUNT"></String>
+<String id="RHHSTR_RTE_AUDIBLE_BAD_CODEC"></String>
 <String id="RHHSTR_RTE_AUDIBLE_DRM">Audible stöds inte längre på Sonos.</String>
-<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING">Kan inte spela upp %1$s - Sonos-spelaren som aktiverats för Audible finns inte med.</String>
+<String id="RHHSTR_RTE_AUDIBLE_ZP_MISSING"></String>
 <String id="RHHSTR_RTE_WMP_ACCESS_DENIED">Kan inte spela upp %1$s - Mediedelning i Windows är inte på för en eller flera Sonos-spelare.</String>
 <String id="RHHSTR_RTE_WMP_NO_LICENSE">Kan inte spela upp %1$s - kunde inte hämta giltig licens.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT">SiriusXM-kanalen som spelas i ditt andra rum stoppades. SiriusXM tillåter endast uppspelning av en kanal åt gången.</String>
-<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT">Kan inte spela upp %1$s - ditt SiriusXM-konto används av en annan dator eller musikspelare.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT">Kan inte spela upp %1$s - din inloggningsinformation för SiriusXM är ogiltig.</String>
-<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED">Kan inte spela upp %1$s - ditt SiriusXM-provmedlemskap har utgått.</String>
-<String id="RHHSTR_RTE_SIRIUS_INACTIVE">Kan inte spela upp %1$s - SiriusXM stoppar automatiskt uppspelning efter långa perioder utan aktivitet.</String>
-<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT">Det går inte att spela upp %1$s - det SiriusXM-konto som associeras med denna station hittades inte i ditt Sonos-system. Ange din kontoinformation för SiriusXM.</String>
-<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL">Kan inte spela upp %1$s - du måste ha en premiumprenumeration på SiriusXM. Uppgradera din SiriusXM-prenumeration.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL">Kan inte spela upp %1$s - SiriusXM kunde inte validera din inloggningsinformation. Försök igen senare.</String>
-<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE">Kan inte spela upp %1$s - ditt SiriusXM-konto är inte aktivt. Kontakta SiriusXM om hjälp.</String>
-<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT">Kan inte spela upp %1$s - din inloggningsinformation för Pandora är ogiltig.</String>
-<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED">Kan inte spela upp %1$s - ditt Pandora-provmedlemskap har utgått.</String>
-<String id="RHHSTR_RTE_PAND_NO_ACCOUNT">Det går inte att spela upp %1$s - det Pandora-konto som associeras med denna station hittades inte i ditt Sonos-system. Ange din kontoinformation för Pandora.</String>
-<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL">Kan inte spela upp %1$s - det krävs Pandora-prenumeration. Uppgradera ditt Pandora-konto.</String>
-<String id="RHHSTR_RTE_PAND_READ_ONLY">Kan inte spela upp %1$s - Pandora är otillgängligt pga rutinunderhåll.</String>
-<String id="RHHSTR_RTE_PAND_STATION_GONE">Kan inte spela upp %1$s - denna station har tagits bort.</String>
-<String id="RHHSTR_RTE_PAND_SUSPENDED">Pandora kunde inte slutföra din begäran eftersom ditt konto har inaktiverats. Kontakta kundsupport hos Pandora på pandora-support@pandora.com.</String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_SIRIUS_STREAM_LIMIT_EXT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_SIRIUS_INACTIVE"></String>
+<String id="RHHSTR_RTE_SIRIUS_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_SIRIUS_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_GEN_FAIL"></String>
+<String id="RHHSTR_RTE_SIRIUS_AUTH_INACTIVE"></String>
+<String id="RHHSTR_RTE_PAND_BAD_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_TRIAL_EXPIRED"></String>
+<String id="RHHSTR_RTE_PAND_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_PAND_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_PAND_READ_ONLY"></String>
+<String id="RHHSTR_RTE_PAND_STATION_GONE"></String>
+<String id="RHHSTR_RTE_PAND_SUSPENDED"></String>
 <String id="RHHSTR_RTE_SONOS_BAD_ACCOUNT">Kan inte spela upp %1$s - inloggningsinformationen för %2$s-kontot är ogiltig.</String>
 <String id="RHHSTR_RTE_SONOS_NO_ACCOUNT">Det går inte att spela upp %1$s - associerat %2$s-konto hittades inte i ditt Sonos-system.</String>
 <String id="RHHSTR_RTE_SONOS_TRIAL_EXPIRED">Kan inte spela upp %1$s - ditt %2$s-provmedlemskap har utgått.
 
 Uppgradera ditt konto hos %2$s.</String>
-<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL">Det går inte att spela upp %1$s - Den här funktionen kräver betald prenumeration. Uppgradera ditt konto på www.sonos.com/Last.fm/expired.</String>
-<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT">Den Last.fm-station som spelas upp i ditt andra rum stoppades. Last.fm tillåter endast uppspelning av en station åt gången.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT">Det går inte att spela upp %1$s - associerat Last.fm-konto hittades inte i ditt Sonos-system. Ange din kontoinformation för Last.fm.</String>
-<String id="RHHSTR_RTE_LASTFM_NO_CONTENT">Kan inte spela upp %1$s - otillräckligt innehåll för att spela upp denna Last.fm-station.</String>
+<String id="RHHSTR_RTE_LASTFM_BAD_SUBLEVEL"></String>
+<String id="RHHSTR_RTE_LASTFM_STREAM_LIMIT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_ACCOUNT"></String>
+<String id="RHHSTR_RTE_LASTFM_NO_CONTENT"></String>
 <String id="RHHSTR_RTE_DOCK_INTERRUPT">Musikuppspelning från %1$s avbröts.</String>
 <String id="RHHSTR_RTE_SONOS_STREAM_LIMIT">Uppspelning från %2$s stoppades eftersom uppspelning startades från ett annat rum eller en annan enhet. %2$s begränsar antalet samtidiga ljudstream som du kan nå från dess tjänst.#END_OF_LOCALIZED_STRING %1$s</String>
 <String id="RHHSTR_RTE_SONOS_UNSUPP_ACCOUNT">Kan inte spela upp %1$s - uppgradera ditt %2$s-konto för att bli fullständig prenumerant.</String>
@@ -339,6 +340,7 @@ Uppgradera ditt konto hos %2$s.</String>
 <String id="RHHSTR_SONOS_TRIAL_NDAYS">%2$s-provmedlem (%1$s dagar)</String>
 <String id="RHHSTR_SONOS_TRIAL_EXPIRED">%1$s-provmedlem (upphört)</String>
 <String id="RHHSTR_LASTFM">Last.fm</String>
+<String id="RHHSTR_RECENTLY_PLAYED">Nyligen spelade</String>
 <String id="RHHSTR_LASTFM_SHORTNAME">Last.fm</String>
 <String id="RHHSTR_BROWSE_UPNP_ERROR">Kan inte bläddra musik</String>
 <String id="RHHSTR_SEARCH_UPNP_ERROR">Ett problem uppstod vid sökning. Försök igen.</String>
@@ -374,7 +376,7 @@ Uppgradera ditt konto hos %2$s.</String>
 <String id="RHHSTR_CONNECTING_TITLE">Vänta…</String>
 <String id="RHHSTR_APPLINK_CONNECTION_QUIT">Inte nu</String>
 <String id="RHHSTR_APPLINK_INSTALL_MSG">%1$s har inte installerats. Installera appen och försök igen.</String>
-<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Install AppZXZ</String>
+<String id="RHHSTR_APPLINK_INSTALL_MSG_BTN">Installera app</String>
 <String id="RHHSTR_SN_POST_SUCCESS">Meddelandet har skickats.</String>
 <String id="RHHSTR_SN_POST_FAIL">Det gick inte att skicka meddelandet.</String>
 <String id="RHHSTR_SN_POST_SINGLE_OF_EACH_FMT">Meddelandet skickades till %1$s (%2$s), men skickades inte till %3$s (%4$s).</String>
@@ -666,13 +668,13 @@ Zimbabwe:ZW</String>
 (GMT+01:00) Bryssel, Köpenhamn, Madrid, Paris
 (GMT+01:00) Sarajevo, Skopje, Warsawa, Zagreb
 (GMT+01:00) Västra centralafrika
-(GMT+02:00) Aten, Istanbul, Minsk
+(GMT+02:00) Aten
 (GMT+02:00) Bukarest
 (GMT+02:00) Kairo
 (GMT+02:00) Harare, Pretoria
 (GMT+02:00) Helsingfors, Kiev, Riga, Sofia, Tallinn
 (GMT+02:00) Jerusalem
-(GMT+03:00) Bagdad
+(GMT+03:00) Bagdad, Istanbul, Minsk
 (GMT+03:00) Kuwait, Riyadh
 (GMT+03:00) Moskva, St. Petersburg, Volgograd
 (GMT+03:00) Nairobi
@@ -713,6 +715,7 @@ Zimbabwe:ZW</String>
 <String id="STR_Setting_fixedOutputLevel">Linjeutgångsnivå (%1$s)</String>
 <String id="STR_Setting_fixedOutputLevel_Fixed">Fast</String>
 <String id="STR_Setting_fixedOutputLevel_Variable">Variabel</String>
+<String id="STR_Setting_fixedOutputLevel_PassThrough">Pass-ThroughZXZ</String>
 <String id="STR_Setting_fixedOutputLevel_Msg">Du kan ställa in Sonos-spelarens linjeutgångsnivå till Variabel eller Fast.</String>
 <String id="STR_GeneralSettings">Systeminställningar</String>
 <String id="STR_Setting_ZoneExtender">Spelarläge (%1$s)</String>
@@ -779,7 +782,7 @@ Zimbabwe:ZW</String>
 
 Välj skrobblingalternativ:</String>
 <String id="STR_NPNoInfoAvailable">[Ingen tillgänglig info]</String>
-<String comment="used for now playing" id="STR_NoMusic">[Ingen musik]</String>
+<String comment="used for now playing" id="STR_NoMusic">[Ingen vald musik]</String>
 <String id="STR_SourceDeviceHdr">Källenhet</String>
 <String comment="softkey label" id="STR_AddToQueue">Lägg till i slutet av kön</String>
 <String id="STR_PlayNow">Spela upp nu</String>
@@ -804,10 +807,8 @@ Ljud in: %1$s</String>
 <String id="STR_AboutBoxZPxi">
 %1$s</String>
 <String id="STR_AboutBoxZPEvilExtender">
-Varning: Ditt trådlösa nätverk kommer inte att stödja användning av en SUB eller surroundhögtalare med din %1$s.</String>
+Varning: Ditt trådlösa nätverk kommer inte att stödja användning av en Sub eller surroundhögtalare med din %1$s.</String>
 <String id="STR_Setting_ZPHidden">%1$s (dold)</String>
-<String id="STR_Setting_UnassociatedSub">%1$s (oanvänd)</String>
-<String id="STR_Setting_AssociatedSub">%1$s (%1$s)</String>
 <String comment="top-level sub-title" id="STR_MusicCollection">Musik</String>
 <String id="STR_ARTISTVIEW_ITUNES_CONTRACTION">Samlingar i iTunes®</String>
 <String id="STR_ARTISTVIEW_ALBUMARTIST_CONTRACTION">Albumartister</String>
@@ -942,7 +943,7 @@ Använd programvaran Sonos-inställningar på datorn för att konfigurera musikm
 <String id="STR_ZPNameFmtBondTwo">%1$s (%2$s+%3$s)</String>
 <String id="STR_ZPNameChannelLeft">V</String>
 <String id="STR_ZPNameChannelRight">H</String>
-<String id="STR_ZPNameChannelSub">SUB</String>
+<String id="STR_ZPNameChannelSub">Sub</String>
 <String id="STR_ZPNameChannelLeftSatellite">VH</String>
 <String id="STR_ZPNameChannelRightSatellite">HH</String>
 <String id="STR_ZPNameChannelLeftAndRightSatellite">VH+HH</String>
@@ -951,11 +952,11 @@ Använd programvaran Sonos-inställningar på datorn för att konfigurera musikm
 <String id="STR_Setting_StereoPair_ErrorCreating">Det uppstod problem när stereoparet skapades. Försök igen.</String>
 <String id="STR_Setting_StereoPair_ErrorSeparating">Det uppstod ett problem när stereoparet åtskildes. Försök igen.</String>
 <String id="STR_ThirdPartyStreaming">Program spelas upp på iPod</String>
-<String id="STR_DockediPods">iPod i DOCK</String>
+<String id="STR_DockediPods">iPod i Dock</String>
 <String id="STR_BrowseiPodConfirm">Är du säker på att du vill bläddra på %1$s?
 Det ljud som den för närvarande spelar upp kanske gör uppehåll.</String>
 <String id="STR_BrowseiPod">Bläddra</String>
-<String id="STR_InDock">iPod i DOCK</String>
+<String id="STR_InDock">iPod i Dock</String>
 <String id="STR_ContentFrom">Innehåll från</String>
 <String id="STR_iPodFormat">Låtar från %1$s</String>
 <String id="STR_ThirdPartyFormat">Ljud från %1$s</String>
@@ -1018,13 +1019,6 @@ Fortsätt genom att trycka på OK.</String>
 <String id="RHHSTR_OptInRequiredForSoundLab">Innan du kan lägga till allmänna beta-tjänster för Sonos Labs måste du dela användningsdata med Sonos.
 
 Visa eller ändra din inställning för dataanvändning genom att gå till Inställningar &gt; Avancerade inställningar &gt; Användningsdata.</String>
-<String id="STR_TwoButtonDevices">PLAY
-CONNECT:AMP
-CONNECT</String>
-<String id="STR_OneButtonDevicesInitial">BRIDGE</String>
-<String id="STR_OneButtonDevicesWithPlayer">BRIDGE
-SUB
-DOCK</String>
 <String id="STR_HTAudioHdr">Tv</String>
 <String id="STR_SUBXOver0">1. Kompakt</String>
 <String id="STR_SUBXOver1">2.</String>
@@ -1033,7 +1027,7 @@ DOCK</String>
 <String id="STR_SUBXOver4">5.</String>
 <String id="STR_SUBXOver5">6. Golv</String>
 <String id="STR_SUBXOver6">7.</String>
-<String id="STR_StereoPair_Error_SUB_Fmt">Denna %1$s-högtalare är konfigurerad med en SUB. Innan du kan skapa ett stereopar med denna högtalare måste du ha en tillgänglig %2$s-högtalare som inte konfigurerats med SUB och inte redan är del av ett annat stereopar.</String>
+<String id="STR_StereoPair_Error_SUB_Fmt">Denna %1$s-högtalare är konfigurerad med en Sub. Innan du kan skapa ett stereopar med denna högtalare måste du ha en tillgänglig %2$s-högtalare som inte konfigurerats med Sub och inte redan är del av ett annat stereopar.</String>
 <String id="STR_AddToFavoritesAdded">%1$s har lagts till i Sonos-favoriter.</String>
 <String id="STR_AddToFavoritesAddedWithRemaining">%1$s har lagts till i Sonos-favoriter.
 
@@ -1081,4 +1075,5 @@ Du kan ta bort befintliga Sonos-favoriter för att skapa plats för nya.</String
 <String id="RHHSTR_TITLESIE_LOCALERROR_TITLE">Problem med musikbiblioteket</String>
 <String id="RHHSTR_SAVEDQUEUES_NOSPACE">Dina Sonos-spellistor är fulla. Du kan ta bort låtar från spellistor eller ta bort oanvända spellistor och försöka igen.</String>
 <String id="RHHSTR_SECURE_REG_PROMPT">Använd appen %1$s för att styra Sonos</String>
+<String id="RHHSTR_EMPTY_HISTORY">Musik som du spelar upp visas här</String>
 </Strings>

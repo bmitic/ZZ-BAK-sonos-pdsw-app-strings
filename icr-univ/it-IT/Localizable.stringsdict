@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
+	<key>&lt;AlarmAwayModeNotificationBodyNAlarms></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@alarms@</string>
@@ -18,7 +18,7 @@
 			<string>Le notifiche di posticipo sono disattivate per %d sveglie in casa.</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNHours&gt;</key>
+	<key>&lt;VODurationNHours></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@hours@</string>
@@ -34,7 +34,7 @@
 			<string>%d ore</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNMinutes&gt;</key>
+	<key>&lt;VODurationNMinutes></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@minutes@</string>
@@ -50,7 +50,7 @@
 			<string>%d minuti</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNSeconds&gt;</key>
+	<key>&lt;VODurationNSeconds></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@seconds@</string>
@@ -66,7 +66,7 @@
 			<string>%d secondi</string>
 		</dict>
 	</dict>
-	<key>&lt;QueueTrackLabel_1&gt;</key>
+	<key>&lt;QueueTrackLabel_1></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@songs@</string>

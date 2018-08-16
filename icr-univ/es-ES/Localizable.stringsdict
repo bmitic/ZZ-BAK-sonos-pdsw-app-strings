@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
+	<key>&lt;AlarmAwayModeNotificationBodyNAlarms></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@alarms@</string>
@@ -13,12 +13,12 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Modo silenciado de las notificaciones desconectado para la alarma %d en la casa.</string>
+			<string>Modo silenciado de las notificaciones desconectado para %d alarma en la casa.</string>
 			<key>other</key>
 			<string>Modo silenciado de las notificaciones desconectado para %d alarmas en la casa.</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNHours&gt;</key>
+	<key>&lt;VODurationNHours></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@hours@</string>
@@ -34,7 +34,7 @@
 			<string>%d horas</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNMinutes&gt;</key>
+	<key>&lt;VODurationNMinutes></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@minutes@</string>
@@ -50,7 +50,7 @@
 			<string>%d minutos</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNSeconds&gt;</key>
+	<key>&lt;VODurationNSeconds></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@seconds@</string>
@@ -66,7 +66,7 @@
 			<string>%d segundos</string>
 		</dict>
 	</dict>
-	<key>&lt;QueueTrackLabel_1&gt;</key>
+	<key>&lt;QueueTrackLabel_1></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@songs@</string>
@@ -79,7 +79,7 @@
 			<key>zero</key>
 			<string>Vacío</string>
 			<key>one</key>
-			<string>.%d cancion.</string>
+			<string>.%d canción.</string>
 			<key>other</key>
 			<string>.%d canciones.</string>
 		</dict>

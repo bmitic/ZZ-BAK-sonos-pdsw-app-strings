@@ -40,10 +40,6 @@
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "Uitschakelen";
-    // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "Het alarm van de %1$@ gaat af";
-
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
     "<ExternalAlarmsNote_1>" = "Alarmen die met spraakopdrachten zijn ingesteld, worden door %1$@ beheerd.";
     "<ExternalAlarmsAlexaApp>" = "de Alexa-app";
@@ -108,12 +104,10 @@
     "<NextButtonBook>" = "Volgende hoofdstuk";
     "<QUEUE>" = "Wachtrij";
     "<NotInUse>" = "Niet in gebruik";
-    "<NowPlayingNoMusic>" = "Geen muziek";
+    "<NowPlayingNoMusic>" = "Geen muziek geselecteerd";
     "<NowPlayingDialogEnhacementLabel>" = "Spraakversterking";
     "<NowPlayingNightModeLabel>" = "Nachtmodus";
 
-    "<NowPlayingInfoButtonLabel>" = "Info en opties";
-    "<NowPlayingInfoButtonHint>" = "Informatie en opties bekijken over wat nu speelt.";
     "<NowPlayingOn>" = "—"; //in non-english languages, please translate to —
     "<NowPlayingOnAccessibilityLabel>" = "op %@"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
     "<NowPlayingContainerOnAccessibilityLabel>" = " %1$@ op %2$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
@@ -138,7 +132,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "Twee keer tikken om 'Je hoort nu' te openen";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@ en %2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +140,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@, %2$@ en %3$de andere";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "Speelt nu %@";
+    "<NowPlayingOpen>" = "Je hoort nu openen";
     "<NowPlayingClose>" = "'Je hoort nu' sluiten";
-    "<NowPlayingCloseHint>" = "Twee keer tikken om terug te keren naar muziek browsen";
 
 /* Info Menu */
 
@@ -169,7 +162,7 @@
     "<ClearQueueMessage>" = "Weet je zeker dat je alle items wilt verwijderen uit de wachtrij?";
     "<QueuePlaylistNameText>" = "Naam voor afspeellijst invoeren:";
     "<QueuePlaylistTableText>" = "Of bestaande afspeellijst vervangen:";
-    "<SaveQueue>" = "Bewaar wachtrij";
+    "<SaveQueue>" = "Wachtrij opslaan";
     "<PlaylistNamePlaceholder>" = "Naam Sonos-afspeellijst";
     "<EmptyPlaylistNameTitle>" = "Naam Sonos-afspeellijst";
     "<EmptyPlaylistNameMessage>" = "Typ of selecteer een naam voor de Sonos-afspeellijst.";
@@ -190,7 +183,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d nummers.";
+    "<QueueTrackLabel_1>" = ".%d nummer/nummers.";
     "<QueueShuffleButtonLabel>" = "Willekeurig";
     "<QueueRepeatAllButtonLabel>" = "Alles herhalen";
     "<QueueRepeatOneButtonLabel>" = "Nummer herhalen";
@@ -205,18 +198,22 @@
     "<Rooms>" = "Kamers";
     "<GroupRooms>" = "Kamers groeperen";
     "<Group>" = "Groep";
+    "<Available>" = "Beschikbaar";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "Groep";
     "<PauseAll>" = "Alles pauzeren";
     "<PauseAllConfirmation>" = "Weet je zeker dat je de muziek in alle kamers wilt pauzeren?";
-    "<ContinueSetUp>" = "Doorgaan met installeren";
-    "<SoftwareUpdateRequired>" = "Software-update vereist";
+    "<SelectToUpdate>" = "Selecteer om bij te werken";
+    "<SelectToConfigure>" = "Selecteren om te configureren";
+    "<SelectToRegister>" = "Selecteren om te registreren";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
     // an appropriate pause when being read by VoiceOver.
     "<MultipleRoomNames_2>" = "%1$@ en %2$@";
+    "<NewSession>" = "Nieuwe sessie";
+    "<NewSessionAccessibilityLabel>" = "Nieuwe sessie. Knop";
 
 /* Rooms Voiceover */
     "<SelectRooms>" = "Kamers selecteren";
@@ -294,6 +291,7 @@
     "<Settings>" = "Instellingen";
     "<RoomSettings>" = "Instellingen kamer";
     "<ParentalControls>" = "Ouderlijk toezicht";
+    "<MySonosSettings>" = "Instellingen account";
     "<MoreInformation>" = "Meer informatie";
     "<Help>" = "Help";
     "<Call>" = "Bellen";
@@ -308,24 +306,24 @@
     "<AddingShareInstructions>" = "De nieuwe share wordt toegevoegd aan het Sonos-systeem.\n\nSonos moet eerst een index van de muziek maken. Wanneer dat is voltooid, verschijnt de muziek in de muziekbibliotheek.\n\nDruk op de knop Gereed om af te sluiten.";
 
 /* Wireless Setup Custom Wizard */
-    "<Wireless_CheckOpenAP_Title>" = "Installatie speler";
-    "<Wireless_CheckOpenAP_Body1>" = "Wacht een paar seconden tot het lampje op de Sonos-speler oranje begint te knipperen.";
+    "<Wireless_CheckOpenAP_Title>" = "Installatie speaker";
+    "<Wireless_CheckOpenAP_Body1>" = "Wacht een paar seconden tot het lampje op de Sonos-speaker oranje begint te knipperen.";
     "<Wireless_CheckOpenAP_Button1>" = "Er brandt een oranje lichtje";
     "<Wireless_CheckOpenAP_Button2>" = "Ik zie geen oranje lichtje";
 
     "<Wireless_CheckOpenAP_NoLight_Title>" = "Knoppen opnieuw indrukken";
-    "<Wireless_CheckOpenAP_NoLight_Body1>" = "Druk nogmaals op de knop.\nDruk op 'Opnieuw proberen'.";
+    "<Wireless_CheckOpenAP_NoLight_Body1>" = "Druk nogmaals op de knop.\nDruk op 'Opnieuw'.";
     "<Wireless_CheckOpenAP_NoLight_Body2>" = "OPMERKING: Als je problemen blijft ondervinden, selecteer je 'Alternatieve installatie'.";
-    "<Wireless_CheckOpenAP_NoLight_Button1>" = "Opnieuw proberen";
+    "<Wireless_CheckOpenAP_NoLight_Button1>" = "Opnieuw";
     "<Wireless_CheckOpenAP_NoLight_Button2>" = "Alternatieve installatie";
 
-    "<Wireless_Waiting_Title>" = "Speler configureren";
+    "<Wireless_Waiting_Title>" = "Speaker configureren";
     "<Wireless_Waiting_Body>" = "Even geduld…";
 
     "<Wireless_OpenReady_Title>" = "Draadloze installatie";
-    "<Wireless_OpenReady_Body_1_iPod>" = "Deze iPod wordt nu aangesloten op een tijdelijk draadloos netwerk dat werd gemaakt door de Sonos-speler.";
-    "<Wireless_OpenReady_Body_1_iPad>" = "Deze iPad wordt nu aangesloten op een tijdelijk draadloos netwerk dat werd gemaakt door de Sonos-speler.";
-    "<Wireless_OpenReady_Body_1_iPhone>" = "Deze iPhone wordt nu aangesloten op een tijdelijk draadloos netwerk dat werd gemaakt door de Sonos-speler.";
+    "<Wireless_OpenReady_Body_1_iPod>" = "Deze iPod wordt nu aangesloten op een tijdelijk draadloos netwerk dat werd gemaakt door de Sonos-speaker.";
+    "<Wireless_OpenReady_Body_1_iPad>" = "Deze iPad wordt nu aangesloten op een tijdelijk draadloos netwerk dat werd gemaakt door de Sonos-speaker.";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "Deze iPhone wordt nu aangesloten op een tijdelijk draadloos netwerk dat werd gemaakt door de Sonos-speaker.";
     "<Wireless_OpenReady_Body_2_iPod>" = "Dit draadloze netwerk, '%1$@', is beschikbaar in de WiFi-sectie van de iPod-instellingen.";
     "<Wireless_OpenReady_Body_2_iPad>" = "Dit draadloze netwerk, '%1$@', is beschikbaar in de WiFi-sectie van de iPad-instellingen.";
     "<Wireless_OpenReady_Body_2_iPhone>" = "Dit draadloze netwerk, '%1$@', is beschikbaar in de WiFi-sectie van de iPhone-instellingen.";
@@ -338,16 +336,16 @@
     "<Wireless_Instructions_Body_2>" = "2. Tik op '%1$@' in de lijst met netwerken.";
     "<Wireless_Instructions_Body_3>" = "3. Ga terug naar de Sonos-app en druk op 'Volgende' om door te gaan";
 
-    "<Wireless_NotSonosAP_Title>" = "Niet verbonden met speler";
+    "<Wireless_NotSonosAP_Title>" = "Niet verbonden met speaker";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "Je bent niet verbonden met het '%1$@'-netwerk. Selecteer '%1$@' in de lijst met beschikbare netwerken in de WiFi-instellingen van deze iPod.";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "Je bent niet verbonden met het '%1$@'-netwerk. Selecteer '%1$@' in de lijst met beschikbare netwerken in de WiFi-instellingen van deze iPad.";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "Je bent niet verbonden met het '%1$@'-netwerk. Selecteer '%1$@' in de lijst met beschikbare netwerken in de WiFi-instellingen van deze iPhone.";
-    "<Wireless_NotSonosAP_Body_2>" = "Druk op 'Opnieuw proberen' om de installatie te herhalen. Als je problemen blijft ondervinden, druk je op 'Alternatieve installatie'.";
-    "<Wireless_NotSonosAP_TryAgain>" = "Opnieuw proberen";
+    "<Wireless_NotSonosAP_Body_2>" = "Druk op 'Opnieuw' om de installatie te herhalen. Als je problemen blijft ondervinden, druk je op 'Alternatieve installatie'.";
+    "<Wireless_NotSonosAP_TryAgain>" = "Opnieuw";
     "<Wireless_NotSonosAP_DontTryAgain>" = "Alternatieve installatie";
 
-    "<Wireless_CheckLight_Title>" = "Controleer lampje op speler";
-    "<Wireless_CheckLight_Body>" = "Brandt er een oranje lichtje op de Sonos-speler?";
+    "<Wireless_CheckLight_Title>" = "Controleer lampje op speaker";
+    "<Wireless_CheckLight_Body>" = "Brandt er een oranje lichtje op de Sonos-speaker?";
     "<Wireless_CheckLight_SeeLight>" = "Ik zie een oranje lampje";
     "<Wireless_CheckLight_DontSeeLight>" = "Ik zie geen oranje lampje";
 
@@ -358,11 +356,11 @@
 /* WAC Setup Custom Wizard */
 
     "<WAC_Wizard_Title>" = "Draadloze installatie";
-    "<WAC_Prep_Body_1>" = "Om een nieuwe speler toe te voegen, wordt in de stappen voor het installeren van accessoires op iOS uitgelegd hoe je deze op het normale draadloze netwerk configureert.";
+    "<WAC_Prep_Body_1>" = "Om een nieuwe speaker toe te voegen, wordt in de stappen voor het installeren van accessoires op iOS uitgelegd hoe je deze op het normale draadloze netwerk configureert.";
     "<WAC_Prep_Input_1>" = "Ga naar configureren van accessoires";
-    "<WAC_Error_Title>" = "Niet verbonden met speler";
-    "<WAC_Error_Body_1>" = "Je nieuwe speler is niet op het draadloze netwerk aangesloten.";
-    "<WAC_Error_Body_2>" = "Selecteer 'Opnieuw proberen' om de installatiestappen te herhalen. Als je problemen blijft ondervinden, selecteer je 'Alternatieve installatie'.";
+    "<WAC_Error_Title>" = "Niet verbonden met speaker";
+    "<WAC_Error_Body_1>" = "Je nieuwe speaker is niet op het draadloze netwerk aangesloten.";
+    "<WAC_Error_Body_2>" = "Selecteer 'Opnieuw' om de installatiestappen te herhalen. Als je problemen blijft ondervinden, selecteer je 'Alternatieve installatie'.";
 
     "<WAC_Wizard_Waiting_Title>" = "Bezig met verbinden";
     "<WAC_Wizard_Waiting_Body_1>" = "Wacht totdat de verbinding tot stand is gebracht…";
@@ -385,10 +383,15 @@
 
 /* SUB Equalizer */
 
-    "<SUBOn>" = "SUB";
-    "<SUBLevel>" = "SUB-niveau";
-    "<PlacementAdjustment>" = "Positieaanpassing";
-    "<SpeakerSize>" = "Speakergrootte (crossover)";
+    "<SubEnabled>" = "Sub EnabledZXZ";
+    "<SubLevel>" = "Sub LevelZXZ";
+    "<SubPhase>" = "Phase ControlZXZ";
+    "<SubPhase0>" = "0°ZXZ";
+    "<SubPhase180>" = "180°ZXZ";
+    "<SubCrossover>" = "Crossover FrequencyZXZ";
+    // %1$d: frequency 50-110
+    "<SubCrossoverHerz_1>" = "%1$d HzZXZ";
+    "<SubCrossoverDescription>" = "Lower end is best for large floor speakers, highest end is best for compact speakers.ZXZ";
 
 /* Surround Equalizer */
 
@@ -408,7 +411,7 @@
 
 /* Search */
 
-    "<Search>" = "Zoek";
+    "<Search>" = "Zoeken";
     // %1$@ = category (Example: "Search for artist everywhere")
     "<SearchEverywhere_1>" = "Overal naar %1$@ zoeken";
     // %1$@ = category (Example: "Search everywhere unavailable for station")
@@ -439,11 +442,11 @@
 
 /* Duration Voice Over Strings */
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNHours>" = "%d uur";
+    "<VODurationNHours>" = "%d uur/uren";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNMinutes>" = "%d minuten";
+    "<VODurationNMinutes>" = "%d minuut/minuten";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<VODurationNSeconds>" = "%d seconden";
+    "<VODurationNSeconds>" = "%d seconde/seconden";
 
 // The following provide native orderings for hours, minutes, and seconds
 // They use the formatted strings from earlier in this section
@@ -467,6 +470,7 @@
 
     "<ControlCenterDisconnected>" = "Verbinden…";
     "<ControlCenterSearching>" = "Naar Sonos aan het zoeken…";
+    "<LockscreenDisabledByAirPlay>" = "De knoppen van de Sonos-app worden niet langer op je vergrendelingsscherm weergegeven";
 
 /* 3d touch home icon */
 
@@ -506,6 +510,8 @@
     "<DirectControlLastPlayedFrom>" = "Laatst afgespeeld vanaf";
     "<DirectControlLastPlayedFrom_1>" = "Laatst afgespeeld vanaf %1$@";
     "<DirectControlResumeFrom>" = "Hervatten vanaf";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "Hervatten vanaf %@";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "Speelt nu af vanaf %1$@";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -549,10 +555,9 @@
     "<AlarmAwayModeAlertUnmute>" = "Inschakelen";
     "<AlarmAwayModeNotificationTitle>" = "Sluimerstandmeldingen is uitgeschakeld";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<AlarmAwayModeNotificationBodyNAlarms>" = "Sluimerstandmeldingen is uitgeschakeld voor %d alarmen in huis.";
+    "<AlarmAwayModeNotificationBodyNAlarms>" = "Sluimerstandmeldingen is uitgeschakeld voor %d alarm(en) in huis.";
 
 /* System Status */
-    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
-    "<SystemStatusSeverityError>" = "ErrorZXZ";
-
+    "<SystemStatusSeverityVOLabel_1>" = "%@ melding";
+    "<SystemStatusSeverityError>" = "Fout";
 

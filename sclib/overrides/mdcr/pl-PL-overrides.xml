@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+<String id="SCLIB_STR_SETTINGS_ZONEPLAYER">EQ SettingsZXZ</String>
+<String id="SCLIB_STR_SETTINGS_MUSICLIBRARY">Biblioteka muzyczna</String>
+<String id="SCLIB_STR_SETTINGS_SERVICES">Serwisy</String>
+<String id="SCLIB_STR_SETTINGS_DATEANDTIME">Data i godzina</String>
+<String id="SCLIB_STR_SETTINGS_ADVANCED">Zaawansowane</String>
+<String id="SCLIB_STR_SETTINGS_WHITELED">Świeci się biała dioda statusu</String>
+<String id="SCLIB_STR_SETTINGS_TVDialog">Dialog TV</String>
+<String id="SCLIB_STR_SETTINGS_Surround">Głośniki dźwięku przestrzennego</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">Aktualizowanie biblioteki muzycznej…</String>
+<String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">Grupuj Albumy przy użyciu</String>
+<String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">Wyświetlaj artystów współpracujących w bibliotece muzycznej. To ustawienie dotyczy tylko bieżącego urządzenia sterującego.</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE">Aktualizuj zawartość codziennie o:</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATE_Group">Aktualizacje biblioteki</String>
+<String id="SCLIB_STR_MLSETTINGS_SCHEDINDEXUPDATETIME"></String>
+<String id="SCLIB_STR_DATETIMESETTINGS_INTERNETTIME">Ustaw datę i godzinę w oparciu o zegar internetowy</String>
+<String id="SCLIB_STR_DATETIMESETTINGS_DAYLIGHTSAVINGS">Dostosuj do czasu letniego</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ">Korektor</String>
+<String id="SCLIB_STR_ZPSETTINGS_MUSICEQ_SOUNDBAR">Korektor</String>
+<String id="SCLIB_STR_ZPSETTINGS_SUBEQ">Sub</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES">Automatycznie wyszukuj aktualizacje</String>
+<String id="SCLIB_STR_ADVSETTINGS_SHOWMEDIASERVERS">Pokaż serwery Windows Media</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUTOCHECKFORUPDATES_Group">Aktualizacje systemu</String>
+<String id="SCLIB_STR_WizardTitle_SetupWizard">Asystent konfiguracji Sonos</String>
+<String id="SCLIB_STR_SetupWiz_NoZPs_Body_2_Fmt">Kliknij „%2$s”, aby dodać jeden z tych produktów, lub kliknij „%1$s”, aby zrobić to później.</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Instr_Fmt">Kliknij „%2$s”, aby spróbować ponownie, lub kliknij „%1$s”, aby dokonać rejestracji później.</String>
+<String id="SCLIB_STR_MSWiz_ShareUsage_Body_4">Możesz zmienić swoje ustawienia w dowolnym momencie, wybierając „Preferencje” w menu Sonos, a następnie zakładkę „Użytkowanie” w ustawieniach zaawansowanych</String>
+<String id="SCLIB_STR_MSWiz_Multiple_Accounts_Added_Body_2_Fmt">Jeżeli chcesz zmienić konto domyślne, kliknij prawym przyciskiem myszy (Ctrl + kliknięcie) „%1$s” w menu muzycznym Sonos, aby wybrać inne konto.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_1_UpdateNeeded_Fmt">Zakończono %1$s.
+
+Należy teraz przeprowadzić aktualizację oprogramowania Sonos.</String>
+<String id="SCLIB_STR_SetupWiz_Complete_Body_2_UpdateNeeded">Po uruchomieniu aplikacji sterującej Sonos wybierz Sonos &gt; Wyszukaj aktualizacje…</String>
+<String id="SCLIB_STR_SetupWiz_RegPhoneNumber_Input_CN">Numer telefonu</String>
+<String id="SCLIB_STR_CancelOrBackIfSeparate">Wstecz</String>
+<String id="SCLIB_STR_Queue_Title">KOLEJKA</String>
+<String id="SCLIB_STR_Queue_NotInUse_Title">KOLEJKA (nieużywana)</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_NextRegister_Button">Zarejestruj</String>
+<String id="RHHSTR_OptInRequiredForSoundLab">Aby dodać publiczne usługi beta Sonos Labs, musisz udostępnić firmie Sonos daje dotyczące użytkowania.
+
+Aby wyświetlić lub zmienić ustawienia danych dotyczących użytkowania, przejdź do Sonos &gt; Preferencje &gt; Zaawansowane &gt; Usprawnij Sonos.</String>
+<String id="SCLIB_STR_ConfigWifiWiz_WifiSetup_Info_LC_Body_3">2. Przejdź do „Sonos” &gt; „Preferencje” &gt; „Zaawansowane” i wybierz „Konfiguracja bezprzewodowa”</String>
+<String id="SCLIB_STR_SetupWiz_RegError_Body_2">Możesz spróbować dokonać rejestracji później, korzystając z menu Pomoc &gt; Rejestracja systemu Sonos.</String>
+<String id="SCLIB_STR_MSS_CredError">Serwer %1$s nie rozpoznał Twoich danych logowania.
+
+Upewnij się, że Twój login (adres e-mail lub nazwa użytkownika) i hasło są poprawne, naciśnij przycisk „Wstecz” i spróbuj ponownie.
+
+Jeżeli problem nie ustąpił, skontaktuj się z %2$s, aby uzyskać pomoc w zakresie posiadanego konta.</String>
+<String id="RHHSTR_ARTISTVIEW_ITUNES">Kompilacje iTunes®</String>
+<String id="RHHSTR_ARTISTVIEW_ALBUMARTIST">Artyści albumowi</String>
+<String id="SCLIB_STR_RESETCONTROLLER_PROMPT">Zresetuj aplikację sterującą</String>
+<String id="SCLIB_STR_RESETCONTROLLER_INSTRUCTIONS">Zresetowanie aplikacji sterującej spowoduje jej odłączenie od systemu Sonos. Kiedy aplikacja sterująca uruchomi się na nowo, będzie można połączyć ją ponownie lub połączyć ją z innym systemem Sonos.</String>
+<String id="STR_StereoPair_BodyText_Creating"></String>
+<String id="SCLIB_STR_OUWiz_Finished_Title">Aktualizacja zakończona</String>
+<String id="SCLIB_STR_OUWiz_RegRequired_Body_1">Najpierw musisz zarejestrować swój system Sonos, aby otrzymywać aktualizacje oprogramowania online.</String>
+<String id="SCLIB_STR_OUWiz_Checking_Body_1">Wyszukiwanie dostępnych aktualizacji systemu Sonos…</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_1">Aktualizacja została anulowana.</String>
+<String id="SCLIB_STR_OUWiz_Canceled_Body_2">Aby spróbować ponownie w dowolnym momencie, przejdź do „Sonos” &gt; „Wyszukaj aktualizacje…”</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_1">Indeksowanie biblioteki muzycznej potrzebuje przebudowy.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_2">Ta operacja może trochę potrwać.</String>
+<String id="SCLIB_STR_OUWiz_ReindexingNeeded_Body_3">Podczas ponownego indeksowania korzystanie z biblioteki muzycznej nadal będzie możliwe.</String>
+<String id="SCLIB_STR_SetupWiz_SubIntro_Body2">Aby osiągnąć najlepsze rezultaty, skonfiguruj Sub przy użyciu urządzenia sterującego znajdującego się w tym samym pomieszczeniu. Jeżeli tego komputera nie można użyć w tym samym pomieszczeniu, w którym znajduje się Sub, zaleca się wybranie opcji „Nie teraz” i przeprowadzenie konfiguracji przy użyciu innego urządzenia sterującego.</String>
+<String comment="Substitution: Sonos Player" gender="neuter" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Uwaga: Upewnij się, że urządzenie %1$s jest podłączone do gniazda HDMI ARC w telewizorze.</String>
+<String comment="Substitution: Sonos Player" gender="masculine" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Uwaga: Upewnij się, że urządzenie %1$s jest podłączone do gniazda HDMI ARC w telewizorze.</String>
+<String comment="Substitution: Sonos Player" gender="masculine-vowel" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Uwaga: Upewnij się, że urządzenie %1$s jest podłączone do gniazda HDMI ARC w telewizorze.</String>
+<String comment="Substitution: Sonos Player" gender="masculine-special" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Uwaga: Upewnij się, że urządzenie %1$s jest podłączone do gniazda HDMI ARC w telewizorze.</String>
+<String comment="Substitution: Sonos Player" gender="feminine" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Uwaga: Upewnij się, że urządzenie %1$s jest podłączone do gniazda HDMI ARC w telewizorze.</String>
+<String comment="Substitution: Sonos Player" gender="feminine-vowel" id="SCLIB_STR_HDMI_ARC_OccupiedCEC_Error_Body3_Fmt">Uwaga: Upewnij się, że urządzenie %1$s jest podłączone do gniazda HDMI ARC w telewizorze.</String>
+<String id="SCLIB_STR_HDMI_ARC_SkipTVSetup_Body4_Fmt">Sonos &gt; Preferencje &gt; Ustawienia pomieszczenia &gt; %1$s &gt; TV &gt; Konfiguracja telewizora</String>
+<String id="RHHSTR_E_TOO_MANY_MOUNTED">Nie można nawiązać połączenia z komputerem „%1$s” - Sonos może być połączony tylko z %2$d komputerami jednocześnie.</String>
+<String id="RHHSTR_E_CANT_RESOLVE_NAME">Nie można znaleźć komputera „%1$s”.</String>
+<String id="RHHSTR_E_HOST_NO_RESPONSE">Komputer „%1$s” nie odpowiada.</String>
+<String id="RHHSTR_E_CONNECT_REFUSED">Komputer „%1$s” nie zezwolił systemowi Sonos na połączenie.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED">Odmowa dostępu do folderu udostępnionego „%1$s” - sprawdź nazwę użytkownika i hasło.</String>
+<String id="RHHSTR_E_NO_SUCH_SHARE">Na komputerze „%2$s” nie istnieje folder udostępniony „%1$s”.</String>
+<String id="RHHSTR_E_NO_SUCH_FILE">Plik „%1$s” nie istnieje.</String>
+<String id="RHHSTR_E_FILE_ACCESS_DENIED">Odmowa dostępu do pliku „%1$s”.</String>
+<String id="RHHSTR_E_SHARE_ACCESS_DENIED_NOPW">Odmowa dostępu do folderu udostępnionego „%1$s” - może być konieczne podanie nazwy użytkownika i hasła.</String>
+<String id="RHHSTR_E_TOO_MANY_USERS">Zbyt wiele aktywnych połączeń z folderem udostępnionym „%1$s”.</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE_WINDOWS_900">Nie można dodać folderu udostępnionego „%1$s” do Twojej biblioteki muzycznej (900)</String>
+<String id="RHHSTR_UNABLE_TO_INDEX_SHARE">Nie można dodać folderu udostępnionego „%1$s” do Twojej biblioteki muzycznej (%2$d).</String>
+<String id="RHHSTR_SHARE_NAME_TOO_LONG">Nazwa folderu udostępnionego jest zbyt długa.</String>
+<String id="RHHSTR_USERNAME_TOO_LONG">Nazwa użytkownika dla folderu udostępnionego jest zbyt długa.</String>
+<String id="RHHSTR_PASSWORD_TOO_LONG">Hasło dla folderu udostępnionego jest zbyt długie.</String>
+<String id="RHHSTR_UNABLE_TO_UNINDEX_SHARE">Nie można usunąć udostępnionej muzyki „%1$s” z Twojej biblioteki muzycznej (%2$d).</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Soundbar"></String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_FullSetup">Pobierz najnowszą wersję aplikacji sterującej Sonos z witryny Sonos.</String>
+<String id="SCLIB_STR_SetupWiz_ControllerCheck_UpdateNeeded_Body2_AddComponent">W celu aktualizacji wybierz Sonos &gt; Wyszukaj aktualizacje…</String>
+<String id="SCLIB_STR_Forget_Title">Czy chcesz usunąć obecnie używany system Sonos z pamięci?
+</String>
+<String id="RHHSTR_SIE_ERROR">Urządzenie „%1$s” nie jest już dostępne. Urządzenie, na którym zapisane są pliki muzyczne, może nie być włączone lub nastąpiła zmiana ścieżki dostępu.
+Aby sprawdzić nazwę ścieżki dostępu, przejdź do Zarządzaj &gt; Ustawienia biblioteki muzycznej.</String>
+<String id="SCLIB_STR_LC_SearchingForPlayers">Wyszukiwanie systemu Sonos…</String>
+<String id="SCLIB_STR_LC_NoComponents_WrongAP_String_2">Przejdź do Ustawienia systemu &gt; Sieć i wybierz sieć, do której połączony jest Sonos.</String>
+<String id="SCLIB_STR_LC_NoComponents_String_1">Przepraszamy, nie można nawiązać połączenia z systemem Sonos.
+Spróbujmy kilka rzeczy:</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Header"></String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option1">• Wyłącz swoją sieć bezprzewodową i włącz ją ponownie.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option2">• Odłącz router od zasilania i podłącz go ponownie.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option3">• Sprawdź, czy głośniki są podłączone do zasilania.</String>
+<String id="SCLIB_STR_LC_NoComponents_List_Option4">• Uruchom ponownie swój komputer i spróbuj raz jeszcze.</String>
+<String id="SCLIB_STR_LC_Contact">To nie pomaga</String>
+</Strings>

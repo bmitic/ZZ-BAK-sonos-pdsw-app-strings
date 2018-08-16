@@ -82,8 +82,6 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="zones/strings.baml:SETTINGS_EQ_FORMAT_1:System.String.$Content">_EQ {0}…</String>
 <String Category="None" UniqueId="zones/strings.baml:SETTINGS_FORMAT_1:System.String.$Content">_Instellingen {0}…</String>
 <String Category="None" UniqueId="zones/strings.baml:GROUP_1:System.String.$Content">Groep</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TITLE_1:System.String.$Content">Geen kamers geselecteerd</String>
-<String Category="None" UniqueId="zones/strings.baml:NO_ZONES_TEXT_1:System.String.$Content">Weet je zeker dat je de muziek in al deze kamers wilt stoppen?</String>
 <String Category="None" UniqueId="zones/strings.baml:NO_ZONES_SELECTED_NO_MUSIC_1:System.String.$Content">[geen muziek]</String>
 <String Category="None" UniqueId="zones/strings.baml:GROUPING_CHOOSE_MUSIC_1:System.String.$Content">Klik op Klaar om muziek te kiezen</String>
 <String Category="None" UniqueId="zones/strings.baml:SC_ARE_YOU_SURE_TITLE_1:System.String.$Content">Bevestigen</String>
@@ -92,9 +90,9 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_FORMAT_1:System.String.$Content">{0} meer tonen…</String>
 <String Category="None" UniqueId="zones/strings.baml:SHOW_MORE_PLAYERS_1:System.String.$Content">Meer tonen…</String>
 <String Category="None" UniqueId="zones/strings.baml:SHOW_LESS_PLAYERS_1:System.String.$Content">Toon minder…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">Klik om bij te werken…</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_SUB_1:System.String.$Content">Selecteren om SUB te configureren</String>
-<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_UNUSED_1:System.String.$Content">Selecteren om {0} te configureren</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_UPDATE_1:System.String.$Content">Selecteer om bij te werken</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_CONFIGURE_1:System.String.$Content">Selecteren om te configureren</String>
+<String Category="None" UniqueId="zones/strings.baml:CLICK_TO_REGISTER_1:System.String.$Content">Selecteren om te registreren</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabel_1:System.String.$Content">De huidige kamergroep bevat</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationGroupLabelAppendix_1:System.String.$Content">Gebruik de pijltoetsen omhoog en omlaag om te schakelen tussen kamergroepen. Druk op de spatiebalk om het groepeervenster te openen.</String>
 <String Category="None" UniqueId="zones/strings.baml:AutomationUnusedGroupLabelAppendix_1:System.String.$Content">Gebruik de pijltoetsen omhoog en omlaag om tussen kamergroepen te schakelen. Druk op de spatiebalk om dit apparaat te installeren.</String>
@@ -141,7 +139,7 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryNasCredentialsPasswordLabel_1:System.String.$Content">Wachtwoord:</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminTitle_1:System.String.$Content">Instellingen voor bestandsdeling wijzigen</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminText_1:System.String.$Content">Het Sonos-systeem kan alleen muziek op deze computer afspelen, als de installatieassistent de volgende Windows-instellingen wijzigt:</String>
-<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Windows-service voor delen bestanden en printers toevoegen aan uitzonderingen firewall. Zonder deze wijzigingen kan de muziek op deze computer niet worden afgespeeld via het Sonos-systeem.</String>
+<String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminFirewallText_1:System.String.$Content">Voeg de Bibliotheekservice van Sonos toe aan de lijst met uitzonderingen van Windows Firewall. Zonder deze wijzigingen kan de muziek op deze computer niet op het Sonos-systeem worden afgespeeld.</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryAdminSleepText_1:System.String.$Content">De slaapstand van Windows instellen op Nooit. Zonder deze wijziging kan de muziek op deze computer niet altijd worden afgespeeld via het Sonos-systeem.</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteTitle_1:System.String.$Content">Indeling muziekbibliotheek</String>
 <String Category="None" UniqueId="wizard/strings.baml:MusicLibraryCompleteText1_1:System.String.$Content">De muziek wordt nu aan het Sonos-systeem toegevoegd. Dit kan verder gaan nadat je de Sonos Controller start en kan voor grote muziekverzamelingen enige minuten duren.</String>
@@ -158,8 +156,8 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageNetworkDetails_1:System.String.$Content">Controleer of het pad naar de map, de gebruikersnaam en het wachtwoord juist zijn.</String>
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareMessageAdditionalDetails_1:System.String.$Content">Reden: {0}</String>
 <String Category="None" UniqueId="wizard/strings.baml:ErrorAddingShareUnknownError_1:System.String.$Content">Onbekende fout.</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Error getting hostnameZXZ</String>
-<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Could not write to share fileZXZ</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorGettingHostnameMessage_1:System.String.$Content">Fout bij het verkrijgen van de hostname</String>
+<String Category="None" UniqueId="wizard/strings.baml:ErrorWritingToShareFileMessage_1:System.String.$Content">Kon niet naar share-bestand schrijven</String>
 <String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareTitle_1:System.String.$Content">Bevestigen</String>
 <String Category="None" UniqueId="wizard/strings.baml:ConfirmRemoveShareMessage_1:System.String.$Content">Weet je zeker dat je de geselecteerde map wilt verwijderen?</String>
 <String Category="None" UniqueId="wizard/strings.baml:DockAutoplayNoZoneString_1:System.String.$Content">Geen</String>
@@ -257,14 +255,8 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="Button" UniqueId="zones/groupingdialog.baml:selectAllButton_1:System.Windows.Controls.ContentControl.Content">Alles selecteren - Party-modus</String>
 <String Category="Title" UniqueId="settingsmenu/settingswindow.baml:Window_1:System.Windows.Window.Title">Instellingen</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_5:System.Windows.Controls.TextBlock.Text">Instellingen kamer voor</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">Je hebt op dit moment geen Sonos-spelers in je Sonos-systeem. Je hebt ten minste één Sonos-speler nodig om muziek af te kunnen spelen.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Als je een Sonos-speler wilt toevoegen, selecteer je Beheren &gt; Speler of SUB toevoegen in de menubalk.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text">Instellingen voor</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_3:System.Windows.Documents.Run.Text">Je hebt op dit moment geen BOOSTs in je Sonos-systeem.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_4:System.Windows.Documents.Run.Text">Om een BOOST toe te voegen, selecteer je Beheren &gt; BOOST of BRIDGE toevoegen vanuit de menubalk.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_9:System.Windows.Controls.TextBlock.Text">Instellingen DOCK voor</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_5:System.Windows.Documents.Run.Text">Je hebt op dit moment geen DOCKs in je Sonos-systeem.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_6:System.Windows.Documents.Run.Text">Als je een DOCK wilt toevoegen, selecteer je Beheren &gt; Speler of SUB toevoegen in de menubalk.</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_1:System.Windows.Documents.Run.Text">Je hebt op dit moment geen Sonos-speakers in je Sonos-systeem. Je hebt ten minste één Sonos-speaker nodig om muziek af te kunnen spelen.</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:Run_2:System.Windows.Documents.Run.Text">Als je een Sonos-speaker wilt toevoegen, selecteer je Beheren &gt; Speaker of Sub toevoegen in de menubalk.</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_1:System.Windows.Controls.HeaderedContentControl.Header">Muziekbibliotheek</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Instellingen muziekbibliotheek</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_2:System.Windows.Controls.HeaderedContentControl.Header">Mappen</String>
@@ -282,8 +274,6 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_5:System.Windows.Controls.ContentControl.Content">Verwijderen</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_6:System.Windows.Controls.ContentControl.Content">Vervangen</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content">Opnieuw autoriseren</String>
-<String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_7:System.Windows.Controls.HeaderedContentControl.Header">Datum en tijd</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_11:System.Windows.Controls.TextBlock.Text">Datum- en tijdinstellingen</String>
 <String Category="Label" UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header">Geavanceerd</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text">Geavanceerde instellingen</String>
 <String Category="Title" UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title">Info</String>
@@ -302,8 +292,6 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_25:System.Windows.Controls.HeaderedItemsControl.Header">_Kopiëren</String>
 <String Category="Menu" Comments="This item belongs to the Edit menu" UniqueId="main/mainmenu.baml:MenuItem_26:System.Windows.Controls.HeaderedItemsControl.Header">_Plakken</String>
 <String Category="Menu" Comments="This is the root of the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_3:System.Windows.Controls.HeaderedItemsControl.Header">Be_heren</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_4:System.Windows.Controls.HeaderedItemsControl.Header">_Speler of SUB toevoegen…</String>
-<String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_35:System.Windows.Controls.HeaderedItemsControl.Header">_BOOST of BRIDGE toevoegen…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_27:System.Windows.Controls.HeaderedItemsControl.Header">Instellingen muziek_bibliotheek…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_28:System.Windows.Controls.HeaderedItemsControl.Header">I_nstellingen service…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_22:System.Windows.Controls.HeaderedItemsControl.Header">_Radiostation toevoegen…</String>
@@ -312,7 +300,6 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_33:System.Windows.Controls.HeaderedItemsControl.Header">Taal _wijzigen…</String>
 <String Category="Menu" Comments="This item belongs to the Manage menu" UniqueId="main/mainmenu.baml:MenuItem_6:System.Windows.Controls.HeaderedItemsControl.Header">_Instellingen…</String>
 <String Category="Menu" Comments="This is the root of the Help menu" UniqueId="main/mainmenu.baml:MenuItem_7:System.Windows.Controls.HeaderedItemsControl.Header">Hel_p</String>
-<String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_36:System.Windows.Controls.HeaderedItemsControl.Header">_Mijn Sonos-account…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_30:System.Windows.Controls.HeaderedItemsControl.Header">Sonos-_producten kopen…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_14:System.Windows.Controls.HeaderedItemsControl.Header">_Sneltoetsen…</String>
 <String Category="Menu" Comments="This item belongs to the Help menu" UniqueId="main/mainmenu.baml:MenuItem_31:System.Windows.Controls.HeaderedItemsControl.Header">_Help bij Sonos-systeem…</String>
@@ -371,7 +358,7 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="utilities/strings.baml:ResizeQueue_1:System.String.$Content">Formaat wachtrij wijzigen</String>
 <String Category="None" UniqueId="utilities/strings.baml:CloseWindow_1:System.String.$Content">Actieve venster sluiten</String>
 <String Category="None" UniqueId="utilities/strings.baml:OK_1:System.String.$Content">OK</String>
-<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">CancelZXZ</String>
+<String Category="None" UniqueId="utilities/strings.baml:Cancel_1:System.String.$Content">Annuleren</String>
 <String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonDescription_1:System.String.$Content">{0} Radioknop. Druk op de spatiebalk als je dit wilt selecteren.</String>
 <String Category="None" UniqueId="utilities/strings.baml:WrappedRadioButtonSelectedDescription_1:System.String.$Content">{0} Radioknop, geselecteerd.</String>
 <String Category="Title" UniqueId="alarms/editalarmwindow.baml:CommonDialogWindow_1:System.Windows.Window.Title">Alarm bewerken</String>
@@ -413,7 +400,7 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryHeader_1:System.String.$Content">Muziekbibliotheek bijwerken</String>
 <String Category="None" UniqueId="main/strings.baml:UpdateMusicLibraryBody_1:System.String.$Content">Hiermee wordt de muziekbibliotheek van je Sonos-systeem bijgewerkt met wijzigingen die je in iTunes of andere gedeelde muziekmappen hebt aangebracht. Wil je de muziekbibliotheek van het Sonos-systeem nu bijwerken?</String>
 <String Category="None" UniqueId="main/strings.baml:ConnectionErrorsNoHouseholdFormat_1:System.String.$Content">Ga voor meer informatie naar {0}</String>
-<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">Om een kamer weer te geven, moet je de fabrieksinstellingen van de Sonos-speler voor die kamer opnieuw instellen. Ga voor meer informatie naar {0}</String>
+<String Category="None" UniqueId="main/strings.baml:ConnectionErrorsAllHiddenFormat_1:System.String.$Content">Om een kamer weer te geven, moet je de fabrieksinstellingen van de Sonos-speaker voor die kamer opnieuw instellen. Ga voor meer informatie naar {0}</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeTitle_1:System.String.$Content">Huidige tijd is niet ingesteld</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeText_1:System.String.$Content">Voor je een alarm kunt instellen, moet de huidige tijd zijn ingesteld.</String>
 <String Category="None" UniqueId="main/strings.baml:AlarmsNoTimeButton_1:System.String.$Content">Huidige tijd instellen</String>
@@ -427,21 +414,20 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="main/strings.baml:LCSubmitDiagsItem_1:System.String.$Content">Diagnostische gegevens verzenden</String>
 <String Category="None" UniqueId="main/strings.baml:BrowserErrorMessage_1:System.String.$Content">Kon link niet openen: {0}. Controleer of je een standaard internetbrowser hebt ingesteld.</String>
 <String Category="None" UniqueId="main/strings.baml:BrowserErrorTitle_1:System.String.$Content">Fout bij het openen van de link</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Music library updateZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">To ensure playback from your Music Library, Sonos needs to update the index of songs. This may take a couple of minutes.ZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Update NowZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Remind Me LaterZXZ</String>
-<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">There was an error updating your index of songs. Please re-add your music in 'Manage &gt; Music Library Settings…'ZXZ</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageTitle_1:System.String.$Content">Muziekbibliotheek-update</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationMessageText_1:System.String.$Content">Voor het afspelen van muziek uit uw muziekbibliotheek werkt Sonos de index van de nummers bij. Dit kan een aantal minuten duren.</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationNowButton_1:System.String.$Content">Nu bijwerken</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationLaterButton_1:System.String.$Content">Herinner mij hier later aan</String>
+<String Category="None" UniqueId="main/strings.baml:ShareMigrationErrorText_1:System.String.$Content">Fout bij het bijwerken van de index met nummers. Voeg de muziek opnieuw toe in 'Beheren &gt; Instellingen Muziekbibliotheek…'</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:TextBlock_4:System.Windows.Controls.TextBlock.$Content">Gegevens over gebruik</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_2:System.Windows.Documents.Run.$Content">Voor het verbeteren van onze producten en onze klantenservice verzamelt Sonos gegevens over hoe je het Sonos-systeem gebruikt. Ga voor meer informatie naar</String>
 <String Category="CheckBox" UniqueId="settingsmenu/settingswindowdictionary.baml:CheckBox_4:System.Windows.Controls.ContentControl.Content">Ja, schakel het delen van gebruiksgegevens in om Sonos te helpen producten te verbeteren.</String>
-<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">Equalizer-instellingen zijn niet beschikbaar als het uitgangsniveau van een Sonos-speler is ingesteld op Vast.</String>
+<String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_1:System.Windows.Documents.Run.Text">Equalizer-instellingen zijn niet beschikbaar als het uitgangsniveau van een Sonos-speaker is ingesteld op Vast.</String>
 <String Category="Text" UniqueId="settingsmenu/settingswindowdictionary.baml:Run_3:System.Windows.Documents.Run.Text">Wijzig de instelling van het uitgangsniveau op het tabblad Basis om de EQ-instellingen in te schakelen.</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:EQReset_1:System.Windows.Controls.ContentControl.Content">Opnieuw instellen</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SubEQReset_1:System.Windows.Controls.ContentControl.Content">Opnieuw instellen</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:TVDialogEQReset_1:System.Windows.Controls.ContentControl.Content">Opnieuw instellen</String>
 <String Category="Button" UniqueId="settingsmenu/settingswindowdictionary.baml:SurroundEQReset_1:System.Windows.Controls.ContentControl.Content">Opnieuw instellen</String>
-<String Category="Text" UniqueId="zones/zonegroupcontrol.baml:TextBlock_1:System.Windows.Controls.TextBlock.Text">Groep</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_3:System.Windows.Controls.ContentControl.Content">Info &amp; Opties</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_1:System.Windows.Controls.ContentControl.Content">Dempen staat uit</String>
 <String Category="ToolTip" UniqueId="nowplaying/minitransport.baml:ToolTip_2:System.Windows.Controls.ContentControl.Content">Dempen staat aan</String>
@@ -499,8 +485,8 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="Button" UniqueId="browse/queuepanel.baml:clearButton_1:System.Windows.Controls.ContentControl.Content">Wachtrij wissen</String>
 <String Category="Button" UniqueId="browse/queuepanel.baml:saveButton_1:System.Windows.Controls.ContentControl.Content">Wachtrij opslaan</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:WhiteIndicatorLightFallbackValue_1:System.String.$Content">Wit statuslampje</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">Naam BRIDGE</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">Naam DOCK</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:BridgeNameFallbackValue_1:System.String.$Content">Naam Bridge</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:DockNameFallbackValue_1:System.String.$Content">Naam Dock</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:ZoneplayerNameFallbackValue_1:System.String.$Content">Naam kamer</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:BasicTabHeader_1:System.String.$Content">Basis</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:GeneralTabHeader_1:System.String.$Content">Algemeen</String>
@@ -516,7 +502,7 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBass_1:System.String.$Content">Bas</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTreble_1:System.String.$Content">Treble</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationBalance_1:System.String.$Content">Balans</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content">Volumeregeling SUB</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationSub_1:System.String.$Content">Volumeregeling Sub</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:EditButtonLabel_1:System.String.$Content">Bewerken</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:BassHeader_1:System.String.$Content">Bas</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:TrebleHeader_1:System.String.$Content">Treble</String>
@@ -528,9 +514,9 @@ Het UNC-pad %s is geen geldig UNC-pad, of geen share op deze computer.</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelMax_1:System.String.$Content">Max</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:LeftLabelLeft_1:System.String.$Content">L</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:RightLabelRight_1:System.String.$Content">R</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">SUB</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledHeader_1:System.String.$Content">Sub</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:IsSubEnabledLabel_1:System.String.$Content">Aan</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">SUB-niveau</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:SubGainHeader_1:System.String.$Content">Sub-niveau</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:SubPolarityHeader_1:System.String.$Content">Positieaanpassing</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:DialogLevelHeader_1:System.String.$Content">Versterken Dialoog</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AudioDelayHeader_1:System.String.$Content">Audiovertraging ( lipsync)</String>
@@ -570,7 +556,7 @@ Niet alle services ondersteunen het filteren van inhoud.</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRSignalLight_1:System.String.$Content">Infraroodsignaallampje</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationIRRepeater_1:System.String.$Content">Infraroodrepeater</String>
 <String Category="None" UniqueId="settingsmenu/strings.baml:AutomationTVAutoplay_1:System.String.$Content">Automatisch afspelen tv</String>
-<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content">Groep opheffen in automatisch afspelen</String>
+<String Category="None" UniqueId="settingsmenu/strings.baml:AutomationUngroupOnAutoplay_1:System.String.$Content">Uit groep bij Aut. afspelen</String>
 <String Category="Text" UniqueId="zones/zonespanel.baml:header_1:System.Windows.Controls.TextBlock.Text">KAMERS</String>
 <String Category="Button" UniqueId="zones/zonespanel.baml:pauseAllButton_1:System.Windows.Controls.ContentControl.Content">Alles pauzeren</String>
 <String Category="Button" UniqueId="utilities/dualtextinputdialogwindow.baml:CommonDialogWindow_1:Sonos.Controller.Desktop.Utilities.CommonDialogWindow.OkButtonText">OK</String>

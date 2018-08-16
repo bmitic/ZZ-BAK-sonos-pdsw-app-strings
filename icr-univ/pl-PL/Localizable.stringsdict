@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//PL" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
+	<key>&lt;AlarmAwayModeNotificationBodyNAlarms></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@alarms@</string>
@@ -14,11 +14,15 @@
 			<string>d</string>
 			<key>one</key>
 			<string>Powiadomienia drzemki zostały wyłączone dla %d alarmu w domu.</string>
-			<key>other</key>
+			<key>few</key>
 			<string>Powiadomienia drzemki zostały wyłączone dla %d alarmów w domu.</string>
+			<key>many</key>
+			<string>Powiadomienia drzemki zostały wyłączone dla %d alarmów w domu.</string>
+			<key>other</key>
+			<string>Powiadomienia drzemki zostały wyłączone dla %d alarmu w domu.</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNHours&gt;</key>
+	<key>&lt;VODurationNHours></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@hours@</string>
@@ -28,11 +32,16 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d godzina</string>
+			<key>few</key>
+			<string>%d godziny</string>
+			<key>many</key>
+			<string>%d godzin</string>
 			<key>other</key>
-			<string>%d godz</string>
-		</dict>
+			<string>%d godziny</string>		</dict>
 	</dict>
-	<key>&lt;VODurationNMinutes&gt;</key>
+	<key>&lt;VODurationNMinutes></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@minutes@</string>
@@ -42,11 +51,16 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d minuta</string>
+			<key>few</key>
+			<string>%d minuty</string>
+			<key>many</key>
+			<string>%d minut</string>
 			<key>other</key>
-			<string>%d min</string>
-		</dict>
+			<string>%d minuty</string>		</dict>
 	</dict>
-	<key>&lt;VODurationNSeconds&gt;</key>
+	<key>&lt;VODurationNSeconds></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@seconds@</string>
@@ -56,11 +70,16 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d sekunda</string>
+			<key>few</key>
+			<string>%d sekundy</string>
+			<key>many</key>
+			<string>%d sekund</string>
 			<key>other</key>
-			<string>%d sek</string>
-		</dict>
+			<string>%d sekundy</string>		</dict>
 	</dict>
-	<key>&lt;QueueTrackLabel_1&gt;</key>
+	<key>&lt;QueueTrackLabel_1></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@songs@</string>
@@ -71,11 +90,15 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>Puste</string>
+			<string>Pusty</string>
 			<key>one</key>
 			<string>.%d utwór.</string>
-			<key>other</key>
+			<key>few</key>
+			<string>.%d utwory.</string>
+			<key>many</key>
 			<string>.%d utworów.</string>
+			<key>other</key>
+			<string>.%d utworu.</string>
 		</dict>
 	</dict>
 </dict>

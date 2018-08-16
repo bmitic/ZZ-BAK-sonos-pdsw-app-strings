@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>&lt;AlarmAwayModeNotificationBodyNAlarms&gt;</key>
+	<key>&lt;AlarmAwayModeNotificationBodyNAlarms></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@alarms@</string>
@@ -18,7 +18,7 @@
 			<string>Notifications répétées désactivées pour %d alarmes dans la maison.</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNHours&gt;</key>
+	<key>&lt;VODurationNHours></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@hours@</string>
@@ -34,7 +34,7 @@
 			<string>%d heures</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNMinutes&gt;</key>
+	<key>&lt;VODurationNMinutes></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@minutes@</string>
@@ -50,7 +50,7 @@
 			<string>%d minutes</string>
 		</dict>
 	</dict>
-	<key>&lt;VODurationNSeconds&gt;</key>
+	<key>&lt;VODurationNSeconds></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@seconds@</string>
@@ -66,7 +66,7 @@
 			<string>%d secondes</string>
 		</dict>
 	</dict>
-	<key>&lt;QueueTrackLabel_1&gt;</key>
+	<key>&lt;QueueTrackLabel_1></key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@songs@</string>
@@ -79,9 +79,9 @@
 			<key>zero</key>
 			<string>Vide</string>
 			<key>one</key>
-			<string>.%d morceau.</string>
+			<string>%d morceau.</string>
 			<key>other</key>
-			<string>.%d morceaux.</string>
+			<string>%d morceaux.</string>
 		</dict>
 	</dict>
 </dict>

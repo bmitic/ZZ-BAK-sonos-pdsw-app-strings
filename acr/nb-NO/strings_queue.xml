@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Kø</string>
-<string name="queue_title_tab">Kø</string>
 <string name="edit_queue_title">Rediger kø</string>
 <string name="queue_subtitle_not_in_use">Ikke i bruk</string>
 <string name="clear_queue_title">Slett kø</string>
@@ -25,7 +24,6 @@
 <string name="direct_control_playing_from_accessibility">Spiller fra %1$s</string>
 <string name="direct_control_started_from">Startet fra</string>
 <string name="direct_control_started_from_accessibility">Startet fra %1$s</string>
-<string name="direct_control_resume_playing_from">Gjenoppta avspilling fra</string>
 <string name="direct_control_last_played_from">Sist spilt fra</string>
 <string name="direct_control_last_played_from_accessibility">Sist spilt fra %1$s</string>
 <string name="direct_control_last_played">Sist spilt i dette rommet</string>

@@ -2,9 +2,14 @@
 <resources>
 <plurals name="accessibility_tab_badge_format">
     <item quantity="one">%1$s. %2$d element.</item>
-    <item quantity="other">%1$s. %2$d elementów.</item>
+    <item quantity="few">%1$s. %2$d elementy.</item>
+    <item quantity="many">%1$s. %2$d elementów.</item>
+    <item quantity="other">%1$s. %2$d elementu.</item>
 </plurals>
 <plurals name="alarm_snoozed_duration_minutes">
-    <item quantity="other">%d min</item>
+    <item quantity="one">%d minuta</item>
+    <item quantity="few">%d minuty</item>
+    <item quantity="many">%d minut</item>
+    <item quantity="other">%d minuty</item>
 </plurals>
 </resources>

@@ -31,8 +31,8 @@
     "<Unmute>" = "Wyłącz wyciszenie";
     "<UnmuteAll>" = "Wyłącz wyciszenie wszystkich";
     "<Done>" = "Gotowe";
-    "<On>" = "Włączony";
-    "<Off>" = "Wyłączony";
+    "<On>" = "Wł.";
+    "<Off>" = "Wył.";
 
 /*******************************************************************************
  Code strings
@@ -47,11 +47,11 @@
 
 /* About Window */
 
-    "<AboutSonosWindowTitle>" = "O systemie Mój Sonos";
-    "<AboutControllerName_1>" = "Aplikacja sterująca Sonos dla komputerów Mac %1$@";
+    "<AboutSonosWindowTitle>" = "O moim systemie Sonos";
+    "<AboutControllerName_1>" = "Aplikacja Sonos dla komputerów Mac %1$@";
     "<AboutVersion>" = "Wersja:";
     "<AboutBuild>" = "Kompilacja:";
-    "<AboutSonosID>" = "Identyfikator Sonos:";
+    "<AboutSonosID>" = "Identyf. Sonos:";
     "<AboutSubmitDiagnostics>" = "Prześlij dane diagnostyczne";
 
 
@@ -70,9 +70,9 @@
     "<ShortcutPlay>" = "Odtwórz/Wstrzymaj";
     "<ShortcutPrevTrack>" = "Poprzedni utwór";
     "<ShortcutNextTrack>" = "Kolejny utwór";
-    "<ShortcutShuffle>" = "Przełącz na tryb losowy";
-    "<ShortcutRepeat>" = "Przełącz na powtarzanie";
-    "<ShortcutCrossfade>" = "Przełącz na płynne przejście";
+    "<ShortcutShuffle>" = "Włącz/Wyłącz tryb losowy";
+    "<ShortcutRepeat>" = "Włącz/Wyłącz powtarzanie";
+    "<ShortcutCrossfade>" = "Włącz/Wyłącz płynne przejście";
     "<ShortcutMute>" = "Wycisz/Wyłącz wyciszenie dla bieżącego pomieszczenia lub grupy";
     "<ShortcutMuteAll>" = "Wycisz wszystkie";
     "<ShortcutVolUp>" = "Zwiększ poziom głośności";
@@ -83,7 +83,7 @@
     "<ShortcutReplace>" = "Zastąp kolejkę wybranymi";
     "<ShortcutDelete>" = "Usuń wybrany utwór z kolejki";
     "<ShortcutTop>" = "Przeskocz do początku wyszukiwania";
-    "<ShortcutFavorites>" = "Idź do Ulubionych";
+    "<ShortcutFavorites>" = "Idź do ulubionych";
     "<ShortcutBrowse>" = "Przeskocz do przeglądania";
     "<ShortcutRooms>" = "Przeskocz do pomieszczeń";
     "<ShortcutNowPlaying>" = "Przeskocz do teraz odtwarzanych";
@@ -104,7 +104,7 @@
     "<ShortcutShowPreferences>" = "Pokaż preferencje";
     "<ShortcutShowSonosController>" = "Pokaż aplikację sterującą Sonos";
     "<ShortcutShowMiniController>" = "Pokaż miniaturową aplikację sterującą";
-    "<ShortcutToggleMiniController>" = "Przełącz na miniaturową aplikację sterującą";
+    "<ShortcutToggleMiniController>" = "Włącz/Wyłącz miniaturową aplikację sterującą";
 
 /* Alarms */
 
@@ -116,8 +116,8 @@
     "<AlarmsTitle>" = "Zarządzaj alarmami Sonos";
     "<AlarmHeaderWhere>" = "Gdzie";
     "<AlarmHeaderWhen>" = "Kiedy";
-    "<AlarmHeaderOn>" = "WŁĄCZONY";
-    "<AlarmDialogCurrentTimeFormat_3>" = "Bieżąca godzina: %1$@ - %2$@ %3$@";
+    "<AlarmHeaderOn>" = "WŁ.";
+    "<AlarmDialogCurrentTimeFormat_3>" = "Bieżący czas: %1$@ - %2$@ %3$@";
     "<AlarmEditButtonTitle>" = "Edytuj";
     "<AlarmUnknownDevice>" = "Nie wybrano pomieszczenia";
 
@@ -188,15 +188,15 @@
     "<IndexingInProgressMessage>" = "Trwa indeksowanie Twojej kolekcji muzycznej…";
 // %1$@, Reason why indexing the user's music collection failed.
     "<IndexingFinishedError_1>" = "Nie udało się wykonać indeksowania Twojej kolekcji muzycznej.\n\n%1$@";
-    "<IndexingUpdateMusicLibraryTitle>" = "Aktualizowanie Biblioteki Muzycznej";
-    "<IndexingUpdateMusicLibraryMessage>" = "Ta operacja spowoduje aktualizację Biblioteki Muzycznej w Twoim systemie Sonos, aby odzwierciedlała ona wszelkie zmiany dokonane w iTunes lub innych udostępnionych folderach muzycznych.\n\nCzy chcesz zaktualizować Bibliotekę Muzyczną w swoim systemie Sonos teraz?";
+    "<IndexingUpdateMusicLibraryTitle>" = "Aktualizowanie biblioteki muzycznej";
+    "<IndexingUpdateMusicLibraryMessage>" = "Ta operacja spowoduje aktualizację biblioteki muzycznej w twoim systemie Sonos, aby odzwierciedlała ona wszelkie zmiany dokonane w iTunes lub innych udostępnionych folderach muzycznych.\n\nCzy chcesz zaktualizować bibliotekę muzyczną w swoim systemie Sonos teraz?";
 
 
 /* Limited Connectivity */
 
     "<LimitedConnectivityBlockedByFirewall_1>" = "Ustawienia zapory sieciowej Twojego komputera zostały zmienione. Twoja aplikacja sterująca Sonos nie może już nawiązać połączenia z systemem Sonos.\nAby uzyskać więcej informacji, przejdź do %1$@\nKliknij przycisk „Konfiguruj zaporę sieciową”, aby dostosować ustawienia zapory sieciowej.";
     "<LimitedConnectivityReset>" = "Twoja aplikacja sterująca Sonos została zresetowana.\nZa chwilę zostanie uruchomiona ponownie…";
-    "<LimitedConnectivityAboutMySonosSystem>" = "O systemie Mój Sonos";
+    "<LimitedConnectivityAboutMySonosSystem>" = "O moim systemie Sonos";
     "<LimitedConnectivityFirewallConfigure>" = "Konfiguruj zaporę sieciową";
     "<LimitedConnectivityMoreOptions>" = "Więcej opcji…";
     "<LimitedConnectivityResetController>" = "Zresetuj aplikację sterującą";
@@ -220,7 +220,7 @@
     "<ShareMigrationAlertNowButton>" = "Aktualizuj teraz";
     "<ShareMigrationAlertLaterButton>" = "Przypomnij mi później";
     "<AuthorizationFailed>" = "Autoryzacja nie powiodła się.";
-    "<AbleToAddMusicSharesFailed>" = "System Sonos nie mógł uruchomić serwera biblioteki muzycznej, ponieważ Twoje odtwarzacze nie są z nim kompatybilne. Wyszukaj aktualizacje.";
+    "<AbleToAddMusicSharesFailed>" = "System Sonos nie mógł uruchomić serwera biblioteki muzycznej, ponieważ Twoje głośniki nie są z nim kompatybilne. Wyszukaj aktualizacje.";
     "<LocalHostNameFailed>" = "System Sonos nie mógł uruchomić serwera biblioteki muzycznej, ponieważ nie można odczytać nazwy komputera.";
 
 
@@ -229,7 +229,7 @@
     "<NowPlayingHeaderTitle>" = "TERAZ ODTWARZANE";
     "<NowPlayingLabel_Information>" = "Więcej informacji";
     "<NowPlayingTrackDefaultLabel>" = "Utwór [0/0]";
-    "<NowPlayingTrackDefaultString>" = "[brak muzyki]";
+    "<NowPlayingTrackDefaultString>" = "[Nie wybrano muzyki]";
     "<NowPlayingArtistDefaultLabel>" = "Artysta";
     "<NowPlayingAlbumDefaultLabel>" = "Album";
 
@@ -244,13 +244,13 @@
     "<QueueConfirmClearText>" = "Czy na pewno chcesz wyczyścić kolejkę?";
 // %1$d, Number of tracks to remove.
     "<QueueSaveWindowTitle>" = "Zapisz kolejkę";
-    "<QueueSaveIntroText>" = "Kolejka zostanie zapisana jako Playlista Sonos.";
+    "<QueueSaveIntroText>" = "Kolejka zostanie zapisana jako playlista Sonos.";
     "<QueuePlaylistNameText>" = "Wpisz nową nazwę playlisty:";
-    "<QueuePlaylistTableText>" = "Lub wybierz istniejącą Playlistę Sonos, którą chcesz zastąpić:";
+    "<QueuePlaylistTableText>" = "Lub wybierz istniejącą playlistę Sonos, którą chcesz zastąpić:";
     "<QueueSaveErrorGeneric>" = "Zapisywanie kolejki nie powiodło się.";
     "<QueueSaveErrorNotEnoughRoom>" = "Brak dostatecznego wolnego miejsca w Sonos, aby zapisać kolejkę.\nUsuń stare playlisty lub kolejki zapisane w innych pomieszczeniach i spróbuj ponownie.";
-    "<QueueSaveErrorMobileTracksNotSaved>" = "Utwory z urządzeń mobilnych nie mogą być przechowywane w Playlistach Sonos i nie zostały zapisane.";
-    "<QueueSaveErrorAllMobileTracks>" = "Kolejka zawiera wyłącznie utwory z urządzeń mobilnych. Te utwory nie mogą zostać zapisane w Playlistach Sonos.";
+    "<QueueSaveErrorMobileTracksNotSaved>" = "Utwory z urządzeń mobilnych nie mogą być przechowywane w playlistach Sonos i nie zostały zapisane.";
+    "<QueueSaveErrorAllMobileTracks>" = "Kolejka zawiera wyłącznie utwory z urządzeń mobilnych. Te utwory nie mogą zostać zapisane w playlistach Sonos.";
 
     "<QueuePlaylistExistsWarningTitle>" = "Playlista Sonos istnieje";
 // %1$@, the name of the pre-existing playlist
@@ -259,25 +259,24 @@
 
 /* Search */
 
-    "<SearchRecentSearches>" = "Niedawne wyszukiwania";
-    "<SearchEmptyRecentSearches>" = "Brak niedawnych wyszukiwań";
-    "<SearchClearRecentSearches>" = "Wyczyść niedawne wyszukiwania";
+    "<SearchRecentSearches>" = "Ostatnie wyszukiwania";
+    "<SearchEmptyRecentSearches>" = "Brak ostatnich wyszukiwań";
+    "<SearchClearRecentSearches>" = "Wyczyść ostatnie wyszukiwania";
 
 
 /* Settings */
 
     "<SettingsWindowTitle>" = "Preferencje";
     "<SettingsBasicSettingsTitle>" = "Podstawowe";
-// %1$@, Type of Sonos component (BRIDGE, DOCK, …)
+// %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "Obecnie w Twoim systemie Sonos nie ma żadnych %1$@.\n\nAby dodać %1$@, wybierz %2$@\n na pasku menu.";
-    "<SettingsNoPlayers_1>" = "Obecnie w Twoim systemie Sonos nie ma żadnego odtwarzacza Sonos.\nAby odtwarzać muzykę, potrzebujesz przynajmniej jednego odtwarzacza Sonos.\n\nAby dodać odtwarzacz Sonos, wybierz %1$@ na pasku menu.";
-    "<SettingsNoPlayerLink>" = "Zarządzaj > Dodaj odtwarzacz lub SUB";
-    "<SettingsNoBoostLink>" = "Zarządzaj > Dodaj BOOST lub BRIDGE";
+    "<SettingsNoPlayers_1>" = "Obecnie w Twoim systemie Sonos nie ma żadnego głośnika Sonos.\nAby odtwarzać muzykę, potrzebujesz przynajmniej jednego głośnika Sonos.\n\nAby dodać głośnik Sonos, wybierz %1$@ na pasku menu.";
+    "<SettingsNoPlayerLink>" = "Zarządzaj > Dodaj głośnik lub Sub";
+    "<SettingsNoBoostLink>" = "Zarządzaj > Dodaj Boost lub Bridge";
     "<SettingsNoAvailable_1>" = "Brak dostępnych %1$@";
-    "<SettingsComponentRoom>" = "Pomieszczenie";
-    "<SettingsComponentDock>" = "DOCK";
-    "<SettingsComponentBoost>" = "BOOST";
+    "<SettingsComponentDock>" = "Dock";
+    "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bas";
     "<SettingsEqTreble>" = "Tony wysokie";
     "<SettingsEqBalance>" = "Balans";
@@ -287,15 +286,16 @@
     "<SettingsEqRight>" = "P";
     "<SettingsEqMin>" = "Min";
     "<SettingsEqMax>" = "Max";
-    "<SettingsEqLoudness>" = "Głośność";
+    "<SettingsEqLoudness>" = "Podbicie basu";
     "<SettingsEqReset>" = "Zresetuj";
-    "<SettingsEqFixed>" = "Ustawienia korekcji nie są dostępne, kiedy poziom wejścia liniowego odtwarzacza Sonos jest ustawiony jako stały.\n\nZmień ustawienia poziomu wejścia liniowego w zakładce „Podstawowe”, aby włączyć regulację korekcji.";
+    "<SettingsEqFixed>" = "Ustawienia korekcji nie są dostępne, kiedy poziom wejścia liniowego głośnika Sonos jest ustawiony jako stały.\n\nZmień ustawienia poziomu wejścia liniowego w zakładce „Podstawowe”, aby włączyć regulację korektora.";
+    "<SettingsUsageData>" = "Usage Data SettingsZXZ";
     "<SettingsAdvSettings>" = "Ustawienia zaawansowane";
     "<SettingsGeneral>" = "Ogólne";
-    "<SettingsUsage>" = "Usprawnij Sonos";
     "<SettingsServers>" = "Źródła muzyki";
+    "<SettingsUsage>" = "Usprawnij Sonos";
     "<SettingsDateTime>" = "Ustawienia daty i godziny";
-    "<SettingsMusicLibrary>" = "Ustawienia Biblioteki Muzycznej";
+    "<SettingsMusicLibrary>" = "Ustawienia biblioteki muzycznej";
     "<SettingsMusicService>" = "Ustawienia serwisów";
     "<SettingsServiceTitle>" = "Moje konta w serwisach muzycznych w systemie Sonos";
     "<SettingsServiceAnonymous>" = "<Anonimowe>";
@@ -312,11 +312,11 @@
     "<SettingsExplicitFilteringNoServices>" = "W Twoim systemie Sonos brak serwisów muzycznych obsługujących filtrowanie konkretnej zawartości.";
     "<SettingsExplicitFilteringMoreInfoButtonTitle>" = "Więcej informacji";
     "<SettingsExplicitFilteringMoreInfoUri>" = "http://faq.sonos.com/parentalcontrols";
-    "<SettingsSubEqEnabled>" = "SUB włączony";
-    "<SettingsSubEqLevelAdjustment>" = "Poziom SUB";
+    "<SettingsSubEqEnabled>" = "Sub włączony";
+    "<SettingsSubEqLevelAdjustment>" = "Poziom Sub";
     "<SettingsSubEqPlacementAdjustment>" = "Dostosowanie położenia";
     "<SettingsSubEqSpeakerSize>" = "Rozmiar głośnika (Crossover)";
-    "<SettingsTVDialogDelay>" = "Opóźnienie audio (synchronizacja obrazu z dźwiękiem)";
+    "<SettingsTVDialogDelay>" = "Opóźnienie audio (synch. obrazu z dźwiękiem)";
     "<SettingsSurroundEnabled>" = "Głośniki dźwięku przestrzennego włączone";
     "<SettingsSurroundLevel>" = "Poziom TV";
     "<SettingsMusicSurroundLevel>" = "Poziom muzyki";
@@ -338,7 +338,7 @@
 /* Transport Bar */
     "<TransportOnState_1>" = "%1$@ włączony";
     "<TransportOffState_1>" = "%1$@ wyłączony";
-    "<TransportMusicEq>" = "Korekcja muzyki";
+    "<TransportMusicEq>" = "Korektor muzyki";
 
 
 /* Volume */
@@ -362,7 +362,6 @@
 /* Zone/Rooms Panel */
 
     "<ZoneMenuHeaderTitle>" = "POMIESZCZENIA";
-    "<ZoneMenuGroupZones>" = "Grupuj";
     "<ZoneMenuShowLess>" = "Pokaż mniej…";
 // %1$d, Number of extra (non-visible devices)
     "<ZoneMenuShowMore_1>" = "Pokaż %1$d więcej…";
@@ -383,11 +382,12 @@
     "<ZoneMenuMuteGroup>" = "Wycisz grupę";
     "<ZoneMenuUnmuteGroup>" = "Wyłącz wyciszenie grupy";
 // %1$@, Sonos device name.
-    "<ZoneMenuEq_1>" = "Korekcja %1$@…";
+    "<ZoneMenuEq_1>" = "Korektor %1$@…";
 // %1$@, Sonos device name.
     "<ZoneMenuSettings_1>" = "Ustawienia %1$@…";
-    "<ZoneMenuSelectToUpdate>" = "Wybierz, aby zaktualizować…";
-    "<ZoneMenuSelectToSetUpDevice_1>" = "Wybierz, aby skonfigurować %1$s";
+    "<ZoneMenuSelectToUpdate>" = "Wybierz, aby zaktualizować";
+    "<ZoneMenuSelectToConfigure>" = "Wybierz, aby skonfigurować";
+    "<ZoneMenuSelectToRegister>" = "Wybierz, aby zarejestrować";
     "<ZoneMenuConfirmPauseAll>" = "Czy na pewno chcesz wstrzymać odtwarzanie muzyki we wszystkich pomieszczeniach?";
     "<ZoneMenuPauseButton>" = "Wstrzymaj";
 
@@ -403,7 +403,7 @@
     "<MainWindowTitle>" = "Sonos";
 
     "<MenuTitle_Sonos>" = "Sonos";
-    "<MenuTitle_AboutSonos>" = "O systemie Mój Sonos";
+    "<MenuTitle_AboutSonos>" = "O moim systemie Sonos";
     "<MenuTitle_Preferences>" = "Preferencje…";
     "<MenuTitle_CheckForUpdates>" = "Wyszukaj aktualizacje…";
     "<MenuTitle_Uninstall>" = "Odinstaluj…";
@@ -421,15 +421,13 @@
     "<MenuTitle_SelectAll>" = "Zaznacz wszystkie";
     "<MenuTitle_Search>" = "Szukaj";
 
-    "<MenuTitle_View>" = "Wyświetl";
+    "<MenuTitle_View>" = "Widok";
 
     "<MenuTitle_Manage>" = "Zarządzaj";
-    "<MenuTitle_AddPlayerOrSub>" = "Dodaj odtwarzacz lub SUB…";
-    "<MenuTitle_AddBoost>" = "Dodaj BOOST lub BRIDGE…";
     "<MenuTitle_MusicLibrarySettings>" = "Ustawienia biblioteki muzycznej…";
     "<MenuTitle_ServiceSettings>" = "Ustawienia serwisów…";
     "<MenuTitle_AddRadioStation>" = "Dodaj stację radiową…";
-    "<MenuTitle_UpdateMusicLibraryNow>" = "Zaktualizuj Bibliotekę Muzyczną teraz";
+    "<MenuTitle_UpdateMusicLibraryNow>" = "Zaktualizuj bibliotekę muzyczną teraz";
     "<MenuTitle_UpdatePlaylistsNow>" = "Zaktualizuj playlisty iTunes teraz";
     "<MenuTitle_UpdateAlbumArtNow>" = "Zaktualizuj okładki albumów teraz";
 
@@ -441,7 +439,6 @@
     "<MenuTitle_MiniWindowName>" = "Miniaturowa aplikacja sterująca";
     "<MenuTitle_BringAllToFront>" = "Przenieś wszystko do przodu";
 
-    "<MenuTitle_Account>" = "Moje konto Sonos";
     "<MenuTitle_Help>" = "Pomoc";
     "<MenuTitle_Shop>" = "Kup produkty Sonos";
     "<MenuTitle_KeyboardShortcuts>" = "Skróty klawiszowe";
@@ -455,10 +452,6 @@
     "<MenuTitle_ForgetHousehold>" = "Usuń obecny system Sonos z pamięci";
 
     "<MenuTitle_CopyLinkAddress>" = "Kopiuj link";
-
-/* SMNowPlayingFSViewController.xib */
-
-    "<BackButton>" = "Wstecz";
 
 
 /****************************************************************/
@@ -489,7 +482,7 @@
     "<Shares_Indexing>" = "Aktualizowanie biblioteki muzycznej…\nCzekaj.";
 
     "<ShareWizard_MusicStart_Title>" = "Konfiguracja biblioteki muzycznej";
-    "<ShareWizard_MusicStart_Body1>" = "Asystent konfiguracji pomoże Ci teraz dodać muzykę do Biblioteki Muzycznej systemu Sonos.";
+    "<ShareWizard_MusicStart_Body1>" = "Asystent konfiguracji pomoże Ci teraz dodać muzykę do biblioteki muzycznej systemu Sonos.";
     "<ShareWizard_MusicStart_Body2>" = "Możesz dodawać muzykę z folderów znajdujących się na tym komputerze lub z folderów należących do sieci (np. w stacji Apple Time Capsule lub na dysku NAS), które zostały już skonfigurowane jako udostępnione.";
     "<ShareWizard_MusicStart_Yes_Option>" = "Skonfiguruj moją muzykę";
     "<ShareWizard_MusicStart_No_Option>" = "Nie teraz";
@@ -533,7 +526,7 @@
 
     "<ShareWizard_SleepSet_Title>" = "Dostosuj ustawienia usypiacza";
     "<ShareWizard_SleepSet_Body1>" = "Systemowi Sonos nie udało się dostosować ustawień usypiacza dla Twojego komputera. Aby zapewnić niezakłócone odtwarzanie muzyki zapisanej na Twoim komputerze, wykonaj poniższe czynności:";
-    "<ShareWizard_SleepSet_Steps>" = "1. Kliknij ikonę trybu oszczędzania energii w ”Preferencje systemowe” w menu Apple\n2. Ustaw suwak usypiacza komputera w pozycji ”Nigdy”\n3. Zamknij okno Preferencje systemowe\n4. Naciśnij poniższy przycisk „Dalej”, aby kontynuować.";
+    "<ShareWizard_SleepSet_Steps>" = "1. Kliknij ikonę trybu oszczędzania energii w „Preferencje systemowe” w menu Apple\n2. Ustaw suwak usypiacza komputera w pozycji „Nigdy”\n3. Zamknij okno Preferencje systemowe\n4. Naciśnij poniższy przycisk „Dalej”, aby kontynuować.";
 
     "<ShareWizard_SystemPrefs_Title>" = "Otwórz Preferencje systemowe";
     "<ShareWizard_SystemPrefs_Message>" = "Zamknij okno Preferencje systemowe, aby dokonano zmian ustawień usypiacza komputera";
@@ -549,7 +542,7 @@
 
     "<ShareWizard_Complete_Title>" = "Konfiguracja biblioteki muzycznej";
 // %1$@, Label of the button on the wizard to continue with.
-    "<ShareWizard_Complete_Body1_Fmt_1>" = "”%1$@\" ustawiono teraz w Twoim systemie Sonos.";
+    "<ShareWizard_Complete_Body1_Fmt_1>" = "„%1$@” ustawiono teraz w Twoim systemie Sonos.";
     "<ShareWizard_Complete_Body2>" = "Twoja muzyka jest teraz dodawana do systemu Sonos. Operacja może potrwać kilka minut.";
 
     "<ShareWizard_SleepSettingsError_Title>" = "Dokonano zmian ustawień usypiacza.";
@@ -577,8 +570,8 @@
 /* Wireless Authentication Setup Wizard                         */
 /****************************************************************/
 
-    "<AuthorizationWizard_Title>" = "Konfigurowanie odtwarzacza";
-    "<AuthorizationWizard_Body>" = "Aby zoptymalizować konfigurację, system Sonos ustanowi bezpośrednie połączenie bezprzewodowe między tym komputerem a Twoim nowym odtwarzaczem Sonos. Aby na to zezwolić, wpisz nazwę administratora i hasło dla tego komputera.\n\nUWAGA: Jeżeli nie posiadasz tych danych, konieczne będzie tymczasowe przewodowe podłączenie odtwarzacza do routera w celu przeprowadzenia konfiguracji.";
+    "<AuthorizationWizard_Title>" = "Konfigurowanie głośnika";
+    "<AuthorizationWizard_Body>" = "Aby zoptymalizować konfigurację, system Sonos ustanowi bezpośrednie połączenie bezprzewodowe między tym komputerem a Twoim nowym głośnikiem Sonos. Aby na to zezwolić, wpisz nazwę administratora i hasło dla tego komputera.\n\nUWAGA: Jeżeli nie posiadasz tych danych, konieczne będzie tymczasowe przewodowe podłączenie głośnika do routera w celu przeprowadzenia konfiguracji.";
     "<AuthorizationWizard_Button>" = "Nie mam tych danych";
 
 /****************************************************************/

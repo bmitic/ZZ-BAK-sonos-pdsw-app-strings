@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">予約リスト</string>
-<string name="queue_title_tab">予約リスト</string>
 <string name="edit_queue_title">予約リストの編集</string>
 <string name="queue_subtitle_not_in_use">未使用</string>
 <string name="clear_queue_title">予約リストをクリア</string>
@@ -23,9 +22,8 @@
 <string name="accessibility_reorder">レコーダー</string>
 <string name="direct_control_playing_from">から再生</string>
 <string name="direct_control_playing_from_accessibility">%1$sから再生します</string>
-<string name="direct_control_started_from">以下から開始</string>
+<string name="direct_control_started_from">以下から開始しました</string>
 <string name="direct_control_started_from_accessibility">%1$sから開始</string>
-<string name="direct_control_resume_playing_from">からの再生を続ける</string>
 <string name="direct_control_last_played_from">から最後に再生</string>
 <string name="direct_control_last_played_from_accessibility">最後に%1$sから再生した曲</string>
 <string name="direct_control_last_played">この部屋で最後に再生</string>

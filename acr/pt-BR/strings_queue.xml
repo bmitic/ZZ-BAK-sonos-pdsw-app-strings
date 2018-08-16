@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="queue_title">Lista</string>
-<string name="queue_title_tab">Lista</string>
 <string name="edit_queue_title">Editar lista</string>
 <string name="queue_subtitle_not_in_use">Não está em uso</string>
 <string name="clear_queue_title">Limpar Lista</string>
@@ -25,7 +24,6 @@
 <string name="direct_control_playing_from_accessibility">Tocando de %1$s</string>
 <string name="direct_control_started_from">Iniciado a partir de</string>
 <string name="direct_control_started_from_accessibility">Iniciado de %1$s</string>
-<string name="direct_control_resume_playing_from">Continuar a Tocar De</string>
 <string name="direct_control_last_played_from">Última Reprodução De</string>
 <string name="direct_control_last_played_from_accessibility">Última reprodução de %1$s</string>
 <string name="direct_control_last_played">Última Reprodução Nesta Sala</string>

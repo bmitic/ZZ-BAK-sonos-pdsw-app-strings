@@ -40,12 +40,8 @@
 
 /* Alarms */
 
-    "<AlarmNotificationAction>" = "電源オフ";
-    // %1$@ = Room Name (Example: "LIVING ROOM's alarm sounding")
-    "<AlarmNotificationAlert_1>" = "%1$@の警告音";
-
     // Example: "Alarms set by voice command are managed by the Alexa app", where "Alexa app" is a link
-    "<ExternalAlarmsNote_1>" = "ボイスコマンドによって設定されたアラームは%1$@によって管理されます。";
+    "<ExternalAlarmsNote_1>" = "音声コマンドによって設定されたアラームは%1$@によって管理されます。";
     "<ExternalAlarmsAlexaApp>" = "Alexaアプリ";
 
 /* App Delegate */
@@ -108,12 +104,10 @@
     "<NextButtonBook>" = "次の章";
     "<QUEUE>" = "予約リスト";
     "<NotInUse>" = "未使用";
-    "<NowPlayingNoMusic>" = "音楽がありません";
+    "<NowPlayingNoMusic>" = "音楽が選択されていません";
     "<NowPlayingDialogEnhacementLabel>" = "スピーチ強化";
     "<NowPlayingNightModeLabel>" = "ナイト サウンド";
 
-    "<NowPlayingInfoButtonLabel>" = "情報とオプション";
-    "<NowPlayingInfoButtonHint>" = "現在再生中の音楽の情報やオプションを表示します。";
     "<NowPlayingOn>" = "—"; //in non-english languages, please translate to —
     "<NowPlayingOnAccessibilityLabel>" = "%@ 上"; //%@ = Service Name ex: "on Spotify" or "on Google Play Music"
     "<NowPlayingContainerOnAccessibilityLabel>" = " %2$@上にある%1$@"; //%@ = Service Name ex: "My Playlist Name on Spotify" or "SongName Radio on Google Play Music"
@@ -138,7 +132,6 @@
 
 /* Now Playing Voice Over */
 
-    "<NowPlayingShowNowPlayingHint>" = "[現在再生中]を開くにはダブルタップします";
     // For two rooms: "Room 1 and Room 2"
     "<NowPlaying2Rooms_2>" = "%1$@および%2$@";
     // For three rooms: "Room 1, Room 2, and Room 3"
@@ -147,8 +140,8 @@
     "<NowPlayingOtherRooms_3>" = "%1$@、%2$@、%3$d、その他";
     // Currently playing (track info)
     "<NowPlayingCurrentlyPlaying_1>" = "現在、%@を再生中";
+    "<NowPlayingOpen>" = "再生中を表示";
     "<NowPlayingClose>" = "再生中画面を閉じる";
-    "<NowPlayingCloseHint>" = "ダブルタップして音楽のブラウズに戻る";
 
 /* Info Menu */
 
@@ -190,7 +183,7 @@
     // '.' puncation required to prevent an iOS bug that treats initial numbers as header levels
     // This needs to be preserved in all languages as-is.
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<QueueTrackLabel_1>" = ".%1$d曲。";
+    "<QueueTrackLabel_1>" = ".%d曲。";
     "<QueueShuffleButtonLabel>" = "シャッフル";
     "<QueueRepeatAllButtonLabel>" = "全てを繰り返す";
     "<QueueRepeatOneButtonLabel>" = "曲を繰り返す";
@@ -205,18 +198,22 @@
     "<Rooms>" = "部屋";
     "<GroupRooms>" = "グループ部屋";
     "<Group>" = "グループ";
+    "<Available>" = "利用可能";
     // <GroupRooms_Short> will be used for Spanish, Japanese, German, and Dutch as seen in LOC-257
     // Should be Localized as "Group" in those cases, and remain "Group Rooms" in others.
     "<GroupRooms_Short>" = "グループ";
     "<PauseAll>" = "すべて一時停止";
     "<PauseAllConfirmation>" = "すべての部屋で音楽を一時停止してもよろしいですか?";
-    "<ContinueSetUp>" = "設定を続ける";
-    "<SoftwareUpdateRequired>" = "ソフトウェアアップデートが必要です";
+    "<SelectToUpdate>" = "選択してアップデートします";
+    "<SelectToConfigure>" = "セットアップの選択";
+    "<SelectToRegister>" = "登録の選択";
     // Used when 2 or more rooms are grouped together, for example, "Living Room, and Dining Room" or
     // "Living Room, Dining Room, Kitchen, and Family Room". The first argument will be either a
     // single room name or a comma delimited list of room names. The commas are included to provide
     // an appropriate pause when being read by VoiceOver.
     "<MultipleRoomNames_2>" = "%1$@、および%2$@";
+    "<NewSession>" = "新しいセッション";
+    "<NewSessionAccessibilityLabel>" = "新しいセッション。ボタン";
 
 /* Rooms Voiceover */
     "<SelectRooms>" = "ルームを選択する";
@@ -294,6 +291,7 @@
     "<Settings>" = "設定";
     "<RoomSettings>" = "部屋の設定";
     "<ParentalControls>" = "ペアレンタルコントロール";
+    "<MySonosSettings>" = "アカウント設定";
     "<MoreInformation>" = "詳細";
     "<Help>" = "ヘルプ";
     "<Call>" = "コール";
@@ -308,8 +306,8 @@
     "<AddingShareInstructions>" = "ユーザーの新しい共有がSonosシステムに追加されます。\n\n最初に音楽のインデックスを作成する必要があります。この処理が終了すると、音楽がライブラリに表示されます。\n\n[完了]ボタンを押して、終了します。";
 
 /* Wireless Setup Custom Wizard */
-    "<Wireless_CheckOpenAP_Title>" = "プレイヤー設定";
-    "<Wireless_CheckOpenAP_Body1>" = "Sonosプレイヤー上でオレンジ色のライトが点滅するまで2~3秒待ってください。";
+    "<Wireless_CheckOpenAP_Title>" = "スピーカー設定";
+    "<Wireless_CheckOpenAP_Body1>" = "Sonosスピーカー上でオレンジ色のライトが点滅するまで2~3秒待ってください。";
     "<Wireless_CheckOpenAP_Button1>" = "オレンジ色のライトが見えます";
     "<Wireless_CheckOpenAP_Button2>" = "オレンジ色のライトが見えません";
 
@@ -319,13 +317,13 @@
     "<Wireless_CheckOpenAP_NoLight_Button1>" = "再試行";
     "<Wireless_CheckOpenAP_NoLight_Button2>" = "別の設定";
 
-    "<Wireless_Waiting_Title>" = "プレイヤーの構成";
+    "<Wireless_Waiting_Title>" = "スピーカーの構成";
     "<Wireless_Waiting_Body>" = "少々お待ちください…";
 
     "<Wireless_OpenReady_Title>" = "ワイヤレスの設定";
-    "<Wireless_OpenReady_Body_1_iPod>" = "Sonosプレイヤーによって作成された一時的なワイヤレス ネットワークにこのiPodを接続します。";
-    "<Wireless_OpenReady_Body_1_iPad>" = "Sonosプレイヤーによって作成された一時的なワイヤレス ネットワークにこのiPadを接続します。";
-    "<Wireless_OpenReady_Body_1_iPhone>" = "Sonosプレイヤーによって作成された一時的なワイヤレス ネットワークにこのiPhoneを接続します。";
+    "<Wireless_OpenReady_Body_1_iPod>" = "Sonosスピーカーによって作成された一時的なワイヤレス ネットワークにこのiPodを接続します。";
+    "<Wireless_OpenReady_Body_1_iPad>" = "Sonosスピーカーによって作成された一時的なワイヤレス ネットワークにこのiPadを接続します。";
+    "<Wireless_OpenReady_Body_1_iPhone>" = "Sonosスピーカーによって作成された一時的なワイヤレス ネットワークにこのiPhoneを接続します。";
     "<Wireless_OpenReady_Body_2_iPod>" = "「%1$@」という名前のこのワイヤレス ネットワークが、iPod設定のWi-Fiセクションで利用できます。";
     "<Wireless_OpenReady_Body_2_iPad>" = "「%1$@」という名前のこのワイヤレス ネットワークが、iPad設定のWi-Fiセクションで利用できます。";
     "<Wireless_OpenReady_Body_2_iPhone>" = "「%1$@」という名前のこのワイヤレス ネットワークが、iPhone設定のWi-Fiセクションで利用できます。";
@@ -338,7 +336,7 @@
     "<Wireless_Instructions_Body_2>" = "2。ネットワークのリストにある[%1$@]をタップします。";
     "<Wireless_Instructions_Body_3>" = "3。Sonosアプリに戻って、[次へ]を押して続行します。";
 
-    "<Wireless_NotSonosAP_Title>" = "プレイヤーに接続していません";
+    "<Wireless_NotSonosAP_Title>" = "スピーカーに接続していません";
     "<Wireless_NotSonosAP_Body_1_iPod>" = "「%1$@」ネットワークに接続していません。このiPodのWi-Fi設定で、利用可能なネットワークの一覧から「%1$@」を選択する必要があります。";
     "<Wireless_NotSonosAP_Body_1_iPad>" = "「%1$@」ネットワークに接続していません。このiPadのWi-Fi設定で、利用可能なネットワークの一覧から「%1$@」を選択する必要があります。";
     "<Wireless_NotSonosAP_Body_1_iPhone>" = "「%1$@」ネットワークに接続していません。このiPhoneのWi-Fi設定で、利用可能なネットワークの一覧から「%1$@」を選択する必要があります。";
@@ -346,8 +344,8 @@
     "<Wireless_NotSonosAP_TryAgain>" = "再試行";
     "<Wireless_NotSonosAP_DontTryAgain>" = "別の設定";
 
-    "<Wireless_CheckLight_Title>" = "プレイヤーのライトの確認";
-    "<Wireless_CheckLight_Body>" = "Sonosプレイヤーでライトがオレンジ色で点灯していますか?";
+    "<Wireless_CheckLight_Title>" = "スピーカーのライトの確認";
+    "<Wireless_CheckLight_Body>" = "Sonosスピーカーでライトがオレンジ色で点灯していますか?";
     "<Wireless_CheckLight_SeeLight>" = "オレンジ色のライトが見えます";
     "<Wireless_CheckLight_DontSeeLight>" = "オレンジ色のライトが見えません";
 
@@ -358,10 +356,10 @@
 /* WAC Setup Custom Wizard */
 
     "<WAC_Wizard_Title>" = "ワイヤレス設定";
-    "<WAC_Prep_Body_1>" = "新しいプレイヤーの追加は、通常のワイヤレスネットワーク上で設定を行うiOSアクセサリー設定手順により行います。";
+    "<WAC_Prep_Body_1>" = "新しいスピーカーの追加は、通常のワイヤレスネットワーク上で設定を行うiOSアクセサリー設定手順により行います。";
     "<WAC_Prep_Input_1>" = "アクセサリー設定へ移動する";
-    "<WAC_Error_Title>" = "プレイヤーに接続していません";
-    "<WAC_Error_Body_1>" = "新しいプレイヤーがワイヤレスネットワークに接続されていません。";
+    "<WAC_Error_Title>" = "スピーカーに接続していません";
+    "<WAC_Error_Body_1>" = "新しいスピーカーがワイヤレスネットワークに接続されていません。";
     "<WAC_Error_Body_2>" = "[再試行]を選択して、設定手順を繰り返します。問題が解消されない場合には、[別の設定]を選択します。";
 
     "<WAC_Wizard_Waiting_Title>" = "接続しています";
@@ -385,10 +383,15 @@
 
 /* SUB Equalizer */
 
-    "<SUBOn>" = "SUB";
-    "<SUBLevel>" = "SUBレベル";
-    "<PlacementAdjustment>" = "配置の調節";
-    "<SpeakerSize>" = "ｽﾋﾟｰｶｰ ｻｲｽﾞ (ｸﾛｽｵｰﾊﾞｰ)";
+    "<SubEnabled>" = "Sub EnabledZXZ";
+    "<SubLevel>" = "Sub LevelZXZ";
+    "<SubPhase>" = "Phase ControlZXZ";
+    "<SubPhase0>" = "0°ZXZ";
+    "<SubPhase180>" = "180°ZXZ";
+    "<SubCrossover>" = "Crossover FrequencyZXZ";
+    // %1$d: frequency 50-110
+    "<SubCrossoverHerz_1>" = "%1$d HzZXZ";
+    "<SubCrossoverDescription>" = "Lower end is best for large floor speakers, highest end is best for compact speakers.ZXZ";
 
 /* Surround Equalizer */
 
@@ -467,6 +470,7 @@
 
     "<ControlCenterDisconnected>" = "接続しています…";
     "<ControlCenterSearching>" = "Sonosを検索しています…";
+    "<LockscreenDisabledByAirPlay>" = "Sonosアプリコントロールは、ロック画面に表示されなくなりました。";
 
 /* 3d touch home icon */
 
@@ -506,6 +510,8 @@
     "<DirectControlLastPlayedFrom>" = "から最後に再生";
     "<DirectControlLastPlayedFrom_1>" = "%1$@から最後に再生";
     "<DirectControlResumeFrom>" = "ここから再生";
+    // VoiceOver label: "Resume from Spotify
+    "<DirectControlResumeFrom_1>" = "%@から再開";
     // VoiceOver label: "Playing from Spotify" - used when playback is paused or stopped
     "<VoiceOverPlayingFrom_1>" = "%1$@ からプレイ";
     // VoiceOver label: "Currently Playing from Spotify" - used when playback is in progress and service name is known
@@ -549,10 +555,9 @@
     "<AlarmAwayModeAlertUnmute>" = "オンにします";
     "<AlarmAwayModeNotificationTitle>" = "スヌーズアラートはオフです";
     // Plural string - localized plural forms located in Localizable.stringsdict
-    "<AlarmAwayModeNotificationBodyNAlarms>" = "家の%dつのアラームの通知を停止されています。";
+    "<AlarmAwayModeNotificationBodyNAlarms>" = "スヌーズ通知が家の%d個のアラームに対してオフになっています。";
 
 /* System Status */
-    "<SystemStatusSeverityVOLabel_1>" = "%@ notificationZXZ";
-    "<SystemStatusSeverityError>" = "ErrorZXZ";
-
+    "<SystemStatusSeverityVOLabel_1>" = "%@通知";
+    "<SystemStatusSeverityError>" = "エラー";
 
