@@ -268,6 +268,8 @@
 
     "<SettingsWindowTitle>" = "Preferences";
     "<SettingsBasicSettingsTitle>" = "Basic";
+    "<SettingsMobileMessage>" = "Open the Sonos app on a mobile device to manage your system.";
+    "<SettingsGetMobile>" = "Get the mobile app";
 // %1$@, Type of Sonos component (Bridge, Dock, …)
 // $2$@, Text of hyperlink to the wizard
     "<SettingsNoDevice_2>" = "You currently have no %1$@ in your Sonos system.\n\nTo add a %1$@, select %2$@\nfrom the menu bar.";
@@ -275,7 +277,6 @@
     "<SettingsNoPlayerLink>" = "Manage > Add a Speaker or Sub";
     "<SettingsNoBoostLink>" = "Manage > Add a Boost or Bridge";
     "<SettingsNoAvailable_1>" = "No %1$@ Available";
-    "<SettingsComponentDock>" = "Dock";
     "<SettingsComponentBoost>" = "Boost";
     "<SettingsEqBass>" = "Bass";
     "<SettingsEqTreble>" = "Treble";

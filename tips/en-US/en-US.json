@@ -22,12 +22,12 @@
       "tuneInDescription": "Explore more than 100,000 free online stations and podcasts."
     }, 
     "10": {
-      "description": "When new software becomes available, you'll see <b>Update Now</b> on the <b>More</b> tab.", 
-      "header": "Sonos regularly adds new features so your listening experience is always improving.", 
-      "navInstructions": "Go to <b>More &#10132; Settings &#10132; Online Updates</b>.", 
-      "tapIt": "Just tap it to get the latest update (the music will pause briefly).", 
-      "title": "Install Sonos updates", 
-      "wantToCheck": "Want to manually check for updates?"
+      "automaticBullet1Text": "Go to <b>More &#10132; Settings &#10132; System Updates</b>.", 
+      "automaticBullet2Text": "Turn on automatic updates and tap <b>Schedule</b> to select a time. (Your system won’t update if music is playing or a Sonos alarm is scheduled during the selected timeframe.)", 
+      "automaticUpdate": "Sonos regularly adds new features so your listening experience is always improving. Your Sonos speakers can update automatically in the background so you always have the latest features without interrupting your listening.", 
+      "learnMore": "Learn more about automatic updates on our website.",
+      "manualUpdate": "Want to manage your system updates manually? Go to <b>More &#10132; Settings &#10132; System Updates</b> and tap <b>Check for Update Now</b>.", 
+      "title": "Sonos system updates"
     }, 
     "1011": {
       "goToEnhanceTVSound": "Go to our \"Enhance your TV sound\" tip to learn more.", 
@@ -275,7 +275,7 @@
     }, 
     "6": {
       "introText": "If you're a Spotify Premium user, you can send whatever you're playing on Spotify straight to any Sonos speaker. With just a tap.", 
-      "secureRegistration": "You'll need a Sonos account to use this feature. Go to <b>More &#10132; Settings &#10132; Sonos Account</b> to set one up. (If you don't see <b>Sonos Account</b>, your Sonos system needs to be updated.)", 
+      "secureRegistration": "You'll need a Sonos account to use this feature. Go to <b>More &#10132; Settings &#10132; Account Settings</b> to set one up. (If you don't see <b>Account Settings</b>, your Sonos system needs to be updated.)", 
       "spotifyInstruction": "When you've got music playing in the Spotify app, just choose DEVICES AVAILABLE to send it to Sonos.", 
       "title": "Play directly from Spotify"
     }, 
@@ -304,9 +304,9 @@
       "title": "Save your favorites to My Sonos"
     }, 
     "9": {
-      "createAccount": "If you don't see <b>Sonos Account</b>, your Sonos system needs to be updated.", 
-      "intro": "An account lets you add more speakers, get new features, and safely and securely integrate with your streaming apps.", 
-      "navInstructions": "Access your account anytime by selecting <b>More &#10132; Settings &#10132; Sonos Account</b>.", 
+      "createAccount": "If you don't see <b>Account Settings</b>, your Sonos system needs to be updated.",
+      "intro": "An account lets you add more speakers, get new features, and safely and securely integrate with your streaming apps.",
+      "navInstructions": "You can get to your account anytime by selecting <b>More &#10132; Settings &#10132; Account Settings</b>.",
       "title": "Your Sonos account"
     }, 
     "index": {

@@ -214,6 +214,16 @@
     "<MultipleRoomNames_2>" = "%1$@, and %2$@";
     "<NewSession>" = "New Session";
     "<NewSessionAccessibilityLabel>" = "New Session. Button";
+    "<Groups>" = "Groups";
+    "<CreateNewGroup>" = "Create New Group";
+    "<GroupsDescription>" = "Groups allow you to create a preset selection of speakers that can be quickly selected by name.";
+    "<NewGroup>" = "New Group";
+    "<DeleteGroup>" = "Delete Group";
+    "<GroupName>" = "Group Name";
+    "<Include>" = "Include";
+    "<NoPlayersSelected>" = "Speakers you add will appear here.";
+    "<CannotSaveGroup>" = "Cannot Save Group";
+    "<CannotSaveGroupNameInUse>" = "A group with that name already exists. Please choose a different name.";
 
 /* Rooms Voiceover */
     "<SelectRooms>" = "Select rooms";
@@ -422,6 +432,8 @@
     "<SearchSearchingService_2>" = "Searching %1$@ in %2$@…";
     "<SearchSeeAll>" = "More";
     "<SearchSearchAll>" = "Search All";
+    "<RecentSearches>" = "Recent Searches";
+    "<ClearRecentSearches>" = "Clear Recent Searches";
 
 /* Search Voice Over */
 
@@ -560,4 +572,3 @@
 /* System Status */
     "<SystemStatusSeverityVOLabel_1>" = "%@ notification";
     "<SystemStatusSeverityError>" = "Error";
-

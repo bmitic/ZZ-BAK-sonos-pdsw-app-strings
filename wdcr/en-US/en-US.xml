@@ -277,6 +277,8 @@ The unc path %s is not a valid unc path, or not a share on this computer.</Strin
   <String UniqueId="settingsmenu/settingswindow.baml:Button_7:System.Windows.Controls.ContentControl.Content" Category="Button">Reauthorize</String>
   <String UniqueId="settingsmenu/settingswindow.baml:TabItem_8:System.Windows.Controls.HeaderedContentControl.Header" Category="Label">Usage Data</String>
   <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_12:System.Windows.Controls.TextBlock.Text" Category="Text">Usage Data Settings</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:TextBlock_7:System.Windows.Controls.TextBlock.Text" Category="Text">Open the Sonos app on a mobile device to manage your system.</String>
+  <String UniqueId="settingsmenu/settingswindow.baml:Button_4:System.Windows.Controls.ContentControl.Content" Category="Button">Get the mobile app</String>
   <String UniqueId="about/aboutwindow.baml:Window_1:System.Windows.Window.Title" Category="Title">About</String>
   <String UniqueId="about/aboutwindow.baml:SonosController_1:System.String.$Content" Category="None">Sonos Controller for PC</String>
   <String UniqueId="about/aboutwindow.baml:SonosControllerAlpha_1:System.String.$Content" Category="None">Sonos Controller for PC (ALPHA)</String>

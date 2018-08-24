@@ -6,14 +6,14 @@
 <string name="edit_button_name">Edit</string>
 <string name="save_button_name">Save</string>
 <string name="clear_button_name">Clear</string>
-<string name="open_button_name">What?!!!!</string>
+<string name="open_button_name">Open</string>
 <string name="cancel_button_name">Cancel</string>
 <string name="global_yes">Yes</string>
 <string name="global_no">No</string>
 <string name="global_ok">OK</string>
 <string name="now_playing_button_name">Now Playing</string>
 <string name="music_button_name">Music</string>
-<string name="rooms_button_name">Rooms Tests</string>
+<string name="rooms_button_name">Rooms</string>
 <string name="menu_alarm_settings">Alarms</string>
 <string name="menu_help_settings">Help</string>
 <string name="menu_share_subject">Now Playing on Sonos!</string>
@@ -63,6 +63,7 @@
 <string name="accessibility_group_rooms">Group Rooms</string>
 <string name="accessibility_show_rooms">Show Rooms</string>
 <string name="accessibility_room_artwork">Room Artwork</string>
+<string name="accessibility_room_available">Available</string>
 <string name="accessibility_progress_slider">Song Position %1$s of %2$s</string>
 <string name="accessibility_volume_slider">%1$s Volume</string>
 <string name="accessibility_volume_mute">%1$s Mute</string>
@@ -124,7 +125,7 @@
 <string name="app_shortcut_play_default_title">Resume Last Played</string>
 <string name="navbar_home">My Sonos</string>
 <string name="navbar_browse">Browse</string>
-<string name="navbar_rooms">Rooms Testing</string>
+<string name="navbar_rooms">Rooms</string>
 <string name="navbar_search">Search</string>
 <string name="navbar_more">More</string>
 <string name="on_string" comment="for non-English languages, use — instead">on</string>
@@ -168,4 +169,6 @@
 <string name="status_level_content_description">%s notification</string>
 <string name="dismiss_button_content_description">dismiss</string>
 <string name="new_session_button_title">New Session</string>
+<string name="searchhistory_header_title">Recent Searches</string>
+<string name="searchhistory_datasource_title">Search History</string>
 </resources>

@@ -2,7 +2,7 @@
 <Strings>
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Configure Sonos to run on your wireless network.</String>
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Sonos presets the best wireless channel. To override, choose a new channel.</String>
-<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonos presets the best audio compression for speaker Line-In and Sonos Dock. To override, choose a new setting.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Sonos presets the best audio compression for speaker Line-In. To override, choose a new setting.</String>
 <String id="STR_MusicLibraryIndexing">Music Library - Indexing…</String>
 <String id="STR_SonosPlaylists">Sonos Playlists</String>
 <String id="STR_NoMusic">No music selected</String>

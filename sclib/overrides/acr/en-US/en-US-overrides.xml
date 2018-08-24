@@ -4,7 +4,7 @@
 <String id="SCLIB_STR_ZPSETTINGS_SONAR_DESCRIPTION">Tune your speakers to sound right for your room.</String>
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCONFIGURE_Description">Configure Sonos to run on your wireless network.</String>
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">To change the preset wireless channel, choose a different channel.</String>
-<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Choose a new setting to override the preset for Line-In and Dock.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Choose a new setting to override the preset for Line-In.</String>
 <String id="STR_MusicLibraryIndexing">Music Library - Indexing…</String>
 <String id="STR_SonosPlaylists">Sonos Playlists</String>
 <String id="STR_NoMusic">No music selected</String>

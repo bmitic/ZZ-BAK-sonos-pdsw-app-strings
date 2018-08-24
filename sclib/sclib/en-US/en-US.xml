@@ -10,6 +10,9 @@
 <String id="STR_EditTitle_Format">Edit %1$s</String>
 <String id="STR_NoSearchResults_Format">No results found in %1$s. Please retype, or try a different category.</String>
 <String id="STR_LineIn">Line-In</String>
+<String id="STR_VolumeLimit">Volume Limit</String>
+<String id="STR_MaxVolume">Maximum Volume</String>
+<String id="STR_MaxVolumeDescription">Set the maximum allowed volume for this room. The default is 100%.</String>
 <String id="STR_TV">TV</String>
 <String id="STR_TV_Named">TV: %1$s</String>
 <String id="STR_Settings">Settings</String>
@@ -72,6 +75,7 @@
 <String id="SCLIB_STR_SETTINGS_ABOUTSONOS">About My Sonos System</String>
 <String id="SCLIB_STR_SETTINGS_PROTOTYPE_SETTINGS">Prototype Settings</String>
 <String id="SCLIB_STR_SETTINGS_ABOUTSYSTEM">About This System</String>
+<String id="SCLIB_STR_SETTINGS_EDIT_AREAS">Groups</String>
 
 <!-- *** AirPlay Settings *** -->
 <String id="SCLIB_STR_Settings_AirPlay_Speakers">AIRPLAY-COMPATIBLE SPEAKERS</String>
@@ -428,7 +432,7 @@ See this FAQ for more info:
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Group">SonosNet Channel</String>
 <String id="SCLIB_STR_ADVSETTINGS_WIRELESSCHANNEL_Description">Your Sonos system determines the best wireless channel to use. To override this setting, change the wireless channel in the menu below.</String>
 <String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION">Audio Compression</String>
-<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Your Sonos system automatically determines the best audio compression setting for Sonos player Line-In and the Sonos Dock. You can override that setting below.</String>
+<String id="SCLIB_STR_ADVSETTINGS_AUDIOCOMPRESSION_Description">Your Sonos system automatically determines the best audio compression setting for Sonos player Line-In. You can override that setting below.</String>
 <String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS_Group">Compilation Albums</String>
 <String id="SCLIB_STR_MLSETTINGS_COMPILATIONALBUMS">Compilation Albums</String>
 <String id="SCLIB_STR_MLSETTINGS_VIEWCONTRIBUTINGARTISTS">View Contributing Artists</String>
@@ -786,10 +790,10 @@ The new radio station will be added to Radio &gt; My Radio Stations.</String>
 <String id="SCLIB_STR_SetupWiz_ConnectingAP_Title">Connecting</String>
 <String id="SCLIB_STR_SetupWiz_ConnectingAP_Body_1">Please wait while the connection to your speaker is completed…</String>
 <String id="SCLIB_STR_SetupWiz_ConnectingAP_Instructions">Note: You will temporarily lose access to your normal wireless network.</String>
-<String id="SCLIB_STR_SetupWiz_ConnectOK_Title_Device_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Added your %1$s</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Title_Device_Fmt" gender="no-gender" comment="Substitution: Sonos Player">%1$s added</String>
 <String id="SCLIB_STR_SetupWiz_ConnectOK_Title_Device_Configure_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Sonos %1$s setup is complete</String>
 <String id="SCLIB_STR_SetupWiz_ConnectOK_Title_System">Connected to your Sonos system</String>
-<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You're now ready to choose a room for your %1$s.</String>
+<String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1_Alt">Let’s set it up.</String>
 <String id="SCLIB_STR_SetupWiz_ConnectOK_Body_1">This controller is now connected to your Sonos system.</String>
 <String id="SCLIB_STR_SetupWiz_ExistingSystemFound_Title">Connected</String>
 <String id="SCLIB_STR_SetupWiz_ExistingSystemFound_Body_1">Your existing Sonos system has been found.</String>
@@ -814,8 +818,6 @@ A controller update is required.</String>
 <String id="SCLIB_STR_SetupWiz_AddCRNeedsUpdate_Body_2">Please update this controller, then add your new product.</String>
 <String id="SCLIB_STR_SetupWiz_NameDevice_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Choose a room for your %1$s</String>
 <String id="SCLIB_STR_SetupWiz_NameDevice_Body_1">Where will you use it?</String>
-<String id="SCLIB_STR_SetupWiz_NameDevice_Input_1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Enter or choose a room where you will use your %1$s:</String>
-<String id="SCLIB_STR_SetupWiz_NameDevice_TempWire_Input_1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Choose where you will eventually use your %1$s:</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_Device_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Added your %1$s</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_HTDevice">Added home theater speakers</String>
 <String id="SCLIB_STR_SetupWiz_DeviceAdded_Title_SingleHTDevice">Added home theater speaker</String>
@@ -1228,11 +1230,10 @@ The Sub will be unused for now. Please select it from the Rooms menu to set it u
 <String id="SCLIB_STR_SetupWiz_HT_PlayerType_Input1">With your favorite speakers.</String>
 <String id="SCLIB_STR_SetupWiz_HT_PlayerType_Input2">As front speakers for your TV.</String>
 <String id="SCLIB_STR_SetupWiz_HT_PlayerType_Input3">As surround speakers for your home theater.</String>
-<String id="SCLIB_STR_SetupWiz_SurroundChooseRoom_Input2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Choose the room where you want to use your %1$s:</String>
-
 <String id="SCLIB_STR_SetupWiz_SoundbarSub_Title">Add a Sub</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurrounds_Title">Add surrounds</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Do you want to use surround speakers with your %1$s?</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSurrounds_Title_Alt">Add surrounds?</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Do you want to add surrounds to %1$s?</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Body1_Alt">Do you still want to add surround speakers?</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Input1">Add surrounds</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSurroundConfig_Input2">Not now</String>
@@ -1254,8 +1255,8 @@ The Sub will be unused for now. Please select it from the Rooms menu to set it u
 <String id="SCLIB_STR_SetupWiz_SoundbarSUBError_Title">Sub setup error</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSUBError_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">There was a problem adding the Sub. Make sure the Sub and your %1$s are connected to power.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarAudioSetup_Title">Audio setup</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep_Body1">Please ensure the Sonos speakers are placed in your desired locations in this room.</String>
-<String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep_Body2">You will now be asked some questions to optimize the sound.</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep_Body1">Place speakers in your room—ideal placement is shown below, but your room maybe different. </String>
+<String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep_Body2">Then we‘ll optimize the sound for your room.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarCalibPrep2_Body1">Move to a central location in the room where you will normally watch TV.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSUBAudioSetup_Title">Sub audio setup</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarSUBPhase_Body1">Press play to start a pair of alternating test sounds. Is one clearly louder? If you’re not sure, choose “No Difference”.</String>
@@ -1414,7 +1415,7 @@ If the problem persists, please contact Sonos Customer Care.</String>
 <String id="SCLIB_STR_SoundbarWiz_OtherComponents_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">%1$s setup</String>
 <String id="SCLIB_STR_SoundbarWiz_OtherComponentsSurrounds_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s will be set up without surround speakers for now.</String>
 <String id="SCLIB_STR_SoundbarWiz_OtherComponentsSubOrSurrounds_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Your %1$s will be set up without a Sub or surround speakers for now.</String>
-<String id="SCLIB_STR_SoundbarWiz_OtherComponents_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You can add additional products to your %1$s later.</String>
+<String id="SCLIB_STR_SoundbarWiz_OtherComponents_Body2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">You can always add components to your %1$s later.</String>
 <String id="SCLIB_STR_SoundbarWiz_AddSurround_Left_Title">Add left surround</String>
 <String id="SCLIB_STR_SoundbarWiz_AddSurround_Right_Title">Add right surround</String>
 <String id="SCLIB_STR_SoundbarWiz_HTWiredRearSurroundsInfo_LeftBody_Fmt" gender="no-gender" comment="Substitution: Sonos Amp">Attach one speaker to the "LEFT" connectors on %1$s and place it as shown.</String>
@@ -1429,13 +1430,13 @@ If the problem persists, please contact Sonos Customer Care.</String>
 <String id="SCLIB_STR_SoundabrWiz_SurroundConnectError_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">There was a problem adding the surround speaker. Make sure the surround speaker and your %1$s are connected to power.</String>
 <String id="SCLIB_STR_SoundbarWiz_AddedSurround_Left_Title">Added left surround</String>
 <String id="SCLIB_STR_SoundbarWiz_AddedSurround_Right_Title">Added right surround</String>
-<String id="SCLIB_STR_SoundbarWiz_AddedSurround_Amp_Title">Added surround speakers</String>
+<String id="SCLIB_STR_SoundbarWiz_AddedSurround_Amp_Title">Added surrounds</String>
 <String id="SCLIB_STR_SoundbarWiz_AddedSurround_Left_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Added a %1$s as the left surround speaker.</String>
 <String id="SCLIB_STR_SoundbarWiz_AddedSurround_Right_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Added a %1$s as the right surround speaker.</String>
-<String id="SCLIB_STR_SoundbarWiz_AddedSurround_Amp_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Amp">Added %1$s as surround speakers.</String>
+<String id="SCLIB_STR_SoundbarWiz_AddedSurround_Amp_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Amp">%1$s has been added.</String>
 <String id="SCLIB_STR_SoundbarWiz_DuplicateSurround_Title">Speaker already in use</String>
 <String id="SCLIB_STR_SoundbarWiz_Surround_ID_Failed_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Not a Sonos %1$s </String>
-<String id="SCLIB_STR_SoundbarWiz_Surround_ID_Failed_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Would you like to add a pair of Sonos %1$s speakers as surrounds instead?</String>
+<String id="SCLIB_STR_SoundbarWiz_Surround_ID_Failed_Body1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Would you like to add Sonos %1$s speakers as surrounds instead?</String>
 <String id="SCLIB_STR_SoundbarWiz_Surround_ID_Failed_Input1_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Yes, add Sonos %1$s</String>
 <String id="SCLIB_STR_SoundbarWiz_Surround_ID_Failed_Input2_Fmt" gender="no-gender" comment="Substitution: Sonos Player">No, add Sonos %1$s</String>
 <String id="SCLIB_STR_SoundbarWiz_Surround_Incompatible_Title" gender="no-gender" comment="Substitution: Sonos Player">Not a Sonos %1$s </String>
@@ -1481,8 +1482,10 @@ If the problem persists, please contact Sonos Customer Care.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurround_Body2">When you remove a surround speaker that was not previously in another room, it will become an unused speaker, and can be set up from the Rooms menu.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body1_Fmt">The left surround speaker has become: %1$s</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body2_Fmt">The right surround speaker has become: %1$s</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body2_Single_Fmt">The surround speaker has become: %1$s</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body1_Alt_Fmt" gender="no-gender" comment="Substitution: Sonos Player">The left surround speaker has been removed from your %1$s.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body2_Alt_Fmt" gender="no-gender" comment="Substitution: Sonos Player">The right surround speaker has been removed from your %1$s.</String>
+<String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body2_Single_Alt_Fmt" gender="no-gender" comment="Substitution: Sonos Player">The surround speaker has been removed from your %1$s.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body3">The microphones on these speakers are off. Tap the mic button to turn them on.</String>
 <String id="SCLIB_STR_SetupWiz_SoundbarRemoveSurroundResult_Body4">After you move your speakers, please go to Room Settings to tune them for their new locations.</String>
 <String id="SCLIB_STR_SoundbarWiz_SurroundMatch_Title">Surround setup</String>
@@ -1529,6 +1532,9 @@ At lower volumes, quiet sounds will be enhanced and loud sounds will be suppress
 <String id="SCLIB_STR_Soundbar_NightSoundOff">Night Sound is Off</String>
 <String id="SCLIB_STR_Soundbar_SpeechEnhancementOn">Speech Enhancement is On</String>
 <String id="SCLIB_STR_Soundbar_SpeechEnhancementOff">Speech Enhancement is Off</String>
+<String id="SCLIB_STR_SetupWiz_DockEOL_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Not a %1$s </String>
+<String id="SCLIB_STR_SetupWiz_DockEOL_Body">It looks like you pressed a button on a Sonos Dock. The Dock is no longer supported and cannot be added to your system.</String>
+<String id="SCLIB_STR_SetupWiz_DockEOL_LinkText" comment="[] and () are needed!">[Learn more on our website](https://www.sonos.com/dock).</String>
 <String id="SCLIB_STR_SetupWiz_MusicSetup_Title">Music Setup</String>
 <String id="SCLIB_STR_SetupWiz_MusicSetup_Body1">To set up your local music library to work with Sonos, please download and install the Sonos Controller for your computer.
 
@@ -1686,7 +1692,7 @@ Go to http://faq.sonos.com/wmpsharing for assistance.</String>
 <String id="SCLIB_STR_LC_NoComponents_UnconfiguredZone_String_2">Do you want to set it up?</String>
 <String id="SCLIB_STR_LC_New_System">Set It Up</String>
 <String id="SCLIB_STR_LC_EOL_String_1">The software on this device is outdated.</String>
-<String id="SCLIB_STR_LC_EOL_String_2">To keep the music playing, update the operating system or use a different device with Sonos.</String>
+<String id="SCLIB_STR_LC_EOL_String_2">To keep the music playing, update the operating system or use a different mobile device with Sonos.</String>
 <String id="SCLIB_STR_LC_Incompatible_String_1">We need to get Sonos running on the latest software.</String>
 <String id="SCLIB_STR_LC_Incompatible_String_2">Choose Check for Updates to get started.</String>
 <String id="SCLIB_STR_LC_Unconfigured_String_1">You need to set up at least one Sonos speaker to get the music started.</String>
@@ -1757,14 +1763,17 @@ Please call us for help.</String>
 <String id="SCLIB_STR_ADVSETTINGS_BETA_TITLE">Beta Program</String>
 <String id="SCLIB_STR_BETA_INTRO_BODY_1">Sonos lets customers try out pre-release beta software to test new features and help us improve our products.</String>
 <String id="SCLIB_STR_CrossVersionSystemUpdateAvailable_Title">System Update Available</String>
-<String id="SCLIB_STR_CrossVersionSystemUpdateAvailable_Body">Please update to the latest Sonos system software. You may have limited functionality until the update is complete.</String>
+<String id="SCLIB_STR_CrossVersionSystemUpdateNeeded_Title">System Update Needed</String>
+<String id="SCLIB_STR_CrossVersionSystemUpdateAvailable_Body">Update your speakers to the latest Sonos system software. You may have limited functionality until the update is complete.</String>
 <String id="SCLIB_STR_CrossVersionSystemUpdateAvailable_Input_1">Learn more</String>
 <String id="SCLIB_STR_CrossVersionAppUpdateAvailable_Title">App Update Available</String>
-<String id="SCLIB_STR_CrossVersionAppUpdateAvailable_Body">Please update to the latest Sonos Controller app. You may have limited functionality until the update is complete.</String>
+<String id="SCLIB_STR_CrossVersionAppUpdateNeeded_Title">App Update Needed</String>
+<String id="SCLIB_STR_CrossVersionAppUpdateAvailable_Body">Update the Sonos app to the latest version. You may have limited functionality until the update is complete.</String>
 <String id="SCLIB_STR_CrossVersionAppUpdateAvailable_Input_1">Update</String>
 <String id="SCLIB_STR_CrossVersionBeta_Title">Beta Software</String>
-<String id="SCLIB_STR_CrossVersionBeta_Body">Your Sonos system is running beta software. iOS devices are not fully supported on Sonos public beta at this time. As a result, some settings have been disabled.</String>
-<String id="SCLIB_STR_CrossVersionBeta_Input_1">OK</String>
+<String id="SCLIB_STR_CrossVersionBeta_Body">Your Sonos system is running beta software. iOS devices are not fully supported on Sonos public beta at this time. Some settings have been disabled.</String>
+<String id="SCLIB_STR_CrossVersionIncompatible_Title">Incompatible Software Versions</String>
+<String id="SCLIB_STR_CrossVersionIncompatible_Body">The version of the app you’re using isn’t compatible with your Sonos system, so some settings have been disabled.</String>
 <String id="SCLIB_STR_CrossVersionAppUpdated_Title">App Updated</String>
 <String id="SCLIB_STR_CrossVersionAppUpdated_Body">Your Sonos Controller app has been updated. Would you like to learn about the new features?</String>
 <String id="SCLIB_STR_CrossVersionAppUpdated_Input_1">Learn more</String>
@@ -2479,7 +2488,7 @@ Please try again.</String>
 <String id="SCLIB_STR_HDMI_ARC_SideCheck_Input1">I found the ARC port</String>
 <String id="SCLIB_STR_HDMI_ARC_SideCheck_Input2">I don‘t have ARC</String>
 <String id="SCLIB_STR_HDMI_ARC_PlugIn_Title_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Connect your %1$s to ARC</String>
-<String id="SCLIB_STR_HDMI_ARC_PlugIn_Body_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Use the provided HDMI cable to connect your %1$s to the ARC port.</String>
+<String id="SCLIB_STR_HDMI_ARC_PlugIn_Body_Fmt" gender="no-gender" comment="Substitution: Sonos Player">Use an HDMI cable to connect your %1$s to the ARC port.</String>
 <String id="SCLIB_STR_HDMI_ARC_PlugIn_Input">I‘m connected to ARC</String>
 <String id="SCLIB_STR_HDMI_Adapter_Education_Title">You need the optical adapter</String>
 <String id="SCLIB_STR_HDMI_Adapter_Education_Body">It‘s in the box. Make sure you remove the protective cap.</String>
